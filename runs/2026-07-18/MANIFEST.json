@@ -1,0 +1,20 @@
+{
+  "run": "2026-07-18",
+  "links": [
+    {
+      "stage": "topics",
+      "tool": "1-topics.mjs",
+      "at": "2026-07-17T23:52:02.934Z",
+      "reads": {},
+      "writes": {
+        "candidates.json": "ca892667b36ee0becf08a28c99498593f3cec380eb74391ac4f8dd1b99e7a335",
+        "gate.json": "c208cde0173202cc123f2dacb869a5b7088170cb7e4b91b53eea7bd6be3484b3",
+        "topics.json": "a3bedcbd0a0d9922ab0f2324bb6c57fcc3870767d136570f47c601376738028c"
+      },
+      "protocol_sha": "b2ff66de281c5bc0c7430ec1512c718372802c34e9ab7a73a5bc15e028ca74fc",
+      "count": 100,
+      "seed": "ca892667b36ee0becf08a28c99498593f3cec380eb74391ac4f8dd1b99e7a335"
+    }
+  ],
+  "protocol_sha": "b2ff66de281c5bc0c7430ec1512c718372802c34e9ab7a73a5bc15e028ca74fc"
+}

@@ -1,0 +1,1222 @@
+{
+  "candidates": {
+    "anthropic/claude-opus-4.8": [
+      {
+        "topic": "OpenAI",
+        "why_recent": "Continues to release new models and announce major funding and partnership deals that postdate most training cutoffs."
+      },
+      {
+        "topic": "Nvidia",
+        "why_recent": "Stock movements, quarterly earnings, and new GPU architecture announcements happen on a rolling recent basis."
+      },
+      {
+        "topic": "Anthropic",
+        "why_recent": "Frequently releases new Claude model versions and announces new funding rounds."
+      },
+      {
+        "topic": "SpaceX Starship",
+        "why_recent": "Ongoing test flights with new outcomes and regulatory milestones."
+      },
+      {
+        "topic": "Taylor Swift Eras Tour",
+        "why_recent": "Tour dates, concert film releases, and box office figures update continuously."
+      },
+      {
+        "topic": "UEFA Champions League",
+        "why_recent": "New match results and knockout rounds occur throughout each season."
+      },
+      {
+        "topic": "Bitcoin price",
+        "why_recent": "Price changes constantly and hits new highs or lows regularly."
+      },
+      {
+        "topic": "US Federal Reserve interest rate decisions",
+        "why_recent": "FOMC meetings produce new rate decisions on a scheduled basis."
+      },
+      {
+        "topic": "Pope Leo XIV",
+        "why_recent": "The papacy changed hands in 2025, a development after many training cutoffs."
+      },
+      {
+        "topic": "UK Prime Minister Keir Starmer",
+        "why_recent": "Government policy announcements and cabinet changes occur frequently."
+      },
+      {
+        "topic": "Argentina President Javier Milei",
+        "why_recent": "Ongoing economic reforms and political developments are continuously reported."
+      },
+      {
+        "topic": "Google Gemini",
+        "why_recent": "New model versions and feature rollouts are released frequently."
+      },
+      {
+        "topic": "Apple iPhone",
+        "why_recent": "New iPhone models with updated specs are announced annually each fall."
+      },
+      {
+        "topic": "Tesla",
+        "why_recent": "Quarterly deliveries, product launches, and stock swings update regularly."
+      },
+      {
+        "topic": "Ukraine war",
+        "why_recent": "Battlefield and diplomatic developments change daily."
+      },
+      {
+        "topic": "Israel-Hamas conflict",
+        "why_recent": "Ceasefire negotiations and military developments continue to evolve."
+      },
+      {
+        "topic": "2024 Summer Olympics Paris",
+        "why_recent": "Final medal counts and event outcomes were determined recently."
+      },
+      {
+        "topic": "NASA Artemis program",
+        "why_recent": "Mission timelines and crew assignments are frequently updated."
+      },
+      {
+        "topic": "James Webb Space Telescope",
+        "why_recent": "New discoveries and image releases occur on an ongoing basis."
+      },
+      {
+        "topic": "OpenAI GPT model releases",
+        "why_recent": "New flagship model versions ship with new capabilities periodically."
+      },
+      {
+        "topic": "TikTok US ban legislation",
+        "why_recent": "Legal and legislative status has shifted with new rulings and deadlines."
+      },
+      {
+        "topic": "Boeing 737 MAX",
+        "why_recent": "Safety incidents, FAA actions, and production news update frequently."
+      },
+      {
+        "topic": "European Central Bank",
+        "why_recent": "Regular monetary policy decisions produce recent, dated developments."
+      },
+      {
+        "topic": "Nintendo Switch 2",
+        "why_recent": "The successor console launched recently with new hardware details."
+      },
+      {
+        "topic": "Premier League",
+        "why_recent": "Standings and match results update every game week."
+      },
+      {
+        "topic": "Berkshire Hathaway",
+        "why_recent": "Leadership succession and quarterly holdings disclosures are recent events."
+      },
+      {
+        "topic": "Warren Buffett",
+        "why_recent": "Announced succession plans and continues to make market-moving statements."
+      },
+      {
+        "topic": "Elon Musk xAI Grok",
+        "why_recent": "New Grok model versions and controversies are released frequently."
+      },
+      {
+        "topic": "Sam Altman",
+        "why_recent": "Frequent public statements, funding news, and company developments."
+      },
+      {
+        "topic": "Meta Llama models",
+        "why_recent": "New open-weight model versions are released periodically."
+      },
+      {
+        "topic": "COP climate summit",
+        "why_recent": "Annual summits produce new agreements and outcomes."
+      },
+      {
+        "topic": "Indian general election",
+        "why_recent": "Election outcomes and government formation are recent verifiable events."
+      },
+      {
+        "topic": "Nobel Prize 2024",
+        "why_recent": "New laureates are announced each October."
+      },
+      {
+        "topic": "Academy Awards Oscars",
+        "why_recent": "Annual winners are announced and change each ceremony."
+      },
+      {
+        "topic": "Formula 1 championship",
+        "why_recent": "Race results and standings update each Grand Prix."
+      },
+      {
+        "topic": "NBA Finals",
+        "why_recent": "Championship outcomes are determined each season."
+      },
+      {
+        "topic": "Super Bowl",
+        "why_recent": "Winner and details change with each annual game."
+      },
+      {
+        "topic": "Gaza ceasefire negotiations",
+        "why_recent": "Diplomatic status changes frequently with new developments."
+      },
+      {
+        "topic": "German federal election",
+        "why_recent": "A recent election changed the governing coalition."
+      },
+      {
+        "topic": "Syria government transition",
+        "why_recent": "The Assad government fell in late 2024, a major recent development."
+      },
+      {
+        "topic": "OpenAI Sora",
+        "why_recent": "Video generation model received public releases and updates recently."
+      },
+      {
+        "topic": "Microsoft Copilot",
+        "why_recent": "New AI features are integrated and announced continuously."
+      },
+      {
+        "topic": "DeepSeek",
+        "why_recent": "The Chinese AI lab released disruptive models that made recent headlines."
+      },
+      {
+        "topic": "Mistral AI",
+        "why_recent": "New model releases and funding developments occur frequently."
+      },
+      {
+        "topic": "Ozempic and Wegovy",
+        "why_recent": "Supply, pricing, and new indication approvals update regularly."
+      },
+      {
+        "topic": "US Supreme Court rulings",
+        "why_recent": "New decisions are issued each term with dated outcomes."
+      },
+      {
+        "topic": "Donald Trump administration policies",
+        "why_recent": "Executive orders and policy actions are issued on a rolling basis."
+      },
+      {
+        "topic": "EU AI Act",
+        "why_recent": "Implementation phases and enforcement deadlines are ongoing."
+      },
+      {
+        "topic": "Reddit IPO",
+        "why_recent": "Went public recently and now reports quarterly earnings."
+      },
+      {
+        "topic": "Threads by Meta",
+        "why_recent": "User counts and new features are updated frequently."
+      },
+      {
+        "topic": "Wimbledon",
+        "why_recent": "Champions are crowned annually with recent results."
+      },
+      {
+        "topic": "Eurovision Song Contest",
+        "why_recent": "Winners and host countries change each year."
+      },
+      {
+        "topic": "Intel Corporation",
+        "why_recent": "Leadership changes, foundry news, and restructuring are recent events."
+      },
+      {
+        "topic": "Rivian",
+        "why_recent": "Delivery numbers and partnership deals update quarterly."
+      },
+      {
+        "topic": "Japan Prime Minister",
+        "why_recent": "Leadership has changed and policy news updates frequently."
+      },
+      {
+        "topic": "Venezuela election crisis",
+        "why_recent": "Disputed election results and political developments are recent."
+      },
+      {
+        "topic": "Notre-Dame Cathedral reopening",
+        "why_recent": "Reopened in late 2024 after restoration, a dated event."
+      },
+      {
+        "topic": "Perplexity AI",
+        "why_recent": "Funding rounds and product features are announced frequently."
+      },
+      {
+        "topic": "Stargate AI infrastructure project",
+        "why_recent": "A recently announced large-scale data center initiative with evolving details."
+      },
+      {
+        "topic": "GLP-1 drug shortage list FDA",
+        "why_recent": "The FDA updates shortage status designations on an ongoing basis."
+      }
+    ],
+    "deepseek/deepseek-v3.2": [
+      {
+        "topic": "Sam Altman",
+        "why_recent": "He was reinstated as CEO of OpenAI in November 2023 after a brief and tumultuous board ouster."
+      },
+      {
+        "topic": "Temu",
+        "why_recent": "The online marketplace has rapidly expanded globally and faced increased regulatory scrutiny regarding data practices and import laws in 2024."
+      },
+      {
+        "topic": "Hurricane Beryl",
+        "why_recent": "In July 2024, it became the earliest-forming Category 5 Atlantic hurricane on record, causing significant damage in the Caribbean."
+      },
+      {
+        "topic": "Apple Vision Pro",
+        "why_recent": "The spatial computing headset was released in the United States in February 2024, marking Apple's entry into the AR/VR market."
+      },
+      {
+        "topic": "ChatGPT-4o",
+        "why_recent": "OpenAI announced this new flagship model with multimodal capabilities in May 2024."
+      },
+      {
+        "topic": "King Charles III",
+        "why_recent": "He was diagnosed with and received treatment for a form of cancer, announced by Buckingham Palace in early 2024."
+      },
+      {
+        "topic": "Rivian",
+        "why_recent": "The electric vehicle maker unveiled its more affordable R2 and R3 vehicle platforms in March 2024."
+      },
+      {
+        "topic": "Neuralink",
+        "why_recent": "The company implanted its brain-computer interface in a human patient for the first time in January 2024."
+      },
+      {
+        "topic": "SVB Financial Group",
+        "why_recent": "Its subsidiary Silicon Valley Bank collapsed in March 2023, triggering a major regional banking crisis."
+      },
+      {
+        "topic": "COP28",
+        "why_recent": "The 2023 UN Climate Change Conference concluded with a first-ever global agreement to transition away from fossil fuels."
+      },
+      {
+        "topic": "Threads",
+        "why_recent": "Meta's Twitter competitor launched in July 2023 and has undergone rapid feature updates and user base changes."
+      },
+      {
+        "topic": "The Late Show with Stephen Colbert",
+        "why_recent": "Stephen Colbert underwent surgery for a ruptured appendix in 2023, leading to a hiatus and guest hosts."
+      },
+      {
+        "topic": "World Aquatics",
+        "why_recent": "The federation (formerly FINA) implemented new rules on transgender athlete participation in elite women's categories in 2023."
+      },
+      {
+        "topic": "FTX",
+        "why_recent": "Founder Sam Bankman-Fried was convicted on fraud and conspiracy charges in November 2023 and sentenced in 2024."
+      },
+      {
+        "topic": "Hawaii wildfires",
+        "why_recent": "Devastating wildfires in Lahaina, Maui, in August 2023 became the deadliest US wildfire in over a century."
+      },
+      {
+        "topic": "H5N1 bird flu",
+        "why_recent": "The virus has caused an ongoing multi-year global outbreak in poultry and wild birds, with sporadic mammalian and human cases reported in 2024."
+      },
+      {
+        "topic": "NASA's OSIRIS-REx",
+        "why_recent": "The mission successfully returned a sample from asteroid Bennu to Earth in September 2023."
+      },
+      {
+        "topic": "Twitter",
+        "why_recent": "Elon Musk's acquisition in 2022 led to ongoing major changes in content moderation, verification, and the platform's rebranding to 'X' in 2023."
+      },
+      {
+        "topic": "The Super Mario Bros. Movie",
+        "why_recent": "It premiered in April 2023 and became one of the highest-grossing animated films of all time."
+      },
+      {
+        "topic": "Shein",
+        "why_recent": "The fast-fashion retailer confidentially filed for a US IPO in 2023, facing regulatory hurdles and scrutiny over supply chain practices."
+      },
+      {
+        "topic": "COVID-19 Variant BA.2.86",
+        "why_recent": "This highly mutated Omicron subvariant, nicknamed 'Pirola', was detected and monitored for its transmissibility in late 2023."
+      },
+      {
+        "topic": "Writers Guild of America",
+        "why_recent": "The union went on a major strike from May to September 2023, halting Hollywood production over streaming residuals and AI concerns."
+      },
+      {
+        "topic": "India's Chandrayaan-3",
+        "why_recent": "The mission successfully landed a rover on the moon's south pole in August 2023, making India the fourth country to achieve a soft landing."
+      },
+      {
+        "topic": "Evergrande Group",
+        "why_recent": "The Chinese property giant was ordered to liquidate by a Hong Kong court in January 2024 after failing to restructure its massive debts."
+      },
+      {
+        "topic": "Spotify",
+        "why_recent": "The company announced significant layoffs and price increases for its premium plans in 2023 and 2024."
+      },
+      {
+        "topic": "2024 ICC Men's T20 World Cup",
+        "why_recent": "The tournament is scheduled for June 2024, with the USA and West Indies as co-hosts, marking its first expansion to 20 teams."
+      },
+      {
+        "topic": "United Auto Workers",
+        "why_recent": "The union initiated a historic simultaneous strike against the Big Three automakers (GM, Ford, Stellantis) in September 2023, winning new contracts."
+      },
+      {
+        "topic": "Dune: Part Two",
+        "why_recent": "The film was released in March 2024 after being delayed from 2023 due to the Hollywood strikes."
+      },
+      {
+        "topic": "Reddit",
+        "why_recent": "The company filed for an IPO in early 2024 and implemented controversial API pricing changes in 2023 that led to widespread protests."
+      },
+      {
+        "topic": "Worldcoin",
+        "why_recent": "Sam Altman's cryptocurrency project launched in 2023, using iris-scanning orbs for verification, drawing privacy concerns and regulatory scrutiny."
+      },
+      {
+        "topic": "SAG-AFTRA",
+        "why_recent": "The actors' union went on strike from July to November 2023, alongside writers, over issues including AI and streaming revenue."
+      },
+      {
+        "topic": "Gaza-Israel conflict",
+        "why_recent": "A major escalation began in October 2023 following a Hamas attack, leading to a large-scale Israeli military operation in Gaza with significant casualties."
+      },
+      {
+        "topic": "Microsoft Activision Blizzard acquisition",
+        "why_recent": "The $69 billion deal, one of the largest in tech history, closed in October 2023 after overcoming global regulatory challenges."
+      },
+      {
+        "topic": "Barbie",
+        "why_recent": "Greta Gerwig's film was released in July 2023 and became the highest-grossing film of the year, sparking a major cultural moment."
+      },
+      {
+        "topic": "RSV vaccines",
+        "why_recent": "The first vaccines for respiratory syncytial virus (RSV) for older adults, Abrysvo and Arexvy, were approved and launched in 2023."
+      },
+      {
+        "topic": "TikTok Shop",
+        "why_recent": "The social commerce feature expanded aggressively in the US and other markets in 2023, challenging established e-commerce platforms."
+      },
+      {
+        "topic": "Lil Tay",
+        "why_recent": "The former child rapper's death was falsely reported in August 2023, which she later clarified was a result of a hacked social media account."
+      },
+      {
+        "topic": "USCIS",
+        "why_recent": "The agency implemented new fee rules and application processes for various visas and immigration benefits in 2024."
+      },
+      {
+        "topic": "Baldur's Gate 3",
+        "why_recent": "The role-playing video game was released to critical and commercial acclaim in August 2023, winning numerous Game of the Year awards."
+      },
+      {
+        "topic": "Perplexity AI",
+        "why_recent": "This AI-powered search engine gained significant traction and funding in 2024, positioning itself as a competitor to Google Search."
+      },
+      {
+        "topic": "Euro 2024",
+        "why_recent": "The UEFA European Football Championship is scheduled to be held in Germany from June to July 2024."
+      },
+      {
+        "topic": "iRobot",
+        "why_recent": "Amazon's planned acquisition of the Roomba maker was called off in January 2024 due to regulatory opposition from the EU."
+      },
+      {
+        "topic": "The Sphere",
+        "why_recent": "The massive spherical entertainment venue in Las Vegas opened in September 2023 with a residency by U2."
+      },
+      {
+        "topic": "Oppenheimer",
+        "why_recent": "Christopher Nolan's film was released in July 2023 and swept the 2024 Academy Awards, including Best Picture."
+      },
+      {
+        "topic": "CRISPR gene editing",
+        "why_recent": "The first CRISPR-based gene therapy for sickle cell disease, Casgevy, was approved in the UK and US in late 2023."
+      },
+      {
+        "topic": "Notre-Dame de Paris",
+        "why_recent": "The cathedral's spire was rebuilt and the restoration project neared completion in late 2023, ahead of its planned reopening in December 2024."
+      },
+      {
+        "topic": "Klarna",
+        "why_recent": "The buy-now-pay-later company reported its first quarterly profit in four years in early 2024, ahead of a potential IPO."
+      },
+      {
+        "topic": "Nairobi",
+        "why_recent": "The city has been affected by widespread deadly flooding in April-May 2024 following intense seasonal rains."
+      },
+      {
+        "topic": "Clubhouse",
+        "why_recent": "The social audio app laid off most of its staff and pivoted its strategy in 2023 after a significant decline in usage."
+      },
+      {
+        "topic": "The WGA",
+        "why_recent": "As mentioned, the strike ended in September 2023 with a new contract setting precedents on AI and streaming data."
+      },
+      {
+        "topic": "Minecraft",
+        "why_recent": "Developer Mojang announced a major update, 'Tricky Trials', set for release in mid-2024."
+      },
+      {
+        "topic": "Substack",
+        "why_recent": "The newsletter platform faced controversy in late 2023 over its moderation of Nazi content, leading some writers to leave."
+      },
+      {
+        "topic": "Port of Baltimore",
+        "why_recent": "The Francis Scott Key Bridge collapsed in March 2024 after being struck by a cargo ship, disrupting a major shipping lane."
+      },
+      {
+        "topic": "LVMH",
+        "why_recent": "Bernard Arnault, its chairman, surpassed Elon Musk as the world's richest person in late 2023 and early 2024."
+      },
+      {
+        "topic": "True Detective",
+        "why_recent": "The anthology series' fourth season, 'Night Country', aired in early 2024 to strong viewership and critical debate."
+      },
+      {
+        "topic": "Binance",
+        "why_recent": "The cryptocurrency exchange and its founder Changpeng Zhao pleaded guilty to US charges and agreed to a $4.3 billion settlement in November 2023."
+      },
+      {
+        "topic": "2024 Paris Olympics",
+        "why_recent": "Preparations are ongoing for the Summer Games, including the implementation of a controversial plan to use the Seine River for opening ceremonies and some events."
+      },
+      {
+        "topic": "Roe v. Wade",
+        "why_recent": "The 1973 ruling was overturned by the Supreme Court in June 2022, leading to ongoing state-level legal battles and policy changes in 2023-2024."
+      },
+      {
+        "topic": "FAA",
+        "why_recent": "The agency increased its oversight of Boeing production following the mid-air door plug blowout on an Alaska Airlines 737 MAX 9 in January 2024."
+      },
+      {
+        "topic": "The Eras Tour",
+        "why_recent": "Taylor Swift's ongoing concert tour broke numerous records in 2023-2024, with a concert film released in October 2023."
+      }
+    ],
+    "google/gemini-3.1-pro-preview": [
+      {
+        "topic": "Sora OpenAI",
+        "why_recent": "OpenAI recently announced this highly advanced, yet-to-be-released text-to-video generative AI model."
+      },
+      {
+        "topic": "Claude 3.5 Sonnet",
+        "why_recent": "Anthropic recently launched this new flagship AI model which topped several major performance benchmarks."
+      },
+      {
+        "topic": "Intuitive Machines Odysseus",
+        "why_recent": "This spacecraft became the first commercially built lander to successfully touch down on the moon."
+      },
+      {
+        "topic": "Boeing Starliner",
+        "why_recent": "The spacecraft recently completed its first crewed launch but faced significant helium leaks and thruster issues docking with the ISS."
+      },
+      {
+        "topic": "Helldivers 2",
+        "why_recent": "This breakaway hit multiplayer game recently faced a massive player revolt over a proposed mandatory PlayStation Network account linking policy."
+      },
+      {
+        "topic": "XZ Utils",
+        "why_recent": "A highly critical, multi-year supply chain backdoor was recently discovered in this widely used Linux data compression library."
+      },
+      {
+        "topic": "Caitlin Clark",
+        "why_recent": "She broke NCAA scoring records, transitioned to the WNBA, and is single-handedly driving historic television viewership for women's basketball."
+      },
+      {
+        "topic": "Javier Milei",
+        "why_recent": "The recently inaugurated President of Argentina has been implementing sweeping, controversial economic reforms facing massive public protests."
+      },
+      {
+        "topic": "Baltimore Francis Scott Key Bridge",
+        "why_recent": "The bridge completely collapsed after its support strut was struck by the Dali cargo ship, severing a major transportation artery."
+      },
+      {
+        "topic": "The Tortured Poets Department",
+        "why_recent": "Taylor Swift released this surprise double album which immediately broke Spotify streaming records."
+      },
+      {
+        "topic": "Rabbit R1",
+        "why_recent": "This newly released, standalone AI hardware companion received highly critical reviews citing extremely buggy and incomplete software."
+      },
+      {
+        "topic": "Shohei Ohtani",
+        "why_recent": "The baseball superstar was recently embroiled in a massive federal investigation involving his former interpreter stealing millions to pay off gambling debts."
+      },
+      {
+        "topic": "Grindavík",
+        "why_recent": "This Icelandic town has been repeatedly evacuated over the last few months due to recurring volcanic fissures opening up inside the city limits."
+      },
+      {
+        "topic": "Claudia Sheinbaum",
+        "why_recent": "She was recently elected in a landslide victory to become the first female president of Mexico."
+      },
+      {
+        "topic": "Noland Arbaugh",
+        "why_recent": "He became the very first human patient to receive a Neuralink brain-computer interface implant and successfully control a cursor with his mind."
+      },
+      {
+        "topic": "Paramount Global",
+        "why_recent": "The legacy entertainment conglomerate has been progressing through dramatic, on-again-off-again merger and acquisition negotiations with Skydance Media."
+      },
+      {
+        "topic": "Port-au-Prince",
+        "why_recent": "The capital of Haiti was recently overrun by violent gang coalitions, leading to the collapse of the government and the resignation of the Prime Minister."
+      },
+      {
+        "topic": "Fallout TV series",
+        "why_recent": "Amazon Prime recently premiered this highly acclaimed adaptation, which caused player counts in older Fallout video games to spike massively."
+      },
+      {
+        "topic": "Voyager 1",
+        "why_recent": "NASA engineers recently managed to restore usable data transmissions from the probe after months of it sending completely indecipherable code."
+      },
+      {
+        "topic": "Hades II",
+        "why_recent": "The highly anticipated roguelike sequel recently surprise-launched into Early Access to widespread critical acclaim."
+      },
+      {
+        "topic": "Ilya Sutskever",
+        "why_recent": "The prominent AI researcher officially left OpenAI and announced the formation of a new startup named Safe Superintelligence Inc."
+      },
+      {
+        "topic": "Bassirou Diomaye Faye",
+        "why_recent": "He was recently released from prison and, days later, elected as the new President of Senegal."
+      },
+      {
+        "topic": "Palworld",
+        "why_recent": "This breakaway hit survival game faced enormous initial player surges followed by deep drop-offs and public scrutiny over its similarities to Pokémon."
+      },
+      {
+        "topic": "Delta Emulator iOS",
+        "why_recent": "Apple recently changed its App Store guidelines globally, allowing this famous Nintendo emulator to officially launch on iPhones."
+      },
+      {
+        "topic": "Skydance Media",
+        "why_recent": "The production company recently engaged in deeply complex and public negotiations to acquire National Amusements and Paramount."
+      },
+      {
+        "topic": "Kendrick Lamar",
+        "why_recent": "He recently released multiple back-to-back, chart-topping diss tracks aimed at Drake during a highly publicized hip-hop feud."
+      },
+      {
+        "topic": "Boeing 737 MAX 9",
+        "why_recent": "The aircraft model was subjected to intense global groundings and ongoing FAA investigations following an explosive mid-air door plug blowout on an Alaska Airlines flight."
+      },
+      {
+        "topic": "Rafah",
+        "why_recent": "The southern Gaza city recently became the focal point of an intense military offensive, causing the massive displacement of civilians."
+      },
+      {
+        "topic": "Furiosa: A Mad Max Saga",
+        "why_recent": "The highly anticipated prequel released in theaters to strong reviews but deeply disappointing box office returns."
+      },
+      {
+        "topic": "Scottie Scheffler",
+        "why_recent": "The world's top-ranked golfer was sensationally arrested, and later legally cleared, following a traffic misunderstanding outside the PGA Championship."
+      },
+      {
+        "topic": "Roaring Kitty",
+        "why_recent": "The retail trading icon Keith Gill returned to social media after a three-year hiatus, sparking massive volatility in GameStop's stock price."
+      },
+      {
+        "topic": "Chang'e 6",
+        "why_recent": "This Chinese lunar exploration mission recently succeeded in retrieving the first-ever soil and rock samples from the far side of the moon."
+      },
+      {
+        "topic": "Humane AI Pin",
+        "why_recent": "The heavily funded wearable AI device finally shipped to consumers and was met with overwhelmingly negative tech reviews."
+      },
+      {
+        "topic": "Shōgun FX series",
+        "why_recent": "This critically acclaimed historical drama recently finished airing its first season and shocked fans with a two-season renewal announcement."
+      },
+      {
+        "topic": "New Caledonia",
+        "why_recent": "The French territory recently experienced deadly riots and a state of emergency over proposed constitutional voting reforms."
+      },
+      {
+        "topic": "xAI",
+        "why_recent": "Elon Musk's artificial intelligence startup recently raised $6 billion in a Series B funding round to aggressively compete with OpenAI."
+      },
+      {
+        "topic": "Nemo Mettler",
+        "why_recent": "The Swiss artist recently won the 2024 Eurovision Song Contest with the operatic pop song 'The Code'."
+      },
+      {
+        "topic": "JADES-GS-z14-0",
+        "why_recent": "The James Webb Space Telescope recently confirmed this entity as the most distant and earliest known galaxy observed in the universe."
+      },
+      {
+        "topic": "Llama 3",
+        "why_recent": "Meta recently launched this powerful family of open-weight large language models, significantly shifting the open-source AI landscape."
+      },
+      {
+        "topic": "Red Lobster",
+        "why_recent": "The iconic American seafood restaurant chain recently closed dozens of locations and officially filed for Chapter 11 bankruptcy."
+      },
+      {
+        "topic": "OpenAI Board of Directors",
+        "why_recent": "The board has undergone a highly publicized shakeup, adding the former head of the NSA, Paul Nakasone, to its ranks."
+      },
+      {
+        "topic": "Devin AI software engineer",
+        "why_recent": "Cognition Labs recently unveiled this autonomous AI agent claiming to be able to independently plan, code, and deploy entire software projects."
+      },
+      {
+        "topic": "Truth Social DJT stock",
+        "why_recent": "The social media platform recently went public via SPAC, experiencing extreme valuation volatility driven by political sentiment rather than revenue."
+      },
+      {
+        "topic": "2024 cicada double emergence",
+        "why_recent": "The United States recently experienced a rare, simultaneous emergence of Brood XIII and Brood XIX cicadas, an event that last occurred in 1803."
+      },
+      {
+        "topic": "H5N1 Bird Flu in cattle",
+        "why_recent": "The virus was recently detected spreading rapidly among dairy cattle in the US, with a few confirmed transmission cases to farm workers."
+      },
+      {
+        "topic": "Ticketmaster DOJ lawsuit",
+        "why_recent": "The United States Department of Justice recently filed a sweeping antitrust lawsuit seeking the breakup of Live Nation Entertainment and Ticketmaster."
+      },
+      {
+        "topic": "Dune: Part Two",
+        "why_recent": "The epic science fiction sequel recently exhausted its theatrical run, solidifying itself as one of the highest-grossing films of the year."
+      },
+      {
+        "topic": "Figma",
+        "why_recent": "Following the collapse of its multi-billion dollar acquisition by Adobe, the company recently rolled out a major platform redesign heavily featuring generative AI."
+      },
+      {
+        "topic": "Perplexity AI",
+        "why_recent": "The AI-driven search engine has recently faced heavy criticism and accusations of plagiarizing content and bypassing paywalls from major news publishers."
+      },
+      {
+        "topic": "Suno AI",
+        "why_recent": "The generative AI music platform is currently facing a massive copyright infringement lawsuit from the major recording industry labels."
+      },
+      {
+        "topic": "Starship Flight 4",
+        "why_recent": "SpaceX recently executed a highly successful test flight of this massive rocket, achieving soft water splashdowns for both the booster and the upper stage."
+      },
+      {
+        "topic": "Telegram Stars",
+        "why_recent": "The messaging app recently launched this new in-app currency to allow users to purchase digital goods while complying with Apple and Google app store rules."
+      },
+      {
+        "topic": "Fisker Inc.",
+        "why_recent": "The troubled electric vehicle startup recently filed for Chapter 11 bankruptcy after failing to secure a partnership with a major automaker."
+      },
+      {
+        "topic": "Apple Intelligence",
+        "why_recent": "Apple recently unveiled this deep integration of on-device and cloud-based AI features slated for the upcoming iOS 18 and macOS Sequoia releases."
+      },
+      {
+        "topic": "Julian Assange",
+        "why_recent": "The WikiLeaks founder recently reached a sudden plea agreement with the US government, resulting in his release from Belmarsh prison and return to Australia."
+      },
+      {
+        "topic": "Tesla Cybertruck",
+        "why_recent": "The futuristic vehicle was recently subject to a total recall of all delivered units due to a dangerous flaw preventing the accelerator pedal from disengaging."
+      },
+      {
+        "topic": "UEFA Euro 2024",
+        "why_recent": "The prestigious European international football tournament is currently taking place in Germany, featuring daily high-stakes match results."
+      },
+      {
+        "topic": "T20 Cricket World Cup 2024",
+        "why_recent": "This major international cricket tournament was recently co-hosted in the United States for the very first time, featuring major upsets including the USA team advancing."
+      },
+      {
+        "topic": "Shadow of the Erdtree",
+        "why_recent": "The highly anticipated massive DLC expansion for Elden Ring was recently released, sparking intense online discourse regarding its extreme difficulty."
+      },
+      {
+        "topic": "Wimbledon 2024",
+        "why_recent": "The famous grass-court Grand Slam tennis tournament is running with daily updates on player advances, upsets, and injury-related withdrawals."
+      }
+    ],
+    "openai/gpt-5.4": [
+      {
+        "topic": "OpenAI",
+        "why_recent": "OpenAI has had recent, verifiable developments in product releases, model updates, partnerships, and governance changes that require current search."
+      },
+      {
+        "topic": "Google Gemini",
+        "why_recent": "Google’s Gemini lineup has seen recent model launches, feature rollouts, and pricing or availability changes that are time-sensitive."
+      },
+      {
+        "topic": "Anthropic",
+        "why_recent": "Anthropic has had recent funding, model releases, enterprise partnerships, and policy announcements that are easy to verify via fresh sources."
+      },
+      {
+        "topic": "xAI",
+        "why_recent": "xAI has seen recent model updates, product integrations, and company announcements that postdate many training cutoffs."
+      },
+      {
+        "topic": "Meta AI",
+        "why_recent": "Meta AI has had recent model releases, app integrations, and open-weight announcements that make it a good current-events search target."
+      },
+      {
+        "topic": "Mistral AI",
+        "why_recent": "Mistral AI has had recent model launches, commercial deals, and platform changes that are verifiable in current reporting."
+      },
+      {
+        "topic": "NVIDIA",
+        "why_recent": "NVIDIA regularly announces new chips, earnings results, partnerships, and regulatory developments that change on a quarterly basis."
+      },
+      {
+        "topic": "Microsoft Copilot",
+        "why_recent": "Microsoft Copilot has had recent feature additions, branding changes, and enterprise rollout updates that require up-to-date information."
+      },
+      {
+        "topic": "Apple Vision Pro",
+        "why_recent": "Apple Vision Pro has had recent market expansion, software updates, and sales-related developments that are timestamped and searchable."
+      },
+      {
+        "topic": "Tesla",
+        "why_recent": "Tesla has had recent vehicle, earnings, regulatory, and leadership news that changes frequently and can be checked against current sources."
+      },
+      {
+        "topic": "SpaceX",
+        "why_recent": "SpaceX has had recent launches, Starship test milestones, regulatory decisions, and contract news that are highly time-dependent."
+      },
+      {
+        "topic": "Boeing",
+        "why_recent": "Boeing has seen recent safety investigations, executive changes, delivery updates, and legal or regulatory actions that are current and verifiable."
+      },
+      {
+        "topic": "TikTok",
+        "why_recent": "TikTok has faced recent legal, regulatory, platform, and ownership-related developments that vary by date and jurisdiction."
+      },
+      {
+        "topic": "Reddit",
+        "why_recent": "Reddit has had recent earnings, policy updates, moderation changes, and licensing or AI-related deals that make it testable with search."
+      },
+      {
+        "topic": "Wikipedia",
+        "why_recent": "Wikipedia has seen recent policy debates, fundraising news, and AI/search ecosystem developments that can be verified in current coverage."
+      },
+      {
+        "topic": "The New York Times",
+        "why_recent": "The New York Times has had recent legal, business, and newsroom developments that are clearly documented and time-stamped."
+      },
+      {
+        "topic": "NCAA",
+        "why_recent": "The NCAA has seen recent court rulings, athlete compensation changes, and policy updates that require current search results."
+      },
+      {
+        "topic": "UEFA Champions League",
+        "why_recent": "The UEFA Champions League has ongoing recent match results, format changes, and disciplinary or hosting news that are inherently current."
+      },
+      {
+        "topic": "International Olympic Committee",
+        "why_recent": "The IOC has had recent host-city, eligibility, and governance announcements that are easy to verify through up-to-date reporting."
+      },
+      {
+        "topic": "World Health Organization",
+        "why_recent": "WHO issues recent public-health advisories, leadership statements, and emergency-related updates that change over time."
+      },
+      {
+        "topic": "NATO",
+        "why_recent": "NATO has had recent membership, summit, defense-planning, and geopolitical developments that require fresh sources."
+      },
+      {
+        "topic": "European Union AI Act",
+        "why_recent": "The EU AI Act has had recent implementation milestones, guidance, and company responses that are date-specific."
+      },
+      {
+        "topic": "U.S. Supreme Court",
+        "why_recent": "The U.S. Supreme Court produces recent rulings, orders, and ethics-related developments that are highly time-sensitive."
+      },
+      {
+        "topic": "Federal Reserve",
+        "why_recent": "The Federal Reserve has recent rate decisions, speeches, forecasts, and regulatory actions that must be checked against current information."
+      },
+      {
+        "topic": "Bank of Japan",
+        "why_recent": "The Bank of Japan has had recent monetary policy shifts, yield-curve decisions, and market-moving announcements that are date-bound."
+      },
+      {
+        "topic": "Sam Altman",
+        "why_recent": "Sam Altman has had recent public statements, product announcements, investments, and organizational developments that are readily searchable."
+      },
+      {
+        "topic": "Elon Musk",
+        "why_recent": "Elon Musk is tied to frequent, verifiable developments across multiple companies, legal matters, and policy disputes that require current search."
+      },
+      {
+        "topic": "Jensen Huang",
+        "why_recent": "Jensen Huang has had recent keynote announcements, strategic partnerships, and earnings-related remarks that are time-sensitive."
+      },
+      {
+        "topic": "Sundar Pichai",
+        "why_recent": "Sundar Pichai has made recent announcements on AI products, regulation, and company strategy that are captured in current sources."
+      },
+      {
+        "topic": "Mark Zuckerberg",
+        "why_recent": "Mark Zuckerberg has had recent statements and decisions on AI, social platforms, hardware, and corporate strategy that postdate older training."
+      },
+      {
+        "topic": "Ursula von der Leyen",
+        "why_recent": "Ursula von der Leyen has had recent EU policy, election, and commission-related developments that are date-specific and verifiable."
+      },
+      {
+        "topic": "Jerome Powell",
+        "why_recent": "Jerome Powell’s recent speeches, testimony, and rate-related comments are a classic example of information an LLM should fetch via search."
+      },
+      {
+        "topic": "Volodymyr Zelenskyy",
+        "why_recent": "Volodymyr Zelenskyy is associated with ongoing diplomatic, military, and domestic political developments that change rapidly."
+      },
+      {
+        "topic": "Benjamin Netanyahu",
+        "why_recent": "Benjamin Netanyahu has had recent war-related, legal, and coalition developments that require current reporting."
+      },
+      {
+        "topic": "Claudia Sheinbaum",
+        "why_recent": "Claudia Sheinbaum has had recent election, cabinet, and policy developments that are highly time-stamped."
+      },
+      {
+        "topic": "Keir Starmer",
+        "why_recent": "Keir Starmer has had recent government, cabinet, and legislative developments that are easy to verify with fresh search results."
+      },
+      {
+        "topic": "Nayib Bukele",
+        "why_recent": "Nayib Bukele has had recent security, economic, and international-policy developments that depend on current events."
+      },
+      {
+        "topic": "Taylor Swift",
+        "why_recent": "Taylor Swift has had recent tour, release, rights, and chart developments that are continuously updated in public sources."
+      },
+      {
+        "topic": "BTS",
+        "why_recent": "BTS has had recent military-service, reunion, release, and chart-related developments that are date-sensitive."
+      },
+      {
+        "topic": "Adele",
+        "why_recent": "Adele has had recent residency, performance, and release-related developments that can be checked against current reporting."
+      },
+      {
+        "topic": "Beyoncé",
+        "why_recent": "Beyoncé has had recent tour, film, business, and music-release developments that are current and verifiable."
+      },
+      {
+        "topic": "Grand Theft Auto VI",
+        "why_recent": "Grand Theft Auto VI has had recent trailer, release-window, and publisher-updated developments that require up-to-date search."
+      },
+      {
+        "topic": "Nintendo Switch 2",
+        "why_recent": "Nintendo Switch 2 has had recent official announcements, launch details, pricing, and software news that are inherently time-sensitive."
+      },
+      {
+        "topic": "Helldivers 2",
+        "why_recent": "Helldivers 2 has had recent balance patches, platform news, and player-count or studio announcements that change frequently."
+      },
+      {
+        "topic": "Baldur's Gate 3",
+        "why_recent": "Baldur’s Gate 3 continues to receive recent patch, platform, and award-related developments that are easy to verify in current coverage."
+      },
+      {
+        "topic": "Dune: Part Two",
+        "why_recent": "Dune: Part Two has had recent box-office, streaming, award, and sequel-related developments that are time-stamped."
+      },
+      {
+        "topic": "The Bear",
+        "why_recent": "The Bear has had recent season-release, cast, and awards developments that make it a good test case for search freshness."
+      },
+      {
+        "topic": "Oppenheimer",
+        "why_recent": "Oppenheimer has had recent awards, streaming, and distribution developments that are verifiable and date-specific."
+      },
+      {
+        "topic": "H5N1 bird flu",
+        "why_recent": "H5N1 has had recent outbreaks, public-health guidance, and cross-species transmission developments that require current sources."
+      },
+      {
+        "topic": "Mpox",
+        "why_recent": "Mpox has had recent case trends, emergency declarations, and vaccine-related developments that change with time."
+      },
+      {
+        "topic": "Panama Canal",
+        "why_recent": "The Panama Canal has had recent drought, traffic, pricing, and operational developments that are highly date-dependent."
+      },
+      {
+        "topic": "Suez Canal",
+        "why_recent": "The Suez Canal has had recent shipping disruptions, security concerns, and traffic changes that require fresh reporting."
+      },
+      {
+        "topic": "Mount Etna",
+        "why_recent": "Mount Etna has had recent eruptive activity and aviation-impact updates that are naturally current and verifiable."
+      },
+      {
+        "topic": "Port of Baltimore",
+        "why_recent": "The Port of Baltimore has had recent operational, infrastructure, and shipping developments tied to major incidents and recovery timelines."
+      },
+      {
+        "topic": "Taiwan Semiconductor Manufacturing Company",
+        "why_recent": "TSMC has had recent fab announcements, earnings, geopolitical developments, and customer news that are current and searchable."
+      },
+      {
+        "topic": "Intel Foundry",
+        "why_recent": "Intel Foundry has had recent customer deals, subsidy announcements, roadmap updates, and manufacturing milestones that are time-sensitive."
+      },
+      {
+        "topic": "Novo Nordisk",
+        "why_recent": "Novo Nordisk has had recent drug-demand, trial, regulatory, and manufacturing developments that require current information."
+      },
+      {
+        "topic": "Boeing Starliner",
+        "why_recent": "Boeing Starliner has had recent test-flight, safety, scheduling, and NASA-related developments that are clearly time-stamped."
+      },
+      {
+        "topic": "Blue Origin",
+        "why_recent": "Blue Origin has had recent launch, engine, lunar, and leadership developments that are easy to verify with web search."
+      },
+      {
+        "topic": "United Nations Relief and Works Agency for Palestine Refugees in the Near East",
+        "why_recent": "UNRWA has had recent funding, investigation, and humanitarian-operations developments that are actively changing and well documented."
+      }
+    ],
+    "x-ai/grok-4.5": [
+      {
+        "topic": "Kamala Harris",
+        "why_recent": "Became the Democratic presidential nominee after Joe Biden withdrew in July 2024 and selected Tim Walz as her running mate."
+      },
+      {
+        "topic": "Donald Trump",
+        "why_recent": "Survived an assassination attempt in Pennsylvania in July 2024 and accepted the Republican nomination with JD Vance."
+      },
+      {
+        "topic": "Joe Biden",
+        "why_recent": "Withdrew from the 2024 presidential race on July 21, 2024, and endorsed Kamala Harris."
+      },
+      {
+        "topic": "JD Vance",
+        "why_recent": "Named as Donald Trump's vice-presidential running mate in July 2024 at the Republican National Convention."
+      },
+      {
+        "topic": "Tim Walz",
+        "why_recent": "Selected as Kamala Harris's running mate in August 2024, thrusting him into national spotlight."
+      },
+      {
+        "topic": "Keir Starmer",
+        "why_recent": "Became Prime Minister of the United Kingdom after Labour's landslide victory in the July 2024 general election."
+      },
+      {
+        "topic": "Emmanuel Macron",
+        "why_recent": "Called snap legislative elections in June 2024 that produced a hung parliament and forced a new government formation."
+      },
+      {
+        "topic": "Claudia Sheinbaum",
+        "why_recent": "Elected as Mexico's first female president in June 2024, succeeding Andrés Manuel López Obrador."
+      },
+      {
+        "topic": "Narendra Modi",
+        "why_recent": "Secured a third consecutive term as Indian Prime Minister in June 2024 elections but with a reduced majority requiring coalition partners."
+      },
+      {
+        "topic": "Volodymyr Zelenskyy",
+        "why_recent": "Oversaw Ukraine's first F-16 jet deliveries and hosted the June 2024 peace summit in Switzerland."
+      },
+      {
+        "topic": "Taylor Swift",
+        "why_recent": "Released the double album The Tortured Poets Department in April 2024 and continued the record-breaking Eras Tour into late 2024."
+      },
+      {
+        "topic": "Beyoncé",
+        "why_recent": "Released the country-influenced album Cowboy Carter in March 2024, which debuted at number one globally."
+      },
+      {
+        "topic": "Caitlin Clark",
+        "why_recent": "Entered the WNBA as the No. 1 draft pick for the Indiana Fever in April 2024 and shattered multiple rookie records."
+      },
+      {
+        "topic": "Simone Biles",
+        "why_recent": "Won three gold medals and one silver at the Paris 2024 Olympics, cementing her status as the most decorated gymnast."
+      },
+      {
+        "topic": "Léon Marchand",
+        "why_recent": "Won four individual gold medals for France at the Paris 2024 swimming events, becoming a national hero."
+      },
+      {
+        "topic": "Shohei Ohtani",
+        "why_recent": "Achieved the first 50-home-run, 50-stolen-base season in MLB history in 2024 while playing for the Dodgers."
+      },
+      {
+        "topic": "Novak Djokovic",
+        "why_recent": "Captured the Olympic gold medal in men's singles tennis at the Paris 2024 Games."
+      },
+      {
+        "topic": "Elon Musk",
+        "why_recent": "Unveiled Tesla's Cybercab robotaxi and Robovan at the 'We, Robot' event in October 2024 and advanced Starship flights."
+      },
+      {
+        "topic": "Sam Altman",
+        "why_recent": "Oversaw OpenAI's release of the o1 reasoning models in September 2024 and the SearchGPT prototype."
+      },
+      {
+        "topic": "Jensen Huang",
+        "why_recent": "Announced the Blackwell GPU architecture at NVIDIA GTC in March 2024 amid surging AI chip demand."
+      },
+      {
+        "topic": "Tim Cook",
+        "why_recent": "Introduced Apple Intelligence features at WWDC 2024 and launched the iPhone 16 series in September."
+      },
+      {
+        "topic": "Mark Zuckerberg",
+        "why_recent": "Revealed Meta's Orion AR glasses prototype at Connect 2024 and released Llama 3.1 open-source models."
+      },
+      {
+        "topic": "Satya Nadella",
+        "why_recent": "Launched Copilot+ PCs with neural processing units in June 2024 and integrated advanced AI across Microsoft products."
+      },
+      {
+        "topic": "OpenAI",
+        "why_recent": "Released the o1 model family emphasizing chain-of-thought reasoning in September 2024 and expanded ChatGPT search capabilities."
+      },
+      {
+        "topic": "Anthropic",
+        "why_recent": "Launched Claude 3.5 Sonnet in June 2024 and introduced computer-use agent capabilities later in the year."
+      },
+      {
+        "topic": "xAI",
+        "why_recent": "Released Grok-2 in August 2024 with improved image generation and real-time knowledge."
+      },
+      {
+        "topic": "SpaceX",
+        "why_recent": "Completed multiple Starship integrated flight tests in 2024, including successful booster catch attempts."
+      },
+      {
+        "topic": "Boeing",
+        "why_recent": "Faced prolonged issues with the Starliner crew return from the ISS and ongoing fallout from the January door-plug incident throughout 2024."
+      },
+      {
+        "topic": "Apple",
+        "why_recent": "Released the iPhone 16 lineup with Apple Intelligence features in September 2024 and expanded Vision Pro software."
+      },
+      {
+        "topic": "Tesla",
+        "why_recent": "Unveiled the Cybercab autonomous vehicle and Robovan at its October 2024 event while ramping Cybertruck production."
+      },
+      {
+        "topic": "Google",
+        "why_recent": "Launched the Pixel 9 series in August 2024 with advanced Gemini AI features and updated search generative experiences."
+      },
+      {
+        "topic": "Meta",
+        "why_recent": "Released Llama 3.1 405B open-source model in July 2024 and demonstrated Orion AR prototypes."
+      },
+      {
+        "topic": "Nvidia",
+        "why_recent": "Began production ramp of Blackwell GPUs in 2024 while navigating U.S. export restrictions on AI chips to China."
+      },
+      {
+        "topic": "Deadpool & Wolverine",
+        "why_recent": "Released in July 2024 and became the highest-grossing R-rated film of all time."
+      },
+      {
+        "topic": "Inside Out 2",
+        "why_recent": "Released in June 2024 and became the highest-grossing animated film ever at over $1.6 billion worldwide."
+      },
+      {
+        "topic": "Dune: Part Two",
+        "why_recent": "Released in March 2024 to critical acclaim and strong box-office performance."
+      },
+      {
+        "topic": "Wicked",
+        "why_recent": "Part One of the musical film adaptation opened in November 2024 to massive commercial success."
+      },
+      {
+        "topic": "Gladiator II",
+        "why_recent": "Released in November 2024 as the long-awaited sequel directed by Ridley Scott."
+      },
+      {
+        "topic": "Alien: Romulus",
+        "why_recent": "Released in August 2024 and revived the Alien franchise with strong reviews and box office."
+      },
+      {
+        "topic": "Longlegs",
+        "why_recent": "Became a surprise horror hit upon its July 2024 release starring Nicolas Cage and Maika Monroe."
+      },
+      {
+        "topic": "The Tortured Poets Department",
+        "why_recent": "Taylor Swift's eleventh studio album (and double album) dropped in April 2024 and broke multiple streaming records."
+      },
+      {
+        "topic": "Cowboy Carter",
+        "why_recent": "Beyoncé's eighth studio album, exploring country and Americana, was released in March 2024."
+      },
+      {
+        "topic": "House of the Dragon Season 2",
+        "why_recent": "Premiered on Max in June 2024, continuing the Game of Thrones prequel storyline."
+      },
+      {
+        "topic": "The Boys Season 4",
+        "why_recent": "Aired its final episodes in July 2024 on Amazon Prime Video amid escalating superhero satire."
+      },
+      {
+        "topic": "Euro 2024",
+        "why_recent": "The UEFA European Football Championship was hosted in Germany from June to July 2024, with Spain winning the title."
+      },
+      {
+        "topic": "Copa América 2024",
+        "why_recent": "The South American football tournament took place in the United States in June-July 2024, won by Argentina."
+      },
+      {
+        "topic": "Paris 2024 Olympics",
+        "why_recent": "The Summer Olympic Games were held in Paris from 26 July to 11 August 2024, featuring the first Opening Ceremony on the Seine."
+      },
+      {
+        "topic": "Paris 2024 Paralympics",
+        "why_recent": "Followed the Olympics from 28 August to 8 September 2024, setting attendance and viewership records for the event."
+      },
+      {
+        "topic": "Notre-Dame de Paris",
+        "why_recent": "The cathedral reopened to the public in December 2024 after five years of reconstruction following the 2019 fire."
+      },
+      {
+        "topic": "iPhone 16",
+        "why_recent": "Apple launched the iPhone 16 series in September 2024 with Camera Control and Apple Intelligence integration."
+      },
+      {
+        "topic": "Pixel 9",
+        "why_recent": "Google released the Pixel 9 family in August 2024 featuring Gemini Nano and advanced computational photography."
+      },
+      {
+        "topic": "Claude 3.5 Sonnet",
+        "why_recent": "Anthropic released the model in June 2024, notable for improved coding and Artifacts interface."
+      },
+      {
+        "topic": "Starship",
+        "why_recent": "SpaceX conducted successive Integrated Flight Tests throughout 2024, including attempts at tower catches."
+      },
+      {
+        "topic": "Cybercab",
+        "why_recent": "Tesla unveiled its purpose-built robotaxi concept at the We, Robot event in October 2024."
+      },
+      {
+        "topic": "Hurricane Helene",
+        "why_recent": "Struck the southeastern United States in late September 2024, causing catastrophic flooding and hundreds of deaths."
+      },
+      {
+        "topic": "Hurricane Milton",
+        "why_recent": "Made landfall in Florida in October 2024 as a powerful hurricane shortly after Helene."
+      },
+      {
+        "topic": "Kursk Oblast",
+        "why_recent": "Ukrainian forces launched a surprise cross-border incursion into Russian territory in August 2024."
+      },
+      {
+        "topic": "UnitedHealthcare",
+        "why_recent": "CEO Brian Thompson was fatally shot in New York City in December 2024, sparking nationwide investigation and debate."
+      },
+      {
+        "topic": "Anthony Albanese",
+        "why_recent": "As Australian Prime Minister, navigated AUKUS developments and domestic reforms throughout 2024 elections cycle."
+      },
+      {
+        "topic": "Megalopolis",
+        "why_recent": "Francis Ford Coppola's self-financed epic film premiered at Cannes and was released theatrically in September 2024."
+      }
+    ]
+  },
+  "panel": [
+    "anthropic/claude-opus-4.8",
+    "openai/gpt-5.4",
+    "google/gemini-3.1-pro-preview",
+    "x-ai/grok-4.5",
+    "deepseek/deepseek-v3.2"
+  ],
+  "protocol": "1.0"
+}
