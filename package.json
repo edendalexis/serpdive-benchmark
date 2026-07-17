@@ -1,0 +1,17 @@
+{
+  "name": "serpdive-bench",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "AgentSearchBench — 1000 questions written by 5 third-party AIs, judged blind, with an offline-verifiable chain of custody.",
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "topics": "node bin/1-topics.mjs",
+    "questions": "node bin/2-questions.mjs",
+    "collect": "node bin/3-collect.mjs",
+    "judge": "node bin/4-judge.mjs",
+    "score": "node bin/5-score.mjs",
+    "verify": "node bin/verify.mjs"
+  }
+}

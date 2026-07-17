@@ -1,0 +1,11 @@
+node_modules/
+.env
+.env.local
+
+# Exa anchors are a working cache: large, re-downloadable, and not part of the
+# proof (they are IDENTICAL for both arms, so they cannot favor anyone).
+runs/*/anchors/
+
+# Same status for the sonar briefs: a resume cache. The briefs of RETAINED
+# topics are published in topics.json; the gate verdicts in gate.json.
+runs/*/briefs/
