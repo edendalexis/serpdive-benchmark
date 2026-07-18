@@ -1,0 +1,11 @@
+{
+  "id": 242,
+  "query": "Voyager 1 Big Bang maneuver heater power swap status update",
+  "topic": "Voyager 1",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A does not directly provide a true status update on the Big Bang heater/power swap beyond saying tests on Voyager 2 were planned for May and June 2026 and application to Voyager 1 would be no sooner than July 2026. It lacks the later update implied by the query. Some snippets are thin or secondary-source-derived, and CNN snippet content about the LECP stepper motor does not answer the status question directly.",
+  "b_issues": "Content B is dominated by older 2024 thruster-swap results unrelated to the 2026 Big Bang heater/power swap status update. It provides only generic mention that JPL will use a Big Bang procedure in 2026, with no concrete status update. The top results risk misleading an LLM into conflating the 2024 thruster swap with the 2026 Big Bang maneuver.",
+  "reasoning": "A better supports a correct answer because it includes the key NASA source about the April 17, 2026 LECP shutdown and explicitly states that the Big Bang fix was being finalized, would be tested on Voyager 2 first, and that tests were planned for May and June 2026, with one result adding that Voyager 1 would get it no sooner than July 2026. That at least gives a plausible status: planned/testing phase, not yet applied to Voyager 1. B mostly surfaces an unrelated 2024 thruster swap and only vague secondary references to a future Big Bang activity, so an LLM using B alone would be much more likely to answer incorrectly or mix up two different engineering actions."
+}

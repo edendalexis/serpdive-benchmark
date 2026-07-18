@@ -1,0 +1,11 @@
+{
+  "id": 453,
+  "query": "2024 Nobel Peace Prize winner official Nobel announcement organization reason awarded nuclear-free world",
+  "topic": "Nobel Prize 2024",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Minor issue: several top results are secondary sources (Nobel Peace Center, NPR, PBS, YouTube) rather than the official Nobel page, though the official NobelPrize.org press release is present and correctly states the laureate and citation.",
+  "b_issues": "Includes Wikipedia as top results, which are less reliable than the official Nobel source. One Wikipedia snippet appears noisy/misaligned, including unrelated or dubious text about another person and partial foreign-language fragments, which could distract or confuse an LLM. Although the official NobelPrize.org press release is present, the overall set is less clean and authoritative than A.",
+  "reasoning": "Both A and B contain the key facts needed to answer the question: the 2024 Nobel Peace Prize went to the Japanese organization Nihon Hidankyo, and the reason was 'for its efforts to achieve a world free of nuclear weapons and for demonstrating through witness testimony that nuclear weapons must never be used again.' However, A better enables a correct answer because it includes the official NobelPrize.org press release with the full, exact wording and also corroborating secondary sources that are consistent with it. In B, the featured snippet is correct and the official Nobel page is present, but the top-ranked results are Wikipedia entries, including one snippet with noisy/possibly misleading content. So A is the stronger, cleaner evidence set for an LLM answering from the search results alone."
+}

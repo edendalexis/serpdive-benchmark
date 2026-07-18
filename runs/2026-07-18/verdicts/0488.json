@@ -1,0 +1,11 @@
+{
+  "id": 488,
+  "query": "2026 WGA MBA ratification final vote tally member turnout percentage",
+  "topic": "The WGA",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "A includes the final tally from authoritative WGA sources: 4,282 yes (90.38%) and 456 no (9.62%). It does not directly provide the turnout percentage, though Deadline notes the guild has more than 11,000 members, which only supports an approximation rather than an official turnout figure. One result is a pre-ratification page and not the final result, but it does not conflict with the answer.",
+  "b_issues": "B includes authoritative WGA results for the final tally, but it also contains misleading/contradictory social results. A Facebook snippet states 99% ratification with 8,525 valid votes and 90 no votes, which is from a different contract cycle and conflicts with the 2026 result. An Instagram snippet claims turnout was 19.25% and references SAG-AFTRA 38% turnout; this is not an authoritative WGA source and could mislead the model about member turnout percentage. The official WGA results themselves do not provide turnout percentage.",
+  "reasoning": "Both sets contain the accurate final ratification vote tally from reliable WGA sources: 4,282 in favor and 456 opposed, corresponding to 90.38%/9.62%. However, the question also asks for member turnout percentage. Neither set provides an official turnout figure from WGA. A at least provides Deadline's note that the guild has more than 11,000 members, allowing a model to infer an approximate turnout from 4,738 total votes, though not precisely or officially. B is worse because it introduces contradictory and likely irrelevant social snippets: one with a clearly wrong 99%/8,525-vote tally and another claiming 19.25% turnout from Instagram. Those conflicts make B more likely to lead an LLM astray. Therefore A better enables a correct answer."
+}

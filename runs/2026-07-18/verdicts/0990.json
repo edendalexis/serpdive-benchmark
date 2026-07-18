@@ -1,0 +1,11 @@
+{
+  "id": 990,
+  "query": "True Detective Season 5 official cast confirmed HBO 2025",
+  "topic": "True Detective",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Does not include HBO's official press release confirming Season 5 renewal; relies on secondary outlets. Includes speculative/derived pieces about Nicolas Cage and a Yahoo summary, but also clearly states that no official casting has been announced and that casting was only in preliminary stages in February 2025. No direct official cast confirmation is present.",
+  "b_issues": "Also lacks HBO's official press release in the returned results. Includes a low-reliability YouTube result falsely implying a 2025 season/cast. Includes 2025 trade/press speculation about Nicolas Cage being eyed/in talks, not an official HBO cast confirmation. Content is somewhat noisy because it mixes 2025 and August 2025 updates.",
+  "reasoning": "For the query 'True Detective Season 5 official cast confirmed HBO 2025,' the key answerable fact is that as of the 2025 materials shown, HBO had confirmed Season 5 and Issa López's involvement, but had not officially confirmed cast members; Nicolas Cage was only reported as eyed/in talks later in 2025. Both A and B contain enough information to reach that conclusion: A explicitly says 'No official casting has been announced at this time' and cites Deadline's February 2025 note that casting was in preliminary stages; B likewise says 'no official casting announcements have been made by HBO' and that Cage was only under consideration/in talks. B has a slightly stronger source mix because it includes the August 2025 Deadline item, but it is offset by a misleading YouTube result. Since both sets similarly support the correct answer and neither provides an actual official HBO cast confirmation, they are effectively equal."
+}

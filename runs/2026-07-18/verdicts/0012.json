@@ -1,0 +1,11 @@
+{
+  "id": 12,
+  "query": "TSMC Vanguard International Semiconductor VIS share sale block trade May 2026 ownership percentage reduction",
+  "topic": "Taiwan Semiconductor Manufacturing Company",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "",
+  "b_issues": "",
+  "reasoning": "Both A and B clearly contain the key facts needed to answer the question correctly: TSMC planned to sell up to 152.0 million VIS shares, representing about 8.1% of VIS, and this would reduce TSMC's ownership from approximately 27.1% to approximately 19%. In A, the TSMC press release explicitly states the post-sale stake would be about 19%, and other results corroborate the reduction from 27.1% by 8.1 percentage points. In B, the TSMC press release and multiple secondary sources likewise state the stake would fall from about 27.1% to about 19%. Neither set materially contradicts itself, and both include a highly reliable primary source from TSMC. Therefore both enable an LLM to answer equally well."
+}

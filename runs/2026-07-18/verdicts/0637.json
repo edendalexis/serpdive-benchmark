@@ -1,0 +1,11 @@
+{
+  "id": 637,
+  "query": "Perplexity mid-task model switching Claude Fable 5 orchestration Perplexity Computer custom skills announcement",
+  "topic": "Perplexity AI",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A does not contain an explicit result about mid-task model switching. It relies partly on social posts (Threads, LinkedIn) and includes weaker secondary sources like Reddit/Substack. The Threads result is low-information. However, it does accurately surface the key facts that Claude Fable 5 is available in Perplexity Computer as an orchestrator model and that custom skills in Computer were announced in the March 6, 2026 changelog.",
+  "b_issues": "Content B also lacks an explicit result about mid-task model switching. It omits the Claude Fable 5 announcement entirely from reliable primary sources and instead includes a Substack post and unrelated/low-relevance third-party articles. Its top Perplexity changelog snippet mentions custom skills but not Claude Fable 5 orchestration, and some included material appears noisy or potentially inaccurate (for example broad claims about 19+ models and unrelated Anthropic naming/news).",
+  "reasoning": "A better enables a correct answer because it contains both core pieces needed for this query from or near primary evidence: the Perplexity changelog announcing Custom Skills in Computer, and social/announcement posts stating Claude Fable 5 is available in Computer as an orchestrator model for long, complex tasks. B only clearly supports the custom-skills side via the changelog and does not reliably provide the Claude Fable 5 orchestration announcement. Since the question combines those topics, A is more complete and better grounded in relevant facts, even though neither result set clearly addresses mid-task model switching."
+}

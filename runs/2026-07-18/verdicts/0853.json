@@ -1,0 +1,11 @@
+{
+  "id": 853,
+  "query": "SAG-AFTRA studios streamers 2025 contract pension plan merger ratification vote January 1 2028 four-year agreement",
+  "topic": "SAG-AFTRA",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Minor issue: one Variety URL/title pairing appears inconsistent with the anchor (A lists a film/news URL for the ratification story that the anchor shows under tv/news). Also includes a low-reliability Facebook result, but it is not needed. No major factual contradiction in the key facts.",
+  "b_issues": "Includes lower-reliability aggregation/republication results (Ground News, Yahoo) alongside primary trade sources. One Yahoo snippet is truncated ('on Jan.') and omits the full date in the snippet itself, though another result supplies Jan. 1, 2028. No major factual contradiction in the key facts.",
+  "reasoning": "Both A and B contain the core facts needed to answer correctly: this was a four-year SAG-AFTRA deal with studios/streamers; members ratified it; the ratification vote was about 91.4% in favor and 8.6% opposed; and the agreement includes merging the SAG-Producers Pension Plan and AFTRA Retirement Fund effective Jan. 1, 2028. A gives these facts via SAG-AFTRA, Hollywood Reporter, and Variety; B gives them via Variety, Hollywood Reporter, and supporting aggregation snippets. Neither set materially contradicts the anchor, and both provide enough accurate information for an LLM to answer the query correctly."
+}

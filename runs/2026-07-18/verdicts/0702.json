@@ -1,0 +1,11 @@
+{
+  "id": 702,
+  "query": "April 2026 federal jury verdict Live Nation Ticketmaster liable every antitrust count overcharge per primary concert ticket New York states case",
+  "topic": "Ticketmaster DOJ lawsuit",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "A contains the key overcharge figure ($1.72 per ticket) but does not clearly state that the jury found Live Nation/Ticketmaster liable on every antitrust count or 'all federal and state law claims.' One result says 39 states joined the government's case, which is imprecise for the verdict stage described in the anchor, where 33 states and D.C. continued after the DOJ settlement. Another result is from a low-reliability site (pophits.co).",
+  "b_issues": "B relies heavily on law-firm/client-alert sources rather than mainstream reporting, but those sources directly state the needed verdict details. It also includes one NPR result that says 33 states and D.C., which is consistent with the anchor. No major internal contradiction on the key facts.",
+  "reasoning": "The question asks for the April 2026 federal jury verdict detail about Live Nation/Ticketmaster being liable on every antitrust count and the overcharge per primary concert ticket in the New York states case. Content B explicitly says the jury 'returned a verdict for the plaintiff states on all federal and state law claims' and also states the jury found defendants liable for '$1.72 for each primary concert ticket sold'—matching the anchor's substance. Content A gives the $1.72 figure but does not clearly provide the 'every antitrust count/all claims' point from a reliable result, so an LLM using A alone could miss that part or answer less precisely. Therefore B better enables a correct answer."
+}

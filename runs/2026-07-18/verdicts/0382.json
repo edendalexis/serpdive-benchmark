@@ -1,0 +1,11 @@
+{
+  "id": 382,
+  "query": "Meta Business Agent AI tool features launch details 2024",
+  "topic": "Meta",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Most results are about the 2026 Meta Business Agent launch, not 2024. The top result is Meta’s 2026 newsroom post, plus CNBC 2026, third-party 2026 review pages, and developer docs from 2026. This creates a strong risk of answering with the wrong launch year and wrong product details. Only the WhatsApp for Business result appears directly relevant to a Business Agent launch, but it is also framed as a later global rollout rather than 2024 launch details.",
+  "b_issues": "Results are also largely about a later Meta Business Agent/Business AI rollout rather than the 2024 launch details in the query. Several snippets clearly refer to a June 3/Wednesday London launch and broader enterprise product positioning, which aligns with a later rollout, not the June 2024 announcements. The set lacks the key 2024 source about WhatsApp Business AI features launched at Meta Conversations in Brazil and does not directly surface the June 18, 2024 Meta for Business announcement about AI chat on Messenger.",
+  "reasoning": "Neither set cleanly answers the 2024 query. The anchor indicates the relevant 2024 facts are Meta’s June 6, 2024 WhatsApp Business AI features announcement at Meta Conversations in Brazil—features like helping create click-to-WhatsApp ads and generating responses to frequent customer messages—and the June 18, 2024 Meta for Business announcement of an AI chat feature on Messenger built with Llama 3. Content A is heavily polluted with 2026 material, including an official Meta newsroom page and other 2026 coverage, so an LLM would likely answer with incorrect year/product details. Content B is also mostly about a later launch/global rollout of Business Agent/Business AI, with little or no direct 2024 evidence. Since both are similarly misaligned with the requested 2024 launch details and both would likely lead to a wrong answer, neither is better enough to choose."
+}

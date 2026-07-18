@@ -1,0 +1,11 @@
+{
+  "id": 568,
+  "query": "Hades II v1.0 official release date announcement Supergiant Games 2026",
+  "topic": "Hades II",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "A does include the key official Supergiant source announcing v1.0 for September 25, 2025, but the top result is a generic Supergiant blog page with mixed later-era snippets that could distract an LLM. It also contains third-party results and a 2026-irrelevant IGN snippet; while not wrong on the core date, it is less directly focused on the official announcement.",
+  "b_issues": "B includes a contradictory third-party result from DBLTAP claiming September 26, 2025, which conflicts with the official Supergiant announcement of September 25, 2025. It also lacks the publication date snippet for the announcement page, so the 'announcement' timing is less explicit from the search excerpt alone.",
+  "reasoning": "Both sets contain the decisive official Supergiant Games result: 'Hades II v1.0 Coming September 25, 2025!' That is the fact needed to answer the query, and it matches the anchor. However, B better enables a correct answer because it surfaces the exact official announcement page more cleanly and also includes the official 'v1.0 Now Available' page plus corroborating third-party coverage all centered on the September 25, 2025 release. A has the same core official result, but its highest-ranked entry is a broad blog index page with mixed unrelated snippets that could introduce noise. Although B has one conflicting September 26 third-party result, the presence of the exact official Supergiant announcement page with the full date makes B slightly stronger overall."
+}

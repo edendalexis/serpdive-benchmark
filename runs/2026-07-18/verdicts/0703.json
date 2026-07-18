@@ -1,0 +1,11 @@
+{
+  "id": 703,
+  "query": "DOJ Live Nation Ticketmaster March 2026 settlement terms divest amphitheater booking agreements service fee cap 15% exclusivity contract four years states object",
+  "topic": "Ticketmaster DOJ lawsuit",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Result snippets are incomplete and omit some key specifics in snippet form, especially which states objected. The Deseret snippet mentions a $280 million fine, which may be secondary or potentially imprecise relative to the core term sheet. However, A includes the DOJ filing itself with substantive text about loosening exclusivity provisions for contracts with years remaining, and multiple mainstream reports consistent with divestitures, open booking, and the 15% cap.",
+  "b_issues": "The top DOJ result is essentially unreadable PDF garbage, reducing usefulness of the most authoritative source. One TicketNews result appears to be about reactions to a reported settlement before the term sheet was public, so some details there may be preliminary rather than final. Live Nation’s own newsroom phrasing says it will divest '13 exclusive booking agreements with amphitheaters' rather than amphitheater ownership/control, which may understate or blur the actual divestiture remedy. B also provides less direct support for which states objected, only referring generally to hold-out states.",
+  "reasoning": "A better enables a correct answer because it contains the authoritative DOJ term-sheet link with meaningful excerpted text plus corroborating mainstream coverage from AP, NYT, and USA Today. Those results support the key answerable facts in the query: Ticketmaster service-fee cap at 15% for the relevant amphitheaters, divestiture/changed control of 13 amphitheaters, abandonment of exclusive booking arrangements/open booking, and modifications to venue exclusivity. AP explicitly notes that over two dozen states planned to keep fighting, addressing the 'states object' part. B has some useful details, including the four-year exclusivity contract point via Rolling Stone and the 15% cap, but its most authoritative source is unreadable, and one key source is a pre-term-sheet reaction article that is less reliable for final terms. Overall, A is more reliable and less likely to mislead an LLM answering from the provided content alone."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 531,
+  "query": "LeBron James Ken doll Mattel release height",
+  "topic": "Barbie",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A contains the needed height fact, but its top result is a Facebook post rather than a primary/reliable source. It also gives only partial release information: Target says 'available now' without the actual release date, and the Australia Mattel Creations result is irrelevant/noisy for the main release question. Overall, release timing is less clearly supported.",
+  "b_issues": "Content B includes some noisy/irrelevant text in the Mattel result (UNO x Giannis content) and an Australia-specific Mattel Creations listing that is not relevant to the main US release. However, these do not materially contradict the answer.",
+  "reasoning": "B better enables a correct answer because it contains both key facts from strong sources: the official Mattel press release says the doll is 'one inch taller than the standard Ken doll,' and People provides the release timing: available starting Monday, April 14 at 12 a.m. BBC also confirms LeBron's real height is 6 ft 9 in and that the doll is an inch taller than standard Ken. In A, the height is also present, but the release information is weaker and less specific, relying on 'available now' from Target and a Facebook snippet. So B more clearly supports an accurate answer about the Mattel release and height."
+}

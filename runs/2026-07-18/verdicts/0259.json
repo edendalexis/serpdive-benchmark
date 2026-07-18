@@ -1,0 +1,11 @@
+{
+  "id": 259,
+  "query": "SYS6016 RSV vaccine China clinical trial results 2024 2025 Phase 3 approval status",
+  "topic": "RSV vaccines",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A is sparse and only one result is directly about SYS6016. It also includes irrelevant results about other RSV vaccines/products (GSK Arexvy, unrelated ClinicalTrials.gov study, general review article), which could distract the model. It does not provide the key registry fact that SYS6016 is a Phase 1 trial registered in late 2024, nor explicit 2025 status. Reuters mentions approval to begin human clinical trials and preclinical 'good protection'/'good safety profile', but not actual human trial results.",
+  "b_issues": "Content B is even less targeted. It lacks the key Chinese registry entry for SYS6016, includes mostly irrelevant results (general China vaccine-trials PMC paper, unrelated ClinicalTrials.gov record, unrelated LYB005 trial), and only one relevant BioWorld snippet saying SYS6016 obtained Chinese approval to enter clinic. It provides no trial phase detail beyond 'into clinic', no human clinical results, no Phase 3 information, and no 2025 status. The unrelated items increase risk of hallucinating facts from other products.",
+  "reasoning": "The question asks about SYS6016 clinical trial results in 2024/2025, Phase 3, and approval status in China. The anchor shows SYS6016 was approved in July 2024 to start clinical trials and was registered in October 2024 as a Phase 1 randomized placebo-controlled study; no Phase 3 or product approval is shown. Between the two sets, A is better because Reuters directly states China approved CSPC Pharma's SYS6016 for clinical trials, which supports the correct conclusion that it had only entered human testing and was not approved as a marketed vaccine. B has only a brief BioWorld item with similar approval-to-enter-clinic information, but the rest is more irrelevant and less informative. Neither set contains actual 2024/2025 human trial results or explicit evidence of no Phase 3, but A comes closer to enabling the correct answer."
+}

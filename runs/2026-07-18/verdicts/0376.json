@@ -1,0 +1,11 @@
+{
+  "id": 376,
+  "query": "Sora iOS downloads decline November 2025 February 2026 monthly figures",
+  "topic": "Sora OpenAI",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A includes some questionable or lower-reliability results and a few inconsistent figures. The top result is from an obscure site and says downloads fell from 3.3M in November 2025 to 1.1M by February 2026, while another A result says 1.4M by February 2026. A also has a January figure of 1.2M from TechCrunch/CryptoRank, which conflicts with the separate February 1.4M claim. Some results refer to combined iOS+Android rather than iOS specifically, which may blur the query intent.",
+  "b_issues": "Content B mostly gives only percentage declines for December 2025 and January 2026, without the monthly download figures needed to answer the question. It also does not provide a February 2026 monthly figure. Several results are secondary/aggregator sources, and one CryptoRank snippet mentions cumulative downloads but not the requested monthly figures.",
+  "reasoning": "A better enables a correct answer because it contains the key monthly decline facts tied to the authoritative TechCrunch report: downloads dropped 32% in December 2025 and then 45% in January 2026 to 1.2 million. It also includes at least one result giving a February 2026 figure, albeit from a weaker source. B has the same December/January percentage declines, but lacks the concrete monthly figures and lacks a February monthly figure altogether. Since the question asks for November 2025 to February 2026 monthly figures, A is imperfect and somewhat contradictory, but it still provides more of the necessary facts than B."
+}

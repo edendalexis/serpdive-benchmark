@@ -1,0 +1,11 @@
+{
+  "id": 245,
+  "query": "Voyager 1 February 25 2025 cosmic ray subsystem shutdown power conservation NASA update",
+  "topic": "Voyager 1",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Minor issues only: includes secondary/non-NASA sources (CNN, ScienceAlert, Yahoo, YouTube), and one result discusses a later shutdown rather than the queried update. However, A also includes the key JPL/NASA result with the correct facts and no major contradiction in the returned snippets.",
+  "b_issues": "Contains potentially misleading or mixed-timeline content. The top JPL snippet is truncated in a way that omits the key queried date/event and instead emphasizes other facts like a 2026 planned shutdown and operation into the 2030s. It also includes a 2026 NASA blog result and other later-followup material, which could distract from the asked 2025 update. Some snippets are less directly responsive to the specific Feb. 25, 2025 shutdown update.",
+  "reasoning": "The anchor says NASA/JPL reported on March 5, 2025 that engineers turned off Voyager 1’s cosmic ray subsystem on Feb. 25, 2025 as a power-conservation measure, with three instruments remaining on each spacecraft. Content A directly contains that exact fact in both the CNN snippet and especially the JPL/NASA result, including the shutdown date, instrument name, purpose (conserve power), and the associated Voyager 2 action. Content B does contain a correct JPL source and a CNN snippet with the Feb. 25 fact, but its highest-ranked material is more mixed with later 2026 updates and a less focused JPL snippet that could confuse the specific question. Because A presents the queried 2025 NASA update more directly and cleanly, it better enables a correct answer."
+}

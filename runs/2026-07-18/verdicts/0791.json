@@ -1,0 +1,11 @@
+{
+  "id": 791,
+  "query": "Alcide Ponga president New Caledonia administration policies 2025",
+  "topic": "New Caledonia",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A does not actually provide Alcide Ponga's 2025 administration policies. It mostly gives biography/election context. The Guardian/Wikipedia/Forum results identify who he is, but not the substance of his policy programme. One result is ideologically slanted (WSWS) and another is a 2026 YouTube interview, which is only indirectly relevant. There is no clear result containing the February 2025 policy declaration or a summary of it.",
+  "b_issues": "Content B also does not provide Alcide Ponga's 2025 administration policies. It mostly gives biography and election context from Forum, Wikipedia, Guardian, and RFI. No result contains the February 2025 general policy statement or a policy summary. Wikipedia includes mixed background details and a 2026 local-election note that is irrelevant to the query.",
+  "reasoning": "The question asks about Alcide Ponga's administration policies in 2025 as president of New Caledonia. The anchor shows that the key evidence would be his February 20, 2025 déclaration de politique générale, covering public-finance clean-up, administrative performance, and health/social-protection reform. Neither Content A nor Content B includes that speech, a government PDF, or even a substantive policy summary. Both mainly establish that Ponga became president in January 2025 and provide background on his political alignment. Since neither result set contains the actual facts needed to answer the policies question correctly from the content alone, neither enables a correct answer better than the other."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 957,
+  "query": "TikTok Shop sellers creators joined ecosystem total counts US based percentage after official launch",
+  "topic": "TikTok Shop",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "A has the key seller-count source and a launch reference, but it does not clearly provide the creator/ecosystem figures implied by the query. The Search Engine Journal result only mentions eligibility for creators and 150 million American users, not counts of creators who joined the ecosystem or a US-based percentage. The NetInfluencer/Modern Retail snippets add active small-business counts, but not the creator-total or US-based-share figure. So an LLM would have to guess or leave part of the answer incomplete.",
+  "b_issues": "B includes a likely noisy or internally inconsistent Red Stag snippet: it says TikTok’s influencer count reached 15.3 million and 851,000 (5.57%) were actively selling, then separately says there are approximately 15 million sellers globally and over 100,000 creators in the affiliate program. Those figures mix influencers, sellers, and affiliates and may not be from primary TikTok disclosures. Also, the Business of Apps, Forbes, and Amra & Elma results are mostly irrelevant to the specific question.",
+  "reasoning": "B better enables a correct answer because it actually contains the core facts the query appears to ask for: after launch, total sellers/creators in the ecosystem, plus a US-based percentage. In particular, B’s Red Stag snippet gives a creator total (15.3M influencers), an actively selling subset (851,000, 5.57%), and seller totals including over 500,000 US merchants. A also has strong seller-growth data tied to the US launch in September 2023, but it lacks the creator/ecosystem count and percentage needed to fully answer the question. Neither set is ideal, but B contains more of the required facts in one place."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 114,
+  "query": "Chaumet new High Jewelry collection nature inspired unveil July 2026 LVMH",
+  "topic": "LVMH",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor ambiguity from inclusion of an older unrelated LVMH result for 'Jewels by Nature' in Marbella, which could distract from the July 2026 collection. Otherwise the key facts are present and consistent: the collection is 'A Journey Through Nature,' it is new/high jewelry, nature-inspired, 46 pieces, and tied to an LVMH post dated July 16, 2026.",
+  "b_issues": "Contains less complete evidence. It includes an Instagram result with noisy/irrelevant text and also an older unrelated LVMH result for 'Jewels by Nature' in Marbella that could confuse the collection name. The key July 2026 details are only partial snippets; there is less direct support for the unveil date/context than in A.",
+  "reasoning": "A better enables a correct answer because it provides a direct LVMH result explicitly about the relevant collection ('Chaumet Celebrates Nature in a New High Jewelry Collection') with a visible date ('1 day ago' and MarketScreener snippet showing July 16, 2026), plus the official Chaumet event page naming 'A Journey Through Nature' and describing the unveil. It also includes corroborating editorial coverage stating the collection is a new 46-piece nature-inspired high jewelry line. B has some of the same core sources, but the snippets are thinner, noisier, and more ambiguous, especially due to the irrelevant Instagram result and the unrelated 'Jewels by Nature' LVMH page. Therefore A gives an LLM a clearer, more reliable basis to answer correctly."
+}

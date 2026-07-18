@@ -1,0 +1,11 @@
+{
+  "id": 480,
+  "query": "WGA 2026 MBA ratification AMPTP AI residual terms",
+  "topic": "The WGA",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A is strong overall, but it does not directly surface the AI terms in the snippets. The WGA FAQ snippet focuses on residuals and episode-copy access rather than AI, so an LLM would need to infer or answer only partially on AI unless it relied on the linked pages beyond the snippet. Third-party results like Variety and Greenslate are less authoritative than the WGA/AMPTP sources, though they do not obviously contradict the anchor.",
+  "b_issues": "Content B has less direct primary-source detail on the actual deal terms. It includes a useful WGAE press release snippet and secondary reports mentioning AI and residuals, but the snippets are thinner and less specific than A on residual changes. The AI detail comes mainly from secondary coverage ('preserves the protections from 2023 and adds requirements...') rather than the underlying WGA/AMPTP contract materials. It also lacks the WGA FAQ / summary pages and AMPTP MOA result present in the anchor.",
+  "reasoning": "A better enables a correct answer because it contains authoritative WGA results that directly establish ratification and core contract terms: the WGA ratification vote, the 2026-2030 term, and explicit mention of increased foreign/domestic HBSVOD residuals and improved streaming bonus terms. It also includes a WGA FAQ snippet with concrete residual details, such as the bonus becoming 75% of the 2023 HBSVOD residual formula for certain releases after Jan. 1, 2027. While A is weaker on AI in the visible snippets, B is even less complete overall: it relies more on secondary outlets for both AI and residuals, with less precise and less authoritative contract detail. Since the question asks about ratification plus AMPTP AI and residual terms, A provides the more accurate and source-reliable basis for answering, even if neither set is perfect on AI."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 932,
+  "query": "Klarna Curve Dental healthcare payments integration launch",
+  "topic": "Klarna",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "No major factual flaws. Content A contains the key launch result from Klarna and supporting corroboration from MarketScreener/Webull, plus background on Curve Pay from PR Newswire. Minor issue: some snippets are less direct and one older third-party result about Bluefin is not relevant to the Klarna launch.",
+  "b_issues": "No major factual flaws. Minor issue: one result is an X/Twitter post, which is less reliable than the primary source, and the PR Newswire snippet is noisier/less focused.",
+  "reasoning": "Both A and B contain the essential facts needed to answer the question: Klarna and Curve Dental launched the integration on July 14, 2026; it is live through Curve Pay; it is powered by Stripe; and it offers eligible dental patients pay in full, pay in four interest-free installments, and longer-term financing. However, B better enables a correct answer because its top Klarna result is more explicit and self-contained: it clearly states the launch timing ('New York, July 14, 2026'), that Klarna is now live with Curve Dental, that patients can pay at the point of treatment, and that the integration is available through Curve Pay powered by Stripe. A also has the same primary source, but its snippet omits the explicit launch framing and date in the visible content, requiring more inference from relative dates like '3 days ago.' Neither set shows meaningful contradictions."
+}

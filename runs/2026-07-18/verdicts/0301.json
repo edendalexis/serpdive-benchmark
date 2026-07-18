@@ -1,0 +1,11 @@
+{
+  "id": 301,
+  "query": "Artemis Accords total signatory nations list latest additions 2026",
+  "topic": "NASA Artemis program",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A is outdated/incomplete for the query's 'latest additions 2026' framing. Its strongest factual result says 'As of June 25, 2026' Botswana is the 68th signatory, so it misses later 2026 additions such as Serbia and Mauritius. It also does not provide a clear up-to-date total signatory count or latest additions list for 2026 from a highly reliable primary source.",
+  "b_issues": "Content B relies heavily on Wikipedia/snippet text for the key current count and latest additions rather than a primary source list. One result says 70 countries as of July 17, 2026, while another result (Space.com) says 69 countries, so there is minor internal inconsistency across results. NASA result shown in B is generic and does not itself include the updated count.",
+  "reasoning": "The question asks for the Artemis Accords total signatory nations and latest additions in 2026. Content B contains the needed current fact pattern: the featured snippet states that as of July 17, 2026, there are 70 signatories, and the Wikipedia result explicitly lists the 2026 additions: Portugal, Oman, Latvia, Jordan, Morocco, Malta, Ireland, Paraguay, Botswana, Serbia, and Mauritius. This aligns with the anchor, which shows Botswana as 68th on June 25, 2026, Serbia as 69th on July 16, and Mauritius as 70th on July 17. By contrast, Content A only supports an answer up to Botswana at 68 and lacks the later 2026 additions, so an LLM using A alone would likely give an outdated answer."
+}

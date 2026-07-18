@@ -1,0 +1,11 @@
+{
+  "id": 700,
+  "query": "Live Nation Ticketmaster antitrust remedy phase ruling Ticketmaster severance decision date",
+  "topic": "Ticketmaster DOJ lawsuit",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A contains general post-verdict discussion and mentions that severance is a possible remedy, but it does not provide the key decision date for the remedy/severance phase. Its best sources say only that the case will proceed to remedies or that states seek breakup; none state when the judge said he would hear breakup arguments. Wikipedia is less reliable, and the featured snippet only gives the April 15, 2026 liability verdict date, not the severance/remedy decision timing.",
+  "b_issues": "Content B does not give an exact calendar date for a final severance decision either; it says the judge likely will not hear breakup arguments until as early as February 2027. Some supporting results are generic or secondary, and Wikipedia is included. But the Courthouse News result directly addresses the remedy phase timing and is consistent with the anchor.",
+  "reasoning": "The question asks about the ruling/decision date tied to the Live Nation-Ticketmaster antitrust remedy phase and Ticketmaster severance. Content B better enables a correct answer because it includes the crucial fact from Courthouse News: Judge Arun Subramanian said he likely would not hear arguments on breaking up Live Nation and Ticketmaster until as early as February 2027. That directly answers the timing question as framed by the anchor. Content A only shows that breakup/severance is a possible remedy and that the liability verdict was April 15, 2026, but it lacks the remedy-phase timing/date. Therefore B is more factually sufficient and aligned with the reliable reference."
+}

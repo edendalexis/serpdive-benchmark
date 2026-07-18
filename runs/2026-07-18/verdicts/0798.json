@@ -1,0 +1,11 @@
+{
+  "id": 798,
+  "query": "New Caledonia French police presence duration Macron pledge continuity post-2024 riots 2025 2026",
+  "topic": "New Caledonia",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Content A clearly contains the core 2024 fact from strong sources (BBC/AP/VOA): Macron said French police/security forces would remain in New Caledonia 'as long as necessary' / would remain even during the Olympics if required. But it does not provide the post-2024 continuity evidence implied by the query's '2025 2026' timeframe. The only later hint is a Wikipedia snippet mentioning a heavy security presence in late October, which is weaker and not enough to establish 2025/2026 duration. Thus A is incomplete for the full question.",
+  "b_issues": "Content B also contains the same core 2024 fact from VOA/AP/Reuters/YouTube: Macron said reinforcements would remain 'as long as necessary.' However, like A, it lacks reliable information about whether that pledge/ presence continued into 2025 or 2026. The top YouTube result is less reliable than direct reporting, and no result supplies the needed later-year continuity evidence. Thus B is also incomplete for the full question.",
+  "reasoning": "The question asks about the duration of the French police presence in New Caledonia and continuity of Macron's pledge after the 2024 riots, specifically with a 2025/2026 angle. Both result sets support the 2024 baseline: Macron pledged French police/security forces would stay 'as long as necessary.' A supports this via BBC/AP/VOA; B supports it via VOA/AP/Reuters. But neither set provides sufficient factual material to answer the post-2024 continuity part correctly from the search content alone. A has slightly stronger sourcing on the exact pledge wording, while B includes Reuters, but neither answers the 2025/2026 continuation question. Therefore neither better enables a correct full answer."
+}

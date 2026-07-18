@@ -1,0 +1,11 @@
+{
+  "id": 426,
+  "query": "Rafah crossing daily crossings numbers latest update March 2026 goods humanitarian aid status",
+  "topic": "Rafah",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Does not surface the key EEAS/EUBAM daily-update source with actual Rafah daily crossing counts. The available snippets only indirectly state that Rafah reopened on 19 March for limited movement of people and that Kerem Shalom was the only operational crossing for humanitarian/commercial supplies. The Al Mezan result adds a claim that March aid trucks did not exceed 400 and that Rafah was closed, which may refer to part of the month but is not an official crossing-status update and could confuse a model. No authoritative daily crossing numbers are provided.",
+  "b_issues": "Also does not surface the key EEAS/EUBAM daily-update source with actual Rafah daily crossing counts. Includes a June 2026 Egypt SIS result about an aid convoy via Rafah that is off-timeframe and potentially misleading for a March 2026 query. Includes a low-reliability/unclear Al Jazeera liberties page claiming 397 travelers in the week after reopening, which is not corroborated by the anchor and could conflict with official figures. Like A, it lacks authoritative daily crossing numbers and mixes in partial or off-target material.",
+  "reasoning": "Neither result set adequately enables a correct answer to the user’s query as posed, because the crucial fact sought—latest daily Rafah crossing numbers in March 2026 / the official update context—is absent from both. The anchor shows the best source is EEAS/EUBAM daily updates and Rafah crossing data, including exact crossing counts and the operational status focused on people rather than cargo. Both A and B do provide some useful facts: OCHA says Kerem Shalom was the only operational crossing for humanitarian and commercial supplies and that limited medical evacuations/returns via Rafah resumed on 19 March. But neither set provides the official daily crossing counts, and both risk confusion with nonofficial or off-timeframe claims about aid trucks/goods. A is slightly cleaner; B has more misleading noise (June SIS item, dubious 397-travelers figure). Still, neither contains the needed official numbers, so neither better enables a correct answer in a meaningful way."
+}

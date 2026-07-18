@@ -1,0 +1,11 @@
+{
+  "id": 610,
+  "query": "Suno AI Series D June 2026 funding amount valuation investors copyright lawsuits Universal Sony GEMA",
+  "topic": "Suno AI",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A is somewhat incomplete for the full query: it does not explicitly mention GEMA in a high-reliability source, and one result (Chartlex) is a lower-authority secondary tracker. TechCrunch snippet is truncated and does not list investors, though Variety does. However, the core facts are accurate and consistent: $400M Series D, $5.4B valuation, investors led by Bond Capital with IVP, Forerunner, Union Square Ventures, Alkeon, and Quiet, and lawsuits involving Universal and Sony.",
+  "b_issues": "Content B contains likely inaccurate or unsupported claims that could mislead an LLM. The AI Insider result says Warner resolved its copyright claims in November via a licensing deal and mentions a jointly developed model with Warner; the Fortune snippet says Warner settled in November 2025 and Suno acquired Songkick as part of the deal. These claims are not supported by the anchor and appear dubious in this context. B also lacks any credible mention of GEMA, and several results are speculative pre-announcement or lower-reliability summaries rather than primary reporting on the actual June 2026 round.",
+  "reasoning": "A better enables a correct answer because it includes reliable, directly relevant reporting from TechCrunch and Variety that matches the anchor on the key facts: Suno raised $400 million in a June 2026 Series D at a $5.4 billion valuation, and the round included Bond Capital, IVP, Forerunner, Union Square Ventures, Alkeon, and Quiet. It also correctly notes the copyright lawsuits involving Universal and Sony. B has the core funding amount and valuation from TechCrunch, but it mixes in questionable or likely false claims about Warner settling and Songkick, which increases the risk of an incorrect answer. Since the question explicitly asks about funding, valuation, investors, and copyright lawsuits involving Universal, Sony, and GEMA, A is more accurate and less contradictory overall, even though neither set fully covers GEMA well."
+}

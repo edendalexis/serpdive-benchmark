@@ -1,0 +1,11 @@
+{
+  "id": 130,
+  "query": "BTS Arirang album 2026 Billboard Hot 100 lead single",
+  "topic": "BTS",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "",
+  "b_issues": "Includes weaker/less reliable evidence for the key fact: the top result is a local radio repost, another result is Instagram, and the strongest Billboard result shown is about Spotify records or Billboard 200 rather than explicitly stating the Hot 100 lead-single answer. The needed fact is only partially visible in snippets, making the answer less directly supported.",
+  "reasoning": "The question asks for the Billboard Hot 100 lead single from BTS' 2026 album ARIRANG. Content A explicitly provides this in multiple places: the Billboard result states “'Swim' debuts at No. 1 on Billboard Hot 100,” and the Wikipedia and Music Universe snippets both identify “Swim” as the lead single. These sources are internally consistent and include a highly reliable Billboard citation. Content B also points to “Swim,” but the support is weaker and less direct: the clearest statement comes from a radio-site snippet, while other results are Instagram or unrelated Billboard pieces. Therefore A better enables an LLM to answer correctly: the lead single was “Swim.”"
+}

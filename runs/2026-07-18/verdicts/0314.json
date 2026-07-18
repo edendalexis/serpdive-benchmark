@@ -1,0 +1,11 @@
+{
+  "id": 314,
+  "query": "Ursula von der Leyen March 2026 Iran Khamenei response credible transition rules-based order statement",
+  "topic": "Ursula von der Leyen",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor issue: the Euronews snippet is noisy and includes unrelated lines; however, A also includes the key Reuters result and consistent March 9 rules-based-order context from primary/reputable sources.",
+  "b_issues": "B lacks the Reuters article, which is the clearest and most reliable source for the March 2 'credible transition' statement. It instead relies on Euronews plus a YouTube snippet and Iran International, which are less authoritative for the core quote/context. The Euronews result frames the statement as 'regime change,' which could mislead an LLM away from the more precise Reuters wording that the lasting solution is diplomatic and entails a 'credible transition.'",
+  "reasoning": "A better enables a correct answer because it contains both core pieces needed for the query from strong sources: Reuters on March 2 stating that von der Leyen said the only lasting solution in Iran is diplomatic and that this means 'a credible transition for Iran,' and Consilium/Guardian on March 9 stating that the international/rules-based order is under stress and cannot be relied on alone. These results are accurate and mutually consistent with the anchor. B has some of the same later March 9 material, but it is missing the Reuters result and substitutes less reliable or less precise sources for the crucial March 2 statement, increasing the chance of an incorrect or distorted answer."
+}

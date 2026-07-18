@@ -1,0 +1,11 @@
+{
+  "id": 835,
+  "query": "Julian Assange public appearances statements after release 2025",
+  "topic": "Julian Assange",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Mostly off-target for 2025. Results focus on Assange's first post-release appearance in Oct. 2024 (Council of Europe/Strasbourg), not 2025. Includes weak/redundant YouTube snippets and only one result explicitly about a statement, but again from 2024. No reliable 2025 appearances such as Cannes, the pope funeral, or the Albanese statement are present.",
+  "b_issues": "Also mostly off-target for 2025. Results are concentrated on Oct. 2024 first comments/public appearance after release, not 2025. Although sources are generally more reliable than A (AP, DW, ABC, Politico, Washington Post), they do not provide the needed 2025 public appearances/statements.",
+  "reasoning": "The question asks about Julian Assange's public appearances/statements after release in 2025. The anchor indicates relevant 2025 facts include his Cannes presence around a documentary, his wife saying he was recovered but not yet speaking publicly, his April 2025 appearance at Pope Francis's funeral, and a May 2025 statement praising Anthony Albanese. Neither result set contains those 2025 facts. Both instead provide solid information about his first post-release public remarks in Strasbourg on Oct. 1, 2024, which is after release but not in 2025. Since neither set enables an LLM to answer the 2025-focused question correctly from the content alone, the best verdict is a tie."
+}

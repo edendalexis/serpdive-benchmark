@@ -1,0 +1,11 @@
+{
+  "id": 274,
+  "query": "Bukele MS-13 extraditions blocked ProPublica report 2025 U.S. investigation",
+  "topic": "Nayib Bukele",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A is mostly accurate and includes the key ProPublica article, but some supporting results are weaker or potentially problematic for grounding: one result appears to be a secondary summary with a mismatched publication date/context ('published on September 30') and another is an interpretive WPR summary rather than primary reporting. A’s snippet from the main ProPublica result mentions that Trump 'effectively undercut the Vulcan investigation' and that one MS-13 leader was deported, but it does not clearly surface the money-laundering/USAID inquiry or the persecution of Salvadoran officials that are central to the 2025 ProPublica report.",
+  "b_issues": "Content B includes lower-reliability results such as YouTube, Threads, and Reddit, which are not ideal sources. However, these do not materially contradict the main facts, and the top ProPublica result is accurate and highly on point.",
+  "reasoning": "B better enables a correct answer because its top ProPublica snippet directly states the core facts from the 2025 report: Bukele’s senior officials repeatedly impeded the U.S. task force investigation, secretly blocked extraditions of MS-13 leaders viewed as potential witnesses, persecuted Salvadoran law-enforcement officials who assisted, and the probe included a USAID-related money-laundering inquiry into Bukele and senior officials. That is very close to the anchor. A also points to the same ProPublica article and is broadly accurate, but its snippet is less complete for the likely question because it emphasizes blocked extraditions and Trump undercutting the Vulcan investigation while omitting some of the most important details surfaced in the anchor. So B provides the more directly answerable factual payload from reliable primary reporting."
+}

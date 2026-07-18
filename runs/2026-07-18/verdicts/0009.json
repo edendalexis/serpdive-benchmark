@@ -1,0 +1,11 @@
+{
+  "id": 9,
+  "query": "Delcy Rodriguez interim Venezuela state of emergency duration end date National Assembly decree",
+  "topic": "Venezuela election crisis",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A does not directly provide the specific decree details the query seems to seek. It includes an AP-derived item about Rodríguez’s acting presidency and the 90-day constitutional limit, but not the National Assembly’s approval date or the end date of the emergency decree. It also contains noisy/possibly misleading results: a YouTube snippet about an earthquake emergency, a Reuters earthquake item unrelated to the likely economic-emergency decree, and Wikipedia, which is less reliable. The available AP-derived snippet says lawmakers had not publicly voted to extend her term, which may leave ambiguity if the question expects an Assembly decree.",
+  "b_issues": "Content B likewise lacks the core decree facts. It gives the AP-derived 90-day acting-presidency limit and notes the National Assembly can extend it for another 90 days, but does not provide the actual decree’s duration or end date. It also includes an unrelated Reuters earthquake emergency item and a Wikipedia page, adding noise. The Security Council Report snippet only says Rodríguez was reportedly sworn in as interim president and does not answer the decree question.",
+  "reasoning": "Neither set clearly contains the facts needed to answer a question about Delcy Rodríguez, the state-of-emergency duration, its end date, and a National Assembly decree. Both mainly provide the AP-derived fact that her acting presidency had a 90-day limit, with B adding that the Assembly can extend it another 90 days. But neither includes the Reuters-style economic emergency decree details from the anchor, such as the decree duration or when it would end. Since both are similarly incomplete and contaminated by unrelated earthquake-emergency results, neither better enables a correct answer."
+}

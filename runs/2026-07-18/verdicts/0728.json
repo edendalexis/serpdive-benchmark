@@ -1,0 +1,11 @@
+{
+  "id": 728,
+  "query": "Temu illegal hazardous products EU investigation specific products defective chargers toxic baby toys enforcement statement 2025",
+  "topic": "Temu",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Most results in A are about the later 2026 EU fine rather than the 2024/2025 investigation stage implied by the query, so timing is somewhat off. One DW snippet appears internally inconsistent, saying the EU began scrutiny in October 2024 but also that an investigation found in July last year that Temu had breached rules. A includes secondary-report snippets rather than the primary European Commission press release or Reuters/BEUC directly, so precision is limited.",
+  "b_issues": "B does not provide the needed facts. Its top result is Wikipedia with only broad mention of investigations over toxic substances and DSA breaches, without the specific products, enforcement statement, or investigation details. The other results are Temu social pages, the App Store, and Temu’s own site, which are irrelevant or unreliable for answering the query. B lacks the key facts about defective chargers, toxic baby toys, EU enforcement, and the 2025 context.",
+  "reasoning": "A better enables a correct answer because it contains the core facts the question is asking about: EU enforcement against Temu over illegal/unsafe products; specific examples such as dangerous baby toys, faulty/unsafe chargers, toxic or hazardous toys, and unsafe electronics; and statements that EU investigators found consumers likely to encounter illegal items, including through mystery shopping and safety tests. These facts align with the anchor’s Reuters/AP/Commission/BEUC references, even though A mostly reflects later reporting on the outcome rather than the initial investigation. B, by contrast, lacks the necessary factual content and mostly returns irrelevant or non-authoritative pages, so an LLM relying on B alone would be unlikely to answer correctly."
+}

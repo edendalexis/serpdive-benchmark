@@ -1,0 +1,11 @@
+{
+  "id": 146,
+  "query": "Red Lobster international franchise deals branded retail products Cheddar Bay Biscuit mixes 2025",
+  "topic": "Red Lobster",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A does not directly address 'international franchise deals' and only indirectly addresses branded retail products. It includes bankruptcy/news coverage and a 2021 retail-launch item rather than 2025-specific franchise information. Some results are tangential to the query.",
+  "b_issues": "Content B is mostly retailer product listings for Cheddar Bay Biscuit mix and does not address international franchise deals or broader branded retail product strategy. It provides almost no contextual facts beyond product availability and pack sizes.",
+  "reasoning": "A is better because it contains at least some reliable, factual material relevant to the query’s branded retail products portion: the official Red Lobster At Home product page confirms the Cheddar Bay Biscuit mix exists as a branded retail product, and the Time/USA Today/Food Business News items provide additional context that the retail line continued and had been expanded. B is largely just ecommerce listings, which confirm the mix is sold but add no useful information about international franchise deals and little about branded retail products beyond availability. Neither set contains the key facts needed to answer the full query about international franchise deals in 2025, but A better supports a partially correct answer from more reliable and contextual sources."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 823,
+  "query": "Sparrows Point Container Terminal Port of Baltimore groundbreaking year acres partners",
+  "topic": "Port of Baltimore",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A includes the key acreage and partners, and one result implies the groundbreaking already happened, but it does not clearly provide the groundbreaking year in the snippets shown. The strongest date-like detail is the FAQ snippet mentioning the JV announcement in October 2022, which could mislead an LLM into confusing partnership announcement year with groundbreaking year. Sources are mostly fine, but the result set lacks an explicit year-bearing snippet for the groundbreaking.",
+  "b_issues": "Content B is generally strong, but one source (Westside Construction Group blog) is less authoritative than the governor press release and repeats additional claims not needed for the query. The governor result snippet shown does not display the date directly, though the URL slug and the WorldCargo result make the 2026 groundbreaking inferable. No major contradictions are present.",
+  "reasoning": "The question asks for groundbreaking year, acres, and partners. Content B contains all of these more explicitly and reliably: SPCT is a joint venture between Tradepoint Atlantic and Terminal Investment Limited (TiL), the terminal is 168 acres, and WorldCargo states that on 1 May Tradepoint Atlantic and TiL broke ground in 2026. The governor press release in B is a highly reliable source reinforcing the same facts. Content A has the acres and partners, but the snippets shown do not clearly state the groundbreaking year; the October 2022 FAQ snippet could cause confusion because that is the JV announcement year, not the groundbreaking year. Therefore B better enables a correct answer."
+}

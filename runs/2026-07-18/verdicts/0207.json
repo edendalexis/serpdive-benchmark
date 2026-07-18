@@ -1,0 +1,11 @@
+{
+  "id": 207,
+  "query": "Shohei Ohtani activated National League All-Stars July 2026 date after knee",
+  "topic": "Shohei Ohtani",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A does not directly answer the apparent target fact about who was activated among the National League All-Stars or the exact activation date. It mainly covers Ohtani being scratched, missing the All-Star Game, and expected recovery timing. Some secondary sources are lower reliability, but MLB.com and LA Times align with the anchor. No major internal contradiction is evident.",
+  "b_issues": "Content B includes mostly tangential results about All-Star introductions and Ohtani being named a starter before he withdrew. It lacks the key follow-up fact about replacement/activation after his knee issue. One result discusses Dave Roberts activating Bryce Harper during the game, which is unrelated and risks confusing the query term 'activated National League All-Stars.' Overall it provides less direct and less complete evidence for the answer.",
+  "reasoning": "A better enables a correct answer because it contains reliable, directly relevant reports that Ohtani missed the 2026 All-Star Game due to left knee irritation and that his knee would be drained Sunday, with MLB.com specifically noting he would have four full days to recover before the Dodgers opened the second half on July 17. B has some correct background that Ohtani had been voted the NL starting DH and later would not participate because of the knee issue, but it does not provide the crucial follow-up facts implied by the query and includes an unrelated 'activated Harper' snippet that could mislead an LLM. Neither set perfectly answers the full question, but A is clearly closer and more accurate for the relevant injury/date facts."
+}

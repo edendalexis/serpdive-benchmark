@@ -1,0 +1,11 @@
+{
+  "id": 505,
+  "query": "Intel Foundry advanced packaging Amkor partnership E-IB capabilities EMIB-T Foveros-R Foveros-B technical specifications",
+  "topic": "Intel Foundry",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "A includes a low-reliability X/Twitter snippet as the only place mentioning EMIB-T and Foveros-R/B, and that snippet gives only a fragment ('EMIB-T, improving power delivery, signaling...' and 'Foveros-R/B') without authoritative context. A also includes an Intel packaging page snippet that appears to mention 'Foveros-S 2.5D' rather than the queried Foveros-R/B, which could confuse the model. It does not provide technical specifications for E-IB/EMIB-T/Foveros-R/Foveros-B beyond very general packaging descriptions.",
+  "b_issues": "B still lacks detailed technical specifications for E-IB/EMIB-T/Foveros-R/Foveros-B. The Intel packaging page snippet is extremely sparse, and the press-release excerpt only states that EMIB-T is for future HBM needs and Foveros-R/B are new options, without specs. One result is a secondary TechPowerUp article with speculative ecosystem context not needed for the answer.",
+  "reasoning": "B better enables a correct answer because it contains two key authoritative facts from reliable primary sources: (1) the Intel Newsroom press release explicitly says Intel announced EMIB-T and new Foveros architecture additions Foveros-R and Foveros-B, and that EMIB-T is intended to enable future high-bandwidth-memory needs; and (2) the Amkor post clearly states the Intel-Amkor partnership is focused on EMIB assembly and expands capacity in Korea, Portugal, and the United States. These are directly relevant to the query and come from Intel and Amkor. By contrast, A has the same Amkor partnership fact, but for EMIB-T and Foveros-R/B it relies mainly on a fragmentary X post rather than an Intel primary source, making it less reliable and less complete. Neither set really contains the requested technical specifications, but B is more authoritative and less likely to mislead."
+}

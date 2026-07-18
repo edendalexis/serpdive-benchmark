@@ -1,0 +1,11 @@
+{
+  "id": 800,
+  "query": "Microsoft Build 2026 Scout Autopilot Copilot features announcement date",
+  "topic": "Satya Nadella",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Result 1 is too generic and does not surface the key fact directly. The snippets do not explicitly say 'announced at Microsoft Build 2026 on June 2, 2026,' but result 2 gives the official Microsoft 365 Blog URL dated 2026/06/02 and identifies Scout as the first Autopilot agent. Some feature details are sparse in the snippets.",
+  "b_issues": "Top results rely heavily on secondary or unofficial sources such as YouTube and blogs. While they mention Scout, Autopilots, and Build 2026, they are less authoritative than Microsoft's own announcement. The snippets also do not consistently give a clear official announcement date/source pairing, and there is more risk of paraphrase or interpretation drift.",
+  "reasoning": "Content A better supports a correct answer because it includes the official Microsoft 365 Blog post 'Introducing Microsoft Scout: Your always-on personal agent' with the dated URL 2026/06/02, which directly anchors the announcement date as June 2, 2026. Its snippet also explicitly states that Microsoft Scout is Microsoft's first Autopilot agent and ties it to Microsoft 365/Copilot context. Content B contains relevant facts too, but mostly through secondary sources and a YouTube recap; those are less reliable for establishing the exact announcement date. Therefore A more reliably enables an LLM to answer that Microsoft announced Scout/Autopilot/Copilot-related features at Build 2026 on June 2, 2026."
+}

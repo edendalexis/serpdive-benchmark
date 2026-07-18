@@ -1,0 +1,11 @@
+{
+  "id": 698,
+  "query": "Mark Rutte NATO Secretary General Coalition Willing Paris meeting July 2026 Ukraine statements",
+  "topic": "NATO",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor issues only: one result is from January 2026 and another from November 2026, so not all hits are about the July 13, 2026 Paris meeting. Reuters snippet is only a preview. But A includes the key NATO and co-chairs statements with relevant facts and no meaningful contradiction.",
+  "b_issues": "B is much less complete for answering the question from search results alone. The NATO result is mostly image-caption text and omits the substantive statement details. Reuters only covers the pre-meeting announcement and agenda, not the post-meeting statements. Other results are low-value media/video items. So key facts about what Rutte said at the July 13, 2026 meeting are largely missing.",
+  "reasoning": "Content A better supports a correct answer because it contains the central authoritative source: the NATO July 13, 2026 article stating that Mark Rutte attended the Coalition of the Willing meeting in Paris, referenced the Ankara summit’s reaffirmation of unwavering support for Ukraine, noted pledges of 70 billion euros in military equipment/assistance/training for 2026 and at least that in 2027, urged continued donations to strengthen Ukraine’s air and missile defence, and mentioned the Anti Ballistic Missile Coalition meeting with Zelenskyy and Macron. A also includes the Elysee/co-chairs statement confirming the Paris meeting and support-for-Ukraine framing. By contrast, B mostly provides a Reuters advance notice plus a degraded NATO page lacking the substantive text, so an LLM would be less able to answer the question accurately from B alone."
+}

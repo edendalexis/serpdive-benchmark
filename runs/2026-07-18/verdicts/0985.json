@@ -1,0 +1,11 @@
+{
+  "id": 985,
+  "query": "Google I/O 2026 keynote announcements Gemini Android cloud May 19",
+  "topic": "Sundar Pichai",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A is weak for answering the query from search results alone: it lacks a direct authoritative recap of the May 19 keynote announcements. The top result is a live-updates page with mostly schedule/context, not concrete announcements. Another result is a Facebook snippet with speculative/expected items rather than confirmed announcements. The YouTube result is authoritative but only provides chapter headings, so it does not clearly surface the actual announced facts about Gemini, Android, or cloud. There is no clear Google Blog keynote/recap result in A, so an LLM would have to infer too much.",
+  "b_issues": "Content B includes some less reliable/secondary material (sheets.works and a Substack post) and one result is the Developer keynote rather than the main opening keynote. However, it also contains an official Google Blog recap ('100 things we announced at Google I/O 2026') and an official Developers Blog post. The sheets.works snippet includes some potentially noisy or hard-to-verify phrasing ('Gemini 3', 'Pics is a new memory layer') that could mislead if over-weighted.",
+  "reasoning": "B better enables a correct answer because it contains official Google sources with substantive announcement details from I/O 2026. In particular, the Google Blog recap explicitly says I/O 2026 unveiled new models, agents and tools, and mentions concrete items like audio glasses arriving in fall and compatibility with Android/iOS; the Developers Blog confirms Gemini 3.5 and Antigravity announcements and Android-related developer tooling. These directly support answering a query about keynote announcements on May 19 involving Gemini, Android, and cloud/developer platform themes. By contrast, A mostly offers a live blog, a Facebook teaser/speculation snippet, and a YouTube video chapter list, which provide much less explicit factual content about what was actually announced. So B gives an LLM more accurate, answer-bearing facts from reliable sources."
+}

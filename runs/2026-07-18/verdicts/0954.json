@@ -1,0 +1,11 @@
+{
+  "id": 954,
+  "query": "TikTok Shop US sales growth percentage year over year 2025 total product listings count",
+  "topic": "TikTok Shop",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Content A contains no clear result giving the 2025 year-over-year US sales growth percentage together with the total product listings count. It has conflicting or weakly sourced sales figures: Sprout Social says US sales were $15.82B in 2025, while the anchor indicates 2025 US GMV was $15.1B and 68% YoY growth. Other results mention 48% YoY growth for 2026, 201% YoY growth for active sales shops in 2024, and projected 200%/218% growth figures that are not the asked metric. It also substitutes shop/seller counts for product listings count.",
+  "b_issues": "Content B also does not clearly provide the requested pair of facts. It has contradictory growth numbers: 66% for small-business sales, 120% annual growth in sales, 108% YoY US sales growth to $15.82B, 70% YoY for small-business sales, and 80% sales growth in a LinkedIn snippet. These conflict with each other and with the anchor’s 68% US GMV growth. It likewise provides shop/seller counts (215,000 small businesses, 475,000 US shops) rather than a total product listings count.",
+  "reasoning": "Neither result set reliably enables an LLM to answer the question correctly from the content alone. The question asks for TikTok Shop US sales growth percentage year over year in 2025 and the total product listings count. In both A and B, the product-listings figure is missing; the snippets only mention sellers, shops, or small businesses. For the sales-growth percentage, both sets are noisy and inconsistent. A includes a 2025 US sales figure ($15.82B) but not a trustworthy 2025 YoY growth number; B includes several mutually inconsistent growth percentages (66%, 70%, 80%, 108%, 120%) and none is clearly the overall US 2025 GMV growth cited by the anchor (68%). Since both fail on the key 'total product listings count' fact and both are factually inconsistent on growth, neither is better."
+}

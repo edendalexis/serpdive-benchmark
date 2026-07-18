@@ -1,0 +1,11 @@
+{
+  "id": 142,
+  "query": "Red Lobster restaurant closures list locations 2025 2026",
+  "topic": "Red Lobster",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A is weak for the stated query because it does not provide an actual closures list for 2025/2026. Most useful detail is scattered across one SeafoodSource snippet naming a few 2026 closures (Michigan/Texas generally, Tallahassee FL, Chambersburg PA, Overland Park KS, Independence KS, planned Times Square NY), but there is no consolidated list and several results are about 2024 closures instead. The Hill result is explicitly about nearly 100 locations from the 2024 bankruptcy wave, not 2025/2026. One snippet appears inaccurate/confused: 'the chain’s Orlando, Florida location lost $76 million in 2023' is almost certainly referring to the Endless Shrimp promotion/company losses, not a single restaurant. Overall A mixes old 2024 closure coverage with a few 2026 items and leaves the user unable to answer a 'list locations 2025 2026' request cleanly.",
+  "b_issues": "Content B also mixes time periods and includes lower-reliability material. The Reddit result is not a reliable source. The 6abc/CBS/The Hill snippets about 'another 23 restaurants' refer to 2024 bankruptcy-related additional closures, not 2025/2026 closures, so they are temporally mismatched for the query. It does not provide a comprehensive 2025/2026 list either. However, its top result correctly reflects the Feb. 2026 reporting that dozens more locations may close.",
+  "reasoning": "B better enables a correct answer because it at least surfaces the key 2026 fact aligned with the anchor: in Feb. 2026 Red Lobster said dozens more closures may happen. A has some accurate 2026 closure examples, but it is noisier and more misleading overall because it heavily surfaces 2024 closure-list material and includes a clearly suspect snippet about an Orlando location losing $76 million. Neither set fully answers a request for a 2025/2026 locations list, but B is slightly better because it includes direct list-style results for additional closures and the core 2026 development, whereas A lacks a usable list and is more internally muddled."
+}

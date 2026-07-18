@@ -1,0 +1,11 @@
+{
+  "id": 665,
+  "query": "Ilya Sutskever NeurIPS Test of Time Award consecutive National Academy Sciences Award 2026",
+  "topic": "Ilya Sutskever",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A includes reliable NAS sources confirming that Ilya Sutskever received the 2026 NAS Award for the Industrial Application of Science, but it does not clearly establish the 'consecutive NeurIPS Test of Time Award' part. The only NeurIPS-related item is an X/Twitter snippet about one paper winning, which is not enough to support consecutive wins or the count implied by the query.",
+  "b_issues": "Content B includes reliable NeurIPS sources showing Sutskever was part of the 2023 Test of Time winner and 2024 winner, but it does not provide the 2026 National Academy of Sciences award fact at all. It also does not establish the full consecutive span implied by the query (e.g., 2022–2024), only 2023 and 2024.",
+  "reasoning": "Neither set alone contains enough grounded information to answer the combined query correctly. A is strong on the NAS 2026 award via authoritative NAS sources, but weak on the NeurIPS consecutive-award claim. B is strong on NeurIPS Test of Time award evidence from the official NeurIPS blog, but lacks the NAS 2026 award fact entirely. Since each set is missing a necessary half of the answer, neither better enables a complete correct answer from its content alone."
+}

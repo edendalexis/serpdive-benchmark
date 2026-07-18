@@ -1,0 +1,11 @@
+{
+  "id": 506,
+  "query": "Intel Foundry 18A-P risk production entry date 2026 performance thermal characteristics customer timeline",
+  "topic": "Intel Foundry",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Includes one questionable/low-value result (gulfsqas.com) and some secondary-source snippets rather than the full primary Intel text. However, the key facts are present and consistent: Intel 18A-P entered risk production on June 16, 2026 / at VLSI 2026, it met the customer timeline first shared last year, and performance/thermal details are supplied by Futurum and InsiderFinance. No major internal contradiction.",
+  "b_issues": "Has the primary Intel source, but the snippets expose fewer of the technical facts needed by the query. It clearly states risk production and that the customer timeline was met, but provides less direct detail on thermal characteristics and performance in the Intel result itself; those details rely mostly on one secondary Futurum snippet. Also includes a low-information LinkedIn post and a general TechTimes explanation of risk production rather than more factual process specifics.",
+  "reasoning": "The question asks for Intel Foundry 18A-P risk-production entry date in 2026, performance, thermal characteristics, and customer timeline. Content A better supports a correct answer because it contains all of these elements explicitly across its snippets: the Intel Newsroom result anchors the milestone; Futurum states 18A-P is in risk production, on schedule, with 9% higher performance or 18% lower power, plus 20–40% improved thermal resistance and timeline alignment with what customers were told last year; InsiderFinance repeats the June 16, 2026 date and mentions enhanced thermal characteristics. Content B also supports much of the answer, especially the date/timeline and the 9%/18% figures, but it is weaker on the thermal specifics and includes more low-information results. Since A more completely covers the exact facts asked without meaningful contradiction, A better enables the LLM to answer correctly."
+}

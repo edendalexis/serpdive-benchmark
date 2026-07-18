@@ -1,0 +1,11 @@
+{
+  "id": 982,
+  "query": "Sundar Pichai contempt of court Mumbai YouTube video details charges 2026",
+  "topic": "Sundar Pichai",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Contains some inconsistencies in dates across snippets: LiveMint says the notice was issued on November 21 and refers to a March 2023 removal order, while the TOI snippet says the order was issued on November 21, 2023 and refers to a March 2022 directive. The TOI snippet also includes an apparently irrelevant line about a WinZO complaint/CCI penalties, which could distract or confuse. However, A still includes key facts absent from B: the video title ('Pakhandi Baba ki Kartut'), the complainant (Dhyan Foundation), founder named (Yogi Ashwini), the allegation that the video remained visible outside India, YouTube's immunity argument under the IT Act/Section 69-A, and a hearing date.",
+  "b_issues": "Much more sparse and incomplete. It largely repeats that Pichai got a contempt notice over failure to remove a defamatory YouTube video against Dhyan Foundation, but omits several question-critical details present in the anchor and in A, including the video title, legal arguments/charges details, visibility outside India, and procedural specifics. Because the snippets are so abbreviated, they do not sufficiently support a detailed answer.",
+  "reasoning": "A better enables a correct answer because it contains more of the anchor-aligned facts needed to answer the query: Mumbai court/ACJM Ballard Pier, contempt notice to Sundar Pichai over YouTube's failure to remove the allegedly defamatory 'Pakhandi Baba ki Kartut' video, complaint by Dhyan Foundation against content targeting it and founder Yogi Ashwini, and YouTube's defense invoking IT Act immunity/Section 69-A. Although A has internal date inconsistencies and one noisy snippet, it still provides substantially more actionable detail than B. B is mostly accurate at a high level but too thin to answer the 'video details' and 'charges/details' parts of the question from the content alone."
+}

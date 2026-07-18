@@ -1,0 +1,11 @@
+{
+  "id": 664,
+  "query": "Ilya Sutskever 2025 interview regret OpenAI board Sam Altman ouster",
+  "topic": "Ilya Sutskever",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Mostly returns 2023 coverage of Sutskever regretting his role in Altman's ouster, not a 2025 interview. It lacks the 2025-specific interview/deposition material implied by the query, so an LLM could answer only the older regret statement and might miss newer context. No major internal contradiction is evident.",
+  "b_issues": "Also mostly returns 2023 coverage of Sutskever's regret statement, not a 2025 interview. Includes lower-reliability Reddit results among the top hits, which add little and could distract. Like A, it lacks the 2025-specific interview/deposition material implied by the query. No major internal contradiction is evident.",
+  "reasoning": "The key fact needed is that Sutskever said he 'deeply regrets' his participation in the board's actions that ousted Sam Altman. Both A and B contain that fact from credible 2023 reporting, especially Axios and Mashable. However, the query specifically mentions a 2025 interview, and neither result set surfaces the 2025 interview/deposition/article shown in the anchor. Because both sets are similarly incomplete on the 2025 aspect yet still support the core regret fact, neither clearly enables a more correct answer than the other."
+}

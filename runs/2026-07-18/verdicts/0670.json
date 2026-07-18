@@ -1,0 +1,11 @@
+{
+  "id": 670,
+  "query": "Kamala Harris memoir title published September 23 2025",
+  "topic": "Kamala Harris",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "No major factual flaw for this query. One result truncates the date as 'Sept.' without the day, but other A results clearly identify the title as '107 Days' and give the September 23, 2025 release date. Sources include Wikipedia and local/news outlets rather than the primary publisher page.",
+  "b_issues": "No major factual flaw for this query. Wikipedia snippet only mentions a September 23 release date without explicitly restating the year in that snippet, though other B results do specify Sept. 23, 2025 and the title '107 Days.' Includes a likely reliable publisher-business page snippet but not the main retail/publisher page.",
+  "reasoning": "Both result sets contain the needed facts to answer the question correctly: Kamala Harris's memoir title is '107 Days,' and it was published/released on September 23, 2025. In A, Wikipedia explicitly says it was released by Simon & Schuster on September 23, 2025, and KCRA names the book '107 Days.' In B, NPR and AP clearly identify the new book as '107 Days,' and AP says it will be published by Simon & Schuster on Sept. 23; the Simon & Schuster business page also supports the title. Neither set presents a meaningful contradiction, and both are sufficient for an LLM to answer correctly."
+}

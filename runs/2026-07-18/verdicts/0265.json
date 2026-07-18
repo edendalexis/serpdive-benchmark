@@ -1,0 +1,11 @@
+{
+  "id": 265,
+  "query": "2026 NBA Finals schedule adjustment FIFA World Cup no Sunday games first time since 1970",
+  "topic": "NBA Finals",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Includes some lower-reliability/aggregator sources (Legit.ng, Yahoo/The Spun) and one snippet is truncated, but the key facts are consistent across results and supported by stronger outlets like The Athletic and Sports Business Journal.",
+  "b_issues": "Contains weaker and noisier evidence. The NBA.com result snippet is essentially irrelevant. The Wikipedia snippet appears to reflect a future/completed 2026 Finals and mixes in post-event details unrelated to the query, which could confuse an LLM. Source set is less reliable overall and gives less direct support for the specific scheduling rationale.",
+  "reasoning": "Content A better supports a correct answer because it directly states the crucial facts multiple times: the 2026 NBA Finals were moved to start June 3, there will be no Sunday games, this is the first time since 1970, and the adjustment was made to avoid conflict with the 2026 FIFA World Cup—specifically the U.S. vs. Paraguay match on June 12. These points align with the anchor and are reinforced by relatively strong sources such as The Athletic and Sports Business Journal. Content B also contains some of these facts, but its evidence is less reliable and more confusing: one result is irrelevant, and the Wikipedia snippet injects unrelated future-series outcome details that could distract or mislead the model. Therefore A more cleanly and reliably enables the LLM to answer the question correctly."
+}

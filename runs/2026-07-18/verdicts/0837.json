@@ -1,0 +1,11 @@
+{
+  "id": 837,
+  "query": "Julian Assange Belmarsh release exact days in custody 1901 source UK court records June 2024",
+  "topic": "Julian Assange",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "A does not include the strongest primary UK court source establishing the release/order dates; its 1901-days figure comes from advocacy/media-style sources (PEN, Business Insider, Hollywood Reporter, social post) rather than court records. It also includes a likely irrelevant Dutch parliamentary PDF result. Still, multiple A results explicitly state release on 24 June 2024 and 1,901 days in Belmarsh.",
+  "b_issues": "B lacks the key exact fact asked for: none of the shown snippets states 1,901 days in custody. Its closest court-related result is a March 2024 judgment predating the June 2024 release, so it does not support the release/custody-days claim. Other results are secondary commentary saying 'five years' or giving a timeline, which is less exact than requested.",
+  "reasoning": "The question asks about Julian Assange’s Belmarsh release and the exact days in custody, specifically 1,901, with a June 2024 UK-court-records framing. Content A is better because it directly contains the needed exact number and release date in several snippets: released on 24 June 2024 after 1,901 days in Belmarsh. Content B does not provide the exact 1,901-day figure in the visible results, and its only judiciary result is from March 2024, before the release. Neither set is ideal on the 'UK court records' aspect, but A better enables a correct answer from the provided content alone because the core factual answer is actually present there."
+}

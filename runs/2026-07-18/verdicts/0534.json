@@ -1,0 +1,11 @@
+{
+  "id": 534,
+  "query": "Barbie Fashion Week Paris Milan New York dolls September 2026 price face sculpts",
+  "topic": "Barbie",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A is missing key facts needed for the query: no price information, no release timing, and no reliable face sculpt details beyond YouLoveIt's outdated/incorrect labeling of New York as Teresa. It also includes an irrelevant Fashion Week tickets result unrelated to Barbie dolls. Because A only surfaces the YouLoveIt New York page, it leaves the likely false impression that the New York doll uses the Teresa sculpt and gives no help on Paris/Milan sculpts or September/2026 timing.",
+  "b_issues": "Content B still has some inaccuracies/conflicts: it includes YouLoveIt's New York page, which calls the doll Teresa, conflicting with the anchor that New York was updated to Neysa. It also has conflicting price/release snippets ($50 each / around $48 late August on Instagram vs $60 in April on Facebook). Some sources are low-reliability social/community posts rather than official listings. It does not explicitly provide all three face sculpts in the snippets.",
+  "reasoning": "B better enables a correct answer because it contains crucial facts absent from A: approximate price and release timing via the Instagram result ('around $48 each,' matching the anchor's $50 each, and late-August/update context) plus community evidence of launch timing. A lacks price entirely and gives only an outdated New York Teresa description plus an irrelevant fashion-week-tickets page. Although B has contradictions, it at least surfaces the key pricing/release information and the Instagram source most aligned with the anchor; an LLM could use that to answer more accurately than from A alone."
+}

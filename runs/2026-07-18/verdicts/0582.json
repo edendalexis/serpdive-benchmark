@@ -1,0 +1,11 @@
+{
+  "id": 582,
+  "query": "FTX independent board CEO John Ray III governance structure formation date 2026",
+  "topic": "FTX",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Results are mostly generic news/profile pieces and do not provide the specific formation date of the FTX independent board/governance structure. One result is low-quality/irrelevant to the query (Finance Magnates snippet polluted with unrelated 2026 news headlines). Fortune mentions an 'independent board' approving Ray's bonus in a December meeting, but does not state when that board/governance structure was formed. No result clearly ties John Ray III, the independent board, and a formation date.",
+  "b_issues": "Results are weaker and more generic than A: Wikipedia, WSJ profile, governance commentary, Instagram, and CNBC do not provide the specific formation date of any FTX independent board/governance structure. Sources like Instagram are low reliability for this purpose. No result clearly states when the relevant governance structure was formed.",
+  "reasoning": "The question appears to require a specific factual detail: the formation date of an FTX independent board/governance structure associated with CEO John Ray III. The anchor indicates the relevant answer likely comes from bankruptcy/restructuring documents about the later FTX Recovery Trust/board structure, but neither result set includes that document or any source stating the formation date. A is slightly closer because it at least references an 'independent board' in the Fortune snippet, but it still does not supply the actual date. B lacks even that. Since neither set contains the needed fact clearly enough for an LLM to answer correctly from the provided content alone, the correct verdict is a tie."
+}

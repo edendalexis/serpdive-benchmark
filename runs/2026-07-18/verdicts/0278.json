@@ -1,0 +1,11 @@
+{
+  "id": 278,
+  "query": "El Salvador 2027 synchronized national elections Bukele constitutional reform shortened current term six-year presidency latest",
+  "topic": "Nayib Bukele",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Content A contains one low-reliability/advocacy source (Democratic Erosion) and one niche constitutional commentary source; the Tico Times snippet has irrelevant noise at the end. But the core facts are present and not materially contradictory: 2025 constitutional reform removed term limits, extended the presidency to six years, and shortened Bukele’s current term to move elections to 2027.",
+  "b_issues": "Content B relies more on secondary/less authoritative outlets overall and lacks a top-tier wire/AP/BBC result in the returned set, though France24/AFP and Straits Times are solid. There is a minor inconsistency on the exact month of the 2027 vote: Straits Times says 2027 generally, Confidencial says 2027, while France24 says March 2027; the anchor/Wikipedia indicate 28 February 2027. This does not change the main answer but could mislead on date precision.",
+  "reasoning": "Both result sets give the key facts needed to answer the query: El Salvador approved constitutional changes allowing indefinite presidential re-election, extended presidential terms from five to six years, and shortened Bukele’s current term so the next presidential election would be synchronized with legislative and municipal elections in 2027. A has especially strong corroboration via BBC and ABC/AP-derived coverage, plus a recent 2026 result explicitly tying the reform to Bukele’s third-term path. B also clearly states the synchronization rationale and shortening of the current term, with multiple results repeating the same facts. Neither set contains a material contradiction about the substance of the reform, and both are sufficient for a correct answer. Therefore, neither clearly outperforms the other on answerability."
+}

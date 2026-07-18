@@ -1,0 +1,11 @@
+{
+  "id": 381,
+  "query": "Meta Iris AI chip manufacturing start date plan",
+  "topic": "Meta",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Mostly accurate and consistent with the anchor: multiple results state Meta plans to begin manufacturing/production of the Iris AI chip in September 2026. Minor issues: includes lower-reliability sources (Reddit, BigGo, The Veritas) and one result says the goal is 14 gigawatts 'next year' while another phrases it as 'by 2027,' but this does not affect the start-date answer.",
+  "b_issues": "Mostly accurate and consistent with the anchor: featured snippet and several results state production/manufacturing starts in September 2026. Minor issues: some sources are less direct or lower reliability (Times Now, Mexico Star, StreetInsider, The Veritas), and wording like 'establish a manufacturing unit' is imprecise. There is also slight variance around timing of the 14-gigawatt plan ('by 2027' vs other phrasings), but not on the manufacturing start date.",
+  "reasoning": "Both result sets clearly contain the key fact needed to answer the question: Meta planned to start manufacturing/put into production its Iris AI chip in September 2026. In A, the top Yahoo/Reuters-derived result states this directly, and Quartz repeats it. In B, the featured snippet states it directly, and CNBC/Quartz corroborate it. Neither set materially contradicts the anchor on the core fact, and both provide enough reliable information for an LLM to answer correctly. Therefore, they enable the answer equally well."
+}

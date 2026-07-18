@@ -1,0 +1,11 @@
+{
+  "id": 491,
+  "query": "2026 Wimbledon qualifying matches on-site schedule expansion 8000 seat stadium progress",
+  "topic": "Wimbledon",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "A has weaker source quality and poorer coverage of the 'progress' part of the question. Its best directly relevant item is a YouTube repost/summary of a BBC story rather than the original article. It does establish that qualifying is still at Roehampton in 2026 and that the purpose of the expansion is to host qualifying on-site, with an 8,000-seat stadium and 38 courts, but it lacks a clear update on project progress in 2026. The PDF schedule result is not actually about the expansion project and could distract. Overall, A does not clearly connect schedule/location + expansion status as well as B.",
+  "b_issues": "B contains a likely inconsistency: one result says the project will include 39 new grass courts, while Forbes/Yahoo say 38 new courts. Otherwise the core facts are aligned: qualifying remains at Roehampton in 2026, the expansion would bring qualifying on-site, includes an 8,000-seat stadium/show court, and the project cleared a major legal obstacle in March 2026 and is still moving toward final approvals.",
+  "reasoning": "B better enables a correct answer because it directly covers all parts of the query from credible sources: the 2026 qualifying schedule/location (Olympics.com says qualifying runs 22-25 June; The Athletic/Yahoo indicate it is still at Roehampton), the intended on-site move of qualifying as part of the expansion, the 8,000-seat stadium, and the project's progress (Forbes says it is moving toward final legal approvals; The Athletic says AELTC cleared its biggest legal obstacle in March 2026). A has some of the same facts, but its evidence for project progress is much weaker and less directly sourced. Despite the 38-vs-39 courts discrepancy, B is still the stronger set for answering the question correctly."
+}

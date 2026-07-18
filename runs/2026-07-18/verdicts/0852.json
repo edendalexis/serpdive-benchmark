@@ -1,0 +1,11 @@
+{
+  "id": 852,
+  "query": "SAG-AFTRA 2025 Interactive Media Agreement ratification vote percentage compensation increases AI protections July 2025 video game strike end",
+  "topic": "SAG-AFTRA",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A contains the key facts, but they are split across sources and include a likely inaccurate third-party result: one result says wages increased by 15.7% rather than 15.17%. The top SAG-AFTRA agreement-page snippet in A is not very informative for the asked facts, and the ratification percentage comes from Wikipedia rather than directly from SAG-AFTRA in the shown snippets.",
+  "b_issues": "Content B is somewhat redundant, repeating the same ratification-vote sentence across multiple SAG-AFTRA results, and it does not itself surface as much detail on compensation and AI protections as A does. However, it does include the core vote result and strike conclusion clearly, and one result gives the 15.17% compensation increase. AI protections are only indirectly described via Variety’s mention of informed consent and fair compensation rather than the fuller SAG-AFTRA wording.",
+  "reasoning": "B better enables a correct answer because it directly states, in multiple SAG-AFTRA/major-media results, that members approved the 2025 Interactive Media Agreement by 95.04% to 4.96%, ratifying the deal and concluding the video game strike. It also includes the 15.17% compensation increase and mentions the AI issue as central to the agreement. A also has most of the needed facts, including stronger detail on AI protections (consent/disclosure for AI digital replicas and ability to suspend consent during a strike), but its vote percentage is surfaced via Wikipedia in the shown snippets and one third-party source appears to misstate the wage increase as 15.7%. Since the question specifically asks about ratification vote percentage and the strike end in July 2025, B is more directly and reliably aligned to those facts while still covering compensation and AI at least sufficiently."
+}

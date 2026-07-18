@@ -1,0 +1,11 @@
+{
+  "id": 109,
+  "query": "Boeing Riyadh Air 787 Dreamliner delivery second quarter 2026 order book status remaining aircraft schedule",
+  "topic": "Boeing",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A has the key Boeing press release about the first two deliveries, but it lacks a reliable source for the second-quarter 2026 delivery totals and does not clearly answer the remaining-aircraft schedule. One result is a Facebook snippet claiming Riyadh Air ordered 39 787-9s with options for 33 and giving a 2026-2032 schedule, but this is low-reliability and incomplete. Another is an Instagram snippet saying 'three in 48 hours... another three by end of month... two in July,' which is also low-reliability and partially conflicts with the Boeing release centered on the first two deliveries. Overall A leaves the order-book status and schedule under-sourced.",
+  "b_issues": "Content B still lacks the exact Boeing Q2 deliveries press release result, so the second-quarter figure is not directly sourced from Boeing. It includes a weak irrelevant result about general 787 production, and one result is from a retail/secondary site. Reuters is only a snippet, not full context. However, the main factual elements are consistent across results.",
+  "reasoning": "B better enables a correct answer because it contains the crucial order-book status details: Riyadh Air had 39 firm 787-9 orders plus 33 options, and was considering exercising 25-30 options, which would raise firm commitments to 64-69 and leave up to 8 options unconverted. It also includes a concrete remaining-fleet delivery schedule via AeroTime: fleet to reach eight aircraft by end of July 2026. Combined with the Boeing press-release snippet stating the first two aircraft were delivered on June 5, an LLM can infer that six more were expected by end-July. A has the first-delivery fact, and hints of a schedule via Instagram, but the schedule and order-book status are much less reliable and more fragmentary. Therefore B more completely and reliably supports answering the question."
+}

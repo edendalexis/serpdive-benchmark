@@ -1,0 +1,11 @@
+{
+  "id": 257,
+  "query": "Moderna mRNA-1345 pediatric maternal RSV vaccine clinical trial phase status 2025",
+  "topic": "RSV vaccines",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A is incomplete and somewhat noisy. It includes news about a pediatric trial pause without clearly distinguishing pediatric vs maternal programs, and the ClinicalTrials.gov snippet shown does not expose the key phase/status fields in the snippet itself. It also surfaces mRNA-1345-P202 without enough detail to identify exact status. However, it does include the direct ClinicalTrials.gov record for the maternal study NCT06143046 and Moderna trial pages that point to the maternal program.",
+  "b_issues": "Content B is more misleading for this query. It emphasizes a different pediatric study in seropositive children aged 12–59 months (NCT04528719) and a Veeva page for children 2 to <18 years at high risk, which is not the maternal study asked about. It also contains a likely inaccurate statement that NCT05743881 is a phase 1 pediatric trial, whereas the anchor indicates NCT05743881 is in 5 months to <24 months and phase 1, but the result context is muddled and does not clearly answer maternal status. It does not provide the maternal trial record/status directly, so an LLM could easily answer about the wrong trial.",
+  "reasoning": "The question asks for the clinical trial phase/status in 2025 for Moderna mRNA-1345 pediatric and maternal RSV vaccine programs. The anchor shows the maternal study NCT06143046 is Phase 2, with status Active, not recruiting on the Veeva page and Completed later on registry; as a 2025-status question, Active, not recruiting / Phase 2 is the relevant state. It also shows the pediatric infant/toddler study NCT05743881 is Phase 1, Active not recruiting. Content A better supports a correct answer because it includes the direct maternal ClinicalTrials.gov entry and Moderna maternal study page, plus pediatric-hold news that is at least temporally relevant to 2025. Content B mostly surfaces other pediatric studies and adult RSV material, with no direct maternal trial result, so it is more likely to lead the model to conflate distinct programs and answer incorrectly."
+}

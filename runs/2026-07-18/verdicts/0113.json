@@ -1,0 +1,11 @@
+{
+  "id": 113,
+  "query": "LVMH \"Sciences & Creation\" Chair partner academic institution announced July 2026",
+  "topic": "LVMH",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "No major factual flaws for this question. One lower-ranked result about Bernard Arnault funding a math institute at École Polytechnique is irrelevant and could distract, but the top results consistently identify the partner institution as Institut Français de la Mode (IFM).",
+  "b_issues": "Content B relies primarily on a secondary fashion-news site (Oui Speak Fashion) rather than the primary LVMH announcement or a major publication. It still states the correct institution, but provides less source diversity and less direct corroboration. The other results are largely irrelevant.",
+  "reasoning": "The question asks for the partner academic institution for LVMH’s “Sciences & Creation” Chair announced in July 2026. Content A clearly and repeatedly provides the answer: LVMH partnered with Institut Français de la Mode (IFM). It includes the primary LVMH press release and corroborating coverage from WWD and Oui Speak Fashion, all aligned with the anchor. Content B also contains the correct answer in its top result, but it is supported mainly by a single secondary source, with the remaining results mostly irrelevant. Therefore A better enables an LLM to answer correctly and confidently from the provided content alone."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 692,
+  "query": "NATO Forward Land Forces Finland mission France troop deployment numbers Sweden 2026",
+  "topic": "NATO",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A has only one clearly relevant result on France's deployment (Le Monde), and it explicitly says the joint statement did not specify the size of the French contribution. The rest mainly establish FLF Finland and the Swedish core force (~600 troops), not the French troop number. One result is low-reliability/irrelevant aggregation ('Mezha') and mentions strengthening Sweden and Finland rather than the France deployment question. So A does not provide the deployment number and could mislead an LLM into answering with the Swedish contingent size instead.",
+  "b_issues": "Content B is stronger but still does not contain an official troop number for France in the main authoritative sources. Janes and the official Swedish/French statements say France will contribute ground-force rotations including a battle unit, but do not quantify it. Le Monde also does not add a number in the shown snippet. Thus B still may not let an LLM answer a precise troop number if the question expects one.",
+  "reasoning": "The anchor indicates the key fact pattern is France contributing troops to NATO's Forward Land Forces Finland, with official statements from France/Sweden/Finland. Content B directly includes the Janes article plus the official Swedish government and Elysée statements, all confirming: FLF Finland was established in June 2026, it is NATO's ninth Forward Land Forces battlegroup, and France will contribute rotating ground forces including a battle unit and temporary training of enablers. These are authoritative and mutually consistent. Content A includes some correct background, but only one relevant article on France and no official statement; it also leaves the French troop number unspecified and mostly discusses the Swedish 600-soldier core, which is not the asked deployment number for France. Therefore B better enables a correct answer, even though neither set cleanly supplies a precise French troop count."
+}

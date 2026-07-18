@@ -1,0 +1,11 @@
+{
+  "id": 796,
+  "query": "Louis Mapou government New Caledonia collapse reasons late 2024 January 2025",
+  "topic": "New Caledonia",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Result coverage is thin on the specific reason for the collapse. The key explanatory result is Le Monde, but its snippet is partial and does not fully spell out the substantive dispute. AA only says Caledonie Ensemble collectively resigned, without explaining why. Wikipedia is not ideal for a current-events question. One RNZ result is about broader political future rather than the December 2024 collapse itself.",
+  "b_issues": "Includes a low-reliability/likely synthetic source (Grokipedia) that adds unsupported and tendentious claims, including that the collapse was precipitated by 'internal no-confidence votes' and criticism of 'leniency toward French interventions,' which does not match the anchor evidence that the government fell because Caledonie Ensemble resigned as a bloc. It also implies causal interpretations beyond the sourced facts. Other results are mostly duplicate rewrites of the same AA piece and likewise do not explain the reason well.",
+  "reasoning": "A better enables a correct answer because it contains at least one credible, relevant result directly about the event: Le Monde states Mapou was toppled on 24 December 2024 after the resignation of Caledonie Ensemble member Jérémie Katidjo Monnier, which aligns with the anchor and with RFI/RNZ that the government fell due to a bloc resignation by Caledonie Ensemble. B contains the same AA report, but its most detailed result is Grokipedia, which introduces inaccurate or unsupported explanations that conflict with the anchor’s account of a bloc resignation. Since the question asks for the reasons for the collapse in late 2024/January 2025, avoiding misleading causal claims matters. Neither set is perfect, but A is more reliable and less contradictory."
+}

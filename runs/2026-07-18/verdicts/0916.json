@@ -1,0 +1,11 @@
+{
+  "id": 916,
+  "query": "FAA FBI drone detection security Super Bowl LX unauthorized UAV",
+  "topic": "Super Bowl",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "No major factual flaws relative to the anchor. Result 1 slightly paraphrases the FAA page by saying the FBI is legally authorized to use specialized mitigation tools and may move aircraft out of restricted airspace, while the anchor more specifically says the FBI and FAA use federally authorized capabilities to detect, track, and assess unauthorized drone activity; this is not a clear contradiction. Some secondary results are less authoritative or incomplete, but they do not materially conflict with the core facts.",
+  "b_issues": "Includes weaker and less reliable sources among the top results (Hype cluster page, Facebook post). The FAA snippet is somewhat garbled/truncated with venue table fragments appended, which reduces clarity. However, the key facts still align with the anchor and there is no clear material contradiction in the presented content.",
+  "reasoning": "Both A and B contain the essential facts needed to answer the query correctly: the FAA and FBI established a No Drone Zone for Super Bowl LX at Levi’s Stadium, additional restrictions applied in downtown San Francisco, and the FBI/FAA used federally authorized capabilities to detect, track, and assess unauthorized drone activity as part of event security. A has cleaner supporting detail from DRONELIFE and CBS, while B has the same critical FAA fact and a Reuters result explicitly mentioning the 30-mile restriction, but also noisier sources. Since both datasets provide enough accurate, anchor-consistent information for an LLM to answer correctly from the content alone, neither clearly outperforms the other."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 848,
+  "query": "Taylor Swift Travis Kelce JuJu Smith-Schuster wedding July 2026 location",
+  "topic": "Taylor Swift",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor inconsistency on date: some A results say the wedding was July 10 while others say July 11. However, A repeatedly gives the location clearly as the Ritz-Carlton, Laguna Niguel / Orange County, California, which matches the anchor closely. No major contradiction on location.",
+  "b_issues": "Includes lower-reliability/noisy social results (Facebook, Instagram, Reddit) instead of mainly news reporting. Also has the same date ambiguity indirectly and provides less direct detail overall. While the top result gives the location, several other results are partial or social-media-derived, which weakens reliability.",
+  "reasoning": "The question asks for the wedding location. Both A and B contain the key fact that JuJu Smith-Schuster and Laura Kruk’s wedding attended by Taylor Swift and Travis Kelce was at the Ritz-Carlton in Laguna Niguel, Orange County, California. But A supports that answer better: multiple news results (Page Six, NY Post, TMZ) independently repeat the same location, making it easier for an LLM to answer confidently and correctly. B’s top result also has the location, but the rest of the set is noisier and less reliable, with several social-media results and less corroborating detail. Therefore A better enables a correct answer."
+}

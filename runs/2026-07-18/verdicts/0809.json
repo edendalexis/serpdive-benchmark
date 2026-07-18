@@ -1,0 +1,11 @@
+{
+  "id": 809,
+  "query": "Satya Nadella 2026 leadership reorganization executive team structure AI",
+  "topic": "Satya Nadella",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A has some useful facts, but it relies heavily on secondary or lower-reliability summaries (Pulse 2.0, CIO Bulletin) and only one clearly strong corroborating result (The Next Web). It gives the Copilot reorg pillars and mentions the SLT retirement, but it is thinner on the full executive-team structure. It also includes a likely irrelevant/older YouTube result from 2025, which could distract an LLM. The Chosun snippet is truncated and not very usable.",
+  "b_issues": "Content B contains one dubious result: the Times of India snippet claims Asha Sharma replaced Phil Spencer in gaming, which is not supported by the anchor and appears likely inaccurate. It also includes an irrelevant LinkedIn post. However, its top two results are highly on-point and largely consistent with the anchor.",
+  "reasoning": "Content B better enables a correct answer because it includes the key facts from the anchor in more direct and reliable form: the Business Insider result explicitly says Nadella 'quietly retired' the SLT and replaced it with smaller, flatter teams closer to the action, and The Next Web result adds that three new structures replaced it and mentions weekly AI metric reviews. The Times of India snippet further supplies the concrete five-person corporate leadership group: Nadella, Brad Smith, Amy Hood, Amy Coleman, and Judson Althoff. Together, B gives a clearer picture of the 2026 leadership reorganization and executive-team structure around AI. Content A does contain several of the same ideas, including the unified Copilot org and four pillars plus the SLT retirement, but it is less complete on the overall leadership structure and depends more on weaker sources. Despite one likely erroneous detail in B, B overall provides the strongest factual basis for answering the query correctly."
+}

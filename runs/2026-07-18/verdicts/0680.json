@@ -1,0 +1,11 @@
+{
+  "id": 680,
+  "query": "Shein Everlane acquisition deal value date",
+  "topic": "Shein",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Contains some lower-reliability aggregation/secondary sources (NovaData, Yahoo/GlobalData, just-style, TNW), but they consistently state the same core facts: deal value about $100 million; report date May 17-18, 2026; board approved the deal on Saturday/May 16, 2026. No clear internal contradiction on the facts needed to answer the query.",
+  "b_issues": "One result (Forbes snippet) says Shein is acquiring a majority stake, but later in the same snippet says minority stake, which is internally inconsistent. An Instagram result says 'officially acquired' on May 16, 2026, which is less reliable and overstates timing versus reported/approved deal. However, the stronger sources (Forbes, LA Times, Puck) still consistently give the needed core facts: about $100 million and board approval/reporting around May 16-18, 2026.",
+  "reasoning": "Both result sets provide the key facts needed to answer 'Shein Everlane acquisition deal value date': the transaction valued Everlane at about $100 million, and the deal was approved by the board on Saturday, May 16, 2026, with reports appearing May 17-18, 2026. Content A has more secondary sources but no meaningful contradiction on the target facts. Content B includes stronger primary/media sources such as Puck and LA Times, but it also has an internally inconsistent Forbes snippet and a weak Instagram result. Overall, both enable a correct answer equally well."
+}

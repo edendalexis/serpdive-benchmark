@@ -1,0 +1,11 @@
+{
+  "id": 110,
+  "query": "LVMH Q1 2026 revenue organic growth fashion leather goods sales analyst expectations Reuters April 2026",
+  "topic": "LVMH",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Contains an irrelevant LinkedIn post and secondary sources with slightly differing expectation figures (FactSet 1.5% group organic growth vs other snippets implying 2%), but it includes a highly reliable CNBC/Reuters-derived result with the key facts: Q1 2026 revenue €19.1bn, organic growth +1%, and Fashion & Leather Goods down 2%. No direct internal contradiction on the core numbers.",
+  "b_issues": "Less directly aligned to the Reuters-focused query. It has the core company figures, but the top results are Investing.com and reposted company material rather than Reuters. It gives group expectation via CNBC/FactSet (1.5%) but does not provide the analyst expectation for Fashion & Leather Goods; other snippets mention the division decline without the expectations context. Also includes a likely typo from Il Sole 24 Ore ('CHF 19 billion' instead of euros).",
+  "reasoning": "Content A better enables a correct answer because it contains the crucial Reuters/CNBC-style facts needed for the query in one place: LVMH Q1 2026 revenue was €19.1 billion, organic sales growth was 1%, analysts had expected 1.5% organic growth, and the Fashion & Leather Goods division fell 2% to about €9.2 billion. Those facts match the anchor. Content B has most of the company-reported numbers, but it is weaker on the analyst-expectations part—especially for Fashion & Leather Goods—and is less directly tied to Reuters. Therefore A is the better set for answering the question correctly from the provided content alone."
+}

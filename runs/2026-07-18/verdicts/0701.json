@@ -1,0 +1,11 @@
+{
+  "id": 701,
+  "query": "Tunney Act review DOJ Live Nation $280 million settlement judge approval status",
+  "topic": "Ticketmaster DOJ lawsuit",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "A lacks the key official DOJ/Federal Register result showing the current procedural status. Its strongest snippets are secondary sources saying approval/review is underway or pending, but they do not clearly establish the latest status. One result (Hypebot) is vague and lower reliability. Another result references a future remedies phase after a verdict, which may be true but is not the clearest answer to the approval-status question. Overall A is answerable only indirectly.",
+  "b_issues": "B includes one snippet from Paul Weiss saying the settlement 'has not yet been submitted for that review,' which appears stale or inconsistent with later results showing the Federal Register publication and comment period had begun. The DOJ case-page snippet is generic and not informative on approval status.",
+  "reasoning": "B better enables a correct answer because it contains the crucial current-status facts: the settlement still requires judicial approval under the Tunney Act; the 60-day public comment period opened with Federal Register publication on July 13, 2026; public comments are due Sept. 4, 2026; and Judge Subramanian must decide whether the settlement is in the public interest. Those facts align with the anchor, which shows the proposed Final Judgment and Competitive Impact Statement were filed and published for Tunney Act review. Although B has one stale/contradictory snippet, it also has multiple results stating the present status clearly. A mostly offers less authoritative secondary descriptions like 'approval process underway' without the concrete status markers from the Tunney Act process."
+}

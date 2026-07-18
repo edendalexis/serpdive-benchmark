@@ -1,0 +1,11 @@
+{
+  "id": 372,
+  "query": "OpenAI Sora web app experiences official discontinuation date 2026",
+  "topic": "Sora OpenAI",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "A does contain the correct date in the featured snippet and one third-party result, but its organic results are mostly third-party and include potentially confusing/contradictory material. In particular, one result discusses Sora 2 still being current and says it could not verify a fresh official OpenAI page reconciling the story, which could mislead an LLM about whether discontinuation is settled. A lacks the direct official OpenAI Help Center result in the main results list.",
+  "b_issues": "B includes some lower-reliability/social-media and third-party results, and one Milvus result oddly says 'Sora was already discontinued on March 24, 2026' before describing the phased shutdown ending web/app on April 26, 2026, which is internally confusing. However, B also includes the official OpenAI Help Center page explicitly stating the web and app experiences were discontinued on April 26, 2026.",
+  "reasoning": "Both result sets contain the key fact needed to answer the question: the Sora web/app experiences were discontinued on April 26, 2026. However, B better enables a correct answer because it includes the official OpenAI Help Center page directly in the results, with the exact wording matching the anchor: 'The Sora web and app experiences were discontinued on April 26, 2026.' A has the right date in a featured snippet, but its listed results are weaker and include contradictory context about Sora 2 still being active, making it more likely to confuse an LLM. Therefore B is more reliable and less ambiguous overall for answering the question correctly."
+}

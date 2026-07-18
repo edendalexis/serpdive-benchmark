@@ -1,0 +1,11 @@
+{
+  "id": 300,
+  "query": "Artemis III crew members names commander pilot mission specialists official announcement",
+  "topic": "NASA Artemis program",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Result snippets are sparse, and the top NASA snippet does not itself list all crew names/roles in the excerpt. However, other results in A consistently provide the needed names and roles: Randy Bresnik as commander, Luca Parmitano as pilot, and Frank Rubio and Andre Douglas as mission specialists. No clear contradictions appear within A.",
+  "b_issues": "Contains a clearly misleading/incorrect result: a Facebook post snippet listing Artemis II crew members (Reid Wiseman, Victor Glover, Christina Koch, Jeremy Hansen) instead of Artemis III. Also includes a YouTube snippet that calls Frank Rubio and Andre Douglas 'lander specialists' rather than mission specialists, which could confuse role extraction. While several other results in B are correct, these contradictions reduce reliability.",
+  "reasoning": "Both A and B contain enough information to answer the question, but A better enables a correct answer because it includes multiple reliable sources, including NASA, NPR, CNN, CBS, and Wikipedia, that consistently identify the officially announced Artemis III crew as Randy Bresnik (commander), Luca Parmitano (pilot), and Andre Douglas and Frank Rubio (mission specialists). B also has correct results, but it includes a plainly wrong Artemis II crew snippet and a role-label inconsistency ('lander specialists'), making it more internally contradictory and riskier for an LLM relying only on provided content."
+}

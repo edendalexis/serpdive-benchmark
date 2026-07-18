@@ -1,0 +1,11 @@
+{
+  "id": 589,
+  "query": "Sam Bankman-Fried Trump clemency petition legal representation filing text June 2026",
+  "topic": "FTX",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A establishes that Sam Bankman-Fried formally filed a pardon/clemency request in June 2026 and that it was pending with the DOJ Office of the Pardon Attorney, but it does not provide the actual filing text or meaningful details about legal representation. One result is an Instagram post, which is weak/redundant. The NYT snippet says 'pardon after completion of sentence,' which may reflect DOJ listing language, but A does not clarify that nuance from a primary source.",
+  "b_issues": "Content B likewise confirms the formal filing with the DOJ Office of the Pardon Attorney and gives the 'pardon after completion of sentence' wording, but it also does not provide the filing text or concrete legal-representation details. Several sources are less authoritative/less reliable than in A (Bitcoin Magazine, Yellow, TNW), and B includes an unverified claim that Trump pardoned CZ/BitMEX founders, which is not supported by the anchor and could be inaccurate in this context.",
+  "reasoning": "The question asks about Sam Bankman-Fried, a Trump clemency petition, legal representation, filing text, and June 2026. The anchor shows the key answerable fact is that he officially asked Trump for a presidential pardon in early June 2026 via a petition pending at the DOJ Office of the Pardon Attorney. Both A and B contain those core facts. Neither result set contains the actual petition text or clear legal-representation information, so neither fully enables an LLM to answer those parts from the provided content alone. A has somewhat stronger mainstream sourcing (CoinDesk, CNBC, NYT), while B includes weaker outlets and a potentially dubious pardons claim, but on the specific answerable facts both are essentially equally sufficient and equally incomplete."
+}

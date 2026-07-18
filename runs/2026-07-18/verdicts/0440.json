@@ -1,0 +1,11 @@
+{
+  "id": 440,
+  "query": "Notre-Dame de Paris spire copper statues returned date",
+  "topic": "Notre-Dame de Paris",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "A does not give a single clean returned date for all the copper statues. It says in one result that the 16 statues return 'in June and July 2025' and another says the first statue was returned on June 23, 2025, with all expected by end of July. That supports only a partial answer unless the question is interpreted as asking when the return began. One result is irrelevant/confusing (Wikipedia spire restoration dates), and another snippet about 2026 appears misleading or unrelated to the queried event.",
+  "b_issues": "B also does not provide a single definitive returned date for all the copper statues. It includes the June 23, 2025 start date for Saint Thomas and says the others would be returned in stages, plus an imprecise Facebook snippet saying they returned in 2025. It lacks the stronger June/July 2025 phrasing found in A. It also contains irrelevant/confusing results such as the Wikipedia restoration-date snippet and an older 2019 removal page.",
+  "reasoning": "Both result sets contain enough to infer that the statues’ return began on June 23, 2025, and that the reinstallation occurred through June and July 2025, with completion by late July 2025. However, neither set directly and unambiguously states a single 'returned date' for the statues as a whole. A has slightly better contextual support because it explicitly says the 16 statues return in June and July 2025 and also gives June 23 for the first one, but B gives the same key start date from a reliable source and similar completion timing. Since neither clearly and completely answers the date question on its own better enough to separate them decisively, the best verdict is tie."
+}

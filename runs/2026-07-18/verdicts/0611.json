@@ -1,0 +1,11 @@
+{
+  "id": 611,
+  "query": "Suno AI June 2026 platform changes licensed models download policy free tier paid accounts official announcement",
+  "topic": "Suno AI",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A lacks a clear official source stating the June 2026 platform changes. Its strongest relevant result is a Digital Music News article summarizing planned 2026 policy changes, but it does not directly provide the official announcement language about downloads requiring a paid account and paid users having monthly caps. Top results include a YouTube video, Reddit post, and blog/speculation pages, which are less reliable and may confuse an LLM. The Reddit snippet even suggests unlimited Studio downloads after changes, which could conflict with the official policy.",
+  "b_issues": "Content B includes one non-official secondary source (Chartlex) that restates the Warner deal terms, but it does not materially conflict with the official source. Otherwise no major factual flaws are apparent from the provided snippets.",
+  "reasoning": "Content B better enables a correct answer because it contains the key facts from an official announcement source: the Warner Music Group press release explicitly says that in 2026 Suno will launch new, more advanced and licensed models; downloading audio will require a paid account; and paid tier users will have limited monthly download caps with the option to pay for more. Those are exactly the facts asked about. Content A has partial corroboration from Digital Music News, but its result set is dominated by unofficial and potentially contradictory sources, and it does not surface the official announcement directly. Therefore B is more reliable and complete for answering the question correctly."
+}

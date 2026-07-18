@@ -1,0 +1,11 @@
+{
+  "id": 369,
+  "query": "GTA 6 special edition collector's edition contents price preorder bonus 2026",
+  "topic": "Grand Theft Auto VI",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A contains clear contradictions and likely fabricated material. One result claims GTA 6 has no multiple special editions and only Standard plus Ultimate, while another leonidaverse snippet says there are Standard, Special, Ultimate, and Collector's editions. A Facebook result mentions a Collector Edition at $89.99, which conflicts with the anchor and other sources. The set therefore mixes accurate-looking information with false edition claims, making it unsafe for answering whether Special/Collector's editions exist and what they contain.",
+  "b_issues": "Content B still includes some lower-reliability or possibly embellished details. The leonidaverse snippet mentions retailer-exclusive bonuses and specific bonus items, and the DraftKings snippet says Standard includes one month of GTA+, which may not apply universally. However, B does not strongly assert nonexistent Special or Collector's editions in the snippets shown.",
+  "reasoning": "The anchor indicates Rockstar officially offers only Standard ($79.99) and Ultimate ($99.99), with no Special or Collector's Edition, and that the pre-order bonus is the Vintage Vice City Pack. Content B better supports that answer because it includes an official Rockstar editions page, a VGC snippet matching the official pricing and Ultimate/pre-order bonus framing, and no direct snippet-level claim that Special or Collector's editions are official. Content A is worse because it prominently includes contradictory snippets claiming Special and Collector's editions exist, which would likely mislead an LLM into answering incorrectly about their contents and price."
+}

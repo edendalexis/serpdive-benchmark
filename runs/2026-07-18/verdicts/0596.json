@@ -1,0 +1,11 @@
+{
+  "id": 596,
+  "query": "COP30 119 countries new NDCs submitted UNFCCC official registry list",
+  "topic": "COP climate summit",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "A includes the key official UNFCCC registry URL, but the snippet is noisy and does not provide the specific claimed figure of 119 countries or an official registry list of those 119. It also mixes in unrelated/less authoritative sources and a synthesis-report snippet saying 64 new NDCs from 64 Parties between 1 Jan 2024 and 30 Sep 2025, which does not directly answer a query about '119 countries' and could mislead. The registry snippet shown is partial and not an extracted list matching the question.",
+  "b_issues": "B also includes the official UNFCCC registry URL, but likewise does not provide the specific claimed figure of 119 countries or an official registry list of those 119. It prominently features a secondary-source IISD summary saying 64 new NDCs from 64 Parties between 1 Jan 2024 and 30 Sep 2025, which again does not directly answer a query about '119 countries'. Other results are secondary or low-reliability (e.g., Fastmarkets, Facebook), and the registry snippet is partial and not a usable official list for the question.",
+  "reasoning": "Neither set contains the crucial fact pattern needed to answer the query correctly from the search results alone: an official UNFCCC registry-based list tied to '119 countries new NDCs submitted' ahead of COP30. Both A and B do at least surface the correct anchor source, the UNFCCC NDC Registry, but only as a generic registry page snippet without the relevant filtered list or count. Both also surface the 2025 synthesis-report fact of 64 new NDCs from 64 Parties, which is official/credible but does not resolve the asked '119 countries' claim and may conflict with or distract from it. Since neither result set provides the actual official registry list or the 119 figure in a clearly supportable way, neither better enables a correct answer."
+}

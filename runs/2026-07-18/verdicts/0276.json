@@ -1,0 +1,11 @@
+{
+  "id": 276,
+  "query": "Kilmar Abrego Garcia deportation case latest ruling court decision 2025",
+  "topic": "Nayib Bukele",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Includes some noisy/dated results not directly answering the latest 2025 ruling, including a September 2025 SCOTUSblog item and a clearly wrong/future-dated 2026 New York Times result. The BBC snippet is secondary and less precise than the primary Supreme Court order. However, A still contains the key primary source and later 2025 reporting.",
+  "b_issues": "Overstates the Supreme Court ruling. The GW Law summary says the Court 'affirmed the lawlessness' of the removal and 'largely affirmed' the district court order; that is an interpretive paraphrase, not the most precise statement of the order. The Facebook result is not a reliable source and says the Court ruled 9-0 that the administration 'must facilitate' return, which is potentially misleading because the Court said the district court should clarify 'effectuate' with due regard for executive foreign-affairs authority while requiring the government to facilitate release/handling of the case. B lacks later 2025 court-decision coverage, so it is weaker on 'latest ruling.'",
+  "reasoning": "The question asks for the latest ruling/court decision in 2025 in the Abrego Garcia deportation case. Content A gives both the April 10, 2025 Supreme Court order (the anchor case) and later 2025 litigation results, including Reuters on July 7 that his wrongful-deportation challenge can proceed, plus AP/Politico items about later release/dismissal developments. That means an LLM using A can identify not only the Supreme Court ruling but also later 2025 rulings if 'latest' is interpreted literally. Content B is mostly centered on the April 10 Supreme Court order and duplicates of it, with no solid later-2025 ruling coverage; moreover, its non-primary framing exaggerates or simplifies what the Court held. Because A contains the necessary facts for both the key Supreme Court decision and later 2025 rulings from reliable sources, it better enables a correct answer."
+}

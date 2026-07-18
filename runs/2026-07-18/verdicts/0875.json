@@ -1,0 +1,11 @@
+{
+  "id": 875,
+  "query": "Labour MPs pressure Keir Starmer resign timeline local elections 2026 number",
+  "topic": "Keir Starmer",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A includes low-reliability or non-journalistic sources high in the ranking (Polymarket, Wikipedia) and mixes multiple stages of the story. It gives key numbers/timeline fragments, but they are less directly aligned to the query: Guardian says pressure to step down within a year after losses of more than 1,000 seats; BBC mentions timetable for exit after the Makerfield by-election; Polymarket says over 100 MPs by late June. This makes it harder to extract the specific 'number' tied to the post-local-election pressure timeline alone. Some figures also differ from the anchor/BBC framing (e.g. >1,000 seats vs anchor/BBC almost 1,500 councillors).",
+  "b_issues": "Content B contains some inconsistency across results: ITV says more than 35 MPs / close to 40 demanding resignation on 9 May, while LabourList says 97 MPs as of 10am on Friday, clearly from a later point in the crisis. It also includes a retrospective Independent piece after Starmer resigned, which is less directly about the initial local-election moment. But these are timeline differences rather than outright contradictions.",
+  "reasoning": "B better enables a correct answer because it directly contains the key fact pattern the query is asking about: Labour MPs pressuring Starmer to resign or set a timeline after the 2026 local elections, with a concrete number. The LabourList result explicitly says 'As of 10am on Friday, 97 Labour MPs are now calling for the Prime Minister’s resignation' and frames it exactly as resign-or-timetable pressure after poor local/devolved election results. ITV provides earlier-timeline context that the pressure began with more than 35 MPs / close to 40 after the election losses. By contrast, A has relevant facts, but the strongest numerical claim comes from Polymarket ('over 100 MPs'), which is a weak source, and the rest of A is more diffuse across different dates and phases. So B is the more reliable and more directly answerable set for this query."
+}

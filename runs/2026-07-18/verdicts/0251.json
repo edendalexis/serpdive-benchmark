@@ -1,0 +1,11 @@
+{
+  "id": 251,
+  "query": "Sanofi mRNA RSV vaccine Phase I/II trial results April 2025 lipid nanoparticle",
+  "topic": "RSV vaccines",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A does surface the relevant Sanofi study listing describing an RSV mRNA candidate with 2 different lipid nanoparticles and Phase I/IIa design, but it does not provide April 2025 trial results. Its top result is an unrelated 2025 MDPI RSV mRNA-LNP paper not about Sanofi's trial. It also includes an unrelated 2021 Sanofi mRNA COVID-19 press release, which could mislead an LLM into citing wrong Phase 1/2 results. The 2025 Sanofi pipeline PDF is not clearly tied to the queried RSV Phase I/II results in the snippet.",
+  "b_issues": "Content B also lacks actual April 2025 Phase I/II trial results for Sanofi's RSV mRNA vaccine. Its most prominent result is the unrelated 2021 Sanofi mRNA COVID-19 press release, which is especially misleading because it contains concrete Phase 1/2 results but for COVID, not RSV. It includes the relevant CenterWatch trial listing for NCT05639894 with LNP/Phase IIa details, but no results. It also contains unrelated PubMed content on a live-attenuated intranasal RSV vaccine in infants/toddlers and a generic Sanofi RSV trials page that does not answer the question.",
+  "reasoning": "Neither set contains the key fact pattern needed to answer the query correctly: actual Sanofi mRNA RSV Phase I/II trial results in or by April 2025. Both only provide trial-description material consistent with NCT05639894: Sanofi, RSV mRNA candidate, two different lipid nanoparticles, Phase I/IIa design in adults. That lets an LLM identify the study, but not report results. Both sets also include misleading unrelated Sanofi mRNA material, especially the 2021 COVID-19 Phase 1/2 press release. A is slightly better on study identification because the Sanofi study listing snippet is fuller, but B also has the same core study facts via CenterWatch. Since neither actually enables a correct answer about trial results, the fairest verdict is tie."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 497,
+  "query": "Wimbledon Park expansion High Court ruling March 2026 presiding judge name",
+  "topic": "Wimbledon",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A mostly surfaces the July 2025 judicial review about planning permission, naming Judge/Mr Justice Saini, which is a different ruling from the March 2026 High Court ruling asked about. It does not clearly provide the March 2026 presiding judge name. One result hints at a January 2026 trust hearing but does not answer the question. This makes A likely to induce an incorrect answer.",
+  "b_issues": "Content B also includes distracting results about the July 2025 Saini ruling, so there is some internal noise. However, it contains a result explicitly stating that the March 19, 2026 High Court ruling was by Justice Thompsell, which matches the anchor.",
+  "reasoning": "The question asks for the presiding judge name for the March 2026 High Court ruling on the Wimbledon Park expansion. The anchor shows this was The Honourable Mr Justice Thompsell on 19 March 2026. Content B includes a result saying 'High Court Justice Thompsell' ruled on that March 2026 case, so an LLM could answer correctly from B. Content A primarily points to the earlier July 2025 planning-permission ruling by Saini and lacks a clear March 2026 judge identification, so it is less reliable for this specific question."
+}

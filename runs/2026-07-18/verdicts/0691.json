@@ -1,0 +1,11 @@
+{
+  "id": 691,
+  "query": "NATO Drone Edge $40 billion counter-UAS initiative 2026 partners contracts",
+  "topic": "NATO",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A lacks the primary NATO source and relies mostly on secondary/tertiary outlets. It says there was a 'major procurement contract for surveillance drones through the NATO Support and Procurement Agency' and 'a major surveillance drone procurement program,' which is less precise than the NATO wording that the contract was in the hundreds of millions of dollars. It also does not clearly identify the partner countries tied to the training initiative; the query asks about partners and contracts, and A does not surface the Finland/France/Sweden plus total-member detail visible in authoritative reporting.",
+  "b_issues": "Content B includes one secondary source claim that Drone Edge 'currently involves twenty Allied nations,' which may conflate NFTE membership with the broader Drone Edge initiative. The NATO result itself is stronger: Finland, France and Sweden joined the seventeen other NFTE members, implying 20 NFTE participants. Aside from that possible ambiguity, B is well aligned with the anchor.",
+  "reasoning": "B better enables a correct answer because it includes the key authoritative NATO News result directly. That result contains the central facts needed for the query: over $40 billion invested over five years in counter-drone capabilities; drone training via NATO Flight Training Europe; Finland, France, and Sweden joining the other 17 NFTE members; access to 16 flight centres across 8 countries; and an NSPA contract in the hundreds of millions of dollars for surveillance drones. These details directly address the initiative, partners, and contracts. A has broadly similar themes, but mostly through less authoritative outlets and with less precise wording, making it weaker for answering accurately from the search results alone."
+}

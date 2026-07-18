@@ -1,0 +1,11 @@
+{
+  "id": 72,
+  "query": "101st Academy Awards 2029 venue location",
+  "topic": "Academy Awards Oscars",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "No material factual flaws for this query. One top result is irrelevant (AEG Wikipedia), and the featured snippet/result phrasing alternates between L.A. Live and Peacock Theater, but these are not contradictory because Peacock Theater is the specific venue within L.A. Live in downtown Los Angeles.",
+  "b_issues": "No material factual flaws for this query. Some results say the Oscars will move to L.A. Live, while others specify Peacock Theater at L.A. Live; this is not contradictory because Peacock Theater is the venue within the L.A. Live complex. One Facebook result is a weaker source, but other reliable local-news results provide the needed fact.",
+  "reasoning": "Both A and B clearly contain the facts needed to answer the question correctly: the 101st Academy Awards in 2029 will be held at the Peacock Theater at L.A. Live in downtown Los Angeles. In A, the featured snippet, Screen Daily, BBC, The Gold Knight, and The Hollywood Reporter all support this. In B, NBC Los Angeles and ABC7 Los Angeles explicitly state that the 101st Oscars will be at the Peacock Theater at L.A. Live in downtown Los Angeles. The information is accurate relative to the anchor and not meaningfully contradictory in either set, so both enable an LLM to answer equally well."
+}

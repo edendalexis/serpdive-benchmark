@@ -1,0 +1,11 @@
+{
+  "id": 298,
+  "query": "X Priority tab notifications mutuals larger accounts rollout date",
+  "topic": "Twitter",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "A includes a strong result from Social Media Today but its snippets do not explicitly provide the rollout date. It also includes Roboin, which has restrictive usage terms and is not an ideal source, and a HeyOrca roundup that is secondary/aggregated. The key fact pattern is present, but the date is only indirectly inferable and not clearly stated in the returned snippets.",
+  "b_issues": "B also includes Roboin with restrictive usage terms, and several results are social posts/aggregators rather than top-tier reporting. The x.com snippets do not show the explicit calendar date in the snippet text itself, so an LLM may still need to infer timing from the post/result context.",
+  "reasoning": "The question asks about the X Priority notifications tab for mutuals/larger accounts and its rollout date. Both sets contain the core feature facts: Priority shows interactions from mutuals/big accounts and is enabled at 500 followers. But B is better because it includes direct x.com post results echoing the exact launch wording ('Anytime your mutuals or big accounts interact with you... Enabled when you hit 500 followers'), which aligns closely with the anchor and more directly supports the feature description and rollout timing. A has good secondary coverage, but its returned snippets are less explicit about the rollout date, making it slightly weaker for answering correctly from the provided content alone."
+}

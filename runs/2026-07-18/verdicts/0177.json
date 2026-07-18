@@ -1,0 +1,11 @@
+{
+  "id": 177,
+  "query": "NASA Starship V3 lunar docking trial Earth orbit 2027 schedule Artemis",
+  "topic": "SpaceX Starship",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A lacks primary NASA sources and relies heavily on secondary or low-reliability sources such as Facebook, Reddit, and a fandom wiki. Its strongest result is a Payload article, which may be accurate, but A provides little authoritative grounding for the 2027 Artemis III Earth-orbit docking trial. The set could mislead an LLM because key claims like Orion docking with Blue Origin Mark 1 and SpaceX Starship V3 are not corroborated by official sources within the result list.",
+  "b_issues": "Content B includes one low-reliability fandom wiki result and one secondary Payload result, but these are outweighed by multiple official NASA pages. The snippets do not explicitly mention 'Starship V3' in the NASA results, so that detail is mainly supported by Payload rather than NASA directly.",
+  "reasoning": "Content B better enables a correct answer because it contains multiple official NASA sources that match the anchor: Artemis III is a 2027 mission, it is an Earth-orbit demonstration rather than a lunar landing, and it will practice rendezvous/docking between Orion and commercial human landing systems in low Earth orbit. The NASA results also support that this is to pave the way for later Artemis lunar landings. Content A has some relevant facts, including the specific Starship V3 mention, but it is mostly non-authoritative and therefore less reliable overall. Since the question is about NASA/Artemis schedule and the Earth-orbit docking trial, source reliability and consistency favor B."
+}

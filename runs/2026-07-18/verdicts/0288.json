@@ -1,0 +1,11 @@
+{
+  "id": 288,
+  "query": "Cognition Devin AI recurring sessions state maintenance task delegation capabilities May 2026",
+  "topic": "Devin AI software engineer",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "A includes the key official sources but is missing the strongest explicit state-maintenance detail from the docs/coverage. The Advanced Capabilities snippet covers task delegation via managed Devins, and the Cognition blog covers recurring scheduled sessions, but A does not explicitly say scheduled sessions carry notes/state across runs. It also includes low-value/noisy LinkedIn and third-party comparison results.",
+  "b_issues": "B has the official Advanced Capabilities docs for delegation, but its recurring-sessions evidence is weaker: the top result is only a truncated LinkedIn post saying Devin can schedule itself, without the official Cognition blog snippet that explains scheduled sessions. B also contains a long Reddit post with many unsupported claims (auto triage, memory details, workflow claims) and third-party marketing/comparison pages that are less reliable. Like A, B lacks a strong official snippet explicitly stating state is maintained across recurring sessions.",
+  "reasoning": "The question asks about three things: recurring sessions, state maintenance, and task delegation capabilities. Content A better supports a correct answer because it contains two directly relevant official Cognition/Devin sources: the Cognition blog on scheduling recurring Devin sessions and the Devin docs page on advanced capabilities showing delegation to managed Devins in parallel with a coordinator session. That gives an LLM solid grounding for recurring sessions and delegation. Content B has the delegation docs too, but for recurring sessions it relies mainly on a truncated LinkedIn post rather than the official Cognition scheduling blog, and much of the remaining material is noisy or speculative. Neither A nor B cleanly provides the strongest official evidence for state persistence across recurring runs, but A is still better overall because its core facts are more directly present and sourced from official pages."
+}

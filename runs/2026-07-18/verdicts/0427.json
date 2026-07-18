@@ -1,0 +1,11 @@
+{
+  "id": 427,
+  "query": "Rafah crossing operator management Egypt EU monitors reopening 2026 agreement",
+  "topic": "Rafah",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A is mostly low-value background material and relies heavily on Wikipedia/Britannica rather than primary or strong reporting. It does not clearly provide the key facts needed for the query: who operates the crossing on reopening, what role Egypt has, what EU monitors do, and under what agreement. The top Wikipedia snippet is also internally questionable and vague, mentioning closure 'since the beginning of the Iran war' and saying control was transferred to 'Egyptian, Palestinian Authority, and EU control,' which is oversimplified for the reopening mechanism. It lacks the explicit 2026 reopening arrangement described in authoritative sources.",
+  "b_issues": "Content B is not perfect: some results are secondary reporting and one EEAS result is about a later March reopening after another pause, not the initial February reopening. It also does not fully spell out the exact agreement name in every result. But it does contain authoritative and consistent facts from EEAS and reputable news sources.",
+  "reasoning": "Content B better enables a correct answer because it directly states the operative 2026 reopening facts: EEAS says EUBAM Rafah resumed operations following agreement between Israeli, Egyptian, and Palestinian authorities; DW reports the EU mission is on the ground to monitor crossing operations and support Palestinian border guards; Arab Weekly says operation is coordinated with Egypt and the EU; Al Jazeera and others confirm the 2026 limited reopening. These facts align with the anchor: the crossing reopened in February 2026, EUBAM Rafah was redeployed, and its role was to monitor/support Palestinian border personnel while movement was coordinated with Egypt and Israel under the peace/ceasefire arrangement. Content A lacks these specifics and is much less reliable."
+}

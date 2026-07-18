@@ -1,0 +1,11 @@
+{
+  "id": 144,
+  "query": "Red Lobster bankruptcy exit date Chapter 11 restructuring debt reduction RL Investor Holdings September 2024 court approved plan",
+  "topic": "Red Lobster",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor issue: one result snippet says Red Lobster currently operates 544 restaurants, while the stronger exit announcement says 545. Otherwise the key facts are present and consistent: court approval on Sept. 5, 2024; acquisition by RL Investor Holdings; exit from Chapter 11 on Sept. 16, 2024.",
+  "b_issues": "Includes a less direct/secondary 2025 Bizjournals result summarizing the 2024 event instead of the primary Sept. 16 exit announcement. It also lacks the direct exit-date press release from Red Lobster/Fortress or AP, so the final exit date is supported more indirectly. Like A, it also has some noisy snippets and does not clearly provide debt-reduction details.",
+  "reasoning": "The question asks about Red Lobster's bankruptcy exit date and the Sept. 2024 court-approved Chapter 11 plan involving RL Investor Holdings. Content A better enables a correct answer because it contains both key primary pieces: (1) the Sept. 5, 2024 PR Newswire result stating the court approved the Chapter 11 plan under which RL Investor Holdings would acquire Red Lobster, and (2) the Sept. 16, 2024 Fortress/PR Newswire result explicitly stating Red Lobster exited Chapter 11 restructuring and completed the acquisition by RL Investor Holdings. Those facts match the anchor. Content B has the Sept. 5 approval result, but for the exit date it relies on a later Bizjournals recap and a secondary trade article rather than the direct Sept. 16 company/AP announcement. So A is more direct, reliable, and complete for answering the query."
+}

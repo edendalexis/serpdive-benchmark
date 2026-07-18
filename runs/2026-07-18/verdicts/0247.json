@@ -1,0 +1,11 @@
+{
+  "id": 247,
+  "query": "Voyager 1 RTG power depletion engineering data transmission end year estimate",
+  "topic": "Voyager 1",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "A contains only one relevant snippet with the needed end-year estimate, from a lower-reliability secondary source (ElectroPages), saying Voyager 1 will lose the ability to transmit usable data in the late 2020s or early 2030s. The NASA result shown in A is effectively unusable because its snippet is generic/noisy and does not expose the key fact. Other results are irrelevant, weak, or low-reliability (Facebook), and A does not clearly distinguish engineering-data end date from science-instrument shutdown timing.",
+  "b_issues": "B includes a Wikipedia snippet stating the specific claim that the RTGs may supply enough electric power to return engineering data until 2036, which is directly responsive, but this is from Wikipedia rather than NASA. Another result (SpaceDaily) says transmissions will end sometime around 2030, which conflicts with the 2036 engineering-data estimate; however, that appears to refer to end of transmissions generally/science return rather than specifically engineering data. So B has some ambiguity/contradiction across snippets.",
+  "reasoning": "The question asks for the estimated end year for Voyager 1 engineering-data transmission as RTG power depletes. B explicitly contains that answer: the Wikipedia snippet says the RTGs may provide enough power to return engineering data until 2036. A does not provide a clear, direct engineering-data year estimate; its best snippet only says usable transmission will end in the late 2020s or early 2030s, which is less precise and not clearly about engineering data specifically. Although B has some conflicting secondary material about transmissions ending around 2030, it still better enables a correct answer because the exact engineering-data estimate is present and attributable."
+}

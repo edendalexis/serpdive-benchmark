@@ -1,0 +1,11 @@
+{
+  "id": 35,
+  "query": "Gemini in Chrome availability countries list 2026",
+  "topic": "Google",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A lacks the key official source that would let an LLM answer a countries-list question directly. It gives partial rollout snapshots only: US at launch, Canada/New Zealand/India in March, and seven APAC countries in April, plus a vague June result about Latin America/Africa/Middle East with no actual country list. The Workspace Updates snippet is truncated and does not provide a list. As a result, an LLM would likely produce an incomplete list. Some sources are secondary/less reliable than Google's own blog.",
+  "b_issues": "Content B still does not provide the full 2026 countries list or the support-page country list directly. The Google blog result is also vague ('Latin America, Africa, the Middle East and more') without enumerating countries, and one result (remio) is third-party and not useful for the countries-list question. However, B includes more reliable official Google sources than A.",
+  "reasoning": "B better enables a correct answer because it contains two official Google sources: the March Google Workspace Updates post confirming expansion to Canada, New Zealand, and India, and the official Google blog post announcing expansion to Latin America, Africa, the Middle East, and more. It also includes TechCrunch and 9to5Google snippets that mention the APAC countries (Australia, Indonesia, Japan, Philippines, Singapore, South Korea, Vietnam) and earlier US availability. A has similar APAC information, but its strongest official source is only a truncated Workspace snippet and it lacks the official Google blog expansion result. Neither result set contains the full 172-country list from the anchor/support context, so neither is ideal; but B is stronger due to better source reliability and slightly better coverage of the 2026 rollout chronology."
+}

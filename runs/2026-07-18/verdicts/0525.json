@@ -1,0 +1,11 @@
+{
+  "id": 525,
+  "query": "Claude Mythos Preview security risk public release report 2026",
+  "topic": "Anthropic",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A has some noise and weaker sources. The top result is a third-party LTM PDF that claims Anthropic committed to a public report within 90 days of the April 8, 2026 announcement; this is not as authoritative as Anthropic itself and the date/timeline may be imprecise relative to the primary materials. A also includes speculative/secondary coverage (CNBC, Radware) and an irrelevant Facebook/CBS result. However, A does include the primary Anthropic System Card, which directly supports that Mythos Preview posed elevated cyber risk and was not made generally available.",
+  "b_issues": "Content B is missing the key fact needed for the query: whether there was a public release report and what it said about release/security risk. It has useful follow-up/update material (Glasswing initial update, AISI eval, commentary), but no direct Anthropic result for the Apr. 7, 2026 Mythos Preview announcement or the System Card itself. Several results are secondary or interpretive (LessWrong, penligent.ai, Epoch AI), increasing risk of paraphrase errors. B therefore leaves an LLM to infer the answer from commentary rather than from the core source.",
+  "reasoning": "The question is about Claude Mythos Preview, security risk, and a public release/report in 2026. The anchor shows the crucial facts come from Anthropic’s Apr. 7, 2026 research post and the System Card: Mythos Preview was highly capable at cybersecurity tasks, Anthropic judged the capability increase significant enough not to make it generally available, and instead limited it to Project Glasswing. Content A contains the Anthropic System Card directly, plus mainstream reporting that Anthropic limited rollout over cyberattack fears. That gives an LLM enough grounded evidence to answer correctly that the model was considered risky enough that it was not publicly released in the normal sense. Content B has some relevant cyber-capability evidence, but mostly later updates and commentary; it lacks the primary release-decision document/result most needed to answer the question. So A better enables a correct answer, despite some weaker surrounding results."
+}

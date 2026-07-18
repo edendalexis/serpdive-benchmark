@@ -1,0 +1,11 @@
+{
+  "id": 411,
+  "query": "The Bear surprise prequel episode Gary Jamie Lee Curtis FINISHED STRONG Instagram FX ending confirmation",
+  "topic": "The Bear",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A has the key facts only partially. It includes a result about FX confirming the ending and separate results hinting that Jamie Lee Curtis confirmed it on Instagram, but the crucial Instagram wording ('FINISHED STRONG') is not present in the snippets shown. One result is a Facebook/Variety post rather than the underlying article, which is a weaker source. The set forces the model to infer connections across sparse snippets.",
+  "b_issues": "Content B is mostly solid, but one result is from ABC with an odd/likely malformed URL format in the snippet display. It also relies heavily on AOL/USA Today-style aggregation for the Jamie Lee Curtis Instagram quote rather than a primary-source entertainment trade. Still, the factual content is internally consistent.",
+  "reasoning": "The question asks about the surprise prequel episode 'Gary,' Jamie Lee Curtis's Instagram 'FINISHED STRONG' post, and FX's confirmation that the show is ending. Content B contains all of these answer-critical facts directly in one snippet: FX confirmed the show ends with season 5, the surprise episode is titled 'Gary' and is a prequel/flashback centered on Richie and Mikey in Gary, Indiana, and Jamie Lee Curtis's February Instagram post said they 'FINISHED STRONG' and completed the story. Content A has the 'Gary' prequel and ending confirmation, but it does not clearly provide the 'FINISHED STRONG' quote in the visible snippets, so an LLM would be less able to answer the full query from A alone. Therefore B better enables a correct answer."
+}

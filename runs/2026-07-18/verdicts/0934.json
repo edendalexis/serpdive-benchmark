@@ -1,0 +1,11 @@
+{
+  "id": 934,
+  "query": "Klarna Significant Risk Transfer SRT Värde Partners consortium loan amount",
+  "topic": "Klarna",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "No major factual flaws for this query. Content A contains the needed fact from reliable sources: the Värde-led consortium SRT with Klarna was $1.7 billion and covered euro-denominated loans. Minor issue: the top Värde snippet shown in A omits the '$1.7 billion' amount in its excerpt, though other A results clearly provide it.",
+  "b_issues": "No major factual flaws for this query. Content B also contains the needed fact from reliable sources: the Värde-led consortium SRT with Klarna was $1.7 billion. Minor issue: the top Värde snippet does not explicitly mention the loan amount in euro-denominated loans or the '$40B+ lending' detail, though other B results do.",
+  "reasoning": "The question asks for the Klarna Significant Risk Transfer loan amount involving a Värde Partners-led consortium. The anchor shows the correct answer is $1.7 billion. Both A and B include that fact explicitly from strong sources, especially the Värde Partners announcement and corroborating secondary coverage. Neither set presents a contradiction on the key amount. A has slightly more direct corroboration, including a Klarna investor-relations result, but B’s first and second results already make the $1.7 billion amount clear. Therefore both enable an LLM to answer correctly equally well."
+}

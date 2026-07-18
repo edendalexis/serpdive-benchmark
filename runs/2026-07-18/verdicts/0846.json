@@ -1,0 +1,11 @@
+{
+  "id": 846,
+  "query": "Taylor Swift Travis Kelce adopted dog July 2026 breed name",
+  "topic": "Taylor Swift",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Content A supports the breed as Samoyed, but it does not provide a confirmed dog name. It also includes some weaker/secondhand phrasing like 'probable pet' and 'appear to have gotten,' so the adoption/ownership and breed are not fully confirmed in-source. One result ambiguously describes the dog as 'poodle-like white dog,' though overall A still points to Samoyed.",
+  "b_issues": "Content B likewise supports the breed as Samoyed or likely Samoyed, but does not provide a confirmed dog name. Several results emphasize rumor/speculation ('probable pet,' 'appear to have gotten,' 'many fans believe'), so ownership/adoption and breed are not fully confirmed in-source.",
+  "reasoning": "The question asks for the adopted dog’s breed and name in July 2026. The anchor indicates the breed is a Samoyed, and both A and B contain that fact from strong sources such as USA Today and Page Six/Kansas City Star. However, neither set provides a dog name. Because both result sets equally enable only a partial answer—breed yes, name no—and neither has a decisive accuracy advantage, the correct verdict is a tie."
+}

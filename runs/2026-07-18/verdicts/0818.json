@@ -1,0 +1,11 @@
+{
+  "id": 818,
+  "query": "Microsoft 365 Copilot app redesign chat-centered layout release date 2025",
+  "topic": "Microsoft Copilot",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Content A mostly surfaces 2026 materials, not the 2025 release asked about. It includes a May 2026 Community Hub post, 2026 release notes, a May 2026 blog post, and a 2026 message-center item for the mobile app. These are off-target and could mislead an LLM into answering with a 2026 date. It does not provide the key 2025 source stating the redesign/reimagined Microsoft 365 Copilot app launched in May 2025.",
+  "b_issues": "Content B also mostly surfaces 2026 materials and a noisy roadmap snippet. It includes the same 2026 mobile-app chat-first design item, 2026 release notes, a forum post about a June 2026 refresh, and a May 2026 Microsoft blog post. The roadmap result is too garbled to extract the needed fact reliably. It likewise lacks the key May 2025 sources and could mislead an LLM into giving a 2026 date.",
+  "reasoning": "The anchor shows the relevant 2025 redesign was announced/launched with Microsoft’s Wave 2 spring release on May 19, 2025, with related April 23, 2025 coverage saying the redesigned app was coming soon. Neither result set clearly contains that 2025 fact. Both instead emphasize later 2026 redesign/chat-first refresh materials, which are reliable in themselves but answer a different question. Because both sets are similarly off-target and neither cleanly enables the correct 2025 answer from the provided content alone, the best verdict is a tie."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 244,
+  "query": "Voyager 1 April 2026 instrument shutdown which instrument turned off remaining instruments NASA",
+  "topic": "Voyager 1",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "",
+  "b_issues": "Top result is a Facebook post rather than a primary source. One result (How-To Geek) says Voyager 1 and Voyager 2 are left with three science instruments each, which conflicts with NASA's April 2026 report for Voyager 1 stating only two remain. The JPL result snippet is mostly boilerplate and does not expose the key facts in the provided content.",
+  "reasoning": "Content A directly contains the needed NASA facts: Voyager 1's Low-energy Charged Particles experiment (LECP) was shut down on April 17, 2026, and Voyager 1 had two remaining operating science instruments afterward: the plasma wave instrument and the magnetometer measuring magnetic fields. This matches the anchor and comes from a NASA Science source snippet. Content B does include LECP in some secondary-source snippets, but it is less reliable and more internally inconsistent: one result says only two instruments remain, while another says three remain on each spacecraft, which could mislead an LLM answering specifically about Voyager 1 after the April 2026 shutdown."
+}

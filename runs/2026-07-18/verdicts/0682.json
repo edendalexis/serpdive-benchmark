@@ -1,0 +1,11 @@
+{
+  "id": 682,
+  "query": "Shein logistics hub Wrocław Poland jobs created December 2025",
+  "topic": "Shein",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Content A contains one irrelevant/noisy LinkedIn result and one Yahoo snippet that omits the key 5,000 figure, but it still includes the official SHEIN press release explicitly stating the hub lifts total jobs created/supported in Lower Silesia/Poland to at least 5,000. No material contradiction is present.",
+  "b_issues": "Content B includes some noisier secondary sources (WORLDEF, LinkedIn, rp.pl) and the SHEIN result snippet is repetitive/truncated, but it still includes the official SHEIN press release title with the key fact and an SGI result explicitly stating the facility will bring total jobs in Lower Silesia to at least 5,000. No material contradiction is present.",
+  "reasoning": "Both result sets provide the crucial fact needed to answer the query: in December 2025, SHEIN opened its Wrocław, Poland logistics hub and said this lifted total jobs created/supported in Poland’s Lower Silesia region to at least 5,000. In A, that fact is directly present in the official SHEIN source and corroborated by SGI and another secondary source. In B, the same fact is present in the official SHEIN title and stated clearly in the SGI snippet. Both are accurate relative to the anchor and neither contains a conflicting job figure, so both enable a correct answer equally well."
+}

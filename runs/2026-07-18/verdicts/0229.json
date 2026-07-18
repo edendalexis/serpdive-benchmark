@@ -1,0 +1,11 @@
+{
+  "id": 229,
+  "query": "Tesla one-time Full Self-Driving purchase discontinued after February 14 2026 subscription only official support page",
+  "topic": "Tesla",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A does not surface the official Tesla support page despite the query explicitly asking for an official support page. Its top results are mostly secondary or low-reliability sites (Yahoo syndication, store/blog sites like EVDANCE, BASENOR, teslaacessories, notanfsdtracker). While A does state the key fact that Tesla would stop offering one-time FSD purchases after Feb. 14, 2026, it provides weaker sourcing and includes some potentially noisy regional claims from non-authoritative sites.",
+  "b_issues": "Content B also does not directly include the official Tesla support page. It contains some lower-reliability blog results (BASENOR, LowerMySubs, Tesla Oracle), and one result discusses Europe-specific deadlines that could distract from the U.S./general question. However, it includes a strong mainstream source, Electrek, explicitly stating Tesla will stop selling FSD after Feb. 14 and move to subscription-only.",
+  "reasoning": "B better enables a correct answer because it contains a clear, direct, and reasonably reliable statement from Electrek that Tesla will stop selling Full Self-Driving as a one-time option after Feb. 14 and only offer a monthly subscription. That matches the anchor reporting and the known January 14, 2026 announcement. A has the same core fact, but its evidence is anchored more heavily in lower-quality or commercial blog sources and still lacks the requested official page. Neither set fully satisfies the 'official support page' part of the query, but B is stronger on the core factual change and source reliability."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 959,
+  "query": "TikTok Shop dedicated shop tab location main screen app interface 2026 user features",
+  "topic": "TikTok Shop",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Most results are secondary marketing/blog sources rather than official TikTok documentation. One result discusses a profile shop tab for merchants rather than the user-facing main-screen Shop tab. The top result is generic and does not specify location or user features in detail. A YouTube seller tutorial is not a strong factual source for this query.",
+  "b_issues": "Results are weaker and less directly responsive to the query. Several snippets are generic growth/GMV claims with little or no information about the Shop tab location or interface. One snippet says the Shop tab is in the 'top menu,' which conflicts with the anchor/official description of a dedicated Shop tab on the home screen/main app interface. Sources are mostly marketing blogs, with no official TikTok or strong news source in the returned set.",
+  "reasoning": "A better enables a correct answer because it includes a result explicitly stating TikTok redesigned its interface to include a dedicated TikTok Shop tab that takes users straight to the shopping portal in one touch, matching the anchor. It also mentions this is a dedicated button/tab in the app interface and references the shopping experience for buyers. B has one relevant Shopify snippet, but its claim that the Shop tab is in the 'top menu' is less aligned with the anchor's 'dedicated shop tab on the home screen' and the rest of B is mostly broad commerce commentary. Neither set is ideal, but A contains facts closer to the official description and fewer potentially misleading interface details."
+}

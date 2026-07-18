@@ -1,0 +1,11 @@
+{
+  "id": 148,
+  "query": "Red Lobster 2025 July sales growth percentage year over year",
+  "topic": "Red Lobster",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Content A does not contain a clear 2025 July year-over-year Red Lobster sales growth figure. Its most relevant result is an old NRN article about Darden-era Red Lobster saying same-store sales rose 8% to 9% for the four weeks ended July 29, but that is from a much older period and not 2025. Other results discuss 2024 projections or 2026 monthly gains, which are not the asked fact. This could mislead an LLM into answering with an unrelated number.",
+  "b_issues": "Content B also does not reliably contain the specific 2025 July year-over-year sales growth percentage. It includes the same old NRN article with 8% to 9% comps for a historical July, not 2025. It also includes a Facebook snippet claiming sales are up 10% from last year and even '2025 sales are up 40%,' which is inconsistent, low-reliability, and not clearly about July year over year. Other results are projections or unrelated industry context.",
+  "reasoning": "Neither set clearly provides the requested fact: Red Lobster's July 2025 year-over-year sales growth percentage. Both sets mainly surface irrelevant historical comp-sales data and broader projections. A has somewhat cleaner sources, but still lacks the specific 2025 July figure. B has a potentially relevant social-media snippet, but it is contradictory and unreliable, so it does not better enable a correct answer. Therefore neither set is meaningfully better."
+}

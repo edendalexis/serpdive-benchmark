@@ -1,0 +1,11 @@
+{
+  "id": 454,
+  "query": "2024 Nobel Prize Chemistry laureates official institutional affiliations at time of announcement",
+  "topic": "Nobel Prize 2024",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A does not contain the needed affiliations in the snippets. Its only official Nobel source is the prize-announcement page, but the snippet merely says an announcement occurred and gives no laureate affiliations. The other results are irrelevant, speculative, or unrelated (ACS pre-announcement notice, prediction page, generic Nobel chemistry page, and an obviously unreliable/incorrect 2025 liveblog snippet). So an LLM using A alone would lack the facts needed to answer correctly.",
+  "b_issues": "Content B has some irrelevant/noisy results, and the top Nobel press-release snippet is somewhat truncated. However, it still contains the key official affiliation facts needed for at least David Baker and strongly indicates the official Nobel Chemistry 2024 press release. The YouTube announcement snippet also begins the official affiliation wording. No direct contradiction is present in the useful results.",
+  "reasoning": "The question asks for the official institutional affiliations of the 2024 Chemistry laureates at the time of announcement. Content B includes the official Nobel Prize 2024 press release result, which is a highly reliable source and contains the affiliation information from the official announcement. From the snippet and known structure of that page, it identifies David Baker with University of Washington and Howard Hughes Medical Institute, and the official Nobel press release is the correct source for Demis Hassabis and John Jumper as Google DeepMind, London, UK. Content A, by contrast, surfaces the Nobel prize-announcement page but its snippet omits the affiliations entirely, leaving the answer unsupported from the returned content alone. Therefore B better enables a correct answer."
+}

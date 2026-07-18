@@ -1,0 +1,11 @@
+{
+  "id": 736,
+  "query": "Rafah border crossing closed Israel latest date reason humanitarian impact Gaza 2025",
+  "topic": "Israel-Hamas conflict",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Content A does not directly provide the latest 2025 closure date or the 2025 reason from a strong news source. Its most relevant items are about a March 2026 closure tied to attacks on Iran, which is off-target for a question explicitly asking about 2025. The Wikipedia snippet is noisy and mixes years and events, reducing reliability for a latest-date question. It also includes an Israeli claim that closure would have 'no impact on the humanitarian situation,' which is questionable and not sufficient to describe humanitarian impact.",
+  "b_issues": "Content B likewise lacks the key latest 2025 closure date/reason from a solid source. It also leans on a noisy Wikipedia snippet and mostly provides 2026 material. The PBS result is about reopening, not the latest 2025 closure, and the Red Cross snippet is only general humanitarian background rather than the specific impact of the closure. There is also mild timeline confusion across snippets (withdrawal in Jan 2025, reopen in Feb 2026, closure again during Iran war), which does not answer the 2025-specific query cleanly.",
+  "reasoning": "Neither set cleanly enables a correct answer to the question as asked. The anchor indicates the relevant 2025 fact pattern is that Israel said the Rafah crossing would remain closed until further notice in mid-October 2025, tied to accusations of ceasefire violation / pressure on Hamas, with humanitarian implications for aid trucks and Gaza access. Neither A nor B includes that crucial 2025 closure reporting directly. Both mostly surface 2026 closure coverage related to Israel-US attacks on Iran, which is likely not what the query seeks. B has a slightly better humanitarian-impact signal because the Al Jazeera snippet explicitly says the crossing is vital for aid delivery and medical evacuations, but it is still about 2026. A has a similar problem and no better 2025 grounding. So neither is materially better for answering the 2025 question correctly."
+}

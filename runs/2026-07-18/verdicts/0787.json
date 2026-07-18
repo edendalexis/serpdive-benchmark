@@ -1,0 +1,11 @@
+{
+  "id": 787,
+  "query": "Netanyahu CNBC interview June 2026 digital information warfare western media social platforms GDP growth 3.8%",
+  "topic": "Benjamin Netanyahu",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A includes the key CNBC live-updates page and transcript link, but its snippets omit the crucial details in the question about Netanyahu's remarks on a 'digital information battle,' criticism of Western media/social platforms, and the 3.8% GDP growth figure. It also contains low-reliability/irrelevant results (Spotify, Instagram) that do not help answer the query. So an LLM relying on A alone would likely miss the specific requested facts.",
+  "b_issues": "Content B has some noisy or potentially garbled snippet text in the transcript/video results (e.g., fragmentary quotes, an obviously unrelated video snippet about SpaceX market cap). However, these do not directly negate the key facts. The main CNBC result contains the essential points requested.",
+  "reasoning": "B better enables a correct answer because its top CNBC result explicitly contains the core facts asked about: Netanyahu criticized certain Western television stations and social media outlets, said Israel must improve in the 'digital information battle,' and stated/mentioned that Israel's central bank still expects 2026 growth of 3.8%. These details align with the anchor/reference material, which points to the June 3, 2026 CNBC interview and independently confirms the 3.8% figure via Reuters/Bank of Israel reporting. By contrast, A's snippets mostly mention tactical disagreements with Trump, oil supply, and investment promotion, but do not surface the digital-information-warfare/media/social-platforms angle or the 3.8% growth figure. Therefore B gives an LLM the needed facts more directly and accurately."
+}

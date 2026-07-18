@@ -1,0 +1,11 @@
+{
+  "id": 864,
+  "query": "Wegovy real-world study September 2025 cardiovascular outcomes vs tirzepatide risk reduction heart attack stroke death obesity",
+  "topic": "Ozempic and Wegovy",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Most result snippets are secondary coverage or company press-release language rather than independent reporting. Some snippets phrase the endpoint imprecisely (eg, mixing cardiovascular-related death with death from any cause). However, A includes the PMC full-paper result for STEER with concrete outcome details, including that semaglutide lowered MI risk by 62% versus tirzepatide and noting residual confounding limitations; this supports the core claim rather than contradicting it.",
+  "b_issues": "B is dominated by press-release rewrites and brief snippets that largely restate Novo Nordisk's claims without methodological detail. It does not include the underlying paper or as much direct evidence on specific outcomes and limitations. Some snippets are truncated and therefore less precise about endpoints and context.",
+  "reasoning": "A better enables a correct answer because it contains the key fact pattern from the September 2025 real-world STEER study and, crucially, includes the underlying PMC article with substantive methodological and numerical details. From A alone, an LLM can answer that in adults with overweight/obesity, established CVD, and no diabetes, semaglutide/Wegovy was associated with lower cardiovascular event risk than tirzepatide: about 57% lower risk for the composite while continuously on treatment, 29% lower in all treated patients regardless of gaps, and lower MI risk specifically (62% lower in the PMC snippet). The anchor independently supports these same figures. B has the main headline numbers too, but mostly via derivative or promotional summaries, with less detail and less reliability. Since A has both the core answer and stronger source grounding without internal contradiction, it is the better set."
+}

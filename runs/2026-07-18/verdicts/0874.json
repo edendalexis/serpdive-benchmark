@@ -1,0 +1,11 @@
+{
+  "id": 874,
+  "query": "Peter Mandelson security investigation US details 2026 Keir Starmer government",
+  "topic": "Keir Starmer",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A includes a BBC item about Starmer’s statements and a Guardian/Reuters result about the inquiry, but it has less direct detail on the investigation itself. One result (CNN) appears noisy/possibly contradictory, mentioning a letter confirming clearance until 2030 alongside a police leak investigation tied to Epstein, which is not supported by the anchor and could confuse an LLM. A also lacks the later detail that files reportedly showed no mitigation measures for the security concerns.",
+  "b_issues": "Content B still contains some noisy/partial results (CNN and Reuters snippets are truncated), and the Guardian May 31 report is a media account rather than an official document. It does not include the Parliament committee page from the anchor.",
+  "reasoning": "The key question is about the Mandelson security investigation in the US/ambassador context and details involving the 2026 Starmer government. Both sets contain the central fact that UKSV recommended denying Mandelson developed vetting on 28 January 2025, that the Foreign Office overruled it the next day, and that Starmer later ordered an investigation/review into security concerns arising from Mandelson’s tenure as ambassador to the US. However, B better enables a correct answer because it more directly answers the ‘investigation’ and ‘details’ aspects: the top Guardian result explicitly says Starmer ordered the Cabinet Office government security group to examine any security concerns raised during Mandelson’s US tenure, and the second Guardian result adds a crucial detail that documents showed no recorded mitigation steps for the flagged associations with foreign-state figures. That aligns well with the anchor’s focus on unanswered questions over vetting. A has the basics, but one result is more clearly suspect/noisy and A offers less substantive detail about the investigation’s contents and missing mitigations."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 285,
+  "query": "Devin AI supported models GPT-5.6 Claude Sonnet 5 Kimi K2.7 GLM 5.2 pricing comparison",
+  "topic": "Devin AI software engineer",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A is mostly off-target and weakly sourced. It lacks Devin-specific sources confirming support for GPT-5.6, Kimi K2.7, and GLM 5.2, and provides no evidence that Claude Sonnet 5 is supported in Devin. The top result is a third-party model-comparison page unrelated to Devin; another is Reddit; another is YouTube. It also does not provide a coherent pricing comparison among the requested models within Devin. Any pricing facts are scattered and largely from third-party sites, so an LLM would have to infer too much.",
+  "b_issues": "Content B still does not directly establish Devin support for Claude Sonnet 5, and most pricing details come from third-party sources rather than Devin’s own pricing/model docs. Some third-party snippets are noisy and may mix broader API pricing with Devin availability. However, it does include a Devin first-party result explicitly confirming Kimi K2.7 and GLM 5.2 availability in Devin Desktop/CLI.",
+  "reasoning": "The question asks about Devin AI supported models and a pricing comparison for GPT-5.6, Claude Sonnet 5, Kimi K2.7, and GLM 5.2. Relative to A, content B is better because it includes a first-party Devin result directly confirming that Kimi K2.7 and GLM 5.2 are available in Devin Desktop and CLI. A lacks any first-party Devin result for those models and is dominated by generic comparison/reddit/youtube pages. Neither set cleanly proves Claude Sonnet 5 support in Devin, and neither provides a complete Devin-native pricing comparison across all four models. But B is closer to answering correctly because it contains at least one authoritative Devin source aligned with the query, while A would force the LLM to rely heavily on unreliable or non-Devin sources."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 125,
+  "query": "Sanae Takaichi immigration rules January 2026 Japan new regulations specifics",
+  "topic": "Japan Prime Minister",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A includes one highly specific but weakly sourced result: a YouTube video claiming concrete policy details such as Business Manager visa capital requirement changes, PR rule changes, naturalization changing from 5 to 10 years, fee hikes, and JESTA timing. Those specifics are not corroborated within A by stronger sources and some conflict with more cautious reporting elsewhere. The Mainichi snippet is truncated and only partially usable. Some results discuss practice becoming stricter rather than clearly stating finalized legal/regulatory changes.",
+  "b_issues": "Content B is mostly high-level and lacks the specific January 2026 regulations the question asks for. It relies heavily on pre-January or analytical commentary rather than the Jan. 2026 package itself. The CFR result mentions election/political context and a departure tax proposal, which is peripheral to the immigration-rules question. B provides fewer concrete specifics than A and does not clearly identify the substance of the January 2026 measures.",
+  "reasoning": "A better enables a correct answer because it contains more directly relevant January 2026 material on Takaichi’s immigration/foreign-national policy package, including Nippon.com on the January 2026 framework, Mainichi indicating stricter rules and a planned shift from 5 to 10 years, and East Asia Forum clarifying that formal law had not necessarily changed even if practice tightened. Although A includes a weakly sourced YouTube result with potentially over-precise claims, it still gives an LLM more usable facts and nuance about what was actually decided versus what was changing in practice. B, by contrast, is mostly contextual and sparse on specifics: it says a January 2026 package was planned or generally tightened scrutiny, but does not provide enough concrete details of the new regulations to answer the question well. So A is the stronger set overall, despite some reliability issues."
+}

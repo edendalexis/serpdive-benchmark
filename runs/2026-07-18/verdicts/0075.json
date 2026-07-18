@@ -1,0 +1,11 @@
+{
+  "id": 75,
+  "query": "2027 Oscars 99th scientific technical awards submission deadline rules",
+  "topic": "Academy Awards Oscars",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A includes the key authoritative results: the Academy press release with the deadline (Thursday, July 23, 5 p.m. PT) and the Oscars Sci-Tech apply page with rules. However, the press result snippet is truncated and does not itself include the detailed rules; the rules are only partially visible in the apply-page snippet, so an LLM may miss important submission-rule details beyond the existence of rules. Several other results are about general 99th Oscars dates or unrelated category deadlines, which could distract from the sci-tech-specific answer.",
+  "b_issues": "Content B also includes the key authoritative Academy press release with the deadline and a reference to submission rules, but it does not include the Oscars Sci-Tech apply page directly, so the actual rules text is less available than in A. Other results are mostly about general 99th Oscars rules/dates, and one result snippet says 'March 14, 2026' for the 99th Oscars, which is inaccurate for the 99th Oscars and could confuse the model. The press release snippet also omits 'PT' after 5 p.m., though the anchor confirms the timezone.",
+  "reasoning": "Both result sets contain the most important authoritative fact needed to answer the query: the Academy press-office announcement for the 2027 Scientific and Technical Awards stating that submissions are open and the deadline is Thursday, July 23, at 5 p.m. PT. Both also point toward rules information, but neither provides a full enough rules extract to answer detailed 'deadline rules' comprehensively from the snippets alone. A has a slight advantage because it includes the Oscars.org Sci-Tech apply page directly, exposing some actual rules text, while B has a slight disadvantage because it lacks that page and includes a misleading 2026 ceremony date in one result. Still, neither set clearly provides a substantially better, complete basis for answering the full question from content alone, so the fairest verdict is a tie."
+}

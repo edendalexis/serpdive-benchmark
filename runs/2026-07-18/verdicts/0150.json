@@ -1,0 +1,11 @@
+{
+  "id": 150,
+  "query": "Ukraine defense minister appointment successor Fedorov removal cabinet reshuffle July 2026",
+  "topic": "Volodymyr Zelenskyy",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A has some uncertainty: one result says Zelenskyy had not publicly named a successor, while other results report Ihor Klymenko was tapped/expected to replace Fedorov. This is a timing/status difference rather than a clear contradiction. It also does not clearly capture the later acting appointment mentioned in the anchor (Yevhenii Khmara).",
+  "b_issues": "Content B is too sparse and indirect for the specific question. It mostly contains homepage/section snippets rather than article-level reporting. It does not clearly state who succeeded Fedorov, whether the appointment was acting or permanent, or the cabinet-reshuffle mechanics. It includes irrelevant/general results (Wikipedia) and lacks a reliable, explicit answer to the successor question.",
+  "reasoning": "Content A better enables a correct answer because it directly states the key facts tied to the query: Mykhailo Fedorov was removed as defense minister in the July 2026 cabinet reshuffle, and multiple results report that Interior Minister Ihor Klymenko was tapped/expected to replace him. These details align substantially with the anchor’s reporting that Fedorov was dismissed and Klymenko was tapped as replacement. By contrast, Content B mostly signals that Fedorov was ousted and protests followed, but does not clearly provide the successor appointment details needed to answer the question from the search results alone."
+}

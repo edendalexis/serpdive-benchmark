@@ -1,0 +1,11 @@
+{
+  "id": 756,
+  "query": "DJT stock lock-up period expiration September 2024 all-time low price Trump Media",
+  "topic": "Truth Social DJT stock",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A does not directly answer the question. Its main relevant result is a July 2024 SEC filing mentioning historical prices only through June 28, 2024, with a low of $22.84, which is not the September 2024 lock-up expiration low being asked about. The other results are irrelevant or misleading for this query: a Forbes article from 2026 and a Yahoo Finance quote from 2026. A therefore lacks the key September 2024 facts and could mislead an LLM into using outdated or wrong prices.",
+  "b_issues": "Content B is mostly strong and directly relevant. Minor issue: one result says 'new 52-week low' and another says 'lowest level since the company went public' rather than explicitly 'all-time low,' though this is consistent with the Reuters/CNBC framing for that date. The Macrotrends result includes later 2026 data that is not relevant to the September 2024 question, but it does not materially conflict with the core answer.",
+  "reasoning": "Content B better enables a correct answer because it contains the key facts from reliable news sources close to the event date: CNBC states that on Sept. 20, 2024, after the lockup expired, Trump Media shares closed down 7.82% at $13.55 per share, a new low. CBS also confirms the lock-up expired at the end of trading on Sept. 19, 2024. These facts match the anchor Reuters report about Trump Media tumbling to a new low after the lock-up expired. By contrast, Content A does not provide the September 2024 event details or the correct low price; its only substantive source is an older SEC filing and the rest are irrelevant 2026 references. Therefore B clearly provides the necessary, accurate facts while A does not."
+}

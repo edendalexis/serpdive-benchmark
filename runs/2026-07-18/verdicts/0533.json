@@ -1,0 +1,11 @@
+{
+  "id": 533,
+  "query": "Netflix Barbie in the Nutcracker animated special September 2026 release",
+  "topic": "Barbie",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A relies heavily on weaker sources such as Fandom and Instagram rather than primary or trade sources. It includes some noisy social posts and one Instagram result says the original 2001 film will also release on Netflix later in 2026, which is peripheral and not strongly sourced. However, it does contain the key fact: the special will be on Netflix on September 8, 2026.",
+  "b_issues": "Content B includes stronger trade coverage, but it does not clearly provide the September 2026 release date for the animated special itself. The Animation Magazine snippet mentions Netflix in 2026, but the explicit September 8 date shown there appears to refer to the tie-in book, not the special. The Fandom result shown in B is truncated and omits the September 8, 2026 detail present in A. So B may lead an LLM to answer only 'in 2026' or to confuse the book date with the Netflix premiere date.",
+  "reasoning": "The question asks for the Netflix release of the Barbie in the Nutcracker animated special in September 2026. Content A explicitly states in the top result that the all-new animated special will be on Netflix on September 8, 2026, and another result echoes that date. Content B has somewhat better source quality overall, but its snippets do not clearly tie a September date to the Netflix special; the only explicit September 8 reference is to a book release. Therefore A better enables an LLM to answer the question correctly, despite weaker sourcing."
+}

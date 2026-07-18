@@ -1,0 +1,11 @@
+{
+  "id": 332,
+  "query": "Longlegs 2028 film Nicolas Cage role character",
+  "topic": "Longlegs",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "A never explicitly states the character Nicolas Cage plays in the 2028 film. One result even says whether he will play the same role 'hasn’t yet been revealed,' which conflicts with the anchor/reference that he is returning as Longlegs. The available snippets mostly only say he is returning as star/producer or that the film is in the same universe.",
+  "b_issues": "B includes some lower-reliability/aggregator-style sources (Yahoo repost, Bloody Disgusting), and one Joblo result is about the original film rather than the 2028 movie. However, its top results explicitly identify Cage as returning as Longlegs / the titular serial killer, which matches the reference.",
+  "reasoning": "The question asks for Nicolas Cage’s role/character in the 2028 Longlegs film. Content B directly provides that: the Yahoo result says 'Nicolas Cage Returns As LONGLEGS In 2028' and calls him the 'deranged titular serial killer,' while THR/Variety snippets support that he is returning for the new Longlegs film. Content A does not clearly provide the character name from the snippets; at best it says Cage is returning, and one snippet introduces uncertainty about whether he plays the same role. Therefore B better enables an LLM to answer correctly that Cage returns as Longlegs, the serial killer character."
+}

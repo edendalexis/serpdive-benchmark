@@ -1,0 +1,11 @@
+{
+  "id": 937,
+  "query": "Klarna partnership Lufthansa Group Qatar Airways Quay Article announcement 2026",
+  "topic": "Klarna",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A includes no Quay result and no direct 2026 Quay announcement source, so it does not fully cover all entities implied by the query. Its top Yahoo Finance result appears to be a secondary stock/article aggregation rather than the primary announcement, though the Lufthansa facts align with the anchor. Qatar Airways is only covered by a brief The Paypers snippet without rollout detail in the returned content.",
+  "b_issues": "Content B also includes no Quay result and no direct 2026 Quay announcement source, so it likewise does not fully cover all entities implied by the query. It has no direct Qatar Airways press release result; Qatar details appear only inside a secondary aerospace article. Some snippets mix in extraneous material and rely on secondary reporting.",
+  "reasoning": "Both result sets cover the Lufthansa Group–Klarna partnership well and accurately: both include the official Lufthansa newsroom announcement and supporting secondary/Business Wire-style coverage stating rollout from mid-November 2025 and expansion through Q2 2026. Both also provide at least some accurate Qatar Airways linkage to Klarna, matching the anchor’s October 2025 announcement. However, neither set includes the key Quay April 28, 2026 announcement that appears in the anchor, despite Quay being part of the query. Since both omit the same major needed fact cluster and neither clearly outperforms the other on correctness for the full query, they are equally insufficient overall."
+}

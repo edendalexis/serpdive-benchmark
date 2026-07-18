@@ -1,0 +1,11 @@
+{
+  "id": 84,
+  "query": "Blue Origin New Glenn return to flight date redesigned launchpad investigation findings aft section first stage",
+  "topic": "Blue Origin",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor tension in one result: Spaceflight Now snippet says the mishap investigation and pad damage are pushing the timeline to early 2027, while other A results and Blue Origin say return to flight is targeted for end of 2026 / this year. Otherwise the key facts are present and mostly align with the anchor.",
+  "b_issues": "Contains a clearly dubious/likely irrelevant Facebook result claiming New Glenn was cleared to return to flight after a failed April mission, which conflicts with the May 28, 2026 hotfire anomaly context. Also has less direct coverage of the exact investigation finding ('aft section of the first stage') in the snippets, and less explicit date detail from reliable primary/secondary sources.",
+  "reasoning": "The question asks for the return-to-flight date/target, redesigned launchpad details, and investigation findings about the aft section of the first stage. Content A includes the primary Blue Origin source explicitly stating: early analysis points to the aft section of the first stage and that Blue Origin intends to return to flight this year. Additional A results reinforce the redesigned pad/rebuild details (loss of lightning tower, transporter-erector, hydraulic cylinders) and the by-end-of-2026 target. Content B also contains the Blue Origin page with strong launchpad redesign details and some return-to-flight reporting, but its result set is weakened by the irrelevant/conflicting Facebook item and fewer snippets that directly state the aft-section finding. So A better equips an LLM to answer correctly from the provided search results alone."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 484,
+  "query": "WGA health fund $321 million studio contribution premium increase 2026 details",
+  "topic": "The WGA",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A contains a likely factual inconsistency: one result says studios would contribute $320 million (LA Times) while others say $321 million. It also includes a source snippet saying the increase is from 13% to 16.75% without clearly breaking out the phased 2026 and 2027 changes, and one WGA summary result appears to cite a wga.org URL rather than the contract FAQ/summary page directly. A does include useful details on premiums and deductibles, but some key official details are less directly anchored than in B.",
+  "b_issues": "Content B has a similar $320 million vs. $321 million discrepancy via the LA Times snippet. It is also thinner on premium/deductible specifics: the Variety snippet only vaguely mentions 'increases in premiums, deductibles' without the actual amounts. Some snippets are truncated.",
+  "reasoning": "B better enables a correct answer because it includes the most important official and accurate contract mechanics in a more direct way: the WGA summary/FAQ snippets specify that Health Fund contributions on reportable earnings increase 3.25% in the first year (13% to 16.25%) and another 0.5% in the second year to 16.75%, and it includes official WGA details on contribution-cap increases for screen, pilots, and overall deals. It also has the Hollywood Reporter snippet confirming the $321 million infusion. A does provide premium/deductible numbers, which are helpful, but its evidence for the core contract details is less consistently official and it still carries the same $320M/321M conflict. Since the query asks for '$321 million studio contribution premium increase 2026 details,' B more reliably supports the central answer on the $321 million figure and the exact contribution-rate changes, even though neither set fully captures all premium details."
+}

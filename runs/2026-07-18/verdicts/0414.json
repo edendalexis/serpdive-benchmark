@@ -1,0 +1,11 @@
+{
+  "id": 414,
+  "query": "The Bear total Emmy Awards wins number Season 5 2026 Emmys eligibility",
+  "topic": "The Bear",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A only partially answers the query. It supports the total Emmy wins count via reliable sources: Television Academy implies 21 Emmys, and Gold Derby explicitly says the show has won 21 trophies. However, it does not clearly address 'Season 5 2026 Emmys eligibility'; instead it shows 2026 nominations for The Bear, which suggests eligibility for some season/material but does not explicitly explain whether Season 5 is eligible or not. One CBS snippet contains likely corrupted/irrelevant text about Rob Reiner and a murder case, which undermines trust in that particular result.",
+  "b_issues": "Content B is weaker and less precise. IMDb awards data is not focused on Emmy totals and is less authoritative than Television Academy. It does not clearly provide the total Emmy wins number, nor does it address Season 5's 2026 eligibility. The Gold Derby snippet discusses prior Emmy success and strategy but not the specific eligibility question. The Television Academy snippet is fragmentary and does not surface the key total (21) in the snippet. Overall B lacks the crucial eligibility fact and only indirectly supports the wins count.",
+  "reasoning": "The anchor indicates the key facts are that The Bear has 21 Emmy wins total and that there is a 2026 eligibility nuance around later/final-season material. Content A better enables a correct answer because it contains a highly reliable Television Academy result for the show and a Gold Derby snippet explicitly stating 'the show has won 21 trophies.' Content B has the same TV Academy page, but its snippet does not expose the total wins, and its other results do not answer the eligibility part either. Neither set fully answers the Season 5/2026 eligibility issue, but A is closer because it at least provides the total wins clearly and from better supporting sources."
+}

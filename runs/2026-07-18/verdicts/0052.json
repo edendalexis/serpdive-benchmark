@@ -1,0 +1,11 @@
+{
+  "id": 52,
+  "query": "Nintendo Switch 2 EU replaceable battery revised model launch July 2026 right to repair original Switch discontinuation Europe February 2027 official announcement",
+  "topic": "Nintendo Switch 2",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Some secondary results are less reliable or potentially noisy: Hypebeast says the original Switch will 'likely' face discontinuation rather than citing the official discontinuation language; Nintendo Life says the Switch 2 revision rolls out 'from the autumn,' which is narrower than the official Nintendo page saying first revised products are expected from summer 2026 with additional products later. One result includes an obviously suspect country list in the snippet. However, A includes the official Nintendo UK support page with the key facts.",
+  "b_issues": "B lacks the official Nintendo announcement result entirely. It includes speculative or lower-reliability items, especially a Reddit post that says the original Switch discontinuation is only 'highly likely' because the website 'does not mention' it, which conflicts with the actual official announcement referenced by the anchor. Hypebeast is framed as reported/speculative. Threads is not a strong source. While TechRadar summarizes the discontinuation and revised launch timing, the result set overall is less authoritative and contains more room for confusion.",
+  "reasoning": "A better enables a correct answer because it directly includes Nintendo's official support page stating that, starting summer 2026, selected Nintendo products in Europe will be replaced on a rolling basis by revisions with user-replaceable batteries, in preparation for regulations taking effect in mid-February 2027. That is the core official announcement the question asks about. A also has corroborating press coverage from The Verge and Nintendo Life. B has some useful reporting, especially TechRadar, but it omits the official Nintendo source and includes a Reddit result that inaccurately/speculatively treats the original Switch discontinuation as inferred rather than officially announced. Since the question asks about an official announcement and specific timing, A is more accurate, more reliable, and less contradictory."
+}

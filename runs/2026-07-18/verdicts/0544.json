@@ -1,0 +1,11 @@
+{
+  "id": 544,
+  "query": "ECB supervisory publications scrapped simplification push number of publications dropped 2025 banks clearer expectations",
+  "topic": "European Central Bank",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "A does not explicitly state in the ECB primary-source snippet how many publications were discontinued; that figure appears only in secondary sources. Some result snippets are thin or partial, and one Reuters-like detail is replaced by other outlets. However, the core facts are not contradicted.",
+  "b_issues": "B also lacks the discontinuation number in the ECB primary-source snippet itself; the 'around 40' figure comes from secondary sources. Several snippets are truncated and do not fully explain the 'clearer expectations' angle, though the ECB press release snippet does mention clarifying purpose and intended use of publication types. No clear factual contradiction is present.",
+  "reasoning": "Both result sets contain the key facts needed to answer the query: the ECB reviewed about 130 supervisory publications and discontinued around 40 of them in a simplification/clarity push, with the aim of making expectations and guidance clearer for banks. In both A and B, the top result is the official ECB press release, which is the most reliable source and confirms the streamlining/clarity rationale. In both sets, secondary sources (Central Banking, Bloomberg/Yahoo, Reuters/PYMNTS) supply the specific 'around 40' number. Neither set presents a conflicting figure, and both are broadly accurate relative to the anchor. Since both enable the same correct answer with similar reliability, neither is meaningfully better."
+}

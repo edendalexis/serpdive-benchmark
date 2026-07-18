@@ -1,0 +1,11 @@
+{
+  "id": 11,
+  "query": "TSMC Arizona additional investment 2026 total U.S. investment number of new plants announced March 2026",
+  "topic": "Taiwan Semiconductor Manufacturing Company",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A does contain the key answer in the Tom's Hardware result: an additional $100 billion, total announced U.S. investment of $265 billion, and at least four more plants/fabs in Arizona. However, it lacks the March announcement context directly tied to the question, and includes weaker/less reliable or derivative sources. One result (Tech Insider) appears dubious and introduces potentially inconsistent facility counts ('up to 12 fabrication plants and four advanced packaging facilities') that do not align cleanly with the anchor. Another result says the Arizona total is $265 billion rather than clearly distinguishing U.S. total investment. Overall A is answerable but less grounded and less precise on the timeline/context.",
+  "b_issues": "Content B has a timeline inconsistency: the NIST snippet says the July 2026 addition follows the 'March 2025' announcement, whereas the user query asks about 'announced March 2026' and the anchor references a January 2026 trade/investment deal. It also includes a March 2025 TSMC press release about reaching $165 billion, which could confuse the chronology. Some secondary snippets phrase the number as Arizona/state commitment rather than U.S. total. Still, the core facts are present and mostly consistent.",
+  "reasoning": "B better enables a correct answer because it includes highly reliable primary/government sources directly stating the needed facts: NIST says TSMC announced an additional $100 billion, bringing total U.S. investment to $265 billion, and that this will result in four additional advanced semiconductor manufacturing facilities, bringing the total to 12 facilities. A also has the core numbers, but relies mainly on secondary reporting and does not as clearly anchor the March/earlier-announcement context. Despite B's chronology confusion around March 2025 vs the query's March 2026, it more clearly supplies the exact answer from authoritative sources."
+}

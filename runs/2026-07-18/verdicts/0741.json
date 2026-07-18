@@ -1,0 +1,11 @@
+{
+  "id": 741,
+  "query": "Alaska man federal charges threats kill Supreme Court justices indictment status",
+  "topic": "U.S. Supreme Court",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A includes mixed-timeline results: several 2024 stories say Anastasiou was indicted on 22 counts and pleaded not guilty, while another 2026 result says he is set to plead guilty. That can create ambiguity about current status unless the model infers chronology. It also omits some later anchor details, such as the superseding 26-count indictment and that he had agreed to plead guilty rather than merely being set to do so.",
+  "b_issues": "Content B has the same mixed-timeline problem and is less complete. Its strongest current-status result says he is 'set to plead guilty' but does not specify whether he already pleaded guilty. It also lacks a strong mainstream source explicitly stating the initial not-guilty status alongside the later plea progression as clearly as A, and it omits the fuller charge details reflected in the anchor's later superseding indictment.",
+  "reasoning": "The question asks about the indictment status of the Alaska man charged with threatening to kill Supreme Court justices. Both sets contain enough to say he was federally indicted and initially pleaded not guilty, with a later development toward a guilty plea. However, A better supports a correct answer because it includes reliable mainstream sources clearly stating the original indictment and not-guilty plea (PBS, NBC, ABC) plus a later Alaska Beacon result showing the case progressed to an expected guilty plea. B also has those facts, but its evidence is thinner and less precise on status, relying on ABC plus a later 'set to plead guilty' brief and an AP pickup. Since the anchor indicates the later status was an agreement to plead guilty, A comes closer overall even though neither set is perfect."
+}

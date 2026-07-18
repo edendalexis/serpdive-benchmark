@@ -1,0 +1,11 @@
+{
+  "id": 85,
+  "query": "Blue Origin New Glenn NG-3 mission AST SpaceMobile BlueBird Block 2 booster recovery Jacklyn results April 2026",
+  "topic": "Blue Origin",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A is missing the key post-launch outcome facts. Its top results are largely prelaunch pages and social posts, so it does not clearly state that NG-3 suffered an upper-stage malfunction, that BlueBird 7 ended up in an off-nominal/lower-than-planned orbit, or that the booster was successfully recovered on Jacklyn. It also gives little direct evidence tying the payload specifically to BlueBird 7 / Block 2 mission results beyond prelaunch intent.",
+  "b_issues": "Content B includes one weak source (Wikipedia) and one prelaunch SatNews item, but its core facts are supported by stronger sources. The Blue Origin mission page is partly prelaunch/generic and says the satellite 'will deploy,' which does not reflect the actual outcome, but this is outweighed by SpaceNews and Spaceflight Now context.",
+  "reasoning": "Content B better enables a correct answer because it contains the decisive mission-result facts needed for the query: SpaceNews states that New Glenn’s third flight on April 19, 2026 suffered a second-stage malfunction and stranded AST SpaceMobile’s BlueBird 7 in an unrecoverable off-nominal orbit; Spaceflight Now identifies the booster as 'Never Tell Me the Odds' and says it had previously landed on Jacklyn, giving the reuse/recovery context relevant to the booster question. Combined with the Blue Origin NG-3 page, an LLM can infer the mission/date/payload and answer that the launch occurred, the payload outcome was bad, and the booster recovery/reuse milestone involved Jacklyn. Content A, by contrast, mostly contains prelaunch material and lacks the actual post-launch results, so an LLM using only A would be much more likely to miss or guess the real outcome."
+}

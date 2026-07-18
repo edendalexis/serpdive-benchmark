@@ -1,0 +1,11 @@
+{
+  "id": 686,
+  "query": "Shein US price increases April 2025 tariffs Chinese goods customer notice higher prices next week",
+  "topic": "Shein",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Content A is generally accurate and contains the key facts: Shein/Temu warned U.S. customers of price increases starting April 25, 2025, due to tariffs and trade-rule changes. Minor issues: one NBC result is post-event and less directly about the customer notice; snippets do not clearly quote the notice language in full; one result says prices rise 'on Friday' while others say 'starting next week,' but this is explained by article timing rather than a real contradiction.",
+  "b_issues": "Content B is also generally accurate and includes the strongest direct source (AP) plus corroborating reports. Minor issues: one result is from a low-authority site (globaltrainingcenter.com); the Guardian snippet mentions earlier tariff figures ('30% or $25 an item') that may reflect an earlier stage of policy and could confuse the final tariff context; snippets are somewhat less explicit than A about the exact April 25 date except in some results.",
+  "reasoning": "Both A and B provide the core facts needed to answer the query correctly: Shein warned U.S. customers in April 2025 that prices would increase starting the following week/April 25 because recent global trade-rule changes and tariffs on Chinese goods had raised operating costs. Both sets also tie this to Trump’s China tariffs and the end of the de minimis exemption. A has multiple mainstream sources explicitly naming April 25 and 'starting next week'; B includes the AP anchor result directly, which is highly reliable, and also states the same basic facts. Neither set contains a material factual contradiction that would prevent a correct answer, so they enable the answer about equally well."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 738,
+  "query": "Al-Ansar refugee camp tent fire Israeli airstrike Gaza casualties latest report",
+  "topic": "Israel-Hamas conflict",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A does not provide a precise latest casualty toll for the Al-Ansar camp incident beyond Anadolu saying there were 'no immediate reports of casualties.' It also includes irrelevant later Gaza casualty reporting from July 2026 that could distract the model, though it does not directly contradict the camp report.",
+  "b_issues": "Content B is weaker on casualties: it includes an Instagram snippet saying 'several casualties have been reported,' which conflicts with the Anadolu report saying there were no immediate reports of casualties. That social-media result is less reliable and makes the set internally inconsistent. B also has less contextual detail than A.",
+  "reasoning": "A better enables a correct answer because it contains the key incident details from two reliable news sources matching the anchor: the strike hit the Ansar/al-Ansar area, tents for displaced people caught fire, and Palestinians were warned/evacuated beforehand. Crucially, A includes the clearest casualty information available in these results: Anadolu reports no immediate reports of casualties. B includes the same core incident, but its only explicit casualty claim is a vague and less reliable Instagram snippet reporting 'several casualties,' which conflicts with Anadolu and is not supported by the anchor. Since the question asks about casualties in the latest report, A is the safer and more accurate set overall, even though neither set gives a fully definitive casualty toll."
+}

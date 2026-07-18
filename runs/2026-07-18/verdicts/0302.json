@@ -1,0 +1,11 @@
+{
+  "id": 302,
+  "query": "NASA Artemis program February March 2026 restructure Artemis IV first lunar landing 2028 Artemis III new 2027 low Earth orbit demonstration Gateway sidelined official announcement",
+  "topic": "NASA Artemis program",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Includes lower-reliability secondary sources (Wikipedia, CSIS, Spaceflight Now), and the CSIS snippet introduces extra claims about pausing Gateway and a Moon base that are not clearly part of the specific official announcement in the anchor. However, A also includes the key official NASA release and NASA Artemis III page, and its core facts are internally consistent.",
+  "b_issues": "The NASA result snippet is partly corrupted/irrelevant at the start (Perseverance rover text mixed into the Artemis release). It relies more heavily on non-official and low-reliability sources, including Reddit and Wikipedia. CBS says the 2028 landing plan 'was not realistic without another preparatory mission,' which is broadly consistent but less precise than the official NASA wording. B lacks the corroborating NASA Artemis III mission page present in A.",
+  "reasoning": "A better enables a correct answer because it contains the decisive official facts directly from NASA: the Feb. 27, 2026 announcement, Artemis III being redesignated for a 2027 low Earth orbit systems/operations demonstration, and Artemis IV becoming the first lunar landing mission in 2028. It also includes a NASA Artemis III page explicitly stating that Artemis III will demonstrate critical systems in LEO for future lunar landings beginning with Artemis IV. Those are exactly the facts needed for the question. B does contain the key NASA release and a CBS summary that broadly matches, but its evidence is weaker overall: one NASA snippet is noisy/corrupted, and the remaining support is more dependent on secondary or unreliable sources such as Reddit and Wikipedia. Therefore A provides more accurate, authoritative, and directly relevant support for answering the question correctly."
+}

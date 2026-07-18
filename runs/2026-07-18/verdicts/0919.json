@@ -1,0 +1,11 @@
+{
+  "id": 919,
+  "query": "Super Bowl LX ticket scams fake betting sites counterfeit lawmakers consumer warning 2026",
+  "topic": "Super Bowl",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A is almost entirely irrelevant to the query. Its results are about Super.com, a dictionary entry for 'super,' and a film called 'Super,' with no material about Super Bowl LX scams, fake betting sites, counterfeit tickets, lawmakers, or consumer warnings. An LLM could not answer the question from this content alone.",
+  "b_issues": "Content B does not include the strongest primary source from the anchor, namely Senator Maggie Hassan/Joint Economic Committee's Feb. 5, 2026 scam alert. It relies partly on secondary/local summaries, and one CBS line appears awkwardly phrased ('Purchasers could counterfeit digital tickets') where the intended meaning is likely that purchasers could receive counterfeit digital tickets. Still, the overall facts are directionally consistent with the anchor: lawmakers warned about Super Bowl scams, including illegal betting sites, fake/counterfeit tickets, and counterfeit merchandise.",
+  "reasoning": "B better enables a correct answer because it contains the core facts needed: a 2026 warning tied to Super Bowl LX, lawmakers/congressional panel warnings, illegal or fake betting sites, fake/counterfeit tickets, and counterfeit merchandise. These points align with the anchor and other referenced official alerts. A contains no relevant facts at all, so it cannot support an accurate answer."
+}

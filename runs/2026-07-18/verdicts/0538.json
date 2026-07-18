@@ -1,0 +1,11 @@
+{
+  "id": 538,
+  "query": "Mattel Barbie 2026 doll releases Masters of the Universe He-Man Teela Frida Kahlo Signature Fashion Frontier",
+  "topic": "Barbie",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A does not include a result for Frida Kahlo or Fashion Frontier, so it is incomplete for the full query. One snippet is third-party (ToyNewsI) and another is a retailer listing, which are less authoritative than Mattel. The He-Man snippet is somewhat noisy/truncated and includes membership/shipping promo text. It also says actor 'Nicholas Galitzine' while the anchor only independently confirms He-Man exists, not that detail.",
+  "b_issues": "Content B relies heavily on low-authority or rumor/aggregator sources (YouLoveIt, a collector blog list, Facebook post, forum thread) rather than Mattel product pages. It provides only fragmentary mentions of He-Man, Teela, Frida Kahlo, and Fashion Frontier, with little concrete product detail. It omits the Mattel/Mattel Creations launch pages that the anchor confirms for Teela and Fashion Frontier. Some snippets are vague or potentially misleading, e.g. the Frida Kahlo mention embedded in unrelated holiday/forum content, and the collector list snippet appears garbled/internally inconsistent.",
+  "reasoning": "A better enables a correct answer because it contains authoritative Mattel/Mattel Creations results for the key Masters of the Universe dolls: Teela and He-Man, including launch timing, pricing, and character details. Those facts align with the anchor, which independently confirms Teela on Mattel Creations and also confirms Fashion Frontier #3 and Mattel shop pages for He-Man/Teela. B mentions more of the query terms, including Frida Kahlo and Fashion Frontier, but mostly through weak secondary sources with sparse or unreliable details, making it much riskier for an LLM to answer correctly. Although A is incomplete because it lacks Frida Kahlo and Fashion Frontier, the facts it does provide are more accurate and source-reliable, so overall A is the stronger set."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 342,
+  "query": "Thailand SEC Worldcoin iris scanning raid unlicensed WLD token enforcement outcome",
+  "topic": "Worldcoin",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Content A includes one highly relevant result about the Thai SEC/CCIB raid and alleged unlicensed WLD exchange services, but it does not clearly provide the enforcement outcome beyond saying evidence was found and implying an arrest. Its other results are about a separate later Thai data-privacy action ordering deletion of iris scans, which could distract from the SEC enforcement question. It also says 'arrest signals a stronger enforcement stance,' while the SEC anchor outcome is specifically that criminal complaints were later filed against five individuals; that later outcome is absent.",
+  "b_issues": "Content B likewise contains the raid facts and mentions arrests/suspects plus possible penalties, but it also does not provide the later enforcement outcome from the SEC anchor, namely that the SEC filed criminal complaints against five named individuals for operating a digital asset dealing business without a license. Several results are secondary or low-reliability aggregations/snippets, and the Binance/social-style result is especially weak. It also risks conflating raid/arrest reporting with the actual eventual legal outcome.",
+  "reasoning": "The question asks for the enforcement outcome of the Thailand SEC Worldcoin iris-scanning raid over unlicensed WLD token activity. The anchor shows the key outcome: on 9 Jan 2026 the SEC filed criminal complaints against five individuals for allegedly operating a digital asset dealing business without a license by providing Worldcoin (WLD) trading services. Neither A nor B contains that outcome. Both only support an answer about the October 2025 raid, suspected unlicensed WLD exchange services, and arrests/suspects. A has slightly cleaner sourcing for the raid but also includes irrelevant later privacy-enforcement items; B has more directly raid-focused snippets but weaker sourcing quality. Since neither set contains the decisive later outcome needed to answer correctly from the content alone, the best verdict is a tie."
+}

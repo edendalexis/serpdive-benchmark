@@ -1,0 +1,11 @@
+{
+  "id": 309,
+  "query": "Serbia Botswana Artemis Accords signing date 2026 official agreement text",
+  "topic": "NASA Artemis program",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A lacks a reliable result for Serbia from an official source. It gives Botswana's signing date (June 25, 2026) from weak/non-official sources, and Serbia only appears via a TechTimes result that discusses the Accords generally but does not clearly provide the official agreement text or a strong official citation for Serbia's signing date. It also does not surface the NASA Artemis Accords page or official text.",
+  "b_issues": "Content B still does not directly surface the official Artemis Accords text page, and Serbia's date comes from a Forth.news aggregation snippet rather than a direct NASA page. However, it does include an official NASA Botswana signing page and enough corroborating results to infer Botswana's date accurately.",
+  "reasoning": "The query asks for Serbia and Botswana Artemis Accords signing dates in 2026 plus the official agreement text. Compared with A, B much better supports a correct answer: it explicitly provides Botswana's date via NASA/SpaceNews (June 25, 2026) and Serbia's date via the Serbia snippet (July 16, 2026), which matches the anchor. B also includes a legal analysis noting the text is uniform across signatories, helping connect to the official agreement text even though the direct NASA Artemis Accords text page is absent. A only clearly supports Botswana's date and lacks a strong, official Serbia result, so an LLM using A alone would be less likely to answer correctly."
+}

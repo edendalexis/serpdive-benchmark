@@ -1,0 +1,11 @@
+{
+  "id": 963,
+  "query": "India Italy Special Strategic Partnership Narendra Modi Giorgia Meloni joint roadmap cooperation sectors",
+  "topic": "Narendra Modi",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Most supporting results beyond the top official PDF are lower-reliability sources such as YouTube and Facebook, and they provide only fragmentary details. Content A does not clearly list the full cooperation sectors/roadmap in one place, so an LLM would need to infer from partial snippets.",
+  "b_issues": "Content B lacks the key official joint declaration PDF entirely. Its main results are secondary summaries and a foreign ministry interview rather than the actual bilateral declaration. It gives broad sectors like trade, defence, technology, connectivity, and maritime security, but is thinner on the joint roadmap specifics and concrete sectoral details. The esteri.it result also adds broader context like IMEC, EU FTA, Africa, agri-food, AI, robotics, and manufacturing that may be relevant but is not as directly tied to the exact joint declaration wording, increasing room for drift.",
+  "reasoning": "A better enables a correct answer because it includes the official Italy-India Joint Declaration from governo.it, which directly confirms the core fact in the question: Modi and Meloni elevated ties to a Special Strategic Partnership and set out cooperation areas. The official snippet specifically mentions defence cooperation, a Defence Industrial Roadmap, technological cooperation, co-production/co-development in helicopters, naval platforms, marine armament, and electronic warfare, plus mobility of students, researchers, skilled workers, STEM, skills development, and nurses. That is more authoritative and more directly responsive than B. B is mostly accurate, but without the joint declaration it relies on secondary reporting and a contextual foreign-ministry interview, so an LLM would have less direct evidence for the joint roadmap and cooperation sectors."
+}

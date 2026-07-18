@@ -1,0 +1,11 @@
+{
+  "id": 205,
+  "query": "Shohei Ohtani missed Saturday game biceps soreness 2026 date opponent return",
+  "topic": "Shohei Ohtani",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A is sparse and mostly provides snippet-level confirmation that Ohtani missed Saturday against the Padres because of biceps discomfort. It does not clearly provide the exact date in-snippet, and the likely return is only partial/vague ('good chance to be back in the lineup in the next ...'). Source mix is weaker, with AOL/Yahoo re-aggregation and a fantasy blurb rather than stronger primary reporting.",
+  "b_issues": "Content B includes a top MLB.com result about a different, later knee-irritation episode, which could distract or confuse. USA Today title says 'triceps' while snippet says 'biceps soreness,' creating a minor inconsistency. However, the relevant snippets still identify the Saturday date, opponent, and probable quick return context.",
+  "reasoning": "The question asks for the date, opponent, and return context for the Saturday game Ohtani missed because of biceps soreness. Content B more clearly contains these answering facts: USA Today explicitly says 'this Saturday, July 4' and that the prior game was against San Diego on July 3; Yahoo and LA Times confirm the opponent was the Padres and that he missed Saturday after exiting Friday with a biceps issue; USA Today also includes Roberts' quote implying a quick return. Content A confirms the Padres and that he was out Saturday, but its snippets are less complete on the exact date and return details. Despite B's distracting knee-related top result, B better enables a correct answer from the provided content alone."
+}

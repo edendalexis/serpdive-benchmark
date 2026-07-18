@@ -1,0 +1,11 @@
+{
+  "id": 325,
+  "query": "Scottie Scheffler world number one weeks total as of 2026",
+  "topic": "Scottie Scheffler",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A gives a likely answer via golfrankingstats ('total of 194 weeks' and longest streak 160 through July 20, 2026), but most other results are weak or indirect: social posts, an Instagram snippet, and pages that only mention consecutive reigns around 140-149 weeks. The supporting evidence is thin and somewhat inconsistent with the anchor, which shows 190 total weeks on May 17, 2026; 194 by July 20, 2026 is plausible, but A does not provide strong corroboration from authoritative sources beyond one site.",
+  "b_issues": "Content B contains an incorrect/contradictory featured snippet saying Scheffler had 123 weeks at No. 1 as of Jun 30, 2026, which conflicts with the stronger evidence in the same result set. Wikipedia's 'List of world number one male golfers' gives Scottie Scheffler 'Present, 165, 200' as of 12 July 2026, meaning 200 total weeks, which is also somewhat ahead of the anchor's May 17, 2026 figure of 190 but is internally coherent for mid-July. There is internal contradiction between 123 and 200.",
+  "reasoning": "B better enables a correct answer because it includes a directly relevant, explicit source: the Wikipedia 'List of world number one male golfers' entry states Scottie Scheffler has 200 total weeks at world No. 1 as of 12 July 2026. That directly answers the query's 'weeks total as of 2026.' Although B has a bad featured snippet (123 weeks), the result list also contains the precise total-weeks figure from a generally reliable and specific page, plus OWGR/current-ranking context. A also has a direct figure (194 total weeks as of July 20, 2026), but it relies mainly on a single non-authoritative stats site and is less well corroborated by the rest of the results. Relative to the anchor, B's 200 total weeks by mid-July 2026 is more consistent than A's 194 by July 20, since the anchor already shows 190 total by May 17, 2026. Therefore B is more likely to let an LLM answer correctly."
+}

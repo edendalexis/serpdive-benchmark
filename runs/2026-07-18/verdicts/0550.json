@@ -1,0 +1,11 @@
+{
+  "id": 550,
+  "query": "Federal Reserve new chair appointment successor Powell May 2026",
+  "topic": "Jerome Powell",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A identifies Kevin Warsh as Powell's successor, but all results are secondary news sources and none include the key official May 15 or May 22 Federal Reserve press releases. It gives a likely-correct answer, but with less authoritative support and less clarity about the exact May 2026 appointment/swearing-in sequence.",
+  "b_issues": "Content B includes a low-reliability Facebook result and some secondary sources with extra political detail not needed for the query. However, these do not materially contradict the core facts.",
+  "reasoning": "Both A and B indicate that Kevin Warsh is the successor to Jerome Powell as Federal Reserve chair in May 2026. However, B better enables a correct answer because it includes an official Federal Reserve result stating that Powell would serve as chair pro tempore until Kevin M. Warsh is sworn in as the new chair, directly matching the May 2026 transition described in the anchor. B also includes corroborating coverage that Warsh was sworn in on May 22, 2026. A has only news reports about nomination/confirmation and lacks the official Fed source confirming the final appointment transition."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 572,
+  "query": "Claudia Sheinbaum El Financiero approval rating mid-2026 poll result",
+  "topic": "Claudia Sheinbaum",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Does not directly surface the mid-2026 El Financiero June 2026 poll result in the top results. Most results are indirect or from other polls/outlets. However, result snippets include enough corroborating information: Wikipedia snippet references El Financiero at 69.0, and other sources discuss adjacent months or other pollsters. Main weakness is incompleteness and potential distraction from non-EF polls.",
+  "b_issues": "Fails to surface the relevant El Financiero mid-2026 poll result. Top results are mostly different pollsters/outlets (Bloomberg/AtlasIntel, Enkoll/EL PAÍS, Rio Times) with conflicting approval figures such as 56%, 68%, and 51%. It also includes a Facebook snippet claiming both 83% and 72%, which is unreliable and internally confusing. The only El Financiero-related result shown is a December 2025 Mexiconewsdaily summary at 69%, not the mid-2026 result.",
+  "reasoning": "The anchor shows the sought fact is El Financiero’s June 2026 poll: Sheinbaum approval 68% and disapproval 32%, published July 6, 2026. Content A is imperfect, but it is closer: it contains El Financiero-related approval references and adjacent-month context, including a snippet that explicitly mentions El Financiero with 69.0 and another result tied to El Financiero polling. Content B is worse because it mostly presents non-El Financiero polls with contradictory numbers and no direct mid-2026 EF result, making a correct answer less likely. Therefore A better enables an LLM to answer correctly, even though neither set is ideal."
+}

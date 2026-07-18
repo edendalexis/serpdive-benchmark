@@ -1,0 +1,11 @@
+{
+  "id": 528,
+  "query": "Anthropic Claude Science launch customizable AI workbench researchers auditable artifacts flexible computing access July 2026",
+  "topic": "Anthropic",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Mostly sound. Minor issues: several supporting results are secondary or lower-reliability outlets, and some added details (e.g., NVIDIA BioNeMo specifics, funding credits) are not necessary to answer the query. But the key facts are present and consistent with the Anthropic source.",
+  "b_issues": "Weaker evidence and thinner excerpts. The crucial Anthropic result is truncated/garbled ('Claude Science is a customizable app. AI workbench for scientists, is now available...'), giving less complete support for the answer. Several results are secondary summaries with minimal context, and there is less direct detail on flexible computing access and auditable artifacts.",
+  "reasoning": "A better enables a correct answer because it includes the primary Anthropic announcement with the exact core facts asked in the query: Claude Science launched June 30, 2026; it integrates common research tools/packages; it produces auditable artifacts; and it provides flexible access to computing resources, including local macOS/Linux use and remote SSH/HPC access. These directly match the anchor. B does contain some of the same phrasing, but the excerpts are more truncated and less complete, especially around the product being a customizable workbench and what 'flexible computing access' concretely means. A therefore gives an LLM more complete, reliable, and non-contradictory evidence to answer correctly."
+}

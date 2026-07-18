@@ -1,0 +1,11 @@
+{
+  "id": 773,
+  "query": "Hamas Israeli captives release agreement bodies transfer conditions Egypt talks",
+  "topic": "Gaza ceasefire negotiations",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A is mostly broad live-update coverage and only weakly addresses the key part of the query about bodies transfer conditions. It mentions phase one returning all remaining hostages and Egypt talks, but does not clearly state the condition that bodies would be transferred once a ceasefire is in place / after field conditions are met. One result (BBC) discusses a different proposal with release of only around half the hostages and Israel rejecting it unless all are released at once, which may confuse the answer. Overall it is less directly aligned to the specific query wording.",
+  "b_issues": "Content B still lacks the exact Reuters-style phrasing about the condition for bodies transfer and does not explicitly mention 'field conditions' or that Hamas could gather bodies only once the ceasefire was in place. It also includes some sparse snippets without full context, and one Security Council Report result is irrelevant. However, it directly states that 20 living captives and the bodies of 28 dead hostages are set to be released, in exchange for specified prisoner numbers, and ties this to Egypt peace-plan talks.",
+  "reasoning": "B better enables a correct answer because it more directly covers the core facts implied by the query: an Egypt-mediated deal/talks framework, release of living Israeli captives, transfer of bodies of dead hostages, and the exchange terms involving Palestinian prisoners. The NBC and Al Jazeera snippets in B explicitly mention both the living captives and the bodies of 28 dead hostages, which is central to the question. A has reliable sources too, but its snippets are more general and less explicit about bodies transfer conditions; the most relevant condition-focused detail from the anchor ('field conditions for the exchange are met') is not actually present in A. Since neither set perfectly states the conditions, B is still preferable because it contains more of the necessary answer facts with less need for inference."
+}

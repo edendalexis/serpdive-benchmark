@@ -1,0 +1,11 @@
+{
+  "id": 233,
+  "query": "Larry Sanger Nine Theses Wikipedia reform proposal 2025",
+  "topic": "Wikipedia",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "A lacks the main primary source page for the Nine Theses overview and mostly surfaces secondary/fragmentary references. It includes lower-reliability or less useful items (an X post, a Facebook post, a 2026 radio article) and only one specific thesis page (#9), so an LLM would not be able to reconstruct the full reform proposal from A alone. However, what is present is not clearly contradictory: it does indicate that Nine Theses is a 2025 reform proposal and mentions some reforms such as competing articles, ending indefinite blocking, and adopting a legislative process.",
+  "b_issues": "B also lacks the main primary source overview page and only directly includes one thesis page (#9). It mixes in secondary commentary (a Substack ranking post), a 2026 radio article, and a Free Press article snippet rather than the full proposal. While it gives a clear release date (September 29, 2025) and identifies the item as a reform proposal, it still does not provide the full set of theses from reliable primary material. No strong contradiction is visible, but coverage is incomplete.",
+  "reasoning": "Both result sets only partially support answering the query. The key fact from the anchor is that Larry Sanger published 'Nine Theses on Wikipedia' in 2025 as a reform proposal; both A and B contain enough to infer that. A has the Signpost note explicitly calling it 'partly an extended criticism and partly a reform proposal' and a direct LarrySanger thesis page (#9), plus snippets mentioning reforms like competing articles and ending indefinite blocking. B has the Signpost result, a LarrySanger thesis page (#9), the Free Press article, and a secondary source that explicitly states the release date as September 29, 2025. But neither set includes the main LarrySanger 'Nine Theses on Wikipedia' page or the Wikipedia essay page from the anchor, so neither enables a fully correct, well-sourced answer about the proposal itself from content alone. Since both are similarly incomplete and similarly adequate only for a partial answer, the best verdict is a tie."
+}

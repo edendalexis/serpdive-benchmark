@@ -1,0 +1,11 @@
+{
+  "id": 386,
+  "query": "Meta Anthropic computing power lease deal value term report 2026",
+  "topic": "Meta",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Mostly good. The key fact is present via The Verge citing the New York Times: the deal could be worth $10 billion over two years, with monthly payments. Minor issue: supporting results are partly tangential, and one result is market commentary rather than reporting. No direct contradiction on the key facts.",
+  "b_issues": "Fails to surface the key reported deal details. Results are largely tangential (general data-center leases, Anthropic pursuing leases, Hacker News discussion of a different SpaceX deal). The only directly relevant result is an Investing.com headline with no usable content. Thus the value/term details are effectively absent.",
+  "reasoning": "The question asks for the reported value and term of a Meta-Anthropic computing-power lease deal in 2026. Content A directly contains that answer in a reliable source snippet: The Verge reports that NYT sources said the deal could be valued at $10 billion over two years, with Anthropic paying monthly. This matches the anchor. Content B does not provide those facts in usable form; its results are mostly unrelated background, and the one relevant headline has no content. Therefore A better enables an LLM to answer correctly."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 529,
+  "query": "Anthropic reduced agentic misalignment research autonomous AI tasks safety paper 2026",
+  "topic": "Anthropic",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Minor issue: the top result is the Summer 2026 agentic misalignment report, which is more about new failures than the specific paper on reducing them. One LessWrong result is not a primary source. Otherwise A includes the key Anthropic primary-source page 'Teaching Claude why' and a research index snippet explicitly saying it is about reducing agentic misalignment.",
+  "b_issues": "B includes some noisy or less reliable snippets. The top result is again the Summer 2026 failures report rather than the reduction paper. One result is a third-party news article, one is a LessWrong opinion post, and the arXiv snippet is nearly content-free. The first result also contains an odd/non-authoritative snippet ('OpenAI, DeepMind, ARC, Redwood - they’re all congratulating Anthropic...') that appears irrelevant and potentially untrustworthy. B does contain the key 'Teaching Claude Why' page, but overall the supporting evidence is weaker and noisier.",
+  "reasoning": "The query is asking about Anthropic research in 2026 on reducing agentic misalignment for autonomous AI tasks safety. To answer correctly, the crucial fact is the May 8, 2026 Anthropic paper/post 'Teaching Claude Why,' which reports that Anthropic updated safety training after Claude 4 and substantially reduced agentic misalignment, including claims like perfect scores on their agentic misalignment evals for later Claude models. Content A directly includes both the Anthropic research index snippet saying 'Teaching Claude why' is 'New research on how we've reduced agentic misalignment' and a strong snippet from the primary-source page describing improved safety training and substantially improved alignment since Claude Opus 4.5. B also includes the key page, but its surrounding results are noisier, less authoritative, and include suspicious/irrelevant snippet text. So A better equips an LLM to identify the correct paper and answer from reliable facts."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 32,
+  "query": "Gemini Spark Enterprise preview release date details",
+  "topic": "Google",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "A does not contain an enterprise-preview result. Its key evidence is a low-reliability personal blog claiming US Google AI Ultra beta access 'starting next week, around May 26' and saying Workspace business users get it 'soon,' which is not an enterprise preview date and is unsourced in the snippet. Other A results are later consumer/macOS updates, not enterprise release details.",
+  "b_issues": "B still does not directly surface a clear 'Gemini Spark Enterprise preview release date' from an official enterprise source. The top result is a YouTube video of unclear reliability, and the Gemini Enterprise release notes snippet shown does not mention Spark. However, B includes a mainstream report and an official Google blog page that accurately place the announcement at Google I/O on May 19, 2026 and describe rollout timing for trusted testers / AI Ultra beta.",
+  "reasoning": "The anchor indicates Gemini Spark was previewed at Google I/O on May 19, 2026. To answer a query about release-date details, the better result set is the one that provides accurate, reliable timing tied to that preview. B includes Yahoo/Reuters-style coverage stating Google announced Spark at I/O 2026 and was rolling it out to trusted testers immediately, with wider US AI Ultra beta the following week, plus the official Google blog page dated May 19, 2026. A mainly relies on a non-authoritative blog and later macOS update articles, and it blurs consumer beta timing with 'Workspace business users soon' without evidence. So B better enables a correct answer, even though neither set directly provides a specific enterprise-preview release note."
+}

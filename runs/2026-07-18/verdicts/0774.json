@@ -1,0 +1,11 @@
+{
+  "id": 774,
+  "query": "Netanyahu formal confirmation halt fighting US-brokered Gaza deal first phase status",
+  "topic": "Gaza ceasefire negotiations",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A is dominated by articles about the ceasefire’s next/second phase being only a 'declarative move,' which does not directly answer the query about formal confirmation and first-phase status. It also includes January 2025 pre-approval reporting saying Netanyahu would not hold a vote until Hamas accepted terms, and that fighting continued before the deal took effect; this is earlier-stage context and can mislead an LLM away from the final status. The most relevant CBS snippet is too truncated to clearly state the first-phase status. Overall A mixes different stages/timelines and lacks a clear formal-confirmation answer.",
+  "b_issues": "Content B is mostly consistent and directly relevant, but one result (WKYC) appears to refer to an earlier framing of the deal as a pause in fighting during a 15-month war, which may reflect an earlier stage/timeline. Some snippets are brief and do not provide full implementation details. However, there is no major contradiction against the core fact pattern.",
+  "reasoning": "Content B better supports a correct answer because it directly states that Israel’s government/cabinet ratified or approved the first phase of a U.S.-brokered Gaza ceasefire deal with Hamas, citing Netanyahu’s office and other outlets. It explicitly says the first phase was approved/signed and frames it as halting fighting and enabling hostage/prisoner exchanges. This aligns with the anchor’s core facts: formal Israeli approval/ratification of phase one. By contrast, Content A is centered on a different question—the later/second phase being called merely 'declarative'—and includes earlier reports that no vote would occur yet, which could cause an LLM to answer incorrectly about first-phase status."
+}

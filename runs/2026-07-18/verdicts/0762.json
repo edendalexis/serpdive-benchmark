@@ -1,0 +1,11 @@
+{
+  "id": 762,
+  "query": "FAA proposed civil penalty United Airlines flight attendant drug alcohol violation",
+  "topic": "FAA",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "No major factual flaws for this query. Content A includes the key official FAA result with the needed facts: proposed civil penalty of $255,000, United Airlines, alleged drug/alcohol violation, one flight attendant, 47 flights, between May 2024 and July 2025, lacking substance-abuse-professional evaluation, verified negative return-to-duty test, and follow-up testing. Minor issue: it also includes an irrelevant American Airlines FAA result that could distract, but it does not contradict the United facts.",
+  "b_issues": "No major factual flaws for this query. Content B also includes the key official FAA result with the needed facts: proposed civil penalty of $255,000, United Airlines, alleged drug/alcohol violation, one flight attendant, 47 flights, between May 2024 and July 2025, lacking substance-abuse-professional evaluation, verified negative return-to-duty test, and follow-up testing. Minor issue: several additional results are lower-reliability social/media or secondary sources, but they do not materially contradict the FAA source.",
+  "reasoning": "Both A and B enable an LLM to answer the question correctly because each contains the authoritative FAA newsroom result matching the anchor. The decisive facts are present in both: FAA proposed a $255,000 civil penalty against United Airlines; the allegation involved allowing a flight attendant to perform safety-sensitive duties on 47 flights from May 2024 to July 2025 without completing required return-to-duty steps after a drug/alcohol-related issue. Neither set contains a meaningful contradiction on those points. A has one irrelevant FAA result about American Airlines; B has more noisy social/secondary results. But because both include the same official FAA source with the necessary facts, they are equally sufficient."
+}

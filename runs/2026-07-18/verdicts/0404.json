@@ -1,0 +1,11 @@
+{
+  "id": 404,
+  "query": "European Commission final Code of Practice marking labelling AI-generated content publication June 2026 document",
+  "topic": "EU AI Act",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A lacks the key Commission news result that directly states the final publication. Its top official result is the policy page, but the snippet is internally inconsistent: it says the code was 'published on 10 June 2026' and also 'is currently undergoing an adequacy assessed by the Commission and the AI Board,' while the anchor indicates the Commission published the final code on 10 June 2026 and that the Commission/AI Board had confirmed adequacy. A also leans on a second-draft page and a third-party article saying the final version was only expected by June 2026, which is outdated for this query. Overall, A makes it harder to answer confidently that the final document was published, when, and what it is.",
+  "b_issues": "Content B includes one top-ranked third-party result claiming publication on 9 June 2026, which conflicts with the official Commission page and anchor stating publication on 10 June 2026. However, B also includes the official Commission news page and the official policy page with the correct core facts.",
+  "reasoning": "B better enables a correct answer because it contains the most important official source: the European Commission news page explicitly stating that the Commission published the final Code of Practice on marking and labelling AI-generated content, and that it is voluntary and supports compliance with AI Act transparency obligations applying from 2 August 2026. It also includes the official policy page confirming the code’s purpose and scope under Article 50. Although B has one conflicting third-party date (9 June 2026), the official Commission result provides the correct publication date of 10 June 2026 and the final/publication status. By contrast, A does not include the decisive official news page and mixes the final code page with second-draft and pre-publication materials, making the answer less direct and less reliable."
+}

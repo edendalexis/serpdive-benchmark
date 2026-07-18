@@ -1,0 +1,11 @@
+{
+  "id": 419,
+  "query": "The Bear 2026 Emmy nominations season 5 categories acting comedy series list",
+  "topic": "The Bear",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A includes the authoritative Television Academy show page, but the snippets shown are incomplete and noisy. The key acting/comedy-series nomination list is not actually present in the returned text; TheWrap snippet mostly lists category headings without nominees, and the Television Academy snippet only clearly exposes Outstanding Comedy Series and a fragment suggesting Outstanding Lead Actress in a Comedy Series, without the full acting-category list. It also includes speculative odds pieces about Season 5 affecting Season 4's Emmy chances, which could confuse the season/eligibility framing.",
+  "b_issues": "Content B is still incomplete: it does not provide a full clean list of all The Bear acting nominations either. Some snippets are editorialized or potentially confusing, e.g. CNN says The Bear earned comedy-series nomination, BBC says Jeremy Allen White was snubbed; these are not contradictions but only partial facts. The result set lacks the direct Television Academy show page, so source authority is somewhat lower than A.",
+  "reasoning": "B better enables a correct answer because its snippets collectively expose more directly relevant facts about The Bear's 2026 Emmy status in comedy-series/acting categories: CNN explicitly says The Bear was nominated for Outstanding Comedy Series, and BBC explicitly says Jeremy Allen White was snubbed in lead comedy actor. Combined with full-list sources from Deadline, CBS, and TheWrap, an LLM has a clearer path to infer or extract the acting/comedy-series nomination picture. In A, the most authoritative source is present, but the surfaced snippet text does not actually contain the needed acting-category list, and the other results are largely predictions/odds rather than nomination facts. So A is more incomplete for this specific question, while B contains more directly usable nomination facts."
+}

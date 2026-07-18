@@ -1,0 +1,11 @@
+{
+  "id": 143,
+  "query": "Red Lobster fiscal 2026 net income adjusted EBITDA financial results",
+  "topic": "Red Lobster",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A has the key Restaurant Dive result with the needed net income figure ($2.1 million) and mentions adjusted EBITDA growth of 43% from fiscal 2025 to fiscal 2027, but it does not explicitly provide the fiscal 2026 adjusted EBITDA amount in the main reliable result. The LinkedIn snippet appears to contain the missing amount ($92.1 million) but is a secondary/social source and only partial. Other results are irrelevant or about other companies.",
+  "b_issues": "Content B includes several irrelevant results (Red Robin, Darden, unrelated financial roundup), which add noise. However, these do not directly contradict the Red Lobster facts. The LinkedIn snippet has a typo-risk/secondary-source issue, but it provides the specific adjusted EBITDA figure.",
+  "reasoning": "The question asks for Red Lobster fiscal 2026 net income and adjusted EBITDA financial results. Both A and B include the strong Restaurant Dive source stating Red Lobster expects positive net income of $2.1 million in fiscal 2026 and adjusted EBITDA growth of 43% from fiscal 2025 to 2027. But only B also includes a result snippet explicitly stating the fiscal 2026 adjusted EBITDA amount: $92.1 million. That makes B more sufficient for an LLM to answer the question completely from the provided content alone. While both sets have some irrelevant results, B better enables a correct answer because it contains both requested figures together: net income of $2.1 million and adjusted EBITDA of $92.1 million."
+}

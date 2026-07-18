@@ -1,0 +1,11 @@
+{
+  "id": 797,
+  "query": "French National Assembly New Caledonia election delay bill rejection January 2026 vote details",
+  "topic": "New Caledonia",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A does not directly answer the queried event. It lacks the key January 2026 vote details entirely and instead mixes in later April 2026 rejection coverage and October 2025 postponement coverage. One result mentions a January 2026 Elysée-Oudinot Accord, but not a National Assembly January 2026 rejection vote or its tally. Sources are mixed, with one Facebook result and a vague PINA snippet. The top DW result is about the eventual 2026 election, not the bill rejection/vote details asked.",
+  "b_issues": "Content B also does not provide the specific January 2026 National Assembly rejection vote details. It references January 2026 dialogue called by Macron, Senate adoption in February 2026, and April 2026 Assembly debate/rejection context, but no January 2026 rejection vote tally or direct report of that event. The top DW and Guardian results are about the eventual election, not the queried vote. Some content suggests later efforts to delay polls again, which may confuse the timeline.",
+  "reasoning": "Neither result set contains the core facts needed to answer the question correctly from the content alone: the specific French National Assembly rejection of an election-delay bill in January 2026 and its vote details. The anchor shows relevant surrounding facts are October 2025 approval of a postponement bill (279-247) and April 2026 rejection of a constitutional reform bill (190-107), but neither A nor B clearly supplies a January 2026 Assembly rejection vote. A has a slightly more direct snippet about postponement to June 2026, while B has somewhat better contextual sources on the later constitutional reform process, but both miss the queried vote details and risk leading an LLM to answer with the wrong event or wrong tally. Therefore neither better enables a correct answer."
+}

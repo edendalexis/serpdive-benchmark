@@ -1,0 +1,11 @@
+{
+  "id": 674,
+  "query": "Kamala Harris BBC interview 2028 presidential election possibility September 2025",
+  "topic": "Kamala Harris",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A does not contain the key BBC interview result directly. Its top result is an AOL article about Montel Williams that only indirectly mentions Harris hinting in an October 2025 BBC interview; this is tangential to the query and weak as sourcing. The other results are irrelevant (Hoover profile, Chinese Wikipedia on the 2028 election). It also does not address the query's implied timing well, since the anchor event is in October 2025, not September 2025.",
+  "b_issues": "Content B is stronger and includes the exact BBC article plus corroborating coverage, but it still does not resolve the query's September 2025 timing, since the relevant interview is dated October 25, 2025. One result is a low-reliability Facebook post, though it is not needed.",
+  "reasoning": "Content B better enables a correct answer because it includes the exact BBC article stating that Kamala Harris said she may run for president again, that she said she was 'not done,' and that she 'possibly' could be president, clearly tying this to a potential 2028 run. It also has corroboration from the Guardian, ABC7, and CNN. These facts align with the anchor. Content A lacks the primary BBC source and mostly returns irrelevant or weakly related pages, so an LLM relying on A would have much less basis to answer accurately. Both sets have a mismatch with 'September 2025' because the relevant interview is in October 2025, but B still contains the necessary correct facts while A largely does not."
+}

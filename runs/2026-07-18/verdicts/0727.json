@@ -1,0 +1,11 @@
+{
+  "id": 727,
+  "query": "US small package tariff reduction 90-day period Chinese imports current rate",
+  "topic": "Temu",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A mostly surfaces the general 90-day China tariff reduction, but it does not clearly provide the small-package/de minimis current rate asked about. The top results emphasize the 10% reciprocal tariff and 20% fentanyl tariff for regular Chinese imports, which could mislead an LLM into answering 30% for all imports or 10% for reciprocal only, without distinguishing small packages. It also includes an April White House order snippet not directly answering the current small-package rate, and one result is a 2026 China Briefing update that is temporally noisy and potentially distracting.",
+  "b_issues": "Content B also lacks a clear, direct result on the small-package/de minimis tariff rate during the 90-day period. It mixes in multiple 2025/2026 updates, including later extensions and post-2025 material, which increases the chance of confusion. Several results discuss general reciprocal tariffs or average tariffs rather than the small-package tariff specifically. Although it includes the same 10% reciprocal + 20% fentanyl context, it does not cleanly state the de minimis parcel rate, and later-dated sources may mislead the model away from the asked current 90-day-period figure.",
+  "reasoning": "The anchor indicates the key fact is that during the 90-day reduction period, the U.S. cut the de minimis/small-package tariff on China shipments to as low as 30% (with postal shipment details such as 54% or $100/package). Neither A nor B clearly contains that fact. Both mainly support the general statement that Chinese imports faced a 10% reciprocal tariff plus a 20% fentanyl-related tariff, i.e. 30% for many Chinese imports, but they do not explicitly tie that to small packages/de minimis shipments. Because both sets are missing the crucial small-package-specific fact and both contain potentially confusing broader tariff material, neither better enables a clearly correct answer from the provided content alone."
+}

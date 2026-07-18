@@ -1,0 +1,11 @@
+{
+  "id": 991,
+  "query": "True Detective Season 5 filming start date Jamaica Bay New York",
+  "topic": "True Detective",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A includes a low-reliability forum result (ResetEra) whose snippet shows a likely incorrect/unsupported specific date ('Start date Feb 12, 2025'). The stronger source in A, Deadline, only says filming will begin 'in the coming months,' so A contains conflicting specificity. It also lacks the Production List result that gives the anchored shoot month.",
+  "b_issues": "Content B has some inconsistency in later secondary sources: TV Insider says filming is reportedly set to begin in 2026, while Variety says the season is slated to debut in 2026, which conflicts with other reporting that points to 2027. However, these issues do not directly undermine the best evidence about filming start timing.",
+  "reasoning": "The question asks for the filming start date for True Detective Season 5 set in Jamaica Bay, New York. The anchor indicates the best factual answer is a shoot start in February 2026. Content B better supports a correct answer because it includes both Deadline confirming the Jamaica Bay, New York setting and that production would begin soon/in the coming months, and Production List confirming the project and shoot timing for Season 5. Content A also has Deadline, but its top result is a forum snippet asserting a specific Feb. 12, 2025 start date that is not supported by the anchor and conflicts with Deadline's vaguer timeline. Because A presents a misleading specific date from a weak source, while B relies more on reputable sources and includes the production listing, B better enables a correct answer."
+}

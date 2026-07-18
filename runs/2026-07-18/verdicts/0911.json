@@ -1,0 +1,11 @@
+{
+  "id": 911,
+  "query": "2026 Super Bowl halftime show performer surprise guests Trump reaction Bad Bunny Super Bowl LX",
+  "topic": "Super Bowl",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A is somewhat sparse and includes a low-reliability Facebook result. The SF Chronicle snippet is truncated, so it does not fully expose the surprise guests. It also includes an extra People result about Green Day that is not central to the query. However, the key facts are present: Bad Bunny was the performer, Lady Gaga appears in the ABC result, and the BBC result states the guest performers were Lady Gaga and Ricky Martin, while also summarizing Trump's criticism.",
+  "b_issues": "Content B contains a clearly irrelevant and factually wrong CNN snippet about cyclospora and Taco Bell, which undermines reliability. It also never clearly surfaces Ricky Martin in more than one place and has less corroboration overall for the full set of surprise guests. The result set is thinner and more error-prone, with one bad top result and fewer independent confirmations of the halftime details.",
+  "reasoning": "A better enables a correct answer because it provides the essential facts from multiple reliable sources: ABC says Trump called the show a 'slap in the face to our country' and notes Lady Gaga performed with Bad Bunny; BBC explicitly states the halftime set included guest performances from Lady Gaga and Ricky Martin; the overall context identifies Bad Bunny as the Super Bowl LX halftime performer. B also contains some of these facts, especially in the ABC result, but its top CNN result is completely irrelevant and incorrect, which makes the set less trustworthy. Since the question asks about the performer, surprise guests, and Trump's reaction, A more reliably covers all parts with less risk of misleading the LLM."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 396,
+  "query": "Cambodia H5N1 human fatal cases 2025 affected provinces exposure source epidemiological report",
+  "topic": "H5N1 bird flu",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Mostly off-target and contaminated with 2026 material. It includes a 2026 CDC summary, 2026 blog posts, and a UK 2026 monitoring page. The one 2025-relevant result (Global Biodefense) gives only 11 cases/6 fatalities through July 2025 and does not provide the affected provinces or detailed exposure sources requested. One CIDRAP result is about 2023 cases, not 2025. Some snippets also introduce later totals (18 cases in 2025, 9 deaths) without epidemiological detail or primary sourcing in the snippet.",
+  "b_issues": "Also incomplete for the specific question. It does contain the key WHO DON575 result, but the snippet is misleading/truncated: it says Cambodia has reported 27 confirmed human infections including 12 fatalities, which is cumulative since re-emergence/over a longer period, not the 2025 fatal-case count the question asks about. Other snippets are partial and late-year summaries (17 cases, at least 8 deaths by 21 Oct 2025) without the province-by-province/exposure details. It also includes some off-target 2026 material.",
+  "reasoning": "Neither set, from the snippets alone, clearly provides the epidemiological details needed to answer 'Cambodia H5N1 human fatal cases 2025 affected provinces exposure source epidemiological report' correctly. A has one useful 2025 summary (11 cases, 6 deaths through July) but lacks provinces/exposure specifics and is heavily diluted by irrelevant 2026 and even 2023 results. B has the more authoritative WHO source, but its snippet is too compressed and potentially confusing, mixing cumulative figures rather than clearly stating the 2025 fatal cases and their provinces/exposures. Since both are missing the core province/exposure breakdown and both contain misleading or off-target snippets, neither better enables a correct answer from the returned content alone."
+}

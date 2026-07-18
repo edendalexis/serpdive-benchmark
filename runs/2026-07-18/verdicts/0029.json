@@ -1,0 +1,11 @@
+{
+  "id": 29,
+  "query": "SpaceXAI Department of Defense contract amount date military AI July 2025",
+  "topic": "xAI",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Minor issues: includes low-quality/social results (Facebook, Instagram) and one NBC result focused on procurement timing rather than the core fact pattern. But the key facts are present and consistent across reputable defense-news sources.",
+  "b_issues": "Contains significant irrelevant and potentially misleading results. The top result is from 2026 and unrelated. Another result is about a different company (Scale AI) and a different contract amount ($500M), which could confuse the answer. Only one clearly relevant result directly supports the query, so the set is less reliable for answering the specific question from the content alone.",
+  "reasoning": "The question is asking for the Department of Defense contract amount and date involving xAI/military AI in July 2025. Content A clearly states, in multiple relevant results from Defense News and DefenseScoop, that xAI was one of four companies selected by the Pentagon/DoD, and that each company received a contract worth up to $200 million, announced Monday on July 14, 2025. This matches the anchor. Content B has one good matching result, but it is mixed with unrelated or different-contract results, including a 2026 drone-defense item and a Scale AI $500M contract, making it easier for an LLM to answer incorrectly. Therefore A better enables a correct answer."
+}

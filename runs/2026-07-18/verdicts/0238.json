@@ -1,0 +1,11 @@
+{
+  "id": 238,
+  "query": "Pakistan Telecommunication Authority restore Wikipedia access directive Prime Minister 2025 exact date",
+  "topic": "Wikipedia",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Most snippets do not state the exact calendar date explicitly beyond saying 'on Monday'; however one Dawn result corresponds to the event and the Tribune/Wikimedia snippets support February 6, 2023. There is also a noisy/irrelevant Wikipedia result about the PTA and a malformed Dawn URL, but these do not materially undermine the answer.",
+  "b_issues": "The top results strongly indicate the directive but generally do not give the exact date in the snippets themselves. Only the Wikimedia Foundation snippet explicitly says 'On February 6, 2023' and frames it as an update rather than the original directive report. The Radio Pakistan and Nation results have URLs dated 07-02-2023, which could mislead an LLM into answering February 7 rather than the directive date of February 6.",
+  "reasoning": "The question asks for the exact date when the prime minister directed the PTA to restore Wikipedia access. Content A includes a Dawn snippet saying the PM ordered restoration 'on Monday' and multiple corroborating results about the same action; combined with the Tribune result and the Wikimedia Foundation update stating February 6, 2023, it better supports the correct answer. Content B also contains the Wikimedia Foundation update with February 6, 2023, but its most prominent news results are dated 07-02-2023 and their snippets omit the event date, creating more risk of an incorrect February 7 answer. So A better enables a correct response."
+}

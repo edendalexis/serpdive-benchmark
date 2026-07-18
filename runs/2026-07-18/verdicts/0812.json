@@ -1,0 +1,11 @@
+{
+  "id": 812,
+  "query": "Microsoft 365 Copilot declarative agents updated GPT model version automatic model selection",
+  "topic": "Microsoft Copilot",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "A is sparse and does not surface the dedicated model-migration documentation from the anchor. It gives the key fact only via a release-notes snippet, so rollout timing and fuller context are missing. However, the main fact appears accurate: Microsoft 365 Copilot declarative agents use GPT-5.1 with automatic model selection.",
+  "b_issues": "B ranks a March 2026 GPT-5.2 blog post first, which is likely about a later update than the query’s target. It also includes unreliable/noisy sources such as a forum discussion, LinkedIn post, and community thread that speculate about model selection behavior. The Microsoft Learn release-notes result is mostly raw page chrome and does not expose the key fact in the snippet, so an LLM could be misled toward GPT-5.2 or user speculation rather than the specific GPT-5.1 automatic-selection update.",
+  "reasoning": "The question asks about Microsoft 365 Copilot declarative agents, the updated GPT model version, and automatic model selection. Content A directly contains the crucial fact from a reliable Microsoft Learn release-notes snippet: 'Microsoft 365 Copilot declarative agents now use the GPT-5.1 model with automatic model selection for performance and reasoning.' That closely matches the anchor, which says declarative agents upgraded to GPT-5.1 and the orchestrator automatically selects the best model. Content B does include Microsoft sources, but its most prominent result is the later GPT-5.2 upgrade, and the rest is cluttered with discussion/speculation about model selection. Because A more directly and accurately exposes the answering facts without introducing as much misleading context, A better enables a correct answer."
+}

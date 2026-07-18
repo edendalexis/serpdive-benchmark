@@ -1,0 +1,11 @@
+{
+  "id": 351,
+  "query": "SSPX six bishops excommunication 2026 Vatican schism decree official statement",
+  "topic": "Pope Leo XIV",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A lacks the key official-source result. Its snippets mostly paraphrase secondary reports and do not clearly give the full official-statement details needed for this query, especially the names/roles of all six bishops and the precise Dicastery framing. One result (NCR) appears to overstate that priests and lay faithful were 'formally excommunicated,' whereas the official note warns that clerics and lay faithful who formally adhere to the schism incur penalties; this is less precise. Overall A is usable but thinner and more prone to ambiguity.",
+  "b_issues": "Content B also lacks the direct Vatican/L'Osservatore Romano result, and one Catholic World Report snippet contains obvious irrelevant/noisy text mixed into the extract. Some snippets discuss wider consequences for priests and laity beyond the core query. However, the core facts about the six bishops, excommunication, schism, and decree are present and mostly consistent.",
+  "reasoning": "B better enables a correct answer because it contains more of the decisive facts matching the anchor: that on July 2, 2026 the Holy See/DDF issued a decree concerning the SSPX consecrations; that six bishops were involved; that the act was treated as schismatic; and that the bishops incurred excommunication. Crucially, B includes a snippet with specific names and the distinction between principal consecrator/co-consecrator and the newly consecrated bishops (via Aleteia), which aligns closely with the anchor's official statement naming Alfonso de Galarreta, Bernard Fellay, Pascal Schreiber, Michael Goldade, Michel Poinsinet de Sivry, and Marc Hanappier. A has generally reliable secondary sources, but its snippets are less specific and include a potentially misleading NCR formulation about priests and lay faithful being already 'formally excommunicated.' Since the question asks about the official statement/decree, B provides the more complete and accurate factual basis."
+}

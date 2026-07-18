@@ -1,0 +1,11 @@
+{
+  "id": 669,
+  "query": "Ilya Sutskever recent interview 2026 statements superintelligence timeline research approach",
+  "topic": "Ilya Sutskever",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A includes low-reliability/noisy results at the top (clickbait YouTube title, Instagram reel) and does not surface the key timeline statement in the snippets. The strong primary sources are present (Dwarkesh page and YouTube), but their snippets mostly mention generalization, SSI strategy, and 'age of research' without explicitly giving the superintelligence/human-learning timeline. An LLM could infer some of the answer from timestamps like 'Straight-shotting superintelligence,' but the decisive factual statement is not exposed clearly in the returned content.",
+  "b_issues": "Content B relies heavily on secondary summaries, especially the Monaco Substack snippet, which adds interpretive claims and a specific timeline ('5 to 20 years for a system that learns as efficiently as a human') that is not directly validated in the snippet from the primary Dwarkesh source. Some results are weak/low-reliability (LinkedIn post, generic Bismarck title). However, the snippets are more directly on-topic and mutually consistent about the 'age of scaling' ending and a shift to research from 2026 onward.",
+  "reasoning": "The question asks about Sutskever’s recent interview statements on superintelligence timeline and research approach. Content B better enables a correct answer because it explicitly contains both core pieces: (1) the research approach shift—'the age of simple scaling is ending,' SSI as a 'research-first organisation,' and '2026 onward' being an age of research; and (2) a timeline claim via the summary snippet giving '5 to 20 years for a system that learns as efficiently as a human.' Content A has the more reliable primary sources, but the snippets exposed to the LLM do not clearly state the timeline and only indirectly indicate the approach through the title and timestamps. Since the task is whether the returned content alone lets an LLM answer, B is more directly answerable despite somewhat weaker sourcing."
+}

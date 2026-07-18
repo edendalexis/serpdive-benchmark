@@ -1,0 +1,11 @@
+{
+  "id": 186,
+  "query": "IOC physical virtual sports Olympic program consideration 2026 stationary cycling digital transformation source",
+  "topic": "International Olympic Committee",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "A includes the relevant Canadian Cycling Magazine result, but its snippet omits the key IOC wording about a 'full physical replication' and does not clearly provide the source of the claim. The top IOC Olympics.com result is about the 2021 Olympic Virtual Series and does not answer the specific consideration-of-program question. Other results are weak or off-target (LinkedIn reflection, generic N3XT interview snippet).",
+  "b_issues": "B has fewer results and some are secondary sources. It does not directly surface the Canadian Cycling Magazine article from the anchor, and some results concern later Olympic Esports Games rather than the original IOC consideration. However, the top academic result explicitly contains the crucial fact: the IOC was to consider inclusion of 'physical virtual sports in the Olympic programme' based on virtual/simulated versions of sports including cycling.",
+  "reasoning": "The question asks about IOC consideration of physical virtual sports for the Olympic program, with stationary cycling/digital transformation as the example/source trail. Content B more directly contains the decisive fact in its top result: an academic source stating the IOC was to consider inclusion of 'physical virtual sports in the Olympic programme' based on virtual or simulated versions of sports including cycling. That is closer to the needed answer than A, whose snippets mostly discuss the Olympic Virtual Series generally and only indirectly mention virtual cycling as a possible medal event without the key phrasing or source context. While both sets are incomplete, B better enables a correct answer from the provided content alone."
+}

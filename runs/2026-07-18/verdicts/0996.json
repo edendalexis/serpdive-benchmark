@@ -1,0 +1,11 @@
+{
+  "id": 996,
+  "query": "True Detective Night Country total viewership numbers HBO statistics",
+  "topic": "True Detective",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A is somewhat incomplete: the Variety snippet does not include the key 3.2M figure, and one result gives only partial context about HBO linear viewers. It also includes a secondary/aggregator source (ScreenRant). However, it does contain reliable trade sources with the crucial 12.7M average cross-platform figure and supporting HBO statistics.",
+  "b_issues": "Content B includes weaker/less reliable sources among the top results (IMDb news repost, Reddit). Its snippets are more abbreviated and provide less statistical context. Although it includes the key 12.7M average and one snippet with the 3.2M finale number, it offers less direct support from detailed reliable reporting than A.",
+  "reasoning": "Both result sets contain the core fact needed to answer the query: HBO/WBD said 'True Detective: Night Country' averaged 12.7 million cross-platform viewers, making it the most-watched season of the series. Content B also explicitly includes the finale's 3.2 million viewers in a snippet. However, Content A better enables a correct answer because it contains multiple reliable entertainment-trade sources (Variety, Hollywood Reporter, Deadline, TheWrap) with corroborating statistics: 12.7M average viewers across platforms, comparison to season 1's 11.9M, and other HBO viewership stats such as episode 2 at 2.6M and premiere growth to 7.5M. A therefore provides stronger, more trustworthy grounding overall, even though B has one slightly more explicit finale snippet."
+}

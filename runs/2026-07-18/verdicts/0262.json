@@ -1,0 +1,11 @@
+{
+  "id": 262,
+  "query": "2026 NBA Finals television viewership average ratings margin of victory stats",
+  "topic": "NBA Finals",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Does not provide the 'margin of victory stats' part of the query. Includes a Wikipedia result that is less authoritative than the primary/industry sources, but it does not materially contradict the key viewership facts. Featured snippet says 'more than 20 million' rather than the exact 20.6 million, though exact figure appears in results.",
+  "b_issues": "Does not provide the 'margin of victory stats' part of the query. Top Hollywood Reporter snippet is slightly ambiguous because it mentions both 24.5 million and 20.6 million in compressed form, which could confuse game-specific vs series-average viewership, though other results clarify it.",
+  "reasoning": "Both result sets contain the core correct television viewership facts from reliable sources: the 2026 NBA Finals averaged 20.6 million viewers on ABC/ESPN and Game 5 averaged about 24.5 million viewers, making it the most-watched Finals since 1998. Both include strong sources such as NBA.com, Sportico, and Hollywood Reporter. However, neither set supplies the 'margin of victory stats' requested in the query, so neither fully enables a complete answer from the provided content alone. Since both are similarly accurate on the available viewership facts and similarly incomplete on margin-of-victory statistics, the best verdict is a tie."
+}

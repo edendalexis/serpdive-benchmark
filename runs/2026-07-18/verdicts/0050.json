@@ -1,0 +1,11 @@
+{
+  "id": 50,
+  "query": "Nintendo Switch 2 The Duskbloods network test dates registration details",
+  "topic": "Nintendo Switch 2",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Mostly secondary/tertiary sources rather than the primary Nintendo page. Some snippets are inconsistent on whether the test runs Aug. 21-23 or Aug. 21-24. One result is a forum thread, one is Threads, and one is a generic article snippet, so reliability varies. However, multiple A results consistently provide the key facts: registration starts July 22, the test is in Aug. 21-24, and some include registration window details and NSO requirement.",
+  "b_issues": "Results are largely irrelevant to the specific question. The top result is Nintendo’s homepage, not the Duskbloods network test page; others are generic Nintendo pages, Wikipedia, and Play Nintendo. The returned content does not contain the needed dates or registration details for The Duskbloods network test.",
+  "reasoning": "Content A better enables a correct answer because it actually contains the question-specific facts: The Duskbloods network test timing in late August, registration beginning July 22, and additional signup details like the application window and selection timing in some snippets. While A has some source-quality issues and a minor inconsistency about Aug. 23 vs Aug. 24, it still provides enough overlapping information to answer the query. Content B does not: it lacks any result directly about The Duskbloods network test dates or registration details, so an LLM relying on B would not be able to answer correctly."
+}

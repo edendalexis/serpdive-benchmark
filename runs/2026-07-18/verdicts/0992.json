@@ -1,0 +1,11 @@
+{
+  "id": 992,
+  "query": "True Detective Season 5 premiere date 2027 HBO official announcement",
+  "topic": "True Detective",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "No direct HBO official announcement result giving an exact premiere date; the strongest support for 2027 is indirect and comes from secondary/tertiary sources (TV Insider, Yahoo, Military.com snippet). Some results include speculative or weakly sourced casting rumors (Nicolas Cage). However, A does include a reliable Deadline report confirming Season 5 setting/production progress and multiple secondary sources consistently stating 2027 with no exact date announced.",
+  "b_issues": "Relies heavily on lower-reliability aggregation/republished items (readers.id, Yahoo, IMDb news, Bleeding Cool, TheGWW) and contains no direct HBO press release or top-tier trade source in the listed results. The claim of a 2027 premiere is present but is less well anchored to authoritative reporting, making it easier for an LLM to overstate certainty about an 'official announcement.'",
+  "reasoning": "The query asks about a True Detective Season 5 premiere date in 2027 and an HBO official announcement. Neither set contains a clear HBO official announcement of an exact premiere date; the anchor instead shows HBO officially renewed Season 5 and, via Deadline, revealed the setting and that production was being prepared, but no exact date. Content A better enables a correct answer because it combines a reliable Deadline article with several results explicitly saying Season 5 is slated for 2027 and that no exact date/month has been announced. That supports the likely correct answer: HBO has not announced a specific premiere date, but reporting points to a 2027 debut. Content B also says 2027, but its evidence is mostly from less authoritative outlets and lacks a strong primary or top-tier trade source, so it is less trustworthy for answering accurately."
+}

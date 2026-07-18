@@ -1,0 +1,11 @@
+{
+  "id": 344,
+  "query": "Worldcoin World ID 3.0 launch April 2026 account-based identity key recovery official announcement",
+  "topic": "Worldcoin",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "A does not directly surface the specific official announcement about the account-based architecture and key recovery; the most relevant result is the April 17, 2026 official World announcement, but its snippet is too short to expose those facts. It also includes some lower-reliability or irrelevant third-party results (price prediction article, Rest of World timeline) and one result about a different announcement page. However, it does at least contain the correct official April 2026 source likely needed to answer the query.",
+  "b_issues": "B is centered on World ID 3.0 from October 2024, not the April 2026 launch described in the query. It lacks the key April 2026 official announcement about the new World ID’s account-based architecture, key rotation/recovery, and related features. The top results are mostly third-party summaries plus one official 3.0 post, which would likely mislead an LLM into answering about the wrong launch/version.",
+  "reasoning": "The query asks about the official announcement for the April 2026 launch involving account-based identity and key recovery. According to the anchor, those facts are in World’s April 17, 2026 official posts about the new World ID, which explicitly mention an account-based architecture plus key rotation and recovery. Content A includes the exact official April 17, 2026 World announcement URL, so an LLM at least has access to the right source family and time frame. Content B instead strongly points to the October 2024 World ID 3.0 announcement, which is the wrong event and wrong version for the account-based/key-recovery launch. Therefore A better enables a correct answer, even though its snippets are incomplete."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 324,
+  "query": "2026 PGA Tour Championship Series two-tier system qualification criteria",
+  "topic": "Scottie Scheffler",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "A includes one strong PGA TOUR result and supportive secondary sources, but its top result snippet is incomplete for the qualification criteria: it mentions only that at minimum the top 90 finishers retain status. The key criterion that Championship Series qualification also includes promotion of the top 20 from the Challenger Series is not present in the PGA TOUR snippet and comes only from non-primary sources (Yahoo, Guardian). A also contains an irrelevant Signature Events result that could distract or confuse.",
+  "b_issues": "B relies more heavily on non-primary sources for the actual qualification criteria. Its PGA TOUR result is too generic and does not state the qualification numbers in the snippet. The Monday Q result explicitly says the pathways/details remain unresolved, which could create some ambiguity, though it does not directly contradict the reported top-90/top-20 framework.",
+  "reasoning": "The question asks for the qualification criteria for the two-tier Championship Series system. The anchor indicates the answer should include the structure by which players qualify for the Championship Series. Content B more directly surfaces that in one snippet: 'eligibility would be determined by the top 90 players from the previous year, the top 20 players from the Challenger ...' and the Guardian result also states a minimum of 90 retained and 20 promoted each season. That gives an LLM the core criteria needed to answer. In A, the primary PGA TOUR snippet only gives the top-90 retention point, and the 20-promotion criterion is only inferable from secondary coverage. Since B presents the qualification formula more explicitly, it better enables a correct answer, even though both sets have some incompleteness and rely partly on non-primary reporting."
+}

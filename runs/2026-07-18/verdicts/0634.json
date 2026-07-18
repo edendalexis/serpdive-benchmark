@@ -1,0 +1,11 @@
+{
+  "id": 634,
+  "query": "Perplexity Model Council parallel frontier models GPT-5.4 Claude Opus 4.6 Gemini 3.1 Pro synthesis feature",
+  "topic": "Perplexity AI",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Most supporting evidence is indirect: only the Perplexity changelog result directly states the feature details. Other results are benchmark/comparison articles and are largely irrelevant to the specific question. One Medium result says 'Claude 4.6' rather than 'Claude Opus 4.6' in the title/snippet, but this does not materially conflict with the key fact. No clear contradiction appears in A.",
+  "b_issues": "B does not surface the key fact at all. The results are mostly generic Perplexity properties (X profile, YouTube channel, Wikipedia, Chrome extension, homepage) and do not mention Model Council, the three models running in parallel, or the synthesis behavior. Because the necessary facts are absent, an LLM would have to guess.",
+  "reasoning": "The anchor says Perplexity Model Council runs GPT-5.4, Claude Opus 4.6, and Gemini 3.1 Pro in parallel, then uses a synthesis model to analyze agreement, disagreement, and unique contributions. Content A contains a Perplexity changelog snippet explicitly stating exactly that: 'Model Council automatically runs GPT-5.4, Claude Opus 4.6, and Gemini 3.1 Pro in parallel, then synthesizes where they agree, disagree, and what each uniquely contributes.' That is a direct, reliable first-party match to the question. Content B contains no such information, so it would not enable a correct answer from the provided content alone."
+}

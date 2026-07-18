@@ -1,0 +1,11 @@
+{
+  "id": 61,
+  "query": "Binarly Debian Docker Hub xz backdoor August 2025 report affected images",
+  "topic": "XZ Utils",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Binarly’s own blog result is poorly excerpted and not useful by itself. Most result snippets do not enumerate the specific affected image tags, though the GitHub issue strongly indicates ten Debian official base images were affected and mentions 'Affected Image Tags & Manifest Digests.' Some supporting results generalize to 35 Debian/Docker Hub images without clearly separating direct Debian base images from downstream images.",
+  "b_issues": "Does not surface the key GitHub issue that appears to contain the specific affected Debian image tags/digests. The Binarly report snippet is vague and the other results mostly summarize counts (e.g., 35 images, 12 direct + 23 second-order) rather than the actual affected Debian images. As a result, it is weaker for answering which images were affected.",
+  "reasoning": "The question asks about Binarly’s August 2025 report and the affected images. Content A includes a highly relevant GitHub issue from debuerreotype/docker-debian-artifacts stating that 'ten Debian official base images' on Docker Hub contained the XZ backdoor and explicitly referencing affected image tags and manifest digests. That is the closest match to the needed answer and is a strong primary source adjacent to the official Debian image maintainers. Content B has better general summary facts from media coverage and Binarly’s report page, including counts like 35 total images and 12 direct/23 second-order images, but it does not provide the affected Debian images themselves. Therefore A better enables an LLM to answer correctly from the provided content alone."
+}

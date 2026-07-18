@@ -1,0 +1,11 @@
+{
+  "id": 164,
+  "query": "Rivian Volkswagen Group equity investment amount early 2026 announcement",
+  "topic": "Rivian",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Contains some potentially confusing older/background items: the top Volkswagen press release is from 2024 and says total investment could grow to up to $5 billion until 2026, which predates the later $5.8 billion structure. One SEC snippet mentions a $1 billion equity investment at an effective price of $19.42 from 2025, which is not the early-2026 announcement the query is asking about. However, A also includes the key 2026 filing explicitly stating a $1.0 billion Volkswagen Group equity investment received April 30, 2026.",
+  "b_issues": "Top Reuters snippet is inaccurate/outdated for the likely target question: it says Volkswagen will invest up to $5 billion and 'in early 2026 will also invest $2 billion in Rivian,' which conflicts with the anchor and later reporting that the early-2026 milestone unlocked another $1 billion equity investment. B also includes mixed deal structures from older 2024/2024-11 reports ($5B, then $5.8B) and a StockTitan result whose snippet omits the key $1 billion fact in the visible content, making the answer less directly recoverable and more contradictory.",
+  "reasoning": "The question asks for the Rivian Volkswagen Group equity investment amount in the early-2026 announcement. Content A directly provides that answer in a reliable SEC/8-K result: 'before a $1.0 billion Volkswagen Group equity investment received April 30.' That matches the anchor, which says the milestone unlocked another $1 billion. Content B is weaker because its most prominent result gives an outdated/incorrect early-2026 amount of $2 billion, creating a strong risk of a wrong answer. Although B also contains some relevant background, A more clearly and accurately enables the LLM to answer '$1 billion.'"
+}

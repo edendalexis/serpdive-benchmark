@@ -1,0 +1,11 @@
+{
+  "id": 997,
+  "query": "Nic Pizzolatto Cohle Hart return quotes future True Detective project",
+  "topic": "True Detective",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A is dominated by low-reliability or weakly useful sources (Facebook posts, IMDb quotes page, an unrelated 2014 EW article, and a likely secondary/aggregator site). It lacks a clear reliable source giving the key quotes in context. The EW result appears about season 1's original aftermath rather than the new future-project comments, so it risks confusing the timeframe. Overall A only loosely suggests that Pizzolatto said 'I have another story' and does not clearly establish the current report that McConaughey and Harrelson are open to returning.",
+  "b_issues": "Content B includes one irrelevant result (BrainyQuote) and one old/secondary LiveJournal item unrelated to the current return-project news. It does not include the Harrelson/McConaughey 'open' quote in the visible snippets, so it is somewhat incomplete.",
+  "reasoning": "B better enables a correct answer because it contains a reliable, directly relevant Deadline result with the core current quote: 'I actually have another story for Cohle and Hart that, who knows, maybe we’ll do it one day,' plus clarification that it is character-based and not yet written. That directly answers the query about Pizzolatto, Cohle/Hart, return quotes, and a future True Detective project. In contrast, A mostly offers social posts and unrelated/older material, with no clearly trustworthy primary entertainment-trade source in the visible results. While both are imperfect, B has the key factual reporting from a strong source and is less likely to mislead an LLM."
+}

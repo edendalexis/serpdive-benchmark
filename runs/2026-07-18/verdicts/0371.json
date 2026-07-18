@@ -1,0 +1,11 @@
+{
+  "id": 371,
+  "query": "OpenAI Disney 1 billion content collaboration status cancellation",
+  "topic": "Sora OpenAI",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "No major factual flaws relative to the anchor. Content A clearly states the Disney/OpenAI $1B partnership was canceled after OpenAI shut down Sora, and includes corroborating reporting that no money changed hands and the deal had not been fully executed. Minor weakness: it includes lower-reliability social posts among results, but they do not materially contradict the stronger sources.",
+  "b_issues": "No major factual flaws relative to the anchor. Content B clearly states that OpenAI shut down Sora and Disney dropped/ended the planned $1B investment and partnership. Minor weakness: one result is only a headline/short blurb, and some phrasing like 'OpenAI ... cancels $1bn Disney deal' could blur whether Disney or OpenAI formally terminated it, but the overall set still conveys the correct outcome.",
+  "reasoning": "Both result sets enable the correct answer equally well: the collaboration is canceled/not moving forward after OpenAI decided to shut down Sora. Both A and B contain highly reliable sources such as Ars Technica and BBC explicitly linking the Sora shutdown to the end of Disney’s planned $1B investment/content partnership. A adds useful nuance that no money changed hands and no definitive agreements were executed, but B also has strong direct corroboration from Ars, Variety, and BBC. Neither set contains a meaningful contradiction that would prevent a correct answer."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 960,
+  "query": "Narendra Modi July 17 2026 Chandigarh development projects amount sectors inaugurated official release",
+  "topic": "Narendra Modi",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Content A has only one strongly relevant official source. Its top PMIndia result is a pre-event advisory ('PM to visit...') rather than the post-event official release, so it may not fully confirm what was actually inaugurated versus planned. It also mentions a larger ₹6,600 crore figure for the broader visit, which could confuse the Chandigarh-specific amount, though the snippet also correctly states Chandigarh projects were over ₹4,700 crore. Sector details are only partially visible in snippet form.",
+  "b_issues": "Content B also has only one strongly relevant official source. It includes potentially confusing broader-visit figures such as ₹6,600 crore for Chandigarh in a YouTube result and ₹26,800 crore across North India in another result, alongside the Chandigarh-specific ₹4,700 crore figure. The PIB result snippet is truncated, so sector details are incomplete from the search results alone. Some top results are less authoritative or are videos rather than clear text releases.",
+  "reasoning": "Both result sets contain the key official-source fact needed to answer: Narendra Modi on July 17, 2026 inaugurated/laid foundation stones for Chandigarh development projects worth over ₹4,700 crore, spanning healthcare, education, and road infrastructure. In A, this is given by the PMIndia snippet; in B, by the PIB snippet. Both also contain distracting higher figures tied to the broader multi-city visit, creating similar ambiguity. Neither set clearly outperforms the other on completeness or reliability for answering the amount, sectors, and official-release basis, so they are effectively equal."
+}

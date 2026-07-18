@@ -1,0 +1,11 @@
+{
+  "id": 492,
+  "query": "Save Wimbledon Park Court of Appeal challenge status date hearing 2026",
+  "topic": "Wimbledon",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A does not give a specific Court of Appeal hearing date in 2026. One result (BBC) mentions a January 2026 hearing, but that appears to refer to a separate High Court case, not the Court of Appeal challenge, so it could mislead. The Standard result says the appeal hearing date was not yet confirmed, which is only partial status information.",
+  "b_issues": "Content B is weaker and more confusing. It includes a Save Wimbledon Park tag page snippet with 'Friday 16th January 2026' that does not clearly state this is the Court of Appeal hearing date and may just be a page/post date. Several results refer to a separate January 2026 hearing/trial about another legal issue, not the Court of Appeal challenge. It lacks a clear, reliable statement of the challenge status beyond permission having been granted and gives no confirmed Court of Appeal hearing date.",
+  "reasoning": "The question asks for the status/date/hearing of the Save Wimbledon Park Court of Appeal challenge in 2026. Content A contains the key reliable fact from Russell-Cooke that permission to appeal was granted on 18 November 2025 and that the Court of Appeal proceedings will be heard in 2026 over two days. It is also supported by the Standard saying permission was granted and the hearing date was not yet confirmed. That is enough for an LLM to answer that the challenge is proceeding to the Court of Appeal in 2026, over two days, with no confirmed date in the provided results. Content B also has the Russell-Cooke item, but its other results are more muddled, mostly about separate January 2026 proceedings, and the top Save Wimbledon Park snippet is ambiguous and less reliable for identifying an actual Court of Appeal hearing date. So A better enables a correct answer."
+}

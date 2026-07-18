@@ -1,0 +1,11 @@
+{
+  "id": 784,
+  "query": "Netanyahu Twelve-Day War Iran airstrikes June 2026 casualties damage assessment",
+  "topic": "Benjamin Netanyahu",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A is dominated by irrelevant 2026-material about a different US-Israel war on Iran (e.g., ISW June 2026 report, 2026 Iran war attack list, Al Jazeera March 2026 live tracker). It contains only one partly relevant result on the 2025 Twelve-Day War, and that result is Wikipedia rather than a primary or strong journalistic source. The query asks about Netanyahu, the Twelve-Day War, Iran airstrikes, and casualties/damage assessment; A does not provide a direct damage/casualty assessment for Iran from the June 2025 twelve-day conflict except indirectly via sparse Wikipedia snippets, and it mixes in conflicting later-war casualty figures that could mislead the model.",
+  "b_issues": "Content B also includes some irrelevant 2026-material, especially the Al Jazeera March 2026 live tracker and a noisy Wikipedia snippet. However, unlike A, it includes directly relevant results for the June 2025 Twelve-Day War: HRANA with detailed Iran casualty and infrastructure-damage figures, Times of Israel with Israeli casualty figures, and Britannica confirming the 12-Day War was in June 2025. Minor issue: the top Wikipedia snippet is noisy and not useful, and the 2026 Al Jazeera result could confuse the timeline.",
+  "reasoning": "B better enables a correct answer because it actually contains the key facts needed for a June 2025 Twelve-Day War casualty and damage assessment. The HRANA result states that Israeli airstrikes beginning June 13 and lasting twelve days caused at least 5,665 casualties in Iran, including 1,190 killed and 4,475 injured, affecting 28 provinces and damaging military, civilian, medical, and emergency infrastructure. The Times of Israel result supports the reciprocal casualty context on Israel's side, consistent with the anchor. By contrast, A mostly returns unrelated 2026 war content, which is likely to cause an LLM to answer about the wrong conflict and wrong casualty totals. So even though B is imperfect, it contains more directly relevant and accurate evidence for the question."
+}

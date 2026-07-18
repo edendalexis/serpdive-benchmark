@@ -1,0 +1,11 @@
+{
+  "id": 668,
+  "query": "Safe Superintelligence SSI latest funding round valuation 2026 investors total raised",
+  "topic": "Ilya Sutskever",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A does not directly provide the full investor list for the latest round. Reuters only clearly supports the 2024 $1B round, while the 2025 latest round details come from Built In SF and Crunchbase summaries rather than a top-tier primary source. Tracxn says total raised is $3B and latest round was Series A, which may conflict with other databases on round labeling, but it is at least internally consistent with the $1B 2024 + $2B 2025 picture.",
+  "b_issues": "Content B is materially contradictory and less reliable. StartupHub claims SSI has raised $6B total at a $32B valuation, which conflicts with other referenced databases and the anchor indicating latest deal amount $6B rather than total raised. UpMarket introduces a $37B valuation while also saying it raised $2B at a $32B valuation in 2025, creating confusion over current vs round valuation. Reddit is not a reliable source. Tracxn in B says total funding $3B, directly contradicting StartupHub’s $6B total.",
+  "reasoning": "A better enables a correct answer because it supports the key likely facts with comparatively coherent evidence: latest funding round was $2B in 2025 at a $32B valuation, total raised about $3B, with investors including Greenoaks, Alphabet, and Nvidia, and earlier investors such as Andreessen Horowitz and Sequoia from the prior $1B round. Those facts align better with the anchor set, especially Awaira/CB Insights/Tracxn showing total raised around $3B and valuation around $32B. By contrast, B centers on a dubious StartupHub claim that SSI has raised $6B total, which conflicts with Tracxn and other sources; it also includes a Reddit post and an UpMarket snippet with a confusing $37B figure. Because B contains stronger contradictions on the core requested facts—latest valuation, total raised, and investors—it is more likely to mislead an LLM."
+}

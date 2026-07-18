@@ -1,0 +1,11 @@
+{
+  "id": 561,
+  "query": "Hades II v1.0 final development phase true ending no plans additional regions encounters abilities official statement site:supergiantgames.com",
+  "topic": "Hades II",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Mostly duplicate results of the same Supergiant post, so coverage is narrow. One result is a blog index/snippet rather than the canonical post and includes an extra detail ('at least one more Major Update still to come') that may be contextually incomplete. However, the core facts are consistent and from the official site.",
+  "b_issues": "Results are largely from third-party sites, not Supergiant's official site despite the site:supergiantgames.com intent. They focus on post-launch patch coverage rather than the official statement about the final development phase. They do not clearly provide the key official facts about v1.0 planning, and third-party paraphrases are less reliable for the exact wording. Also includes potentially distracting/irrelevant guide content.",
+  "reasoning": "Content A directly contains the official Supergiant statement from 'HADES II: Spread Fear in The Unseen Update' saying they were 'heading into the final phase' of development, that this involved 'adding the story’s true ending and other finishing touches,' and that the main v1.0 addition planned was 'The True Ending' plus polishing existing content 'from Boons and powers to artwork and story events.' This is exactly the kind of official statement the question asks about, and it strongly supports that there were no announced plans there for additional regions/encounters/abilities beyond finishing and polishing. Content B, by contrast, is off-domain and mostly about later post-launch patch changes to the true ending, not the official pre-v1.0 statement. Therefore A better enables a correct answer from the provided content alone."
+}

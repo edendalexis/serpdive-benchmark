@@ -1,0 +1,11 @@
+{
+  "id": 673,
+  "query": "Kamala Harris Secret Service protection revoked Trump early 2025",
+  "topic": "Kamala Harris",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A is largely accurate but weaker: it relies heavily on secondary rewrites/aggregators and mostly repeats CNN-derived reporting. It gives the key fact that Trump revoked Harris' extended Secret Service protection effective Sept. 1, 2025, but provides less direct corroboration from top-tier primary wire coverage. No major internal contradiction is evident.",
+  "b_issues": "Content B includes one irrelevant/low-value result (an ABC video snippet with unrelated text about the ESPYs), but the core results are accurate and consistent. No major factual contradiction is evident.",
+  "reasoning": "Both A and B support the correct answer that Trump revoked former Vice President Kamala Harris' Secret Service protection in late August 2025, ending an extension Biden had granted beyond the normal post-office period. However, B better enables a correct answer because it contains the AP result matching the anchor directly, plus corroborating ABC and The 19th coverage. B also includes the important specifics that the protection had been extended from six to 18 months and would have lasted until July 2026 absent Trump's order. A is also usable, but its top result is a local-TV repost of CNN content and overall offers slightly less authoritative grounding."
+}

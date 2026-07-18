@@ -1,0 +1,11 @@
+{
+  "id": 400,
+  "query": "AI Omnibus provisional agreement European Parliament Council formal adoption status date",
+  "topic": "EU AI Act",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "A contains some ambiguity and minor reliability issues. The top Sidley result says formal adoption remained subject to 'European Council approval,' which is imprecise because the legislator is the Council of the EU, not the European Council. A also includes weaker/nonofficial sources (Hayes, LinkedIn), and no result explicitly gives the final formal adoption date/status; it mainly supports that Parliament adopted on 16 June 2026 and Council approval was still pending then.",
+  "b_issues": "B also lacks the final formal adoption date/status. It gives the provisional agreement date (6/7 May 2026 depending on source wording/time zone) and says formal adoption/publication were expected in coming weeks, but does not itself show that adoption actually occurred. It similarly includes nonofficial/commentary sources and the same imprecision via Sidley about 'European Council.'",
+  "reasoning": "The question asks about the AI Omnibus provisional agreement, European Parliament/Council formal adoption status, and date. Both A and B provide enough to identify the provisional agreement date around 7 May 2026 and that Parliament adopted the deal on 16 June 2026 while Council formal adoption was still pending/expected soon. However, neither set contains the key final fact shown in the anchor: that the procedure was completed and awaiting OJ publication, with Council formal adoption on 29 June 2026. Since both omit the decisive final adoption status/date, neither better enables a fully correct answer from the provided content alone."
+}

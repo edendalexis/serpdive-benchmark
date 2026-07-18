@@ -1,0 +1,11 @@
+{
+  "id": 112,
+  "query": "LVMH Hennessy new product category launch July 2026 wines and spirits division",
+  "topic": "LVMH",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "A contains the key LVMH source about Hennessy Very Special Cocktails, but its snippet omits the timing detail relevant to the query. It also includes a dubious Firstleaf result with likely fabricated or unverified 2026 management details ('Alexandre Arnault as Deputy CEO since February 2025', 'Jean-Jacques Guiony serves as President and CEO') that could mislead an LLM. Overall, A supports the category answer but less directly on the July 2026 launch timing.",
+  "b_issues": "B has one weaker/irrelevant result (Retail Dive from 2017) and a truncated Luxury Tribune snippet that is not useful. However, its top result directly states the needed facts. No major contradiction is present within the useful results.",
+  "reasoning": "The question asks about LVMH Hennessy’s new product category launch in July 2026 in the wines and spirits division. B best enables a correct answer because its top result from LVMH explicitly says Hennessy launched 'Hennessy Very Special Cocktails,' a collection of ready-to-serve cocktails, 'introduced exclusively in the United States starting July,' and that this brings Hennessy into 'a new category.' That directly answers both what the launch was and the category: ready-to-serve cocktails. A also points to the same launch, but its LVMH snippet does not mention the July timing, and another result says June 1 / starting this June, which creates ambiguity for a July-specific question. Therefore B more clearly and reliably supports the correct answer from the provided content alone."
+}

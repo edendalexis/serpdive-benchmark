@@ -1,0 +1,11 @@
+{
+  "id": 792,
+  "query": "New Caledonia provincial elections rescheduled new date 2026",
+  "topic": "New Caledonia",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A is almost entirely irrelevant to the query. The returned results are unrelated school/news/traffic pages and generic text files, with no usable facts about New Caledonia provincial elections or their rescheduled 2026 date. An LLM relying on A would likely be unable to answer.",
+  "b_issues": "Content B has one likely mislabeled Wikipedia result ('2026 New Caledonian legislative election' rather than provincial election) and includes a Facebook post, which is less reliable than news/government sources. It also mentions the elections were 'initially planned for 2024' in one result, which could confuse the exact postponement history. However, these do not undermine the core answer.",
+  "reasoning": "B clearly contains the key fact needed to answer the question: multiple results state that New Caledonia's provincial elections were due to be held on 28 June 2026, including RNZ ('forthcoming provincial elections due to be held on 28 June 2026'), France24 ('the vote was delayed'), and Reuters ('delayed ... provincial elections'). This matches the anchor stating the elections took place on Sunday 28 June 2026. By contrast, A provides no relevant evidence at all. Therefore B much better enables a correct answer."
+}

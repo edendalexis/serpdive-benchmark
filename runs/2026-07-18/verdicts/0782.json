@@ -1,0 +1,11 @@
+{
+  "id": 782,
+  "query": "Benjamin Netanyahu testimony delay corruption trial June 2026 reason",
+  "topic": "Benjamin Netanyahu",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A is only partially aligned to the June 2026 query. Its strongest result on delay reason is a Reuters item from April 10, 2026, which says Netanyahu requested a postponement citing the ongoing regional security situation after the war with Iran. Another June-related Jerusalem Post result mentions a request to further cut a hearing due to Netanyahu's late-night schedule, which may not fully capture the broader June reason in the anchor about diplomatic/security matters. One result is low-quality/indirect (Al Jazeera liberties mirror), and the Times of Israel wrap-up is retrospective rather than specifically about the June delay. Still, the facts are broadly plausible and not internally contradictory.",
+  "b_issues": "Content B is effectively irrelevant to the query. It contains unrelated results about a cash-rewards app called Benjamin, the biblical/Wikipedia entry for Benjamin, an IMDb page for a film titled Benjamin, a Google Play app listing, and a YouTube channel. It provides no facts about Benjamin Netanyahu, his testimony, the corruption trial, June 2026, or the reason for any delay.",
+  "reasoning": "A better enables a correct answer because it includes relevant, generally reliable news sources about Netanyahu's trial and explicit reasons for delay/postponement, especially Reuters stating he cited security developments/ongoing regional security concerns, and the Jerusalem Post noting diplomatic and security matters. That is close to the anchor's June 2026 explanation. B provides no usable information on the topic at all, so an LLM could not answer correctly from B alone."
+}

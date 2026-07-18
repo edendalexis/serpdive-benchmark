@@ -1,0 +1,11 @@
+{
+  "id": 138,
+  "query": "BTS The Return Netflix documentary HYBE agency internal tensions subject",
+  "topic": "BTS",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Includes a likely malformed TIME result with null title and partial excerpt; evidence is somewhat fragmentary. Some claims come from secondary sources and snippets rather than a directly stated answer sentence. However, it contains explicit relevant facts about internal tension: Suga and RM push for more Korean lyrics/authenticity, while Big Hit/HYBE management emphasizes global appeal and more English.",
+  "b_issues": "Much weaker on the specific question. It has mostly generic descriptions of the documentary and only a Reddit snippet about 'art vs. business vs. fans vs. the public,' which is less reliable than established press. It lacks the clearer concrete detail about HYBE/internal agency tension present in A.",
+  "reasoning": "The question asks about the subject of HYBE agency internal tensions in the Netflix documentary. Content A provides direct, specific evidence from a reputable outlet snippet (TIME) plus Rolling Stone: BTS members, especially Suga/RM, want more Korean lyrics and authenticity, while Big Hit/HYBE executives push for more English/global-market appeal. That is a concrete internal tension and directly answers the query. Content B mostly confirms the documentary exists and is about the comeback, but does not clearly state the substance of the agency tension except via a vague Reddit summary. So A better enables an LLM to answer correctly."
+}

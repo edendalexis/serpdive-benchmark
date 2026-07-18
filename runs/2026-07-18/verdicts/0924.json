@@ -1,0 +1,11 @@
+{
+  "id": 924,
+  "query": "Wicked musical North American tour 2026 new dates official website",
+  "topic": "Wicked",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Result 1 (Broadway.org) is indirect and does not provide the new 2026 dates. Result 4 (wickedtour.net) is not the official site and includes dubious claims, including calling itself the official website and mixing in a UK tour reference. Result 7 is a fandom page, not an official source. However, A does include the official Wicked homepage stating 'We’ve added dates to our North American Tour' and the official North American Tour site with specific 2026 schedule entries.",
+  "b_issues": "Includes the official tour site with 2026 dates, but the rest of the set is weaker: the Ticketmaster result is not the official website and appears to discuss generic touring tickets rather than the official announcement of new dates; wickedtour.net is unofficial and misleading; the fandom page is unofficial; Broadway.org is secondary. B lacks the official Wicked homepage result that explicitly says new North American tour dates were added.",
+  "reasoning": "A better enables a correct answer because it contains both key official pieces needed for the query: the official Wicked homepage explicitly announcing 'New Tour Dates Announced'/'We’ve added dates to our North American Tour,' and the official North American Tour page listing the actual 2026 dates and cities (e.g., Minneapolis Jul 8–Aug 9 2026, Kansas City Aug 12–Aug 30 2026, Des Moines Sep 2–Sep 20 2026, Boston Sep 23–Nov 15 2026, Greensboro Nov 18–Dec 6 2026, Cleveland Dec 9–Jan 3 2027, etc.). B has the official tour page with dates, but it does not include the official homepage announcement that these are newly added dates, making it slightly less complete and slightly less well-grounded for the exact query about 'new dates' on the official website. Both sets contain noisy unofficial sources, but A has the more directly relevant official evidence."
+}

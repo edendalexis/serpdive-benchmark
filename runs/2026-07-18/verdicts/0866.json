@@ -1,0 +1,11 @@
+{
+  "id": 866,
+  "query": "Wegovy international market launch timeline 2026 regulatory approvals country list",
+  "topic": "Ozempic and Wegovy",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A is incomplete for a full country-by-country international launch timeline. It does not directly include the UAE launch press release or the EC approval press release from Novo, though it does include corroborating Reuters and Cold Chain Platform snippets. It also includes some low-value or potentially unreliable results (Formblends; a generic CNBC Jan. 1 article mostly about U.S. market context).",
+  "b_issues": "Content B is weaker and more error-prone. It lacks the key July 2026 EU approval result and lacks the UAE launch result entirely. The Pharmaletter snippet only vaguely says 'Wegovy pill now available in UK' without date/context. Several results are irrelevant or misleading because they concern Dr Reddy’s planned generic semaglutide launches in 87 countries, not Novo Nordisk’s Wegovy regulatory approvals/launch timeline. Overall it provides little basis for a correct country list.",
+  "reasoning": "The question asks for a 2026 international market launch timeline and regulatory approvals country list for Wegovy. Content A contains the most directly usable facts: EMA/EC pathway via Regulatory Rapporteur and Reuters, explicit statement from Cold Chain Platform that Wegovy pill is currently available in the US, UK and UAE, and a launch-planning note for select EU markets in 2H 2026. Those facts align with the anchor: UAE launch on June 3, 2026, and EC approval on July 15, 2026. Content B only clearly supports that the UK had availability and that the EU had an EMA recommendation pending EC decision; it omits the decisive EC approval and UAE launch, and is diluted by irrelevant generic-semaglutide articles. So A better enables an LLM to answer correctly, though neither set is perfect."
+}

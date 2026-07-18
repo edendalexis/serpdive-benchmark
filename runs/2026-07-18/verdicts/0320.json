@@ -1,0 +1,11 @@
+{
+  "id": 320,
+  "query": "Scottie Scheffler final result 2026 Open Championship Royal Birkdale",
+  "topic": "Scottie Scheffler",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Content A does not contain the final result. It only includes round-1/live-update material and one irrelevant/possibly misleading snippet for a 2025 video ('Scottie Scheffler closes out win at The Open') that is not about the 2026 Open. It also includes generic leaderboard/homepage links without Scheffler's finishing position.",
+  "b_issues": "Content B also does not contain the final result. All substantive snippets are about Scheffler's round-1 68/opening position, not his tournament finish. No finishing position or final score is provided.",
+  "reasoning": "The question asks for Scottie Scheffler's final result at the 2026 Open Championship at Royal Birkdale. The anchor indicates the correct finish was T23 at even par. Neither result set provides that finishing position or final tournament score. A has slightly more source variety, but its evidence is still only about early-round play and includes an irrelevant 2025 win snippet that could mislead an LLM. B is narrower but likewise only covers round 1. Since neither set contains the facts needed to answer correctly from the content alone, the best verdict is a tie."
+}

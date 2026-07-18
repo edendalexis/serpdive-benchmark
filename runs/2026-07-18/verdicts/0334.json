@@ -1,0 +1,11 @@
+{
+  "id": 334,
+  "query": "Longlegs new film 2026 announcement cast additions confirmed",
+  "topic": "Longlegs",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A has no direct evidence of any confirmed cast additions beyond Nicolas Cage returning. Its snippets mostly say the new film is in the works, is set in the Longlegs universe, and list producers. One result mentions a 2028 date, but the key query point about 'cast additions confirmed' is unsupported. It also includes weaker secondary sources like Hypebeast and Film Stories, and Film Stories loosely calls it a sequel/spin-off/prequel, which adds ambiguity.",
+  "b_issues": "Content B also does not provide confirmed cast additions beyond Nicolas Cage returning; no new cast members are named for the new film. It includes low-reliability/noisy results like a YouTube speculation video and an Instagram post. Deadline’s title misspells Nicolas as 'Nicholas,' though the snippet body is otherwise consistent.",
+  "reasoning": "B better enables a correct answer because it contains stronger, more direct trade-source reporting from Deadline, Variety, and IndieWire. Those results consistently establish the core announcement facts: Paramount acquired the project, Osgood Perkins will write/direct/produce, Nicolas Cage is returning to star/produce, and the film is set in the Longlegs universe rather than clearly framed as a standard sequel. Variety in B also adds the 2028 release-date detail. Crucially, both A and B lack evidence of any confirmed new cast additions, so the best answer an LLM could give is that only Nicolas Cage’s return is confirmed and no additional cast has been confirmed in the provided results. B supports that conclusion more reliably and directly."
+}

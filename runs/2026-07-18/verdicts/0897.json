@@ -1,0 +1,11 @@
+{
+  "id": 897,
+  "query": "Michael Pruss 2025 interview Alien Romulus next film direct sequel comments",
+  "topic": "Alien: Romulus",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A has the key fact via AVP Galaxy and ScreenRant that Michael Pruss said the next Alien film may not be a direct sequel to Alien: Romulus and is still in early development. However, several other results are weak or unreliable for answering accurately: a Facebook post, a Reddit thread, and a low-reliability aggregation site. The snippets also do not include the fuller quotation about working with Ridley Scott and Fede Alvarez, though the essential point is present.",
+  "b_issues": "Content B also contains the key fact, and the ScreenRant/CinemaBlend snippets add useful context that the comments came in a ScreenRant Saturn Awards interview and that the project is early-stage. But B includes a clearly problematic Weyland Uplink result with speculative or future-leaning claims (e.g. Alvarez departing in September 2025, Alien: Earth reception affecting the project) that are not needed for the question and could mislead an LLM. The AVP Galaxy snippet shown is also noisy and partially irrelevant.",
+  "reasoning": "Both result sets contain the central facts needed to answer the query correctly: Michael Pruss said in a 2025 interview that the next Alien film may not be a direct sequel to Alien: Romulus, and that it is in early development / they are still working on ideas. In A, this is directly supported by AVP Galaxy and ScreenRant. In B, it is directly supported by ScreenRant, CinemaBlend, Budapest Reporter, and AVP Galaxy. Neither set materially contradicts the anchor on the core point. A has weaker surrounding sources, while B has one notably misleading speculative result, but both still enable a correct answer equally well because the decisive facts are plainly present in reliable snippets in each set."
+}

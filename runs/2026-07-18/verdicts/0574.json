@@ -1,0 +1,11 @@
+{
+  "id": 574,
+  "query": "Claudia Sheinbaum \"América Mexicana\" name proposal 2026 global map briefing",
+  "topic": "Claudia Sheinbaum",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Only one result, from a low-reliability entertainment/politics site (We Got This Covered). It paraphrases the event but gives weaker sourcing and no primary wire-style corroboration. It also says she proposed renaming North America, while the title frames it as the U.S., which could confuse scope.",
+  "b_issues": "Contains some noisy/low-value results (Facebook, YouTube, EU Today). There is a slight inconsistency across snippets about whether the proposal was to rename North America or the United States, and one NBC snippet awkwardly mixes a 17th-century map with the 1814 Constitution of Apatzingán. However, the core facts are still present and supported by AP/NBC.",
+  "reasoning": "B better enables a correct answer because it includes reliable mainstream reporting, especially AP and NBC, that matches the anchor: Sheinbaum responded to Trump's Gulf of America remark during a daily briefing while standing before a world/global map and sarcastically proposed 'América Mexicana'/'Mexican America,' citing historic usage tied to early Mexican founding documents and the long-standing name Gulf of Mexico. A contains the core fact too, but only via a single less-reliable source with less corroboration. Therefore B is the stronger result set."
+}

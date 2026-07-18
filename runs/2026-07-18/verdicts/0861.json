@@ -1,0 +1,11 @@
+{
+  "id": 861,
+  "query": "FDA Wegovy 7.2 mg semaglutide supplemental application approval status 2026 phase 3 trial average weight loss press release",
+  "topic": "Ozempic and Wegovy",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A is mostly accurate and contains the key facts, but it is slightly weaker for this query because it does not surface the filing/review timing detail from the FDA approval announcement in prominent snippets. Some secondary sources use mixed efficacy figures (~21%, 20.7%, 18.7%, ~19%) without always clarifying estimands, which could confuse an LLM if it relies on non-primary sources.",
+  "b_issues": "Content B includes a lower-quality blog result and a generic Drugs.com history page, which are less useful. It also presents multiple weight-loss figures (about 21%, 20.7%, ~19%) that require interpretation, though these are not necessarily contradictory because they reflect different estimands. Overall, however, the core facts remain accurate.",
+  "reasoning": "Both sets contain the decisive facts needed to answer the question: FDA approval status, product/dose, and phase 3 trial average weight loss from press-release-level sources. But B better enables a correct answer because it pairs the FDA press announcement with the key status detail ('approved,' granted 54 days after filing under the CNPV pilot program) and the Novo Nordisk press-release snippet with the trial outcome (~21% at 72 weeks), plus a corroborating 20.7% result from another release. A also has these facts, including the FDA result, but B more directly surfaces the approval-status language and filing timing that match the query's 'supplemental application approval status 2026 ... press release' framing."
+}

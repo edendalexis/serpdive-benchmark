@@ -1,0 +1,11 @@
+{
+  "id": 67,
+  "query": "Debian Docker images xz backdoor Binarly August 2025 CVE-2024-3094 findings removal status",
+  "topic": "XZ Utils",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Binarly result snippet is unhelpful and does not expose the key findings. Content A does not itself include the explicit 'marked as done' Debian bug result shown in the anchor, so removal status must be inferred mainly from the closed GitHub issue and external reporting. Dark Reading says maintainers made an 'intentional choice' to leave artifacts available as a historical curiosity, which may overgeneralize and could confuse the specific Debian removal-status question.",
+  "b_issues": "Content B lacks the crucial Debian-specific facts. Its top Binarly result snippet is only promotional text and gives no findings. The other results are generic background on CVE-2024-3094, including a third-party explainer and Palo Alto/Unit42 overview, not evidence about Debian Docker images, Binarly's August 2025 findings, or whether the images were removed. It therefore does not provide reliable support for the asked removal status.",
+  "reasoning": "A better enables a correct answer because it contains Debian-specific evidence: a Debian mailing-list bug report stating that ten official Debian base images on Docker Hub still contained the xz backdoor in August 2025, plus the corresponding GitHub issue requesting removal and showing it was closed, and a reputable media report summarizing Binarly's finding that affected images were still on Docker Hub. Those facts are directly relevant to both the findings and status. B mostly contains generic CVE background and an uninformative Binarly snippet, so an LLM would not have enough grounded information to answer the Debian Docker image findings/removal-status question correctly."
+}

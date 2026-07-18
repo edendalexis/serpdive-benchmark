@@ -1,0 +1,11 @@
+{
+  "id": 695,
+  "query": "NATO 2026 fuel infrastructure investment €27 billion pipelines eastern flank announcement details",
+  "topic": "NATO",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A has sparse detail in most snippets and includes low-reliability or noisy results such as Ground News aggregation and a Facebook video. It lacks a direct official NATO source in the returned results. Some snippets are vague or slightly inconsistent in framing the investment as fuel storage/infrastructure rather than clearly stating storage, distribution, and new facilities including pipelines toward the eastern flank.",
+  "b_issues": "Content B includes one likely inaccurate/secondary summary result ('$30B extending fuel pipelines east') and a NATO Summit Declaration snippet that does not mention the €27 billion fuel announcement in the shown text. However, these do not materially conflict with the core facts because other B results provide the correct €27 billion figure and announcement details.",
+  "reasoning": "B better enables a correct answer because it contains both a strong independent report (Defence24) and, crucially, official NATO pages explicitly stating that Allies announced a EUR 27 billion investment to modernise fuel storage and distribution infrastructure and support new facilities, including pipelines, extending to the eastern part of the Alliance, at the 2026 Ankara summit. That directly answers the query’s key elements: amount, infrastructure type, eastern flank direction, and announcement context. Defence24 in B also adds concrete Poland-related detail (integration with PERN, preliminary agreement in October 2025, about 300 km in Poland, estimated local cost), which helps with 'details.' By contrast, A has the right story but mostly through thin snippets and weaker sources, without the official NATO confirmation present in B."
+}

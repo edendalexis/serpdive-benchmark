@@ -1,0 +1,11 @@
+{
+  "id": 345,
+  "query": "World Chain native USDC integration June 2025 developer activity stablecoin transfers official release",
+  "topic": "Worldcoin",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A is somewhat incomplete: it includes a 'coming soon' Circle post rather than the final official Circle release, and it lacks the direct Circle 'now live' June 11, 2025 announcement that would more fully confirm the official release details. It also relies partly on secondary coverage (CoinDesk, CryptoRank, crypto.news). However, the included World blog result correctly states that USDC and CCTP V2 are now live on World Chain, and the other snippets are consistent with the anchor facts.",
+  "b_issues": "Content B is much noisier and includes multiple irrelevant results from 2024 and 2026. Its most relevant result is from CryptoRank, a secondary source, and one URL/title appears inconsistent ('circles-usdt' while the title/content discuss USDC), which reduces reliability. It lacks the key official June 11, 2025 World or Circle release about native USDC going live, and the top result is unrelated to USDC. This makes it easier for an LLM to miss or misstate the official release details.",
+  "reasoning": "The anchor facts are that native USDC and CCTP V2 went live on World Chain on June 11, 2025, upgrading existing bridged USDC in place and enabling fast/global transfers and developer use. Content A contains an official World post stating 'Circle’s USDC and CCTP V2 ... are now live on World Chain' plus CoinDesk coverage noting about 2 million users were upgraded to native USDC and that Circle Mint supports on/off-ramps. That is enough for an LLM to answer the question correctly. Content B contains only one relevant secondary summary and otherwise mostly irrelevant or off-topic results; it does not surface the official release directly. Therefore A better enables a correct answer."
+}

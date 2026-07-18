@@ -1,0 +1,11 @@
+{
+  "id": 19,
+  "query": "TSMC Arizona fab construction progress 2026 3nm 2nm production start date employment number",
+  "topic": "Taiwan Semiconductor Manufacturing Company",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A lacks the key production-start facts the question asks for. It has only one relevant official source (NIST) for employment numbers, while the top result is a questionable third-party site claiming a $165B Arizona expansion, up to 12 fabs, 4 packaging facilities, completed second-fab construction, and Q3 2026 equipment installation; these claims are not well corroborated within A and may conflict with established public plans centered on the first 3 fabs. Another result is unrelated/misleading (domestic fab construction targeted for 2026, not clearly Arizona). There is no solid 2nm Arizona production start date in A.",
+  "b_issues": "Content B also includes the same dubious tech-insider source and a generic TSMC homepage that is not useful. It contains some internal inconsistency on 2nm timing: the tech-insider result says the third fab is expected to produce 2nm by 2028–2029, while the TSMC careers page only says by the end of the decade. Wikipedia is secondary and may be less reliable than official sources. However, these issues do not prevent answering the query.",
+  "reasoning": "B better enables a correct answer because it contains the core facts needed for all parts of the question: (1) construction progress: Arizona Technology Council says the second fab construction was completed in April and equipment installation is planned next summer/Q3 2026; (2) 3nm production start: multiple B results say the second fab will start volume/mass production in the second half of 2027, matching the anchor; (3) 2nm start: B provides at least an approximate timeframe via TSMC careers ('by the end of the decade') and another result gives 2028–2029 for the third fab; (4) employment number: B includes 'currently employs over 3,000 workers' from the Arizona site and, via the same article, broader staffing context, while A only clearly gives the planned 6,000 direct manufacturing jobs and 20,000 construction jobs from NIST. A is missing a dependable 3nm start date and any concrete 2nm timing, so an LLM using only A would likely struggle to answer fully and accurately."
+}

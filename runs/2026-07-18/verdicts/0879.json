@@ -1,0 +1,11 @@
+{
+  "id": 879,
+  "query": "Keir Starmer remain MP after resigning prime minister labour leader June 2026 confirmation",
+  "topic": "Keir Starmer",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A includes reliable reports about Starmer resigning and remaining PM during the transition, but it does not provide the key confirmation that he will remain an MP after stepping down. The BBC snippet mentions Andy Burnham taking his parliamentary seat, which is about Burnham, not Starmer. Other results are generic or irrelevant (House of Commons Library on PM appointment, Instagram).",
+  "b_issues": "Content B has some ambiguity from Starmer saying 'this is the end of my political journey,' which could mislead without the accompanying clarification. However, the BBC live result and Guardian snippet explicitly state he would stay on as MP, so there is no substantive factual flaw for answering the question.",
+  "reasoning": "The question asks whether Keir Starmer would remain an MP after resigning as prime minister/Labour leader, and seeks confirmation in June 2026. Content B directly contains that confirmation from strong sources: the BBC live page says 'Starmer insisted he would be staying on as the MP for ... Holborn and St Pancras,' and the Guardian says 'Downing Street has confirmed' he will remain the MP. That directly answers the question correctly. Content A does not contain this crucial fact; it only covers his resignation and caretaker role. Therefore B better enables an LLM to answer correctly."
+}

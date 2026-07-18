@@ -1,0 +1,11 @@
+{
+  "id": 636,
+  "query": "Perplexity Deep Research in Computer private company research website publishing structured outputs presentation feature release",
+  "topic": "Perplexity AI",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "A includes the key Perplexity blog result, but the snippets are thinner on the specific 'structured outputs/presentation feature release' detail. It also contains low-value and unreliable results (LinkedIn sign-in pages, a Substack guide) that could distract an LLM. The official 'Deep Research, now in Computer' snippet mentions work-ready formats and a structured table example, but does not clearly surface the release of Search as Code or the product page language about structured, fully cited research as strongly as B.",
+  "b_issues": "B has one malformed title for the official blog result ('{{IW4QaZoc2}}') and includes third-party sources like MarkTechPost and Yahoo Finance, which are less authoritative than Perplexity’s own site. However, it still contains multiple official Perplexity sources with the needed facts.",
+  "reasoning": "B better enables a correct answer because it more directly contains the core facts from authoritative Perplexity pages matching the query: the official product page says Deep Research 'turns complex questions into structured, fully cited research' and delivers 'reports, decks, and dashboards inside Computer'; the official blog snippet says Deep Research was added to Computer and announces it can 'write its own search programs' via 'Search as Code'; and the YouTube/official ecosystem result reinforces that Deep Research is now a native skill in Computer. These facts align closely with the anchor about the release and the structured outputs/presentation angle. A has some of this, especially the official blog page, but its snippets are less complete and are mixed with more noisy/unreliable results, so an LLM would be less well-supported."
+}

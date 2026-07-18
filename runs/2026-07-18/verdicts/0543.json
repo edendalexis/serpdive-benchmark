@@ -1,0 +1,11 @@
+{
+  "id": 543,
+  "query": "ECB T2 operating hours extension public consultation outcome 2025",
+  "topic": "European Central Bank",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "A includes the key ECB consultation paper (June 2025) and the ECB outcome report (May 2026), but the rest of the top results are mostly third-party response PDFs and even a LinkedIn post. It lacks the ECB consultation landing page and the ECB news page that explicitly tie the 2025 consultation to the later outcome. This makes it easier for an LLM to miss the timeline or rely on less authoritative material. No major factual contradiction is visible, but the result mix is noisier and less directly targeted to the 'outcome' asked for.",
+  "b_issues": "B says in the 6 June 2025 ECB news result that the ECB planned to publish a summary/analysis in the first quarter of 2026, whereas the actual outcome publication shown elsewhere in B is 28 May 2026. This is not necessarily a contradiction if plans changed, but it could confuse a model. Otherwise the results are authoritative and aligned.",
+  "reasoning": "B better enables a correct answer because it contains the most directly relevant authoritative ECB pages for both the consultation and its outcome: the consultation page with the 6 June to 30 September 2025 response window, the 6 June 2025 ECB news item describing the consultation, and the 28 May 2026 ECB news item summarizing the outcome. Crucially, B explicitly states the outcome facts: the consultation found that improving liquidity management for instant payments was the primary reason for extending T2 hours; respondents preferred a phased approach starting with liquidity-management improvements before a full 24/7 model; and the Eurosystem planned a further consultation by early 2027. A does include the actual outcome PDF and consultation paper, but its other results are noisier and less clearly connect the question's 'public consultation outcome' to the ECB's official summary. Since the question asks for the outcome, B presents that outcome more directly and reliably from ECB sources."
+}

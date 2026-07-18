@@ -1,0 +1,11 @@
+{
+  "id": 825,
+  "query": "Howard Street Tunnel reconstruction completion date Port of Baltimore CSX double-stack rail permanent route",
+  "topic": "Port of Baltimore",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Result quality is mixed: the top hit is a Facebook post rather than a primary source, and the key CSX snippet says double-stack trains will move once additional clearance projects are complete in early 2026, which is only a projected service date rather than the final ribbon-cutting/completion date. However, A also includes Maryland Port Administration and local news results indicating the project was completed/opened by May/June 2026, which aligns with the anchor.",
+  "b_issues": "B is dominated by earlier CSX materials from Sept. 2025 and Jan. 2026 that frame the tunnel reopening as complete but still contingent on additional clearance work in early 2026. That can mislead an LLM into giving early 2026 or Sept. 2025 as the completion date for the permanent double-stack route. It lacks the later June 2026 opening/completion evidence present in the anchor and contains no explicit final Port of Baltimore double-stack service launch date.",
+  "reasoning": "The question asks for the reconstruction completion date tied to the Port of Baltimore/CSX permanent double-stack route. The anchor shows the decisive fact: ribbon-cutting and start of double-stack rail operations occurred in June 2026, marking completion of the Howard Street Tunnel Project. Content A contains evidence closer to that final state: Maryland Port Administration says all MOA stipulations were completed as of May 26, 2026, and WBAL reports the tunnel expansion opens for double-stack operations. Content B mostly stops at the Sept. 26, 2025 tunnel reopening and notes that additional clearance projects would finish in early 2026, which is incomplete for the final permanent route and could yield the wrong answer. So A better enables a correct answer."
+}

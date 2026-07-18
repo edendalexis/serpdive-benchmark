@@ -1,0 +1,11 @@
+{
+  "id": 70,
+  "query": "101st Academy Awards 2029 exclusive broadcast rights winner",
+  "topic": "Academy Awards Oscars",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "",
+  "b_issues": "",
+  "reasoning": "Both A and B clearly contain the key fact needed to answer the question: YouTube won the exclusive rights for the 101st Academy Awards in 2029. In A, the Academy press release explicitly says YouTube gets the exclusive global rights beginning in 2029 with the 101st Oscars ceremony, and multiple reputable corroborating sources repeat this. In B, Deadline, the Academy press release snippet, and other sources likewise state that YouTube won the rights starting with the 101st Oscars in 2029. Neither set shows meaningful contradiction on the core fact, and both provide sufficiently reliable sourcing to answer correctly."
+}

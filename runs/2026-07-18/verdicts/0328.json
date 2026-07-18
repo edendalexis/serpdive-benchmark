@@ -1,0 +1,11 @@
+{
+  "id": 328,
+  "query": "Scottie Scheffler 2026 U.S. Open Shinnecock Hills final position score final round pairing",
+  "topic": "Scottie Scheffler",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "A does identify that Scheffler was in the final group/final pairing with Wyndham Clark after Round 3, but it does not provide his final position or final score. The GolfDigest snippet only says he was tied for second entering Sunday, which is pre-final-round and not the final result. No result in A states his Sunday finishing place or total score, so an LLM would have to guess. There is no direct contradiction, but the answer is incomplete for the query.",
+  "b_issues": "B has a likely inaccurate/useless leaderboard snippet from usopen.com saying Scottie Scheffler was E / T7, which conflicts with the anchor and with the other result saying he was 1-under after 54 holes and in the final group. B also does not explicitly give his final-round partner by name in a dedicated tee-time result, though the PGA TOUR snippet implies he was paired with Wyndham Clark in the final group.",
+  "reasoning": "B better enables a correct answer because it contains the key pairing fact more explicitly: the PGA TOUR snippet says Scheffler 'will join Clark in the final group on Sunday' and 'square off' with him, which identifies the final-round pairing as Scheffler with Wyndham Clark. It also includes a usopen.com leaderboard snippet with a final standing for Scheffler (though likely wrong as T7 at even par). A, by contrast, only has pre-final-round material: Scheffler was tied for second at 1-under after Round 3 and in the final group, but A never gives a final finish or final score at all. Since the question asks for final position, score, and final-round pairing, A is missing the final-result facts entirely. B is imperfect and partially contradictory, but it at least contains both a final leaderboard-type placement and the final-pairing clue, so it is more usable overall."
+}

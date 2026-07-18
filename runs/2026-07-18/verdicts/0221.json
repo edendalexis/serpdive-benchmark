@@ -1,0 +1,11 @@
+{
+  "id": 221,
+  "query": "Tesla FSD monthly subscription price",
+  "topic": "Tesla",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Contains some potentially distracting secondary results: a Reddit snippet mentioning older $199/month pricing alongside $99/month, and third-party articles about a $49/month rate for Enhanced Autopilot owners. However, the top result is Tesla's official support page stating FSD (Supervised) is available as a monthly subscription of $99, which directly answers the question.",
+  "b_issues": "Lacks the official Tesla support page in the visible results. Includes several third-party pages and one old 2021 result citing outdated $199/month pricing, which could mislead an LLM. Although multiple results mention $99/month, the evidence is less authoritative and more mixed than in A.",
+  "reasoning": "A better enables a correct answer because it includes Tesla's official support page as the top result, explicitly saying: 'FSD (Supervised) is available as a monthly subscription of $99.' That directly and reliably answers the query. B also contains $99/month in multiple third-party results, but it lacks the official Tesla source and includes an outdated 2021 $199/month result, making it somewhat more error-prone. Therefore A is the stronger set for answering correctly."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 337,
+  "query": "upcoming Longlegs universe movie January 2028 release standalone sequel producers Brian Kavanaugh-Jones Chris Ferguson Dave Caplan",
+  "topic": "Longlegs",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Minor issues only: one result calls it 'Longlegs 2' even though trade sources say it is not exactly a direct sequel but a film set in the Longlegs universe. Otherwise A includes multiple reliable trade reports with the key facts and producer list.",
+  "b_issues": "B has weaker coverage and noisier results. The featured snippet and Deadline result give the release date and universe framing, but the top Wikipedia result is only tangential, one ISA result appears irrelevant/broken, and the strongest producer details come from an earlier 'in the works' article rather than the release-date report. It is somewhat less clear on the exact Jan. 2028 release article and standalone/not-a-traditional-sequel framing in one place.",
+  "reasoning": "A better supports a correct answer because it contains multiple high-reliability entertainment trade sources directly matching the query: THR says the film opens Jan. 14, 2028 and is 'not exactly a sequel' but set in the Longlegs universe; Deadline confirms Jan. 14, 2028 and lists producers Brian Kavanaugh-Jones, Osgood Perkins, Chris Ferguson, Dave Caplan, and Nicolas Cage. This aligns closely with the anchor. B also contains enough facts, but its result set is less clean and less consistently direct: it includes irrelevant/tangential entries, and the producer names are spread across an earlier development story rather than the release-date announcement. So A more reliably enables an LLM to answer correctly from the provided content alone."
+}

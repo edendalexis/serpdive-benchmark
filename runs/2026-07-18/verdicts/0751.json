@@ -1,0 +1,11 @@
+{
+  "id": 751,
+  "query": "Truth API launch date pricing tiers Trump Media investor data service",
+  "topic": "Truth Social DJT stock",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A is almost entirely irrelevant: all top results are dictionary/encyclopedia entries for the word 'truth' and contain no facts about Trump Media, Truth API, launch date, pricing tiers, or investor/data service details. An LLM could not answer the question from A alone.",
+  "b_issues": "Content B contains the launch date and service description from generally relevant sources, but it does not clearly provide pricing tiers. It mentions launch timing (Aug. 1, 2026), that customers are already signed, and some service details, but pricing information is absent. There is no major internal contradiction in the provided snippets.",
+  "reasoning": "B better enables a correct answer because it directly discusses Trump Media's Truth API and provides key facts aligned with the anchor: the announcement date (July 16, 2026) and expected availability to institutional customers beginning August 1, 2026, plus that it is a licensed real-time data service for influential Truth Social accounts. A provides no relevant factual material at all. Although B is incomplete on pricing tiers, it still contains substantially more of the facts needed to answer the question and comes from relevant business/news sources including Yahoo/GlobeNewswire, Reuters, and an 8-K filing summary."
+}

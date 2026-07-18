@@ -1,0 +1,11 @@
+{
+  "id": 821,
+  "query": "Mid-Chesapeake Bay Environmental Restoration Project Maryland Port Administration federal funding amount",
+  "topic": "Port of Baltimore",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Most results are irrelevant to the specific question. The key relevant result is the Maryland Port Administration Mid-Bay Project page snippet, but the snippet shown does not include the federal funding amount. No visible result snippet explicitly states the amount, so an LLM would need to infer or click through, and the available presented content alone is weak.",
+  "b_issues": "Results are largely irrelevant or off-topic, including budget documents and unrelated Chesapeake Bay funding items. No visible result snippet provides the Mid-Chesapeake Bay/Maryland Port Administration federal funding amount. Some results are from future-dated or unrelated pages, which adds noise and lowers reliability for this specific question.",
+  "reasoning": "Content A is slightly better because it at least includes a directly relevant Maryland Port Administration result for the Mid-Bay Project, indicating the correct project entity. However, neither A nor B actually presents the needed federal funding amount in the shown content. The anchor indicates the amount is $37.5 million from the U.S. Army Corps of Engineers FY22 supplemental workplan, but that fact is not present in either result set's visible snippets. Since B is mostly irrelevant and lacks even a clearly on-point project result, A better enables an answer, though only marginally."
+}

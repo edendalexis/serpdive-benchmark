@@ -1,0 +1,11 @@
+{
+  "id": 306,
+  "query": "JAXA NASA pressurized lunar rover collaboration agreement April 2024 Japanese astronaut seats provision details",
+  "topic": "NASA Artemis program",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A is somewhat incomplete on the exact provision details. It states there are 'opportunities for two Japanese Astronauts to land and carry activities on the lunar surface' and mentions a shared goal that one could be the first non-American on the Moon, but it does not clearly spell out any conditions or caveats such as benchmark-dependent language from the broader announcement. Some snippets are secondary sources and could encourage overinterpretation beyond the implementing arrangement itself.",
+  "b_issues": "Content B is largely irrelevant to the query. It returns generic JAXA homepage, Wikipedia, LinkedIn, and X results, with no substantive facts about the April 2024 NASA-Japan implementing arrangement, the pressurized lunar rover agreement, or the provision for Japanese astronaut seats/opportunities. It therefore lacks the needed details to answer the question.",
+  "reasoning": "Content A directly includes highly relevant and reliable sources: NASA’s April 2024 press release and a JAXA page about the implementing arrangement. These provide the core facts needed to answer the question: Japan will design, develop, and operate the pressurized rover, and the arrangement stipulates two opportunities for Japanese astronauts to land and conduct activities on the lunar surface; NASA’s release also mentions the goal that a Japanese national could become the first non-American astronaut to land on the Moon on a future Artemis mission. Content B does not provide those facts at all. Therefore A much better enables a correct answer."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 294,
+  "query": "X topic snooze global rollout For You timeline recent update availability",
+  "topic": "Twitter",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Result 1 focuses mainly on custom timelines and only says Snooze Topics is available for iOS and web Premium users, without explicitly stating the broader/global availability asked about. Result 2 is a secondary roundup source and says X 'has expanded globally the ability to snooze specific topics in the For you timeline,' but it does not provide the rollout date or primary-source detail. There is also some ambiguity between April rollout details and a later July global expansion.",
+  "b_issues": "Contains weak and fragmentary evidence. Several results are just X posts with minimal text and no substantive detail. The Smartprix result says rollout started on iOS and web with Android coming soon, but does not address global rollout. The Roboin result says it is only available to some users, which can conflict with a broader availability framing unless carefully interpreted as partial rollout. No result clearly states the recent update was a global expansion of Snooze Topics in the For You timeline.",
+  "reasoning": "Content A better equips an LLM to answer because it contains the key fact closest to the query: a source explicitly stating that X expanded globally the ability to snooze specific topics in the 'For You' timeline, plus corroborating April rollout context that Snooze Topics launched for iOS and web Premium users. That supports an answer like: it was initially rolling out to Premium users on iOS/web, Android was coming soon, and a later update expanded availability globally. Content B has some relevant snippets, but they are thinner, less reliable, and more incomplete: mostly social posts plus partial summaries, with no clear statement of global rollout. So A more directly and accurately supports the likely answer."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 994,
+  "query": "True Detective season 5 Issa Lopez return showrunner HBO official season 5 announcement",
+  "topic": "True Detective",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "No major factual flaws for answering this query. It does not include HBO's official press release directly, but multiple reliable trade sources clearly state that HBO renewed Season 5 and that Issa Lopez will return/oversee it under an overall deal. One lower-quality Yahoo snippet adds speculative/unconfirmed details like a potential 2027 release date and Jamaica Bay setting, but it is explicitly framed as unconfirmed and is not needed to answer the question.",
+  "b_issues": "No major factual flaws for answering this query. It also lacks HBO's official press release directly, and the top IMDb item is less authoritative than trade coverage, but the Hollywood Reporter, IndieWire, and Deadline snippets accurately state that HBO renewed Season 5 and that Issa Lopez is back as showrunner/at the helm under an overall deal.",
+  "reasoning": "Both result sets contain enough accurate information from reliable entertainment trade sources to answer the question correctly: HBO officially announced a Season 5 renewal, and Issa Lopez is returning to lead it. This matches the anchor press release stating HBO renewed the series for a fifth season and that, under a new multiyear overall deal, Issa Lopez will create the next season of True Detective. Content A and Content B both surface Hollywood Reporter and Deadline, which explicitly say Lopez is back as showrunner/overseeing the next installment. Neither set materially contradicts that core fact, and neither has a clear advantage in enabling the correct answer."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 335,
+  "query": "Osgood Perkins Longlegs universe filming start date production schedule",
+  "topic": "Longlegs",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A contains mixed signals on the production schedule. Nerdist and Variety mention a 2028 release date, but IndieWire explicitly says Paramount has yet to announce a release date or production timeline. No result provides a filming start date. Some lower-reliability/noisy results appear (Wikipedia, Facebook), and the query asks for filming start date/production schedule specifically, which A does not answer directly.",
+  "b_issues": "Content B also does not provide a filming start date. It includes THR/Variety/IndieWire items confirming the project exists, but IndieWire says Paramount has yet to announce a release date or production timeline, while the anchor indicates a Jan. 14, 2028 release was later set. Thus B is incomplete/outdated on schedule details and cannot answer the filming start date question directly.",
+  "reasoning": "Neither set gives the key fact the question asks for: a filming start date. Both mainly establish that Perkins and Cage are doing a new movie in the Longlegs universe. A has somewhat more schedule-related material because Nerdist and Variety mention a Jan. 14, 2028 release date, but it also includes IndieWire saying no release date or production timeline had been announced, so the evidence is inconsistent and still lacks a filming start. B is cleaner in source quality, with THR/Variety/IndieWire, but it likewise lacks any filming start date and includes the same 'no production timeline announced' limitation. Since neither content set lets an LLM answer the filming start date/production schedule correctly from the provided content alone, the result is a tie."
+}

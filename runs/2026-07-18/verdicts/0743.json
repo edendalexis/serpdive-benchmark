@@ -1,0 +1,11 @@
+{
+  "id": 743,
+  "query": "Senate committee cameras Supreme Court federal courtrooms bill status vote",
+  "topic": "U.S. Supreme Court",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A lacks the key official/result facts needed to answer the query. Its top results are indirect or outdated/background sources rather than the specific committee action. It does not clearly state the bill names/numbers, that the Senate Judiciary Committee advanced two bills, or that the vote was by voice vote. Several results are old/background materials (CRS report, 110th Congress report, academic article) that could distract or mislead about current status.",
+  "b_issues": "Content B is mostly accurate and directly responsive. Minor issues: some supporting sources are advocacy/secondary sites rather than primary sources, and one Law.com snippet is largely irrelevant. But the key official Senate Judiciary page gives the needed facts clearly.",
+  "reasoning": "Content B better enables a correct answer because it includes the official Senate Judiciary Committee press release stating that the committee advanced two bipartisan bills by voice vote to allow cameras in federal courtrooms, and it identifies what each bill does: the Sunshine in the Courtroom Act for federal courts generally and the Cameras in the Courtroom Act for Supreme Court open sessions unless a majority of justices decides otherwise for due process reasons. This matches the anchor. Content A does not reliably provide the current bill status or the committee vote detail; its snippets are sparse and mixed with older/background materials, so an LLM would be less likely to answer correctly from A alone."
+}

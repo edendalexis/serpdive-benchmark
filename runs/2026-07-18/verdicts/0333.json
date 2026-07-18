@@ -1,0 +1,11 @@
+{
+  "id": 333,
+  "query": "Longlegs sequel box office gross budget 2024 vs 2028 production",
+  "topic": "Longlegs",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "A has the key 2024 gross/budget facts via THR and The Numbers, but it lacks a reliable result about the 2028 production budget/scope. One result is a Facebook post, and another is a Reddit thread suggesting a $3M budget, which is likely about the 2024 film and is unreliable/noisy. It also does not include the stronger trade reporting from Variety/Deadline about the follow-up.",
+  "b_issues": "B still does not directly provide a confirmed 2028 production budget; it mainly gives the 2028 release/production context and repeats the 2024 gross/budget. Wikipedia is less reliable than the trade sources, but it is not essential here. Minor variation between $127.9M and $128M worldwide is just rounding.",
+  "reasoning": "The question asks about Longlegs sequel / box office gross / budget / 2024 vs 2028 production. To answer correctly, the LLM needs (1) the original 2024 film's gross and budget and (2) evidence that a new Longlegs-universe film is in production for 2028. Both A and B clearly contain the 2024 facts: Longlegs grossed about $128M worldwide on a budget of about $10M or less. But B better supports the 2028 side because it includes multiple reliable trade sources (Hollywood Reporter, Deadline, Variety) explicitly stating a new film in the Longlegs universe is set for Jan. 14, 2028 with Osgood Perkins and Nicolas Cage returning. A has THR, but the rest is weaker/noisier and lacks the corroborating trade coverage. Therefore B better enables a correct answer from the provided content alone."
+}

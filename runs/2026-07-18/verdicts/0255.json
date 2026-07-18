@@ -1,0 +1,11 @@
+{
+  "id": 255,
+  "query": "InnoRNA bivalent mRNA RSV vaccine clinical trial phase NCT number",
+  "topic": "RSV vaccines",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A identifies Innorna's bivalent RSV mRNA vaccine as IN006 and clearly states Phase II, but it does not provide any NCT number. Its only ClinicalTrials.gov hit is an unrelated Moderna RSV trial (NCT05330975), which could mislead the model into giving the wrong NCT.",
+  "b_issues": "Content B identifies Innorna's investigational bivalent RSV mRNA vaccine IN006 and states it is in Phase 1, but it provides no NCT number. It also mentions FDA and China IND approvals rather than registry identifiers, so the key requested fact is missing.",
+  "reasoning": "The question asks for the clinical trial phase and NCT number for Innorna's bivalent mRNA RSV vaccine. According to the anchor, relevant trials are IN006 Phase 1 (NCT06287450) and Phase 2 (NCT07128121). Neither result set contains either of those NCT identifiers. A gives a stronger clue on phase by repeatedly mentioning Phase II, but lacks the NCT and includes an unrelated ClinicalTrials.gov record that could cause an incorrect answer. B gives a clue on phase by mentioning first participant dosed in Phase 1, but also lacks the NCT. Since both are missing the essential NCT number needed to answer correctly from the content alone, neither set enables a correct answer better than the other."
+}

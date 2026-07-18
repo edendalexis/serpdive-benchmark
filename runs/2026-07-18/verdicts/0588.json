@@ -1,0 +1,11 @@
+{
+  "id": 588,
+  "query": "FTX independent board of directors members list John Ray III 2026",
+  "topic": "FTX",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Content A does not contain the actual member list of FTX's independent directors/board in its returned snippets. It only says John Ray appointed directors and includes unrelated/weakly related results (Wikipedia, Forbes profile, Fortune bonus article). The Fortune snippet mentions an 'independent board' approving a bonus but does not name members. No snippet provides the needed list or ties it clearly to 2026.",
+  "b_issues": "Content B likewise does not contain the actual member list of FTX's independent directors/board in its returned snippets. Results are mostly generic John Ray material, plus weak or unreliable/less authoritative sources (LinkedIn post, Gate.com article). The Banking Dive snippet only says Ray appointed directors, without naming them. No snippet provides the needed list or ties it clearly to 2026.",
+  "reasoning": "The question requires identifying the members of FTX's independent board/directors list involving John Ray III in 2026. The anchor indicates the relevant names are available in authoritative filings (e.g., Matthew Doheny, Judge Joseph Farnan, Peter Greaves, Rishi Jain, John J. Ray III, Matthew Rosenberg, with related silo directors in earlier filings). Neither A nor B surfaces those names in the snippets. A has slightly better source quality overall, but its snippets still do not supply the answerable facts. B also lacks the names and includes less reliable sources. Since neither result set, from the content alone, would let an LLM answer the question correctly, the verdict is a tie."
+}

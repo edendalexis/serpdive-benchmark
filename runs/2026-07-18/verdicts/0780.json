@@ -1,0 +1,11 @@
+{
+  "id": 780,
+  "query": "Netanyahu corruption trial Case 4000 Case 2000 2026 status",
+  "topic": "Benjamin Netanyahu",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "A has only one clearly relevant 2026-status result beyond Wikipedia: an Anadolu item saying Netanyahu's testimony/cross-examination concluded after 98 hearings. It lacks the key July 2026 development from the anchor that judges again urged dropping the bribery charge in Case 4000, and it does not clearly establish the contemporaneous status of Case 2000 in 2026. One Jerusalem Post result says the trial was resuming in the middle of Case 4000 cross-examination, which is older and potentially stale relative to later June/July 2026 developments. Overall A is sparse and may leave an LLM with an incomplete or outdated status picture.",
+  "b_issues": "B includes some low-value or stale context pieces (Israel Policy Forum conflict-of-interest article, Wikipedia). The Jerusalem Post snippet is truncated, so detail is limited. However, there are no major factual contradictions in B's set.",
+  "reasoning": "B better enables a correct answer because it contains the crucial 2026 facts matching the anchor: (1) Netanyahu's testimony/cross-examination phase ended after 98 hearings in June 2026; (2) the trial then moved from Case 4000 to Case 2000, as indicated by the Jerusalem Post result; and (3) judges again called on prosecutors to drop the bribery charge in Case 4000, matching the anchor and showing that charge remained under serious judicial doubt rather than resolved. A provides the testimony conclusion, but it misses the important judicial recommendation on Case 4000 and gives less clear evidence that proceedings had shifted to Case 2000 by mid-2026. Therefore B supplies a more complete and current status for both Case 4000 and Case 2000."
+}

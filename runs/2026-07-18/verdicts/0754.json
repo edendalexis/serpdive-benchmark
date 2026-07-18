@@ -1,0 +1,11 @@
+{
+  "id": 754,
+  "query": "Trump Media DJT Q3 2024 earnings report net loss revenue decline SEC filing",
+  "topic": "Truth Social DJT stock",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A does not surface the relevant Q3 2024 filing or earnings result. Its top SEC result is a March 31, 2026 10-Q, and other SEC snippets are for 2025 and 2024 annual data rather than the September 30, 2024 quarter. It therefore omits the key facts needed for the query, such as the Q3 2024 net loss and revenue decline. The only potentially relevant item is a 2026 article mentioning a past Q3 2025 event, which is unrelated.",
+  "b_issues": "Content B includes some irrelevant or lower-reliability results (CNBC full-year 2024 article, a Facebook post, 2025 SEC filing, IR filings page). It does not directly provide the exact 2024 Q3 SEC 10-Q link from the anchor. However, its StockTitan result appears consistent with the anchor/press release figures.",
+  "reasoning": "B better enables a correct answer because it contains the essential Q3 2024 facts: net loss of about $19.2 million and revenue of about $1.0 million, plus mention of operating loss and legal expenses, via the StockTitan result for 'TMTG Reports Third Quarter 2024 Results.' Those figures match the anchor/press-release context (e.g., TipRanks in the anchor says $19.25M loss and sales down 5.6% to $1.01M). A, by contrast, mostly returns wrong-period SEC filings from 2025 and 2026 and does not provide the relevant quarter’s earnings facts. So only B gives an LLM enough accurate information to answer the query."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 24,
+  "query": "SpaceXAI SuperGrok Heavy tier Grok 4 Heavy release date",
+  "topic": "xAI",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Top result is irrelevant/misleading (Grok 4.5 from 2026). One result is a third-party pricing page with speculative/secondary details. The x.ai snippet omits the explicit Jul 9, 2025 date in the snippet text, though the result itself is the correct official source. TechCrunch says subscribers get an early preview to Grok 4 Heavy, which is somewhat in tension with the official announcement saying the new SuperGrok Heavy tier has access to Grok 4 Heavy.",
+  "b_issues": "Includes a low-reliability/irrelevant Tesery store result and several secondary blog-style sources. Most snippets do not clearly state the release date; they only say 'launched in July 2025' or describe the launch without a precise date. The official x.ai result shown here also lacks the explicit Jul 9, 2025 date in the snippet. Overall source quality is weaker and less precise.",
+  "reasoning": "The question asks for the release date of Grok 4 Heavy / the SuperGrok Heavy tier. Content A better supports a correct answer because it includes multiple strong corroborating sources: the official x.ai Grok 4 page, TechCrunch dated July 9, 2025, and Teslarati dated July 10, 2025 describing the launch. From A, an LLM can infer the release was announced on Jul 9, 2025, matching the anchor. Content B has the official x.ai page, but its other results are mostly weaker secondary sources and generally only say 'launched in July 2025' without the exact date. So A is more likely to let the model answer correctly and precisely."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 549,
+  "query": "digital euro European Parliament vote first reading result status cash replacement confirmation 2025",
+  "topic": "European Central Bank",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "A lacks the decisive plenary/first-reading-status result. It only clearly gives the ECON committee vote (43–14–1) and says it would move to plenary later, so an LLM could mistake the committee vote for the Parliament vote. It also does not directly include the stronger confirmation that cash will not be replaced, except indirectly via a secondary source snippet. No clear first-reading/plenary status is provided.",
+  "b_issues": "B also does not contain the actual plenary result from the anchor (416 in favour, 169 against, 22 abstentions, July 2026). It mainly provides the committee vote and next-step context. However, it does include explicit wording from a reliable European Parliament source that the digital euro will complement cash, never replace it, plus status/context that it passed a key committee hurdle and would move to plenary.",
+  "reasoning": "Neither result set fully answers the query because neither includes the actual European Parliament plenary vote outcome or a true first-reading result/status as reflected in the anchor. But B better enables a correct answer overall: it has the same reliable EP committee vote facts as A, adds explicit cash-nonreplacement confirmation from the EP source, and includes clearer legislative-status context from multiple snippets. A is more likely to mislead because its top result says only that the file passed a 'first hurdle' in committee and would move to plenary, without the explicit nonreplacement line or any plenary result. So B is the better of the two, though still incomplete."
+}

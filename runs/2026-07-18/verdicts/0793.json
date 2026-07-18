@@ -1,0 +1,11 @@
+{
+  "id": 793,
+  "query": "New Caledonia 2026 referendum State of New Caledonia date results",
+  "topic": "New Caledonia",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A does not directly answer the asked referendum details. It mostly returns 28 June 2026 provincial/legislative election coverage, not the 2026 referendum on the 'State of New Caledonia'. It provides no referendum date or referendum results, and could mislead an LLM into conflating provincial election results with referendum results. The Wikipedia result is about the 2026 legislative election, not the referendum.",
+  "b_issues": "Content B also mainly returns 28 June 2026 provincial/legislative election material rather than the 2026 referendum. It includes one useful clue that the Bougival Accord would have created a Caledonian state, but it still gives no referendum date or referendum results. Its snippets mention delays and prior scheduling, but not a confirmed 2026 referendum outcome; an LLM could likewise confuse the election with the referendum.",
+  "reasoning": "The anchor indicates the relevant fact pattern: the Bougival Accord envisioned a local referendum in February 2026 to validate creation of a 'State of New Caledonia', but that referendum was delayed indefinitely, so there were no results. Neither result set clearly contains those key facts. Both are dominated by June 2026 provincial/legislative election results, which are a different event. B is marginally more helpful because it mentions the Bougival Accord creating a Caledonian state and scrapping future independence referendums, but it still does not supply the decisive answer that the referendum was delayed indefinitely and therefore had no results. Since neither set reliably enables a correct answer from the provided content alone, the best verdict is a tie."
+}

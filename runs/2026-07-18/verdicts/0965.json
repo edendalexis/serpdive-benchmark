@@ -1,0 +1,11 @@
+{
+  "id": 965,
+  "query": "Narendra Modi Ashadhi Bij Kutchi New Year greetings July 17 2026 message",
+  "topic": "Narendra Modi",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A includes a likely stale/irrelevant ThePrint result from an earlier year and with a different day reference ('Friday'), which could confuse the 2026 query. Several A snippets are too short to convey the actual wording of Modi's message, and one result is a Facebook/PIB post with noisy scraped content. While A does include a reliable PMIndia result, the message text is only partial in the snippets.",
+  "b_issues": "Content B has some relative-date labels ('1 day ago', '2 days ago') rather than explicit dates, and includes one lower-reliability aggregator (socialnews.xyz). However, these do not materially conflict with the main facts.",
+  "reasoning": "B better enables a correct answer because it contains the core facts and substantial wording of the July 16, 2026 message from reliable sources. The DD News result in B directly quotes the greeting ending with 'Ram Ram, and many congratulations and warm wishes to everyone!' and states it was for Ashadhi Bij/Kutchi New Year. The PMIndia result in B also gives the key paraphrase about wherever a Kutchi resides, Kutch comes alive there, and explicitly dates it to 16 Jul, 2026. Mid-day in B further provides the wording 'Today, on Ashadhi Bij, the Kutchi New Year, Ram Ram and heartfelt congratulations...' This combination closely matches the anchor. By contrast, A has the right topic and some reliable sources, but the snippets are less complete and include an apparently outdated ThePrint result that could mislead the model."
+}

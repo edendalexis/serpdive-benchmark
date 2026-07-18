@@ -1,0 +1,11 @@
+{
+  "id": 311,
+  "query": "Ursula von der Leyen July 2025 EU US trade agreement 15% tariffs European exports details official",
+  "topic": "Ursula von der Leyen",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A includes only one clearly official European Commission result, and its snippet is truncated, giving only partial details. The top results are mostly secondary sources (YouTube/DW, Euronews) rather than official material. One PDF result is not clearly attributable from the snippet, and another result is a 2026 retrospective article that is not directly responsive to the July 2025 official-details query. A also omits several key official details visible in the anchor, such as the Commission Q&A and fuller explanation of scope/exceptions.",
+  "b_issues": "Content B includes one non-authoritative LinkedIn repost of von der Leyen’s statement and one analytical third-party article, which are weaker sources. The European Commission page snippet is somewhat compressed and mixes later implementation language (from 2026) with the 2025 deal summary, which could slightly blur timing. However, it still presents core official facts accurately.",
+  "reasoning": "B better enables a correct answer because it contains the key official European Commission page plus the White House fact sheet, both of which directly state the central facts needed: the July 2025 EU-US deal, a 15% tariff ceiling for most EU exports, and that this covers autos/auto parts, pharmaceuticals, and semiconductors, along with related commitments such as $750 billion in U.S. energy purchases and $600 billion in EU investment. The Commission result also adds important official detail on exceptions/special regimes and steel/aluminium cooperation. By contrast, A relies more heavily on media/video coverage, and its only official Commission statement snippet is too truncated to support a full, precise answer from the search results alone. So B has stronger official sourcing and more of the answer-bearing facts."
+}

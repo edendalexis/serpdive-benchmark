@@ -1,0 +1,11 @@
+{
+  "id": 397,
+  "query": "Germany H5N1 poultry farm outbreaks September 2025 affected states agriculture ministry response",
+  "topic": "H5N1 bird flu",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A does not directly provide the key September 2025 Germany facts asked for. Its most relevant Germany item is a late-December trade article saying five more German farms tested positive in the past week and mentioning Lower Saxony totals, but it does not identify the September-affected states or any agriculture ministry response for those September outbreaks. Another result hints at a Germany control-measures report from late October, not September, and the rest are broad Europe/global summaries. So A is mostly off-timeframe and insufficiently specific.",
+  "b_issues": "Content B is also largely off-target. It contains mostly generic/global or unrelated items, plus a DW snippet claiming seven Brandenburg poultry farms and over 150,000 birds culled, which conflicts with the anchor that points to September outbreaks in Mecklenburg-Western Pomerania and Schleswig-Holstein. B does not provide the agriculture ministry response for the September outbreaks and includes a likely misleading state attribution.",
+  "reasoning": "The question asks which German states were affected by H5N1 poultry farm outbreaks in September 2025 and what the agriculture ministry response was. The anchor indicates the relevant states were Mecklenburg-Western Pomerania and Schleswig-Holstein, with Mecklenburg-Western Pomerania agriculture minister Till Backhaus urging strict compliance with biosecurity/protection rules after outbreaks in Rostock district. Neither result set contains those facts clearly enough for an LLM to answer correctly from the content alone. A is vague and mostly about later or broader outbreaks; B is similarly non-specific and adds a conflicting Brandenburg claim. Therefore neither set better enables a correct answer."
+}

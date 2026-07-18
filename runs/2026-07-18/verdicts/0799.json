@@ -1,0 +1,11 @@
+{
+  "id": 799,
+  "query": "New Caledonia 2024 state of emergency lift date curfew end confirmation official timelines",
+  "topic": "New Caledonia",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A only supports the May 2024 state-of-emergency lift and that the curfew continued afterward. It does not provide the later 2024 confirmation that the curfew was eventually lifted, nor an official or near-official timeline for when it ended. One result is an OSAC travel advisory about the declaration, not the lift/end timeline asked for.",
+  "b_issues": "Content B also lacks the key December 2024 official confirmation that the curfew was lifted. However, it includes more explicit timeline facts: state of emergency took effect at 5am on 16 May 2024 for 12 days, was lifted from 5am on 28 May 2024, and the curfew remained in place at that time. It still does not answer the curfew end date from the provided content alone.",
+  "reasoning": "The question asks for the 2024 state-of-emergency lift date and curfew end confirmation with official timelines. The anchor shows the missing crucial fact is that the curfew was officially lifted in early December 2024. Neither set contains that December curfew-lift confirmation, so neither fully enables a correct complete answer. But B is better because it provides a clearer and more internally complete official timeline around the state of emergency: emergency in force from 16 May 2024 for 12 days, lifted at 5am local time on 28 May 2024, while the curfew remained. A has only partial May-lift snippets and no curfew-end confirmation either. Therefore B better enables the LLM to answer the part it can answer correctly, though both are incomplete overall."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 199,
+  "query": "Siri AI developer testing availability start date OS platforms 2026",
+  "topic": "Apple Intelligence",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A lacks the key primary Apple source and relies mostly on secondary outlets. It does contain the core answer in snippets (developer testing starts June 8, 2026; platforms iOS 27, iPadOS 27, macOS 27, visionOS 27), but one result broadly says 'all features are available for developer testing starting today,' which may overgeneralize beyond Siri AI. Another result emphasizes hardware limits from MacRumors that are not directly responsive to the query and could distract the model.",
+  "b_issues": "Content B includes likely inaccurate or at least questionable device/support details in the Apple snippet, such as 'MacBook Neo (A18 Pro)' and specific watch support wording, which are not needed for answering the query. It also mixes in secondary-source claims about regional constraints and full-access hardware requirements that are beyond the question. However, these do not materially undermine the core answer about start date and OS platforms.",
+  "reasoning": "Content B better enables a correct answer because it includes the direct Apple Newsroom result that explicitly states: 'New Siri AI features are available for developer testing starting today' on Jun 8, 2026, and names the exact OS platforms: iOS 27, iPadOS 27, macOS 27, and visionOS 27. It even adds that watchOS 27 developer testing will come in a future beta, which helps avoid overclaiming. Content A has the same core facts only through secondary snippets, without the authoritative Apple source, so it is slightly less reliable for an LLM answering from the provided content alone."
+}

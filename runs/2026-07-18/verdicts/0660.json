@@ -1,0 +1,11 @@
+{
+  "id": 660,
+  "query": "Ilya Sutskever Safe Superintelligence CEO June 2025 Daniel Gross left Meta buyout rejected source",
+  "topic": "Ilya Sutskever",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "No major factual flaws. It includes strong sources (CNBC, TechCrunch) stating that Sutskever became CEO of SSI after Daniel Gross left for Meta, and that Meta had tried to acquire SSI and was rebuffed. Minor issue: it lacks the Reuters anchor directly, and some supporting results are lower-reliability outlets (Observer, MLQ, Calcalist).",
+  "b_issues": "No major factual flaws in the key results. It includes CNBC’s June 19 report that Meta tried to buy SSI and that Sutskever rejected the offer, after which Meta moved to hire Daniel Gross. It also includes Observer stating Sutskever stepped into the CEO role after Gross left for Meta. Minor issues: one result is a noisy LinkedIn post, and another is Wikipedia, which is less authoritative than primary reporting.",
+  "reasoning": "Both result sets contain the core facts needed to answer correctly: Meta attempted to acquire Safe Superintelligence in June 2025; Sutskever rejected the offer; Meta then recruited SSI CEO/co-founder Daniel Gross; and Sutskever later took over as CEO after Gross left for Meta. A supports the CEO-transition fact especially well via CNBC July 3 and TechCrunch July 3, while B supports the rejected-buyout fact especially well via CNBC June 19. Neither set materially contradicts the anchor, and both rely on at least one highly reliable source for the crucial claims. Overall, each enables a correct answer equally well."
+}

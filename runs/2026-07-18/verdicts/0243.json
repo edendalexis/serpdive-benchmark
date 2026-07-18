@@ -1,0 +1,11 @@
+{
+  "id": 243,
+  "query": "Voyager 1 current distance AU speed miles per hour latest 2026",
+  "topic": "Voyager 1",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A lacks a strong authoritative source in the top results. Its best factual hit is a third-party site claiming about 167 AU, about 15.5 billion miles, and 17 km/s, which is plausible but not NASA. Other results are low-reliability social/media posts. It also does not clearly provide a latest 2026 AU figure tied to an authoritative source, and the result set is sparse on directly answering both AU and mph from NASA/JPL.",
+  "b_issues": "Content B contains one clearly problematic result: EarthSky says Voyager 1 is traveling about 79.96 thousand mph, which contradicts NASA’s ~38,000 mph and is likely wrong. Wikipedia snippet is also not focused on the current 2026 values. However, these are outweighed by NASA and live-tracker results.",
+  "reasoning": "Content B better enables a correct answer because it includes NASA’s official page stating the Nov. 18, 2026 milestone at 16,094,799,096 miles (25,902,068,356 km), which corresponds to about 173.14 AU, matching the anchor. It also includes NASA’s Voyager 1 page giving the spacecraft’s speed as 38,026.79 mph (17.0 km/s), plus TheSkyLive with a current live distance of about 170.5 AU in 2026. So an LLM can assemble a correct latest-2026 answer: roughly 170.5 AU currently, approaching 173.14 AU in Nov. 2026, moving about 38,000 mph. Content A mostly relies on non-authoritative third-party/social sources and gives a less accurate distance (~167 AU / 15.5 billion miles) without the stronger official grounding present in B."
+}

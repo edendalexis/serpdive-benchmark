@@ -1,0 +1,11 @@
+{
+  "id": 758,
+  "query": "DJT Truth API enterprise customer list financial sector clients 2026",
+  "topic": "Truth Social DJT stock",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "No direct enterprise customer list is provided, so the exact client names are still missing. Some snippets are vague ('signed up some institutional customers') and Reuters only says banks/trading firms generally. However, A includes Axios saying customers before launch include financial news organizations and high-frequency trading firms, which is useful and not contradicted by the other results.",
+  "b_issues": "No direct enterprise customer list is provided, and B is weaker on identifying client types beyond generic 'financial services companies,' 'algorithmic trading firms,' and Reuters' 'banks and trading firms.' It lacks the Axios detail present in A about pre-launch customers including financial news organizations and high-frequency trading firms.",
+  "reasoning": "The query asks about DJT Truth API enterprise customers / financial-sector clients in 2026. Neither result set provides an actual named customer list, so both are incomplete. But both do establish the core facts from reliable sources: Truth API was announced in July 2026, aimed at institutional/financial-services users, available starting Aug. 1, 2026, and that customers had already signed/onboarded. A better enables a correct answer because it contains the SEC/press-release material plus Axios and Reuters. Critically, Axios adds specific customer categories 'including financial news organizations and high-frequency trading firms,' which is closer to answering who the clients are. B has reliable sources too, especially Reuters and the company release, but gives only broader categories like banks, trading firms, and financial services companies. So A provides slightly more specific and still consistent evidence about the customer base."
+}

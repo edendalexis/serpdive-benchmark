@@ -1,0 +1,11 @@
+{
+  "id": 733,
+  "query": "Israeli settlement expansion West Bank 2025 land size location announcement",
+  "topic": "Israel-Hamas conflict",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A is dominated by irrelevant or off-target results: a December 2025 FMEP roundup, a 2026 YouTube video summarizing the year, a 2024 EU report, a generic Crisis Group explainer, and a September 2025 UN News item. It lacks the key May 2025 announcement article about the settlement expansion. It also introduces potentially confusing later figures such as legalization of 19 outposts and claims about 'one million parcels of land,' which do not directly answer the queried announcement and could mislead the model away from the specific event.",
+  "b_issues": "Content B includes some irrelevant later-dated results (2026 OHCHR and 2026 Al Jazeera) and its BBC/CNN snippets are partial, not giving all possible details such as specific locations or land size. However, it does contain the core May 29, 2025 reporting on the announcement.",
+  "reasoning": "B better enables a correct answer because it contains the central factual result matching the query: the BBC article stating that Israeli ministers announced approval of 22 new Jewish settlements in the occupied West Bank, described as the biggest expansion in decades. This aligns with the anchor and is reinforced by CNN's result on the same May 29, 2025 development. A, by contrast, does not include the key announcement article at all and instead surfaces later summaries, background reports, and unrelated time periods, making it much harder for an LLM to identify the specific 2025 announcement. Neither set clearly provides the 'land size' element, but B is still clearly superior on the main announcement facts and source reliability."
+}

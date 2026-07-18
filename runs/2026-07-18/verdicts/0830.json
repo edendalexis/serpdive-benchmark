@@ -1,0 +1,11 @@
+{
+  "id": 830,
+  "query": "Julian Assange US DOJ plea deal Espionage Act sentence date 2024",
+  "topic": "Julian Assange",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Content A does not directly provide the final sentencing date in the snippets; it mainly says the hearing/sentencing is set for Wednesday morning and one result says he was sentenced to 62 months time served. One snippet (Al Jazeera) phrases the charge as carrying 62 months, which could confuse the distinction between statutory charge and agreed sentence, though it also correctly says Assange had already served a little more than 62 months. Otherwise the core facts are consistent.",
+  "b_issues": "Content B also does not directly provide the final sentencing date in the snippets; it gives June 24-25 filing/report dates and says he would be freed on June 26, 2024, but not the explicit final sentence date as a completed event except by implication. It includes a Wikipedia result, which is less reliable than the news/legal sources. Otherwise the snippets are broadly consistent and contain the key sentence detail of 62 months/time served.",
+  "reasoning": "Both result sets give enough information for an LLM to answer the likely substance of the query: Assange’s DOJ plea deal involved pleading guilty to an Espionage Act-related count, and he received a sentence of 62 months/time served, leading to release. Neither set is clearly superior on the full query because neither cleanly states the exact final sentencing date as an accomplished fact in the snippets, though both strongly imply the proceeding occurred on June 26, 2024. A has somewhat stronger mainstream reporting and one post-hearing result, while B has a useful plea-agreement/legal-source result and an NPR snippet explicitly stating the 62-month sentence. Since both contain the key facts with minor gaps and no major contradictions, they enable a correct answer about equally well."
+}

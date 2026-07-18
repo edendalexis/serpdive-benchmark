@@ -1,0 +1,11 @@
+{
+  "id": 362,
+  "query": "GTA 6 gameplay leak November 2025 demo reel character animations details",
+  "topic": "Grand Theft Auto VI",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Contains likely inaccuracies and unsupported claims relative to the anchor: says Lucia hops off the roof of a truck, while anchor says she gets out of the back of a pickup truck; says the leak reveals a 'new character,' which is not supported; includes unrelated/unsupported claim that Rockstar fired over 30 employees for sharing confidential data; states GTA VI is set to launch in November 2026, which is extraneous and potentially unreliable in this context.",
+  "b_issues": "Some results are low-authority or indirect (IMDb news mirror, YouTube), and snippets are brief. One result says Lucia is 'likely' the protagonist rather than confirmed. However, the core details broadly align with the anchor.",
+  "reasoning": "B better enables a correct answer because its snippets consistently point to the key facts in the question: a former Rockstar animator's demo reel, early character animation footage, a bike-riding/bicycle-rental animation, and a female character likely Lucia hopping off or out of a pickup truck. These details match the anchor more closely. A has more detail, but it introduces notable inaccuracies and unrelated claims, which make it riskier for an LLM relying only on that content."
+}

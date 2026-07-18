@@ -1,0 +1,11 @@
+{
+  "id": 39,
+  "query": "Google Pics image generation tool Workspace voice features Gmail Docs rollout",
+  "topic": "Google",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A is mostly accurate and includes the key facts: Google Pics is an image generation/editing tool for Workspace, voice features are in Gmail, Docs, and Keep, and rollout timing is this summer for Google AI Pro/Ultra with Workspace business preview. Minor issues: one result (Mashable) says AI Inbox is rolling out to AI Pro and Plus users, while another says voice features are for Pro and Ultra; this is not a direct contradiction for the asked topic but could confuse an LLM. Some sources are secondary rather than primary.",
+  "b_issues": "Content B omits important rollout detail for the specific asked features and contains potentially misleading statements. The Google blog snippet says 'Today we’re starting to roll out to all Google AI Plus and Pro subscribers in the U.S., along with these new feature updates,' which is too broad and can be misread as applying to Google Pics and voice features, whereas secondary sources in the set indicate Google Pics is first for Trusted Testers and later this summer for Pro/Ultra and Workspace business preview. Pulse2 also says 'AI Inbox is currently available for Google AI Ultra subscribers,' conflicting with other sources that say AI Inbox is expanding to Plus/Pro. Overall B has more ambiguity and contradiction around rollout/subscriber tiers.",
+  "reasoning": "The question asks about Google Pics, Workspace voice features in Gmail/Docs, and rollout. Content A provides all of these directly and more coherently: the official Google Workspace post identifies voice features in Gmail, Docs, and Keep plus Google Pics, and the EdTech result supplies concrete rollout timing and audience for voice features and Pics. Content B has the official post too, but its snippet is less specific and risks an incorrect inference that all announced features are rolling out now to Plus/Pro in the U.S. It also includes a conflicting AI Inbox subscriber claim from Pulse2. Since A better supports a correct answer from the content alone, A wins."
+}

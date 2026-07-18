@@ -1,0 +1,11 @@
+{
+  "id": 82,
+  "query": "Blue Origin New Shepard pause flights redirect resources human lunar lander Artemis 2026",
+  "topic": "Blue Origin",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "No major factual flaw on the core question. However, some lower-quality/noisy results appear, including a LinkedIn repost with extra speculative claims about Artemis/SpaceX delays and a sparse NPR Illinois snippet. The Astronomy snippet mentions 'reopening of the Artemis 3 HLS contract,' which may be contextually confusing, but the key facts remain correct.",
+  "b_issues": "No major factual flaw on the core question. However, the Blue Origin result appears contaminated with unrelated text about a May 28, 2026 New Glenn hotfire anomaly and return-to-flight update, which is not part of the Jan. 30 pause announcement and could confuse an LLM. Several results are low-reliability social-media posts (Facebook, LinkedIn).",
+  "reasoning": "Both A and B contain the essential facts needed to answer correctly: Blue Origin announced on Jan. 30, 2026 that it would pause New Shepard flights for at least two years and redirect resources to accelerate its human lunar program. Both also connect this to Artemis/lunar lander work through references to Blue Moon and human lunar capabilities. A has slightly cleaner sourcing because it includes the official Blue Origin page plus a direct Astronomy snippet and a Payload summary, while B includes more social-media noise and one obviously mixed/contaminated official snippet. But on the actual answerability of the question, both sets provide the same core facts accurately enough, so neither clearly outperforms the other."
+}

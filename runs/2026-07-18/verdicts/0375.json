@@ -1,0 +1,11 @@
+{
+  "id": 375,
+  "query": "Sora 2 model iOS app release date features 2025 2026",
+  "topic": "Sora OpenAI",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A has only one clearly authoritative OpenAI result, and its snippet is too limited: it confirms Sora 2 was released and mentions the new Sora app, but does not state the release date in the snippet or give the key iOS-app details from 2026. The top results are mostly third-party sources of mixed reliability (Skywork, Medium, Gadget Hacks, Reddit). It also lacks the important 2026 update that Sora later had an editor on iOS/web and that the product became unavailable in April 2026. Overall, A does not reliably contain enough accurate facts to answer the full query about release date plus features across 2025 and 2026.",
+  "b_issues": "Content B includes a strong authoritative OpenAI result, but some supporting results are less reliable or potentially error-prone, especially Wikipedia and secondary writeups asserting Android timing and other details not needed for the core answer. However, these do not directly undermine the key OpenAI facts.",
+  "reasoning": "Content B better enables a correct answer because it contains the authoritative OpenAI page with the core facts needed: Sora 2 is the latest video generation model; it was announced on September 30, 2025; it is more physically accurate, realistic, and controllable; it supports difficult motion/physics; the Sora iOS app was available to download at launch; users could sign up in-app for access notifications; OpenAI planned API release; and the page notes the product was no longer available as of April 26, 2026. Those facts align with the anchor. By contrast, Content A mostly relies on lower-quality third-party sources, and its OpenAI snippet is too sparse to recover the full answer confidently. So B is clearly better."
+}

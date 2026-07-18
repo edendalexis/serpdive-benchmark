@@ -1,0 +1,11 @@
+{
+  "id": 232,
+  "query": "Wikipedia traffic decline human vs bot October 2025 percentage",
+  "topic": "Wikipedia",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "A does not directly state the percentage in the Wikimedia/Diff snippet itself; the key 8% figure appears mainly in secondary sources like Observer and Aiflowreview. Some results are low-reliability or derivative (Aiflowreview, WikiBusines, GitHub analysis) and one result mentions broader bot-share metrics not directly tied to the October 2025 question. However, nothing materially contradicts the core answer.",
+  "b_issues": "B lacks the primary Wikimedia/Diff source entirely and relies almost entirely on secondary or low-reliability sources. It includes a misleading Reddit result about bot traffic hitting 49% in December 2025, which is off-topic for the October 2025 question and could confuse the model into giving the wrong percentage. It also does not clearly connect the October 2025 Wikimedia update about bot reclassification with the human-traffic decline figure as well as A does.",
+  "reasoning": "The anchor indicates the October 2025 Wikimedia post is about reclassified traffic after improved bot detection and that human pageviews were down about 8% year over year. Content A is better because it includes the actual Wikimedia Diff post describing the bot/human reclassification context, plus secondary results explicitly stating the 8% decline. That combination gives an LLM both the mechanism (bots were reclassified after detection changes) and the number (about 8%). Content B has the 8% figure too, but it lacks the primary-source context and includes a potentially distracting Reddit result with an unrelated 49% bot-traffic statistic from December 2025. So A better enables a correct answer."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 200,
+  "query": "Shohei Ohtani July 22 2026 pitching start vs Phillies result stats",
+  "topic": "Shohei Ohtani",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Content A does not contain the July 22, 2026 Dodgers-Phillies game result or Shohei Ohtani's pitching line. Its results are mostly unrelated highlights and a batting gamelog page, plus a generic StatMuse vs-Phillies split. No source in A provides the specific start stats asked for.",
+  "b_issues": "Content B also does not contain the July 22, 2026 Dodgers-Phillies game result or Shohei Ohtani's pitching line. It includes an ESPN batting gamelog snippet unrelated to that date, older YouTube highlight videos from other starts, a 2025 NLDS article, and a generic Stathead vs-Phillies page. No source in B provides the specific July 22, 2026 start stats.",
+  "reasoning": "The question asks for Shohei Ohtani's July 22, 2026 pitching start vs. the Phillies, including result/stats. The anchor indicates relevant pages would be game boxscores/summaries for Dodgers at Phillies on Jul 22, 2026. Neither A nor B includes those facts. A has no directly relevant game result at all; B likewise lacks the specific game and even includes a misleading 2025 Phillies playoff article. Since neither result set supplies the needed July 22, 2026 game outcome or Ohtani pitching statistics, neither better enables a correct answer."
+}

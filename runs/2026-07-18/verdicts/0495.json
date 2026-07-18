@@ -1,0 +1,11 @@
+{
+  "id": 495,
+  "query": "Wimbledon 2026 protest Save Wimbledon Park June 2026 residents open space demonstration tournament start coverage",
+  "topic": "Wimbledon",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A includes one directly relevant and reliable BBC result, but also surfaces an advocacy-site repost of the BBC story and several irrelevant results about player prize-money protests, which could distract the model from the residents/open-space protest topic. It provides less supporting detail about residents, public space, and start-of-tournament protest coverage.",
+  "b_issues": "Content B includes one irrelevant LTA result and the CJI/local-democracy piece is less authoritative than the BBC, but it is still on-topic. No major factual contradiction is apparent from the provided snippets.",
+  "reasoning": "Both A and B contain the key BBC article stating that a group opposing expansion of the Wimbledon tennis complex protested as the tournament got under way on Monday, which matches the anchor. However, B better enables a correct answer because it combines the BBC result with an additional on-topic report from Clapham Junction Insider/Local Democracy Reporting that adds relevant facts about residents, the public park/open-space issue, SWP, and complaints that the club is 'not listening.' A, by contrast, is padded with multiple unrelated results about player prize-money protests, making it less focused on the actual question. Since B has the core reliable source plus corroborating on-topic context, it better supports a correct answer."
+}

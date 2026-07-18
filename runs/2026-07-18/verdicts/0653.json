@@ -1,0 +1,11 @@
+{
+  "id": 653,
+  "query": "UNRWA May 2025 East Jerusalem facilities Israeli forces entered three schools statement Philippe Lazzarini official press release",
+  "topic": "United Nations Relief and Works Agency for Palestine Refugees in the Near East",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Minor issues only: most entries are snippets without full text, and one result is a secondary source (Palestine Chronicle). However, A includes the key official UNRWA press release/result directly from unrwa.org with the decisive facts: Philippe Lazzarini, 8 May 2025, heavily armed Israeli forces entered three UNRWA schools in Shu'fat Camp in occupied East Jerusalem, forcing 550+ children out. It also includes corroborating UN sources.",
+  "b_issues": "B lacks the direct official UNRWA press release that most clearly matches the query, and several results are irrelevant or misleading for this question (2026 situation reports, 2024 report, EJIL post about December 2025). The top relevant result is a UN in Palestine repost/summary rather than the original official press release. This makes B noisier and less directly tied to the requested 'official press release' by Philippe Lazzarini.",
+  "reasoning": "The question asks about the May 2025 East Jerusalem incident and specifically points to Philippe Lazzarini's statement/official press release about Israeli forces entering three schools. Content A directly contains the UNRWA official page titled 'UNRWA Commissioner-General on East Jerusalem: An assault on children. An assault on education,' which matches the anchor and supplies the needed facts. It is also supported by UN News and UN in Palestine results. Content B has one relevant UN repost that mentions Lazzarini's statement and the core facts, so an answer may still be possible, but it does not provide the original official UNRWA release and includes more off-topic results that could distract or mislead the model. Therefore A better enables a correct answer from the provided search results alone."
+}

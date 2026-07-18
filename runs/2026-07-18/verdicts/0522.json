@@ -1,0 +1,11 @@
+{
+  "id": 522,
+  "query": "Anthropic Claude for Teachers release date July 2026",
+  "topic": "Anthropic",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor issue: some snippets use relative dates like '3 days ago' instead of a fixed date, but the top Anthropic result explicitly says 'Jul 14, 2026.' No meaningful factual contradiction is present.",
+  "b_issues": "Top result is from The Hill with a malformed/likely incorrect URL slug ('5968601' does not match 2026 timing), and the result set lacks the primary Anthropic announcement. It relies more on secondary/tertiary or less authoritative sources (The Hill, Appwrite blog, LinkedIn, Instagram). There is no direct contradiction on the date, but source reliability is weaker overall.",
+  "reasoning": "The question asks for the release date of Anthropic Claude for Teachers in July 2026. Content A directly includes the official Anthropic announcement as the top result, with the exact title and date: 'Introducing Claude for Teachers' and 'Jul 14, 2026.' It is corroborated by Forbes and other snippets also stating Jul 14, 2026. Content B also contains enough information to infer Jul 14, 2026, especially from the Appwrite snippet and corroborating secondary mentions, but it does not include the primary Anthropic source and includes weaker/noisier sources. Therefore A better enables an LLM to answer correctly and confidently."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 296,
+  "query": "Twitter X profile VPN usage indicator transparency rollout",
+  "topic": "Twitter",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Some results describe the feature as upcoming or expected rather than clearly rolled out, so timing is slightly mixed. One result says 'About Your Account' while others say 'About this account/profile,' but this is minor naming variation rather than a core factual conflict.",
+  "b_issues": "Top results are weaker and less reliable overall, including an obscure blog-like source as the top hit and several trade/aggregation-style summaries. It lacks the strong direct rollout confirmation present in A from a high-reliability source like TechCrunch. Timing is also vague ('will soon roll out,' 'expected to launch in the near future') and does not clearly establish that rollout had begun.",
+  "reasoning": "A better enables a correct answer because it contains the key facts from more reliable sources and with clearer specificity: X is/was rolling out an account-transparency feature tied to profiles, it includes or is tied to a warning if X detects VPN/proxy use, and the purpose is to show that displayed country/region may be inaccurate and help identify troll or coordinated accounts. Crucially, A includes a TechCrunch result explicitly stating that X began rolling out the 'About this account' feature to user profiles and mentions the VPN warning in that context, which aligns with the anchor's description of a rollout/testing phase. B has overlapping facts, but mostly from less authoritative sources and with vaguer 'soon'/'near future' language, so an LLM using B alone would be less certain about the rollout status and specifics."
+}

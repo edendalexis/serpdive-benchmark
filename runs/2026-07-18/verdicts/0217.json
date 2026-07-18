@@ -1,0 +1,11 @@
+{
+  "id": 217,
+  "query": "Lil Tay Latto Bhad Bhabie feud diss track mockery surgery OnlyFans August 2025 response",
+  "topic": "Lil Tay",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A is sparse and largely misses the key facts implied by the query. It does not include the Latto item at all, gives only a vague Yahoo summary about an OnlyFans-era boxing challenge, and lacks the specific feud details about diss-track mockery and surgery insults. Several sources are weak or indirect for factual grounding (Yahoo aggregator snippet, Honk Magazine, Facebook post), and the available snippets are too incomplete to reliably reconstruct the August 2025 response.",
+  "b_issues": "Content B still does not directly provide the August 2025 OnlyFans-response article, so it is incomplete for that part of the query. It also relies on entertainment-blog style sources for the Bhad Bhabie feud details. However, the included facts are more concrete and internally consistent than A.",
+  "reasoning": "B better enables an LLM to answer because it contains two core pieces clearly tied to the query: (1) the Complex result about Lil Tay lashing out at Latto over a perceived diss, and (2) detailed feud coverage with Bhad Bhabie, including that Tay responded to Bhabie’s diss-track context by mocking her appearance/surgery ('Bhad BBL,' 'botched surgery,' 'expired IG filter'). Those are specific facts directly matching the Latto/Bhad Bhabie/feud/diss track/mockery/surgery parts of the question. A lacks the Latto fact entirely and only gestures at the Bhad Bhabie/OnlyFans angle without enough detail. Neither set fully covers the August 2025 OnlyFans response, but B covers substantially more of the answerable factual ground from reliable-enough sources, especially with the Complex anchor-aligned Latto article."
+}

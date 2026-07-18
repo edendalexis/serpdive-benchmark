@@ -1,0 +1,11 @@
+{
+  "id": 591,
+  "query": "Powering Past Coal Alliance new members 2024 2025 list",
+  "topic": "COP climate summit",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Includes a top result about PPCA new members in 2025 (Republic of Korea and Bahrain), which is useful, but provides no clear 2024 member list. Also includes an imprecise Wikipedia snippet mentioning 'During 2023 at least 15 new members joined...' and a truncated fragment 'territory in 2024–25,' which is not enough to identify 2024 or 2025 new members reliably. Other results are older (COP26, COP25, Spain list) and not responsive to 2024/2025.",
+  "b_issues": "Includes general PPCA homepage content and a note that Morocco joined in 2023 and Korea joined in 2025, but it does not provide a 2024 member list. The Wikipedia result again is broad and not targeted to 2024/2025, and the remaining PPCA news results are from older years (COP25, COP26). So it lacks the specific 2024/2025 new-members list needed for a correct answer.",
+  "reasoning": "Neither result set clearly contains the information needed to answer 'Powering Past Coal Alliance new members 2024 2025 list' correctly from the provided content alone. Both sets surface one solid PPCA primary-source item for 2025-related membership (Republic of Korea and Bahrain joining in 2025), but neither surfaces a primary-source 2024 list nor a consolidated 2025 list beyond that one event. Both also include less reliable or nonresponsive snippets, especially Wikipedia fragments and older membership announcements. Since both are similarly incomplete for the actual question, neither better enables a correct answer."
+}

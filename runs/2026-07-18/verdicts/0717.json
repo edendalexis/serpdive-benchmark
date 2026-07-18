@@ -1,0 +1,11 @@
+{
+  "id": 717,
+  "query": "Coalition of the Willing Summit Paris 2026 joint declaration participants Ukraine",
+  "topic": "Emmanuel Macron",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Includes a likely irrelevant or misleading top result about a different meeting on 6 November 2026 ('15th meeting since 17 February 2025'), which could confuse the date/context. Also includes an unrelated January PDF result. However, A still contains the key July 13, 2026 Paris summit sources and a participants result.",
+  "b_issues": "Has less direct participant detail in-snippet. Includes a January 6, 2026 Consilium 'Paris Declaration' result that is about a different meeting, which may blur the distinction between the January declaration and the July 13 summit. Also includes Wikipedia, a less reliable source, and the GOV.UK/Pravda snippets are too truncated to expose the needed facts clearly.",
+  "reasoning": "A better enables a correct answer because it directly surfaces the July 13, 2026 Élysée summit page, the co-chairs' July 13 statement, and especially a participants-focused result whose snippet names Zelenskyy plus the presidents of Moldova, Finland, and Romania, and notes EU and NATO representation. That gives an LLM enough reliable factual material to answer a question about the Coalition of the Willing Paris 2026 summit, its joint declaration/statement, participants, and Ukraine. B has the core Élysée page, but its snippets provide much less participant information and introduce more ambiguity by prominently mixing in the January 6 declaration and a Wikipedia result. So A is more complete and less likely to lead to an incomplete or mistaken answer."
+}

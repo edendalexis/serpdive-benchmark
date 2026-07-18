@@ -1,0 +1,11 @@
+{
+  "id": 261,
+  "query": "2026 NBA Finals Game 4 comeback halftime deficit largest comeback in Finals history OG Anunoby tip-in 1.2 seconds recap",
+  "topic": "NBA Finals",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Top results are weaker/reliable-mixed: Revolt, Facebook post, YouTube clip. One result says the Spurs led 76-49 at halftime, implying a 27-point halftime deficit, while the question asks about the halftime deficit and largest comeback context; A does not clearly and reliably supply that recap detail from a strong source. It repeatedly says 29-point first-half/third-quarter deficit, which may not directly answer the halftime-deficit part.",
+  "b_issues": "Includes Wikipedia, which is less authoritative than primary reporting, but it is corroborated by NBA.com and ESPN. NBA.com snippet says 'It was the 3rd-largest halftime lead in Finals history' without explicitly stating the halftime score in that snippet.",
+  "reasoning": "B better equips an LLM to answer correctly because it contains stronger and more complete factual support from reliable sources: NBA.com confirms OG Anunoby’s tip-in with 1.2 seconds left, the 29-point rally, and the 3-1 series lead; ESPN adds recap details about the comeback and late sequence; Wikipedia snippet explicitly states this was the largest comeback in NBA Finals history and gives the final score. Crucially, B also addresses the halftime-deficit angle via NBA.com noting the halftime lead was the 3rd-largest in Finals history. A has the core facts, but its evidence is less reliable overall and less precise on the halftime-deficit portion, with top hits from Revolt/Facebook/YouTube and no clear authoritative halftime context."
+}

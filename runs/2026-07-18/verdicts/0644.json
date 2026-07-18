@@ -1,0 +1,11 @@
+{
+  "id": 644,
+  "query": "Berkshire Hathaway 13F 2026 Delta Air Lines Macy's new positions shares value Greg Abel portfolio changes",
+  "topic": "Berkshire Hathaway",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "No major factual flaws apparent in the surfaced snippets. Minor weakness: the key Delta value is only implied via secondary sources and Macy's value appears only in one result; A does not itself surface the exact 13F source snippet with both share counts and values together. One low-reliability result (InvestSnips) shows conflicting broader portfolio totals/position counts versus the 13F anchor, but it is not needed to answer the query.",
+  "b_issues": "No major factual flaws apparent in the surfaced snippets. Minor weakness: like A, B relies mostly on secondary summaries rather than the direct 13F filing, and the exact Macy's share count is not clearly surfaced in the main snippets. AP result is truncated and less specific. Benzinga mentions position count falling from 42 to 29, which may conflict with other summaries if taken literally, but it does not affect the core answer.",
+  "reasoning": "Both result sets contain the core facts needed to answer the question: Berkshire under Greg Abel added new positions in Delta Air Lines and Macy's in Q1 2026; Delta was about 39.8 million shares valued around $2.6 billion; Macy's was roughly 3.0 million shares valued about $55 million; and Berkshire also made broader portfolio changes by cutting/exiting names such as Amazon, Mastercard, UnitedHealth, and Visa while increasing Alphabet. A and B both include reliable sources like CNBC and Investopedia stating these points. A has a slight advantage in surfacing Macy's exact share count via Yahoo and Delta exact share count via Investopedia/Benzinga, while B has CNBC explicitly giving Delta shares and value plus AP corroboration of Delta/Macy's/Alphabet. Neither set clearly outperforms the other on correctness and answerability, and neither shows meaningful contradictions on the core facts."
+}

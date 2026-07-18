@@ -1,0 +1,11 @@
+{
+  "id": 48,
+  "query": "Bayern München PSG 2025/26 UEFA Champions League semi-finals aggregate score result",
+  "topic": "UEFA Champions League",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "No material factual flaw on the target question. One irrelevant result is for the 2026–27 Champions League Wikipedia page, but it does not contradict the answer. ESPN result only gives the first-leg score, but other results and the featured snippet clearly state PSG advanced 6-5 on aggregate after a 1-1 second leg.",
+  "b_issues": "Top result is a Facebook post, which is a weaker source than official or major news sources. One UEFA result ('History: Paris 1-2 Bayern München') appears to be from a different match and is irrelevant, but it does not contradict the semifinal result. Despite that, multiple results clearly state Bayern 1-1 PSG and PSG through 5-6 on aggregate.",
+  "reasoning": "Both A and B contain the key facts needed to answer correctly: first leg PSG 5-4 Bayern, second leg Bayern 1-1 PSG, so PSG won 6-5 on aggregate and advanced to the final. In A, this is stated directly in the featured snippet, Yahoo Sports, and Bundesliga. In B, it is stated directly by Al Jazeera and corroborated by UEFA match pages for both legs. Since both sets provide accurate, sufficient, and non-contradictory information to answer the question correctly, neither is meaningfully better."
+}

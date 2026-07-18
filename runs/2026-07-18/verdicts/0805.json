@@ -1,0 +1,11 @@
+{
+  "id": 805,
+  "query": "Microsoft Ignite opening keynote speaker replacement Satya Nadella absence",
+  "topic": "Satya Nadella",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Includes one low-reliability Reddit result and a 2024 YouTube keynote result that is not directly relevant. It does not explain why Nadella is absent beyond confirming he will not keynote and that Judson Althoff will replace him.",
+  "b_issues": "Relies heavily on Fortune/Yahoo commentary rather than direct reporting on the event lineup. It introduces an unverified explanatory claim that Nadella is taking a more internal focus and handing off responsibilities to Althoff to focus on the company's 'highest-ambition technical work,' which is not supported by the anchor. It also includes largely irrelevant results such as Microsoft speeches index and a LinkedIn stub, and provides less direct confirmation from Microsoft than A.",
+  "reasoning": "Both sets contain the core fact needed to answer the query: Satya Nadella will not give the Microsoft Ignite opening keynote and Judson Althoff will do it instead. However, A is better because its top result is a direct news report specifically about the keynote replacement, quoting Microsoft confirmation that 'Judson Althoff, now CEO of our commercial business, will lead the Microsoft Ignite keynote.' This aligns closely with the anchor. B also names Althoff as the replacement, but its strongest snippets are more opinion/analysis pieces and add a speculative or at least less-well-sourced reason for Nadella's absence. Therefore A better enables a correct answer from the provided content alone."
+}

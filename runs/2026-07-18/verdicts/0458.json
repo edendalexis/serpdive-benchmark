@@ -1,0 +1,11 @@
+{
+  "id": 458,
+  "query": "2024 Nobel Prize Chemistry laureates Demis Hassabis John Jumper DeepMind AlphaFold publication details",
+  "topic": "Nobel Prize 2024",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A does not itself provide full publication details for the AlphaFold paper in the strongest source snippets. The Nobel and DeepMind snippets mention AlphaFold/AlphaFold2 and 2020, but not the full citation. However, one result from APS explicitly cites the relevant paper as Jumper et al., “Highly accurate protein structure prediction with AlphaFold,” Nature 596, 583 (2021). Some lower-ranked results are less authoritative, but they do not materially contradict the key facts.",
+  "b_issues": "Content B largely lacks publication details for the AlphaFold paper. It confirms the Nobel award and AlphaFold connection, but does not provide the paper title, journal, or year in the returned snippets. Several sources are secondary journalism or miscellaneous sites rather than the most authoritative Nobel/Nature/citation-style sources. It also emphasizes 'AlphaFold 2' in places without giving the underlying publication citation.",
+  "reasoning": "A better enables a correct answer because it contains both core parts of the query: (1) authoritative Nobel-related confirmation that Demis Hassabis and John Jumper jointly received half of the 2024 Nobel Prize in Chemistry for protein structure prediction, and (2) an explicit publication reference for the AlphaFold paper via the APS snippet: 'Jumper et al., “Highly accurate protein structure prediction with AlphaFold,” Nature 596, 583 (2021).' B confirms the Nobel context and AlphaFold connection, but its snippets do not supply the actual publication details needed to answer the question from the content alone. Therefore A is more complete and reliable for this specific question."
+}

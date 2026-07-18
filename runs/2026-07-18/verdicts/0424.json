@@ -1,0 +1,11 @@
+{
+  "id": 424,
+  "query": "Israeli security check procedures Rafah border crossing February 2026 trial reopening",
+  "topic": "Rafah",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor issues only. One result (Al Jazeera) says the crossing reopened after 'almost two years of closure,' which is imprecise versus the anchor saying it had been shut by Israel since May 2024. Another result (DW) mentions 'phase two' of the ceasefire and includes an unrelated sentence ('Under the ban, the group will have to leave the territory by February 28'), suggesting some article-snippet contamination. But A includes accurate, directly relevant facts from OSAC and other mainstream outlets: prior security clearance by both Israel and Egypt, joint vetting/screening, limited movement, and that the reopening was on a trial/pilot basis.",
+  "b_issues": "B is weaker and noisier. It contains two Facebook results, which are less reliable and one of them introduces a dubious/unsupported claim about a checkpoint named 'Regavim Inspection Nekez' and broader political interpretation not corroborated by the anchor. The Reuters snippet mentions 'strict Israeli security checks' but gives fewer concrete procedural details than A. The Al Jazeera result in B lacks the key screening details present in A's snippet. Overall B has less direct, reliable information on the actual procedures and more risk of misleading the model.",
+  "reasoning": "The question asks about Israeli security check procedures tied to the Rafah border crossing's February 2026 trial reopening. Content A best supports a correct answer because it explicitly states the core facts found in the anchor: the crossing reopened on a limited/trial basis; movement was allowed only after prior security clearance by both Israel and Egypt (OSAC); Israel and Egypt would vet entrants and leavers (DW); and lists of names would be submitted and approved after screening (Al Jazeera snippet). These details directly answer the procedure question. Content B has one useful Reuters result noting strict Israeli security checks slowed movement, but it provides less procedural specificity overall and mixes in lower-reliability Facebook posts, including one with questionable extra claims. So A better enables an LLM to answer correctly from the search results alone."
+}

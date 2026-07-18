@@ -1,0 +1,11 @@
+{
+  "id": 881,
+  "query": "Paramount Skydance CEO David Ellison role",
+  "topic": "Skydance Media",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A includes some less-reliable or secondary sources (WebProNews, Wave AI podcast notes, Stocktwits) and mixes 2024 and 2025 reporting. However, it consistently states the key fact that David Ellison's role in the combined Paramount-Skydance company is chairman and CEO / CEO of the new merged company, which aligns with reliable trade reporting in Variety and the anchor. No clear internal contradiction on the role itself.",
+  "b_issues": "Content B has no results at all, so it provides no factual basis to answer the question.",
+  "reasoning": "A clearly enables the answer. It contains a reliable Variety result stating that David Ellison's role will be chairman and CEO of the combined/new Paramount-Skydance company, and other results repeat that he is CEO of the merged entity. That matches the anchor, which says he will lead the combined company after the merger closes. B contains no search results, so an LLM could not answer from it alone."
+}

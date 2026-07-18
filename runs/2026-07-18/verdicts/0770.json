@@ -1,0 +1,11 @@
+{
+  "id": 770,
+  "query": "Trump Gaza ceasefire international oversight body appointment update",
+  "topic": "Gaza ceasefire negotiations",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A lacks the key appointment update asked about. It mentions the Board of Peace generally, invited countries, and Ali Sha’ath leading the Palestinian technocrat committee, but does not identify the newly announced Board of Peace leaders/members from the appointment update reflected in the anchor. This makes it incomplete for the query. It is also somewhat internally diffuse, mixing later status updates with background, and could mislead an LLM into answering about the NCAG appointment instead of the international oversight body appointments.",
+  "b_issues": "Content B still does not directly list the full appointee slate in the snippets provided, so it is also incomplete. However, it more clearly ties the question to the Board of Peace as the oversight body and to the launch of Phase Two/first meeting context. One PBS snippet is a bit noisy, mentioning the UN Security Council in a confusing way, but it does not directly contradict the core facts.",
+  "reasoning": "The question asks for an update on the appointment of the international oversight body in Trump’s Gaza ceasefire plan. The anchor indicates the relevant update is the naming/composition of the Board of Peace during Phase Two. Between the two, Content B better enables that answer because it explicitly connects Phase Two, the Board of Peace, and the formation/first meeting of the body overseeing Gaza, while A mostly provides background plus the separate appointment of Ali Sha’ath to the technocratic Palestinian committee. A therefore misses the central appointment update more directly. Neither set is perfect, but B is closer to the needed facts and less likely to send the model to the wrong appointment."
+}

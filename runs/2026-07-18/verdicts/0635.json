@@ -1,0 +1,11 @@
+{
+  "id": 635,
+  "query": "Perplexity Computer Analytics API custom credit limits enterprise controls release",
+  "topic": "Perplexity AI",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "A does not include the actual Computer Analytics API docs or a release/changelog page, so it only partially covers the query. It mainly provides Enterprise credit-control/admin information and a general Computer for Enterprise page. One result is a Reddit post, which is low reliability. It also includes third-party pricing pages that are not authoritative and may be speculative. However, the top Perplexity Help Center result does directly mention custom member limits, org-level controls, and usage limits.",
+  "b_issues": "B largely misses the core topic of the Computer Analytics API and enterprise credit-limit/admin-control documentation. Its results are mostly unrelated pricing or blog pages, plus a changelog item about Computer for Pro/Slack/Personal Computer rather than Analytics API. Most sources are third-party and not authoritative. It does not provide the key facts from the official docs about the Analytics API being org-scoped, free, or enterprise-admin controlled, nor does it clearly address custom credit limits in the enterprise admin context.",
+  "reasoning": "The query asks about Perplexity Computer Analytics API, custom credit limits, enterprise controls, and release. From the anchor, the critical facts are in official Perplexity docs/help pages: the Computer Analytics API exists for Enterprise orgs, uses an org-scoped analytics key, and there are enterprise admin controls around credits and limits. Content A contains at least one official Perplexity Help Center page specifically about Enterprise credit controls that mentions organization-level controls, per-seat/per-member usage limits, and a custom limit modal, which is directly relevant to 'custom credit limits enterprise controls.' It also includes the official 'Computer for Enterprise' page. Content B, by contrast, lacks the Analytics API and enterprise admin-control documentation almost entirely; its best official result is a general changelog entry about Computer for Pro subscribers, which does not answer the Analytics API/custom credit-limit question. Therefore A better enables a correct answer, even though it is incomplete."
+}

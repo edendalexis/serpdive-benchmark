@@ -1,0 +1,11 @@
+{
+  "id": 935,
+  "query": "Klarna P2P peer-to-peer payments European countries launch January 2026",
+  "topic": "Klarna",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "One top result is a noisy LinkedIn page with low signal, and another is a blog-like secondary source. The Klarna investor page snippet in A is truncated and does not itself list all countries. However, A also includes Finovate and Yahoo snippets that provide the country list, and these are consistent with the anchor.",
+  "b_issues": "B relies mainly on secondary sources and a LinkedIn post; it does not include Klarna's own investor/news release. The PaymentsJournal snippet mentions Spain is one of the 13 countries, but does not list them all. The LinkedIn result is less reliable and mixes in unrelated payments news. Overall source reliability is weaker than A.",
+  "reasoning": "The question is about Klarna's January 2026 launch of P2P payments in European countries, so the key facts are that the launch happened in January 2026, that it was in 13 European countries, and ideally which countries. Content A contains Klarna's official investor/news release confirming the January 14, 2026 launch and the 13-country scope, plus secondary snippets from Finovate and Yahoo that list the countries: Belgium, Denmark, Finland, France, Germany, Italy, Netherlands, Norway, Poland, Portugal, Spain, Sweden, and the UK. These match the anchor. Content B also contains the correct 13-country list via Finovate, but it lacks the official Klarna release and depends more on secondary and social sources. Since A has both the official primary source and corroborating country-list sources without contradiction, it better enables a correct answer."
+}

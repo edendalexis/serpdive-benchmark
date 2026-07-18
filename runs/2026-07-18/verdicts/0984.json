@@ -1,0 +1,11 @@
+{
+  "id": 984,
+  "query": "Sundar Pichai testimony US search antitrust trial Chrome divestiture ruling 2026",
+  "topic": "Sundar Pichai",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A has only one directly relevant result on Pichai’s testimony, and it is very thin: the Bloomberg snippet says only that Pichai called the DOJ plan a 'de facto spinoff of search' without clearly tying this to Chrome divestiture or giving enough surrounding context. Its strongest ruling result is NPR, which says the judge later let Google keep Chrome, but A does not clearly connect the testimony to that remedy dispute. It also includes weak/noisy results such as Wikipedia and Digiday, and the CNBC result is about Apple search deals rather than the specific testimony/ruling question.",
+  "b_issues": "Content B includes some lower-reliability/noisy items such as a Yahoo Finance aggregation, a YouTube video, and a commentary piece. The Courthouse News snippet says Mehta rejected divestment of both Chrome and Android; the anchor only clearly supports no Chrome divestiture, so the Android part may be overbroad or at least less well grounded here. Still, B’s key facts are internally consistent.",
+  "reasoning": "B better enables a correct answer because it contains both sides of the question: (1) Pichai’s remedies-phase testimony that a forced Chrome sale/'breakup' would amount to a 'de facto divestiture of search' and have unintended consequences, and (2) the later ruling that Judge Amit Mehta did not order Chrome divestiture but instead imposed conduct/data-sharing remedies and limits on exclusive default deals. Those facts align with the anchor and are present explicitly in B across Yahoo Finance, Courthouse News, and NPR. A has pieces of this, but the testimony detail is much thinner and the set is less directly responsive overall."
+}

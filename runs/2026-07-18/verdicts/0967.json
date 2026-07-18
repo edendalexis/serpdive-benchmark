@@ -1,0 +1,11 @@
+{
+  "id": 967,
+  "query": "Narendra Modi Union cabinet ministers heatwave instructions July 2026 government action plan measures",
+  "topic": "Narendra Modi",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A has only one clearly relevant result matching the query context (The Hindu on May 27, 2026) and its snippet is very general. Other results are noisy or off-target: a Facebook post about Delhi's Heatwave Action Plan 2026, a PIB item about Amit Shah reviewing flood management and heatwave preparedness, an Awaz the Voice rehash, and a Yahoo result from 2022. It does not clearly state the key facts that Modi instructed Union cabinet ministers to have their ministries/departments take necessary steps, that the approach was described as a whole-of-nation effort, and that specific measures would be decided by individual ministries with Centre outreach to states.",
+  "b_issues": "Content B includes one irrelevant/outdated Yahoo News result from 2022 and an Amit Shah result that is only indirectly relevant. However, the core relevant results are consistent and contain the needed facts.",
+  "reasoning": "B better enables a correct answer because it directly provides the central facts from reliable/reasonable sources: Business Standard states that PM Modi urged all Union cabinet ministers to ensure their ministries and departments take necessary steps to mitigate the heatwave, stressed a whole-of-nation approach, highlighted areas such as health and water resources, and said individual ministries would determine their own actions while the Centre had reached out to states. ANI and Deccan Chronicle corroborate the same points. This aligns with the anchor. A is weaker because its relevant evidence is sparse and less specific, with more noise and less direct detail about the government action plan/measures."
+}

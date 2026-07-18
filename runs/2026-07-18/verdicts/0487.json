@@ -1,0 +1,11 @@
+{
+  "id": 487,
+  "query": "2026 WGA Minimum Basic Agreement streaming residuals pension enhancements unpaid labor details site:wga.org",
+  "topic": "The WGA",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Result set A is sparse on the specific requested topics. It contains mostly hub/landing pages and only limited snippets. It does not clearly surface concrete details about streaming residuals, pension enhancements, or unpaid labor in the snippets themselves, though it does point to the official 2026 MBA pages and MOA PDF on wga.org. No obvious factual contradictions are present.",
+  "b_issues": "Result set B includes multiple non-wga.org or less authoritative sources despite the query specifying site:wga.org. The top result is Greenslate, not WGA, and the second is wgacontract.org rather than wga.org; these may be derivative summaries rather than primary sources. It also includes Deadline and an unrelated WGA East PBS schedule PDF. One snippet says 'The WGA West staff is still on strike as well,' which is likely irrelevant and potentially misleading in this context. Overall B mixes secondary sources with potentially off-target results.",
+  "reasoning": "A better enables a correct answer because it includes the primary official WGA sources directly relevant to the 2026 MBA: the official MBA page, the 2026 MOA PDF dated April 4, 2026, the 2026 Contract Changes FAQ, and the ratification press release on wga.org. Even though the snippets are thin, an LLM receiving A would at least have direct official source documents to ground an answer. B has more topic-specific residual details in snippets, but they come largely from secondary or non-wga.org sources and include off-target material, which reduces reliability and increases the risk of answering from non-authoritative or irrelevant information. Since the question asks about details of the 2026 WGA MBA and the anchor points to the official WGA MOA/summary materials, the officiality and accuracy of A outweigh B's greater specificity."
+}

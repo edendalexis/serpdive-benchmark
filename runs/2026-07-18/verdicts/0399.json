@@ -1,0 +1,11 @@
+{
+  "id": 399,
+  "query": "Sanofi GSK H5N1 mRNA vaccine clinical trial phase status progress 2025",
+  "topic": "H5N1 bird flu",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A does not directly surface the key primary sources for GSK and Sanofi in 2025. Its top result is a secondary news/commentary page, and it lacks the explicit GSK trial-status details from the study register. It also includes irrelevant Moderna results. However, it does contain a CIDRAP entry naming Sanofi SP0289 as phase 1/2 with the relevant trial IDs NCT06907511 and NCT06727058, and a news snippet saying a phase I trial was initiated with interim phase I data expected in 2H 2025.",
+  "b_issues": "Content B largely misses the target. It does not provide the Sanofi H5 mRNA trial IDs, phase, or 2025 status, and its GSK result is about seasonal influenza mRNA, not H5N1. Other results are generic or unrelated (Moderna/CEPI/general vaccine landscape). It therefore lacks the necessary facts to answer the specific question about Sanofi and GSK H5N1 mRNA clinical-trial phase/status/progress in 2025.",
+  "reasoning": "A better enables a correct answer because it at least contains relevant H5 mRNA pandemic-influenza facts for Sanofi: CIDRAP lists Sanofi SP0289 as phase 1/2 and gives the exact trial IDs NCT06907511 and NCT06727058, which align with the anchor. A secondary source also states the randomized placebo-controlled phase I trial had just been initiated and that interim phase I data were expected in the second half of 2025, which is useful for 'progress 2025.' By contrast, B does not surface the specific Sanofi or GSK H5N1 mRNA trial status information at all; its GSK hit concerns seasonal influenza mRNA rather than the H5N1 pandemic vaccine, so an LLM using B alone would likely be unable to answer correctly."
+}

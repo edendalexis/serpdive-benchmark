@@ -1,0 +1,11 @@
+{
+  "id": 352,
+  "query": "Pope Leo XIV Castel Gandolfo concert July 16 2026 official announcement performers program",
+  "topic": "Pope Leo XIV",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A is somewhat incomplete for the full 'performers program' asked: the Vatican News snippet only mentions works by Paganini and Bellini without naming performers, and the other snippets add some performer names but not the full official program. It also includes secondary sources rather than the official announcement alone.",
+  "b_issues": "Content B contains a low-quality blogspot result as the top hit and a Threads post, which are less reliable than official or mainstream news sources. Its Vatican News snippet is noisy/truncated and does not clearly expose the full announcement details. It is also incomplete on the program and performers: while it hints at Marco Rogliano and Rossana Tomassi Golkar and mentions Paganini/Bellini, it does not present the full official announcement cleanly, and it omits some context such as timing and official framing compared with A.",
+  "reasoning": "A better enables a correct answer because it includes the official Vatican News result prominently and supplements it with consistent secondary reporting. From A, an LLM can reliably state that the Diocese of Albano announced a concert in honor of Pope Leo XIV at the Apostolic Palace of Castel Gandolfo on July 18 at 9:00 p.m., with program elements by Paganini and Bellini; additional results identify performers such as violinist Marco Rogliano, pianist Rossana Tomassi Golkar, and conductor Pier Carlo Orizio. B also contains the Vatican News page, but its strongest additional evidence comes from weaker sources (blogspot, Threads), and the snippets are noisier and less cleanly usable. Neither set gives the complete official announcement in full, but A is more reliable, less noisy, and provides more directly usable facts without contradiction."
+}

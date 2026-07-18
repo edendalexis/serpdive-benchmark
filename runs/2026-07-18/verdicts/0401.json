@@ -1,0 +1,11 @@
+{
+  "id": 401,
+  "query": "EU AI Act Scientific Panel Advisory Forum members list announced June 2026",
+  "topic": "EU AI Act",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A includes an inaccurate/snippet-level contradiction: the top CDT result says the Advisory Forum was 'currently at 172 members', while the official EU source and anchor say 174 members. A does contain the official Scientific Panel page and a secondary source noting 174, but the conflicting 172 figure could mislead an LLM. Also, A does not clearly surface the official Advisory Forum page that would confirm the announced member count/list context directly.",
+  "b_issues": "Content B does not obviously show the actual names list in the snippets either, and one result is a secondary/advocacy site. However, it consistently matches the anchor on the key announced facts: Scientific Panel = 60 members, Advisory Forum = 174 members, announced 1 June 2026, with official EU pages for both bodies present.",
+  "reasoning": "The question asks about the EU AI Act Scientific Panel and Advisory Forum members list announced in June 2026. To answer correctly, an LLM needs the core facts that the Commission announced the bodies on 1 June 2026 and that the Scientific Panel has 60 members while the Advisory Forum has 174 members, ideally from official EU sources. Both sets contain official EU pages for the Scientific Panel, and B also includes the official Advisory Forum page snippet explicitly stating 174 members. A has a harmful contradiction from CDT claiming the Advisory Forum was at 172 members, which conflicts with the anchor and official EU source (174). Because B is more internally consistent and aligns better with the official facts, it better enables a correct answer."
+}

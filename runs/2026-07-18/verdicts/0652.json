@@ -1,0 +1,11 @@
+{
+  "id": 652,
+  "query": "UNRWA eUNRWA interactive bilingual mobile platform launch registration services Palestine refugees latest official announcement",
+  "topic": "United Nations Relief and Works Agency for Palestine Refugees in the Near East",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Content A has only one clearly official/authoritative result with the key facts; the second result is from Jordan Times rather than an official UNRWA source and adds little. It does not clearly surface the date of the latest official announcement in the provided snippet, and it omits the service list details visible in the anchor (e.g., family registration eCard) from the snippets shown.",
+  "b_issues": "Content B’s snippets are very terse and mostly duplicative, so they provide less detail. They do not clearly include the announcement date in the snippets, and they omit most of the registration-service specifics from the snippets shown. However, they are largely official UNRWA/UN sources and do not appear factually inconsistent.",
+  "reasoning": "Both result sets contain the core fact needed to answer the query: UNRWA launched an interactive bilingual mobile platform called eUNRWA to enhance registration services for Palestine refugees and other eligible persons. A includes a strong authoritative UN/UNISPAL press-release result and a bit more context about UNRWA’s registration system; B includes multiple official UNRWA pages plus the UNISPAL press release, which are highly reliable. Neither set, based on the snippets alone, clearly provides the full 'latest official announcement' details such as the 20 February 2023 date and the fuller list of services, though both point to the correct announcement. Since both would enable a basically correct answer to the query to a similar degree, neither is clearly better."
+}

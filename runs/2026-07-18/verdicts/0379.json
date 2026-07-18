@@ -1,0 +1,11 @@
+{
+  "id": 379,
+  "query": "OpenAI ends video generation development Sora closure statement robotics real-world tasks agentic AI April 2026",
+  "topic": "Sora OpenAI",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Includes low-reliability/social results (Instagram, Facebook) and one result (NYT snippet) that says OpenAI would continue to use video-generation technologies behind the scenes, which could slightly blur the 'ends video generation development' framing. However, A directly includes the key closure rationale and agentic-AI/roadmap language in a strong snippet, and also has the BBC result confirming robotics and real-world physical tasks.",
+  "b_issues": "Has fewer directly useful results. The key BBC result covers closure and robotics/real-world physical tasks, but B lacks a clear result mentioning the 'agentic AI' part of the rationale. One result is just an NBC video teaser with minimal detail, and another is a generic/opinion-style MindStudio post that is less reliable than the news coverage.",
+  "reasoning": "Content A better supports a correct answer because it contains the crucial facts asked about in the query: that OpenAI shut/discontinued Sora, that it was shifting focus away from video generation, and specifically that it cited robotics to help with 'real-world, physical tasks' plus focus on its AGI/agentic AI roadmap. The National Desk snippet in A explicitly mentions both 'real-world, physical tasks' and 'agentic AI,' while the BBC result reinforces the closure and robotics rationale. Content B has the reliable BBC result for closure and robotics, but it does not clearly supply the 'agentic AI' element from the question, so an LLM relying on B alone would be less likely to answer the full query completely."
+}

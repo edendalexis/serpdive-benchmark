@@ -1,0 +1,11 @@
+{
+  "id": 901,
+  "query": "Oppenheimer Holdings Q4 2025 full year net income revenue AUM results",
+  "topic": "Oppenheimer",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Top result is a secondary aggregator (StockTitan) rather than the primary company release, and it gives full-year gross revenue and AUM but not the explicit Q4/full-year pairing as cleanly as the primary press release. Another result is irrelevant/misleading for this query (Yahoo Finance on Q2 2025). A does contain accurate figures, but the evidence is split across secondary sources and snippets.",
+  "b_issues": "Includes some less relevant results (MacroTrends, later 2026 meeting/Q1 2026 items), but the top PR Newswire result directly contains the key facts. No material factual contradiction apparent in the shown snippets.",
+  "reasoning": "B better enables a correct answer because its top result is the primary PR Newswire release for Oppenheimer Holdings' Q4 and full-year 2025 earnings and explicitly states the needed figures: Q4 2025 net income $74.4M, Q4 revenue $472.6M, full-year 2025 net income $148.4M, and AUM of $55.2B at Dec. 31, 2025. It also gives the YoY comparison for full-year net income. A also has accurate information, including full-year gross revenue $1,638,071 (about $1.64B) and AUM $55.2B, plus a TradingView snippet with the Q4/full-year net income and Q4 revenue, but the crucial facts are more fragmented and rely more on secondary/aggregated sources. Since B presents the core answer more directly and from a reliable primary source, it is superior."
+}

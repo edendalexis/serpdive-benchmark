@@ -1,0 +1,11 @@
+{
+  "id": 552,
+  "query": "Jerome Powell April 2026 DOJ investigation dropped congressional testimony Senate Banking Committee U.S. Attorney Jeanine Pirro news",
+  "topic": "Jerome Powell",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Content A has limited source breadth and includes a less authoritative secondary source (JURIST) for the key detail that the probe concerned Powell's statements to Congress during a Senate Banking Committee panel. It also includes a Federal Reserve statement about subpoenas but does not itself state the April 2026 dropping of the probe. No clear internal contradiction, but coverage is somewhat sparse.",
+  "b_issues": "Content B includes a YouTube result rather than a direct news article, and one local/secondary outlet. It is slightly noisier, but the core facts are still present in reliable sources like CNBC, Roll Call, and ABC. No clear internal contradiction.",
+  "reasoning": "Both result sets contain the essential facts needed to answer the query correctly: in April 2026 DOJ dropped the criminal investigation of Jerome Powell; the announcement came from U.S. Attorney Jeanine Pirro; the issue involved Fed building renovation cost overruns and Powell's prior congressional testimony; and the matter related to the Senate Banking Committee and pressure from senators, especially Thom Tillis, because it affected Kevin Warsh's confirmation path. Content A supports this through CNBC, Banking Dive, JURIST, and a Fed statement. Content B supports it through Roll Call, CNBC, ABC, and a local report. Neither set materially contradicts the anchor, and both provide enough accurate information from reliable sources to answer the question. B has somewhat better direct mainstream reporting on the Senate angle, while A has a more explicit reference to Powell's Senate Banking Committee testimony via JURIST. Overall, they enable a correct answer about equally well."
+}

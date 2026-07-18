@@ -1,0 +1,11 @@
+{
+  "id": 108,
+  "query": "Boeing Q4S mission entanglement swapping lab test payload compact satellite specification technical details",
+  "topic": "Boeing",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A has limited technical detail and does not provide concrete payload specifications such as mass, power, dimensions, orbit, or subsystem-level parameters. Most results are secondary summaries, with only one direct Boeing source in the top result. However, the facts it does contain are consistent with the anchor: high-fidelity entanglement swapping was demonstrated on a compact, space-qualified payload; environmental qualification was completed; final spacecraft integration is underway; launch is planned for 2027; and the mission is a one-year on-orbit demonstration.",
+  "b_issues": "Content B is thinner and less reliable overall. It includes mostly terse snippets from secondary outlets and only one Boeing result ranked lower. It also introduces a potentially unsupported technical claim ('four-photon quantum entanglement swapping in space') not established in the anchor, which could mislead an LLM into overstating specifics. Like A, it lacks actual compact-satellite specifications or detailed technical parameters.",
+  "reasoning": "A better enables a correct answer because it contains more of the anchor-supported facts needed to answer the query: Boeing’s Q4S demonstrated high-fidelity entanglement swapping in lab/ground testing on a compact, space-qualified payload; the payload completed environmental qualification; it is in final spacecraft integration; the mission targets a 2027 launch; and it is a one-year on-orbit demonstration intended to inform future quantum networking architectures. B overlaps on the core milestone but is sparser, relies more heavily on lower-authority summaries, and includes at least one extra technical detail not verified by the anchor. Neither set contains true 'specification technical details' for the compact satellite payload, but A is still the more accurate and complete basis for answering."
+}

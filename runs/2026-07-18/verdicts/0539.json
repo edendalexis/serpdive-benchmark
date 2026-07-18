@@ -1,0 +1,11 @@
+{
+  "id": 539,
+  "query": "Mattel July 2024 first blind Barbie American Foundation for the Blind black Barbie Down syndrome",
+  "topic": "Barbie",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "No major factual flaws. Minor issue: the top CBS snippet says July 24, 2024, while Mattel/AFB state the announcement was July 23, 2024; this is likely publication-date vs announcement-date ambiguity. Snippets are terse and some titles are truncated, but they still consistently identify the first blind Barbie and the Black Barbie with Down syndrome, with AFB involvement.",
+  "b_issues": "No major factual flaws. Minor incompleteness: it does not include the Mattel corporate press release directly, and the NDSS result emphasizes the 2023 first Down syndrome doll, which could distract slightly from the July 2024 Black Barbie with Down syndrome. However, the AFB, Mashable, and USA Today results clearly state the July 23, 2024 first blind Barbie and the Black Barbie with Down syndrome.",
+  "reasoning": "Both result sets contain the key facts needed to answer the query correctly: Mattel announced on July 23, 2024 its first Blind Barbie Fashionista doll, created in partnership with the American Foundation for the Blind, alongside a Black Barbie Fashionista doll with Down syndrome. Content A has the strongest primary-source mix because it includes both the Mattel press release and the AFB page, plus corroborating coverage. Content B also includes the authoritative AFB page and corroborating reporting that explicitly mentions the Black Barbie with Down syndrome and NDSS collaboration. Neither set contains meaningful contradictions that would prevent a correct answer, so they enable the answer equally well."
+}

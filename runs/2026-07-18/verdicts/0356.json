@@ -1,0 +1,11 @@
+{
+  "id": 356,
+  "query": "Pope Leo XIV Ukraine peace prayers July 12 2026 official statement",
+  "topic": "Pope Leo XIV",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "A includes the key Vatican News result about Pope Leo XIV calling for prayers for peace in Ukraine, but it does not directly provide the July 12, 2026 Angelus statement text tied to the query. Other results are partly off-target: the World Day of Peace 2026 message is unrelated to July 12; the monthly prayer intention is unrelated; the Middle East Monitor item is secondary reporting rather than an official statement. So A has limited direct evidence for the exact July 12 official statement.",
+  "b_issues": "B likewise includes the key Vatican News result about prayers for peace in Ukraine, but it also does not directly provide the text of the July 12, 2026 official statement. Its additional results are mixed: America Magazine is secondary and dated July 15; YouTube only confirms there was an Angelus on July 12 without the relevant wording; Facebook snippets are unofficial/less reliable and one appears to quote a different date entirely (Jan. 26), making it potentially misleading.",
+  "reasoning": "Both A and B contain the same most relevant and reliable core source: the Vatican News article stating that Pope Leo XIV, in a letter to Archbishop Paul Richard Gallagher, urged prayers for peace in Ukraine, for families, and for those suffering because of the war. That supports part of the query. However, the query specifically asks about 'July 12 2026 official statement,' and neither result set cleanly surfaces the July 12 official Vatican statement or its wording. The anchor shows that on July 12, at the Angelus in Castel Gandolfo, Pope Leo XIV also referred to Ukraine and called for dialogue, but neither set provides that article directly. A has somewhat cleaner sourcing; B has more noise and a potentially misleading Facebook result. Still, on the central question of enabling a correct answer from the provided content alone, both are similarly incomplete: each gives partial but not exact July 12 official-statement evidence. Therefore the best verdict is a tie."
+}

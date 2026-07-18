@@ -1,0 +1,11 @@
+{
+  "id": 905,
+  "query": "Oppenheimer Project San Francisco Climate Week April 2026 events hosted",
+  "topic": "Oppenheimer",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A is sparse and only one result is directly about the Oppenheimer Project. That LinkedIn snippet is truncated and does not explicitly state the hosted events in the snippet itself. Other results are generic SF Climate Week pages and unrelated events, so an LLM may still struggle to answer fully from A alone.",
+  "b_issues": "Content B contains no result directly about the Oppenheimer Project or its hosted events. The results are generic SF Climate Week listings, a general Eventbrite page, marketing/attendee-list pages, and commentary. It does not provide the needed facts about what Oppenheimer Project hosted. Some pages also look less reliable or secondary.",
+  "reasoning": "A better enables a correct answer because it at least includes a directly relevant Oppenheimer Project result: the LinkedIn post titled 'Friday Highlights 4/24: Our 2026 San Francisco Climate ...,' which strongly signals the existence of an Oppenheimer Project recap of its SF Climate Week activities. B has no Oppenheimer-specific source at all, so an LLM could not identify the hosted events from B alone. Neither set is ideal, but A is closer to the anchor and provides the only directly relevant lead, while B lacks the core facts entirely."
+}

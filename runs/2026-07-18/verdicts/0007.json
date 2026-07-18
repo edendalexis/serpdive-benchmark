@@ -1,0 +1,11 @@
+{
+  "id": 7,
+  "query": "US Maduro bounty increase $50 million announcement date September 2025 State Department",
+  "topic": "Venezuela election crisis",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A has no State Department result and does not directly answer the requested announcement date in relation to the State Department. Its snippets mostly say the reward was raised 'on Thursday' or 'on August 7, 2025' via DOJ/White House reporting, but lack a primary-source-style confirmation tying it to the State Department announcement. One result is a YouTube clip and another is Facebook, which are weaker sources. It also does not address the query's mention of September 2025, so an LLM could be uncertain whether there was a later State Department announcement.",
+  "b_issues": "Content B also lacks the actual State Department page. It includes an irrelevant and likely unreliable/future-speculative Wikipedia result about a 2026 intervention. The DOJ video result is dated Aug. 15, 2025 even though its snippet says Bondi announced it on Aug. 7, 2025, which could confuse timing of publication versus announcement. It still does not explicitly resolve why the query mentions September 2025.",
+  "reasoning": "Content B better enables a correct answer because it contains a high-reliability DOJ result explicitly stating: 'On August 7, 2025, Attorney General Pamela Bondi announced a $50 million reward ... from the Justice and State Departments.' That gives the key fact needed: the announcement date was August 7, 2025, not September 2025. Content A only provides secondary reporting snippets and no direct government-source confirmation tied to State/Justice. Although B has some noise and one dubious Wikipedia result, it still includes the clearest and most authoritative evidence for the answer."
+}

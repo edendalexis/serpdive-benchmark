@@ -1,0 +1,11 @@
+{
+  "id": 811,
+  "query": "Copilot Studio computer-using agents general availability official announcement desktop applications websites UI automation 2025",
+  "topic": "Microsoft Copilot",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A lacks the key official timeline detail from Microsoft Learn that this feature was announced in 2025 as early access/research preview and planned for general availability in May 2026. Its top result is a non-official third-party blog asserting GA details, and the official Microsoft results shown in A do not expose the crucial GA wording in their snippets. This makes A more likely to mislead or leave the answer incomplete. It also mixes 2025 announcement material with 2026 GA material without clearly tying them together.",
+  "b_issues": "Content B still includes a third-party result with extra unsupported claims (for example, preview timing in September 2025 and a May 13, 2026 GA announcement source) that are not needed and could distract. The first result also appends a May 2026 update mention onto the April 15, 2025 announcement snippet, which could blur announcement vs GA timing if read carelessly. However, the core official facts remain present.",
+  "reasoning": "B better enables a correct answer because it contains both essential official Microsoft facts needed to answer the query: (1) the official 2025 announcement result from the Microsoft Copilot Blog stating that computer use lets agents interact with websites and desktop apps via UI automation, and (2) the official May 2026 Microsoft Copilot Blog result explicitly saying computer-using agents are now generally available in Copilot Studio and can interact directly with websites and desktop applications through the UI. It also includes the Microsoft Learn computer-use documentation confirming support for web apps and Windows desktop applications. By contrast, A has the official announcement result, but its other official snippets do not clearly state GA in the snippet text; instead, the strongest GA claim comes from a non-official blog. Therefore B provides the needed facts more directly, accurately, and from official sources."
+}

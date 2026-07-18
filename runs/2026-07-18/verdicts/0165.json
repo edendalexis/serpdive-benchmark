@@ -1,0 +1,11 @@
+{
+  "id": 165,
+  "query": "Rivian Georgia plant initial production capacity target start year",
+  "topic": "Rivian",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Contains a clearly wrong/dated Facebook snippet claiming production would start in 2024 with 400,000 annual capacity, which conflicts with the newer 2028/300,000 reporting. WardsAuto snippet in A gives capacity but not the start year. However, A also includes reliable snippets from WSJ and other sources stating production is on track to begin in late 2028.",
+  "b_issues": "Does not clearly provide the key start-year fact in the strongest/reliable snippets. WardsAuto and Automotive Manufacturing Solutions snippets mention the 300,000 initial capacity but omit the production start year. A forum result says production starts in 2028, but it is less reliable than major news or company sources. Another result discusses construction beginning in 2026, which could mislead an LLM into answering the wrong year.",
+  "reasoning": "The question asks for the Georgia plant’s initial production capacity target and start year. Content A contains both key facts in reliable results: 300,000 vehicles annually and production in late 2028 (especially via WSJ). Although A includes one contradictory low-quality Facebook snippet, it also has higher-quality corroboration for 2028. Content B has the 300,000 capacity in reliable sources, but the start year is only surfaced clearly in a forum result, while other results focus on construction resuming or beginning in 2026. That makes B more likely to produce an incorrect answer or uncertainty. Therefore A better enables a correct answer."
+}

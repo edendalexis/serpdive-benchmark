@@ -1,0 +1,11 @@
+{
+  "id": 60,
+  "query": "site:tukaani.org xz-utils release 5.8.3 security issue CVE changelog",
+  "topic": "XZ Utils",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Only returns the generic XZ Utils page snippet, not the actual 5.8.3 changelog or advisory page. It mentions 'XZ Utils 5.8.3 fix a minor security issue that affects all stable XZ Utils releases' but does not provide the CVE identifier or changelog details. The snippet also mixes many unrelated security notes (backdoor in 5.6.0/5.6.1, xzgrep issue, CVE-2020-22916, CVE-2026-34743), which could distract or mislead an LLM into citing the wrong issue for 5.8.3.",
+  "b_issues": "Also returns only the generic XZ Utils page snippet, not the advisory or changelog. It states that 5.8.3 fixes a minor security issue affecting all stable releases, but does not include the CVE identifier or any changelog specifics, so it is incomplete for the query.",
+  "reasoning": "Neither result set contains the key facts needed to answer the query fully: specifically the 5.8.3 release/changelog details and the CVE tied to that security issue. Both point only to the main XZ Utils page and provide the same high-level statement that 5.8.3 fixes a minor security issue. Content A has more text, but the extra material is largely unrelated and increases risk of confusion by surfacing other CVEs and incidents. Content B is cleaner but equally incomplete. Since neither provides the actual CVE/changelog information necessary to answer correctly from the content alone, neither is better in a meaningful way."
+}

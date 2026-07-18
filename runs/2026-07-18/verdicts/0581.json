@@ -1,0 +1,11 @@
+{
+  "id": 581,
+  "query": "Sam Bankman-Fried appeal ruling prison sentence June 2026",
+  "topic": "FTX",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A lacks the primary court opinion and AP result present in the anchor, so it relies mostly on secondary reporting. Some snippets are thin/paywalled and one Forbes snippet adds pardon-related details not needed for the question. But the core fact pattern is consistent: on June 12, 2026, the Second Circuit upheld Bankman-Fried’s conviction and 25-year sentence.",
+  "b_issues": "Content B includes at least one clearly unreliable/inaccurate result: the FinanceMagnates snippet says Ryan Salame was sentenced to 75 years in prison, which is false. It also contains weaker sourcing overall and no direct court opinion. While several results correctly say his appeal was denied and his 25-year sentence stands, the presence of a major factual error makes the set less trustworthy.",
+  "reasoning": "Both sets contain enough information to answer the question that in June 2026 the Second Circuit upheld Sam Bankman-Fried’s conviction and left his 25-year prison sentence in place. However, A better enables a correct answer because its top results are from stronger mainstream outlets (Forbes, Bloomberg, Washington Post) and are internally consistent on the key facts. B has the necessary answer too, but it is undermined by a materially false snippet about Ryan Salame receiving a 75-year sentence, which signals lower reliability and could mislead an LLM assessing the surrounding case details."
+}

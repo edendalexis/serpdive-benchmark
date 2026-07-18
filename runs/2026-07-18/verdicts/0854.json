@@ -1,0 +1,11 @@
+{
+  "id": 854,
+  "query": "SAG-AFTRA Nickelodeon agreement May 2025 ratification vote results voice actor contract terms",
+  "topic": "SAG-AFTRA",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A is entirely about SAG-AFTRA's Interactive Media/video game agreement, not the Nickelodeon animation agreement asked about. It provides no Nickelodeon ratification vote results or Nickelodeon voice actor contract terms, so an LLM would be led to the wrong contract.",
+  "b_issues": "Content B includes some irrelevant results about the separate video game agreement, including ratification percentages that do not apply to Nickelodeon. It also does not provide the Nickelodeon ratification vote results; the best Nickelodeon result only says the tentative deal would go to the National Board for review and ratification. So B is incomplete on the vote-results part of the question.",
+  "reasoning": "B better enables a correct answer because it contains directly relevant Nickelodeon results from Kidscreen and SAG-AFTRA stating that SAG-AFTRA and Nickelodeon reached a tentative three-year animation agreement in May 2025, covering Nickelodeon cable/Paramount+ animated programming, with terms including more than $3.25 million in pay raises, higher interstitial rates, dub residuals for voice actors, SVOD residual improvements/success bonus elements, and AI protections. Those facts match the anchor. A, by contrast, is wholly about the 2025 Interactive Media/video game agreement and would cause an LLM to answer about the wrong contract. Neither set contains the Nickelodeon ratification vote results, but B at least has the correct contract terms and process context."
+}

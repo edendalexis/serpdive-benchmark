@@ -1,0 +1,11 @@
+{
+  "id": 547,
+  "query": "Eurosystem Distributed Ledger Technology DLT central bank money settlement tests completion",
+  "topic": "European Central Bank",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "A lacks the key completion/summary press item from 4 Dec 2024 in the returned results. Its top ECB result only says the work ran between May and November 2024 and tested DLT settlement via three interoperability solutions, without the explicit completion headline or the headline figures from the anchor (over 200 transactions, €1.59 billion, 64 participants, over 40 trials/experiments). Several lower results are secondary sources or later 2025 follow-ons, which could distract from the specific completion event.",
+  "b_issues": "B also lacks the exact 4 Dec 2024 completion press item, though it does include an ECB Feb 2025 press release and the ECB exploratory-work page. It provides some useful completion-related facts indirectly (trials vs experiments; May-November 2024; later secondary-source mention of about €1.6bn and 64 participants), but the Finadium snippet is secondary and rounded, not the primary ECB completion report. It also includes an irrelevant Bank of England result.",
+  "reasoning": "Both sets contain enough ECB primary-source material to let an LLM infer that the Eurosystem completed its DLT central-bank-money settlement tests/exploratory work conducted from May to November 2024. A gives the ECB exploratory-work page directly; B gives that same page plus a later ECB press release explicitly saying the initiative was expanded after those tests and clarifying trials versus experiments. However, neither set includes the most directly responsive and authoritative result from the anchor: the 4 December 2024 ECB news item 'Eurosystem completes tests using DLT for central bank money settlement' with the exact completion figures. Since both omit the best source and both still provide broadly accurate, non-contradictory facts sufficient to answer at a high level, neither clearly outperforms the other."
+}

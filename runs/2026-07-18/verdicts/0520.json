@@ -1,0 +1,11 @@
+{
+  "id": 520,
+  "query": "new member appointed Anthropic Long-Term Benefit Trust July 2026",
+  "topic": "Anthropic",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor issue: includes an older January 2026 result about Mariano-Florentino Cuéllar that is not the July 2026 appointment asked about, plus a low-reliability Longterm Wiki page. However, A also includes the primary Anthropic announcement and CNBC confirming the July 2026 appointment of Ben Bernanke.",
+  "b_issues": "More ambiguity/noise: the top result is the January 2026 Cuéllar appointment rather than the July 2026 one asked about. It lacks the primary Anthropic July 2026 announcement URL in the shown results, relying instead on secondary/unclear sources such as TechJackSolutions, AIWeekly, and AI War. Those sources do mention Ben Bernanke, but are less authoritative and one gives July 10 rather than the primary source’s July 9 publication date.",
+  "reasoning": "The correct answer is Ben Bernanke. Content A better enables a correct answer because it contains the primary source from Anthropic explicitly stating that Ben Bernanke was appointed as the newest member of the Long-Term Benefit Trust, along with a reputable CNBC corroboration naming him as the fourth member. Content B also contains clues pointing to Ben Bernanke, but its highest-ranked result is about Mariano-Florentino Cuéllar from January 2026, and the Bernanke evidence comes from less reliable secondary aggregators rather than the primary Anthropic announcement. So A is more accurate, authoritative, and less likely to mislead the LLM."
+}

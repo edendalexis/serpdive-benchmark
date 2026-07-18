@@ -1,0 +1,11 @@
+{
+  "id": 347,
+  "query": "Worldcoin parent company workforce reduction staff cuts June 2026",
+  "topic": "Worldcoin",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "A does not surface the key Business Insider article directly, and one high-ranked BeInCrypto snippet is noisy/truncated. It also includes irrelevant results (general layoffs list, crypto layoffs tracker, Instagram). However, it still contains the core fact via Yahoo/BeInCrypto that Tools for Humanity, the parent/developer behind Worldcoin/World, cut staff in June 2026.",
+  "b_issues": "B is dominated by irrelevant layoffs results about Oracle and others, which could distract the model. It also does not include the primary Business Insider story directly. But it still includes the key BeInCrypto result stating that Tools for Humanity was laying off workers, tied to Business Insider's reporting.",
+  "reasoning": "Both result sets contain enough accurate information to answer the query: in June 2026, Tools for Humanity, the parent/developer behind Worldcoin (now World), reportedly reduced staff/laid off workers. A has Yahoo Finance and BeInCrypto stating this; B has BeInCrypto stating the same and referencing Business Insider. Neither set provides substantially better sourcing or materially more complete facts about the layoffs than the other, and both include significant irrelevant results. So they enable a correct answer about equally well."
+}

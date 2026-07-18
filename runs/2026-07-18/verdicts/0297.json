@@ -1,0 +1,11 @@
+{
+  "id": 297,
+  "query": "X in-stream polls image support feature release date",
+  "topic": "Twitter",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Minor noise: includes less reliable/supporting items like a Threads post and an X post preview mentioning the feature was coming soon in January, but these do not materially contradict the top result. Other lower-ranked results are not directly about the release date.",
+  "b_issues": "The key Social Media Today result excerpt does not include the publication date, so the answer depends more on inference from other less authoritative results like Threads/Skool/HeyOrca. It also contains more irrelevant results, and the supporting dates are less clearly anchored to the actual launch article.",
+  "reasoning": "Content A better enables a correct answer because its top result from Social Media Today explicitly states both the feature and the date: 'Published Feb. 3, 2026. X has officially launched the capacity to include images in polls within your X posts.' That directly answers the release-date question from a reliable source. Content B has the same authoritative article, but its snippet omits the date, so an LLM would need to rely on weaker secondary results such as Threads ('Feb 4, 2026') or Skool ('Feb 9'), which are less authoritative and could confuse the exact release date. Therefore A is more sufficient and less ambiguous."
+}

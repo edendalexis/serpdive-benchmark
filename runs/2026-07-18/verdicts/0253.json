@@ -1,0 +1,11 @@
+{
+  "id": 253,
+  "query": "FDA mRESVIA prescribing information May 2024 approved indication adults 60 years and older mRNA RSV vaccine",
+  "topic": "RSV vaccines",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Most top results in A are about the later 2025 expanded indication for adults 18-59 at increased risk, which could distract from the May 2024 approval question. It does not surface the FDA package insert directly in the result list, though it does include the FDA Summary Basis for Regulatory Action with the correct May 31, 2024 indication.",
+  "b_issues": "B's top FDA result reflects the current expanded indication including adults 18-59 at increased risk, not the May 2024 approved indication limited to adults 60 years and older. That creates a material risk of answering the question incorrectly. The other results are secondary/tertiary sources and do not clearly provide the May 2024 FDA prescribing-information indication.",
+  "reasoning": "A better enables a correct answer because it includes a directly relevant FDA primary source: the May 31, 2024 Summary Basis for Regulatory Action stating that MRESVIA is indicated for active immunization to prevent lower respiratory tract disease caused by RSV in individuals 60 years of age and older. That matches the queried May 2024 approved indication. In contrast, B's most authoritative result is the current FDA MRESVIA page showing the later expanded indication including adults 18 through 59 at increased risk, which is not the May 2024 approval status and could lead an LLM to give the wrong indication."
+}

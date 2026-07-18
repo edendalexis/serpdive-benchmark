@@ -1,0 +1,11 @@
+{
+  "id": 280,
+  "query": "Devin AI Cognition FedRAMP High In-Process approval date",
+  "topic": "Devin AI software engineer",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "A does include the key Cognition blog result, but only as a snippet with a relative date ('4 days ago') rather than an explicit publication/approval date. Other results are mostly irrelevant or less authoritative, and the top LinkedIn/government-page results do not provide the date. The snippet also says 'already FedRAMP High' for Devin Desktop/CLI, which is imprecise compared with the anchor's distinction between authorized products and the platform being 'Agency Auth In Process.'",
+  "b_issues": "B includes the authoritative Cognition blog post text, but it still does not provide an explicit approval date in the retrieved content. It omits the publication timestamp shown in the anchor, so an LLM would still have to infer timing from unavailable metadata. Supporting social posts repeat the claim but do not add the date.",
+  "reasoning": "The question asks for the FedRAMP High In-Process approval date for Devin/Cognition. The anchor shows the relevant source is the Cognition blog post published 2026-07-13. However, neither A nor B actually surfaces that explicit date in the content provided to the LLM. A gives only '4 days ago' on the blog snippet; B gives the best primary-source text but no publication date. Both therefore fail to clearly provide the needed date from the returned content alone. Since neither set enables a correct date answer materially better than the other, the result is a tie."
+}

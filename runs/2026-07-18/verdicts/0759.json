@@ -1,0 +1,11 @@
+{
+  "id": 759,
+  "query": "Trump Media DJT Q1 2025 earnings report revenue net loss 10-Q",
+  "topic": "Truth Social DJT stock",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Most top results are about Q1 2026 or FY2024, not the queried Q1 2025 10-Q. The only clearly relevant result is a Yahoo/Simply Wall St snippet that gives EPS but not revenue or net loss, and another Yahoo result is again Q1 2026. No direct SEC 10-Q result is present, so an LLM would have to infer or guess. Content therefore mixes irrelevant periods and lacks the requested 10-Q facts.",
+  "b_issues": "Results are also dominated by Q1 2026 coverage rather than Q1 2025. Although one snippet usefully includes a comparative line showing 2025 net loss as $31,726.6 thousand, there is still no direct Q1 2025 10-Q filing result, and revenue for Q1 2025 is not directly stated in a clearly relevant 2025 source. The set mixes years and could mislead an LLM into answering with 2026 figures.",
+  "reasoning": "Neither set cleanly supports answering 'Trump Media DJT Q1 2025 earnings report revenue net loss 10-Q' from the search results alone. The anchor indicates the correct filing is the May 9, 2025 10-Q, with Q1 2025 revenue about $821.2K and net loss about $31.7M. Content A mostly surfaces Q1 2026 and FY2024 items and does not provide the needed 2025 revenue/net loss directly. Content B is similarly polluted with Q1 2026 results, but one Yahoo snippet includes a table-like comparison that reveals Q1 2025 net loss of $31.7266M; however, it still does not reliably provide the Q1 2025 revenue from the 2025 10-Q itself. Since both are materially inadequate and likely to cause a wrong-year answer, neither better enables a correct answer overall."
+}

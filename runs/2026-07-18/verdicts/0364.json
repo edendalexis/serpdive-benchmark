@@ -1,0 +1,11 @@
+{
+  "id": 364,
+  "query": "GTA 6 second trailer May 2025 Rockstar views characters map",
+  "topic": "Grand Theft Auto VI",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Result 1 is an IGN-hosted video page rather than the main article, so it gives only a brief summary and no explicit trailer view count. Result 2 is a live-reaction article that may mix commentary with facts. Result 5 appears lower-reliability and oddly dated/worded. Overall, A lacks a clear authoritative source for the 'views' part of the query.",
+  "b_issues": "Top result is from a lower-reliability outlet and makes a strong quantitative claim ('surpassed 475 million views') without visible supporting context in the snippet. Several results are YouTube/commentary or breakdown videos rather than primary or major-news reporting. There is no primary Rockstar or Take-Two source in the returned set. The snippets are thinner on named characters/locations than A and may encourage the model to rely on speculation or secondary analysis.",
+  "reasoning": "A better enables a correct answer because it includes a primary Rockstar source (rockstargames.com/VI/) plus credible mainstream coverage (CBS, IGN, Tom's Guide) that directly states Trailer 2 released in May 2025, centers on Jason Duval and Lucia Caminos, and mentions map/location details such as Vice City and Leonida/Leonida Keys. Those facts align with the anchor. B does contain the likely key 'views' figure via its top result, but that claim comes from a less reliable source, and the rest of B is dominated by YouTube breakdowns and secondary commentary. Since the question spans trailer timing, Rockstar, views, characters, and map, A provides a more reliable and internally consistent basis for most of the answer, while B is weaker and less trustworthy overall."
+}

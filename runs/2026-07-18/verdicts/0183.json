@@ -1,0 +1,11 @@
+{
+  "id": 183,
+  "query": "JPMorgan Chase partnership IOC May 2026 commercial operational support",
+  "topic": "International Olympic Committee",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Result quality is mixed. The top hit is an Instagram post, one result is a thin LinkedIn snippet, and the JPMorgan press-release extraction is noisy/truncated. Content A also does not clearly surface the specific phrase 'commercial operational support'; the closest relevant fact is the Sports Business Journal result stating JPMorgan's global category includes 'asset and wealth management and private banking, commercial and investment banking,' plus IOC/JPMC announcements about support for athletes and communities.",
+  "b_issues": "Content B is weaker and partly off-target. One result is only a pre-announcement rumor ('in talks') rather than the finalized partnership. The Yahoo result gives general partnership details and athlete/technology support, but it does not clearly address the likely target concept around commercial support/operational scope. With only two results, one being speculative, the set is less reliable and less complete.",
+  "reasoning": "A better enables a correct answer because it contains the actual April 28, 2026 partnership announcement from Olympics.com/JPMorganChase and a Sports Business Journal report with key operational/category detail: the IOC TOP deal covers LA28 and French Alps 2030 and makes JPMorgan the official sponsor in asset and wealth management, private banking, and commercial and investment banking, while the LA28 deal gives it the retail banking category. Those facts align with the anchor. B has one finalized article and one speculative pre-deal article, so it offers less certainty and less precise coverage of the commercial/operational aspect of the partnership."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 546,
+  "query": "ECB banks instruction AI-related cyber collapse risk planning expectations",
+  "topic": "European Central Bank",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A does not directly surface the primary ECB source and relies on secondary summaries. Some results appear lower-authority or potentially noisy (e.g. ITCPE Academy, Watcher Post, Economic Times snippet). It also does not clearly mention the 'collapse' framing from the question, and some details such as post-quantum cryptography come from less clearly attributable sources in the set.",
+  "b_issues": "Content B includes a likely misleading or sensationalized framing from Central Banking about 'AI-related collapse in cyber defences', which appears to conflate the ECB letter with ESRB warnings. It contains lower-reliability items like a LinkedIn post, and its top result is a vendor blog emphasizing quantum risk rather than the core ECB expectations. The set is less specific on the concrete short-term supervisory expectations (e.g. patch/vulnerability management, detection, third-party ICT risk, perimeter protection) that are central to answering the question.",
+  "reasoning": "A better enables a correct answer because it contains the key actionable expectations from the ECB letter: banks must submit an action plan to the JST by 31 October 2026, and in the short term the ECB expects prioritization of vulnerability and patch management, monitoring and detection, AI-enabled defensive capabilities, third-party ICT risk management, protection of perimeter/external ICT assets, and remediation of outstanding ICT supervisory findings. These points align closely with the anchor and are directly useful for answering a question about ECB instructions and planning expectations. B has some correct high-level facts (letter from Claudia Buch, deadline, long-term shift/systemic risk framing), but it is weaker on the detailed expectations and introduces a potentially distorted 'collapse in cyber defences' framing through a paywalled/sensational secondary source. Therefore A is the more accurate and answer-enabling result set."
+}

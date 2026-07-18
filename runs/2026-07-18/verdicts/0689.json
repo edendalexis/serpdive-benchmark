@@ -1,0 +1,11 @@
+{
+  "id": 689,
+  "query": "Shein marketplace seller education series 2025 product safety quality compliance topics",
+  "topic": "Shein",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A mostly points to the correct 2026 SHEIN announcement, but the snippets omit the key list of topics in the series. It mentions only that the series supports sellers on product safety, quality, and compliance, and that the first session covered children's toys. Only one lower-reliability snippet adds partial topics ('regulatory updates, product safety requirements, testing standards and best practice'), so an LLM would have weaker evidence for the full answer. Also, the query says 2025, while A returns 2026 results without addressing the mismatch.",
+  "b_issues": "Content B also returns 2026 rather than 2025 material, so it does not resolve the year mismatch in the query. Some secondary sources are less authoritative than the SHEIN/PRNewswire result, but they do not materially conflict with it.",
+  "reasoning": "B better enables a correct answer because it contains the decisive facts directly in the SHEIN Group snippet: the series covers regulatory updates, product safety requirements, testing standards, and industry best practices, and the Seller Education Hub includes guidance on product safety requirements, prohibited and restricted products, quality standards, intellectual property protection, and operational compliance across onboarding, listing, and day-to-day operations. That is much closer to answering 'what topics' were included. A has the right core source but its snippets are less complete, mainly saying the series is about product safety, quality, and compliance, with the first session on children's toys. Both are broadly accurate and consistent with the anchor, but B contains the fuller, more answer-ready topic list from a highly reliable source."
+}

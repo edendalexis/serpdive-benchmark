@@ -1,0 +1,11 @@
+{
+  "id": 593,
+  "query": "Belém Mission 1.5 initiative participating countries implementation details",
+  "topic": "COP climate summit",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A includes the key UNFCCC page, but its snippet is truncated and does not clearly provide the implementation details asked for. It mentions participating countries only partially ('Türkiye, Australia, Brazil and ...'), omitting Azerbaijan in the visible text. Other results are less directly relevant or are secondary/tertiary sources, and one snippet (C2ES) refers to 'UAE, Azerbaijan, and Brazil Presidencies' and 'Mission 1.5' from 2024-2025, which may confuse this specific Belém Mission context. Overall A has limited direct detail on how the initiative is implemented.",
+  "b_issues": "Content B still does not fully enumerate all participating countries in the visible snippets; the UNFCCC snippet gives implementation details but not the country list. Some secondary results are tangential (local governments, UN News finance item) and could distract from the core answer. However, there is no major factual contradiction in the core UNFCCC result.",
+  "reasoning": "B better enables a correct answer because its top UNFCCC result contains the substantive implementation details: the Belém Mission to 1.5 was conceived under the Global Mutirão Decision; it aims to enable ambition and implementation of NDCs and NAPs; it involves a series of activities and engagements throughout 2026; it focuses on identifying opportunities to accelerate implementation, international cooperation, and investment; and it will culminate in a report ahead of COP31. This aligns with the anchor. A has the same key source but only a very short, cut-off snippet, so an LLM would have less access to the implementation details and only a partial view of the participating countries. While neither set perfectly exposes the full country list in the snippets, B provides materially more accurate and usable implementation information from the authoritative UNFCCC source."
+}

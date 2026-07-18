@@ -1,0 +1,11 @@
+{
+  "id": 117,
+  "query": "Fred High Jewelry Trilogy conclusion Golden Light chapter details July 13 2026 LVMH",
+  "topic": "LVMH",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A is dominated by social-media snippets (Facebook, X, Instagram) with very limited detail. It lacks the key chapter breakdown/details needed to answer the query well, and the LVMH result snippet is too truncated to reliably recover the specifics. It also does not surface the July 13, 2026 dated article with the five chapter details present in the anchor/independent results.",
+  "b_issues": "Content B contains a likely factual inconsistency: it says the sequence is 'Following Inner Light ... and Ideal Light,' whereas the anchor and other independent results indicate the second chapter is 'High Light.' It also says Inner Light was dedicated to Fred Samuel's legacy and Ideal Light to his childhood in Argentina, which may reflect garbling of the trilogy naming/details. However, the rest of the core facts are broadly aligned.",
+  "reasoning": "Content B better enables a correct answer because it includes the official LVMH article plus corroborating WWD and 10 Magazine results. From B, an LLM can answer that Golden Light is the third/final chapter of Fred's high jewelry trilogy, tied to the maison's 90th anniversary, inspired by the French Riviera/light and centered on the Soleil d'Or yellow diamond. The 10 Magazine result also provides the trilogy framing and says the third chapter is an ode to the sun's journey across the French Riviera. By contrast, A mostly offers sparse social snippets and a truncated LVMH snippet, so the necessary chapter details are not sufficiently present. Despite B's naming inconsistency ('Ideal Light' vs. 'High Light'), it still contains substantially more answer-relevant factual material from reliable sources."
+}

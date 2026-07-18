@@ -1,0 +1,11 @@
+{
+  "id": 776,
+  "query": "Gaza ceasefire second phase implementation timeline international security force disarmament status",
+  "topic": "Gaza ceasefire negotiations",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A includes weak and unreliable support from Wikipedia and an advocacy source (J Street), and it does not directly provide the key timeline details such as the eight-month disarmament schedule or the status of the international force. It mainly shows that phase two was announced on 14 January 2026 and that disarmament and an international peacekeeping force were to be discussed, with one result noting implementation reporting in May 2026. This leaves the answer incomplete.",
+  "b_issues": "Content B contains a likely incorrect or conflicting date by saying a three-phase ceasefire plan was implemented on 19 January 2025, whereas the anchor indicates an October 2025 ceasefire and phase two beginning in January 2026. It also relies heavily on lower-authority commentary/think-tank material and YouTube, provides no direct evidence on the international security force status beyond a generic 'security mechanism', and omits the specific implementation timeline such as the gradual eight-month disarmament process.",
+  "reasoning": "A better enables a correct answer because it contains two core facts that align with the anchor: phase two was announced/started on 14 January 2026, and phase two involves Hamas disarmament plus deployment of an international peacekeeping/security force. B also mentions phase two timing and the impasse over disarmament, but it includes a conspicuously conflicting 19 January 2025 ceasefire reference and gives less concrete information on the international force. Neither set is fully sufficient compared with the anchor, because neither includes the key detail that disarmament was to proceed gradually over eight months and neither clearly states the force deployment remained in preparation/uncertain. But A is less contradictory and more directly aligned with the anchor facts."
+}

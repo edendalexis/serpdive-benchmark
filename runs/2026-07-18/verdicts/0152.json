@@ -1,0 +1,11 @@
+{
+  "id": 152,
+  "query": "Zelenskyy July 16 2026 protests Kyiv other cities defense minister dismissal crowd size demands cabinet reshuffle",
+  "topic": "Volodymyr Zelenskyy",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A is thinner on the key facts. Its strongest result (Al Jazeera) says only 'hundreds' protested in Kyiv and mentions several other cities, but does not clearly provide the broader crowd size reflected in the anchor ('thousands'). Other A snippets are mostly derivative/partial and do not clearly state the protesters' main demand in direct terms beyond opposition to the dismissal. Source mix is weaker, with secondary aggregators/reprints and less direct grounding in a high-quality report summarizing the cabinet reshuffle.",
+  "b_issues": "Content B contains a mild internal tension on crowd size: AP-based snippets say 'hundreds' in Kyiv and other cities, while the Kyiv Independent result says 'thousands' gathered in Kyiv and other cities. This is not necessarily contradictory if 'hundreds' refers to Kyiv alone and 'thousands' to the nationwide total, but it could confuse an LLM. Otherwise the facts align well.",
+  "reasoning": "Content B better enables a correct answer because it contains the core facts needed: Zelenskyy moved to dismiss Defense Minister Mykhailo Fedorov; protests occurred in Kyiv and other cities on July 16, 2026; this happened amid a broader cabinet/government reshuffle including a new prime minister; and protesters demanded Fedorov's reappointment. Crucially, B includes the Kyiv Independent snippet explicitly stating 'Thousands of people gathered in downtown Kyiv and other Ukrainian cities ... to demand that parliament reappoint Mykhailo Fedorov as defense minister,' which matches the anchor's emphasis on thousands and the demand. B also includes AP-derived reporting through U.S. News and other reprints, which is reliable and consistent with the anchor. By contrast, A mostly offers 'hundreds' in Kyiv and less explicit statement of the demand, making it more likely an LLM would miss or understate the nationwide scale and the specific ask."
+}

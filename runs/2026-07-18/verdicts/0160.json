@@ -1,0 +1,11 @@
+{
+  "id": 160,
+  "query": "Rivian R2 public customer deliveries start date June 2026 reservation holders official announcement",
+  "topic": "Rivian",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A lacks the key official announcement result from Rivian and instead relies mostly on forum posts and a third-party article. The top forum result says deliveries start in spring 2026 and mentions order windows by end of June, which is not the official June 9, 2026 public customer delivery announcement and is potentially inconsistent with the official timeline. Another result claims Rivian softened the date to 'soon after' June 9, introducing possible contradiction. Overall A does not clearly provide the official announcement or a reliable authoritative statement tying public customer deliveries and reservation-holder order invitations to June 9, 2026.",
+  "b_issues": "Content B includes some lower-reliability supplemental results (forum/Facebook), but its top results are authoritative and consistent. No major factual flaw in the core evidence.",
+  "reasoning": "Content B better enables a correct answer because it contains the official Rivian newsroom announcement and a Business Wire/FT company announcement explicitly stating that on June 9, 2026 Rivian announced the first public customer deliveries of the R2 and that existing reservation holders would start receiving order invitations on a rolling basis beginning that same day. It also includes Rivian Stories saying 'June 9' is when order invites, first customer deliveries, and demo drives begin. These match the anchor closely. Content A, by contrast, is missing the official Rivian announcement and is dominated by forums plus a speculative/interpretive third-party article, with some contradictory timing language. Therefore B is clearly better."
+}

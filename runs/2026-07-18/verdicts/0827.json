@@ -1,0 +1,11 @@
+{
+  "id": 827,
+  "query": "Port of Baltimore 2024 annual cargo tonnage value ranking US ports",
+  "topic": "Port of Baltimore",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A does not directly give the cargo value ranking, and one result is a Facebook post with minimal detail. The strongest relevant fact comes from an AJOT article stating 45.9 million tons in 2024 and an eighth-place national tonnage ranking, but it does not include the 2024 value ranking asked for. Another result includes outdated BTS 2022 rankings, which could confuse an LLM if used improperly.",
+  "b_issues": "Content B is internally inconsistent and mostly about 2025 or 2023 rather than the 2024 figures asked. It includes a 2025 news item saying Baltimore ranked 10th in foreign cargo value and 11th in foreign cargo tonnage, plus another source saying 11th largest U.S. port in foreign cargo tons and 4th largest on the East Coast, but these are not clearly 2024 annual figures and may refer to foreign cargo only rather than total cargo. Another result is about 2023 records, not 2024. The top BTS result is irrelevant snippet text with no usable ranking facts.",
+  "reasoning": "A better enables a correct answer because it contains a directly relevant 2024 fact: the Port of Baltimore handled 45.9 million tons in 2024 and ranked eighth nationally in tonnage. That matches the question’s tonnage component and is from a trade publication article focused on 2024 performance. Although A lacks the value ranking, B is worse because its ranking facts are shifted to 2025 or 2023, refer to foreign cargo rather than clearly the asked 2024 annual cargo figures, and conflict on tonnage rank (10th/11th or East Coast framing). Since the question asks for 2024 tonnage and value ranking, A is the more accurate and less misleading result set overall, even though neither set fully supplies both requested rankings."
+}

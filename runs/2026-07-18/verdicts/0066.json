@@ -1,0 +1,11 @@
+{
+  "id": 66,
+  "query": "xz utils 5.8.2 release date December 2025 changelog download",
+  "topic": "XZ Utils",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Result 1 points only to the generic GitHub releases page, not the specific 5.8.2 release, so the changelog is only partially exposed in snippets. Result 1 also mentions CVE-2025-31115 in nearby release text, which is not the core answer for 5.8.2 and could distract. The direct download link for 5.8.2 is not clearly shown in the snippet, though the official XZ site is present and could lead to it. One result is an unrelated third-party blog post.",
+  "b_issues": "The top result is Debian package tracker data, which gives a Debian package acceptance date (2025-12-26) rather than the upstream XZ Utils 5.8.2 release date, so it is likely to mislead the model on the key date. The GitHub result shown is for 5.8.3, not 5.8.2, and does not provide the 5.8.2 changelog. The SourceForge download result is unreliable/misleading for upstream XZ Utils in this context, saying the library is obsolete and no longer maintained, which conflicts with the official project state. Overall B lacks the actual 5.8.2 changelog text and the authoritative upstream 5.8.2 release page.",
+  "reasoning": "The question asks for XZ Utils 5.8.2 release date, December 2025 changelog, and download. Content A includes official upstream sources that clearly indicate a 17 Dec 2025 release on GitHub/Codeberg and gives snippet text from the 5.8.2 notes (ARM64 glibc <2.24 fix, old MSVC 32-bit x86 CLMUL CRC disable, RHEL 9 sandbox workaround). It also includes the official XZ homepage, which is a plausible route to download information. Content B is weaker because its strongest date signal is the Debian package import date 2025-12-26, which is not the upstream release date from the anchor (2025-12-17). B also surfaces GitHub 5.8.3 instead of 5.8.2 and provides no 5.8.2 changelog text from an authoritative source. Therefore A better enables a correct answer from the provided content alone."
+}

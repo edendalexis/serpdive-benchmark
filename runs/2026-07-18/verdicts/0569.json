@@ -1,0 +1,11 @@
+{
+  "id": 569,
+  "query": "Hades II Post-Launch Patch 3 patch notes latest changes",
+  "topic": "Hades II",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A is almost entirely irrelevant to the query. It returns results for the original Hades game, generic mythology, and unrelated pages, with no result containing Hades II Post-Launch Patch 3 notes or latest changes. It does not provide the facts needed to answer the question.",
+  "b_issues": "Content B still does not directly provide 'Post-Launch Patch 3' notes. It includes a Hades Wiki page for Post-Launch Patch 2, a Nintendo Everything article about a later post-launch update, and a generic Fextralife patch notes page. The Nintendo Everything result appears to describe a different update rather than Post-Launch Patch 3 specifically, so an LLM could misidentify the patch. However, at least the results are about Hades II updates/patch notes.",
+  "reasoning": "B better enables an answer because it contains Hades II patch-related sources and some concrete patch-note-style changes, whereas A contains no useful Hades II Patch 3 information at all. Neither set cleanly answers the exact question about 'Hades II Post-Launch Patch 3 patch notes latest changes,' but B is closer: it is on-topic and includes patch-note content from Hades II sources. A is effectively unusable for this query."
+}

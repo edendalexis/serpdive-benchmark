@@ -1,0 +1,11 @@
+{
+  "id": 872,
+  "query": "Keir Starmer resignation announcement date Labour leader 2026",
+  "topic": "Keir Starmer",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "No major factual flaw for answering the date question. The key fact is present via BBC and corroborated by other results: Starmer announced on Monday, 22 June 2026. Minor issues: the top BBC snippet is truncated and includes unrelated Mandelson/Epstein text; one result is Wikipedia and one is a low-reliability encyclopedia mirror, but they do not conflict on the date.",
+  "b_issues": "No major factual flaw for answering the date question. The key fact is present in multiple results: Facebook post, NYT, CNN, and Al Jazeera all indicate 22 June 2026 / Monday, 22 June 2026. Minor issues: the top result is a Facebook post rather than a primary news source, and Wikipedia is lower-reliability than mainstream reporting, but there is no contradiction on the date.",
+  "reasoning": "Both result sets clearly contain the answer needed: Keir Starmer announced his resignation on 22 June 2026. In A, the BBC result directly gives the article/date and other results corroborate it. In B, NYT, CNN, and Al Jazeera likewise state he announced his resignation on Monday, 22 June 2026. Since both sets provide the crucial fact accurately and without meaningful contradiction, neither better enables the LLM than the other for this specific question."
+}

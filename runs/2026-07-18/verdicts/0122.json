@@ -1,0 +1,11 @@
+{
+  "id": 122,
+  "query": "Sanae Takaichi LDP snap election 2026 results two-thirds majority Cabinet",
+  "topic": "Japan Prime Minister",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor inconsistency in seat totals: one result says the LDP won 316 seats, another says official results confirmed 315. There is also variation in coalition framing across results (former partner Komeito vs coalition partner JIP), which could confuse an LLM about Cabinet/coalition composition.",
+  "b_issues": "Contains a low-reliability Facebook post as the top result and a Wikipedia page, both weaker than major newswire/reporting sources. One YouTube snippet is internally inconsistent, saying two-thirds is 'more than 300 seats' but also 'well past the magic number of 233 for a simple majority,' which may confuse thresholds. The set provides less direct, source-grounded information about the Cabinet/coalition context than A.",
+  "reasoning": "Content A better supports a correct answer because it includes multiple high-quality, directly relevant sources (BBC, Japan Times, AFP/France24, CSIS, Lowy) that consistently establish the key facts: Takaichi called a snap election, the LDP won about 315–316 seats in the 465-seat lower house, and this amounted to a two-thirds supermajority, with coalition totals around 351–352. These facts align closely with the anchor. Content B also contains the core result, especially via Kyodo, but it is weakened by poorer source quality at the top (Facebook, Wikipedia, YouTube) and more confusing threshold language. So A more reliably enables an LLM to answer the query correctly from the provided content alone."
+}

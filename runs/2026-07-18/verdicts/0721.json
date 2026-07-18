@@ -1,0 +1,11 @@
+{
+  "id": 721,
+  "query": "PDD Holdings Q1 earnings report profit decline percentage US tariffs impact",
+  "topic": "Temu",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A contains mixed and potentially confusing profit-decline figures. Its strongest official-result snippet says net income declined 15% and non-GAAP net income declined 17%, but another result for Q1 2025 says non-GAAP net income had decreased 45% in that earlier quarter, and a Facebook/IBD snippet says first-quarter net profit fell 47 percent amid tariffs. That 47% figure appears to come from Reuters-style coverage of a different framing and could mislead the model about which profit metric the earnings report itself gave. Also, the tariffs impact is only hinted at in a weak Facebook snippet, not clearly explained from a high-reliability source in the provided results.",
+  "b_issues": "Content B is also incomplete on the tariffs-impact part. It gives the official earnings-release numbers clearly (net income down 15%, non-GAAP net income down 17%) but does not provide a strong source directly tying the decline to U.S. tariffs. The only tariff-related result is a generic Tax Foundation tariff tracker unrelated to PDD, so the impact of U.S. tariffs on PDD cannot really be answered from B alone. There is also no Reuters-like explanatory article in B to connect tariffs to Temu/PDD performance.",
+  "reasoning": "The question asks for both the profit decline percentage and the U.S. tariffs impact. Both A and B provide enough to answer the first part from the official Q1 2026 earnings report: net income attributable to ordinary shareholders declined 15%, and non-GAAP net income declined 17%. However, neither set adequately supports the second part. A at least mentions tariffs in a low-reliability Facebook/IBD snippet and includes conflicting 47% language that could be mistaken for the report’s own profit-decline figure; B is cleaner and more reliable for the earnings figures but essentially lacks PDD-specific tariff-impact evidence. Since A is stronger on tariff mention but noisier and potentially misleading on the decline percentage, while B is stronger on the official decline percentage but fails on tariffs, neither clearly enables a correct full answer better than the other."
+}

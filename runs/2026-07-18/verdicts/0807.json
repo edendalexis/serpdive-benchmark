@@ -1,0 +1,11 @@
+{
+  "id": 807,
+  "query": "Satya Nadella Microsoft 15000 layoffs job cuts unlearning learning AI era statement year",
+  "topic": "Satya Nadella",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A includes relevant reports, but it does not clearly provide the key quoted idea beyond the truncated headline phrase about a 'difficult process of unlearning and …'. It lacks the official Microsoft blog result and does not explicitly surface the year/dated statement as well as B. Some lower-ranked results are vague or less reliable for the exact quote.",
+  "b_issues": "Content B includes one noisy LinkedIn result and an ABC News result about a different Microsoft layoff episode, which could distract. However, these do not directly contradict the core facts.",
+  "reasoning": "B better enables a correct answer because it contains the strongest combination of relevant, accurate facts from reliable sources. It includes CNBC stating the layoffs were over 15,000 people in 2025 and that Nadella said they had been 'weighing heavily' on him, the official Microsoft blog dated 2025-07-24 confirming the statement itself, and GeekWire explicitly giving the crucial wording that the transformation requires a difficult process of 'unlearning' and 'learning' in the AI era. Together these directly answer the likely question: the statement was made in 2025, after Microsoft had cut over 15,000 jobs, and it was about unlearning/learning during the AI transition. A has some of this, but the decisive quote is truncated and less directly recoverable from the provided snippets."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 623,
+  "query": "Novak Djokovic ATP ranking after Wimbledon 2026",
+  "topic": "Novak Djokovic",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A only indirectly supports the answer. Its strongest evidence is a Tennishead snippet implying Djokovic’s ranking changed after Wimbledon, but the snippet shown does not explicitly state his final rank. The ESPN result likely contains the needed facts, but the snippet shown does not mention Djokovic’s exact ranking. Other results are generic rankings pages or older pre-Wimbledon context, so an LLM may have to infer or guess.",
+  "b_issues": "Content B includes some less relevant/general results (Wikipedia, generic ATP overview), but it directly contains ATP Tour snippets stating Djokovic is ranked 7 with 3,760 points, and ESPN also shows ATP Rank #7. No meaningful contradiction is visible.",
+  "reasoning": "The question asks for Novak Djokovic’s ATP ranking after Wimbledon 2026. Content B explicitly provides that answer from highly reliable sources: the ATP Tour rankings-history snippet shows '7 Rank', the ATP Tour rankings-breakdown snippet shows 'Rank 3760 Points' (i.e. rank 7 with 3,760 points), and ESPN lists 'ATP Rank #7'. This aligns with the anchor. Content A has hints consistent with Djokovic moving up after Wimbledon, but the visible snippets do not clearly state his exact final ranking, making it less dependable for a model restricted to the returned content alone."
+}

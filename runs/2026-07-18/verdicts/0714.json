@@ -1,0 +1,11 @@
+{
+  "id": 714,
+  "query": "Emmanuel Macron Fontainebleau forest wildfires arson visit statement hectares 2026",
+  "topic": "Emmanuel Macron",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A is mostly accurate, but it is a bit thinner on Macron's actual statement and mixes broader national wildfire figures with the Fontainebleau-specific facts. It says 'more than 2,000 hectares hit by fires since July 5' while another result says 'nearly 2,000 hectares,' which is a minor inconsistency. One result from EFE mentions suspected arson and 800 hectares on July 13, which may reflect an earlier stage but could confuse timeline-specific answering. It lacks the direct quote from Macron found in other sources and does not include the official Elysee statement result.",
+  "b_issues": "Content B includes a low-reliability YouTube result at the top, though its facts broadly align with Reuters. There is a small inconsistency between 'forced hundreds of residents to flee' and 'forced 1,000 residents to flee' within the France 24 snippet, but this is likely due to article wording rather than a core factual contradiction.",
+  "reasoning": "B better enables a correct answer because it contains the key facts matching the anchor in a clearer, more directly answerable form: Macron visited Fontainebleau on July 16, 2026; he said there would be 'zero tolerance' for arson; he also vowed to replant the forest and launched a fundraising campaign; the Fontainebleau forest is a 20,000-hectare domain of which at least 10% burned; and more than 2,000 hectares were affected in the forest, while around 35,000 hectares were impacted nationally. B includes strong, reliable sources directly stating these points, especially France 24, RFI, Reuters, and Straits Times. A also has most of these facts, but B presents Macron's statements and the relevant hectare figures more explicitly and cohesively."
+}

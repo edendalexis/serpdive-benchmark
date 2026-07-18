@@ -1,0 +1,11 @@
+{
+  "id": 951,
+  "query": "TikTok Shop Deals for You Days July 2026 LIVE Price Match Guaranteed cash back details",
+  "topic": "TikTok Shop",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A is internally inconsistent on the event timing: its top result (HiveHQ) says Deals For You Days 2026 runs June 17 to July 2, 2026, while the question asks about July 2026 and the anchor/press coverage tie LIVE Price Match Guaranteed to the July 7–19 event. It also lacks concrete cashback details beyond a vague Retail Dive snippet saying cash back is offered to select livestream participants who find a lower price elsewhere. The most relevant official TikTok result shown is truncated and does not expose the needed price-match/cash-back terms. Several results are low-reliability or irrelevant for answering the cashback-details question (Instagram post, Groupon coupons).",
+  "b_issues": "Content B also includes the HiveHQ result with the conflicting June 17–July 2 timeline, which may confuse the agent. It still does not provide full official terms such as claim window, exclusions, or exact eligible sites/products, and most cashback detail comes from Retail Dive rather than TikTok’s own terms page. Coupon results are irrelevant noise.",
+  "reasoning": "B better enables a correct answer because it contains the key July-specific fact directly in the most relevant result: Retail Dive states that TikTok Shop’s Deals for You Days runs July 7 through July 19 and that the platform is offering cash back to select consumers who find a lower price on another platform. That matches the anchor’s description of LIVE Price Match Guaranteed as cashback when a lower eligible price is found. A has a similar Retail Dive snippet, but its highest-ranked and most prominent results push an apparently conflicting June 17–July 2 2026 date, making it more likely an LLM would answer the event timing incorrectly. Neither set includes the full official cash-back terms, but B presents the core facts more accurately and with less damaging contradiction around the July 2026 event."
+}

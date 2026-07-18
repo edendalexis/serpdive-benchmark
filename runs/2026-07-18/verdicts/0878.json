@@ -1,0 +1,11 @@
+{
+  "id": 878,
+  "query": "Keir Starmer BBC interview deeply personal extremely difficult decision step down quote June 2026",
+  "topic": "Keir Starmer",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A has only one result and the query says June 2026 whereas the surfaced article is dated 3 July 2026, but the result itself contains the key quote and context accurately. No internal contradiction is evident.",
+  "b_issues": "Content B relies mainly on YouTube/video repost entries rather than the primary BBC article, so it is less authoritative. It gives only paraphrased snippets and omits the fuller quote text present in A. It also includes a less relevant BBC result about another article, which could distract. As with A, the surfaced material is July 2026 rather than June 2026.",
+  "reasoning": "A better enables a correct answer because it directly includes the BBC article text with the crucial facts: this was Starmer's first interview since resigning, it was on 3 July 2026, and he described stepping down as an \"intensely personal\" and \"really tough\" decision taken with his wife and children at Chequers. That is exactly the substance needed to answer the question about the quote. B points to BBC News YouTube clips summarizing the same interview, so it is broadly consistent, but it is less reliable and less complete because it mainly provides paraphrases rather than the article text/quote itself."
+}

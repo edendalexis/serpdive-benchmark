@@ -1,0 +1,11 @@
+{
+  "id": 451,
+  "query": "Nobel Prize ceremony December 10 2024 Stockholm attendees speeches banquet details",
+  "topic": "Nobel Prize 2024",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Mostly irrelevant or weak for the specific 10 Dec 2024 Stockholm question. The top result is generic Wikipedia on the Nobel Banquet, not 2024-specific. Another result is mislabeled/oddly retrieved ('Opening address – Nobel Prize award ceremony 2025') but its snippet mentions a 10 December 2024 speech, creating ambiguity. Other results are generic tourism/social-media pages and do not provide the requested attendee, speech, or banquet details. No solid 2024 attendee list or banquet programme details are actually present in the snippets.",
+  "b_issues": "Also largely fails to surface the key 2024-specific facts. The top result is about the 2025 ceremony, not 2024. One result is a 2024 award-ceremony video page, which at least confirms date/location and mentions a programme PDF, but the snippet does not contain the actual speeches or attendee/banquet details. Other results are generic or old (2016 Time article), and Wikipedia/Sharing Sweden only give general banquet facts (~1,300 guests) rather than 2024-specific invitees or programme details.",
+  "reasoning": "Neither result set contains enough trustworthy, specific information from the snippets alone to answer the full query correctly. The anchor indicates the key facts should include the 10 Dec 2024 Stockholm Concert Hall ceremony, speeches by Astrid Söderbergh Widding and prize presentation speeches, invited Swedish officials/party leaders, and banquet programme details. Content A gives only generic banquet info and vague snippets; Content B gives date/location via a NobelPrize.org 2024 video page and generic banquet size, but still lacks the requested 2024 attendee and speech details. Because both are missing essential 2024-specific facts and contain off-target results, neither clearly enables a correct answer better than the other."
+}

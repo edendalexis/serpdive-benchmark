@@ -1,0 +1,11 @@
+{
+  "id": 448,
+  "query": "Notre-Dame de Paris spire lower roofing completion date June July 2025",
+  "topic": "Notre-Dame de Paris",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "A does not surface the key page that directly states the lower spire roofing was finished. Its best relevant snippet only says the roofing of the lower part of the spire still needed to be completed and separately says the statues would return in June and July 2025, which could mislead an LLM into tying completion to June/July without explicit support. Other results are older or only mention end-of-July removal of scaffolding/tarps, not the lower roofing completion date.",
+  "b_issues": "B has duplicate results for the same Friends of Notre-Dame article and does not provide an explicit publication date in the snippet. It says the spire roofing is finished and that statues return in June and July 2025, but it still does not give a precise calendar date for completion beyond that article context.",
+  "reasoning": "B better enables a correct answer because it contains the directly relevant source, 'The spire is finished!', from Friends of Notre-Dame de Paris, which explicitly states that the lower part spire roofing had needed completion and that the spire roofing is now finished. This matches the anchor. A lacks that decisive statement and mainly offers a progress-update snippet mentioning that the lower roofing still needed completion plus the June/July 2025 statue return, which is not itself the completion date. Therefore B provides the key fact more clearly and reliably, while A is more ambiguous and easier to answer incorrectly from."
+}

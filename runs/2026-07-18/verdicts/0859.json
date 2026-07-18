@@ -1,0 +1,11 @@
+{
+  "id": 859,
+  "query": "SAG-AFTRA Interactive Media Agreement 2025 compensation increase 15.17% November 2025 3% effective date implementation",
+  "topic": "SAG-AFTRA",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A has the key facts, but it is weaker and slightly noisier. One result says wages increased by a compounded 15.7% rather than 15.17%, which introduces inconsistency. It also does not clearly provide the specific implementation date for the 3% increase, only saying 'in November 2025' rather than the more precise 'effective November 1, 2025.' Some results are low-value/noisy (Wikipedia references dump, Facebook snippet).",
+  "b_issues": "Content B includes one top SAG-AFTRA page snippet that does not surface the compensation details, so the most relevant facts come from lower results. It also contains the same 15.7% vs. 15.17% inconsistency in the Frankfurt Kurnit result. However, B additionally includes SAG-AFTRA PDF snippets that specify '15.17% effective upon ratification' and '3% effective November 1, 2025,' which resolve the implementation-date question directly.",
+  "reasoning": "Both sets contain enough information to answer that the 2025 SAG-AFTRA Interactive Media Agreement provides a 15.17% compensation increase upon ratification plus a further 3% increase in November 2025. But Content B is better because it includes more precise and directly answer-bearing evidence from SAG-AFTRA materials: a PDF summary stating '15.17% effective upon ratification' and '3% effective November 1, 2025,' plus a wage table corroborating the staged increases. Content A lacks that precise effective-date implementation detail and has more noise. Despite the minor 15.7% inconsistency in one secondary source, B better enables a correct answer from reliable sources."
+}

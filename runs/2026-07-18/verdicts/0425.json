@@ -1,0 +1,11 @@
+{
+  "id": 425,
+  "query": "Rafah city post-destruction population numbers 2026 return figures",
+  "topic": "Rafah",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A does not provide the needed 2026 return figures for Rafah city. Its most relevant results are generic background pages (Wikipedia, Britannica) and an OCHA note only mentioning limited medical evacuations and returns through Rafah crossing, not population return numbers. It includes weak or unreliable sources such as a Facebook post and broad reportage. It also gives potentially misleading context about wartime displacement into Rafah (1.4 million in 2024) that is not the post-destruction resident/return population asked for.",
+  "b_issues": "Content B also does not provide the needed 2026 return figures for Rafah city. Its results are mostly about Gaza-wide or unrelated displacement, border-crossing access, and security context. The GOV.UK snippet appears to mention Rafah but without a clear population or return figure, and other sources are indirect or secondary. No result gives a concrete 2026 post-destruction Rafah city population or number of returnees. Some sources are low-value for the query (blog, broad policy bulletin) and may confuse Gaza-wide trends with Rafah-specific figures.",
+  "reasoning": "The question asks for Rafah city post-destruction population numbers or 2026 return figures. The anchor indicates the kind of answer likely needed would come from official population statistics (e.g., PCBS projected 2026 population for Rafah) and/or specific reporting on returns after destruction. Neither set contains that. A has one somewhat relevant humanitarian source and background on destruction, but no numeric return/population figure. B has humanitarian and crossing-related updates, but again no Rafah city 2026 return number. Since neither result set contains the key fact needed to answer correctly from the content alone, neither better enables a correct answer."
+}

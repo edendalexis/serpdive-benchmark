@@ -1,0 +1,11 @@
+{
+  "id": 656,
+  "query": "UNRWA Gaza relief beneficiaries number 2025 ceasefire food assistance emergency shelters",
+  "topic": "United Nations Relief and Works Agency for Palestine Refugees in the Near East",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A is dominated by a July 2026 UNRWA situation report, which is off-time for a 2025 ceasefire query. It mentions that during the ceasefire UNRWA reached over two million people with food assistance, but its shelter figure (116 shelters hosting 76,000 IDPs) is from 2026 and not the relevant 2025 ceasefire period. Another result is unrelated promotional content from UNRWA USA, and another is an OCHA 2026 report. This mix risks an incorrect answer by pulling in later figures instead of the 2025 ceasefire numbers.",
+  "b_issues": "Content B includes some noisy/off-target results: two later UNRWA situation reports (#199 and #195) focused on cumulative assistance since October 2023, and one OCHA item about an October 2025 ceasefire rather than the January-March 2025 ceasefire. It also includes an X/Twitter post, which is less authoritative than an official report. However, that post gives figures that align with the anchor: food to 2 million people, shelter to about 120,000 displaced people, and healthcare over 364,000.",
+  "reasoning": "The question asks for 2025 ceasefire-era UNRWA Gaza relief beneficiary numbers, especially food assistance and emergency shelter-related figures. The anchor shows the key facts: since the start of the ceasefire, UNRWA delivered critical food assistance to an estimated 2 million people / the entire Gaza population, and reached more than half a million people with shelter and non-food items in situation reports #161/#162; a related ReliefWeb item also states UNRWA reached 2 million people in Gaza with relief and assistance. Content B is closer because it contains a result with the correct ceasefire-period food figure of 2 million and a shelter-related beneficiary figure (120,000 displaced individuals) tied to the ceasefire context, whereas Content A mostly surfaces 2026 materials and gives a 2026 shelter occupancy number that is not the answer to the 2025 question. So B better enables an LLM to answer correctly from the provided content alone."
+}

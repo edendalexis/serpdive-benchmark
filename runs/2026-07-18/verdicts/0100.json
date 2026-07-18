@@ -1,0 +1,11 @@
+{
+  "id": 100,
+  "query": "Boeing Q2 2026 commercial defense deliveries total by program",
+  "topic": "Boeing",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "One result (Pluang) incorrectly says Q2 defense deliveries were 65 rather than 35; 65 is the year-to-date defense total. Several snippets are partial and do not list the full by-program defense breakdown, but the official Boeing investor result is present and directly relevant.",
+  "b_issues": "Results mostly provide only aggregate totals (171 commercial, 35 defense, 65 YTD defense) and only partial by-program detail. It lacks the official Boeing investor/mediaroom result in the shown set. Because the question asks for deliveries 'total by program,' the result set does not clearly supply the full program-level breakdown. There is also dependence on secondary/AI-generated summaries rather than primary source content.",
+  "reasoning": "Content A better enables a correct answer because it includes Boeing’s official investor press-release result, which is the primary source for Q2 2026 deliveries by major program. That official snippet at least confirms the commercial program totals (737 129, 767 10, 777 7, 787 25; commercial total 171) and identifies the defense section; combined with the other snippets, an LLM is more likely to infer the correct commercial/defense totals. Although A contains one contradictory secondary result (Pluang misstates defense as 65 in Q2), the primary-source Boeing link is present and outweighs it. Content B, by contrast, mostly repeats only high-level totals and partial examples of defense programs, without the official Boeing source in the displayed results and without the full by-program breakdown needed for the question. Therefore A is the better set."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 926,
+  "query": "Wicked For Good 2025 total worldwide box office final gross current",
+  "topic": "Wicked",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor inconsistency between sources: The Numbers snippet in A does not show the worldwide total directly and the anchor shows a different The Numbers total ($539,573,679) than Box Office Mojo/IMDb ($540,807,925). However, A includes two consistent high-reliability sources (IMDb and Box Office Mojo) both stating worldwide gross $540,807,925, which directly answers the query.",
+  "b_issues": "B’s top result gives a different The Numbers total: worldwide $540,060,870 and international $197,145,780, which conflicts with the anchor and with other sources. B lacks a Box Office Mojo or IMDb result with the likely final/current total, so the best direct answer available in B is from a conflicting source. Other results are opening-weekend or milestone articles, not final/current totals.",
+  "reasoning": "The question asks for the current/final total worldwide box office gross of Wicked: For Good (2025). Content A directly contains Box Office Mojo and IMDb results that both give Worldwide = $540,807,925, with matching domestic and international figures, making it easy for an LLM to answer correctly from reliable sources. Content B’s strongest directly relevant result is The Numbers with $540,060,870, but that conflicts with the anchor and B provides no equally authoritative corroborating result for the final/current worldwide number. Therefore A better enables a correct answer."
+}

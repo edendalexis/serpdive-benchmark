@@ -1,0 +1,11 @@
+{
+  "id": 115,
+  "query": "Bulgari Place Vendome historic location celebration event July 2026 LVMH",
+  "topic": "LVMH",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A relies heavily on Instagram snippets, which are weak and not clearly reliable for establishing the event. The key result claims an \"Eternally Reborn\" heritage exhibition at the Bvlgari Place Vendôme flagship on July 13, 2026, but this is not corroborated by a strong primary source in the set. Other results are mostly irrelevant (Biennale Arte 2026, LVMH Watch Week 2026) or only loosely related. It does not clearly connect the query’s elements of a historic location celebration event and LVMH in a dependable way.",
+  "b_issues": "Content B does not mention Bvlgari Place Vendôme explicitly in the visible snippets, so it is somewhat indirect. Most results are general LVMH special-event or watch-week items, and only the Les Journées Particulières 2026 program result is plausibly tied to a historic-location celebration theme. It may still leave ambiguity about the exact Bvlgari/Place Vendôme event if answering strictly from snippets alone.",
+  "reasoning": "B is better because it includes a high-reliability primary LVMH source about Les Journées Particulières 2026 and explicitly frames the event around returning to the origins of the Maisons and the places where they are rooted, which matches the query’s idea of a historic location celebration event under LVMH. A has a more direct mention of Bvlgari Place Vendôme and a July 13, 2026 opening, but that comes from Instagram and is not well supported by reliable sources in the result set; the rest of A is largely off-topic. So while neither set is ideal, B more credibly enables a correct answer from trustworthy information."
+}

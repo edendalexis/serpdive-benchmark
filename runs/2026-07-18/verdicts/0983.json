@@ -1,0 +1,11 @@
+{
+  "id": 983,
+  "query": "Sundar Pichai AI Impact Summit 2026 New Delhi India-America Connect Initiative launch",
+  "topic": "Sundar Pichai",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A is sparse and relies heavily on secondary or low-reliability sources such as YouTube, Facebook, and X. It does not include the authoritative Google blog post or the summit reference page. It also uses 'India-America Connect' in some snippets, while the authoritative naming in the anchor is 'America-India Connect,' creating potential naming confusion.",
+  "b_issues": "Content B includes a LinkedIn post rather than the direct Google infrastructure announcement page, so it is not as strong as it could be on the launch details. It also contains one possibly noisy Mint snippet ('just before India joined Pax Silica') that is not supported by the anchor and may confuse an LLM. However, these do not materially block answering the question.",
+  "reasoning": "Content B better enables a correct answer because it contains the authoritative Google CEO post confirming Sundar Pichai spoke at the AI Impact Summit 2026, the official summit page confirming the event was held in New Delhi on February 19–20, 2026, and supporting reporting that the America-India Connect initiative was launched there as a subsea connectivity project between the US and India. This aligns with the anchor, including the official naming 'America-India Connect.' By contrast, Content A has only one substantive news result plus several social/video snippets, lacks the official Google sources, and introduces naming inconsistency ('India-America Connect'), making it less reliable and more error-prone for an LLM."
+}

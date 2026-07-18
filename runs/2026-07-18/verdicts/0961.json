@@ -1,0 +1,11 @@
+{
+  "id": 961,
+  "query": "Narendra Modi Qatar Amir condolence call July 16 2026 Father Amir Sheikh Hamad bin Khalifa Al Thani official statement",
+  "topic": "Narendra Modi",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A lacks the key official statement the query asks for. Its top result is a Facebook post, which is not a reliable official source. The set has only secondary/tertiary reports and snippets, with no direct PMO/MEA/Qatari readout. It also includes potentially noisy or less authoritative sources (Facebook, WebIndia123, Asianet, UNI) and does not clearly provide the official wording of the July 16, 2026 call.",
+  "b_issues": "Content B is much stronger, though snippets are brief. It does not show the full text inline, so some details beyond the condolence call may require inference from snippets. However, it includes direct official sources from Qatar's Diwan, MEA, PIB, and PMIndia.",
+  "reasoning": "The question specifically asks about Narendra Modi's condolence call to the Qatar Amir on July 16, 2026 and the official statement regarding Father Amir Sheikh Hamad bin Khalifa Al Thani. Content B directly contains official-source results matching that need: the Qatari Diwan page for the call on July 16, plus MEA, PIB, and PMIndia official releases stating that the Prime Minister conveyed heartfelt condolences on the passing of H.H. Sheikh Hamad bin Khalifa Al Thani, the Father Amir of Qatar. This is both accurate and authoritative, and aligns with the anchor. Content A has some correct secondary reporting, but it does not surface the official statement itself and relies on weaker/non-official sources, so it is less suitable for an LLM that must answer from the provided results alone."
+}

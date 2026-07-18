@@ -1,0 +1,11 @@
+{
+  "id": 470,
+  "query": "SpaceX Cursor acquisition purchase price",
+  "topic": "Elon Musk",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "No major factual flaw on the core question. Multiple reliable results state the acquisition price was $60 billion, generally as an all-stock deal. Minor issue: one Forbes snippet says SpaceX could either pay Cursor $10 billion for the collaboration or buy it for $60 billion, while other reports frame the alternative as a breakup/work-together arrangement; but this does not affect the purchase price answer.",
+  "b_issues": "No major factual flaw on the core question. Multiple reliable results state the acquisition price was $60 billion, generally in stock. Minor inconsistency in one Forbes result: it says SpaceX could buy Cursor for $60 billion or pay $1.5 billion in breakup fees and $8.5 billion in computing resources if the deal did not go through, whereas other sources describe the alternative differently; but this does not change the purchase price.",
+  "reasoning": "Both A and B clearly contain the key fact needed to answer the question: SpaceX agreed to acquire Cursor for $60 billion. In A, CNBC, TechCrunch, Business Insider, and Forbes all support that figure. In B, CNBC, TechCrunch, Forbes, and Fortune do as well. The sources in both sets are strong and the core fact is repeated consistently. Since both sets equally enable an LLM to answer 'the purchase price was $60 billion' correctly, neither is meaningfully better."
+}

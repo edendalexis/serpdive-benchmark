@@ -1,0 +1,11 @@
+{
+  "id": 713,
+  "query": "Emmanuel Macron condition opening French embassy Palestinian state recognition UN General Assembly",
+  "topic": "Emmanuel Macron",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Minor issue: the strongest evidence is a YouTube/CBS clip rather than a text news article, and one NYT snippet is truncated. But the key fact is explicitly present and consistent across multiple results: Macron said hostage release by Hamas is a requirement before France would open an embassy in Palestine, while formal recognition would occur at/around the UN General Assembly.",
+  "b_issues": "B gives good background on France recognizing a Palestinian state at the UN General Assembly, but it does not provide the key condition asked about for opening a French embassy. It lacks the crucial hostage-release condition entirely, so an LLM relying on B alone would likely miss or guess the answer.",
+  "reasoning": "The question asks specifically about Macron's condition for opening a French embassy in Palestine in the context of recognizing a Palestinian state at the UN General Assembly. Content A directly states that Macron planned to formalize recognition at the UN General Assembly and that opening an embassy would require Hamas to release the remaining hostages. Multiple A results repeat this point. Content B supports the recognition/UNGA timing, but not the condition on opening an embassy. Therefore A better enables a correct answer."
+}

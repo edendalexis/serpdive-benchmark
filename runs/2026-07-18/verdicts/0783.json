@@ -1,0 +1,11 @@
+{
+  "id": 783,
+  "query": "Netanyahu Iran uranium removal demand date 2026",
+  "topic": "Benjamin Netanyahu",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A has only brief snippets for the key result and does not include the crucial quote or interview context. It also contains noisy/less reliable results such as a Facebook post and a Wikipedia page unrelated to the specific date asked. One result (CNBC, Mar. 19, 2026) appears to conflict in framing with the later demand by saying Iran no longer had enrichment capacity, which could confuse an LLM about timing and context.",
+  "b_issues": "Content B includes some low-reliability/noisy results (CryptoBriefing, LinkedIn) and a Ynet snippet with awkward/truncated wording. However, its top results directly state the relevant fact.",
+  "reasoning": "The question is asking for the date/context of Netanyahu's 2026 demand that Iran's enriched uranium be removed. Both sets point to the same event, but B better enables a correct answer because its top AL-Monitor snippet includes the key quote: 'there's still nuclear material -- enriched uranium -- that has to be taken out of Iran' and says it was in an interview that aired Sunday on CBS's '60 Minutes.' The accompanying Anadolu result also says this was on May 10, 2026. That is enough to infer the date and substance accurately. In A, the top result only gives the title/date without the quote, and the rest of the set is noisier and more potentially confusing. So B more clearly supports the correct answer: Netanyahu made the demand on May 10, 2026, in a CBS '60 Minutes' interview."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 313,
+  "query": "Ursula von der Leyen October 2025 critical raw materials rare earth elements strategy target country",
+  "topic": "Ursula von der Leyen",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "A includes Reuters, which accurately says the strategy is aimed at reducing reliance on Chinese critical raw materials, but it does not clearly provide the specific named strategy or the target-country list implied by the query. The other results are weaker/less directly relevant: a Council infographic is generic, a GIGA article is background only, and a Politico result shown is a different article snippet without the key details. So A is somewhat incomplete for answering the full query from the search results alone.",
+  "b_issues": "B includes one older/background Chemistry World result that is not about the October 2025 announcement and could distract. Euronews has a minor wording error ('European Commission Ursula von der Leyen'). Otherwise the key facts are consistent.",
+  "reasoning": "The query asks about Ursula von der Leyen's October 2025 critical-raw-materials/rare-earth strategy and the target country. Both sets make clear the strategy is a response to dependence on China and Chinese export restrictions, so the target country is China. However, B better enables a correct answer because it explicitly names the strategy as RESourceEU and, via Politico, gives the concrete partner-country targets: Ukraine, Australia, Canada, Kazakhstan, Uzbekistan, Chile and Greenland. A has accurate Reuters reporting that the EU is developing a plan to curb reliance on Chinese critical raw materials, but it lacks the same specificity on the strategy name and target countries. Therefore B more fully and reliably contains the facts needed to answer the question correctly."
+}

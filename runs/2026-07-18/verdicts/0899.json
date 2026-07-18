@@ -1,0 +1,11 @@
+{
+  "id": 899,
+  "query": "Alien Romulus sequel Predator appearance script rumors April 2025",
+  "topic": "Alien: Romulus",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A has the core rumor from AVP Galaxy, but several other results are weak or noisy: a forum thread, an X post with truncated text, and low-reliability aggregation/speculation pages. It does not clearly surface the key detail that Jeff Sneider specifically said on The Hot Mic that the script/features a Predator, nor does it add much corroborating context beyond the single AVP Galaxy snippet. One result also introduces extra rumors (de-aged Sigourney Weaver) that are not part of the anchor and could distract or mislead.",
+  "b_issues": "Content B includes one speculative/secondary item from Weyland Uplink that repeats additional rumors such as de-aged Sigourney Weaver, which is not necessary and may be unreliable. Budapest Reporter is also a weaker source. However, these do not directly contradict the core claim.",
+  "reasoning": "B better enables a correct answer because it contains the same primary AVP Galaxy report as the anchor and, crucially, a Yahoo result that states the rumor more specifically: Jeff Sneider said on The Hot Mic that he had been told Fede Álvarez's Alien: Romulus follow-up script features a Predator. B also includes relevant supporting context matching the anchor: Álvarez has expressed interest in an AVP-style crossover, and 20th Century's Steve Asbell previously suggested another crossover would probably happen. A has the basic rumor, but its additional results are noisier and less informative, with less precise sourcing of the claim. Therefore B gives an LLM a stronger factual basis to answer the question correctly."
+}

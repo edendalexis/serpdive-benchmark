@@ -1,0 +1,11 @@
+{
+  "id": 989,
+  "query": "Sundar Pichai AI Impact Summit 2026 AlphaFold emerging economies remarks",
+  "topic": "Sundar Pichai",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A does contain the key official Google blog result and a transcript-style page, but the snippets shown do not explicitly surface the AlphaFold remark together with the emerging-economies/leapfrog remark in one place. Several top results are weaker or less reliable for factual grounding (YouTube live video, LinkedIn post, Mashable summary), and the Google blog snippet is partial. Still, nothing clearly contradicts the anchor.",
+  "b_issues": "Content B also contains the needed facts, but relies more on secondary reporting and a transcript snippet rather than the official Google blog. Its top CNBC result is only preview/context and not directly about the remarks. The Singju Post snippet mixes remarks from multiple speakers, so attribution of AlphaFold specifically to Sundar vs. Demis could be less clear from snippet alone. No clear contradiction to the anchor is present.",
+  "reasoning": "Both sets let an LLM recover the core answer: Pichai said AI could drive scientific breakthroughs, citing AlphaFold, and said AI could help emerging economies leapfrog stages of development. In A, the official Google blog plus transcript-related results strongly support the speech context, and LinkedIn snippet explicitly mentions emerging economies leapfrogging. In B, the ET EnterpriseAI result explicitly states that AI can enable emerging economies to leapfrog, while the Singju Post transcript snippet explicitly mentions AlphaFold’s impact. Neither set is clearly superior because each provides one half of the needed answer directly and the other half via another result, and both are broadly consistent with the anchor."
+}

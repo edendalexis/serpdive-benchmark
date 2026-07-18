@@ -1,0 +1,11 @@
+{
+  "id": 931,
+  "query": "Klarna Q1 2026 revenue adjusted operating profit consumers merchants",
+  "topic": "Klarna",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "No material factual flaws for answering this query. Content A includes authoritative Klarna investor relations and the official earnings release PDF with the key figures: revenue $1.012bn/$1.0bn, adjusted operating profit $68m, active consumers 119m, merchants 1,075k or over 1m. Minor issue: one third-party result is truncated and another non-authoritative article appears, but they do not conflict with the official figures.",
+  "b_issues": "No material factual flaws for answering this query. Content B includes the official Klarna press release and official earnings release PDF, plus a featured snippet and secondary summaries that match the anchor figures. Minor issues: top result is a LinkedIn post rather than a primary source, and the featured snippet is not itself authoritative, but the official Klarna source is present and consistent.",
+  "reasoning": "Both result sets clearly contain the facts needed to answer the question correctly from reliable sources. The relevant answer is that in Q1 2026 Klarna reported revenue of about $1.0bn/$1.012bn, adjusted operating profit of $68m, 119m active consumers, and about 1.0m/1,075k merchants. In A, these numbers are explicitly stated in the official Q4 earnings PDF and Klarna investor relations press release. In B, the same numbers are explicitly stated in the official Klarna press release and earnings PDF, with secondary sources confirming them. There is no meaningful contradiction in either set; the slight variation between $1.0bn and $1.012bn and between 1m+ merchants and 1,075,000 merchants is normal rounding. Therefore both enable an LLM to answer equally well."
+}

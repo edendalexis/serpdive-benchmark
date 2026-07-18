@@ -1,0 +1,11 @@
+{
+  "id": 95,
+  "query": "Humane AI Pin user data deletion deadline February 2025 photo export transfer instructions official",
+  "topic": "Humane AI Pin",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A lacks the official Humane support result and mostly cites secondary sources. It does include the key facts that data will be deleted and that the deadline is February 28, 2025 / 12 pm PST, but it does not clearly provide the official photo export/transfer instructions beyond generic advice to download/sync data. Some snippets are incomplete or vague, and one result (Designboom) is not an authoritative source.",
+  "b_issues": "Content B also lacks the official Humane support result and relies on secondary reporting. It contains the key deletion/deadline facts and mentions syncing stored pictures, videos, and notes before deletion, but still does not provide robust official transfer/export instructions. One result gives the shutdown time as 9 p.m. without specifying timezone, which is less precise than the official 12 pm PST framing and could confuse an LLM. Several snippets are truncated.",
+  "reasoning": "Both result sets are missing the most important official source from Humane/Ground Control, which the query explicitly seeks. However, both contain enough accurate secondary-source facts to answer the core question: Humane AI Pin user data would be deleted after the February 28, 2025 shutdown, and users were told to download/sync/export their stored photos/data before then. A has slightly better precision on the exact deadline time via the CNET snippet ('12 pm PST on February 28, 2025'), while B has slightly better wording on the practical instruction via Designboom ('sync their stored pictures, videos, and notes before the date'). Since neither provides the official support article or complete official transfer steps, and both are similarly adequate but incomplete for answering from search results alone, they are effectively tied."
+}

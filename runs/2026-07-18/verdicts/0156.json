@@ -1,0 +1,11 @@
+{
+  "id": 156,
+  "query": "Yulia Svyrydenko Ukraine PM resignation Zelenskyy government shakeup successor name date 2026",
+  "topic": "Volodymyr Zelenskyy",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A does not explicitly contain the final confirmed successor appointment and date; it mostly says Zelenskyy had not yet named a replacement, though DW/Le Monde mention Serhii/Sergiy Koretskyi as a possible frontrunner. It also has minor date/day inconsistency wording across snippets (e.g., resignation accepted Monday/Tuesday, stepped down Sunday) typical of reporting stages.",
+  "b_issues": "Content B also lacks the final confirmed successor appointment and date. It says Zelensky had not yet announced a replacement and includes only speculation-free or incomplete mentions. It contains a low-reliability Facebook result and no result naming Koretskyi in the visible snippets, making it less useful for identifying the successor.",
+  "reasoning": "The question asks for Svyrydenko’s resignation, Zelenskyy’s government shakeup, and especially the successor’s name and date in 2026. The anchor shows the key facts are that Yuliia Svyrydenko’s resignation was accepted on 14 July 2026 and Serhii/Sergii Koretskyi was appointed prime minister on 16 July 2026. Neither set fully contains the final appointment fact. However, A is closer: it includes reliable Reuters/France24/DW/Le Monde snippets and explicitly mentions Serhii/Sergiy Koretskyi as the likely replacement. B provides the resignation and reshuffle context but, in the shown snippets, does not actually surface Koretskyi’s name, and includes a weaker Facebook result. Therefore A better enables an LLM to infer or answer the question, even though both are incomplete."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 203,
+  "query": "Shohei Ohtani 2026 All-Star Game missed reason left knee procedure lubricant injection return to pitching second half Dodgers",
+  "topic": "Shohei Ohtani",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A has only thin snippets and weaker sources. It does identify the key reason for missing the All-Star Game as continued left knee irritation and mentions a possible knee drainage/injection, but it does not clearly provide the later update that he received a lubricant injection and was expected to return to pitching Wednesday/next week. Several results are low-reliability or secondary sources (Sportskeeda, Facebook posts, fenado.ai), and the snippets are somewhat speculative ('likely receive an injection of some kind').",
+  "b_issues": "Content B contains a mild internal timeline inconsistency across results: the MLB.com and ABC7 snippets say he would have his knee drained after Sunday, while later Yahoo/NY Post snippets say he then received a lubricant injection and, per Roberts, did not actually have fluid drained. But this reflects evolving reporting rather than making the answer impossible. One result is from the New York Post, which is less authoritative than MLB/AP, though the set also includes stronger sources.",
+  "reasoning": "Content B better supports a correct answer to the query because it contains both phases needed: (1) why Ohtani missed the 2026 All-Star Game — ongoing/continued left knee irritation, with reporting before the break that he would have the knee drained; and (2) the second-half return-to-pitching update — after the break he underwent a planned knee procedure/injection, specifically a lubricant injection (Orthovisc), and was expected to pitch again Wednesday/next week. Content A mostly covers only the first phase and lacks the crucial clear return-to-pitching update tied to the lubricant injection. Therefore B better enables an LLM to answer the full question correctly."
+}

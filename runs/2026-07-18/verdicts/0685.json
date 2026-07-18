@@ -1,0 +1,11 @@
+{
+  "id": 685,
+  "query": "Shein French appeals court ruling age verification adult products June 2026",
+  "topic": "Shein",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A has weaker source quality overall: one result is a Facebook post, one is an X post, and one is a lower-quality aggregator. It also does not clearly connect the appeals-court ruling with the earlier December ruling beyond the Reuters/Yahoo snippet. The top CP24 snippet says the court upheld a ban on reselling lawful adult pornographic products without age verification, which is broadly right, but A gives less precise detail about what age verification had to be and less direct context that this was the appeals court affirming the earlier order.",
+  "b_issues": "Content B includes one likely non-appeals-court result from DW phrased as 'Friday' and 'A Paris court' rather than the March 19 appeals ruling, so it may conflate the December lower-court decision with the later appeal. Otherwise the results are consistent.",
+  "reasoning": "B better enables a correct answer because it contains multiple reliable, mutually reinforcing results that state the key facts needed: the Paris appeals court rejected France's bid to suspend Shein's marketplace; it upheld the earlier requirement that Shein cannot resume selling adult/pornographic products without adequate age-verification measures; and this followed the discovery of childlike sex dolls and other illicit items. The Yahoo/Reuters, Le Monde, and RFI snippets in B together provide the core ruling accurately and with enough specificity. A also contains the essential Reuters/Yahoo fact pattern, but its result set is noisier and relies more on social-media/low-authority snippets, making it slightly less dependable for an LLM answering from the search results alone."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 599,
+  "query": "COP30 Belém final text mandatory fossil fuel deforestation roadmaps exclusion Brazilian Presidency voluntary plans",
+  "topic": "COP climate summit",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Mostly secondary reporting rather than the anchor/official UNFCCC source. It says the fossil-fuel roadmap was blocked from the formal decision and would proceed outside the UN process, which matches the anchor, but it does not clearly establish from official text whether the deforestation roadmap was also excluded from the final text; that is only implied by some results. One result says the fossil-fuel roadmap was 'never included in the official agenda,' which is a different claim and could confuse an LLM about exclusion from the final text versus agenda status.",
+  "b_issues": "Also mostly secondary reporting. It more clearly states that both deforestation and fossil-fuel roadmaps were removed from a later draft and absent from the final text, which is useful, but some snippets are noisy or only tangentially relevant. It includes a potentially distracting line that the text 'reaffirms' COP28's transition-away language, which could confuse an LLM into thinking fossil-fuel language remained substantively in the final Belém text, even though the question is specifically about the roadmaps and their exclusion.",
+  "reasoning": "Both sets contain the core facts needed to answer the question: the roadmaps were not made mandatory in the COP30 final text, fossil-fuel language/roadmap was excluded from the formal outcome, and the Brazilian presidency instead launched voluntary roadmaps or plans outside the formal UN negotiating text. Content A is stronger on the 'voluntary initiative by the Brazilian presidency' and 'outside the UN process' point. Content B is stronger on explicitly saying that both the deforestation and fossil-fuel roadmaps were removed from draft text and absent from the final text. Since the question asks about final-text exclusion, mandatory vs voluntary, and Brazilian presidency plans, each set supplies part of the answer well, and neither is clearly superior overall."
+}

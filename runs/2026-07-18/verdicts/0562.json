@@ -1,0 +1,11 @@
+{
+  "id": 562,
+  "query": "Hades II Sangary Saver rework stats Aspect of Hell Omega attack channeling speed changes patch notes",
+  "topic": "Hades II",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A does not surface the key terms from the query. It lacks any mention of 'Sangary Saver' and does not provide the Aspect of Hel/Hell rework stats. Its strongest relevant snippet is a generic Fextralife patch-notes excerpt about Umbral Flames ('Omega Attack channels faster and uses less magick'), which appears to be from an older broad weapon balance patch rather than the specific Aspect rework. Other results are irrelevant or too generic (Kotaku/Game Rant summaries, unrelated fandom patch page).",
+  "b_issues": "Content B still has weaknesses: it uses Fextralife rather than the primary official patch notes, truncates the crucial line ('Omega Attack now fires a slow shot that occasionally...'), and includes a possibly misspelled/variant 'Aspect of Hel' instead of 'Hell'. Some other results are broader or less reliable summaries, and one Reddit result is not authoritative. However, the key fact pattern is present.",
+  "reasoning": "B better enables a correct answer because it directly contains the relevant patch-note snippet for the queried rework: 'Aspect of Hel (Skull): Omega Attack now channels faster; now hits cocoons more reliably. Omega Attack now fires a slow shot that occasionally...' This matches the user's ask about Aspect of Hell/Hel omega-attack channeling speed changes and rework stats. A, by contrast, mostly surfaces unrelated or older general weapon changes and never directly identifies the Aspect rework in question. Even though B is incomplete and not ideal, it contains the specific targeted fact needed, while A does not."
+}

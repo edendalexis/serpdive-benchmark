@@ -1,0 +1,11 @@
+{
+  "id": 753,
+  "query": "Trump Media Truth Social spin-off February 2026 TAE Technologies Texas Ventures Acquisition III Corp merger talks SEC filing",
+  "topic": "Truth Social DJT stock",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A does contain a Yahoo repost of the relevant press release language, but it does not surface the primary SEC filing itself. Its top result is a later June 2026 article about the spin-off being abandoned, which could distract from the February 2026 SEC-filing question. Several other results are secondary coverage or an IR page with sparse context rather than the actual filing. So A is answerable, but less directly and with more noise.",
+  "b_issues": "Content B includes some noisy later results about the spin-off being scrapped and one unrelated March 2026 filing summary, but these do not directly contradict the key February 27, 2026 SEC filing excerpt. The SEC result title is generic and the excerpt is partial, so some transaction details are truncated.",
+  "reasoning": "B better enables a correct answer because it includes the primary SEC filing from Feb. 27, 2026, with the key facts matching the anchor: TMTG, TAE Technologies, and Texas Ventures Acquisition III announced ongoing discussions about a potential spin-off of businesses including Truth Social into a new publicly traded SpinCo following the pending TMTG-TAE merger. A has relevant secondary material, especially the Yahoo repost, but lacks the direct SEC filing and foregrounds later developments that could mislead an LLM away from the specific February 2026 filing. Since the question explicitly mentions merger talks and an SEC filing, the presence of the actual SEC filing in B makes it more reliable and directly usable."
+}

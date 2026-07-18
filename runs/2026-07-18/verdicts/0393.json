@@ -1,0 +1,11 @@
+{
+  "id": 393,
+  "query": "Moderna Pfizer H5N1 mRNA vaccine Phase III trial results timeline latest",
+  "topic": "H5N1 bird flu",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A does not directly answer the full query because it mainly covers Moderna and does not provide Pfizer H5N1 mRNA Phase III results. It also includes some irrelevant flu-vaccine results (e.g., universal influenza landscape, seasonal flu vaccine) that could distract. However, its Moderna H5N1 items are broadly consistent with the anchor: Phase 3 started in April 2026, first dosing in the US/UK, about 4,000 adults, and the trial is ongoing rather than reporting results.",
+  "b_issues": "Content B contains a likely fabricated or unreliable result claiming Moderna reported Phase 3 interim H5N1 vaccine efficacy of 82.7% on Apr 24, 2026 from a 4,000-person trial. This conflicts with the anchor, which shows the Phase 3 study was recruiting/just starting in 2026 with estimated completion in Jan 2027, making efficacy results that quickly implausible. The source (spylab.ai) is not a reliable primary or established news source. B also lacks Pfizer-specific Phase III H5N1 mRNA information and mixes in an unrelated Moderna seasonal flu Phase 3 result (mRNA-1010).",
+  "reasoning": "A better enables a correct answer because it supports the key latest factual timeline for Moderna's H5N1 mRNA vaccine: Phase 3 initiation in April 2026, first participants dosed in the US and UK, enrollment around 4,000, and no actual Phase III results yet. That aligns with the anchor clinical-trial record and supporting news. B is more dangerous because it includes an apparently false/interpolated claim of Phase 3 interim efficacy results for Moderna's H5N1 program, which would likely cause an LLM to answer incorrectly. Neither set provides solid Pfizer Phase III H5N1 mRNA trial results, but A is still the safer and more accurate set overall."
+}

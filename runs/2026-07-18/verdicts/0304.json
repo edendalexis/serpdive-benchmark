@@ -1,0 +1,11 @@
+{
+  "id": 304,
+  "query": "NASA Artemis III Orion spacecraft high resolution imagery transmission provider selection",
+  "topic": "NASA Artemis program",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor issue: includes irrelevant results (L3Harris Artemis page, general Artemis III pages, Wikipedia) that do not address the provider selection directly. No clear factual contradiction in the returned snippets; the key NASA result correctly states NASA selected SpaceX/Starlink and describes the laser terminals for downlinking 4K imagery/video from Orion.",
+  "b_issues": "Top result is a likely repost/secondary site rather than the primary NASA source. Other prominent results are low-reliability social media posts (Facebook, X) and unrelated/general NASA pages. The snippets do not clearly establish the selected provider from an authoritative source as cleanly as A does, and the result set is noisier and less reliable overall.",
+  "reasoning": "The question asks who was selected to provide high-resolution imagery transmission for Artemis III Orion. Content A directly includes the authoritative NASA article stating that NASA selected SpaceX’s Starlink to provide laser communications, with two Starlink mini laser terminals installed on Orion to downlink 4K imagery and video. That is exactly the needed fact, from the best source. Content B also hints at the same answer in its top snippet, but the source is a repost site and the rest of the set relies heavily on social media or unrelated pages, so it gives an LLM a weaker and less reliable basis for answering correctly."
+}

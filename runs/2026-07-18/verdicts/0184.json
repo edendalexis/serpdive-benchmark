@@ -1,0 +1,11 @@
+{
+  "id": 184,
+  "query": "IOC Olympic Charter amendments June 2026 individual discipline inclusion framework 2032 Brisbane",
+  "topic": "International Olympic Committee",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor issue: only one result directly states the host-proposal framework details, and the snippets are partial rather than full-text. One secondary result is tangential (ANOC piece). No clear factual contradictions.",
+  "b_issues": "Missing the key framework details about how disciplines can be included/proposed under the June 2026 amendments. It states the discipline-level evaluation from Brisbane 2032, but does not provide the IOC methodology/framework language seen in the anchor (structured evaluation framework; OCOG proposal framework; recognised IFs; limits/cost responsibility). Includes a low-reliability/indirect LinkedIn result. No clear contradiction, but coverage is incomplete.",
+  "reasoning": "The question asks about the June 2026 IOC Olympic Charter amendments and the individual-discipline inclusion framework for Brisbane 2032. Content A contains the most directly on-point IOC source: the Olympics.com result explicitly says the IOC approved a discipline-based evaluation of the Olympic programme, that it applies from Brisbane 2032 onward, and that it also approved a new framework for disciplines proposed by the OCOG, including that selections come from recognised IFs, may be new to the programme or within already included sports, and are subject to limits and full cost responsibility. That is much closer to the anchor. Content B reliably states the big headline fact—individual disciplines rather than entire sports will be evaluated from 2032 Brisbane—but it lacks the actual inclusion/proposal framework details needed to answer the query fully. Therefore A better enables a correct answer."
+}

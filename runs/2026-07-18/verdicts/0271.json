@@ -1,0 +1,11 @@
+{
+  "id": 271,
+  "query": "El Salvador Bukele new tax percentage foreign NGO donations",
+  "topic": "Nayib Bukele",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A contains the key fact (30%) but relies mostly on less authoritative sources and even includes a Facebook post. It lacks a top-tier wire/service source in the returned snippets, so an LLM would have weaker grounding for accuracy.",
+  "b_issues": "Content B’s Reuters snippet is truncated and does not itself show the percentage in the snippet text, so the model must rely on the other results for that detail. Some supporting sources are less authoritative than Reuters.",
+  "reasoning": "The question asks for the new tax percentage on foreign NGO donations in El Salvador under Bukele. Both A and B contain the answer: 30%. However, B better enables a correct answer because it includes Reuters, which matches the anchor and strongly validates the event, while its other results explicitly state the 30% figure. A also states 30% repeatedly, but its evidence is drawn from less reliable sources overall. There is no meaningful contradiction in either set, but B offers stronger source reliability while still containing the needed fact."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 887,
+  "query": "Skydance Sports Jason Kelce documentary Prime Video Skydance Sports launch details",
+  "topic": "Skydance Media",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A has the core premiere-date facts, but it is thinner on the broader 'launch details' around Skydance Sports. It lacks the explicit Skydance Sports launch timing found in B, and one key result is only a short Skydance news snippet rather than the fuller article text. It also includes some lower-value/noisier results like YouTube and a local news article.",
+  "b_issues": "Content B has no major factual flaws apparent from the provided snippets. One result is from About Amazon and is less directly about the original announcement, but it does not contradict the others.",
+  "reasoning": "B better enables a correct answer because it contains both sets of facts implied by the query: (1) the Jason Kelce documentary details—Amazon and Skydance unveiled 'Kelce,' it follows Jason Kelce’s 2022-23 season, and it premieres on Prime Video on September 12, ahead of Thursday Night Football on September 14—and (2) the Skydance Sports launch detail via the Skydance Sports page stating the division was launched in 2021. B also includes reliable primary/near-primary sources: Skydance’s news page, Amazon MGM/Prime Video press release, the Skydance title page, and the Skydance Sports page. A has the main documentary announcement and premiere date, but it does not clearly provide the Skydance Sports launch information, so it is less complete for this specific query."
+}

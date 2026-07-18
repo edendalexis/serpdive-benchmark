@@ -1,0 +1,11 @@
+{
+  "id": 266,
+  "query": "2026 NBA Finals Game 4 halftime lead Spurs visiting team largest in Finals second half points total",
+  "topic": "NBA Finals",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "",
+  "b_issues": "Result snippets are sparse and incomplete. The key second-half points total is not explicitly present in the shown content. One NBA.com snippet is truncated ('opened the biggest'), so it does not fully state the halftime-lead fact within the provided text. Top result is an unreliable Facebook post rather than a strong primary/reference source.",
+  "reasoning": "The question asks for the halftime lead amount and the Spurs' second-half points total in 2026 NBA Finals Game 4, framed by the fact that it was the largest halftime lead by a visiting team in Finals history. Content A explicitly contains both needed facts from reliable sources: ESPN says the Spurs 'opened the biggest halftime lead by a visiting team in the finals' and that the Knicks outscored them 58-30, which gives the Spurs' second-half total as 30; NBA.com also states San Antonio led 76-49 at the half, a 27-point margin. Content B clearly provides the 27-point halftime lead via Facebook, but the second-half points total is not explicitly given in the provided snippets, so an LLM would be less able to answer correctly from B alone."
+}

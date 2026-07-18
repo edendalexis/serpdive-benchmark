@@ -1,0 +1,11 @@
+{
+  "id": 894,
+  "query": "Fede Alvarez Alien Romulus sequel script completed producer not directing September 2025 interview",
+  "topic": "Alien: Romulus",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Only one strong reliable source snippet (Hollywood Reporter) clearly states the key facts. The other returned results are low-reliability/community sources (ResetEra forum thread, AVPGalaxy fan site) and AVPGalaxy snippet includes speculative/contradictory-looking fan-comment material unrelated to the core fact pattern. This makes A noisier and less dependable overall.",
+  "b_issues": "Includes some low-reliability/community sources as well (AVPGalaxy, Threads, Reddit), but they do not materially contradict the key facts. Variety result gives the crucial facts clearly; Hollywood Reporter corroborates them.",
+  "reasoning": "The question is asking about the September 2025 interview in which Fede Álvarez said the Alien: Romulus sequel script was finished and that he would produce rather than direct. Content B most directly supports that answer with a high-reliability Variety result explicitly saying: he revealed this while speaking to TooFab, the script is finished, he is passing the torch as director, and he will produce with Ridley Scott while they look for a new filmmaker. B also has Hollywood Reporter corroboration. Content A does contain the core fact in the Hollywood Reporter snippet, but its remaining results are mostly forum/fan-site noise, including speculative text that could distract an LLM. So B better enables a correct answer from the provided content alone."
+}

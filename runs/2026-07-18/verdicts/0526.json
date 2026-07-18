@@ -1,0 +1,11 @@
+{
+  "id": 526,
+  "query": "Claude Sonnet 5 benchmark coding performance specifications launch 2026",
+  "topic": "Anthropic",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Result set A includes several lower-reliability secondary sources and some noisy snippets. The Anthropic snippet is truncated and omits the clearest headline specifications. Some third-party results may be inaccurate or speculative, but A does contain the primary Anthropic launch post with launch date, pricing, and benchmark details/snippets.",
+  "b_issues": "Result set B lacks the primary Anthropic launch post and system card in the returned results, relying almost entirely on third-party summaries. It includes likely unsupported or potentially inaccurate specs such as a 1M context window, 128K max output tokens, adaptive thinking support, and model ID details from Caylent rather than Anthropic. This makes key 'specifications' less verifiable. Benchmark details are present but mostly through secondary interpretation.",
+  "reasoning": "The question asks about Claude Sonnet 5 benchmark/coding performance/specifications/launch in 2026. To answer correctly, the most important facts are launch timing, benchmark performance, coding performance framing, and product specs/pricing from reliable sources. Content A directly includes Anthropic’s official launch post as the top result, which is the strongest source and explicitly gives the June 30, 2026 launch and benchmark/pricing details such as Sonnet 5 handling sustained coding/tool use/debugging and pricing at $3/M input and $15/M output after intro pricing. It also references benchmark updates from the official post. Content B has useful benchmark summaries and launch date, but they come from DataCamp, Coursiv, CosmicJS, Vellum, and Caylent rather than Anthropic, and B’s only explicit specification-heavy result appears to be third-party and may introduce unverified details. Since A contains the authoritative source needed to ground an answer, while B mostly relies on secondary summaries with potentially shaky specs, A better enables a correct answer."
+}

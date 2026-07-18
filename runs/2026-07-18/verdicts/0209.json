@@ -1,0 +1,11 @@
+{
+  "id": 209,
+  "query": "Shohei Ohtani 2026 ESPY Awards ceremony date venue presentation details",
+  "topic": "Shohei Ohtani",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "A includes useful date/timing info and mentions New York City, but it is weaker on venue/presentation specifics. The strongest source shown is an AMP ESPN nominees page, which does not provide the ceremony venue in the excerpt. One ABC News snippet is truncated at 'David H.' without fully naming David H. Koch Theater. Another result incorrectly says '24th annual ESPY Awards' instead of the 34th. A also lacks clear presenter/attendee/performance details in the visible snippets.",
+  "b_issues": "B contains a minor issue from ABC7 New York saying 'The 2026 ESPY Awards at Lincoln Center in NYC,' which is less precise than the full venue name, though other results provide David H. Koch Theater at Lincoln Center. It also includes broad recap/live-update content that is less directly tied to presentation details.",
+  "reasoning": "B better enables a correct answer because its snippets directly supply the key facts needed: the ceremony date/time ('Wednesday, July 15' / 'July 15 at 8 p.m. ET'), the venue ('David H. Koch Theater at Lincoln Center in New York'), and presentation-related details such as host ('Marcello Hernandez') plus references to guests/performers and broadcast/streaming. It also includes an ESPN Press Room result confirming Shohei Ohtani's nominations. A has some of the same facts, but the venue is incomplete or missing in the visible excerpts, and its presentation details are thinner. Both have minor inaccuracies in secondary sources, but B more clearly and directly covers the asked-for date, venue, and presentation details."
+}

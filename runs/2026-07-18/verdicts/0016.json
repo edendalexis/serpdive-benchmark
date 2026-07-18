@@ -1,0 +1,11 @@
+{
+  "id": 16,
+  "query": "TSMC 2026 full-year revenue growth percentage projection U.S. dollar terms slightly more than 40% source",
+  "topic": "Taiwan Semiconductor Manufacturing Company",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor issue: one result is only the earnings release snippet showing Q2 revenue growth, not the full-year projection. Some other results are lower-value or tangential. However, Content A includes a highly reliable primary source: TSMC's SEC Form 6-K snippet explicitly saying management expects 2026 revenue to increase by slightly above 40% in US dollar terms.",
+  "b_issues": "Top result is a Yahoo/GuruFocus-style syndicated article rather than a primary filing, and some other results are secondary or weak sources (Big News Network, Facebook post). One result (Quartz/Yahoo) discusses an earlier >30% outlook, which could introduce mild confusion, though it does not directly contradict the updated >40% figure in the top results.",
+  "reasoning": "Content A better enables a correct answer because it contains the key fact and a stronger source. The question asks for the 2026 full-year revenue growth projection in U.S. dollar terms and the source. In A, the featured snippet states TSMC expects U.S.-dollar revenue to grow slightly more than 40% in 2026, and the first result is TSMC's own SEC Form 6-K excerpt confirming management expects 2026 revenue to increase by slightly above 40% in US dollar terms. That is a primary, highly reliable source. Content B also contains the correct fact in its top Yahoo result, but its sourcing is more secondary and mixed, with weaker outlets and an older >30% outlook result that could distract the model. Therefore A is superior."
+}

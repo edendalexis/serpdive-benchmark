@@ -1,0 +1,11 @@
+{
+  "id": 74,
+  "query": "98th Academy Awards 2026 Best Picture winner director",
+  "topic": "Academy Awards Oscars",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Wikipedia result snippet does not explicitly state the Best Picture winner or its director. ABC News snippet is truncated and does not mention the Best Picture winner/director. Only the ABC7 New York result clearly states that 'One Battle After Another' won Best Picture and that Anderson won Best Director, so the answer is present but supported by fewer explicit results.",
+  "b_issues": "Wikipedia snippet is likewise incomplete for the specific question, but multiple other results explicitly state that 'One Battle After Another' won Best Picture and that Paul Thomas Anderson was its director and won Best Director. No clear contradictions are present.",
+  "reasoning": "The correct answer is Paul Thomas Anderson, director of 'One Battle After Another.' Both A and B contain enough information to answer correctly, but B enables it more reliably because its top ABC News result explicitly states both facts in one snippet: the film won Best Picture and Paul Thomas Anderson won Best Director. B also has additional corroborating results from ABC7, Al Jazeera, and ABC7 News confirming the same. In A, only one result snippet clearly provides both needed facts, while the other snippets are incomplete for this question. Therefore B better supports a correct answer."
+}

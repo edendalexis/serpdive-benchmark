@@ -1,0 +1,11 @@
+{
+  "id": 966,
+  "query": "Narendra Modi Haryana Punjab July 17 2026 schedule itinerary official visit details",
+  "topic": "Narendra Modi",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor issues only. One result (Times of India) says projects worth over Rs 24,800/25,000 crore, while the official PMO result says around Rs 26,800 crore. A secondary source snippet (Tehelka) says 75 Amrit Bharat stations in Punjab, which is misleading because the broader reports describe 75 stations across 20 states, including some in Punjab. Otherwise A includes the key official PMO source with times and locations, plus supporting mainstream/government sources.",
+  "b_issues": "Contains a low-reliability Facebook post as the top result, with noisy user-comment text mixed into the snippet. It gives Chandigarh projects as over Rs 4,700 crore, contradicting the official PMO figure of over Rs 6,600 crore. It also omits important later itinerary detail visible in the anchor, especially the Punjab/Jalandhar timing and specifics, and includes weaker aggregator sources. There is also inconsistency across snippets on total project value (Rs 25,000 crore vs Rs 26,800 crore).",
+  "reasoning": "A better enables a correct answer because it includes the official PMO page prominently and that snippet provides concrete itinerary facts: 11 AM at Jind railway station to flag off the Jind-Sonipat hydrogen train, 11:30 AM at Eklavya Stadium Jind for Haryana projects worth about Rs 14,700 crore, and supporting government/media results for Chandigarh details. Its source mix is stronger overall, with PMO, Akashvani, DD India, and TOI. B also contains the official PMO result, but its highest-ranked result is a Facebook post and it introduces a more serious factual error by stating Chandigarh projects are over Rs 4,700 crore instead of the official over Rs 6,600 crore. Since the question asks for official visit schedule/itinerary details, reliability and precision matter most, and A is clearly safer and more complete."
+}

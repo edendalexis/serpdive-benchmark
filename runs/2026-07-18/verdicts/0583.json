@@ -1,0 +1,11 @@
+{
+  "id": 583,
+  "query": "DOJ investigation FTX hacking attempts missing assets recent status 2026",
+  "topic": "FTX",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Mostly stale and thin. Results are almost entirely from Dec. 2022 reporting about the DOJ opening a probe into roughly $372M in stolen/missing FTX assets. It does not provide meaningful 2026 recent-status information, recovery progress, or disposition of assets. One result is only a YouTube headline about an independent probe of the collapse, not specifically the hack/missing-assets status. No clear contradiction, but insufficient for the 'recent status 2026' part.",
+  "b_issues": "Also largely stale or off-target. It includes the Yahoo/Decrypt 2022 report and a PBS/AP 2022 article about unauthorized access, plus unrelated/general bankruptcy background from EBSCO and Wikipedia. The lone 2026-looking item is a law-firm PDF snippet saying DOJ/FBI announced recovery of over $600,000 on April 1, 2026, but the snippet lacks clear context tying it definitively to the FTX hack and is too incomplete to support a confident answer about overall recent status. It also mixes different dollar figures ($650M, $477M, $372M) from varying estimates without reconciling them.",
+  "reasoning": "Neither set cleanly enables a correct answer to 'DOJ investigation FTX hacking attempts missing assets recent status 2026.' Content A establishes the basic fact that DOJ opened a separate criminal probe into the Nov. 2022 post-bankruptcy FTX hack involving about $372M, but it has essentially no 2026 status update. Content B at least contains one 2026 snippet about DOJ/FBI recovering over $600,000, which could hint at recent status, but the evidence is incomplete, not clearly tied to the specific FTX hack in the snippet shown, and surrounded by mostly older or tangential results. Since the key requirement is the recent 2026 status of the DOJ investigation/missing assets, both are insufficient overall; B is only marginally better but not enough to say it reliably enables a correct answer."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 631,
+  "query": "Perplexity open-sourced WANDR benchmark SPACE sandbox production traffic",
+  "topic": "Perplexity AI",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "A lacks the primary Perplexity research/blog sources for WANDR and SPACE, relying partly on secondary/tertiary sources (Explainx, AskSurf, Threads, LinkedIn snippet). However, it does contain the key facts needed: WANDR was open-sourced by Perplexity, and SPACE has handled 100% of Computer production traffic since June.",
+  "b_issues": "B includes one strong primary source for WANDR, but it does not surface a primary Perplexity source for SPACE and gives only a secondary summary stating SPACE handled all production traffic since June. Its top results are also noisier/less relevant (general Perplexity features, traffic statistics), making the needed answer less directly supported.",
+  "reasoning": "The query appears to ask for the combination of facts that Perplexity open-sourced the WANDR benchmark and that its SPACE sandbox has been serving production traffic. Content A directly contains both core facts in its results: WANDR open-sourcing is explicitly stated in the Explainx result, and SPACE handling 100% of Computer production traffic since June is explicitly stated in the Threads/AskSurf/LinkedIn results. Content B also contains both facts, but less cleanly: it has the primary WANDR article from Perplexity, while the SPACE fact appears only via a secondary AskSurf summary and not a primary Perplexity blog result. Since correctness depends on whether an LLM can answer from the provided content alone, A better enables that answer because the exact production-traffic fact is more explicit and repeated there, even though both sets have some source-quality issues."
+}

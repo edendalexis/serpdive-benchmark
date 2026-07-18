@@ -1,0 +1,11 @@
+{
+  "id": 907,
+  "query": "Oppenheimer Holdings assets under administration year-end 2025 total",
+  "topic": "Oppenheimer",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "A does contain the needed figure in one result snippet (Yahoo Finance: Assets Under Administration $143.3B), but the top result focuses on AUM $55.2B instead of AUA, which could mislead an LLM. The official annual report result shown does not surface the AUA number in its snippet. One SEC result is for 2025-03-31, not year-end 2025, so it is temporally irrelevant.",
+  "b_issues": "B includes some potentially distracting figures from the annual report snippet, such as client assets under custody of $144.5B, which is different from assets under administration. It also includes irrelevant 2026 and secondary-source results. However, it explicitly states in a result snippet that client assets under administration were $143.3B as of December 31, 2025.",
+  "reasoning": "The anchor shows Oppenheimer Holdings' year-end 2025 client assets under administration were $143.3 billion. Both A and B contain this fact, but B enables a correct answer more reliably because one of its snippets explicitly says: 'As of December 31, 2025, Oppenheimer reports client assets under administration of $143.3 billion.' That is direct, date-specific, and matches the anchor. In A, the clearest official-looking top result is about AUM ($55.2B), not AUA, and the correct AUA figure appears only in a Yahoo Finance snippet, making confusion more likely. Therefore B better supports a correct answer from the provided content alone."
+}

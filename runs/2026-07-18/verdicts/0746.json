@@ -1,0 +1,11 @@
+{
+  "id": 746,
+  "query": "Supreme Court reject appeal Texas police officer convicted shooting woman window",
+  "topic": "U.S. Supreme Court",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Mostly relevant and factually aligned with the anchor. The top Police1/AP-derived result correctly identifies Aaron Dean, Atatiana Jefferson, the manslaughter conviction, and the nearly 12-year sentence. However, A includes unrelated Supreme Court results about a different Texas police shooting lawsuit (Houston/Ashtian Barnes), which could distract the model.",
+  "b_issues": "Contains relevant results, but the second-highest result is about a different case entirely: Amber Guyger/Botham Jean, not the window shooting of Atatiana Jefferson. The top result is only an X post snippet rather than a full reported article, and several entries are thin snippets or YouTube links with limited context. This increases ambiguity and lowers source reliability.",
+  "reasoning": "A better enables a correct answer because it includes a clearly relevant, source-based result that directly matches the question: the Supreme Court rejected Aaron Dean’s appeal in the killing of Atatiana Jefferson, who was shot through her window. While A has some unrelated Texas police-shooting results, its primary result provides the needed facts with enough detail. B also contains the correct case, but it mixes in a prominent unrelated Amber Guyger result and relies more on thin/social/video results, making it less reliable and more likely to mislead an LLM."
+}

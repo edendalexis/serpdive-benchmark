@@ -1,0 +1,11 @@
+{
+  "id": 803,
+  "query": "Satya Nadella Mustafa Suleyman Jacob Andreou Microsoft AI leadership reorganization Copilot products large language models 2026",
+  "topic": "Satya Nadella",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "A lacks the key primary-source Microsoft blog result that directly states the reorganization details. It relies mostly on secondary reporting plus a low-reliability blog/aggregator result (samexpert) and a partial bizjournals snippet cut off at 'large-scale'. While its main facts are broadly consistent, it is weaker on authoritative sourcing and complete wording about the model/LLM rationale.",
+  "b_issues": "B includes some lower-reliability commentary/blog results (samexpert, robquickenden), and samexpert adds speculative/extra claims such as 'As of March 2026, Microsoft has not shipped a frontier-class large language model.' However, these do not directly contradict the core facts. One snippet is a bit compressed, but the central facts remain clear.",
+  "reasoning": "B better enables a correct answer because it includes the official Microsoft blog post, which is the strongest source and directly answers the query: Jacob Andreou will lead Copilot across consumer and commercial as EVP reporting to Satya Nadella; Mustafa Suleyman will focus on advancing model science/superintelligence; and Microsoft says these models will support enterprise-tuned lineages and improve products across the company while reducing COGS for AI workloads. B also has corroboration from CNBC and GeekWire. A has broadly similar secondary facts, but without the primary Microsoft announcement it is less authoritative and slightly less complete for the 'Copilot products large language models' part of the question."
+}

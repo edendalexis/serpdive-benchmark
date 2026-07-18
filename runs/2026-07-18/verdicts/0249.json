@@ -1,0 +1,11 @@
+{
+  "id": 249,
+  "query": "Voyager 1 Gliese 445 closest approach estimated years trajectory",
+  "topic": "Voyager 1",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A includes a major factual error in the IFLScience snippet: it says Gliese 445 is 'around 17,000 light-years from Earth' currently, which is wrong by about three orders of magnitude (it is about 17 light-years away). A also lacks the stronger directly stated trajectory details from more reliable sources like Wikipedia/Voyager references, so an LLM may rely on weaker/pop-science snippets. The Math Encounters snippet in A is truncated and does not clearly provide the timing/trajectory reconciliation.",
+  "b_issues": "Content B contains some mixed-quality secondary sources, and the Math Encounters snippet gives computed values (46,000 years and 3.485 ly) that differ from the commonly cited rough figure 'about 40,000 years' and from the Voyager-Gliese separation often quoted as ~1.6–1.7 ly at closest approach. However, B also includes a stronger summary from Wikipedia that clearly states Voyager 1 will pass within 1.6 light-years of Gliese 445 in about 40,000 years.",
+  "reasoning": "B better equips an LLM to answer correctly because it contains a concise, internally usable statement from Wikipedia: Voyager 1 is not heading to a particular star but in about 40,000 years will pass within 1.6 light-years of Gliese 445. That directly addresses the estimated years and trajectory/closest-approach part of the question. A has broadly similar information, but its most explicit snippet contains a severe factual error ('17,000 light-years from Earth'), which could mislead the model about the geometry and trajectory. Since the question is about estimated years and closest approach, accurate distance/context matters. Both sets have some ambiguity from blog/pop-sci sources, but B has the cleaner reliable statement and fewer dangerous contradictions."
+}

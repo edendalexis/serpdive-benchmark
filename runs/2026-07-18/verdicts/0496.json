@@ -1,0 +1,11 @@
+{
+  "id": 496,
+  "query": "Linda Noskova Wimbledon 2026 women's singles final opponent match score",
+  "topic": "Wimbledon",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor inconsistency in the WTA scoreline snippet formatting: it lists the match from the winner/loser perspective as 'N. Linda d M. Karolina 2-6,7-5,3-6', which could confuse set orientation, but the surrounding results and snippet consistently state Noskova beat Karolina Muchova 6-2, 5-7, 6-3. One ESPN snippet also appears to contain a typo saying the first set was 6-3, while the rest say 6-2.",
+  "b_issues": "Results are almost entirely irrelevant to the query. They do not provide the opponent or match score, aside from a vague mention on Dictionary.com that Linda Noskova won the women's championship. No reliable tennis result source answering the question is present.",
+  "reasoning": "Content A clearly contains the needed facts from multiple reliable sources: Noskova's final opponent was Karolina Muchova, and the score was 6-2, 5-7, 6-3. This is supported by ESPN, The Athletic, USA Today, Olympics.com, and WTA/BBC/AP references. Despite minor snippet/formatting inconsistencies, an LLM could confidently answer correctly from A alone. Content B does not supply the necessary facts and is dominated by irrelevant results about the name 'Linda,' so it would not enable a correct answer."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 71,
+  "query": "17th Governors Awards 2026 Honorary Oscars recipients",
+  "topic": "Academy Awards Oscars",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "No major factual flaws for this query. One result (Gold Derby) is speculative/outdated and says recipients will be determined in June, but the result set also includes the official Academy press release and multiple consistent entertainment-news sources naming Glenn Close, Floyd Norman, Ridley Scott, and Christine Vachon & Pamela Koffler.",
+  "b_issues": "No major factual flaws for this query. Some results are less directly relevant (general AMPAS and Governors Awards Wikipedia pages), but the featured snippet and official Academy press-release result clearly provide the needed names. Deadline adds there was no Jean Hersholt Humanitarian Award, which is not contradictory.",
+  "reasoning": "Both A and B contain the key facts needed to answer correctly: Academy Honorary Awards went to Glenn Close, Floyd Norman, and Ridley Scott, and the Irving G. Thalberg Memorial Award went to Christine Vachon and Pamela Koffler at the 17th Governors Awards in 2026. In A, this is supported by the official Academy press release plus People and IndieWire. In B, it is supported even more explicitly by the featured snippet quoting the Academy announcement and the official press-release result. Neither set contains contradictory information about the recipients, so both enable an LLM to answer the question correctly equally well."
+}

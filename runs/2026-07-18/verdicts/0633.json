@@ -1,0 +1,11 @@
+{
+  "id": 633,
+  "query": "Samsung Korea partnership Perplexity AI pre-installed phones details",
+  "topic": "Perplexity AI",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A is mostly based on secondary rewrites and lower-authority outlets. The top result (The Decoder) says Samsung talks are still early/continuing, which is less definitive and may be outdated relative to the question about partnership and pre-installed phones. It lacks a strong primary or top-tier source directly stating the Korea/Samsung deal details, and some results are thin or low-value (Yahoo snippet only, LinkedIn post).",
+  "b_issues": "Content B includes one irrelevant Reuters result about Samsung doubling Galaxy AI devices and one irrelevant Samsung Caribbean page. It also includes a less-established outlet (Medianama) summarizing later 2026 details, which may go beyond the specific partnership-report stage. However, it does not materially contradict the core facts.",
+  "reasoning": "B better supports a correct answer because it contains the key factual details from Bloomberg, a highly reliable source: Samsung was nearing a wide-ranging deal with Perplexity, including investing in Perplexity, preloading Perplexity’s app and assistant on upcoming Samsung devices, and integrating Perplexity search into Samsung’s web browser. That directly answers the question about the Samsung Korea partnership and pre-installed phone details. B also has supporting corroboration from Mashable and a later report about Galaxy S26 system-level preinstallation. By contrast, A has similar facts but relies more on secondary summaries and includes a top result framing Samsung as only in talks/early discussions, which is less authoritative and can make the answer less certain."
+}

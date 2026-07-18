@@ -1,0 +1,11 @@
+{
+  "id": 801,
+  "query": "Judson Althoff CEO commercial business Microsoft promotion date official announcement",
+  "topic": "Satya Nadella",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A does not include the official Microsoft announcement result, so it relies mainly on secondary reporting. It provides the promotion and date via CNBC and The Verge, but the LinkedIn and Facebook results are noisy/low-value and one Business Insider result is about later org changes rather than the announcement itself.",
+  "b_issues": "The Microsoft blog snippet is truncated and does not explicitly show the promotion date in the snippet itself, though the result title/URL clearly indicate 2025-10-01. One Microsoft 'Source' profile result is not directly relevant. Overall, however, there is no clear factual contradiction.",
+  "reasoning": "The question asks for Judson Althoff’s promotion date and the official announcement. Content B is better because it contains the official Microsoft Blog post 'Accelerating our commercial growth' with the dated Microsoft URL (2025/10/01), directly matching the official-announcement part of the query, and it also includes CNBC confirming that Althoff was promoted to CEO of Microsoft’s commercial business. Content A also supports the answer through CNBC/The Verge, but it lacks the official Microsoft announcement page in the results shown and includes more noisy social-media results. Therefore B better enables an LLM to answer correctly: Judson Althoff was promoted on October 1, 2025, and the official announcement was on Microsoft’s blog."
+}

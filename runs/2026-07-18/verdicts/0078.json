@@ -1,0 +1,11 @@
+{
+  "id": 78,
+  "query": "99th Academy Awards international feature eligibility new qualifying festival awards AMPAS rule change 2026",
+  "topic": "Academy Awards Oscars",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Result 1 is only a brief Academy press snippet and does not itself include the key international-feature details. Some third-party results are secondary sources, and the IndieWire snippet has an obvious date error ('99th Oscars will air ... March 14, 2026' instead of 2027). However, A includes accurate key facts in multiple places: the new second eligibility path via winning a qualifying festival award, and one result lists the actual qualifying festivals/awards.",
+  "b_issues": "B lacks any direct Academy or rule-document source in the returned results. It relies on secondary/tertiary coverage, including duplicated Tempo entries and an Awards Daily feed page. It states the new two-path submission rule, but does not provide the specific qualifying festival awards list that the question asks about. One Tempo snippet appears inaccurate/confused, suggesting AMPAS provides 'a secondary route through a selection committee directly authorized by AMPAS,' which does not match the anchor rule change. B therefore has less precise and somewhat contradictory support for the exact question.",
+  "reasoning": "The question asks about 99th Academy Awards international feature eligibility, specifically the new qualifying festival awards and the AMPAS rule change for 2026. Content A better supports a correct answer because it contains the essential rule change from reliable/consistent sources: films may qualify either by official country/region selection or by winning a qualifying award at an international film festival. Crucially, A also includes a result naming the qualifying festivals/awards: Berlin (Golden Bear), Busan (Busan Award – Best Film Award), Cannes (Palme d’Or), Sundance (World Cinema Grand Jury Prize), Toronto (Platform Award), and Venice (Golden Lion). That directly answers the 'new qualifying festival awards' part. B states the broad change but omits the festival-award list and includes a misleading Tempo description of the pathway. So A more fully and accurately enables the LLM to answer the question correctly."
+}

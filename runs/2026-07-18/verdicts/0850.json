@@ -1,0 +1,11 @@
+{
+  "id": 850,
+  "query": "SAG-AFTRA Sean Astin president first policy initiatives priorities 2025",
+  "topic": "SAG-AFTRA",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A only provides a July 2025 pre-election article about Astin running for president. It does not establish that he became president, nor does it give his first policy initiatives/priorities as president beyond a vague note that AI was a concern the union was seeking to address. It is therefore insufficient for the question.",
+  "b_issues": "Content B’s strongest evidence is a SAG-AFTRA YouTube video description and an Instagram campaign post, which are less ideal than independent reported articles. The YouTube snippet gives only a partial list of priorities (health and pension plans, AI, modernizing the member experience), and the Instagram post is from his candidacy rather than his presidency. However, these are broadly consistent with the anchor and other listed results, and B also includes reliable corroboration that he was elected president.",
+  "reasoning": "The question asks about SAG-AFTRA President Sean Astin’s first policy initiatives/priorities in 2025. Content B contains direct statements of his priorities: health and pension plans, AI, modernizing the member experience, plus campaign priorities such as increasing streaming residuals/bonus compensation and improving wages and working conditions. It also includes corroboration from the Los Angeles Times that he was elected president in September 2025. These facts align with the anchor, which emphasizes AI protections, streaming compensation, health-plan access, and casting/audition issues. By contrast, Content A only says Astin was running for president and mentions AI as a general union concern; it does not provide his first priorities as president. Therefore B better enables a correct answer."
+}

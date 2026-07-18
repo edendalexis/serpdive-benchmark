@@ -1,0 +1,11 @@
+{
+  "id": 159,
+  "query": "Zelenskyy G7 summit 2026 meeting Trump Turkey NATO Ukraine peace talks details",
+  "topic": "Volodymyr Zelenskyy",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A is heavily centered on the July 8 NATO summit in Ankara and largely misses the G7-meeting details asked in the query. It does include a New York Post result mentioning Ukraine's shifting peace approach and a photo caption implying Trump and Zelensky talked at the G7, but it does not clearly provide the key G7 facts from the anchor: that Zelensky met Trump and Macron at the June 16 G7 summit in France and that the meeting related to pushing peace talks. Several results are thin or low-value (Spectrum blurb, YouTube live link).",
+  "b_issues": "Content B still lacks the strongest direct G7 source from the anchor and is also dominated by NATO-summit coverage. The ABC snippet is very short and the NBC result is mostly unusable. However, none of the included facts clearly contradict the anchor.",
+  "reasoning": "B better enables a correct answer because it contains the crucial peace-talks context that the question asks about. In particular, the New York Post snippet in B explicitly says Ukraine saw Trump’s growing frustration with Putin as an opportunity to pressure the Kremlin, and that Russia renewed interest in talks after Western allies increased pressure at the G7 summit, though a meeting did not come to fruition. That connects the G7 summit, Trump, Ukraine, and peace talks. A mostly provides NATO-meeting details such as Trump granting Ukraine a license to make Patriot air defense systems and saying a deal may be on the horizon, but it gives little concrete G7 information. Since the question explicitly mentions both the G7 summit and the Turkey NATO meeting, B covers both dimensions more directly, while A is too skewed toward the NATO event alone."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 719,
+  "query": "26th Franco-German Ministerial Council July 2026 defence security council outcomes agreements",
+  "topic": "Emmanuel Macron",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A is incomplete: the Elysee defence-security result snippet is truncated and does not expose the full six areas or all outcomes directly in the snippet. One result is low-quality/irrelevant (Reuters Connect photo listing) and another appears marginal/irrelevant (mezha.net). But it includes highly reliable primary-source results for both the 26th Ministerial Council and the 17 July 2026 Defence and Security Council, including official Bundesregierung and Elysee documents matching the query date and event.",
+  "b_issues": "Content B is substantially flawed for this query. Its top result is for 2 September 2025, not the July 2026 Defence and Security Council, and mixes in older outcomes such as JEWEL/ODIN’s EYE and KNDS governance that are not the asked event. Other results are unrelated EU Council pages or generic background on FCAS. Only one Reuters preview is directly about the July 2026 meeting, and it appears to describe anticipated discussion topics rather than final outcomes/agreements. This creates a strong risk of answering with wrong or outdated facts.",
+  "reasoning": "The question asks for the outcomes/agreements of the 26th Franco-German Ministerial Council and the July 2026 Defence and Security Council. Content A contains direct, authoritative, event-specific primary sources from the Elysee and the German government for 17 July 2026, exactly matching the events in the anchor. Even though snippets are partial, the titles and sources clearly point to the correct official conclusions and provide enough grounding for an LLM to identify the right documents and answer from them. Content B, by contrast, is dominated by a 2025 defence-security conclusions page and unrelated EU items, with only a Reuters article about what leaders would discuss. That makes B much more likely to produce an incorrect answer by importing 2025 agreements into a 2026 question. Therefore A better enables a correct answer."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 509,
+  "query": "Intel Foundry multi-billion AWS framework AI fabric chip 18A custom Xeon 6 Intel 3 deal size details 2026",
+  "topic": "Intel Foundry",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A mostly contains secondary coverage rather than the primary source. One result (ExtremeTech) introduces a potentially misleading detail by tying '2026 at the earliest' to Ohio fab timing and mentioning AWS's $7.8B Ohio data-center investment; that investment is related context, not the size of the Intel-AWS framework itself. A does not provide a precise deal-size figure beyond 'multi-year, multi-billion-dollar,' and some snippets are paraphrased/condensed, which increases risk of interpretation drift.",
+  "b_issues": "Content B also does not provide an exact numeric size for the Intel-AWS framework beyond 'multi-year, multi-billion-dollar.' One included result (Futurum, 2026 Xeon 6+) is largely irrelevant to the specific AWS deal, but it does not directly contradict the key facts.",
+  "reasoning": "B better enables a correct answer because it includes the primary Intel Newsroom source with the core facts matching the anchor: Intel and AWS announced a co-investment in custom chip designs under a multi-year, multi-billion-dollar framework; Intel will produce an AI fabric chip for AWS on Intel 18A and a custom Xeon 6 chip on Intel 3; and further designs on Intel 18AP/14A are expected in Ohio, with 2026-related production context. These are the exact facts needed. A contains the same broad points, but relies on secondary reports and adds contextual Ohio investment/timing details in ways that could blur 'deal size details' with separate AWS Ohio data-center spending. Since neither set gives a specific dollar amount for the framework, both are incomplete on exact size, but B is more authoritative and cleaner on the essential facts."
+}

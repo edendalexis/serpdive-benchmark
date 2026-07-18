@@ -1,0 +1,11 @@
+{
+  "id": 646,
+  "query": "Berkshire Hathaway stock buybacks 2026 resumption amount spent",
+  "topic": "Berkshire Hathaway",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A contains a potentially conflicting amount: CNBC says roughly $226 million on March 4, while the Yahoo/finance result says about $234 million during Q1 2026. That could confuse an LLM about whether the question asks for the day buybacks resumed or total Q1 spending. A also includes weaker/repackaged sources and one irrelevant historical Barron's snippet about January 2026 speculation.",
+  "b_issues": "Content B also has a possible March 4 vs Q1 ambiguity: CNBC says roughly $226 million on March 4, while YCharts shows $235.00M for March 31, 2026, which appears to be quarterly buybacks rather than the specific resumption-day amount. Some lower-ranked results are low-reliability/irrelevant (YouTube, Reddit, Instagram).",
+  "reasoning": "The question asks about Berkshire Hathaway's 2026 buyback resumption and amount spent. The anchor indicates the resumption was disclosed by Reuters, and CNBC provides the key figure: Berkshire bought back the equivalent of 309 Class A shares, roughly $226 million worth, on March 4, the day it resumed repurchases. Both A and B contain that crucial CNBC fact, so both could support a correct answer. However, B presents the decisive CNBC snippet more fully and clearly ties the amount to the specific resumption date, making it slightly easier for an LLM to answer correctly that the resumption involved about $226 million spent on March 4, 2026. A introduces a more prominent alternate figure of about $234 million for Q1 2026 from Yahoo, which increases ambiguity about what exact amount is being asked."
+}

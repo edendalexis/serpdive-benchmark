@@ -1,0 +1,11 @@
+{
+  "id": 625,
+  "query": "Novak Djokovic official warning Wimbledon July 5 2026 language",
+  "topic": "Novak Djokovic",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Mostly adequate, but includes an irrelevant result about Djokovic issuing a warning to rivals rather than receiving one. Some snippets are thin and partially duplicated via Yahoo/TheSpun syndication, so source diversity is limited.",
+  "b_issues": "Mostly adequate, but also relies heavily on the same syndicated Yahoo/TheSpun report and has fewer total sources. One snippet includes extra speculative/irrelevant tournament context that does not help answer the question.",
+  "reasoning": "Both A and B contain the key facts needed to answer the query: on July 5, 2026 at Wimbledon, Novak Djokovic received a code violation warning for audible obscenity/inappropriate language, with snippets indicating he shouted 'bulls***' plus another word in Serbian during his match with Roman Safiullin. These facts align with the anchor. Neither set shows a material contradiction on the core answer. A has slightly more corroboration, while B has somewhat richer snippets from Express/Yahoo, but the difference is not meaningful for answering correctly from the search content alone."
+}

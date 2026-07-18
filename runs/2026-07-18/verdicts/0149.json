@@ -1,0 +1,11 @@
+{
+  "id": 149,
+  "query": "Red Lobster December 2025 restaurant employee reductions number",
+  "topic": "Red Lobster",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Minor inconsistency in phrasing across results: one says 'less than 200' while others say 'around 200' or 'about 200.' However, these are materially consistent and directly answer the question.",
+  "b_issues": "Top result snippet omits the actual number of employees cut and only says the cuts were less than 1% of workforce. The other results imply around 200, but B provides fewer direct, explicit statements of the reduction number than A.",
+  "reasoning": "Content A better enables a correct answer because it contains multiple direct snippets explicitly stating the number: 'around 200,' 'about 200,' and 'less than 200' restaurant-level employees. This aligns with the anchor reporting that Red Lobster laid off about 200 restaurant employees in December 2025. Content B includes the same key source, but its snippet for the strongest source does not state the number, so the answer relies more on secondary results. Both are broadly accurate, but A presents the answer more directly and redundantly from multiple sources."
+}

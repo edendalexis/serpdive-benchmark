@@ -1,0 +1,11 @@
+{
+  "id": 170,
+  "query": "SpaceX Starship Flight 13 rescheduled launch date July 2026",
+  "topic": "SpaceX Starship",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor issue: one SpaceX snippet includes both the old July 16 target and the updated July 20 target in the same result, which could momentarily confuse a model. Another snippet from CNN only says 'early next week' rather than the exact date. However, A also includes the official SpaceX page and Next Spaceflight with the specific rescheduled date.",
+  "b_issues": "Contains a misleading Facebook/Teslarati result still stating July 16, 2026 as the target date, which is the pre-scrub date, not the rescheduled one. The SpaceX result snippet appears malformed and does not surface the Flight 13 date. CNN and Space.com results mostly discuss the scrub and original attempt without clearly giving the new exact date, leaving Teslarati as the main source for July 20.",
+  "reasoning": "A better supports a correct answer because it includes the official SpaceX launch page explicitly saying Starship's thirteenth flight test is preparing to launch as early as Monday, July 20, and a Next Spaceflight listing with Monday July 20, 2026 liftoff time. Those match the anchor. B does contain the correct rescheduled date in a Teslarati result, but it is undermined by a top Facebook result incorrectly emphasizing July 16 and a broken SpaceX snippet that does not provide the needed date. So A provides more direct, reliable, and less contradictory evidence for the rescheduled launch date."
+}

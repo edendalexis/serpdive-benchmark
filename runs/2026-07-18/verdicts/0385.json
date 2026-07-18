@@ -1,0 +1,11 @@
+{
+  "id": 385,
+  "query": "Meta jury verdict $375 million penalty lawsuit pending cases",
+  "topic": "Meta",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A has the core $375 million New Mexico verdict, but it is weaker on the 'pending cases' part. Its strongest result is a law-firm commentary rather than primary reporting, and it mentions the California addiction case only in broad terms without clearly stating the status of other pending litigation. It also includes low-value/noisy results like YouTube and Facebook posts.",
+  "b_issues": "Content B does not have major factual flaws relative to the anchor. One possible limitation is that it mentions 'thousands of similar lawsuits' without detail, but that is not contradictory. Overall it is consistent across Reuters, CNBC, NBC, BBC, and Guardian.",
+  "reasoning": "Content B better equips an LLM to answer the query because it contains the key facts from reliable mainstream sources: Meta was ordered to pay $375 million in New Mexico; the case involved child exploitation/user safety claims under New Mexico consumer-protection law; and there are other pending cases, including a separate Los Angeles trial involving Meta and YouTube over alleged social media addiction, plus broader ongoing litigation. Reuters in B directly matches the anchor on the verdict and penalty, CNBC says the Los Angeles personal-injury trial was still being deliberated, and BBC adds that thousands of similar lawsuits are moving through US courts. Content A has the verdict amount correct, but is less clear and less source-reliable on the pending-cases portion, relying heavily on a law-firm summary and including noisy social/video results."
+}

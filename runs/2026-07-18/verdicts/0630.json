@@ -1,0 +1,11 @@
+{
+  "id": 630,
+  "query": "Perplexity Comet agentic AI browser iOS global launch availability",
+  "topic": "Perplexity AI",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A has the key iOS launch facts, but it does not clearly establish global availability. Its strongest evidence is a 9to5Mac item saying the iPhone version launched on March 18, 2026 and now joins Mac, Windows, and Android, plus the App Store listing. However, those do not explicitly answer whether the iOS launch was global. It also includes weaker/less authoritative sources like Digital Applied and No Hacks.",
+  "b_issues": "Content B mixes two different availability concepts: a CNBC report about Comet becoming free worldwide, and iOS platform availability. It also includes a Reddit result that is unreliable and potentially contradictory/noisy, and a YouTube result that is not ideal evidence. But it does contain Perplexity’s own Comet page stating availability on iOS, plus the App Store listing, and CNBC explicitly supports worldwide availability.",
+  "reasoning": "The question asks about Perplexity Comet’s iOS global launch availability. To answer correctly, an LLM needs both that Comet is available on iOS and that availability is worldwide/global. Content B provides both pieces: Perplexity’s official Comet page says it is available for Mac, Windows, iOS, and Android, and CNBC says Comet was rolled out worldwide. Content A is stronger on the iOS launch date itself, but it lacks explicit evidence of global/worldwide availability. Therefore B better enables a correct answer from the provided results alone, despite having more noisy sources."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 308,
+  "query": "SpaceX Blue Origin commercial landers Artemis III 2027 low Earth orbit demonstration mission specifics",
+  "topic": "NASA Artemis program",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A includes one dubious/unsupported result from SatNews claiming a 'nose-to-nose docking' with a 'Starlink-linked Starship Version 3 HLS test article'; that wording is not corroborated by the NASA anchor and may be inaccurate. It also includes Wikipedia, which is less reliable than primary sources. However, A contains a direct NASA source with key specifics: Artemis III is a 2027 Earth-orbit demonstration to practice rendezvous/docking between Orion and commercial landers, Blue Origin’s test article launches first, and it can loiter up to 30 days before SLS/Orion launch.",
+  "b_issues": "Content B lacks any primary NASA source and relies mainly on Wikipedia, Payload, Facebook, ArtemisFiles, and a fandom wiki. It contains likely inaccuracies versus the anchor, especially Payload’s claim that the crew will first meet 'Blue Origin’s Mark 1' and then 'SpaceX’s Starship V3' and that the mission is a 'two-week' mission; the anchor instead points to commercial landers from Blue Origin and SpaceX without supporting those exact vehicle/version labels, and NASA reporting elsewhere references Blue Moon Mark 2 rather than 'Mark 1.' B also says astronauts may dock with 'one or both' landers, which is less definite and potentially contradictory to the anchor’s framing of testing with both commercial landers.",
+  "reasoning": "A better enables a correct answer because it includes a directly relevant NASA page that matches the anchor’s core facts about the revised Artemis III: a 2027 low Earth orbit demonstration focused on rendezvous and docking between Orion and commercial landers, with provider-specific detail that Blue Origin’s lander test article launches first and can loiter up to 30 days. B has no NASA primary source and is more dependent on secondary or low-reliability sources, several of which introduce specific claims that appear inconsistent with the anchor or with known NASA descriptions. While A is not perfect, it provides more accurate, source-grounded specifics needed to answer the question."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 493,
+  "query": "Wimbledon 2026 champions dinner Noskova Sinner Guo Mladenovic doubles results",
+  "topic": "Wimbledon",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "A does not include the key champions-dinner/champions-ball result about Noskova and Sinner dancing; it mainly has doubles and singles results. The top result is a lesser-known source, and there is no direct Wimbledon/WTATennis champions-dinner article. CBS snippet in A is also partial and does not clearly give Noskova's final scoreline in the visible text.",
+  "b_issues": "B contains a malformed sentence in the WTATennis snippet ('which Guo because the second Chinese Wimbledon champion in women's doubles') and includes an irrelevant/likely mistargeted WTA scores result for 2029. It also does not clearly surface the full women's doubles score from the most authoritative result unless using the Sportscape snippet.",
+  "reasoning": "The query asks about Wimbledon 2026 champions dinner plus Noskova, Sinner, and Guo/Mladenovic doubles results. B directly includes the authoritative WTATennis champions-dinner article naming Noskova and Sinner and describing the traditional dance at the champions' ball/dinner, which is the core unique fact in the query. It also includes enough supporting results to identify Sinner and Noskova as singles champions and Guo/Mladenovic as women's doubles champions, with the Sportscape snippet explicitly giving the doubles final result over Dabrowski/Stefani 6-3, 7-5. A has solid doubles coverage, but it lacks the essential champions-dinner article entirely, so an LLM using only A would be less able to answer the 'champions dinner Noskova Sinner' part correctly. Therefore B better enables a correct answer overall."
+}

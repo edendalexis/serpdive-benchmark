@@ -1,0 +1,11 @@
+{
+  "id": 707,
+  "query": "Live Nation retain Ticketmaster ownership SeatGeek StubHub platform access DOJ settlement terms 2026",
+  "topic": "Ticketmaster DOJ lawsuit",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A suggests Live Nation would 'allow competitors to sell tickets on its platform,' but it does not clearly identify which competitors or distinguish primary-ticketing API access from broader resale/platform access. It also does not clearly answer whether Live Nation retains ownership of Ticketmaster, leaving that key part implicit. One result is an Instagram post, which is a weak/redundant source. Overall A is sparse on the specific SeatGeek/StubHub access and ownership terms asked about.",
+  "b_issues": "Content B says third-party sellers such as 'SeatGeek or Eventbrite' could list tickets directly through Ticketmaster’s technology; Eventbrite is not the platform named in the query, and this wording may oversimplify the actual settlement’s standardized API/access provisions. It does not mention StubHub specifically, so that part of the query remains only partially supported. Wikipedia is a weaker source than primary/legal reporting.",
+  "reasoning": "The question asks whether Live Nation keeps Ticketmaster and what platform-access terms were in the 2026 DOJ settlement, specifically in relation to rivals like SeatGeek/StubHub. Content B more directly supplies the key facts: it explicitly says 'Live Nation retains Ticketmaster' and that Ticketmaster must open parts of its platform to rival ticketing companies, with Politico specifically naming SeatGeek as an example. It also adds related settlement terms like amphitheater divestitures and fee caps, consistent with the anchor’s description of a no-breakup settlement plus API/open-ticketing remedies. Content A supports a no-breakup/open-platform answer only indirectly and less precisely, without explicitly stating retention of Ticketmaster or giving a concrete rival-platform example tied to the access remedy. So B better enables a correct answer, even though neither set clearly substantiates StubHub specifically."
+}

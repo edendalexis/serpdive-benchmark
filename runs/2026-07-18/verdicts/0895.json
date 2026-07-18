@@ -1,0 +1,11 @@
+{
+  "id": 895,
+  "query": "Alien Romulus sequel Steve Asbell confirmed in development October 2024 20th Century Studios 2025 reaffirmed",
+  "topic": "Alien: Romulus",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Results are mostly secondary/tertiary outlets rather than the primary Hollywood Reporter interview. One result is a Facebook post with an unverified claim about filming in October 2025, which is not established by the anchor. Another snippet says '20th Century Fox' instead of 20th Century Studios. The set does not clearly provide the 2025 reaffirmation portion of the query.",
+  "b_issues": "Contains a clearly problematic future-dated/likely unreliable Playlist result from 2026 asserting Michael Sarnoski for the sequel and other claims not supported by the anchor. Another result (Nexus Point News) says Fede Álvarez will not return to direct and only produce, which conflicts with the October 2024 reporting that 20th was working to close a deal with him and with the general development framing. It also does not clearly supply the 2025 reaffirmation asked for.",
+  "reasoning": "Both sets support the core October 2024 fact that Steve Asbell said an Alien: Romulus sequel was being worked on at 20th Century Studios, but A does so with fewer contradictions. A has multiple snippets directly echoing Asbell's confirmation that a sequel idea was in development. B includes that too, especially via Fangoria and IGN, but it is undermined by more contradictory/noisy results, particularly the speculative future-dated Playlist item and the Nexus Point claim that Álvarez is not directing. Since the question hinges on Asbell's October 2024 confirmation and a later reaffirmation, neither set cleanly establishes the 2025 reaffirmation, but A is the more accurate and less self-conflicting set overall."
+}

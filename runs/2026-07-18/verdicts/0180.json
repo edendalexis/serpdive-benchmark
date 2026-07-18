@@ -1,0 +1,11 @@
+{
+  "id": 180,
+  "query": "IOC Russia suspension status July 2026",
+  "topic": "International Olympic Committee",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor issue: one lower-quality forum result mentions a sport-specific implementation date ('takes effect from 28 July 2026') that could confuse an LLM about the IOC decision date, which was 7 July 2026. Otherwise the key fact pattern is accurate and consistent.",
+  "b_issues": "Contains misleading or inaccurate framing. One NPR-derived result says the decision 'effectively overturns a decade-long ban on Russian athletes from international sport' and ties the suspension broadly to the doping scandal, which is not the specific IOC/ROC suspension status at issue here. Another result snippet includes outdated Paris 2024 invitation language, which is irrelevant and could confuse the status question. Overall B lacks the primary IOC source and is less precise about the exact ROC suspension status.",
+  "reasoning": "The question is specifically about the IOC Russia suspension status in July 2026. Content A directly includes the authoritative IOC page stating that the IOC Executive Board provisionally lifted the suspension of the Russian Olympic Committee that had been in effect since 12 October 2023, and its featured snippet clearly says this happened on July 7, 2026. That exactly answers the question. A is also corroborated by CNN and NPR snippets. Content B generally points in the same direction, but it is less reliable for a precise answer because it lacks the IOC primary source and includes broader, potentially inaccurate framing about overturning a decade-long ban and doping-related sanctions, which could lead an LLM to muddle different Russia-related Olympic restrictions. Therefore A better enables a correct answer."
+}

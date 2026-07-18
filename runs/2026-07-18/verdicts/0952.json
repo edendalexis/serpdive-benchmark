@@ -1,0 +1,11 @@
+{
+  "id": 952,
+  "query": "TikTok Shop June 2026 expansion Austria Belgium Netherlands Poland official announcement markets launch date",
+  "topic": "TikTok Shop",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A lacks the official TikTok newsroom announcement in its main results and relies heavily on secondary or lower-reliability sources (marketing blog, LinkedIn post, Yahoo syndication). The featured snippet omits the UK from the list of existing markets, while other A results include it, creating a mild inconsistency about the full existing-market list. The key facts are present, but sourcing is weaker and somewhat noisier.",
+  "b_issues": "Content B includes some secondary/noisy sources (agency blog, Facebook post), but it also includes the official TikTok newsroom result with the exact facts needed. No material factual contradiction is apparent in the provided snippets.",
+  "reasoning": "The question asks about the official announcement, the markets, and the launch date. Content B directly contains the official TikTok Newsroom result stating that TikTok Shop is expanding to Austria, Belgium, the Netherlands, and Poland, and that it will be available from 15 June, joining existing markets in France, Germany, Ireland, Italy, Spain, and the UK. That exactly matches the anchor. Content A also contains the core answer through secondary sources, but it does not surface the official announcement itself and has a small inconsistency in one snippet that omits the UK from the existing markets. Therefore B better enables an LLM to answer correctly and confidently from reliable content alone."
+}

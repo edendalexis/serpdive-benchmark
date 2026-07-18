@@ -1,0 +1,11 @@
+{
+  "id": 343,
+  "query": "Worldcoin WLD price current value market cap after OpenAI IPO filing",
+  "topic": "Worldcoin",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A lacks a solid current-value/current-market-cap source. Its strongest directly relevant results are news snippets about the OpenAI IPO reaction, giving roughly $0.52 and ~$1.75B or ~$0.61, but it does not include a reliable live pricing page like CoinGecko/CoinMarketCap for the current WLD value and market cap. One result is a CoinMarketCap Top Stories article rather than the asset page, one is a secondary crypto-news aggregation snippet, and another is a YouTube video. The snippets also point to differing post-filing prices (~$0.52 vs ~$0.61) without clarifying timing, so an LLM may struggle to answer 'current value market cap' correctly.",
+  "b_issues": "Content B mixes 'after OpenAI IPO filing' news values with current live-market values. It contains both post-filing surge figures (~$0.52, ~$1.75B; and ~$0.61 in another article) and a current CoinGecko quote ($0.3875, market cap $1,372,366,877), so an LLM must distinguish event-related prices from current live price. There is some tension between sources due to different timestamps, but this is explainable rather than a factual contradiction.",
+  "reasoning": "B better enables a correct answer because it contains the key facts from a reliable live-price source: CoinGecko gives current WLD price as $0.3875 and market cap as $1,372,366,877, which aligns closely with the anchor reference (~$0.3971 and about $1.35B-$1.37B). It also includes the OpenAI-IPO-related context via Cryptonews/Finbold-style reporting that after the filing WLD traded around $0.52 with market cap around $1.75B, plus another article citing a spike toward ~$0.61. That gives an LLM enough information to answer both the current value/market cap and the 'after OpenAI IPO filing' context. A, by contrast, mostly has news/reaction pieces and lacks a dependable current pricing page, making it less suitable for answering the 'current value market cap' part accurately."
+}

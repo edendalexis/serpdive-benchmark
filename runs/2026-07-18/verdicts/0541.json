@@ -1,0 +1,11 @@
+{
+  "id": 541,
+  "query": "Eurosystem Collateral Management System ECMS launch date status 2025",
+  "topic": "European Central Bank",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Minor quality issues: includes lower-reliability third-party results such as LinkedIn and Societe Generale, and one title appears malformed ('undefined'). But it contains the key official ECB launch-status result and does not materially conflict on the 2025 status.",
+  "b_issues": "More prone to confusion/outdatedness: the featured snippet and top result focus on the planned launch date rather than the final 2025 status; top result includes irrelevant appended 2025/2026 text from another article; results include older rescheduling information ('first half of 2025') and references to planned status rather than confirmation of successful go-live. It lacks the ECB 17 June 2025 press release confirming the system actually launched on 16 June 2025.",
+  "reasoning": "The question asks for ECMS launch date status in 2025. Content A includes the decisive official ECB press release stating the Eurosystem 'successfully launched' ECMS on 16 June 2025, plus another official ECB result saying it would go live on 16 June 2025. That is enough for an LLM to answer correctly: launch date was 16 June 2025 and by mid-2025 the launch had been completed successfully. Content B mostly supports only the planned date from October 2024 and related preparatory/rescheduling material. While B suggests 16 June 2025, it does not as clearly establish the final status that the launch actually occurred successfully in 2025. Therefore A better enables a correct answer."
+}

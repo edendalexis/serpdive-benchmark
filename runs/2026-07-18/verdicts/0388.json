@@ -1,0 +1,11 @@
+{
+  "id": 388,
+  "query": "Meta AI Instagram teen self-harm suicide parental guardian alerts feature rollout",
+  "topic": "Meta",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "",
+  "b_issues": "Contains low-reliability Instagram reposts/memes as top results, including an unsupported claim that Meta plans to bring the alerts to its other apps over time. It also includes a likely inaccurate/unsupported detail that conversations are flagged for manual review before notifying a parent. The result mix is noisier and less authoritative overall.",
+  "reasoning": "Content A better supports a correct answer because it includes Meta’s official newsroom post as the top result with the key facts needed: parents using Instagram supervision tools will be notified if their teen discusses suicide or self-harm with Meta AI; alerts are live now in the US, UK, Australia, and Canada; global availability is planned by the end of the year; parents receive expert resources; Meta is also building the ability to alert emergency services; and the system was informed by feedback from over 75 clinicians. A also has corroborating coverage from ABC News. Content B does contain the official Meta post and ABC, but its top results are Instagram reposts and CBC, with social-post paraphrases that introduce extra, less reliable claims not supported by the anchor or official post. So A is more accurate, authoritative, and less likely to mislead an LLM."
+}

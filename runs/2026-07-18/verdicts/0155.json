@@ -1,0 +1,11 @@
+{
+  "id": 155,
+  "query": "Russia largest attack Kyiv 2026 21 killed casualty updates Zelenskyy accelerated weapon systems requested",
+  "topic": "Volodymyr Zelenskyy",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Top result is about a different later attack on July 6, 2026 with different figures (21 dead overall, 15 in Kyiv, 351 drones and 68 missiles), which could distract from the queried July 2/3 strike. France24 snippet says at least 30 killed, conflicting with the anchor's 21 killed update, likely reflecting a later casualty update but not clearly framed. One result is truncated ('at least 18 people killed').",
+  "b_issues": "Top result is also the later July 6 attack, not the queried largest Kyiv attack with 496 drones and 74 missiles. Results mix multiple separate events: July 6, July 8, and July 11. The Forces News result gives 13 killed, conflicting with the 21 killed query/anchor. B does not clearly surface the key queried event's casualty update and scale as directly as A. It also includes more peripheral material about Trump, Patriot licensing, and other strikes that may confuse an LLM.",
+  "reasoning": "A better enables a correct answer because it includes a result directly matching the queried event: the France24 item about one of the largest attacks on Kyiv, plus CNN analysis explicitly referring to the Thursday July 2 strike and noting 77 missiles including 28 ballistic missiles. Although A contains conflicting casualty numbers and an irrelevant later July 6 AP-style result at the top, it still more clearly identifies the specific massive Kyiv attack referenced in the question. B is more muddled: its top result is the wrong later attack, it mixes in unrelated follow-on coverage, and the closest matching result gives an outdated 13-death count rather than the 21-killed casualty update in the query/anchor. So A is more likely to let an LLM answer the question correctly."
+}

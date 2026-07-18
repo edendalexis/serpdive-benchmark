@@ -1,0 +1,11 @@
+{
+  "id": 105,
+  "query": "Riyadh Air Boeing 787 Dreamliner first delivery date configuration details",
+  "topic": "Boeing",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A does not clearly provide the full cabin configuration breakdown in its strongest sources. The Boeing press release snippet gives the delivery date (June 5, 2026) but not seating details, and the Aerospace Global News snippet mentions cabin products but not the full seat counts. One LinkedIn result mentions a 290-seat four-class configuration, but LinkedIn is a weaker source and the snippet does not show the detailed breakdown. So A is somewhat incomplete on configuration details.",
+  "b_issues": "Content B is more problematic factually. Its top result is about Starlink Wi‑Fi and focuses on service launch dates, not first delivery. The AirInsight result is internally inconsistent: the title says 'first three 787s' while the text says first two delivered on June 4 and a third on June 6, which conflicts with the anchor and Boeing press release stating the first two were delivered/arrived June 5, 2026. B also does not provide the full cabin configuration details; it only mentions 28 business-class seats. The snippets also mix first scheduled service dates with delivery dates, which could mislead an LLM.",
+  "reasoning": "A better supports a correct answer because it includes a highly reliable Boeing press release explicitly stating Riyadh Air’s first two 787 Dreamliners were delivered and arrived in Riyadh on June 5, 2026, matching the anchor. It also includes another result indicating a 290-seat four-class configuration, which at least points toward the configuration part of the question. B contains the Boeing source too, but its other results are less relevant and introduce contradictions or confusion about the delivery timeline (June 4 vs. June 5, first two vs. first three) while still failing to provide the full configuration breakdown. Therefore A more reliably enables an LLM to answer the first delivery date correctly and gets closer on configuration details."
+}

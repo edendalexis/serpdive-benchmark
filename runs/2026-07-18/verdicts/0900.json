@@ -1,0 +1,11 @@
+{
+  "id": 900,
+  "query": "Oppenheimer Holdings cash sweep class action settlement amount court approval status 2026",
+  "topic": "Oppenheimer",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "A clearly gives the $70 million settlement amount, but its approval-status evidence is thinner and more ambiguous. The strongest status item is a Westlaw snippet saying the settlement won federal court approval, but the snippet is truncated and does not clearly distinguish preliminary from final approval. Other A results only say the settlement is subject to approval or that escrow follows preliminary approval.",
+  "b_issues": "B includes some lower-reliability aggregator sources (OpenClassActions, SahmCapital, StockTitan) rather than primarily primary/legal reporting sources. However, the facts are internally consistent and supported by the settlement website and the SEC filing.",
+  "reasoning": "The question asks for both the settlement amount and the court approval status in 2026. Both A and B contain the amount: $70 million. But B better enables a correct answer on approval status because it explicitly states that preliminary approval was granted on May 22, 2026 (OpenClassActions), and it includes the official settlement site showing deadlines and that the settlement remains subject to court approval/final approval proceedings. A has strong sources for the amount, but its approval-status evidence is less complete: the SEC/PR Newswire items only show an agreement subject to approval, and the Westlaw snippet is too abbreviated to confidently establish the exact status. So B more fully answers both parts of the query."
+}

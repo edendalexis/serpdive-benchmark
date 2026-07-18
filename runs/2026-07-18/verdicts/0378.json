@@ -1,0 +1,11 @@
+{
+  "id": 378,
+  "query": "OpenAI Sora support article export window existing videos sora.com library availability after shutdown 2026",
+  "topic": "Sora OpenAI",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "A includes the key OpenAI Help Center article, but its snippet is too sparse to answer the full query confidently. It mentions export is possible and data will be deleted after any final export window, but does not include the concrete access/export path from the support article. The other results are mostly third-party and include unsupported specifics such as 'Videos and images can be exported directly from the Sora library' and claims about sora.com/library availability that are not clearly grounded in the official article. This makes it harder for an LLM to answer precisely from A alone.",
+  "b_issues": "B contains one likely inaccurate third-party result claiming 'Sora was already discontinued on March 24, 2026,' which conflicts with the official OpenAI dates of April 26, 2026 for web/app and September 24, 2026 for API. It also has lower-quality third-party/social results. However, the official OpenAI Help Center snippet in B includes the crucial facts needed.",
+  "reasoning": "B better enables a correct answer because it contains the official OpenAI Help Center result with the decisive details: web/app discontinued April 26, 2026; API discontinued September 24, 2026; export is still possible after app discontinuation; if a final export window is offered users will be emailed; after any such window passes data is permanently deleted; and, crucially, content can be accessed/exported via 'sora.chatgpt.com/sunset' by clicking Export. That directly addresses the query about the export window and availability of existing videos after shutdown. A has the same official article but only a much narrower snippet, so an LLM would have to rely more on third-party summaries and infer library availability. Despite one contradictory third-party result in B, the official snippet there is more complete and sufficient."
+}

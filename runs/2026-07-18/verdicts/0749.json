@@ -1,0 +1,11 @@
+{
+  "id": 749,
+  "query": "Supreme Court Biden administration ghost guns regulation oral arguments status decision 2024",
+  "topic": "U.S. Supreme Court",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A is missing the key 2024 oral-argument status result from a top reliable source like AP/Reuters/SCOTUSblog and instead mixes in older procedural history (the 5-4 emergency ruling) and 2025 merits decisions. It does not clearly answer the 'oral arguments status decision 2024' aspect. The New York Times and SCOTUSblog 2025 results are accurate but postdate 2024, and the set could mislead an LLM into focusing on the eventual 2025 decision rather than the status after 2024 oral argument.",
+  "b_issues": "Content B also includes 2025 merits-decision coverage, which is later than the 2024 oral-argument timeframe. One CBS snippet appears internally confusing: it mentions four conservatives opposing enforcement as a sign they would vote to uphold the 5th Circuit invalidation, which is awkwardly phrased and could confuse directionality. But it still provides the crucial status point that oral arguments occurred and that a decision was expected by the end of June 2025.",
+  "reasoning": "The anchor shows the key fact pattern: after Oct. 8, 2024 oral arguments, the Supreme Court appeared likely/open to upholding the Biden administration's ghost-gun regulation; the actual merits decision came later in March 2025. Content B better supports that answer because it includes a direct oral-argument-era result from BBC ('signals openness') and a CBS result explicitly about the Court weighing the rule and saying a decision was expected by the end of June 2025. It also includes reliable later confirmation from AP/SCOTUSblog that the rule was ultimately upheld. Content A has one relevant BBC result, but otherwise leans more heavily on older emergency-order coverage and 2025 outcomes without clearly tying them to the 2024 oral-argument status. So B better enables an LLM to answer correctly that as of the 2024 oral arguments the Court seemed likely to uphold the rule, with no 2024 merits decision yet."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 475,
+  "query": "Tesla Model Y long wheelbase six seater U.S. price release",
+  "topic": "Elon Musk",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A does not surface the relevant Model Y L U.S. launch result. Its results are mostly generic Tesla pages (Wikipedia, stock pages, Tesla homepage) and do not provide the needed facts about the long-wheelbase six-seat U.S. model's release date or price. The Car and Driver result snippet mentions '2027 tesla model y l' but gives no usable launch or pricing details.",
+  "b_issues": "Content B is mostly accurate and directly relevant. Minor issue: the USA Today snippet says 'is coming to the US,' which is less precise than the launch/ordering-now framing in the anchor and Electrek result, but it does not materially contradict the key facts. The third result is generic Model Y review content and not directly about the Model Y L.",
+  "reasoning": "Content B clearly contains the facts needed to answer the question: Electrek states Tesla launched the 6-seat Model Y L in the U.S. on July 2, 2026, priced at $61,990 as a Launch Series. That matches the anchor on price, six-seat configuration, and U.S. release. Content A lacks those facts entirely, so an LLM using A alone would likely be unable to answer correctly."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 921,
+  "query": "Wicked Broadway single week gross record late 2024",
+  "topic": "Wicked",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "No major factual flaws. One high-ranked result is irrelevant (about the film box office), and some results are Reddit discussions rather than primary/reliable sources. But A does contain reliable, consistent facts from BroadwayWorld and The Hollywood Reporter stating Wicked grossed $5,037,392 for 12/23/2024–12/29/2024 and set the Broadway single-week record.",
+  "b_issues": "No major factual flaws. The Broadway League result is too generic to answer the question directly, and one Hollywood Reporter snippet is truncated/less explicit than ideal. But B includes reliable, consistent sources (Broadway News, Guinness, BroadwayWorld, THR) stating Wicked was the first show ever to gross over $5 million in a single week, with $5,037,392 for the week ending Dec. 29, 2024.",
+  "reasoning": "Both result sets enable a correct answer equally well. The key fact needed is that Wicked set the Broadway single-week gross record in late 2024 with $5,037,392 during the week ending Dec. 29, 2024 (covering Dec. 23–29), becoming the first Broadway show to top $5 million in a week. Content A provides this via BroadwayWorld and THR; Content B provides it via Broadway News, Guinness, and BroadwayWorld. The facts are accurate, mutually consistent, and sufficient in both sets, with no meaningful contradictions."
+}

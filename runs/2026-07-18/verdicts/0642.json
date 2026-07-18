@@ -1,0 +1,11 @@
+{
+  "id": 642,
+  "query": "Berkshire Hathaway Kraft Heinz stake sale 2026 latest transaction value",
+  "topic": "Berkshire Hathaway",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A includes some inconsistent valuation figures across results ($7.5B, $7.7B, $7.3B, $8.43B), and some sources are less reliable or stale aggregators. However, it contains a Reuters result explicitly tied to the 2026 potential sale stating the stake was valued at about $7.7 billion based on the Jan. 20 closing price, which directly answers the query.",
+  "b_issues": "Content B lacks a strong directly relevant Reuters result in the returned list and relies more on secondary/aggregated sources. It also contains inconsistent figures such as Stockcircle saying $7.81B and 27.00% ownership, while other snippets refer to 27.5% and 325,442,152 shares. The FT result is effectively paywalled and does not expose the key fact in the snippet beyond the title.",
+  "reasoning": "The question asks for the latest transaction value related to Berkshire Hathaway's 2026 Kraft Heinz stake sale. Content A better supports a correct answer because it includes a Reuters snippet explicitly saying Berkshire's 27.5% stake was valued at about $7.7 billion, which matches the anchor Reuters reporting. That is a reliable, directly relevant, and sufficiently precise fact for answering. Content B has hints from FT title text and secondary sources, but lacks the same clear, trustworthy, directly quoted Reuters valuation in its top results, making it less dependable for an LLM answering from the search results alone."
+}

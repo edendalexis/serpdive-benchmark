@@ -1,0 +1,11 @@
+{
+  "id": 93,
+  "query": "Humane AI Pin CosmOS open source community offline functionality restoration progress",
+  "topic": "Humane AI Pin",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A is only partially aligned to the query. It includes some irrelevant or weakly relevant results about old CosmOS updates (Forbes) and the shutdown/acquisition (MacRumors), and one result (GitHub OpenPin) may point to a different restoration project without clearly establishing progress on offline functionality. It also does not directly surface the key PenumbraOS homepage or technical writeup shown in the anchor, so progress details are indirect. However, it does contain multiple relevant pieces indicating an open-source community effort to restore offline/standalone use via PenumbraOS.",
+  "b_issues": "Content B is largely about Humane shutting down the Ai Pin and about CosmOS as Humane/HP software, not about the open-source community restoration effort. It provides almost nothing on restoration progress, jailbreaks, offline functionality restoration, or PenumbraOS. The Mashable result mentions only that Humane would still offer limited offline features like battery level before shutdown, which is not the same as community restoration. The results are therefore badly mismatched to the query.",
+  "reasoning": "A better enables a correct answer because it contains direct evidence of an open-source effort to restore Humane Ai Pin functionality after shutdown: the Yanko Design and Hackster results explicitly describe a free/open-source resurrection project, PenumbraOS, reverse engineering work, and goals such as standalone use, local/self-hosted/remote models, and bringing back promised functionality. That is substantially closer to the anchor facts about PenumbraOS restoring core functionality offline via a custom API/server. By contrast, B mostly discusses Humane's own CosmOS, the HP acquisition, and pre-shutdown product news; it does not meaningfully address the community-led restoration progress the question asks about. So A is the only set that gives an LLM enough relevant facts to answer correctly, even if incompletely."
+}

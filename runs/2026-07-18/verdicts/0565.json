@@ -1,0 +1,11 @@
+{
+  "id": 565,
+  "query": "Hades II console release dates PlayStation 5 Xbox Series Switch 2 PC launch timeline",
+  "topic": "Hades II",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "A lacks the key official Supergiant sources. It relies mainly on Wikipedia plus secondary snippets. One result (VGChartz) says September 26 for Switch 2/Switch/PC, conflicting with the official September 25 date. The result set also does not clearly surface the earlier PC Early Access timing, so the full launch timeline is less complete.",
+  "b_issues": "B includes some weaker/less relevant results, such as a Wikipedia page about Supergiant Games rather than Hades II. The featured snippet's wording about 'six months as a Nintendo Switch 2 console exclusive' is imprecise/misleading because the game was also on PC during that period, and Switch 2 was not the only console at v1.0 since Switch was also included per the anchor. IGN snippet mentions 'Xbox on PC,' which is ancillary and could distract from the core platform timeline.",
+  "reasoning": "B better enables a correct answer because it contains the official Supergiant Games blog post explicitly stating that Hades II launched v1.0 on PC, Nintendo Switch 2, and Nintendo Switch on September 25, 2025, and that PlayStation 5 and Xbox Series X|S release on April 14, 2026. Those are exactly the facts needed for the console/PC launch timeline. A has some correct information via Wikipedia and GameSpot, but it lacks the official source and includes a contradictory September 26 snippet, making it less reliable for precise release dates."
+}

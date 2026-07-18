@@ -1,0 +1,11 @@
+{
+  "id": 220,
+  "query": "Tesla Corpus Christi lithium refinery annual production capacity",
+  "topic": "Tesla",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "A does not explicitly state the annual production capacity in its strongest result. The Electrek result confirms production start but gives no capacity figure. Another result gives a likely incorrect/unit-confused claim of '50 GWh of battery-grade lithium annually' rather than a standard lithium output measure, and only a third, less reliable snippet mentions about 50,000 tonnes LCE/year and 1 million EVs. So A contains weaker sourcing and a misleading capacity expression.",
+  "b_issues": "B includes some ambiguity and mixed figures. One result says support for over 1 million EVs, equivalent to approximately 40,000 [tonnes, presumably], while another Fastmarkets snippet mentions 17,000 tonnes/year plus planned capacity, which could confuse an LLM about whether that is current or full capacity. It also includes a Reddit result, which is low reliability.",
+  "reasoning": "The question asks for Tesla Corpus Christi lithium refinery annual production capacity. Content B more directly provides the needed fact: designed annual capacity sufficient for battery production for over 1 million EVs, with an approximate tonnage figure. This aligns with the anchor, which says enough material for 1 million EV batteries per year. Although B has some noisy results, its top result directly answers the question. In A, the best source shown (Electrek) lacks the capacity figure entirely, and the only explicit capacity numbers come from weaker or potentially inaccurate snippets, including a dubious '50 GWh of battery-grade lithium annually.' Therefore B better enables a correct answer."
+}

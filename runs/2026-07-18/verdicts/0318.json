@@ -1,0 +1,11 @@
+{
+  "id": 318,
+  "query": "von der Leyen Nathalie Loiseau criticism Kaja Kallas foreign policy authority Gulf Iran MEP statement 2026",
+  "topic": "Ursula von der Leyen",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "No major factual flaws apparent in the snippets. However, coverage is incomplete: only the Guardian result explicitly states Nathalie Loiseau criticized von der Leyen for phone diplomacy with Gulf leaders after the U.S.-Israeli strikes on Iran and said she was usurping Kaja Kallas’s role. The Politico snippet is relevant but truncated and does not itself mention Loiseau or fully explain the authority dispute. One result (RFE/RL) introduces a likely inaccurate or at least unsupported claim in this set that the EU recently designated the IRGC as a terrorist organization; that is not needed to answer the query and could mislead.",
+  "b_issues": "No major factual flaws apparent in the key relevant snippets. Coverage is also incomplete: the decisive fact comes mainly from the Guardian snippet, while the Politico snippet is very short and non-specific. One lower-quality/less authoritative result (Caliber.az) misspells Kaja Kallas as 'Kaia Kallas' and is derivative. An X/Twitter post is not useful evidence. But these do not materially change the answerability because the Guardian snippet carries the core fact.",
+  "reasoning": "Both A and B contain the key fact needed to answer the query: Nathalie Loiseau criticized Ursula von der Leyen for her telephone diplomacy with Gulf leaders after the U.S.-Israeli strikes on Iran, accusing her of usurping the authority/role of EU foreign policy chief Kaja Kallas. Both also include corroborating Politico material about broader criticism of von der Leyen’s diplomatic overreach and tensions with Kallas. Neither set materially contradicts the anchor. A has slightly better source quality overall because it avoids Caliber.az and an X post, but B’s Guardian snippet is more explicit and already sufficient for the core answer. Since both enable a correct answer about Loiseau’s criticism and the Kallas authority issue to essentially the same degree, the result is a tie."
+}

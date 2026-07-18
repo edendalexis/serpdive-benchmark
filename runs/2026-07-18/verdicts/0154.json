@@ -1,0 +1,11 @@
+{
+  "id": 154,
+  "query": "Zelenskyy Nawrocki Poland dispute Ukrainian Insurgent Army renamed military unit specific name",
+  "topic": "Volodymyr Zelenskyy",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Most A snippets mention only that the unit was named after the UPA, not the full specific honorary title. However, one result (The New Voice of Ukraine) gives the precise name: the Separate Special Operations Center North of the Special Operations Forces was granted the honorary name 'Heroes of the Ukrainian Insurgent Army.' No major factual contradictions are visible.",
+  "b_issues": "B also mostly states only that the unit was named after the UPA, and only one result (Kyiv Independent) gives the specific name 'Heroes of the Ukrainian Insurgent Army.' One result is a Facebook post, which is a weak/reliable source compared with the news outlets. No clear factual contradiction, but source quality is slightly weaker overall.",
+  "reasoning": "The question asks for the specific renamed military unit name. Both sets contain the key fact that Zelenskyy named a unit after the Ukrainian Insurgent Army/UPA, and both include one snippet with the exact honorary name 'Heroes of the Ukrainian Insurgent Army.' However, A better enables a correct answer because it also identifies the exact unit in the NV snippet ('Separate Special Operations Center North of the Special Operations Forces of Ukraine’s Armed Forces') in addition to the honorary title, whereas B’s best snippet gives only the honorary name. A’s sources are also marginally stronger overall, while B includes a Facebook result. Therefore A is slightly better for answering the query correctly and specifically."
+}

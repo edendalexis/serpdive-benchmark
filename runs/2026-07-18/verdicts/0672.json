@@ -1,0 +1,11 @@
+{
+  "id": 672,
+  "query": "Kamala Harris California governor 2026 bid announcement decision",
+  "topic": "Kamala Harris",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "No clear factual flaws. Content A correctly states that Kamala Harris announced on July 30, 2025 that she would not run for California governor in 2026, includes her statement language ('after deep reflection'), and notes she plans to remain active politically. Minor limitation: fewer sources and less context than B.",
+  "b_issues": "No clear factual flaws on the core question. Content B also correctly states that Harris announced she would not run for California governor in 2026 and includes supporting details from KQED, CalMatters, CBS, and a video transcript. Minor issue: one URL slug says 'enters ... race' while the title/content say she won't run, which could be slightly confusing, but the actual extracted content is consistent.",
+  "reasoning": "Both result sets clearly enable the correct answer: Kamala Harris decided not to run for California governor in 2026 and announced that decision on July 30, 2025, saying she had given it serious thought but decided against it after deep reflection. A has a strong direct source from The Hill plus corroboration from Roll Call and CBS. B has multiple strong corroborating sources including KQED and CalMatters, which align with the anchor. Neither set contains substantive contradiction on the key fact, so they are equally sufficient for answering the question correctly."
+}

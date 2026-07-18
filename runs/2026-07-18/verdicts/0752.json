@@ -1,0 +1,11 @@
+{
+  "id": 752,
+  "query": "George Holding resignation July 2026 Trump Media board member SEC filing DJT reason effective date",
+  "topic": "Truth Social DJT stock",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Minor noise/irrelevant SEC results are included, including unrelated Trump Media filings and an annual report snippet that do not answer the question. No direct SEC filing result is surfaced in the top list despite the query asking about an SEC filing, though secondary sources accurately state the key facts.",
+  "b_issues": "Less complete than A: the snippets shown do not explicitly include the full reason language, only a truncated statement ('not due to any'). It also lacks a direct SEC filing result in the visible results and includes irrelevant IR-page content. However, the key effective-date fact is present and the top result strongly implies the reason.",
+  "reasoning": "The question asks for George Holding’s resignation reason and effective date from the July 2026 Trump Media/DJT SEC filing. Both result sets contain enough accurate information to answer this: George Holding resigned effective immediately on July 6, 2026, and the resignation was not related to any dispute with management or the board. In A, this is stated explicitly in the StockTitan and Webull snippets. In B, the top StockTitan result gives the effective date and indicates the departure was not due to any dispute, and the Webull result references the exact SEC filing accession number. Neither set materially contradicts the anchor or itself. A is slightly cleaner on the reason text, but both enable a correct answer from the provided content alone."
+}

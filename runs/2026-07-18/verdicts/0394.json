@@ -1,0 +1,11 @@
+{
+  "id": 394,
+  "query": "CDC H5N1 bird flu United States human cases latest update 2025 dairy cows poultry outbreaks",
+  "topic": "H5N1 bird flu",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Top CDC result is too generic and mostly about reporting changes, not the actual latest 2025 human-case update. It also mixes in less relevant or non-CDC sources, including a 2026 ophthalmology page and a research article/PMC summary that reports totals through May 2025 rather than the CDC latest-update framing. The set lacks the key CDC Feb. 26, 2025 response update that directly states the then-latest 2025 U.S. human cases tied to dairy cows/poultry. Presence of later 2026 material could mislead an LLM away from answering the 2025 latest-update question cleanly.",
+  "b_issues": "Includes non-CDC secondary sources that state 70 U.S. human cases through May 2025; those totals may be accurate for cumulative cases since 2024 but are not the CDC's latest-update answer implied by the query, which is better captured by the CDC Feb. 26, 2025 page about 2025 cases. One result is a broad CDC Bird Flu homepage from Sept. 2025 without specifics. Some snippets may encourage conflating 2025-only cases with cumulative U.S. cases since 2024.",
+  "reasoning": "B better enables a correct answer because it includes the most relevant CDC page: the Feb. 26, 2025 CDC A(H5N1) Bird Flu Response Update, whose snippet directly says CDC had confirmed three human H5 bird flu cases in 2025 and ties them to dairy-cow and poultry exposures. That matches the query's focus on CDC, latest update, U.S. human cases, and dairy-cow/poultry outbreaks. A does contain CDC material, but its lead CDC result is generic and non-specific, and the rest are mostly later 2026 or secondary sources that could steer the model toward cumulative totals rather than the requested latest 2025 CDC update. So B is more directly relevant and reliable for answering from the provided content alone."
+}

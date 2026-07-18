@@ -1,0 +1,11 @@
+{
+  "id": 868,
+  "query": "Wegovy heart disease FDA approval date 2025 2026 cardiovascular indication label expansion Novo Nordisk",
+  "topic": "Ozempic and Wegovy",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A contains the key fact that the FDA cardiovascular label expansion for Wegovy was approved on March 8, 2024, but it lacks a direct FDA source in the returned results. One snippet is slightly confusing: the HCPLive result says 'According to a release form Novo Nordisk, application is expected later in 2024,' which appears to refer to an EU application and could distract from the U.S. FDA answer. Overall, A is mostly accurate but relies more on secondary/trade sources.",
+  "b_issues": "Content B does not show an obvious factual contradiction. It centers on the same March 8, 2024 approval and includes the FDA press announcement directly. Minor issue: like A, it does not specifically address any 2025 or 2026 event, so an LLM must infer that the relevant FDA cardiovascular indication/label expansion date is the 2024 approval rather than a later one.",
+  "reasoning": "The anchor establishes that the relevant FDA action was Novo Nordisk's Wegovy cardiovascular indication/label expansion approved on March 8, 2024, for reducing cardiovascular death, heart attack, and stroke in adults with cardiovascular disease and obesity/overweight. Both A and B contain that fact, so both would let an LLM answer. However, B better enables a correct answer because it includes the FDA press announcement itself with the exact indication language, plus consistent corroboration from other results. A has the right date too, but its evidence is more indirect and one snippet includes extraneous wording about an application expected later in 2024 that could confuse the model. Therefore B is the stronger result set."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 612,
+  "query": "Suno AI v5.5 release new features March 26 2026 official changelog",
+  "topic": "Suno AI",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Top result and featured snippet are third-party and slightly inconsistent on date wording (March 27 / Mar 30 article date) relative to the official Mar 26 release. However, A does include official Suno sources: the Suno blog and Suno help page, which identify v5.5 and the three features. It does not surface the exact official release-notes/changelog page directly in the results shown.",
+  "b_issues": "Contains several non-official/third-party results near the top, including a YouTube video and blog posts. The YouTube result adds beta/pricing/availability details not present in the anchor and could distract from the changelog-focused question. But B also includes official Suno sources: the help page and the Suno blog, which identify v5.5 and the three features. Like A, it does not directly surface the exact official release-notes/changelog page in the results shown.",
+  "reasoning": "Both A and B contain enough accurate official Suno information to answer the question: Suno v5.5 was released on March 26, 2026 and introduced Voices, Custom Models, and My Taste, with v5.5 described as Suno’s newest/best and most expressive model. A has an official Suno blog result and official help result; B has the same. Neither set directly shows the exact official changelog/release-notes URL from the anchor, but both expose the core facts needed. A is somewhat muddied by the featured snippet and top third-party result with date ambiguity, while B is somewhat muddied by non-official YouTube/blog results and extra details. Overall, they enable a correct answer about equally well."
+}

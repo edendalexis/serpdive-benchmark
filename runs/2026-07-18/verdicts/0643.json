@@ -1,0 +1,11 @@
+{
+  "id": 643,
+  "query": "Berkshire Hathaway Tokio Marine Holdings stake acquisition percentage cost 2026",
+  "topic": "Berkshire Hathaway",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A mostly has the right facts, but several snippets round the stake to 2.5% instead of the more precise 2.49%. It also relies more on terse/paywalled snippets and includes a low-reliability LinkedIn post among top results. The key cost is present as $1.8 billion, but the precision and sourcing are weaker.",
+  "b_issues": "Content B has a minor inconsistency in one Yahoo snippet showing 'US$1.8 billion or $2.3 billion,' which is confusing. Otherwise the core figures are consistent.",
+  "reasoning": "Both sets contain the facts needed to answer: Berkshire Hathaway/National Indemnity acquired a 2.49% stake in Tokio Marine Holdings for about $1.8 billion (¥287.4 billion) in 2026. However, Content B better enables a correct answer because it includes a Reuters-sourced result explicitly stating both the precise percentage (2.49%) and the cost ($1.8 billion), plus corroboration from other results. Content A also supports the answer, but its snippets more often round to 2.5% and include a less reliable LinkedIn result, making it slightly less precise and authoritative."
+}

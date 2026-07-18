@@ -1,0 +1,11 @@
+{
+  "id": 999,
+  "query": "True Detective Season 5 connectors to previous seasons Issa Lopez comments interview",
+  "topic": "True Detective",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A is somewhat sparse and one result is irrelevant/noisy (Facebook post). It does not directly include the strongest source from the anchor (TheWrap) that explicitly says Season 5 references will be more to Season 4. One result is from Deadline dated 2025/02 and may be beyond the core interview timeframe, but its quoted claim about connections to Ennis is at least consistent with the anchor. The Vulture result is about Pizzolatto's criticism of Season 4's earlier-season connections, not specifically Season 5.",
+  "b_issues": "Content B is less directly responsive to the question. It mostly discusses renewal, general same-universe framing, and reactions to Season 4. It lacks the key specific fact from the anchor that López said Season 5's references/connectors would be more to Season 4. Several results are tangential or weakly sourced for this query (AV Club commentary, Yahoo item about Nicolas Cage, Collider paraphrase). The Vanity Fair snippet says López had no contact with Pizzolatto or Season 1 stars, which is not relevant to Season 5 connectors. Overall it provides less precise evidence about López's comments on how Season 5 connects to previous seasons.",
+  "reasoning": "The question asks about connectors to previous seasons in Season 5 and Issa López's interview comments. Content A contains at least one directly relevant result (TVLine) confirming Season 5 is a different setting/story/characters, plus a Deadline snippet explicitly quoting that there will be important connections between Ennis, Alaska and the new season. That gives an LLM usable evidence that Season 5 connects especially to Season 4. Content B mostly offers general franchise context ('same universe,' respecting prior seasons' grammar) but not the specific answer about which previous season Season 5 will connect to. The anchor's key fact is that López said the references would be more to Season 4; A is closer to that and less likely to lead the model astray."
+}

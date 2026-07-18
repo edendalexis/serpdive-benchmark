@@ -1,0 +1,11 @@
+{
+  "id": 408,
+  "query": "EU AI Act AI Omnibus provisional agreement adoption date European Parliament Council final vote 2026",
+  "topic": "EU AI Act",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A does not include the key Council final adoption date from a primary EU source. Its featured snippet and top blog result say formal adoption remained subject to Council approval as of 22 June 2026, so by themselves they are incomplete for the full question. Some supporting results only say Council approval is expected before 2 August 2026, not that it happened. Thus A only clearly supports the provisional agreement date (7 May 2026) and Parliament final vote date (16 June 2026), while the Council final vote/adoption date must be inferred or is missing.",
+  "b_issues": "Content B is also missing the Council final adoption date. Its European Parliament Think Tank and committee results say there was a provisional agreement on 7 May 2026 and that plenary adoption was due in June 2026, but they do not provide the actual Parliament final vote date in the snippets, only that it was scheduled. The remaining results are secondary sources and likewise do not state the Council final adoption date. So B is missing both an explicit Parliament final vote date and the Council final adoption date.",
+  "reasoning": "The question needs at least three timepoints: provisional agreement, European Parliament adoption/final vote, and Council final vote/adoption in 2026. Relative to the anchor, the correct dates are 7 May 2026 for the provisional agreement, 16 June 2026 for Parliament approval, and 29 June 2026 for Council final adoption. Content A gives two of these directly and from reliable sources: Consilium states the provisional agreement was reached on 7 May 2026, and the featured snippet/blog result explicitly states Parliament voted to adopt the provisional agreement on 16 June 2026. It still lacks the final Council adoption date, but an LLM could answer more of the question correctly from A than from B. Content B clearly supports 7 May 2026, but its EP results only say a June plenary vote was due/scheduled, not that it occurred on 16 June 2026, and it also lacks the Council final adoption date. Therefore A better enables a correct answer, though neither is fully sufficient."
+}

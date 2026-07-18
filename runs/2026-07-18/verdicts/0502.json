@@ -1,0 +1,11 @@
+{
+  "id": 502,
+  "query": "Intel Foundry AWS framework agreement AI fabric chip 18A custom Xeon 6 Intel 3 announcement September 2024 details",
+  "topic": "Intel Foundry",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Mostly solid. The key official Intel Newsroom result directly states the September 16, 2024 announcement, the multi-year multi-billion-dollar framework, the custom AI fabric chip on Intel 18A, the custom Xeon 6 chip on Intel 3, and possible future work on 18AP and 14A in Ohio. Minor issues: one result is an Intel Newsroom archive page with only fragmentary context, and other supporting results are secondary sources rather than additional official confirmation.",
+  "b_issues": "Contains the core facts, but the top result is a secondary source (Network World) rather than the official announcement, and it adds a speculative timing gloss ('not likely to happen until 2026 at the earliest') that is not part of the core announcement. Another result is Reddit, which is low-reliability. There is no direct official Intel or AWS press-release result shown, so provenance is weaker overall.",
+  "reasoning": "A better enables a correct answer because it includes the official Intel Newsroom announcement matching the anchor: Intel and AWS announced on Sept. 16, 2024 a multi-year, multi-billion-dollar framework covering product and wafers from Intel, under which Intel will produce a custom AI fabric chip for AWS on Intel 18A and a custom Xeon 6 chip on Intel 3, with exploration of additional designs on 18A, 18AP, and 14A, including Ohio-related manufacturing plans. B also contains these facts, but mostly through secondary coverage and a Reddit link, so it is less reliable and slightly more prone to introducing non-core interpretation. Neither set appears internally contradictory, but A has the stronger factual grounding from an official source."
+}

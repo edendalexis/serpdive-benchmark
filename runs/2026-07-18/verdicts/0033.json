@@ -1,0 +1,11 @@
+{
+  "id": 33,
+  "query": "SensorFM TabFM Google Research June 2026 paper",
+  "topic": "Google",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Query asks about 'SensorFM TabFM Google Research June 2026 paper', but A only contains the official Google Research result for SensorFM and no official Google Research result for TabFM. It relies on third-party summaries for TabFM, which are less reliable than the anchor. SensorFM timing is July 2026, not June 2026, so the result mix may encourage a conflation. No clear factual contradiction is visible in A, but coverage of TabFM is weaker and partly indirect.",
+  "b_issues": "B contains the official Google Research result for SensorFM but no TabFM result at all, so it is missing a key part of the query. It also includes third-party claims with extra details not needed for the query and potentially distracting. As with A, SensorFM is July 2026 rather than June 2026, so the set does not directly resolve the date ambiguity in the query.",
+  "reasoning": "Both sets let an LLM identify SensorFM as a Google Research item about wearable health data and give core facts consistent with the anchor: over one trillion minutes of sensor data from five million people and transfer to 35 tasks. However, the query also mentions TabFM and June 2026. A is better on TabFM because it at least includes a TabFM result and mentions Google Research plus zero-shot tabular modeling, but it lacks the official Google Research TabFM blog result present in the anchor. B is better on source reliability for SensorFM because its top result is the official Google blog and includes useful concrete details, but it omits TabFM entirely. Since A has broader topical coverage but weaker sourcing for TabFM, while B has stronger sourcing but incomplete coverage, neither clearly enables a correct answer better than the other overall."
+}

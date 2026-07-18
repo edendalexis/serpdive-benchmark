@@ -1,0 +1,11 @@
+{
+  "id": 348,
+  "query": "Worldcoin WLD price surge percentage following Eightco stake OpenAI IPO July 2026",
+  "topic": "Worldcoin",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Content A contains mixed percentage figures for the same move: featured snippet says 22%, TradingView/Invezz excerpt says about 23%, and another result says 20% on June 15. It also includes a July 9 Eightco filing result that is somewhat adjacent to the query and could distract from the specific price-surge question. However, the core fact needed is present.",
+  "b_issues": "Content B also contains mixed percentage figures for the same event: TradingView/Invezz says 22% in the title and about 23% in the body, while crypto.news says 20%, and another result says about 19%. This creates ambiguity about the exact surge percentage. It likewise includes adjacent later-performance figures (62%, 155%, 160%) that are not the direct answer.",
+  "reasoning": "Both A and B provide the key facts needed to answer: Worldcoin’s move following the Eightco stake/OpenAI IPO narrative is reported around June 15, 2026, and the relevant surge is described as roughly 20% to 22% (with some excerpts saying about 23%). Both sets cite similar underlying sources, especially the TradingView/Invezz and crypto.news items, and both therefore allow an LLM to infer the answer. Neither set is clearly superior because both contain the same central evidence and the same inconsistency in exact percentage."
+}

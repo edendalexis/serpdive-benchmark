@@ -1,0 +1,11 @@
+{
+  "id": 655,
+  "query": "UNRWA staff casualties total number killed attacks since 2023 official statistics",
+  "topic": "United Nations Relief and Works Agency for Palestine Refugees in the Near East",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A is weak on official UNRWA staff-killed statistics for the queried topic. Its top result is a Facebook post from Anadolu claiming 'more than 300' staff killed, which is not an official primary source and gives no precise official statistic. Another result is a New Humanitarian article about aid-worker deaths generally, not specifically UNRWA staff official totals. The one official UN/UNRWA-related result shown (UNRWA Situation Report #184) reports casualties affecting people sheltering in UNRWA installations, not the number of UNRWA staff killed, so it does not answer the question. Other results are irrelevant or generic (Wikipedia, Aid Worker Security Database).",
+  "b_issues": "Content B includes one non-primary news result (Yeni Safak) giving broader UN staff/aid worker totals rather than specifically UNRWA staff. However, it also includes multiple official UNRWA situation report results with explicit staff-killed figures. Minor issue: the results are from 2026, later than the 2023-origin timeframe in the query, but they still directly provide the cumulative official statistic 'since the start of the war' beginning in October 2023.",
+  "reasoning": "The question asks for the total number of UNRWA staff killed in attacks since 2023, using official statistics. Content B directly contains official UNRWA situation report snippets stating: 'UNRWA has recorded 391 colleagues killed in Gaza since the start of the war,' and even breaks this down as '310 UNRWA personnel, and 81 persons who were supporting UNRWA.' That is exactly the kind of official cumulative figure needed. By contrast, Content A does not provide a clear official UNRWA staff-fatality total in its official-source snippets; its strongest numeric claim is from a Facebook/news post, not a primary official statistic, and the official UNRWA report shown is about people killed in UNRWA shelters, not staff. Therefore B better enables a correct answer."
+}

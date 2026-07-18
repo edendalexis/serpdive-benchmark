@@ -1,0 +1,11 @@
+{
+  "id": 361,
+  "query": "GTA 6 pre-orders opened date editions pricing Rockstar official news June 2026",
+  "topic": "Grand Theft Auto VI",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A lacks the key official/source-grounded details needed by the question. Its top result says pricing and editions remain unannounced, which conflicts with the anchor and later June 24-25 reporting. It has no direct Rockstar or Take-Two official result, and mixes pre-announcement speculation with later pricing reports. An LLM could recover June 25 and infer $79.99/$99.99 from non-official pages, but the set is internally uneven and weak on the 'Rockstar official news' part.",
+  "b_issues": "Content B includes some noisy/irrelevant results (Wikipedia, a speculative retailer blog). The featured snippet mentions the date and release platforms but not pricing/editions. However, its Take-Two result provides the crucial official facts. It does not explicitly mention Ultimate Edition pricing in that result excerpt, so some edition detail may need support from the PlayStation Blog result for bonuses rather than full pricing tiers.",
+  "reasoning": "B better enables a correct answer because it contains an official Take-Two/Rockstar-aligned press-release result stating that pre-orders begin June 25, 2026 at midnight local time and that GTA VI launches November 19, 2026 for PS5 and Xbox Series X|S for $79.99. That directly answers the opened date and standard pricing from an official source, which is central to the query. A has only third-party coverage; worse, its top result says pricing and editions were still unannounced, contradicting the later official June 24-25 information reflected in the anchor. Although A also includes third-party reporting of $79.99 and Ultimate Edition $99.99, the absence of an official Rockstar/Take-Two source and the contradiction in its highest-ranked result make it less reliable for an LLM constrained to those results alone."
+}

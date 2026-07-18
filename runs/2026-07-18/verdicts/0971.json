@@ -1,0 +1,11 @@
+{
+  "id": 971,
+  "query": "JD Vance PM Narendra Modi Delhi visit April 2025 bilateral trade deal tariffs",
+  "topic": "JD Vance",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A is sparse and mostly headline/snippet-level. It conveys that Vance met Modi in New Delhi during a four-day April 2025 visit, that India sought to avoid U.S. tariffs, and that a bilateral trade deal was discussed, but it lacks key answer-enabling specifics found in the anchor such as that both sides touted/signaled significant progress in the trade talks. It also does not provide much detail on outcomes or context beyond tariff tensions.",
+  "b_issues": "Content B includes one clearly irrelevant/possibly confusing result from a 2026 White House joint statement, which is outside the April 2025 visit context. Reuters snippet is truncated and does not by itself state the trade-progress point, but other B results do. No major contradiction is present.",
+  "reasoning": "B better enables a correct answer because it contains the central facts from reliable sources, including Reuters and OPB/AP-style reporting: JD Vance met Narendra Modi in New Delhi in April 2025 during a largely personal four-day India visit; the talks were framed around avoiding or minimizing U.S. tariffs; and the two sides were pursuing a bilateral trade deal with progress on negotiations. B also adds concrete context such as the goal of more than doubling bilateral trade to $500 billion by 2030 and that the sides were unlikely to sign a deal during the visit, which helps answer nuanced questions about the visit and trade talks. A is broadly accurate but thinner, with mostly generic snippets and less explicit indication of the substantive progress/outcome of the meeting."
+}

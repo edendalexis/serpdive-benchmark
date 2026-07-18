@@ -1,0 +1,11 @@
+{
+  "id": 322,
+  "query": "Scottie Scheffler Travelers Championship 2026 final result",
+  "topic": "Scottie Scheffler",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Top result is pre-final and says Scheffler forced a Monday playoff rather than the final result. Another result snippet is muddled/inconsistent ('tied again after one hole') and does not clearly state the outcome. A does contain accurate later snippets saying Hovland won a one-hole Monday playoff after Scheffler missed a short putt, but the result is less directly and cleanly established than in B.",
+  "b_issues": "One result is just Scheffler's ESPN results page and does not name the winner, though it correctly shows Scheffler finished 2nd at -21. Another Golfweek snippet is pre-playoff and incomplete. However, B also includes multiple accurate final-result snippets explicitly stating that Viktor Hovland won the 2026 Travelers Championship in a Monday sudden-death playoff over Scottie Scheffler.",
+  "reasoning": "B better enables a correct answer because it includes highly direct, reliable final-result sources: the PGA Tour Monday-playoff article explicitly says 'Viktor Hovland wins Travelers in Monday playoff, Scottie Scheffler misses short birdie putt,' and WFSB/Golf Channel also say Hovland defeated Scheffler in the Monday playoff. That is exactly the final result asked for. A also has the correct information in Yahoo and Golf Channel snippets, but its top result is an earlier pre-final playoff setup article and one snippet is confusing, so an LLM relying on A has slightly more risk of giving an incomplete or less certain answer. Therefore B is the stronger set."
+}

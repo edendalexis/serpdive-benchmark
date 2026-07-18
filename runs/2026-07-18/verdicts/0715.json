@@ -1,0 +1,11 @@
+{
+  "id": 715,
+  "query": "Paris court verdict cyberbullying Brigitte Macron number people found guilty",
+  "topic": "Emmanuel Macron",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "No clear factual flaw on the asked fact: multiple results state that 10 people were found guilty. However, A includes low-reliability/social-media links (Facebook, Instagram) among top results and provides less detail overall.",
+  "b_issues": "No clear factual flaw on the asked fact: multiple results state that 10 people were found guilty. One snippet gives extra sentencing detail that may be incomplete or differ from other coverage, but it does not affect the answer to the question.",
+  "reasoning": "The question asks for the number of people found guilty. Both A and B explicitly and repeatedly provide the needed fact: 10 people. In A, AP, BBC, and Courthouse News all say 10 people were found guilty. In B, France 24, PBS, DW, and Courthouse News also say 10 people were found guilty. There is no meaningful contradiction on that core fact in either set, so both enable an LLM to answer correctly equally well."
+}

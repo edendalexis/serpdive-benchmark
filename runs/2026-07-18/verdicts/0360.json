@@ -1,0 +1,11 @@
+{
+  "id": 360,
+  "query": "GTA 6 official release date platform availability Rockstar Take-Two investor relations press release 2026",
+  "topic": "Grand Theft Auto VI",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A does not include the Rockstar Newswire release-date announcement or the May 2026 Take-Two earnings press release directly; it relies mainly on the Take-Two pre-order press release. One result snippet appears inconsistent on price (the PDF snippet says '$99' while the main IR page says '$79.99'), but this does not affect release date or platform availability.",
+  "b_issues": "Content B is dominated by secondary and low-reliability sources, including Facebook posts. It includes a clearly contradictory/obsolete result claiming a May 26, 2026 release date from a Shacknews article, which conflicts with the November 19, 2026 date. It lacks a direct Rockstar or Take-Two investor-relations press release result in the shown list.",
+  "reasoning": "A better enables a correct answer because it contains a direct Take-Two investor relations press release stating the key facts: Grand Theft Auto VI launches November 19, 2026, and is available for PlayStation 5 and Xbox Series X|S. That directly answers the query's release-date and platform parts with a primary source. B does contain a secondary-source result repeating November 19, 2026 and PS5/Xbox Series X|S, but it also includes weaker sources and a contradictory Shacknews result asserting a May 26, 2026 release date, which could mislead the LLM. Therefore A is more accurate, more reliable, and less internally conflicting."
+}

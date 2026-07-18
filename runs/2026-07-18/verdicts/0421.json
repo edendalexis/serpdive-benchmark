@@ -1,0 +1,11 @@
+{
+  "id": 421,
+  "query": "Trump 20-point peace initiative Gaza ceasefire Rafah border control terms 2026",
+  "topic": "Rafah",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A lacks the key Reuters anchor result directly about Rafah reopening and what remains unresolved. Several results are secondary summaries rather than the original text, and one result (Egypt Today) is only a teaser. However, A includes multiple seemingly reliable sources that likely contain the needed terms, especially PBS and BBC excerpts mentioning Rafah crossing terms and the plan text.",
+  "b_issues": "Content B includes Wikipedia, which is less reliable for precise factual answering. Its snippets are more internally problematic: the Wikipedia excerpt mixes timeline details and contains odd or potentially inaccurate claims not supported by the anchor, including later July/October developments irrelevant to the query. B has fewer results and less direct coverage of the specific Rafah border-control terms. It also lacks the White House and Reuters/ABC-style reporting present in the anchor, and the snippets provide less confidence about exact ceasefire terms.",
+  "reasoning": "The question asks about Trump's 20-point Gaza peace initiative, the ceasefire, and specifically Rafah border-control terms in 2026. To answer correctly, the search set needs the terms of the plan and the Rafah mechanism. Content A better supports this because it includes PBS and BBC results explicitly referring to the full 20-point proposal and specifically stating that opening Rafah in both directions is subject to the same mechanism as the January 19, 2025 agreement. A also has CFR and NYT results giving broader context on the plan's phases and governance arrangements. Content B has some overlapping useful material (CFR and BBC), but it relies more heavily on a Wikipedia snippet with questionable relevance and reliability, and overall provides less dependable, less targeted evidence about the Rafah control terms. So A better enables an LLM to answer the question correctly from the provided content alone."
+}

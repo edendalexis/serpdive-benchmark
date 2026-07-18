@@ -1,0 +1,11 @@
+{
+  "id": 239,
+  "query": "Urdu Wikipedia page edits Aragonese articles English Wiktionary milestone counts May 2026",
+  "topic": "Wikipedia",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A does not include the Aragonese articles milestone explicitly, so it is incomplete for the full query. It does, however, contain reliable Wikimedia milestone information for Urdu Wikipedia page edits (10,000,000), Urdu Wikipedia articles (300,000), and English Wiktionary entries (10,000,000). One result is irrelevant (Reddit), and another is only tangentially related (Wikipedia main page history).",
+  "b_issues": "Content B lacks the key milestone facts asked in the query: no Urdu Wikipedia page-edits milestone, no Aragonese articles milestone, and no English Wiktionary milestone count. Its results are mostly irrelevant or generic, and the Swahili Wiktionary Diff article is about a different project. It therefore does not provide the needed answering facts.",
+  "reasoning": "The question appears to ask about Wikimedia milestone counts around May 2026 involving Urdu Wikipedia page edits, Aragonese articles, and English Wiktionary. Content A includes a Meta-Wiki Wikimedia News result, which is a reliable source for milestone announcements, and explicitly states: English Wiktionary reached 10,000,000 entries; Urdu Wikipedia reached 10,000,000 page edits; Urdu Wikipedia reached 300,000 articles. This is directly responsive to most of the query and aligns with the anchor’s English Wiktionary milestone reference. Although A does not surface the Aragonese milestone, it still provides substantial correct milestone data. Content B provides none of the requested milestone facts and is largely irrelevant. Therefore A better enables an LLM to answer correctly."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 869,
+  "query": "oral Wegovy semaglutide pill US price monthly cost 2026 dosage strengths coverage insurance",
+  "topic": "Ozempic and Wegovy",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A relies heavily on low-credibility aggregator sites and includes likely fabricated or unsupported claims such as 'Medicare $50/mo' and a 'Medicare GLP-1 Bridge' program. It does contain key price and dosage facts, but there is no official manufacturer source in the results. It also misses clear official coverage language and has weaker sourcing on insurance details.",
+  "b_issues": "Content B includes some noisy or questionable third-party claims, including references to a Medicare bridge program and some inconsistent pricing snippets (for example GoodRx/WeightWatchers fragments that may mix tablet and injection pricing). The top official Wegovy result shown is focused on injectable pricing, so pill-specific details come from third parties rather than the manufacturer snippet.",
+  "reasoning": "B better enables a correct answer because it combines an official Novo Nordisk/Wegovy cost-and-coverage page with a highly relevant Ro result that directly states the oral Wegovy tablet cash prices by strength: $149/month for 1.5 mg and 4 mg, and $299/month for 9 mg and 25 mg, plus commercially insured patients may pay as little as $25/month. Those facts align with the anchor. B also provides broader insurance/coverage context and the list price context from other recognizable sources. A has some of the same core facts, including the dosage strengths, but it is dominated by less reliable sites and includes unsupported Medicare-specific claims without any official corroboration. Since the question asks about US price, monthly cost, dosage strengths, and insurance coverage, B provides the more trustworthy and complete basis for an LLM to answer correctly."
+}

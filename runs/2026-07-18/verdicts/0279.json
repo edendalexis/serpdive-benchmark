@@ -1,0 +1,11 @@
+{
+  "id": 279,
+  "query": "Bukele war against corruption white-collar prison proposal June 2023 latest status enforcement critics 2025 2026",
+  "topic": "Nayib Bukele",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "A has the key Reuters result about the June 2023 white-collar prison proposal, but the rest of the results are largely off-topic or weakly related: a 2025 article about jailing U.S. convicts, a 2026 article on life sentences for youths, a Washington Post piece about a separate prison deal, and an Instagram post. It provides almost nothing on the later status of Bukele's anti-corruption push, whether the white-collar prison proposal was implemented, or the main 2025-2026 criticisms. The irrelevant results increase the risk an LLM will drift into unrelated prison-policy issues.",
+  "b_issues": "B still lacks a direct result explicitly stating the concrete latest status of the specific white-collar prison proposal or clear evidence of enforcement outcomes tied to that June 2023 announcement. Some results are broader governance/rights analyses rather than directly about the proposal. But they do add relevant anti-corruption-governance context and criticisms for 2025-2026 from reasonably reliable sources.",
+  "reasoning": "B better enables a correct answer because it combines the anchor Reuters piece on the June 2023 proposal with later, relevant 2025-2026 sources about El Salvador's anti-corruption mechanisms and criticisms of Bukele's governance: BTI 2026, American Bar Association analysis, LASA Forum, and Freedom House. These provide usable evidence that by 2025-2026 the anti-corruption agenda remained contested, with critics emphasizing weak safeguards against official corruption, impunity, democratic erosion, and deficiencies in anti-corruption mechanisms. A, by contrast, has only the original Reuters item plus mostly unrelated prison stories, so an LLM would have far less basis to answer the 'latest status enforcement critics 2025 2026' part correctly. Neither set is perfect, but B contains more of the facts needed and fewer distracting irrelevancies."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 355,
+  "query": "Pope Leo XIV Vatican Apostolic Library new exhibition cycle July 2026 title theme",
+  "topic": "Pope Leo XIV",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Minor ambiguity in result 1: it says the Pope will inaugurate the first chapter of the cycle “Catastrophe and Wonder,” entitled “AQVA,” but then truncates/garbles the quoted exhibition title as “AQVA. The present...”, which could confuse whether the full exhibition title is simply “AQVA” or “AQVA. Catastrophe and Wonder.” Also includes a likely incorrect date in a lower-ranked result (Sept. 25, 2026) conflicting with the main source’s Sept. 14 inauguration date.",
+  "b_issues": "Featured snippet and top result phrase the title as “AQVA Catastrophe and Wonder,” which blurs the distinction between the exhibition cycle title (“Catastrophe and Wonder”) and the first chapter/exhibition title (“AQVA”). However, the Vatican News and ZENIT results in B still make the structure clear enough. No major contradiction on the key theme.",
+  "reasoning": "Both A and B contain the key facts needed to answer the question: the new exhibition cycle is titled “Catastrophe and Wonder,” its first chapter/exhibition is “AQVA,” and the theme is water, described as a reflection on water as both a threat and a resource. A has the strongest direct Vatican News hit with the cycle title and chapter title, while B has a featured snippet and top result that more explicitly state the theme of water. Each set has minor ambiguity about whether “AQVA Catastrophe and Wonder” is the exhibition title or a combination of chapter plus cycle title, but both also include reliable or near-anchor-aligned sources clarifying the relationship. Overall, both enable a correct answer equally well."
+}

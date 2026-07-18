@@ -1,0 +1,11 @@
+{
+  "id": 387,
+  "query": "Meta WhatsApp Meta AI incognito conversations launch Facebook Search AI Mode rollout details",
+  "topic": "Meta",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A does not include the Facebook AI Mode rollout result that is part of the query, so it only covers the WhatsApp/Meta AI Incognito Chat side. It also includes secondary-source items of mixed reliability, but its top results are official Meta and WhatsApp sources and are factually aligned with the anchor.",
+  "b_issues": "Content B also fails to include the key Facebook AI Mode rollout result, so it likewise only covers the Incognito Chat side. It relies mostly on secondary or republished sources rather than the primary Meta/Facebook/WhatsApp announcements. It introduces extra claims not supported by the anchor, such as specific model names (\"Muse Spark\"/\"Llama Spark\") and launch limitations like no image uploads, which may distract or risk inaccuracy for this question.",
+  "reasoning": "A better enables a correct answer because it contains the primary official announcement from Meta's newsroom plus the WhatsApp blog post, both matching the anchor on the core facts: Incognito Chat launched on WhatsApp and the Meta AI app, it uses Private Processing, Meta cannot see the conversations, chats disappear by default, Side Chat is planned, and rollout is over the coming months. B covers similar WhatsApp facts but mainly through third-party reporting and does not provide the official Facebook AI Mode rollout details either. Since both miss the Facebook AI Mode half of the query, neither is complete, but A is more reliable and accurate on the facts it does contain."
+}

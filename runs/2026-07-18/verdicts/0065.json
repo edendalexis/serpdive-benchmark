@@ -1,0 +1,11 @@
+{
+  "id": 65,
+  "query": "xz utils windows native mingw-w64 MSVC command-line injection vulnerability versions affected",
+  "topic": "XZ Utils",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Includes an irrelevant/confusing result about the separate XZ backdoor CVE-2024-3094 claiming only 5.6.0 and 5.6.1 are impacted, which could mislead the model on affected versions. The top result is sufficient, but A also contains a slightly garbled sentence about older Windows behavior ('used on an old older version of Windows').",
+  "b_issues": "Also includes irrelevant/confusing results about the unrelated CVE-2024-3094 (5.6.0/5.6.1), which could mislead the model if it relies on those instead of the top result. The NVD snippet is sparse and does not itself state affected versions. There is also a minor typo/garble ('old older version of Windows') in the top source snippet.",
+  "reasoning": "Both A and B contain the key authoritative source from tukaani.org stating the needed facts: this is CVE-2024-47611; it affects XZ Utils command-line tools built for native Windows (mingw-w64 or MSVC); affected versions are 5.6.2 and older; Cygwin/MSYS2 builds are unaffected; liblzma is unaffected; fixed in 5.6.3. However, B’s top result explicitly includes more of these scoping details in one place, especially that Cygwin/MSYS2 are unaffected and liblzma is unaffected, making it slightly easier for an LLM to answer correctly from the returned content alone. Both sets are somewhat degraded by unrelated CVE-2024-3094 search results, but B still better supports a correct answer."
+}

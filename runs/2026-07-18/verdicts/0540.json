@@ -1,0 +1,11 @@
+{
+  "id": 540,
+  "query": "European Central Bank ECB 2026 interest rate decision deposit facility rate June",
+  "topic": "European Central Bank",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor snippet awkwardness in result 1 (duplicated phrasing: 'the interest rates on the deposit facility, facility...'), but the key fact is clear. One result is secondary media (Euronews), but the top result is the official ECB press release and it matches the ECB rates table.",
+  "b_issues": "Lacks the official ECB June 2026 monetary policy decision page in the returned results. Relies mainly on secondary/tertiary sources (Euronews, Trading Economics, FRED, prediction market). Includes an irrelevant/incorrectly timed 'next ECB decision' page focused on April/July scheduling rather than the June decision itself. While the 2.25% figure appears, the source set is less authoritative and less directly tied to the June ECB decision.",
+  "reasoning": "Content A better enables a correct answer because it contains the official ECB press release for 11 June 2026 stating that the ECB raised the three key rates by 25 basis points and that the deposit facility rate would be 2.25% effective 17 June 2026. It also includes the ECB official interest rates page confirming 17 Jun 2026 deposit facility 2.25%, MRO 2.40%, marginal lending 2.65%. This directly answers the query with reliable primary sources and no meaningful contradiction. Content B does contain the likely correct deposit facility figure (2.25%) via Euronews and Trading Economics, but it lacks the official ECB decision page and instead depends on less authoritative sources, plus one irrelevant scheduling page and a prediction-market result. Therefore A is clearly superior."
+}

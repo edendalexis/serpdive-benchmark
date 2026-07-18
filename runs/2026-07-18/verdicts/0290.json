@@ -1,0 +1,11 @@
+{
+  "id": 290,
+  "query": "X iOS chat app standalone release date features",
+  "topic": "Twitter",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Includes an App Store snippet with some likely user-review text mixed into the description, including unverified claims and a possibly misleading complaint that video/voice messages or calls are missing, which conflicts with stronger reporting from TechCrunch/9to5Mac. Also includes a Hypebeast result phrased as 'expected to hit' April 24, which is less definitive than the launch reports.",
+  "b_issues": "Has less feature detail in the snippets overall. The TechCrunch snippet is truncated, the PCMag snippet is generic, and one result is a Reddit thread, which is less reliable and not useful for factual answering. It lacks the App Store result that directly lists the app’s core features.",
+  "reasoning": "Both sets contain the key release date via TechCrunch/9to5Mac: XChat launched on iOS on April 24, 2026. Both also indicate it is a standalone X messaging app. However, A better supports a correct answer about features because it includes TechCrunch with concrete launch features—messaging, file sharing, audio/video calls, group chats, edit/delete for everyone, disappearing messages, and screenshot blocking—and the App Store listing indicating end-to-end encryption. B has the date and some feature hints, but its snippets are more truncated and less complete, and it includes a Reddit result instead of a stronger primary/official source. Despite minor noise in A’s App Store snippet, A provides the fuller, more reliable factual basis to answer both release date and features."
+}

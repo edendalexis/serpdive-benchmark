@@ -1,0 +1,11 @@
+{
+  "id": 862,
+  "query": "NIH study semaglutide weight loss plateau brain-cell mechanisms May 2026 publication findings",
+  "topic": "Ozempic and Wegovy",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "No major factual flaw is evident. It includes the key NIH press release and supporting secondary coverage. Minor issues: result snippets are sparse, one item has a likely typo/garble ('GLP1R-1 expressing hindbrain neurons'), and A does not clearly surface some details visible in the anchor/other coverage such as the May 22, 2026 date, Nature Metabolism publication, neuron-to-neuron heterogeneity, or PDE4/roflumilast extension mechanism in as explicit a form.",
+  "b_issues": "Includes a less reliable top result (YouTube/Medical Dialogues) ahead of primary sources, but its content is broadly consistent with the NIH story. No clear contradiction is present. Minor issue: stronger reliance on secondary summaries rather than the primary NIH release in the shown ranking/snippets.",
+  "reasoning": "Both result sets contain enough accurate facts for an LLM to answer the question: NIH researchers studied semaglutide in mice, found that weight-loss effects depend on intracellular cAMP signaling in appetite-related neurons in the area postrema, observed variable/heterogeneous neuronal responses that may help explain weight-loss plateaus and differing patient responses, and identified PDE4 inhibition (e.g., roflumilast) as a possible way to prolong/augment the effect. A has the strongest primary source because it includes the NIH press release directly as the top result. B, however, exposes more of the specific mechanism and plateau-related findings directly in the snippets, including cAMP heterogeneity and PDE4/roflumilast, though via secondary sources and a YouTube item. Since both provide the necessary facts without meaningful contradiction, neither clearly enables a correct answer better than the other."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 53,
+  "query": "Nintendo Switch 2 Pokemon Pokopia Bundle July 23 2026 contents price retailer official Nintendo",
+  "topic": "Nintendo Switch 2",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A includes noisy and less reliable results high in the ranking (Facebook, Instagram) with potentially conflicting pricing/availability signals such as MSRP $499.99 and pre-orders beginning July 23 at participating retailers, which are not clearly tied to the official July 23 Nintendo regional announcement. It does contain one key official Nintendo SG result with the bundle contents, and an AU Nintendo result with AU pricing, but it lacks a clear official Nintendo result specifying the July 23 retailer context beyond that single partial snippet. Overall, facts needed are present only partially and mixed with weak sources.",
+  "b_issues": "Content B contains some irrelevant/non-target regional results (US game page, DLC page) and third-party articles about a separate Europe July 2 launch with £429.99/€499.99 pricing, which could distract from the July 23 question. However, these do not directly contradict the official Nintendo SG July 23 result; they mainly reflect different regions/releases.",
+  "reasoning": "B better enables a correct answer because it prominently includes the official Nintendo SG news article exactly about the July 23, 2026 Nintendo Switch 2 + Pokémon Pokopia Bundle. That snippet explicitly gives the official date and the bundle contents, including Nintendo Switch 2 console, dock, Joy-Con 2 (L)/(R), straps, grip, AC adapter, USB-C charging cable, Ultra High Speed HDMI cable, and Pokémon Pokopia full game download, plus the note that the Expansion Pass DLC is not included. The question also asks for retailer/official Nintendo context; B's official Nintendo result directly satisfies the 'official Nintendo' part. A also has that same official SG result, but its other top results are weaker social-media sources with potentially confusing price/pre-order claims, making it less reliable for answering from the returned content alone. Neither set gives a clean official Nintendo July 23 price/retailer snippet for Singapore/Malaysia, but B still provides the strongest official factual basis for the date and contents with fewer unreliable signals."
+}

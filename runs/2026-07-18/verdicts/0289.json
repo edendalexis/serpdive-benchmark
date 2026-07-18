@@ -1,0 +1,11 @@
+{
+  "id": 289,
+  "query": "Cognition Devin Review Security Swarm automated PR scan bug detection rate comparison 2026",
+  "topic": "Devin AI software engineer",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A includes some relevant facts, but its strongest result is a third-party recap (byteiota) rather than the primary evaluation. It lacks the key Devin Review fact from the anchor that every pull request now gets a security review when opened. It also contains weak/noisy results: an unrelated general Devin review article, an uninformative X post snippet, and a Yahoo syndication fragment with little detail. As a result, an LLM would have to infer the comparison from partial and mixed-quality evidence.",
+  "b_issues": "Content B also does not directly include the specific Devin Review launch wording about every PR being scanned on open; most results focus on Security Swarm. However, it includes the primary Devin evaluation page and multiple consistent corroborating sources. Some sources are syndicated press coverage rather than primary technical documentation.",
+  "reasoning": "B better enables a correct answer because it contains the most directly relevant and reliable evidence for the comparison point in the query: the official Devin evaluation page states Security Swarm finds bugs in 72% of cases, highest recall tested, at roughly two-thirds the cost of the next most accurate alternative, and other results consistently restate 36/50 vulnerabilities across 14 languages and 30% lower cost per finding. It also includes the official product page saying Devin confirms vulnerabilities, writes patches, and opens PRs, plus LinkedIn content that Devin ships fixes as PRs. A has some of this, but its evidence is weaker and noisier, with the top hit being a third-party article and no direct official evaluation result. Neither set fully captures the Devin Review automated-PR-scan announcement, but B is closer overall because it has the anchor-aligned official eval source and cleaner corroboration."
+}

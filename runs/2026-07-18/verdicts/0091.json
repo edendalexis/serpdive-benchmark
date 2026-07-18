@@ -1,0 +1,11 @@
+{
+  "id": 91,
+  "query": "Humane AI Pin server shutdown date bricked device hack status",
+  "topic": "Humane AI Pin",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Does not clearly provide the hack/jailbreak status in the strongest result set; only a lower-ranked Hackster result hints at PenumbraOS without explicitly stating current success/status. Includes a Reddit result, which is less reliable. One result says devices will be bricked on February 28 at noon PT, while others say simply Feb. 28; this is not a real contradiction but is less precise across the set.",
+  "b_issues": "Barely addresses the hack status at all; none of the shown results mention PenumbraOS, a jailbreak, or that the device has been brought back to life by hackers. Relies on secondary outlets and one article with an updated title/content mismatch (designboom article title/snippet) rather than stronger direct or highly relevant reporting.",
+  "reasoning": "The question asks about the Humane AI Pin server shutdown date, the fact that the device was bricked, and the hack status. Both A and B contain the core shutdown/bricking facts: Humane AI Pins stop connecting to servers on February 28, 2025, with multiple mentions and A giving the precise noon PT timing via Ars Technica. However, A is better because it also includes at least one result directly about reviving the device via PenumbraOS (Hackster), which gives the LLM some basis to answer the 'hack status' part. B has no visible evidence about hacking or jailbreak status at all, so an LLM limited to B would likely miss that part or have to guess. On accuracy and reliability, A also has Ars Technica, a strong source closely matching the anchor facts."
+}

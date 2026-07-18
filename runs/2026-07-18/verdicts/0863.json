@@ -1,0 +1,11 @@
+{
+  "id": 863,
+  "query": "FDA official resolution semaglutide Wegovy Ozempic drug shortage February 2025 compounding pharmacy exemptions",
+  "topic": "Ozempic and Wegovy",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A lacks the key official FDA source and mostly surfaces secondary commentary. It does mention the shortage was resolved on February 21, 2025 and includes one law-firm result with the 503A/503B dates, but it does not clearly present the FDA’s own compounding-policy language or the litigation-linked cutoff noted by FDA. One result is from a low-authority blog/news site, reducing reliability.",
+  "b_issues": "Content B does not include the FDA declaratory order itself either, and one FDA result is the policy-clarification page rather than the shortage-resolution order. It also gives only a snippet, so the 503B deadline is not shown in the FDA result excerpt, though another result partially covers the timeline. Still, no clear factual contradictions are present.",
+  "reasoning": "B better enables a correct answer because it includes an FDA source directly addressing compounders after semaglutide supply stabilization, with explicit 503A enforcement-discretion language tied to April 22, 2025 and the OFA litigation. It also includes secondary sources confirming that semaglutide/Ozempic/Wegovy was removed from the shortage list on February 21, 2025 and that compounding restrictions follow. A has relevant secondary sources and one result mentioning April 22/May 22, 2025, but it lacks a direct FDA source and is therefore less reliable for answering an official-resolution question about FDA action and compounding exemptions."
+}

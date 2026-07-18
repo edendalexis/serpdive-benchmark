@@ -1,0 +1,11 @@
+{
+  "id": 187,
+  "query": "IOC Vladyslav Heraskevych helmet ban February 2026 Milano Cortina rule violation official statement",
+  "topic": "International Olympic Committee",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "A includes the key IOC press release, but the supporting results are weaker: one is a low-reliability X/Twitter snippet, one is YouTube, and one is a third-party EU Today item. It lacks the fuller official-detail excerpt present in B, such as the IBSF jury decision, the 9/10 February timeline, support of IBSF/WOF, and explicit withdrawal of accreditation in the main result snippet. No clear contradiction, but less complete official evidence.",
+  "b_issues": "B has some noisier secondary results, including an advocacy source (Global Rights Compliance) and an NPR/VPM snippet with an apparently irrelevant trailing sentence about the Strait of Hormuz, suggesting snippet contamination. However, these do not directly contradict the main facts.",
+  "reasoning": "B better enables a correct answer because its top result contains the decisive official IOC facts matching the anchor: Heraskevych was not allowed to participate after refusing to follow the IOC athlete expression guidelines; the IBSF jury decision was based on his helmet being non-compliant; the IOC had informed him on 10 February 2026 that the helmet violated the Olympic Charter and IOC Athlete Expression Guidelines; and the IOC withdrew his accreditation. Those details directly answer the query about the ban, the February 2026 rule violation, and the official statement. A also has the same official article, but its snippet is much thinner and the rest of the set provides less authoritative, less complete support."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 305,
+  "query": "NASA lunar terrain vehicle LTV development companies selected contract value range",
+  "topic": "NASA Artemis program",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A includes the key NASA source naming the selected companies (Intuitive Machines, Lunar Outpost, Venturi Astrolab), but it does not directly provide the contract value range for the selected development awards. Its strongest value figure is a GovTribe entry citing the overall LTVS IDIQ ceiling of $4.6 billion, which is not the per-award development contract value/range implied by the question. It also includes later 2026 task-order material that could distract or confuse the answer.",
+  "b_issues": "Content B also includes the key NASA source naming the selected companies and gives a total maximum contract value of $4.6 billion from SpacePolicyOnline, but likewise does not clearly provide the value range for the 2024 selected companies’ initial development awards. Several other results discuss later 2026 moon-base/LTV awards ($219M/$220M to Astrolab and Lunar Outpost), which are a different procurement stage and could mislead the model into answering the wrong value range. It omits Venturi Astrolab from those later-value results, increasing confusion.",
+  "reasoning": "The question asks for the companies NASA selected for LTV development and the contract value range. Both A and B clearly support the company portion via the NASA release: Intuitive Machines, Lunar Outpost, and Venturi Astrolab. However, neither set cleanly supplies the value range for those April 2024 selections. Both mainly surface the overall LTVS contract ceiling/max value of $4.6B rather than the initial selected-award range, and both include later 2026 task-order/award amounts that are not the same thing. Because each set enables only a partial answer and risks the same core mistake on contract value, neither is materially better than the other."
+}

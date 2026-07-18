@@ -1,0 +1,11 @@
+{
+  "id": 326,
+  "query": "Scottie Scheffler 2026 season wins earnings statistics",
+  "topic": "Scottie Scheffler",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A includes some noisy and incomplete snippets. The PGA Tour profile snippet is truncated and does not clearly show season earnings, only that Scheffler has 1 win in 2026 and career earnings. Yahoo/Golfweek money-leader articles give time-specific totals (~$13.0M on June 23 and later June 30 update) rather than a definitive season-final or current profile total. ESPN results are partial in the snippet. There is some potential inconsistency versus the anchor-like stats sources about earnings amount because different pages appear to reflect different update dates.",
+  "b_issues": "Content B is less reliable and more contradictory for the exact question. It leads with a non-authoritative Daily Club Golf career-earnings item, then a Facebook post, which is weak sourcing. It contains conflicting season-earnings numbers: Golfweek says $11.6M on May 26, ESPN stat leaders says $15,124,575, and the Facebook snippet implies an end-of-June breakdown without full verification. It does not directly provide wins/top-10/statistics in one trustworthy source, and the snippets are clearly from different dates. The ESPN results snippet is partial and does not summarize season wins/earnings/statistics cleanly.",
+  "reasoning": "A better enables a correct answer because it contains a direct PGA Tour player-profile result for Scottie Scheffler with core 2026 season stats: Wins (2026) = 1 and Top 10 (2026) = 9, from the most authoritative source shown. It also includes a season-stats source (StatMuse in the broader R1 set and a PGA Tour profile in A) and money-leader articles indicating Scheffler was around $13.0M in season earnings as of late June 2026. While not perfectly clean, A gives authoritative evidence for wins and season status. B, by contrast, relies heavily on weaker or mixed-date sources and has sharper contradictions on earnings ($11.6M, $15.1M, Facebook/end-of-June figures) without an authoritative season-summary page showing wins and earnings together. Therefore A more reliably supports answering the question correctly."
+}

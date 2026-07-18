@@ -1,0 +1,11 @@
+{
+  "id": 890,
+  "query": "Alien: Romulus sequel director 2025 replacement search",
+  "topic": "Alien: Romulus",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor issues only: one result is an unconfirmed/exclusive report that Michael Sarnoski is being eyed as replacement director, so it is less reliable than the trade reports. Another result (Yahoo) repeats that speculation and contains a likely wording error ('Disney's 20th Century Fox'). But A also includes reliable trade/industry reporting confirming the key fact that Fede Alvarez is not returning to direct and that he and Ridley Scott are searching for a new director.",
+  "b_issues": "B is largely irrelevant to the question. Its results are generic pages about the Alien franchise and the 1979 film, with no evidence about the 2025 Alien: Romulus sequel director search or replacement. It does not provide the needed facts.",
+  "reasoning": "The question is about the 2025 search for a replacement director for the Alien: Romulus sequel. Content A directly contains the core answer from Variety and IGN: Fede Alvarez will not direct the sequel, will remain as producer, and he and Ridley Scott are searching for a new filmmaker. It also includes speculative follow-up reporting naming Michael Sarnoski as a possible candidate, which may help but is not necessary. Content B does not contain the relevant sequel-director-search facts at all, so an LLM using only B would not be able to answer correctly. Therefore A clearly better enables a correct answer."
+}

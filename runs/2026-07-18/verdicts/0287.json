@@ -1,0 +1,11 @@
+{
+  "id": 287,
+  "query": "Devin AI Android Virtual Device AVD support autonomous Android development launch May 2026",
+  "topic": "Devin AI software engineer",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A has the core fact, but it lacks the strongest primary documentation source. It mostly relies on social posts/video snippets plus one blog result, and provides less detail about availability and functionality. No clear factual contradictions are present.",
+  "b_issues": "Content B includes some noisy/likely irrelevant material in the top LinkedIn snippet, such as unrelated claims about Google AI Studio and Android app generation, which could distract an LLM. However, these do not directly contradict the Devin AVD launch facts.",
+  "reasoning": "Both result sets contain the key answer: Devin added Android Virtual Device (AVD)/Android emulator support, enabling it to autonomously build, launch, and test Android apps, and this was available in May 2026. However, Content B better enables a correct answer because it includes both the official Cognition blog post and the official Devin documentation page, which are the most reliable and specific sources. The docs explicitly describe emulator support and how Devin launches the emulator, builds/runs the app, and interacts with it; the blog explicitly states Devin can spin up an AVD enabling autonomous Android development and that it is available now for teams using Devin. Content A also supports the answer, but it is somewhat weaker because it leans more on LinkedIn/X/YouTube snippets and has less authoritative documentation context."
+}

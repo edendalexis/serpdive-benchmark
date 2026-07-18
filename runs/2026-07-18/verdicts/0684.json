@@ -1,0 +1,11 @@
+{
+  "id": 684,
+  "query": "Shein Hong Kong IPO listing status 2026 headquarters relocation China",
+  "topic": "Shein",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Result set A includes one low-reliability/irrelevant result (Danelfin still saying London or Hong Kong under consideration, which is outdated relative to Reuters/Bloomberg) and one dubious site about a possible August IPO. It also has a minor inconsistency on headquarters timing/location wording: Yahoo/Bloomberg snippet says moved headquarters to Singapore in 2021, while Reuters snippet says 2022. However, A contains strong primary reporting from Reuters/Bloomberg/Yahoo syndication that Shein won CSRC approval for a Hong Kong IPO and remains Singapore-headquartered while still subject to Chinese oversight.",
+  "b_issues": "Result set B leads with a blog/source of uncertain reliability (valueaddvc.com) presenting a synthesized narrative and projected timing/valuation. It also includes a 2025 Guardian report speculating that Shein might move its base back to China, which could mislead an LLM because the later Reuters/Bloomberg items in the same set do not clearly restate that no relocation had occurred. B therefore mixes current approval news with older relocation speculation and provides less direct evidence on current headquarters status.",
+  "reasoning": "The query asks about Shein’s Hong Kong IPO listing status in 2026 and headquarters relocation/China angle. Both sets contain the key IPO fact that Shein received Chinese regulatory approval in July 2026 for a Hong Kong IPO after failed US/London attempts. However, A better supports a correct answer because it explicitly states in a strong Reuters/Bloomberg/Yahoo result that Shein moved its headquarters to Singapore and remains subject to CSRC review due to substantial China links. That directly addresses the relocation status: Singapore HQ, not clearly relocated back to China. B has the same IPO approval news, but its only direct relocation-related item is an older Guardian article about Shein considering moving back to China, which is speculative and potentially outdated. Thus A more clearly and accurately enables the LLM to answer both parts of the question."
+}

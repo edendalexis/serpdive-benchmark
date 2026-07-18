@@ -1,0 +1,11 @@
+{
+  "id": 434,
+  "query": "Megalopolis Unbound streaming platforms release date January 2026 availability",
+  "topic": "Megalopolis",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Result set A does not directly address 'Megalopolis Unbound' and mostly covers Megalopolis. It says there was no streaming release date in the Nov. 2024 Decider piece, and IGN says the title was later pulled from marketplaces in 2025, so January 2026 availability is still not directly answered. It also includes an irrelevant Bingebase result and a theatrical re-release result rather than streaming/platform availability.",
+  "b_issues": "Result set B also does not address 'Megalopolis Unbound' specifically and mostly covers Megalopolis. More importantly, it contains a likely misleading/unsupported snippet from IGN saying 'Megalopolis will eventually be released on Peacock,' which conflicts with the anchor and broader reporting that the film disappeared from streaming/digital availability. The snippets are thinner and provide less context about current unavailability.",
+  "reasoning": "A better equips an LLM to answer correctly because it includes two strong, directly relevant pieces: Decider states the movie went to PVOD on Nov. 12 with no streaming release date, and IGN says it was later pulled from most marketplaces in 2025. Those facts support a careful answer that as of the cited coverage there is no confirmed January 2026 streaming-platform release/availability, aside from earlier PVOD history. B has similar PVOD facts, but its key additional streaming claim—an eventual Peacock release—is dubious and contradicted by the anchor/other reporting that the film disappeared and lacked a streaming home. Since the question is about January 2026 streaming platform availability, avoiding that misleading Peacock claim makes A the safer and more accurate set."
+}

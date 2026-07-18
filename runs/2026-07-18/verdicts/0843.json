@@ -1,0 +1,11 @@
+{
+  "id": 843,
+  "query": "Taylor Swift Disney+ docuseries The End of an Era Eras Tour streaming December 2026",
+  "topic": "Taylor Swift",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A lacks primary-source Disney+ results and gives only secondary summaries. It indicates the first two episodes premiered on Dec. 12 and that all episodes are now streaming, but it does not clearly provide the release schedule/details directly from Disney+ and is weaker on source reliability. The query includes 'December 2026', but A does not resolve that mismatch explicitly.",
+  "b_issues": "Content B includes a likely lower-reliability Wikipedia result and one Deadline snippet with an incomplete date ('Dec.'). It also includes Newsweek saying episodes released weekly through Dec. 26, which is outdated relative to anchor reporting that the final two moved up to Dec. 23. However, B also has Disney+ pages stating the series is now streaming, which mitigates the schedule inconsistency.",
+  "reasoning": "B better enables a correct answer because it contains primary Disney+ sources directly about 'The End of an Era' and explicitly says it is 'Now streaming on Disney+.' It also includes a Disney+ title page confirming it is a six-episode docuseries. The anchor shows the key fact is that 'The End of an Era' is a Taylor Swift Eras Tour Disney+ docuseries and that it is now streaming, with rollout beginning Dec. 12, 2025 and later episodes adjusted. A has mostly secondary coverage and no direct Disney+ source, while B has direct platform evidence plus supporting context. Although B contains one outdated schedule snippet, it still more reliably supports the core answer from authoritative sources."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 742,
+  "query": "Supreme Court ruling Mexico $10 billion lawsuit gun manufacturers decision outcome",
+  "topic": "U.S. Supreme Court",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "",
+  "b_issues": "",
+  "reasoning": "Both A and B clearly contain the key facts needed to answer the question correctly: the Supreme Court ruled against Mexico, unanimously blocked/tossed out the $10 billion lawsuit against U.S. gun manufacturers, and did so under the federal law shielding gunmakers from liability (PLCAA). Content A provides this through PBS/AP and SCOTUSblog; Content B provides the same through Forbes, AP, and other snippets. Neither set materially contradicts the anchor or itself, and both rely at least in part on reliable sources. A is slightly stronger on legal detail, but B still enables a correct answer just as well."
+}

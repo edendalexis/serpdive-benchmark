@@ -1,0 +1,11 @@
+{
+  "id": 63,
+  "query": "xz utils core components license change replaced public domain current license",
+  "topic": "XZ Utils",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "A includes mostly outdated or third-party pages stating XZ Utils components are in the public domain, which conflicts with the current licensing change asked about. The only clearly relevant result is GitHub issue #79, which discusses a proposed switch but does not itself state as directly as the official site that the change happened and what the current license is. This mix could mislead an LLM into answering with the old public-domain status.",
+  "b_issues": "B includes one outdated SPEC result mentioning public domain, and a Wikipedia result that is not directly about licensing. However, the top official tukaani.org result explicitly states that from version 5.5.2beta onwards the core components are under the BSD Zero Clause License (0BSD).",
+  "reasoning": "The question asks what license replaced public domain for XZ Utils core components, i.e. the current license after the change. Content B directly and authoritatively answers this via the official XZ Utils site: 'From the version 5.5.2beta onwards, the core components of XZ Utils are under the BSD Zero Clause License (0BSD).' That is exactly the needed fact. In A, while GitHub issue #79 strongly suggests 0BSD was being considered and likely adopted, the surrounding higher-ranked results are stale pages saying public domain, so the set is more contradictory and less reliable for determining the current license. Therefore B better enables a correct answer: public domain was replaced by the BSD Zero Clause License (0BSD)."
+}

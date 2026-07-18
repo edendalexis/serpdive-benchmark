@@ -1,0 +1,11 @@
+{
+  "id": 226,
+  "query": "Tesla Q2 2026 vehicle production delivery energy storage deployment figures",
+  "topic": "Tesla",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A contains the key figures, but it lacks the primary Tesla IR result and mostly relies on secondary coverage. Some results give only rounded figures ('over 450,000' / 'over 480,000') rather than the exact breakdown. There is no direct contradiction, but source quality is more mixed and less authoritative overall.",
+  "b_issues": "Content B includes some low-reliability/noisy results (Yahoo repost of Dallas Express, Facebook posts) and the Tesla IR snippet is abbreviated, not the full table. However, it does include the exact figures and breakdown in the StockTitan filing result plus the official Tesla IR page.",
+  "reasoning": "Both sets contain the facts needed to answer the question: total production 451,758, total deliveries 480,126, energy storage deployment 13.5 GWh, with Model 3/Y at 442,936 produced and 467,762 delivered, other models at 8,822 produced and 12,364 delivered, and about 2% subject to operating lease accounting. Content B better enables a correct answer because it includes both an official Tesla IR result and a detailed filing-based result with the exact numeric breakdown. Content A also has accurate numbers, but it depends more on media summaries and secondary sources and does not surface the official Tesla release directly in the listed results."
+}

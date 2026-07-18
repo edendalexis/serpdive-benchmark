@@ -1,0 +1,11 @@
+{
+  "id": 795,
+  "query": "New Caledonia 2025 2026 nickel industry economic recovery plan post-riots French aid package plants reopening latest",
+  "topic": "New Caledonia",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "A is thin on the specific nickel-plant reopening details sought by the query. One result is low-reliability/unclear provenance (hntrbrk.com) and only vaguely mentions French aid tied to reforms. The Reuters result is from May 2024, so it is dated relative to the 2025/2026 focus. It also does not directly provide the latest reopening status of major plants.",
+  "b_issues": "B is more outdated and centered on 2024 crisis background rather than 2025/2026 recovery. It lacks the key later recovery-plan fact in the anchor: France's €2 billion five-year reconstruction package. Its 'Nickel Pact' reference is a 2024 proposed bailout concept, not clearly the later broader post-riots economic recovery package. It also gives no concrete 2025/2026 plant reopening status, and some sources are secondary/analysis pieces rather than direct reporting on the latest developments.",
+  "reasoning": "A better enables a correct answer because it includes the anchor-aligned MFAT report stating that New Caledonia is on an economic recovery path after the 2024 unrest and that France announced a €2 billion package over five years, partly conditional on reforms. That is the central factual element in the question about the post-riots French aid package and economic recovery plan. A also includes relevant background on the nickel crisis from Reuters and a sector overview from Crédit Agricole. By contrast, B mostly contains 2024 context about unrest, nickel prices, and rescue talks, but misses the later 2025/2026 recovery-package fact and does not provide the broader economic recovery framing seen in the anchor. Neither set fully answers the 'plants reopening latest' part, but A has the more important and more current recovery-plan facts needed to answer the query more accurately."
+}

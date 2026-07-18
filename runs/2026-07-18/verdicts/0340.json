@@ -1,0 +1,11 @@
+{
+  "id": 340,
+  "query": "Eightco Worldcoin WLD token holdings institutional stake July 2026",
+  "topic": "Worldcoin",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Result 3 is an older SEC exhibit unrelated to the July 2026 holdings snapshot and could distract. Result 4 is background/secondary commentary from BingX about the 2025 treasury plan rather than the July 2026 holdings. The top StockTitan result is a repost/summarization rather than the primary SEC filing, though it matches the anchor facts. Minor wording variation between 'over 283 million' and exact 283,452,700 is not a real conflict.",
+  "b_issues": "Top result is stale and inconsistent with the July 2026 state: it says 277M WLD in April 2026 and 'approximately 9%'. The set lacks the key July 2026 SEC/PRNewswire item tied to July 8 or July 15/16. It mixes earlier June snapshots ($437M as of June 3, $436M as of June 24, 283M WLD) with the April 277M figure, creating temporal contradiction for a July 2026 question. Several sources are secondary aggregation/commentary rather than primary filings.",
+  "reasoning": "Content A better enables a correct answer because it contains the specific July 2026 facts matching the anchor: Eightco held over 283 million WLD / 283,452,700 WLD, about 8% of circulating supply, described as the largest publicly disclosed institutional position globally, with the treasury composition dated July 15, 2026 and total holdings around $406M. It also includes a PRNewswire result that directly states those points. Content B is weaker because its highest-ranked result gives an outdated April 2026 figure of 277M WLD, while other results give June numbers; none clearly provide the July 2026 institutional stake snapshot. An LLM using B alone could easily answer with the wrong token count or date."
+}

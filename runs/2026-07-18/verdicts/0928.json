@@ -1,0 +1,11 @@
+{
+  "id": 928,
+  "query": "Wicked 2024 highest grossing stage musical adaptation North America source domestic total holiday 2024",
+  "topic": "Wicked",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A includes clearly irrelevant and likely erroneous results about 'Wicked: For Good' (a different film) with implausible future-dated grosses and claims, plus a Billboard snippet also focused on 'Wicked: For Good.' The top NBC result snippet is too vague to supply the needed fact. Although A does contain the key Deadline result, it does not surface the domestic total in the snippet and is polluted by contradictory/non-query-matching material.",
+  "b_issues": "Content B has some secondary-source noise: the Jacaranda FM snippet is thin, and the Playbill/Variety snippets refer to later global milestones rather than the holiday-total framing in the query. The ScreenRant snippet says 'more than $70 million' past Grease, which is imprecise relative to the exact Deadline total. But B does not contain the glaringly wrong alternate-film material seen in A.",
+  "reasoning": "The question asks for the fact that Wicked (2024) became the highest-grossing stage/Broadway musical adaptation in North America/domestically, and seeks the source and domestic total around the 2024 holiday frame. Content B more directly enables that answer: it contains the Deadline result explicitly stating that during the record Thanksgiving weekend, Wicked became the highest-grossing movie at the domestic box office based on a Broadway musical, and gives the holiday framing plus the projected $118M Wednesday-Sunday Thanksgiving total. It also includes corroborating snippets (ScreenRant, Variety, Playbill) that Wicked surpassed Grease domestically. Content A also has the key Deadline result, but its other results are contaminated by irrelevant and likely false 'Wicked: For Good' entries, which could easily mislead an LLM. Since B presents the relevant facts more cleanly and with less contradiction, it better supports a correct answer."
+}

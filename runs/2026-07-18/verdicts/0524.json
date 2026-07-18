@@ -1,0 +1,11 @@
+{
+  "id": 524,
+  "query": "Anthropic Ben Bernanke Long-Term Benefit Trust appointment details",
+  "topic": "Anthropic",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A lacks the primary Anthropic source and relies mostly on secondary coverage. It contains some useful facts, but misses key appointment details present in the anchor, such as the exact wording of Anthropic’s mission and stronger detail on trustee independence/compensation from the official announcement. No major contradictions are evident.",
+  "b_issues": "Content B includes some low-reliability aggregation/rewriter sources (e.g., AISurfing, Big News Network, FinanceFeeds), and one ANI snippet appears awkwardly quoted/paraphrased. However, it also includes the official Anthropic announcement directly, which matches the anchor and provides the needed facts. No material contradictions are evident.",
+  "reasoning": "B better enables a correct answer because it contains the official Anthropic news page from July 9, 2026, which directly states that Dr. Ben Bernanke, a Distinguished Fellow at Brookings and former Federal Reserve Chair, was appointed as the newest member of Anthropic’s Long-Term Benefit Trust, an independent body that holds Anthropic to its mission of responsible advanced AI development for the long-term benefit of humanity. It also includes the crucial governance details from the official text: trustees are independent of management and investors, hold no equity, do not share profits, and are compensated only for time and service. A has accurate secondary reporting and mentions some of these points, but without the primary source it is slightly less reliable and somewhat less complete for answering the appointment details precisely."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 507,
+  "query": "Intel Foundry Secure Enclave CHIPS Act funding amount announcement trusted U.S. semiconductor manufacturing",
+  "topic": "Intel Foundry",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A lacks the primary Intel/official announcement result for the Secure Enclave award and instead leads with secondary sources. It also contains a likely inaccurate framing in the Tom's Hardware snippet saying the $3B is 'from the Department of Defense'; the anchor states the Secure Enclave award was direct funding under the CHIPS and Science Act, though DoD executes the program. Manufacturing Dive also says Intel had received '$8.5 billion' in March, whereas the later finalized commercial CHIPS award was up to $7.865 billion; that could confuse an LLM, though it is about a separate award.",
+  "b_issues": "Content B does not surface the actual September 2024 Secure Enclave announcement. Its top result is about the separate November 2024 finalized $7.86B commercial CHIPS award and only mentions in passing that Intel won up to $3B for Secure Enclave. It therefore risks steering the model to the wrong funding amount/project. It also includes weak/irrelevant results, including a dubious third-party page claiming '$5.7 billion' CHIPS Act funding, which conflicts with the reliable figures.",
+  "reasoning": "Both sets contain enough information for an LLM to recover the key fact that Intel's Secure Enclave announcement was for up to $3 billion to expand trusted U.S. manufacturing of leading-edge semiconductors for the U.S. government. In A, this is stated directly by Manufacturing Dive and Investing.com. In B, the Intel official press-release snippet about the separate $7.86B award explicitly says, 'In September 2024, Intel won a manufacturing contract for up to $3 billion for the Secure Enclave program.' Neither set is ideal: A has more direct discussion of Secure Enclave but relies on secondary sources and includes some potentially confusing wording about source/amounts; B has a more reliable official Intel source but it is centered on the wrong announcement and mixed with irrelevant/conflicting results. Overall, both enable the correct answer about the Secure Enclave funding amount equally well, with comparable risk of confusion."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 433,
+  "query": "Francis Ford Coppola Variety lawsuit $15 million libel September 2024 status",
+  "topic": "Megalopolis",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A mostly shows secondary entertainment writeups saying Coppola sued Variety for $15 million in September 2024, but it does not clearly provide the later case status the query asks for. It lacks a strong, reliable status update source such as the appeal/posture of the case, so an LLM would likely only answer that the suit was filed, not its status.",
+  "b_issues": "Content B has some noise and one likely inaccurate/detail-level issue: the Courthouse News snippet says Coppola denied ever hugged or kissed a topless actress, while broader reporting centers on female extras/background actors and allegations of hugging/kissing during a party scene. Also, the Courthouse result is a later procedural update without a visible date in the snippet, so timing must be inferred. But overall it does not materially conflict with the core facts.",
+  "reasoning": "The query asks for the September 2024 lawsuit/status regarding Francis Ford Coppola's $15 million libel case against Variety. Both A and B contain the basic September 2024 filing facts: Coppola sued Variety for $15 million over a July 26, 2024 Megalopolis misconduct story. However, B is better because it also includes a reliable later-status result from Courthouse News stating that Variety asked the California Court of Appeal to overturn the trial court and dismiss Coppola's defamation suit, which directly answers the 'status' part. This aligns with the anchor showing a later procedural posture after the September filing. A lacks that status update and is mostly repetitive entertainment coverage of the initial filing only. Therefore B better enables a correct answer from the provided content alone."
+}

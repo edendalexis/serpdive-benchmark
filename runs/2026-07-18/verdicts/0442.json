@@ -1,0 +1,11 @@
+{
+  "id": 442,
+  "query": "Notre-Dame Paris Claire Tabouret stained glass windows installation status 2026 opposition",
+  "topic": "Notre-Dame de Paris",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A gives installation timing ('later this year' / 'by the end of the year') and notes controversy, but it lacks the key 2026 opposition-status fact from the anchor: that a Paris judge rejected a bid to halt the project, allowing it to proceed while preserving the original Viollet-le-Duc windows. One result is a low-reliability blog/opinion source (Judson Studios), and another is gallery/promotional material (Almine Rech), which do not add decisive factual support. A also does not clearly capture the legal/preservationist opposition in 2026.",
+  "b_issues": "Content B is still incomplete: it only hints at the legal status through a Facebook snippet saying a French court ruled the windows can move forward, without the fuller details from the anchor about the judge's reasoning and preservation of the original windows. It also includes a weaker source (Facebook) and an opposition-related result (La Tribune de l’Art) that is only a snippet. However, these do at least surface the existence of official opposition and a court ruling.",
+  "reasoning": "The question asks about installation status in 2026 and opposition. Both sets establish that Claire Tabouret’s six windows were on display in Paris in early 2026 and were expected to be installed by the end of 2026. The difference is that B also contains evidence about the opposition/legal status: a result about the commission not approving the replacement project and a snippet stating a French court ruled the project can proceed. That aligns better with the anchor, which says a Paris judge rejected an attempt to halt the replacement. A mentions controversy but not the crucial 2026 legal outcome, so an LLM using A alone would be less likely to answer the 'status' and 'opposition' parts correctly. Therefore B better enables a correct answer."
+}

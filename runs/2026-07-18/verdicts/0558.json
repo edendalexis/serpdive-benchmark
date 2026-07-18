@@ -1,0 +1,11 @@
+{
+  "id": 558,
+  "query": "Jerome Powell current Federal Reserve Board of Governors service status 2026 legal investigation resolved",
+  "topic": "Jerome Powell",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A establishes that the DOJ investigation was closed, but it does not clearly state Powell's current 2026 Federal Reserve Board service status. It only says he could still remain on the board and that his governor term lasts until January 2028, which is possibility/background rather than the current status asked for. It also includes a secondary source snippet saying the case is 'not necessarily dropped' and moved to the inspector general, which could create ambiguity about whether the legal matter is fully resolved.",
+  "b_issues": "Content B has a thin/partial NYT snippet and includes a pre-decision CNBC result about whether Powell will stay, so not every result is directly responsive. It also notes transfer to the Fed inspector general, which may leave some ambiguity about whether all scrutiny ended. However, it explicitly states both that the DOJ criminal investigation was dropped and that Powell announced he will remain on the Fed board after his chair term ends.",
+  "reasoning": "The question asks for Jerome Powell's current Federal Reserve Board of Governors service status in 2026 and whether the legal investigation was resolved. Both A and B provide reliable evidence that the Justice Department dropped/closed its criminal investigation. But B more directly answers the service-status part: the LA Times result explicitly says Powell plans to remain on the Fed board after his term as chair ends, for an undetermined period, which matches the anchor. A only says he could remain on the board and gives the separate governor term through January 2028, without clearly stating that he is in fact remaining. Therefore B better enables an LLM to answer correctly from the provided content alone."
+}

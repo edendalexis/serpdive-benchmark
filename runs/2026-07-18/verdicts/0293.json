@@ -1,0 +1,11 @@
+{
+  "id": 293,
+  "query": "X Grok AI Following feed ranking algorithm launch date",
+  "topic": "Twitter",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A does not clearly provide the launch date in its snippets. Its top result says November 29, 2025, which appears to be a publication date and conflicts with stronger evidence that the rollout was announced/launched on November 27, 2025. Several results are low-reliability or weakly relevant (X post snippet, LinkedIn post, trending page, marketing blog), and one result discusses a broader November 2025 AI-driven feed plan rather than the specific Following feed ranking launch. This makes A more ambiguous and potentially misleading.",
+  "b_issues": "Content B does not explicitly show the article publication date in the snippets, so the exact date must be inferred from the returned sources rather than directly quoted in-snippet. It also includes one less relevant marketing blog result about 2026, but that does not materially conflict with the answer.",
+  "reasoning": "The question asks for the launch date of X's Grok AI ranking for the Following feed. Content B includes multiple directly relevant news sources matching the anchor: NDTV, Social Media Today, Gadgets360, and Social Samosa, all describing the same feature rollout. These sources align with the anchor that the launch/update occurred on November 27, 2025. By contrast, Content A's strongest date signal is November 29, 2025 from a magazine snippet, which is likely a publication date and risks giving the wrong answer; the rest of A is noisier and less reliable. Therefore B better enables an LLM to answer correctly."
+}

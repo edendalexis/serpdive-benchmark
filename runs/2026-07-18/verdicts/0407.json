@@ -1,0 +1,11 @@
+{
+  "id": 407,
+  "query": "EU AI Act AI Omnibus small mid-cap enterprises SMCs SME exemptions extension extender scopes 2026",
+  "topic": "EU AI Act",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "A includes the key Consilium source, but its snippet is unusable boilerplate and does not expose the relevant facts. The top results are weaker or less reliable for precise scope questions: a BEUC PDF snippet is fragmentary; a LinkedIn post is low-authority; Grant Thornton says SMCs can benefit from simplified compliance measures but does not specify the exact extension scope; another result (ComplyDrive-like claim via snippets elsewhere) suggests broader/new thresholds not supported by the anchor. Overall A leaves the crucial details underdetermined from the snippets alone.",
+  "b_issues": "B contains one potentially misleading snippet from Loyens & Loeff saying 'Companies have until 2 December 2026 to bring their systems into compliance,' which is overbroad and may conflate a particular obligation/deadline with general AI Act compliance. Some nonofficial sources add detail beyond the official text, including the SMC definition/thresholds, so an LLM should treat those as secondary. But these do not materially contradict the core answer.",
+  "reasoning": "B better enables a correct answer because it directly surfaces the core facts from a high-quality official source (Consilium): the Digital Omnibus/7 May 2026 political agreement would extend certain regulatory exemptions granted to SMEs to small mid-caps (SMCs), while also reducing requirements only in a very limited number of cases, extending the possibility to process sensitive personal data for bias detection/mitigation, reinforcing AI Office powers, and reducing governance fragmentation. That matches the anchor. B also includes corroborating secondary sources explicitly stating that SME exemptions were extended to SMCs and giving the likely SMC scope/definition. By contrast, A’s official Consilium result is present but its snippet is mostly navigation noise, and the remaining snippets are too fragmentary or low-authority to reliably answer what exemptions were extended and in what scope. Therefore B provides the necessary facts more clearly and accurately."
+}

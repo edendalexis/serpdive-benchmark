@@ -1,0 +1,11 @@
+{
+  "id": 767,
+  "query": "FAA Advanced Aviation Technologies office drone eVTOL integration rulemaking 2026",
+  "topic": "FAA",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A is somewhat incomplete on the specific 'rulemaking' aspect. It mostly provides FAA reorganization coverage and only a generic FAA rulemaking page, not a clearly identified 2026 drone/eVTOL integration rulemaking document. One top result is a law firm PDF rather than a primary FAA source. However, it does contain multiple consistent sources stating that the FAA created an Advanced Aviation Technologies office to oversee integration of drones, eVTOL/AAM, and related technologies.",
+  "b_issues": "Content B is largely off-target. Its top results focus on an AAM pilot program, not the FAA Advanced Aviation Technologies office or a 2026 rulemaking tied to that office. It includes an irrelevant 2021 Holland & Knight article, a commercial blog about drone regulations, and a generic Federal Register entry unrelated to this question. It does not clearly establish the FAA reorganization fact that the Advanced Aviation Technologies office was created to oversee integration of drones and eVTOLs.",
+  "reasoning": "The anchor indicates that in January 2026 the FAA announced a major reorganization creating an Advanced Aviation Technologies office to oversee integration of drones, eVTOLs/AAM, and similar technologies into the airspace. Content A matches that directly: it includes the FAA reorganization topic, the Unmanned Airspace result explicitly saying the office will oversee integration of drones and eVTOLs, and corroborating industry coverage from DRONELIFE and Inside Unmanned Systems. Although A is weak on a specific rulemaking document, it at least surfaces the FAA rulemaking page and gives enough accurate context for an LLM to answer the core query. Content B, by contrast, mostly discusses a separate 2026 pilot program for next-generation aircraft and contains several irrelevant or stale results, so it would be more likely to mislead an LLM away from the actual office/reorganization answer."
+}

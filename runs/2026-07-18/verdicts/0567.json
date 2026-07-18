@@ -1,0 +1,11 @@
+{
+  "id": 567,
+  "query": "Hades II Odysius Arachne prophecy narrated conclusion scene Faded list updated artwork quality of life update",
+  "topic": "Hades II",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A does not contain the key patch/update fact from the question. Its results are mostly achievement/prophecy guides for Arachne only, with no evidence about an update adding narrated conclusion scenes, Fated List viewing, artwork updates, or quality-of-life changes. It also appears to misspell/omit Odysseus-related coverage entirely.",
+  "b_issues": "Content B also does not provide the key patch/update fact. One result is a spoiler guide for Arachne’s Silk and Spitefulness achievement, not the update notes; the other is for 'The Unseen Update' in Early Access, which is a different update and does not establish the Odysseus/Arachne narrated conclusion scene and Fated List change asked about. It is therefore off-target and potentially misleading.",
+  "reasoning": "The anchor indicates the answer should come from Hades II Post-Launch Patch 2: prophecies for characters like Odysseus and Arachne gained fully narrated conclusion scenes viewable in the Fated List, alongside artwork/quality-of-life changes. Neither set includes that fact directly. A is narrowly about Arachne achievement/progression pages and lacks the update information. B includes one irrelevant Arachne guide and one different-update wiki page that mentions other new content but not the specific Post-Launch Patch 2 facts. Since neither result set reliably contains the needed answer, neither better enables a correct response."
+}

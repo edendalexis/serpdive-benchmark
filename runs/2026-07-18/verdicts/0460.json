@@ -1,0 +1,11 @@
+{
+  "id": 460,
+  "query": "Palworld 1.0 launch date full release July 2026 official announcement patch notes",
+  "topic": "Palworld",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Content A has no direct official Pocketpair/Steam result in the returned list, even though the query asks for an official announcement and patch notes. Its featured snippet and top result come from third-party sources, which could bias an LLM toward unofficial summaries. However, A does include IGN plus multiple corroborating third-party pages stating July 10, 2026 and mentioning 27 pages of patch notes.",
+  "b_issues": "Content B likewise lacks a direct official Pocketpair/Steam result despite the query asking for official announcement patch notes. Most results are third-party summaries. It does provide consistent July 10, 2026 claims and patch-note references, but not the actual official changelog link.",
+  "reasoning": "Both result sets contain the key facts needed to answer the question: Palworld 1.0/full release launched on July 10, 2026, and the release was associated with extensive patch notes described as 27 pages. Both are internally consistent and broadly align with the anchor’s official Steam references. Neither set is clearly superior because neither actually surfaces the official Steam announcement/changelog in the main results, and both rely mostly on third-party reporting. A has a slightly stronger mainstream corroborating source (IGN), while B has similarly clear corroboration and no meaningful contradiction. Overall, both enable a correct answer about the launch date and patch notes equally well."
+}

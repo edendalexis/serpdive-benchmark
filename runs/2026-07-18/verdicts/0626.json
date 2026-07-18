@@ -1,0 +1,11 @@
+{
+  "id": 626,
+  "query": "Novak Djokovic French Open 2026 Joao Fonseca match result score",
+  "topic": "Novak Djokovic",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "",
+  "b_issues": "",
+  "reasoning": "Both A and B clearly contain the needed fact pattern to answer the question correctly: Joao Fonseca defeated Novak Djokovic at the 2026 French Open, and the score was 4-6, 4-6, 6-3, 7-5, 7-5. In both sets of results, multiple reliable sources (BBC, ESPN, major news outlets, The Athletic) agree on the same result and score, with no meaningful contradictions. A has slightly more corroboration, but B also provides enough accurate evidence for an LLM to answer correctly from the content alone."
+}

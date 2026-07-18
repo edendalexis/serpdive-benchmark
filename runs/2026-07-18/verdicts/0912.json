@@ -1,0 +1,11 @@
+{
+  "id": 912,
+  "query": "Super Bowl LX Jason Myers kicking stats field goals made career points milestone",
+  "topic": "Super Bowl",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Includes some irrelevant/noisy results (Wikipedia placekicker page, ESPN profile, video links). The featured snippet cites Yahoo rather than the primary NFL source. However, the core facts are consistent: five field goals, 17 total points, and 206 season+postseason points surpassing LaDainian Tomlinson's 198.",
+  "b_issues": "Provides less complete milestone detail. While it clearly states five field goals and 17 points, the snippets shown do not explicitly include the season+postseason total of 206 points or the prior record of 198 in the visible result text. One snippet also appears truncated/awkwardly phrased ('17 of the Seahawks' five field goals were the most made...'), which reduces clarity.",
+  "reasoning": "A better equips an LLM to answer the query correctly because it directly contains the needed kicking stats and the points milestone in one place: Myers made a Super Bowl-record five field goals, scored 17 points with two extra points, and finished with 206 total points, breaking LaDainian Tomlinson's 198-point mark. Those facts align with the anchor and come from reliable sources including NFL.com and Yahoo Sports. B has reliable sources too and confirms the five field goals and 17 points, but the visible snippets omit the exact milestone total and prior-record context, so it is less sufficient for a precise answer."
+}

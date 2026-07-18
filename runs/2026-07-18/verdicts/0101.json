@@ -1,0 +1,11 @@
+{
+  "id": 101,
+  "query": "Boeing MUOS Space Force contract value satellite delivery timeline 2031",
+  "topic": "Boeing",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A lacks the key primary Boeing source and relies heavily on secondary or low-reliability items, including an Instagram post and a LinkedIn repost. It gives mixed timeline phrasing: Boeing/press-style wording is 'first delivery in 2031,' while other results say launches 'no earlier than 2031 and 2032,' which is not the same as delivery. One result also says 'scheduled for delivery by 2035,' which could confuse the answer.",
+  "b_issues": "Content B also mixes 'first delivery in 2031' with secondary-source wording about launches 'no earlier than 2031 and 2032,' so the delivery vs. launch distinction is somewhat muddled. Some snippets are noisy/truncated, and the featured snippet is not clearly sourced. However, it includes the direct Boeing source with the exact contract value and first-delivery fact.",
+  "reasoning": "B better enables a correct answer because it contains the most authoritative and directly relevant source: Boeing's own page stating the MUOS SLE contract is valued at up to $2B and includes two narrowband communications satellites, with the first delivery in 2031. That exactly matches the question. A has enough information to infer the answer, but its strongest evidence is secondary and it includes weaker sources and more ambiguity between delivery and launch dates. Therefore B is more reliable and complete for answering correctly from the provided content alone."
+}

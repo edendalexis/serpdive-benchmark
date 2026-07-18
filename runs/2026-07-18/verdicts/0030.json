@@ -1,0 +1,11 @@
+{
+  "id": 30,
+  "query": "Google core search update June 2026 completion date",
+  "topic": "Google",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Content A does not include the Google Search Status Dashboard result directly, so the best evidence is indirect via third-party reporting. The query says 'June 2026' but the relevant core update is the May 2026 core update completed in June; A could potentially mislead because it also includes an unrelated June 2026 spam update result. Minor timing differences appear across snippets (e.g. completion phrased simply as June 2, 2026 vs. ~5:40 AM PDT), but they do not materially conflict.",
+  "b_issues": "Content B also does not include the Google Search Status Dashboard result directly, relying on third-party summaries. It includes a less relevant Search Engine Journal history snippet that mentions the May 2026 core update launch but not the completion date in the shown text, and an unrelated unconfirmed June 19 ranking update result that could distract. Minor timing differences appear across snippets (e.g. 5:43 AM PDT vs. just June 2, 2026), but they do not materially conflict.",
+  "reasoning": "Both A and B clearly contain the key fact needed to answer the question: the Google May 2026 core update completed on June 2, 2026. In A, this is stated by Search Engine Roundtable ('Completed: June 2, 2026') and reinforced by other snippets saying Google officially marked it complete on June 2, 2026. In B, multiple strong sources state the same: SEO-Kreativ says Google officially marked the May 2026 Core Update as complete on June 2, 2026, Search Engine Roundtable says the rollout was complete as of June 2, 2026, and Search Engine Land says it completed on June 2, 2026. Neither set presents a meaningful contradiction on the answer, and both provide sufficient accurate information from credible SEO news sources to let an LLM answer correctly. B has slightly stronger corroboration, but not enough to say A is materially worse; both enable a correct answer equally well."
+}

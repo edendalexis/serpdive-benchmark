@@ -1,0 +1,11 @@
+{
+  "id": 26,
+  "query": "SpaceXAI total funding raised 2026 projected income data center burn rate",
+  "topic": "xAI",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A has only one directly relevant result on SpaceX/xAI burn (BNN Bloomberg) plus a Substack and Constellation summary; it lacks a clear source for xAI total funding raised, and most other results are generic AI capex pieces unrelated to xAI. It also includes potentially inconsistent or unsupported figures such as 'USD 22.8 billion cash burn' from Substack without enough context, and does not clearly provide projected income data center revenue details. Overall it is sparse on the specific query dimensions.",
+  "b_issues": "Content B still does not clearly answer 'total funding raised' for xAI/SpaceXAI, and includes one low-value Goldman Sachs page that is generic AI infrastructure noise. The CryptoRank item is secondary aggregation rather than primary reporting. However, the core financial figures are reinforced by TechCrunch and BNN Bloomberg and are broadly consistent with the anchor.",
+  "reasoning": "B better equips an LLM to answer correctly because it contains directly relevant, mutually reinforcing facts from credible sources about xAI's burn rate and projected AI/data-center income. Specifically, TechCrunch states xAI lost $6.4B from operations on $3.2B revenue in 2025, matching the anchor. The CryptoRank summary adds the key capex/data-center figure: $7.7B in Q1 2026 annualized to about $30.8B, which aligns with the anchor's $7.7B Q1 capex and supports the 'data center burn rate' part of the question. BNN Bloomberg adds the projected financing context: SpaceX targeting a $75B IPO at a $1.75T valuation and warning that capex may continue to outpace revenue. By contrast, A is diluted with generic AI spending results and lacks as clear a statement of the core xAI 2025 loss/revenue figures and Q1 2026 capex. Neither set fully covers 'total funding raised,' but B is materially stronger on the rest of the requested facts and is closer to the anchor."
+}

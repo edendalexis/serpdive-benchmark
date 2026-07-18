@@ -1,0 +1,11 @@
+{
+  "id": 49,
+  "query": "2025/26 UEFA Champions League post-2024 format second season league phase clubs matches per team",
+  "topic": "UEFA Champions League",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Includes a weak/irrelevant Facebook result. Top Wikipedia snippet contains likely future/possibly stale season-outcome details not needed for the query. However, A does include reliable UEFA/mancity snippets stating the needed facts: 36-team league phase and eight matches per team.",
+  "b_issues": "Top Wikipedia snippet also contains likely future/possibly stale season-outcome details not needed for the query. One result (SI round of 16) is tangential, and another (Groundhopper 2026-27 schedule) is irrelevant/noisy. However, B also includes reliable UEFA snippets stating the needed facts: 36 clubs in the league phase and teams play eight matches.",
+  "reasoning": "The question asks for the 2025/26 Champions League, the second season under the post-2024 format, specifically the number of league-phase clubs and matches per team. Both A and B contain sufficient, accurate facts from reliable sources to answer this: UEFA/mancity in A say there is one league of 36 teams and each team plays eight matches; UEFA in B says from 2024/25 onward 36 clubs participate in the league phase and teams play eight matches, and the 2025/26 article confirms that season. Neither set has a material contradiction on the key facts. So both enable the answer equally well."
+}

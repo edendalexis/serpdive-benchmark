@@ -1,0 +1,11 @@
+{
+  "id": 880,
+  "query": "Skydance Media Paramount Global merger completion date",
+  "topic": "Skydance Media",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A only gives an expected/planned closing date ('by August 7' / 'anticipate ... close on August 7') rather than the actual completion date. It lacks a source confirming completion, so an LLM could answer with a projected date rather than the completed-merger date.",
+  "b_issues": "Minor mix of pre-close expectation results and one less-reliable Wikipedia result, but it also includes Paramount’s official press release explicitly stating the merger was completed on Aug. 7, 2025. No material contradiction for the asked fact.",
+  "reasoning": "The question asks for the merger completion date. Content B contains a direct, authoritative source from Paramount stating: 'today announced the completion of their merger' dated Aug. 7, 2025, which supports the correct answer. Content A only contains articles saying the merger was expected to close on August 7, not that it actually did. Therefore B better enables an LLM to answer correctly and confidently."
+}

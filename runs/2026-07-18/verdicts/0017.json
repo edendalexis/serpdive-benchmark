@@ -1,0 +1,11 @@
+{
+  "id": 17,
+  "query": "TSMC capital expenditure capex 2026 forecast $60B $64B revised AI chip demand date",
+  "topic": "Taiwan Semiconductor Manufacturing Company",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A is largely unusable and unreliable. The top results are irrelevant X/Twitter search pages with malformed or unrelated URLs, not authoritative sources. They only contain a fragment that TSMC increased 2026 capex to $60B-$64B, but do not clearly provide the date, prior forecast, or trustworthy sourcing. One result is unrelated market commentary. Overall A does not reliably support a correct answer.",
+  "b_issues": "Content B relies on secondary/tertiary sources rather than TSMC investor materials or major news outlets. The top result is a niche commentary site and the other snippets are generic summaries. However, B does contain the key facts: TSMC raised 2026 capex to $60B-$64B from $52B-$56B, tied to strong/AI-driven demand, and places it on July 16.",
+  "reasoning": "B better enables a correct answer because it includes the essential facts the question asks for: the revised 2026 capex forecast of $60B-$64B, the prior range of $52B-$56B, the AI-demand rationale, and the date of the revision (July 16, 2026). A only offers low-quality, mostly irrelevant X search results with fragmentary text and no dependable sourcing, so an LLM would have little basis to answer confidently or accurately. While B's sources are not ideal, they are still far more informative and coherent than A."
+}

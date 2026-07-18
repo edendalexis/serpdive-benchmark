@@ -1,0 +1,11 @@
+{
+  "id": 855,
+  "query": "Michelle Hurd SAG-AFTRA secretary-treasurer election September 2025 vote count margin",
+  "topic": "SAG-AFTRA",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "No clear factual flaws. It includes the official SAG-AFTRA election PDF result, which provides the exact vote counts needed to compute the margin: Michelle Hurd 13,135 vs. Peter Antico 7,144.",
+  "b_issues": "Content B gives only percentages for the secretary-treasurer race (Hurd 64.77%, Antico 35.23%) and not the raw vote counts. That allows a percentage-point margin but not the vote-count margin asked in the question. It is also based on secondary reporting rather than the official tabulation PDF.",
+  "reasoning": "The question asks for the September 2025 SAG-AFTRA secretary-treasurer election vote count margin for Michelle Hurd. Content A directly surfaces the official SAG-AFTRA/official results PDF with the necessary counts: Hurd 13,135 and Antico 7,144, so an LLM can correctly calculate the margin as 5,991 votes. Content B only provides percentages from news coverage and does not supply the raw vote totals, so it does not fully enable answering the vote-count margin correctly from the content alone."
+}

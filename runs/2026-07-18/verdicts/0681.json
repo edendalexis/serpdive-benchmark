@@ -1,0 +1,11 @@
+{
+  "id": 681,
+  "query": "European Commission DSA investigation Shein March 2026 reason",
+  "topic": "Shein",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Minor issue: the query says March 2026, but the key official result in A is about 17 February 2026. However, A still contains the official European Commission press-corner result stating the actual reasons for the DSA investigation. Some other results are secondary or lower-reliability sources (YouTube, LinkedIn), but they do not materially contradict the official source.",
+  "b_issues": "B lacks the direct official European Commission press release in the shown results. It relies more on tertiary sources and snippets. It also contains a likely date inconsistency: one result says proceedings opened on 16 February 2026, while the anchor and official press release say 17 February 2026. The top ADVANT result in B is more about IP-rights implications and does not itself clearly state the full reasons. Overall source reliability is weaker and the content is a bit less precise.",
+  "reasoning": "The question asks for the reason for the European Commission’s DSA investigation into Shein. The anchor shows the correct reasons were addictive design, lack of transparency of recommender systems, and the sale of illegal products, including child sexual abuse material. Content A directly includes the official Commission press-corner result with those reasons in the snippet, and another news result also matches the illegal-products/addictive-design rationale. Content B does contain enough clues in secondary sources, especially the LinkedIn snippet mentioning illegal products, addictive design, and recommender-system transparency, but it is less reliable overall and includes a date discrepancy (16 vs 17 February 2026). Therefore A better enables a model to answer correctly from the provided content alone."
+}

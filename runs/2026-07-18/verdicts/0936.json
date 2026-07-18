@@ -1,0 +1,11 @@
+{
+  "id": 936,
+  "query": "Klarna Q2 2026 revenue guidance full-year 2026 outlook investor release",
+  "topic": "Klarna",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "A includes the key investor-release result, but its snippets are incomplete. The Klarna investor-relations snippet is truncated after 'For the second quarter, Klarna expects: GMV of $35.5 ...' and does not expose the full Q2 revenue guidance or the full-year 2026 outlook in the provided content. The Yahoo/Cbonds items are only about the Q2 earnings publication date, not the guidance/outlook details. A likely points to the right Q1 release/PDF, but the necessary numbers are not actually present in the returned text.",
+  "b_issues": "B contains some irrelevant/noisy results (Yahoo/Barchart/Cbonds publication-date pages; an investor page snippet showing mostly filing tables). However, no clear factual contradiction is present in the useful result.",
+  "reasoning": "B better enables a correct answer because one result (the StockTitan summary of Klarna's Q1 2026 6-K) explicitly states the Q2 2026 guidance numbers: GMV of $35.5–$36.5 billion, revenue of $960 million–$1.0 billion, transaction margin dollars of $375–$395 million, and adjusted operating profit of $30–$50 million, and it also says Klarna reiterated its full-year 2026 guidance. This aligns with the anchor, which says the FY26 framework was unchanged and that Q2 guidance was issued in the May 14, 2026 investor release. In A, the relevant investor-relations snippet is cut off before the actual guidance figures, so an LLM would not reliably have the answer from the returned text alone."
+}

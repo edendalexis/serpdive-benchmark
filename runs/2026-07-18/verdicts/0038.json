@@ -1,0 +1,11 @@
+{
+  "id": 38,
+  "query": "Google Antigravity CLI Agent Platform integration enterprise capabilities 2026",
+  "topic": "Google",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A is too sparse and misses the key enterprise-platform integration facts. It mainly covers the Gemini CLI to Antigravity CLI transition and a GitHub discussion, but does not clearly state that Antigravity CLI and Antigravity 2.0 are available to Google Cloud customers through the Gemini Enterprise Agent Platform, nor does it explain the broader enterprise stack or platform role. One result is a Medium post, which is less reliable than first-party or established reporting. The GitHub discussion is derivative/community content rather than a canonical product source.",
+  "b_issues": "Content B includes one lower-reliability third-party blog result (Apidog) and one trade-press summary rather than only first-party sources. It also does not enumerate all enterprise capabilities in detail, so an answer would still be somewhat incomplete. However, no clear contradiction is present.",
+  "reasoning": "Content B better supports a correct answer because it contains the core facts aligned with the anchor: Antigravity is part of a broader Google enterprise agent stack in 2026; Google described a unified development toolkit around Antigravity 2.0 and Managed Agents API; and, crucially, Antigravity 2.0 and Antigravity CLI are available to Google Cloud customers through the Gemini Enterprise Agent Platform. The Antigravity @ I/O 2026 result directly states this integration, and the Virtualization Review result explains the enterprise stack context. Content A mostly talks about the CLI transition and features like hooks/subagents/plugins, but lacks the central enterprise integration fact needed to answer the query well."
+}

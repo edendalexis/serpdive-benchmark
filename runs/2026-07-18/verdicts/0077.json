@@ -1,0 +1,11 @@
+{
+  "id": 77,
+  "query": "98th Oscars 2026 Sinners record nominations total wins categories",
+  "topic": "Academy Awards Oscars",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A clearly establishes the record 16 nominations via multiple reliable entertainment-industry sources, but it does not directly list Sinners' total wins or the exact winning categories. One result is a YouTube item with sparse metadata, and the Yahoo summary mentions other winners without specifying Sinners' categories. So A is incomplete, though not clearly contradictory.",
+  "b_issues": "Content B is more problematic. It strongly supports the 16 nominations record, but it does not provide Sinners' total wins or its winning categories. Its featured snippet only lists example nomination categories, not wins. The top result is irrelevant (Best Original Score Wikipedia page), and the rest are nomination-focused pre-ceremony pieces. Thus B lacks the key facts needed to answer the full question.",
+  "reasoning": "The question asks for Sinners' record nominations, total wins, and categories at the 98th Oscars. Both sets support the record 16 nominations. However, A at least includes a Yahoo result about the 2026 winners, indicating Sinners was among the films dominating the awards night, whereas B is almost entirely limited to nomination coverage and irrelevant/partial results. Neither set fully supplies the exact total wins and categories from the provided snippets alone, but A is closer and therefore better enables a correct answer."
+}

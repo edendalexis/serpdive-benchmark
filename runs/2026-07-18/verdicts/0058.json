@@ -1,0 +1,11 @@
+{
+  "id": 58,
+  "query": "Nintendo Switch 2 Once Upon a Katamari release date October 2026 official details",
+  "topic": "Nintendo Switch 2",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A has useful facts, but its strongest 'official' source is Bandai Namco America/Games Press rather than the exact official European announcement in the anchor. It also includes a low-quality NintendoSoup AMP result whose snippet is unrelated, and a Wikipedia result that is not an official source. There is slight ambiguity from the featured snippet saying 'official details' only in broad terms, without the fuller edition/DLC specifics present in the anchor.",
+  "b_issues": "Content B is stronger overall, but most supporting results are secondary outlets. Only the top result is the official Bandai Namco Europe page; the rest add little. No major factual contradictions are present.",
+  "reasoning": "B better enables a correct answer because it directly includes the official Bandai Namco Europe announcement matching the anchor: Once Upon A KATAMARI comes to Nintendo Switch 2 on 8 October 2026, with the new Rolling LIVE Highlights Edition/DLC and details such as 10 quests and music from Katamari Damacy Rolling LIVE. That is exactly the kind of 'official details' the question asks for. A also contains the correct release date and mentions the DLC, but its evidence is more mixed: duplicate Games Press entries, an irrelevant AMP snippet, and Wikipedia reduce reliability. Since both have the key date, but B has the clearest authoritative official source with the pertinent details and no contradictions, B is better."
+}

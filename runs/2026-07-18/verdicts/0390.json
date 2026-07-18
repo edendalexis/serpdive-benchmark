@@ -1,0 +1,11 @@
+{
+  "id": 390,
+  "query": "H5N1 clade 2.3.4.4b human infection case fatality rate 2025",
+  "topic": "H5N1 bird flu",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "A mixes relevant 2025 material with less targeted or potentially distracting items. Its strongest WHO snippet gives 954 cases and 464 deaths (49%) but does not clearly tie that figure specifically to clade 2.3.4.4b; another CDC result emphasizes the U.S. CFR of 1/70, which is accurate for U.S. cases but could mislead an LLM away from the broader/global answer implied by the query. It also includes an irrelevant 2026 CDC page.",
+  "b_issues": "B includes a secondary review/article stating the human CFR is 'around 50%' and a Science commentary citing the U.S. CFR of 1/70; those are less direct than the PAHO/WHO epidemiologic update. The CDC Aug 2025 snippet is later than needed and country-specific. However, B does include the key PAHO/WHO figure directly.",
+  "reasoning": "B better enables a correct answer because it contains the most on-point fact from a highly reliable source: the PAHO/WHO March 2025 epidemiological update stating that historically, as of 20 January 2025, there were 964 human H5N1 cases and 466 deaths, about a 48% CFR. That aligns with the anchor and is the clearest 2025 answer available in the result sets. B also supports this with NEJM and review snippets referring to an approximately 50% historical CFR. A has reliable sources too, especially the WHO weekly update with 954 cases and 464 deaths (49%), but that is less directly tied to the exact clade-focused/global framing, and A is more likely to confuse an LLM because it prominently features the much lower U.S.-only 1.4% CFR and even an irrelevant 2026 result. So B is more accurate, focused, and less contradictory for answering the question."
+}

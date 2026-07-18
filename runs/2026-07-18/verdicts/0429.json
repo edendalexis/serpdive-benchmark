@@ -1,0 +1,11 @@
+{
+  "id": 429,
+  "query": "Rafah crossing closure history May 2024 early 2025 brief medical evacuation reopening latest February 2026 timeline",
+  "topic": "Rafah",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A relies heavily on Wikipedia and short snippets. It gives May 2024 seizure and Feb. 2, 2026 reopening, and hints at occasional medical evacuations, but it does not clearly establish the key point that the crossing briefly reopened in early 2025 for medical evacuations. The Wikipedia snippet also adds an unsupported/possibly off-topic claim that it closed again after the beginning of the Iran war, which is not needed for the asked timeline and could mislead. Overall A is incomplete and less source-reliable.",
+  "b_issues": "Content B has some inconsistency in framing duration/ceasefire timing: Al Jazeera says 'almost two years of closure' and says the ceasefire came into effect in October, while another result says the crossing had only briefly opened in early 2025; that makes the 'almost two years' wording imprecise. It also includes an AP item about a 2-day closure after reopening, which is not central to the requested timeline. Still, the core facts are present and not materially contradictory.",
+  "reasoning": "The question asks for a timeline: closure history from May 2024, a brief medical-evacuation reopening in early 2025, and the latest reopening in February 2026. Content B directly contains all three core facts in reliable news sources: Israeli troops seized/closed Rafah in May 2024; it 'only briefly open[ed] during a ceasefire in early 2025 for the evacuation of medical patients' (Guardian); and it reopened in February 2026 for limited traffic/medical evacuees (ABC30, Al Jazeera, AP, LA Times). Content A has May 2024 and Feb. 2026, but the early-2025 brief reopening is only vaguely implied by one snippet ('occasional medical evacuation') and not clearly dated, while its strongest item is Wikipedia rather than primary reporting. Therefore B better enables a correct answer."
+}

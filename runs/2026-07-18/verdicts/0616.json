@@ -1,0 +1,11 @@
+{
+  "id": 616,
+  "query": "Suno AI v4.5 release date maximum song length eight minutes Pro Premium features changelog",
+  "topic": "Suno AI",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Result set A does not include the clearest official release-date/help article directly; the Suno blog snippet shown does not explicitly state the May 1, 2025 date in the snippet, though the date is inferable from other result titles/snippets. It also says 'Pro and Premier' rather than the user's 'Pro Premium,' which could leave plan naming slightly ambiguous.",
+  "b_issues": "Result set B relies heavily on non-official and lower-reliability sources. The top result contains contradictory/incorrect timing language ('end of May 2024' with an editor note correcting to May 1st, and later 'beginning of May 2025'). It does not provide a clear official changelog source. Other results are Reddit, Facebook, and YouTube, which are weaker evidence. The set also lacks a solid official source establishing the feature list and release details together.",
+  "reasoning": "A better enables a correct answer because it contains official Suno sources with the key facts needed: the official Suno blog says v4.5 supports songs up to 8 minutes and mentions feature changes such as richer vocals, better genre accuracy, Covers/Personas enhancements, and related improvements; the official release-notes page is present; and a reputable third-party article corroborates the 8-minute limit and Pro/Premier availability. This aligns with the anchor facts that v4.5 launched on May 1, 2025 for Pro and Premier users and added the listed features. By contrast, B's strongest result is a third-party article with self-contradictory date claims, and the rest are mostly unofficial/community sources. That makes B more likely to mislead an LLM on the release date and changelog details."
+}

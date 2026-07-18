@@ -1,0 +1,11 @@
+{
+  "id": 504,
+  "query": "Intel Foundry 14A Process Design Kit PDK release status lead customers intent-to-build test chips",
+  "topic": "Intel Foundry",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Result 1 (Intel Newsroom snippet) is truncated and does not itself expose the key 14A PDK/test-chip facts. Result 2 is a forum/SemiWiki repost rather than a primary source. Some supporting results are secondary or informal sources (AnySilicon, Substack). However, result 5 (EE Times) directly states the key facts: Intel distributed an early 14A PDK to lead customers and multiple customers expressed intent to build test chips.",
+  "b_issues": "The strongest factual result is The Elec, which says Intel already provided 0.5 PDK to customers, plans external 0.9 PDK distribution in October, and is working with multiple customers on products/fabs/capacity. However, the set does not explicitly include the crucial 'multiple customers have expressed intent to build test chips' fact; the Intel Newsroom result shown is mostly generic/truncated, and other results are secondary or less relevant. There is also a low-quality/rumor-like Facebook/WCCFTech result.",
+  "reasoning": "Both sets contain enough to answer most of the query, but each is incomplete in a different way. Content A clearly covers the 'lead customers' and 'intent-to-build test chips' piece via EE Times, and also references positive response to PDK 0.5 / later commitment timing via SemiWiki. Content B clearly covers the PDK release status better via The Elec: 0.5 already shared, 0.9 beta to external customers in October, with customer discussions underway. For the full question, an ideal answer needs both PDK release status and whether lead customers intend to build test chips. A is stronger on the test-chip-intent fact; B is stronger on the concrete PDK milestone. Since neither set alone cleanly provides the entire answer better than the other, they are effectively tied."
+}

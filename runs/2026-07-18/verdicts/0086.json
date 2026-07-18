@@ -1,0 +1,11 @@
+{
+  "id": 86,
+  "query": "Blue Origin New Glenn NG-2 ESCAPADE first stage landing Jacklyn loiter orbit mission date 2026",
+  "topic": "Blue Origin",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "One Blue Origin result snippet is polluted with unrelated later-site text, including references to May 28, 2026 and an April 19 date, which could confuse the mission date. SpaceNews says the booster 'attempted' a landing rather than clearly stating it succeeded, though other A results do state the successful landing. Overall, A still contains the key facts: NG-2 occurred November 13, 2025, ESCAPADE was deployed to loiter orbit, and the first stage landed on Jacklyn.",
+  "b_issues": "Top result from Space Launch Schedule is inaccurate/confusing: it says booster GS1-SN002 landed on Jacklyn after its first flight and 'last flew on 04/19/2026,' which conflicts with the actual NG-2 mission date and could mislead an LLM into answering 2026. There is also a low-quality Facebook result with garbled content. However, Blue Origin results in B clearly state the correct facts: NG-2 completed on November 13, 2025, deployed ESCAPADE to the designated loiter orbit, and landed the first stage on Jacklyn.",
+  "reasoning": "Both A and B include the authoritative Blue Origin pages that directly answer the query: New Glenn mission NG-2 successfully deployed NASA's ESCAPADE into the designated loiter orbit and landed the reusable first stage on Jacklyn, with the mission date November 13, 2025. That matches the anchor. Each set also contains some noise or misleading material about 2026: A has a contaminated Blue Origin news snippet mentioning May 28, 2026, while B has an incorrect/high-ranking schedule result claiming an April 19, 2026 flight. Since both sets nonetheless provide the decisive correct facts from reliable Blue Origin sources, they enable a correct answer equally well."
+}

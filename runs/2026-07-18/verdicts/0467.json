@@ -1,0 +1,11 @@
+{
+  "id": 467,
+  "query": "Palworld 1.0 fishing spots difficulty location new islands settlements Sun Reach region",
+  "topic": "Palworld",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Most useful result is a YouTube description rather than a full article, so details are sparse. It does not clearly state Sunreach difficulty tier in the snippet, and some results are older/stale or less relevant (e.g. Pindrop explicitly says updated for 0.6, not 1.0). It also does not mention settlements directly. However, it does include Sunreach among best fishing locations and points to how to reach it, plus a wiki result confirming fishing spot difficulty ranges by region.",
+  "b_issues": "Includes weaker and more indirect evidence for the actual fishing-spots question. The top result is a Fandom patch-notes page, which only says high-difficulty fishing spots were added to Sunreach and the World Tree, without giving locations or practical ranking. Other results focus on general 1.0 patch notes and Sunreach access, not fishing spots. It mentions settlements in a broad patch-notes context but not specific fishing facts. Sources are also less ideal: Fandom and secondary patch-note summaries are less targeted than a fishing guide/wiki entry.",
+  "reasoning": "Content A better equips an LLM to answer because it contains directly relevant fishing information tied to Sunreach: the top result says the guide covers best fishing spots, specifically including Sunreach, World Tree, Feybreak, Oil Rigs, and others, and frames Sunreach as one of the important late-game locations. It also includes a Palworld Wiki result stating fishing spots have difficulty tiers that track zone level. This aligns with the anchor, which says Sunreach is the best practical late-game farm before World Tree. Content B mostly provides patch-note level facts: Sunreach exists, settlements were overhauled, and Sunreach/World Tree got new high-difficulty fishing spots. That is true but too generic for answering a question about fishing spots, difficulty, location, new islands/settlements, and the Sunreach region. So A has more of the answerable facts, and fewer gaps on the core fishing-topic."
+}

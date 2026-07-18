@@ -1,0 +1,11 @@
+{
+  "id": 849,
+  "query": "Taylor Swift The Life of a Showgirl most-streamed album 2025 major platforms",
+  "topic": "Taylor Swift",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A strongly supports Spotify, but it does not clearly establish the 'major platforms' part of the question from reliable primary/secondary sources. Apple Music is only hinted at via a Reddit result, and Amazon Music appears via a Business Insider snippet quoting an X post rather than a direct platform or strong trade-report confirmation. Thus an LLM using A alone may answer incompletely or with weaker sourcing for Apple/Amazon.",
+  "b_issues": "Content B's Spotify snippet is less direct than A's and omits the key sentence in the excerpt, though the title still conveys it. One result (Sortiraparis) adds extra biographical/production details of unclear relevance and lower reliability. But these do not materially conflict with the core facts.",
+  "reasoning": "The question asks whether Taylor Swift's The Life of a Showgirl was the most-streamed album in 2025 across major platforms. Content B explicitly provides that across Spotify, Apple Music, and Amazon Music using stronger corroboration: Spotify's newsroom result, The Hollywood Reporter stating it had the most single-day streams on Spotify in 2025 and on Apple Music this year, and Music Ally stating Amazon said it became the most-streamed album of all time in its first 24 hours on Amazon Music globally. Content A clearly proves Spotify, but support for Apple Music and Amazon Music is weaker and more indirect. Therefore B better enables a correct answer from the content alone."
+}

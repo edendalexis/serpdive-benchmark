@@ -1,0 +1,11 @@
+{
+  "id": 896,
+  "query": "Alien Romulus sequel returning cast Cailee Spaeny David Jonsson confirmation",
+  "topic": "Alien: Romulus",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Includes some weaker or less directly relevant sources (Collider image article, BroBible rumor piece) and one later rumor-focused result from AVP Galaxy that could distract. However, it also includes a strong, directly relevant ScreenRant result stating 20th Century's boss confirmed Rain and Andy's returns, which aligns with the anchor.",
+  "b_issues": "Relies heavily on weak or secondary sources: WinterIsComing plus social posts on Facebook and Instagram, and a YouTube video. Several results say Spaeny and Jonsson are 'likely' or 'expected' to return rather than clearly framing the studio confirmation. The strongest factual support is less direct and mixes later filming-rumor material with the original confirmation.",
+  "reasoning": "A better enables a correct answer because it contains a directly relevant result: ScreenRant says the sequel got an update from the 20th Century boss who confirms two character returns, matching the anchor that Steve Asbell said a sequel idea is being worked on and that Cailee Spaeny and David Jonsson may return as Rain and Andy. B contains broadly similar claims, but its evidence is weaker and less reliable overall, leaning on social-media reposts and rumor/update coverage instead of a clear article centered on the original confirmation. So A provides the more accurate and dependable basis for answering that the sequel is in development and Rain/Andy are the returning characters being confirmed/eyed to return."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 789,
+  "query": "Netanyahu Gaza aid distribution July 2026 cabinet members reject US ceasefire proposal",
+  "topic": "Benjamin Netanyahu",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A does not contain the key July 2026 item about Netanyahu, cabinet approval of Gaza aid distribution, and hardline ministers objecting in connection with ceasefire talks. Most results are about a different January 2026 US-backed postwar governance plan or broader ceasefire context. The Guardian result is about rejection of a US-backed Gaza panel, not the July cabinet aid-distribution decision. The BBC item concerns later ceasefire talks and aid-distribution mechanisms but not cabinet members rejecting a US proposal in the way asked. There is also likely synthetic or low-reliability material (CFR guide to a Trump-chaired 'Board of Peace', YouTube summary) that may distract or mislead.",
+  "b_issues": "Content B also lacks the key July 2026 article. It only includes January 2026 coverage about launch of phase two of a US plan and Israeli objections to a Gaza committee. It does not mention the cabinet approval of aid distribution in Gaza in July, nor the hardliner protests or specific ministers tied to that cabinet dispute. One source is Spectrum Local/AP-style brief with limited detail, and both results are about a different event than the query implies.",
+  "reasoning": "Neither set provides the decisive facts from the relevant July cabinet meeting described in the anchor: that Netanyahu's cabinet approved expanded humanitarian aid distribution in/northern Gaza and that hardline ministers, especially Bezalel Smotrich, objected amid ceasefire tensions. A has slightly more related context because it includes BBC reporting on humanitarian-aid distribution as a sticking point and a Guardian piece on far-right ministers rejecting a US-backed Gaza governance plan, but these are still different events and do not supply the answer cleanly. B is similarly off-target, focused entirely on January 2026 US Gaza-plan announcements and Israeli objections. Since neither corpus lets an LLM answer the asked question correctly from the provided content alone, the result is a tie."
+}

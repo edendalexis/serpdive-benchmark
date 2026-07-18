@@ -1,0 +1,11 @@
+{
+  "id": 578,
+  "query": "Claudia Sheinbaum U.S. far-right collaboration accusations late May June 2026 speech remarks Trump not responsible source",
+  "topic": "Claudia Sheinbaum",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Result set A contains the key Reuters-based fact pattern, but only through an Internazionale repost rather than the primary Reuters URL. The other results are mostly irrelevant to the specific question (AP on Gulf of America; New Republic on tariffs) and do not add support.",
+  "b_issues": "Result set B also contains the key Reuters-based fact pattern, but some supporting results are only partial snippets (US News), one is broader context rather than the specific quote (LA Times), and one is irrelevant/noisy (YouTube).",
+  "reasoning": "Both A and B include the essential facts needed to answer the query correctly: Sheinbaum said far-right sectors in the United States were coordinating with domestic groups against her government, these remarks came after her late-May/June 2026 speech/rally, and she explicitly said she did not believe Donald Trump was responsible. In A, this is stated clearly in the Internazionale Reuters repost. In B, it is stated clearly in the Reuters result itself, with corroborating Reuters-derived snippet from US News. Neither set materially contradicts the anchor. B has the advantage of linking directly to Reuters, while A has the advantage of a fuller snippet explicitly mentioning that she did not believe Trump orchestrated the attacks. Since both provide enough accurate information from reliable reporting to answer the question correctly, neither clearly outperforms the other."
+}

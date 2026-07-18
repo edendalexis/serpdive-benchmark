@@ -1,0 +1,11 @@
+{
+  "id": 437,
+  "query": "All-Movie Hotel Coppola Hideaway opened July 2024 Megalopolis location public opening date",
+  "topic": "Megalopolis",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "No major factual flaw for this question. Some results are lower-reliability or sparse (Instagram, blog-style sources), and one GPB result date differs from the anchor listing, but the key facts are consistent: location is Peachtree City, Georgia, and public opening date is July 25, 2024.",
+  "b_issues": "No major factual flaw for this question. Result set is smaller, but it includes strong sources stating the hotel is in Peachtree City, Georgia and opens to the public July 25, 2024.",
+  "reasoning": "Both A and B contain the facts needed to answer the query correctly from the search results alone. In A, GPB and ToneToATL explicitly state the All-Movie Hotel is in Peachtree City and is slated to open to the public July 25, 2024; Fox/Instagram-style snippets also align. In B, GPB explicitly says the hotel is opening July 25 in Peachtree City, and ToneToATL again states it is slated to open to the public July 25; the official Coppola Hideaways page confirms the location in Peachtree City, Georgia. Neither set presents a meaningful contradiction on the key facts, so they enable the answer equally well."
+}

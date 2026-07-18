@@ -1,0 +1,11 @@
+{
+  "id": 871,
+  "query": "Keir Starmer defense investment plan DIP funding NATO summit 2026 details",
+  "topic": "Keir Starmer",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A lacks authoritative primary sources and gives only fragmentary details. Its top result is a Facebook post, which is not a reliable source for policy specifics. It does not directly provide the key DIP funding details or a clear NATO-summit-related spending path. It also contains potentially imprecise/contradictory figures: Euronews snippet says Britain would spend 'almost £300 billion' over four years, but the title says 'record 348 billion' without clarifying that this is euros; another snippet says '£300 billion' while the anchor indicates the key new uplift is £15 billion and overall annual defence spending reaches about £80 billion by 2029. Overall A is too sparse and indirect to answer confidently.",
+  "b_issues": "Content B includes one BBC snippet with likely extraction or factual errors: it says a planned rise to 2.68% of GDP by '2020' (almost certainly meant 2030), and mixes claims about 3.5% by 2035. It also lacks the actual Defence Investment Plan PDF itself, so some detailed plan specifics are missing. However, these issues do not prevent answering the main query because the GOV.UK speech and other sources still provide the central facts.",
+  "reasoning": "B better enables a correct answer because it includes an official GOV.UK speech announcing the Defence Investment Plan on 30 June 2026, which directly states the core funding detail: defence spending is being increased by a further £15 billion, taking total spending to almost £300 billion over four years. B also includes corroboration from Euronews and Hansard that ties the plan to NATO expectations and sets out the spending trajectory, including movement from about 2.3% to 2.7% and commitments toward 3% and 3.5%. By contrast, A mostly offers secondary or low-reliability sources, and does not present the key facts as clearly or authoritatively. So B is more accurate, more reliable, and more sufficient for answering the question from the search results alone."
+}

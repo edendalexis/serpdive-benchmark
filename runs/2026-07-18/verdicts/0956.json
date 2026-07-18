@@ -1,0 +1,11 @@
+{
+  "id": 956,
+  "query": "TikTok Shop total investment amount safety tools technologies personnel counterfeit fraud combating 2025 IPR reports issuance date",
+  "topic": "TikTok Shop",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Only one result, from a secondary source (ChannelX), and it does not clearly give the issuance/publication date of the relevant 2025 IPR report. It says TikTok released the third Safety Report covering H2 2024 and mentions nearly $1 billion invested in tools, technologies, and people, but it does not explicitly identify the report issuance date the question asks for. It also focuses on a combined safety/IPR summary rather than a clearly named IPR report source.",
+  "b_issues": "Some snippets are truncated and one result is potentially about a later Safety Report covering Jan-Jun 2025 rather than the 2025-issued report about H2 2024. The exact investment figure is not visible in the snippets shown. However, B includes official TikTok Shop sources and a result explicitly about the latest Safety & IPR Report, which is more likely to supply the issuance date and correct report context.",
+  "reasoning": "The question asks about TikTok Shop's total investment amount in tools/technologies/personnel to combat counterfeit/fraud and the issuance date of the 2025 IPR reports. Content A clearly provides the investment amount ('nearly $1 billion') but lacks a clear issuance date and relies on a non-official secondary source. Content B includes multiple results, including official TikTok Shop pages specifically about the latest Safety & IPR Report and the first-ever IPR report. Even though the snippets are incomplete, they better position an LLM to infer or retrieve the correct issuance/publication date from the official report pages and maintain source reliability. Since the key missing element in A is the issuance date, while B contains official report entries likely tied to that date, B better enables a correct answer overall."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 88,
+  "query": "Blue Origin New Shepard flight 38 January 22 2026 passenger list Kármán Line wheelchair user identity",
+  "topic": "Blue Origin",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A has a likely factual error in the Blue Origin human-flight snippet: it says NS-38 'marked the first time a wheelchair user has flown above the Kármán Line,' which conflicts with other evidence that this milestone happened on NS-37. It also does not explicitly identify the wheelchair user by name. The Wikipedia snippet also appears to have an incorrect launch date reference ('January 21, 2026') versus the Jan. 22 mission date. Overall, A contains contradictory/incorrect wheelchair-user information.",
+  "b_issues": "Content B includes a potentially unhelpful/partial SpacePolicyOnline snippet that does not list the passengers despite introducing them. It also includes a Facebook result, which is less authoritative than the Blue Origin and SpaceNews sources. However, its key wheelchair-user information is internally consistent.",
+  "reasoning": "The question asks for the NS-38 passenger list and the identity of the wheelchair user associated with crossing the Kármán Line. Both A and B provide the authoritative Blue Origin NS-38 crew list: Tim Drexler, Dr. Linda Edwards, Alain Fernandez, Alberto Gutiérrez, Jim Hendren, and Dr. Laura Stiles. The crucial differentiator is the wheelchair-user identity. In B, SpaceNews explicitly says the first wheelchair user to fly to space was Michaela 'Michi' Benthaus, and that was on NS-37, which is consistent with the Facebook snippet and avoids misattributing the milestone to NS-38. In A, the Blue Origin human-flight snippet incorrectly ties the wheelchair-user first to NS-38 and still does not name the person, creating confusion. Therefore B better enables an LLM to answer correctly: the NS-38 passenger list is available, and the wheelchair user was Michaela 'Michi' Benthaus, but that milestone belonged to NS-37, not NS-38."
+}

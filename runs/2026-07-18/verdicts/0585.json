@@ -1,0 +1,11 @@
+{
+  "id": 585,
+  "query": "FTX exchange reboot revival plan latest status mid-2026",
+  "topic": "FTX",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A is dominated by older 2023–2024 reboot/relaunch reporting and does not include the key latest-status fact for mid-2026 that the revival plan was abandoned. It includes stale items about soliciting parties for a relaunch and a 2023 proposed restart for international customers, which could mislead an LLM into thinking reboot efforts were still live. Its one clearly current 2026 result is about creditor distributions, not the reboot plan status.",
+  "b_issues": "Content B also includes older 2023 reboot-proposal articles, so it is somewhat mixed and could confuse a model. However, unlike A, it contains the critical later update from The Guardian stating that on Jan. 31, 2024 FTX abandoned efforts to restart the exchange and would instead liquidate assets and repay customers. It does not include a mid-2026 source reaffirming that, but it is still sufficient to infer the latest status absent contradictory newer evidence.",
+  "reasoning": "The question asks for the latest status of the FTX exchange reboot/revival plan by mid-2026. The anchor indicates that by 2026 FTX is focused on executing its Chapter 11 plan and distributing funds to creditors, consistent with the revival having been scrapped. Content B explicitly includes the decisive status update: FTX 'scraps plan to revive exchange and will repay billions to customers,' saying it abandoned restart efforts and would liquidate assets instead. That directly answers the question. Content A lacks that crucial cancellation result and instead mostly presents earlier reboot proposals, so an LLM using only A could easily answer incorrectly that a restart was planned. Therefore B better enables a correct answer."
+}

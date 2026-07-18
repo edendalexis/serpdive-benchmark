@@ -1,0 +1,11 @@
+{
+  "id": 391,
+  "query": "AUDENZ H5N1 vaccine Seqirus national stockpile quantity doses 2025",
+  "topic": "H5N1 bird flu",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A does not explicitly connect AUDENZ by name to the 4.8 million national stockpile doses in the shown snippets. One result is FDA's generic 'Influenza Virus Vaccine, H5N1 (for National Stockpile)', which may not clearly identify Seqirus/AUDENZ from snippet alone. Another result about FDA approval of AUDENZ discusses pandemic supply confidence but not stockpile quantity. So an LLM could infer the answer, but the evidence is indirect.",
+  "b_issues": "Content B also does not explicitly connect AUDENZ by name to the 4.8 million national stockpile doses in the shown snippets. Its top CIDRAP result appears partially polluted with irrelevant text, reducing reliability. The CBS snippet mentions 4.8 million doses and separately notes Seqirus has an approved H5N1 vaccine, but does not clearly state that the stockpiled doses are AUDENZ. Thus the key linkage remains indirect.",
+  "reasoning": "The likely answer is 4.8 million doses. Both A and B contain that core fact from reasonably reliable sources: A via IDSA/CIDRAP/FDA snippets and B via CIDRAP/CBS. However, the query specifically asks about 'AUDENZ H5N1 vaccine Seqirus national stockpile quantity doses 2025,' and neither result set clearly states in the snippets that the 4.8 million stockpile doses are specifically AUDENZ. A has a slight reliability advantage because its snippets are cleaner and include FDA plus an IDSA item explicitly tying Seqirus to 4.8 million doses for the National Pre-Pandemic Influenza Vaccine Stockpile program. B has similar factual coverage but the CIDRAP snippet is noisy and CBS is more indirect. Still, both sets enable essentially the same answer and have the same main limitation: missing the explicit AUDENZ linkage in the displayed content alone."
+}

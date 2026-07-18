@@ -1,0 +1,11 @@
+{
+  "id": 964,
+  "query": "Narendra Modi India first hydrogen train operational announcement July 2026 Chandigarh visit",
+  "topic": "Narendra Modi",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Result 1 is a pre-event article ('to flag off') rather than confirmation that the train became operational, though it correctly states the planned July 17, 2026 visit to Haryana, Chandigarh, and Punjab and the hydrogen train launch from Jind. The project-value figure varies across sources in the ecosystem, but A itself is internally consistent enough for the queried fact pattern. Reuters snippet is truncated.",
+  "b_issues": "B leans heavily on pre-event and secondary reporting rather than a strong authoritative or post-event confirmation. One result is a Facebook post, which is less reliable. It includes varying total project-value figures (₹26,800 crore, ₹4,700 crore in Chandigarh, etc.) without clear reconciliation. It does not provide as strong a direct authoritative source as PIB or Reuters for the Chandigarh visit and train announcement.",
+  "reasoning": "The question asks about Narendra Modi's announcement/visit in July 2026 involving India's first hydrogen train and Chandigarh. Content A directly contains a PIB press release stating Modi would visit Haryana, Chandigarh and Punjab on July 17, 2026 and at around 11 AM flag off India's first hydrogen train, plus a Reuters result confirming that he launched the country's first hydrogen-powered train on July 17, 2026. That combination gives both the planned multi-stop visit including Chandigarh and the actual operational launch. Content B also contains the core facts, especially via New Indian Express and the UNI/Facebook post, but its evidence is weaker and more pre-event/secondary, with one key source being social media. Therefore A better enables a correct answer from the provided content alone."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 106,
+  "query": "Boeing Farnborough International Airshow 2026 MQ-28 Ghost Bat 777X cabin CH-47 Chinook exhibits details",
+  "topic": "Boeing",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "No major factual flaws. Content A includes the key official Boeing press-release result and explicitly states the needed details: MQ-28 Ghost Bat debut at Farnborough, full-size 777X cabin section, CH-47 Chinook on static display, and T-7 simulator. Minor issue: one snippet says 'T-7 flight deck simulator' while another says 'T-7 flight simulator,' but this is not a substantive contradiction.",
+  "b_issues": "Content B contains the official Boeing result, but its snippet omits some of the crucial exhibit details from the question, especially the full-size 777X cabin section and CH-47 static display in the official source snippet. The top result is a secondary source summary rather than the primary Boeing release. No clear factual contradiction, but less complete coverage of the needed facts.",
+  "reasoning": "A better enables a correct answer because it directly presents all the anchor facts in a reliable primary-source snippet: MQ-28 Ghost Bat to make its Farnborough debut, an interactive exhibit with a full-size 777X cabin section, and a CH-47 Chinook on static display, plus the T-7 simulator in the Boeing exhibit pavilion. B also points to the right event and includes the Boeing press release, but the snippet shown for that result is less complete and does not itself contain all the key exhibit details needed to answer the query from the search content alone. Therefore A provides more complete and reliable evidence with no meaningful contradictions."
+}

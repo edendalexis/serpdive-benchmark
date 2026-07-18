@@ -1,0 +1,11 @@
+{
+  "id": 822,
+  "query": "Port of Baltimore 2025 total cargo vessel visits record number",
+  "topic": "Port of Baltimore",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "No clear factual flaws. The featured snippet says '2,223 cargo vessels visits,' which is a minor grammatical issue, not a factual one. One secondary result discusses total cargo tonnage rather than vessel visits, but it does not contradict the answer. A LinkedIn result is less authoritative and less precise ('over 2000'), but higher-quality results provide the exact figure.",
+  "b_issues": "No clear factual flaws. Some snippets are truncated and one Instagram result is less authoritative and only says 'over 2,000,' but multiple stronger results provide the exact figure 2,223 and the prior record 2,137. No contradictions are present.",
+  "reasoning": "Both A and B clearly contain the fact needed to answer the question: the Port of Baltimore set a 2025 record with 2,223 total cargo vessel visits/calls, surpassing the previous record of 2,137 set in 2023. In both sets, the top Professional Mariner result states this explicitly, matching the anchor. Both therefore enable an LLM to answer correctly and with essentially equal reliability."
+}

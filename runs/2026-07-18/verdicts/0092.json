@@ -1,0 +1,11 @@
+{
+  "id": 92,
+  "query": "HP IQ AI lab projects products released 2025",
+  "topic": "Humane AI Pin",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A is dominated by 2026 HP IQ launch material rather than 2025 information. It suggests HP IQ was introduced at HP Imagine 2026 with early access in Spring 2026, which does not answer the 2025 query. One snippet from 'HP Reimagines the Future of Work' mixes HP IQ language with 'Available in Spring 2025,' creating timeline confusion and likely reflecting mismatched or noisy extraction. Overall A lacks the key 2025 fact that HP IQ was formed as an AI innovation lab from Humane acquisition.",
+  "b_issues": "Content B includes some lower-reliability/supporting results (Built In, Facebook, job page), but its top HP source is accurate and directly relevant. It also includes a 2026 HP IQ product-launch result that could distract from the 2025 lab-formation answer, though it does not directly contradict the 2025 fact.",
+  "reasoning": "The question asks about 'HP IQ AI lab projects products released 2025.' The anchor shows the crucial 2025 fact: on Feb. 18, 2025 HP said Humane's engineers and assets would form HP IQ, a new AI innovation lab focused on building an intelligent ecosystem across HP products and services for the future of work. Content B contains this exact fact in a primary HP press release, making it possible for an LLM to answer correctly that in 2025 HP IQ was an AI innovation lab created via the Humane deal, aimed at AI PCs, printers, conference rooms, and broader HP products/services. Content A mostly talks about the 2026 introduction of HP IQ as a connected ecosystem/workplace intelligence layer, which is a later product/platform announcement and could lead the model to answer with the wrong year or conflate the lab with the later product. Therefore B better supports a correct answer."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 166,
+  "query": "Rivian Redwood Materials energy storage partnership announcement April 2026 details manufacturing supply chain",
+  "topic": "Rivian",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A has the core facts, but it is thinner on the manufacturing/supply-chain details. It does not explicitly include the announcement date in the snippets, and it omits some useful specifics present in the anchor and in content B, such as Redwood Pack Manager handling mixed chemistries/states of health and the characterization as the first repurposed battery energy storage system at a U.S. automaker’s manufacturing facility. It also includes a low-value forum result that adds no reliable factual support.",
+  "b_issues": "Content B includes a lower-reliability X/Twitter result, but it is not central. Otherwise the facts are consistent with the anchor. One Electrek snippet adds extra comparative context about Redwood’s Nevada project that is not in the anchor, but it does not conflict with the main facts.",
+  "reasoning": "Both sets contain the key answerable facts from reliable sources: Rivian and Redwood Materials announced an April 2026 partnership to deploy second-life battery storage at Rivian’s Normal, Illinois manufacturing facility; Rivian supplies more than 100 used battery packs; Redwood integrates them into a Redwood Energy system with Redwood Pack Manager; the initial system provides 10 MWh to reduce peak-demand costs and support grid reliability. However, B better enables a correct answer because it provides a more complete and specific description of the manufacturing/supply-chain arrangement in the snippets themselves, especially via the Redwood and Electrek results. B also explicitly states the 'first repurposed battery energy storage system deployed at a U.S. automaker’s manufacturing facility' and gives more detail on Pack Manager. A is accurate but less complete for the 'details manufacturing supply chain' aspect."
+}

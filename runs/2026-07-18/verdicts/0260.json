@@ -1,0 +1,11 @@
+{
+  "id": 260,
+  "query": "2026 NBA Finals champion series result opponent games won game-by-game scores official recap",
+  "topic": "NBA Finals",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "A includes the official NBA Finals page and Basketball-Reference, which identify the champion as the New York Knicks over the San Antonio Spurs, 4-1. However, the NBA result snippet is sparse and does not list the game-by-game scores directly, and the Wikipedia snippet contains some noisy/possibly malformed text. There is no direct official recap result beyond a generic NBA watch page snippet mentioning the 94-90 clincher.",
+  "b_issues": "B has richer snippets, including game-by-game scores via ESPN and champion/opponent/series result via Wikipedia, but it lacks the official NBA Finals page result itself. Basketball-Reference snippet appears partially garbled ('San Antonio Spurs 115 Final' in isolation), which could confuse score extraction if used alone. Official NBA content present is an analysis/news article rather than the actual Finals page or explicit game recap links.",
+  "reasoning": "Both result sets contain enough accurate facts for an LLM to answer the query: New York Knicks won the 2026 NBA Finals over the San Antonio Spurs, 4-1, with game scores 105-95, 105-104, 111-115, 107-106, and 94-90. A is stronger on official sourcing because it includes the NBA Finals page, but weaker on explicit game-by-game details in the snippets. B is stronger on explicit score details because ESPN lists the sequence clearly and NBA.com news confirms the champion/closeout, but it is somewhat weaker on official-source completeness and has a slightly garbled Basketball-Reference snippet. Overall, both enable a correct answer about equally well."
+}

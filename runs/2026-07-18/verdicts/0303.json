@@ -1,0 +1,11 @@
+{
+  "id": 303,
+  "query": "Artemis II completed April 10 2026 crewed test flight beyond the Moon mission summary official NASA press release",
+  "topic": "NASA Artemis program",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A lacks the official NASA press release that directly matches the query. Its top results are mostly non-NASA sources (Wikipedia, Planetary Society, Space.com, ESA), and the only NASA result shown is an image/video recap rather than the April 10, 2026 official NASA news release. It also contains a likely inaccurate date in the Wikipedia snippet ('April 1–11, 2026') versus NASA's April 10 splashdown/completion date.",
+  "b_issues": "Content B also does not include the exact official April 10, 2026 NASA press release. Its Wikipedia snippet contains clear factual errors, including claiming SpaceX Falcon Heavy was selected as the launch vehicle instead of SLS, plus other noisy/possibly incorrect details. The Space.com snippet is messy and internally confusing about timing.",
+  "reasoning": "B better enables a correct answer because it includes the official NASA Artemis II mission page as the top result, which states the mission occurred, identifies it as NASA's first crewed lunar flyby in 50 years, and provides the core mission summary needed. Although B has flawed secondary results, its NASA source is more directly relevant to the query than anything in A. In A, the closest NASA result is only an image/video recap, while the most prominent results are third-party sources. Since the question asks for a mission summary tied to an official NASA release, B is closer to the needed authoritative information despite the bad Wikipedia snippet."
+}

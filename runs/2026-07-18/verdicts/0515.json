@@ -1,0 +1,11 @@
+{
+  "id": 515,
+  "query": "Manuel Adorni Buenos Aires city election May 2025 results vote percentage La Libertad Avanza",
+  "topic": "Javier Milei",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A only gives partial answer support. It includes secondary/aggregated sources and snippets with rounded figures (30% or 30.1%) rather than the exact official-style percentage 30.13%. One result is unrelated background analysis (Itaú) and another is Wikipedia, which is less reliable than direct reporting. No snippet in A clearly states the full result with exact percentage and election context as strongly as B.",
+  "b_issues": "Minor inconsistency across snippets: Euronews rounds to 30.1%, while Argentina Reports and MercoPress give 30.13%; MercoPress also shows tiny rounding differences for rivals (27.34 vs 27.35, 15.93 vs 15.92). Reuters snippet is uninformative. These are minor and not materially contradictory.",
+  "reasoning": "The question asks for Manuel Adorni's vote percentage for La Libertad Avanza in the May 2025 Buenos Aires city election. Content B directly provides the needed fact in multiple results: Argentina Reports says Adorni received 30.13% of the vote, and MercoPress also states Adorni's 30.13%. Buenos Aires Times and Euronews further corroborate the win, with Euronews giving a rounded 30.1%. By contrast, Content A mostly has less precise snippets (30% or 30.1%) and weaker/less direct sources, with only indirect support for the exact figure. Therefore B better enables an LLM to answer correctly."
+}

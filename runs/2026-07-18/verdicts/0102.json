@@ -1,0 +1,11 @@
+{
+  "id": 102,
+  "query": "Boeing Lufthansa Rolls-Royce July 2026 flight tests novel engine inlet fuel efficiency noise announcement details",
+  "topic": "Boeing",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A does not include the Boeing primary source result directly, and most snippets are secondary summaries. Some key announcement details are only partial in snippets, such as the full description of the novel inlet and the exact operational-concepts wording. However, the facts present are broadly accurate and consistent with the anchor: July 16, 2026 announcement; Boeing/Lufthansa/Rolls-Royce partnership; 787-9 ecoDemonstrator Explorer; Trent 1000 engines; testing later that month in Glasgow, Montana through CLEEN; novel reduced-length Next Generation Inlet; and intelligent/noise-reducing flight procedures.",
+  "b_issues": "Content B includes one likely low-reliability or synthetic-looking result (Aviation News) with a generic quote not supported by the anchor ('Collaborating with industry pioneers...'). It also lacks the Boeing primary source result and has fewer grounded details overall. Several snippets are vaguer than A, omitting timing/location specifics and the FAA CLEEN framing except in abbreviated form. The Airways snippet is accurate but still partial, and some results are thin aggregations rather than authoritative sources.",
+  "reasoning": "A better enables a correct answer because it contains more of the announcement’s core details in accurate, mutually reinforcing snippets: the partnership, purpose (fuel efficiency and noise reduction), test aircraft (Lufthansa-bound Boeing 787-9 ecoDemonstrator Explorer), engine (Rolls-Royce Trent 1000), technology under test (Next Generation Inlet, a reduced-length inlet with acoustic treatment), operational procedure testing, Glasgow, Montana timing, and FAA CLEEN Phase III support. B has one strong official Rolls-Royce result and an accurate Airways result, but overall provides fewer concrete details and includes a questionable article with unsupported wording, making it slightly less reliable for reconstructing the announcement from search results alone."
+}

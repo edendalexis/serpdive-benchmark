@@ -1,0 +1,11 @@
+{
+  "id": 380,
+  "query": "Meta Muse Spark 1.1 AI model unveiling performance claims",
+  "topic": "Meta",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A includes the key official Meta blog and TechCrunch coverage, but it is thinner on the actual unveiling performance claims. The Meta snippet is mostly qualitative ('major gains,' 'exceptional performance') and does not explicitly mention comparative benchmark claims versus Gemini/OpenAI/Anthropic that appear in the anchor and help answer 'performance claims.' The Fortune snippet says Meta claimed to surpass prior products from OpenAI, Anthropic, and Google, but adds that Meta did not say how it compares to the most recent OpenAI/Anthropic releases, so the picture is somewhat incomplete.",
+  "b_issues": "Content B includes a lower-reliability YouTube result and an irrelevant/noisy Meta research page snippet, but these do not materially contradict the main facts. The Fortune wording says Meta 'beats out Google’s latest release of Gemini in benchmarks measuring coding and reasoning capabilities' and 'surpasses older versions of OpenAI and Anthropic’s models on some verticals'; this is plausible but still secondhand reporting rather than the primary benchmark details themselves.",
+  "reasoning": "B better enables a correct answer because it contains both the official Meta announcement and reporting that spells out the unveiling’s performance claims more concretely: Muse Spark 1.1 is a multimodal reasoning model for agentic tasks with major gains in tool/computer use, coding, and multimodal understanding, and Meta claims strong performance in personal agentic tasks, coding, video captioning, and reasoning. Crucially, B’s Fortune result explicitly states comparative claims against Gemini and older OpenAI/Anthropic models, which is closer to the question’s focus on 'performance claims.' A has accurate and reliable sources too, but its snippets are more generic and less explicit about the comparative claims made at unveiling. Neither set shows major contradictions, but B provides the more directly answerable evidence."
+}

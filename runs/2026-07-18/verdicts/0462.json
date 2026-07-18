@@ -1,0 +1,11 @@
+{
+  "id": 462,
+  "query": "Palworld 1.0 update capture requirement changes experience rebalance",
+  "topic": "Palworld",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Mostly no major factual flaw in the retrieved snippets for this query. One result (PC Gamer) is only a pre-release overview and not directly useful. The SteamDB snippet is truncated, so it does not itself show the experience rebalance, but IGN does. No clear contradiction is visible within A.",
+  "b_issues": "B only partially surfaces the needed facts. VGTimes mentions the experience-table rebalance for low-level Pals, but the capture requirement change is not shown in the visible snippets. Several results are generic summaries or low-detail pages (Sportskeeda, Game8, YouTube, GamersBeacon) that do not expose the specific capture-bonus change in the provided content. Source reliability is also somewhat weaker/more mixed than A.",
+  "reasoning": "The question asks about Palworld 1.0 changes to capture requirements and experience rebalance. Content A contains both key facts directly in snippets from strong sources: IGN explicitly says the Capture Bonus requirement was reduced from 12 to 5 and that lower-level Pals now gain experience more easily; SteamDB also corroborates the capture requirement reduction. This matches the anchor. Content B only clearly exposes the XP rebalance in the VGTimes snippet, while the capture requirement change is not visible in the provided snippets, so an LLM restricted to that content would be less able to answer correctly and completely. Therefore A better enables a correct answer."
+}

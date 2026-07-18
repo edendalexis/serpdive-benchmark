@@ -1,0 +1,11 @@
+{
+  "id": 706,
+  "query": "number US states rejected DOJ Live Nation Ticketmaster settlement withdrawn claims 2026 Pennsylvania New Jersey",
+  "topic": "Ticketmaster DOJ lawsuit",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Top result says 'more than 30 states' rejected the settlement, which conflicts with other A results indicating 'more than two dozen' and with the more specific count implied elsewhere. One WHYY snippet also contains clearly irrelevant contamination about Pennsylvania and 10 other states suing FEMA/DHS. Wikipedia is not an ideal primary source, though it does give a specific figure.",
+  "b_issues": "Most results only say 'more than two dozen states,' which is less precise. One result is an X/Twitter post, a weak source. B does include one result saying 27 states rejected the deal, but overall the set provides less direct, consistent grounding than A and fewer strong sources tied to Pennsylvania/New Jersey specifically.",
+  "reasoning": "The question is asking for the number of U.S. states that rejected the DOJ-Live Nation/Ticketmaster settlement after DOJ withdrew its claims, with Pennsylvania and New Jersey as cues. Content A contains enough information to infer the answer more reliably: Politico says 'more than two dozen states,' Pollstar/related snippets in the set indicate 26 states plus D.C. did not agree, and the Wikipedia snippet explicitly says '36 states and D.C.' continued after DOJ settled and withdrew. That yields 36 states, which matches the anchor context better than B's vague phrasing. Although A has one contradictory 'more than 30 states' snippet and some noisy text, it still includes the key fact more directly. Content B is mostly vague ('more than two dozen') and only one result gives 27, which appears less consistent with the anchor and the broader reporting. Therefore A better enables a correct answer."
+}

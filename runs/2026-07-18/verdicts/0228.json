@@ -1,0 +1,11 @@
+{
+  "id": 228,
+  "query": "Tesla Robotaxi Austin San Francisco employee testing summer rollout date service launch 2026",
+  "topic": "Tesla",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A is somewhat incomplete for the full query: it focuses mostly on the Austin launch around June 22, 2025 and only briefly mentions later launches set for Los Angeles and San Francisco. It does not clearly cover the employee-testing angle or a summer 2026 Bay Area rollout in detail. One Forbes result says Tesla 'misses' the robotaxi launch date and uses employees/safety drivers on board, which could add ambiguity about whether service truly launched that day. Some sources are secondary commentary rather than primary reporting.",
+  "b_issues": "Content B contains major reliability problems and likely factual inaccuracies. The top result is a YouTube snippet saying launch was planned for Thursday, June 12, conflicting with other coverage. The 'robotaxi-safety-tracker.com' result appears to be an unofficial aggregator and makes strong claims that as of January 2026 Tesla robotaxis already operate in Austin unsupervised and in the San Francisco Bay Area with safety drivers, plus precise fleet counts; these claims are unsupported here and conflict with more credible reporting timelines. The Tesla.com result is mostly navigation text with no useful facts. The Business Insider result is about a Bay Area rollout memo, but overall the set mixes weak, contradictory, and likely inaccurate claims.",
+  "reasoning": "Content A better equips an LLM to answer because it includes multiple mainstream, generally reliable news sources (CBS, CNBC, Forbes) that converge on key facts relevant to the query: Tesla's robotaxi debut in Austin, the June 22 launch timing, use of Model Y rather than Cybercab, and mention that San Francisco is slated for a later launch. While incomplete, those facts are at least plausible and mostly consistent. Content B is materially worse because its core factual support comes from a dubious tracker site and a vague YouTube snippet, with claims that conflict on dates and suggest Bay Area operation status that is likely inaccurate. Since the task is to enable a correct answer from the provided content alone, A is the safer and more accurate result set."
+}

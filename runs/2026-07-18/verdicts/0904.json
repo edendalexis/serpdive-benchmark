@@ -1,0 +1,11 @@
+{
+  "id": 904,
+  "query": "Oppenheimer Holdings investment banking leadership announcements March 2026 Co-Heads Equity Capital Markets",
+  "topic": "Oppenheimer",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A lacks the primary Oppenheimer press release and mostly relies on secondary sources. It does contain the key fact via Yahoo Finance and StockTitan that Chris DeFalco and John Hyland were appointed Co-Heads of Equity Capital Markets, but it omits other directly relevant announcement details such as Peter Bennett moving to lead Corporate Executive Services and the March 24, 2026 announcement date being explicit in the snippets. One result is irrelevant SEC filing noise.",
+  "b_issues": "Content B includes a huge noisy sitemap result and some irrelevant leadership-change results unrelated to the ECM co-head appointment. However, it also includes the key Yahoo Finance article with the necessary facts and the sitemap explicitly lists the exact Oppenheimer press release URL for March 24, 2026. No direct factual contradiction is present.",
+  "reasoning": "Both A and B contain enough information for an LLM to answer that Oppenheimer announced Chris DeFalco and John Hyland as Co-Heads of Equity Capital Markets in March 2026. However, B better enables a correct answer because its top result explicitly states the appointment, the role, and the related leadership transition of Peter Bennett, matching the anchor closely. B also surfaces the exact official Oppenheimer press release URL in the sitemap, reinforcing the fact pattern from a primary source. A is usable, but it is weaker because it depends on secondary coverage and has less complete announcement context."
+}

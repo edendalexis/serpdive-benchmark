@@ -1,0 +1,11 @@
+{
+  "id": 116,
+  "query": "LVMH Q1 2026 financial results fashion leather goods sales decline 2% organic Middle East Iran war impact",
+  "topic": "LVMH",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Mostly accurate and sufficient. Minor issues: includes a low-reliability LinkedIn post and an irrelevant Forbes 2025 result; one Reuters-derived result says Europe down 3% and mentions seventh straight quarter of decline, details not corroborated by the anchor snippet. No material contradiction on the core facts.",
+  "b_issues": "Mostly accurate and sufficient. Minor issues: top result is a secondary aggregation site (InsiderFinance) rather than a primary or top-tier source; includes a LinkedIn post; Yahoo/Investing.com result cites a 1.95% consensus and €19.6 billion estimate, which differs from the anchor/CNBC expectation framing, though not central to answering the query. No material contradiction on the core facts.",
+  "reasoning": "Both A and B contain the key facts needed to answer the question correctly: LVMH Q1 2026 revenue was about €19.1 billion, group organic growth was 1%, Fashion & Leather Goods declined 2% organically, and the Middle East/Iran war/conflict had about a 1 percentage point negative impact on organic growth. Both also include the primary LVMH press release and at least one credible secondary report tying the decline to the Middle East conflict. A has CNBC plus the LVMH release; B has the LVMH release plus secondary summaries including Yahoo/Investing.com. Neither set materially contradicts the anchor on the core facts, and both are sufficient for an LLM to answer correctly. Therefore, they enable the answer equally well."
+}

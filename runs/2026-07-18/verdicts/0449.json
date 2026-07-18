@@ -1,0 +1,11 @@
+{
+  "id": 449,
+  "query": "Notre-Dame Paris South Tower restoration completed belfry beams roof 2025 status",
+  "topic": "Notre-Dame de Paris",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A is almost entirely irrelevant. The results are about a Chicago retailer named NOTRE, social media, and sneaker discussions, with no useful information about Notre-Dame de Paris, the south tower, belfry beams, roof work, or 2025 restoration status.",
+  "b_issues": "Content B does not directly mention 'belfry beams' specifically, and some snippets are partial rather than comprehensive. One result is from a secondary outlet (The Good Newsroom) and another is a brief GMA summary, so not all sources are equally authoritative. However, there is no clear contradiction in the provided facts.",
+  "reasoning": "B clearly better enables a correct answer. It contains directly relevant and largely reliable information: Friends of Notre-Dame de Paris gives 2025 reconstruction updates, including that roofing work on the lower part of the spire still needed completion and that the south belfry bells Emmanuel and Marie were tested on July 17 after restoration of the south belfry. RFI states the towers were fully restored and reopened to the public in September 2025, matching the anchor. Together these support an answer that by 2025 the cathedral body had reopened in 2024, south belfry restoration had progressed to bell testing in July 2025, roof/spire works were still being finished in mid-2025, and the towers reopened in September 2025. A provides none of these facts."
+}

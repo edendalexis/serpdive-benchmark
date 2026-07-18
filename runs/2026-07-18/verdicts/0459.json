@@ -1,0 +1,11 @@
+{
+  "id": 459,
+  "query": "Han Kang 2024 Nobel Prize Literature prize motivation full text Swedish Academy citation",
+  "topic": "Nobel Prize 2024",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Lacks the authoritative Swedish Academy or Nobel Prize press-release result containing the full official citation; top result is a secondary Purdue page, and other results are mostly irrelevant or secondary. One result paraphrases/variants the motivation as singular 'historical trauma' instead of the official plural 'historical traumas'.",
+  "b_issues": "Also lacks the authoritative Swedish Academy or Nobel Prize press-release result containing the full official citation. Includes mostly secondary sources and an irrelevant Nobel lecture result. One source attributes remarks to 'Anders Olson' and provides committee commentary rather than the exact official citation; another repeats the motivation but without direct source authority.",
+  "reasoning": "The question asks for the full 2024 Nobel Prize in Literature prize motivation / Swedish Academy citation for Han Kang. The correct text is: 'for her intense poetic prose that confronts historical traumas and exposes the fragility of human life.' Both A and B contain this wording in secondary-source snippets, so an LLM could extract the answer from either. However, neither result set includes the best authoritative source shown in the anchor (nobelprize.org press release or Svenska Akademien page). A has a secondary snippet with the exact wording; B likewise has a secondary snippet with the exact wording. Since both provide the needed fact, but neither does so with especially strong authority and both contain some irrelevant/less reliable results, they enable the answer about equally well."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 620,
+  "query": "Novak Djokovic Wimbledon 2026 semifinal result opponent score",
+  "topic": "Novak Djokovic",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Most results are about Djokovic's quarterfinal vs Felix Auger-Aliassime rather than the semifinal. However, A does contain multiple semifinal-specific snippets stating that Jannik Sinner beat Novak Djokovic 6-4, 6-4, 6-4, including The Athletic and Yahoo Sports.",
+  "b_issues": "Most results are also about the quarterfinal rather than the semifinal. B has one semifinal-specific result from The Athletic that states Sinner defeated Djokovic 6-4, 6-4, 6-4, but the rest largely concern the Auger-Aliassime quarterfinal. Slightly less direct corroboration than A.",
+  "reasoning": "The correct answer is that Novak Djokovic lost the Wimbledon 2026 semifinal to Jannik Sinner by a score of 6-4, 6-4, 6-4. Both A and B contain enough information to answer correctly, but A enables it a bit better because it includes more than one result explicitly giving the semifinal opponent and score (The Athletic and Yahoo Sports), while B relies mainly on a single semifinal-specific snippet from The Athletic and otherwise focuses on the quarterfinal. Neither set shows meaningful contradiction on the semifinal facts."
+}

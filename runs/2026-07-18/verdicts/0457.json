@@ -1,0 +1,11 @@
+{
+  "id": 457,
+  "query": "2024 Sveriges Riksbank Prize Economic Sciences winners names contributions institutions",
+  "topic": "Nobel Prize 2024",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Result 2 is truncated and appears to omit James A. Robinson's institution in the snippet. There is also some noise from less authoritative sources (YouTube, Facebook), but the top results include NobelPrize.org and the Royal Swedish Academy of Sciences and correctly state the winners and contribution.",
+  "b_issues": "The Nobel press-release snippet is truncated and does not include the full line with all names and institutions. The Lindau result misspells Daron Acemoglu as 'Acemoğlu' in the snippet and is a secondary source. The Riksbank snippet shown is too generic and does not provide the winners' names/contributions in the excerpt. Overall, the returned snippets do not clearly provide all institutions directly from the most authoritative source.",
+  "reasoning": "Content A better enables a correct answer because it explicitly contains the three winners' names and the citation 'for studies of how institutions are formed and affect prosperity' in authoritative NobelPrize.org results, and another authoritative KVA result includes the institutions for Daron Acemoglu and Simon Johnson while clearly indicating the same 2024 prize context. Content B has an authoritative NobelPrize.org press-release result, but its snippet is too truncated to show the full award line with names and institutions, and the remaining results are either secondary or too generic. Since the question asks for winners' names, contributions, and institutions, A provides the needed facts more directly and reliably from the snippets alone."
+}

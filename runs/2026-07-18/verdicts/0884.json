@@ -1,0 +1,11 @@
+{
+  "id": 884,
+  "query": "Paramount Skydance PSKY stock price latest closing",
+  "topic": "Skydance Media",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A contains some noisy and partially conflicting timestamps/prices from live quote pages: CNBC shows an intraday 8.75 at 11:37 AM EDT, Robinhood shows current 8.85, and Morningstar snippet references Jul 16 close 9.25 / intraday 9.14. Yahoo Finance snippet is garbled and not useful. However, A includes a highly relevant MacroTrends snippet explicitly stating: 'The latest closing stock price for Paramount Skydance as of July 17, 2026 is 8.75,' which directly answers the question and matches the anchor.",
+  "b_issues": "Content B does not clearly provide the latest closing price. Yahoo historical data explicitly mentions 'At close: July 16 at 4:00:00 PM EDT' but the snippet does not expose the July 16 close value. CNN says PSKY decreased $0.43 since the market last closed and mentions after-hours movement, implying a prior close but not stating it directly. MSN mentions a current price of 9.25, which appears stale relative to the anchor. MarketWatch and CNBC snippets are mostly generic and do not give a latest closing figure. Overall B lacks a direct, reliable latest close and mixes stale/current references.",
+  "reasoning": "A better enables a correct answer because it contains an explicit statement from MacroTrends that the latest closing stock price for PSKY as of July 17, 2026 is 8.75. That is direct, unambiguous, and consistent with the anchor's latest close of $8.75. Although A also includes live intraday quotes and some noisy snippets, an LLM can still extract the closing answer correctly. In contrast, B mainly offers incomplete or stale snippets: Yahoo references the existence of close data but does not show the latest close value; CNN only gives relative movement from the last close; MSN cites 9.25 as current price, which is not the latest close in the anchor. Therefore A is clearly superior."
+}

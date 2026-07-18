@@ -1,0 +1,11 @@
+{
+  "id": 724,
+  "query": "Temu US direct sales cease date May 2025 de minimis exemption Trump",
+  "topic": "Temu",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A includes mostly later retrospective pieces from July-August 2025, with only one directly relevant May 2 result. It lacks a top result explicitly stating the key cease date in a clear way. Some snippets are indirect or secondary (e.g., CNN in August saying the administration first slashed the exemption in May, ChinaTalk commentary saying Temu suspended marketing investment on May 1 rather than directly addressing cessation of direct China-to-US sales). This makes A more prone to confusion between the May China-specific change and the later global August de minimis change.",
+  "b_issues": "Content B includes one low-reliability Facebook post, which should not be trusted. It also mixes the May China-specific cutoff with a later July/August global suspension result from Forbes/CNN, which could confuse timing if read carelessly. However, the top Axios result is directly on point.",
+  "reasoning": "B better enables a correct answer because its top result (Axios, May 2, 2025) directly states that Temu stopped shipping products from China to the U.S. and that this happened ahead of Trump's executive order taking effect Friday, i.e. May 2, 2025, tied to the end of the de minimis loophole for those shipments. The BBC result in B corroborates that Temu would stop selling goods from China directly to U.S. customers and move to locally based sellers. In contrast, A has one useful BBC result, but its other prominent results focus on the later August 2025 global end of de minimis, which is a different policy event and could mislead an LLM about the relevant cease date. So B contains the needed fact more directly, accurately, and with less ambiguity."
+}

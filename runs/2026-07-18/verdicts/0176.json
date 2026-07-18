@@ -1,0 +1,11 @@
+{
+  "id": 176,
+  "query": "SpaceX IPO public offering announcement Elon Musk 2026 details",
+  "topic": "SpaceX Starship",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A does not include the primary announcement itself and relies mostly on secondary coverage after the IPO. It is somewhat indirect for an 'announcement' query. One result is Wikipedia, which is less reliable than official filings. It also lacks the June 4 launch-of-IPO announcement and exact closing date details from the official release.",
+  "b_issues": "Content B is more vague and appears to contain paraphrased/aggregated snippets with redirect URLs rather than clearly identifiable primary sources. It includes pre-IPO planning and filing items, but not the definitive June 11 pricing announcement details such as the exact number of shares, expected trading start date, ticker confirmation in the final announcement, or closing date. Several snippets are incomplete and potentially inconsistent in valuation phrasing ($1.75T vs. anchor's $1.77T from CNBC based on final pricing).",
+  "reasoning": "A better enables a correct answer because it contains concrete final IPO facts matching the anchor via CNBC and other post-IPO reports: $135 per share, about 555.6 million shares, roughly $75 billion raised, June 12 trading debut, ticker SPCX, and linkage to Elon Musk/SpaceX. B mostly contains earlier or generic snippets about filing/plans and does not clearly provide the final public offering announcement details. Since the question asks for the 2026 public offering announcement details, the result set that includes the finalized pricing/debut information is more useful and accurate overall, even though neither set is as strong as having the official SpaceX release directly."
+}

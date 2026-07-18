@@ -1,0 +1,11 @@
+{
+  "id": 346,
+  "query": "Arthur Hayes Worldcoin WLD position exit June 2026",
+  "topic": "Worldcoin",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Mostly solid. Minor issue: includes an irrelevant/possibly noisy CoinMarketCap AI-generated news page about a later July 16 repurchase, which could distract from the June 2026 exit question. Some result snippets are secondary aggregations rather than primary reporting.",
+  "b_issues": "Top result snippet from CoinDesk is truncated and does not by itself state the key date/details fully. One result has malformed text ('on June ,' and awkward phrasing), reducing reliability. Overall set gives fewer complete facts about the exit sequence and timing than A.",
+  "reasoning": "Content A better supports a correct answer because it explicitly states the core fact in a reliable result: Arthur Hayes sold his entire Worldcoin (WLD) position on June 6, 2026, less than three days after Maelstrom pitched WLD as an AI IPO play, and that this completed his exits from HYPE, NEAR, ZEC, and WLD. This matches the anchor closely and is provided by The Defiant plus corroborating snippets from TradingView/Stocktwits and CryptoRank. Content B also points to the same event, but its strongest source (CoinDesk) is truncated, another result is malformed, and the set overall provides less complete, cleanly stated information about the June 2026 exit."
+}

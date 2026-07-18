@@ -1,0 +1,11 @@
+{
+  "id": 482,
+  "query": "Paramount Skydance Warner Bros. Discovery merger lawsuit WGA antitrust 2026",
+  "topic": "The WGA",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A includes a clearly irrelevant/misleading top Variety result about linking the states' antitrust case to a subscriber suit, and its snippet even drifts into an unrelated HPE-Juniper merger. That creates noise and factual confusion. A also lacks the primary WGA source and relies mostly on secondary or low-reliability outlets. While some A results do mention the key facts, the set is less clean and less authoritative overall.",
+  "b_issues": "Content B has some snippet noise from the WGA site ('A directory of WGAW members with contact info') and one lower-authority Hypebeast result, but the core facts are consistent across results. No major factual contradiction is evident.",
+  "reasoning": "B better enables a correct answer because it contains the primary WGA sources directly stating that on July 14, 2026, the WGAW and WGAE jointly filed suit in the U.S. District Court for the Northern District of California to block the proposed Paramount Skydance-Warner Bros. Discovery merger on antitrust grounds, alleging specific harm to writers such as reduced competition, fewer writing opportunities, lower compensation, fewer overall deals, and reduced output/variety of films and series. B also includes corroborating reporting from Variety and Deadline and notes the related lawsuit by 12 state attorneys general. In contrast, A has some of the same core facts, but its most prominent result is materially off-topic/confused and references an unrelated HPE-Juniper deal, making the result set less reliable for an LLM answering from the search content alone."
+}

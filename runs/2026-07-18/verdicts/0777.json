@@ -1,0 +1,11 @@
+{
+  "id": 777,
+  "query": "Qatar prime minister statement Gaza ceasefire critical moment hostage remains latest",
+  "topic": "Gaza ceasefire negotiations",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Most top results are low-reliability/social or video links (X, Facebook, YouTube) with only short snippets. The only substantive text is limited and does not clearly provide the key facts from the article, especially the detail that the remains of one Israeli hostage still had to be handed over and the PM's fuller explanation that this was only a 'pause' and that mediators were pushing toward phase two. Source set is weaker overall.",
+  "b_issues": "Includes one likely irrelevant/dated Security Council Report result that is unrelated to the immediate question. One result (Asharq Al-Awsat) appears to contain possibly inconsistent extra framing about a 'Trump 20-point peace plan,' but the core ceasefire facts across PBS/AP and Al Jazeera are consistent.",
+  "reasoning": "B better enables a correct answer because it contains a high-quality, directly relevant PBS/AP result with the essential facts matching the anchor: Qatar's prime minister said the Gaza ceasefire was at a 'critical moment' as phase one wound down, with the remains of one Israeli hostage still to be handed over, and mediators were working to push forward phase two. B also reinforces this with Al Jazeera and another article quoting his statement that the arrangement was not yet a complete ceasefire. A has some relevant links, but its evidence is mostly thin snippets from social-media/video entries and is less reliable and less complete for answering from the returned content alone."
+}

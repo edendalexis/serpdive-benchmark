@@ -1,0 +1,11 @@
+{
+  "id": 439,
+  "query": "Megadoc Mike Figgis documentary Megalopolis table read rehearsal actors",
+  "topic": "Megalopolis",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A does not clearly answer the query. Its only relevant mention of the table read/rehearsal actors is an Instagram snippet saying there was a table read with Paul Newman, Uma Thurman, and Robert De Niro, but it is incomplete and from a weak source. It omits the key rehearsal detail with Ryan Gosling that appears in stronger sources. Other results mainly list general cast/interview participants, which could mislead an LLM into naming actors who appeared in the documentary rather than the table read/rehearsal actors.",
+  "b_issues": "Content B includes a user-review-like Letterboxd snippet saying 'Show us all the footage from the table reads and test footage with DeNiro and Gosling!', which is weaker than the Wikipedia result and could be slightly ambiguous. However, the stronger Wikipedia snippet directly provides the needed facts.",
+  "reasoning": "Content B better enables a correct answer because it contains a strong, explicit statement from Wikipedia: the documentary includes footage of a 2001 table read with Uma Thurman and Robert De Niro, and 2003 rehearsals with Ryan Gosling. That directly matches the query about the Megadoc/Mike Figgis documentary and the Megalopolis table read/rehearsal actors. Content A only gives a partial, lower-reliability Instagram snippet for the table read and does not clearly supply the rehearsal actor; its other results focus on actors interviewed in the documentary, not the table read/rehearsal participants."
+}

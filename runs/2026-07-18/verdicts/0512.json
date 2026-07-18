@@ -1,0 +1,11 @@
+{
+  "id": 512,
+  "query": "Karina Milei ANDIS pharmaceutical contracts kickbacks corruption scandal August 2025",
+  "topic": "Javier Milei",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A lacks the strongest wire-service reference in the anchor set (AP) and includes a lower-reliability Rio Times item. It is somewhat incomplete on procedural developments such as raids/investigation details, and one snippet says Suizo Argentina while another source in the anchor set says Suizo Argentino. But the core facts are internally consistent: leaked audios tied former ANDIS head Diego Spagnuolo to allegations that Karina Milei received a 3% cut from medicine purchases involving the disability agency and Suizo Argentina, with broader alleged kickbacks of 5-8% or 8%.",
+  "b_issues": "Content B is noisier and less reliable overall. Its top result is from September 2025, not August, which may blur the timeframe asked about. It includes a Facebook post snippet and a bare Buenos Aires Herald snippet with minimal context. The set omits the key ANDIS-focused explainer/result present in A, so the core facts are less directly grounded. It also mixes allegations of 3%, 5-8%, and 'up to $800,000' without enough context to reconcile them, making it easier for an LLM to misstate the scheme.",
+  "reasoning": "A better enables a correct answer because it contains the key factual elements of the August 2025 scandal in a direct, coherent way from reasonably strong sources: Buenos Aires Times and The Guardian explicitly connect Karina Milei, leaked audios, former ANDIS head Diego Spagnuolo, pharmaceutical contracts for medicines for disabled people, Suizo Argentina, and the alleged 3% cut / broader kickback mechanism. Those facts align closely with the anchor. B has some overlapping facts, but its most prominent result is from September, and it relies more on weaker or less contextual snippets (Facebook, short Herald excerpt), increasing the risk of confusion or unsupported claims. Therefore A more reliably supports an accurate answer from the search results alone."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 661,
+  "query": "Ilya Sutskever 2026 Musk v Altman trial OpenAI stake amount testimony source",
+  "topic": "Ilya Sutskever",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A does contain a highly reliable Reuters result, but its snippet shown does not include the stake amount; the amount appears in Forbes and Wired instead. Wired adds a possibly confusing detail by calling it OpenAI’s \"$850-billion for-profit arm,\" which is not needed to answer the question. Otherwise A is consistent that Sutskever testified his stake was about $7 billion during the Musk/OpenAI trial.",
+  "b_issues": "Content B lacks Reuters/Bloomberg in the displayed results and relies more on Forbes/Observer/Calcalist snippets. Observer introduces extra valuation/IPO details that are not necessary and could distract. Still, B consistently states the amount was about $7 billion and that it came from testimony during the Musk-Altman/OpenAI trial.",
+  "reasoning": "Both result sets let an LLM answer the question correctly: Ilya Sutskever said in testimony in the 2026 Musk v. Altman/OpenAI trial that his OpenAI stake was worth about $7 billion, with the source being his courtroom testimony as reported by outlets such as Forbes (and in A also Reuters is present though not the key snippet for the amount). Neither set materially contradicts that core fact, and both provide sufficiently reliable support for it. A has somewhat stronger source quality because Reuters is present, but B explicitly includes the amount and testimony linkage just as clearly. So they enable the answer about equally well."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 145,
+  "query": "Red Lobster 2025 Happy Hour Crabfest Endless Shrimp return menu changes tariff seafood vendor renegotiation corporate staff layoffs",
+  "topic": "Red Lobster",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A is incomplete and somewhat noisy. It includes irrelevant or misleading future-dated results from 2026 (New York Post, Business Insider) that could confuse an LLM about whether Endless Shrimp returned in 2025 versus later. It also lacks direct evidence on seafood vendor renegotiation and corporate staff layoffs. One result is from DesignRush, a less authoritative source, and the ABC snippet says the promotion sank the bottom line in 2021, whereas the widely cited crisis was tied to the 2023 permanent promotion rollout.",
+  "b_issues": "Content B is more seriously flawed for this 2025 query because most non-ABC results are about 2026, including CNBC, Red Lobster press, and Fortune, all stating Endless Shrimp did return on a limited basis in 2026. That creates a strong risk an LLM will answer the 2025 question incorrectly by saying the promotion returned, when the 2025 ABC/GMA reporting says it would not be returning. It also lacks coverage of Happy Hour and does not address seafood vendor renegotiation or corporate staff layoffs.",
+  "reasoning": "A better supports a correct answer because it contains two key 2025 facts directly responsive to the query: Red Lobster had a $5 happy hour in its post-bankruptcy strategy, and ABC reports in July 2025 that Endless Shrimp would not be returning and that tariffs would not impact diners, while menu changes included seafood boils and added flavor/spice options. Although A is incomplete on vendor renegotiation and layoffs, B is worse because its result set is dominated by 2026 articles saying Endless Shrimp came back, which conflicts with the needed 2025 state of affairs and would likely mislead an LLM answering this question. So A more reliably preserves the relevant 2025 facts from the anchor, despite gaps and some noise."
+}

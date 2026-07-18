@@ -1,0 +1,11 @@
+{
+  "id": 34,
+  "query": "Gemini 3.5 Flash Omni Google I/O 2026 specifications benchmarks",
+  "topic": "Google",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Contains little direct specification detail beyond benchmark figures and speed claim in the Google blog snippet; lacks the dedicated docs/model-card results from the anchor. Includes secondary sources that may blur Gemini 3.5 Flash and Gemini Omni. Mashable snippet says 'The first model, Gemini Omni Flash, rolls out today,' which is potentially confusing/misleading in this query context because the anchor says the 3.5 series is kicking off with 3.5 Flash, while Gemini Omni Flash is a separate model card/result.",
+  "b_issues": "Top result is a third-party aggregation (llm-stats.com) rather than an official source, and it injects pricing plus claims like 'often at less than half the cost' and '3.5 Pro ... slated for next month' that are not supported by the anchor. It also says $1.50/$9 per 1M tokens, which is absent from the anchor and could be wrong. Includes the same potentially confusing Mashable snippet around Gemini Omni Flash. Although it does include the official Google blog result, it lacks the more precise official specs/docs from the anchor and leans more heavily on non-official summaries.",
+  "reasoning": "A better enables a correct answer because it prominently includes the official Google blog launch post with the key benchmark facts from the anchor: announced at Google I/O 2026 on May 19, 2026; Gemini 3.5 Flash as the launch model; Terminal-Bench 2.1 at 76.2%, GDPval-AA at 1656 Elo, MCP Atlas at 83.6%, CharXiv Reasoning at 84.2%, and roughly 4x faster output tokens/sec. Those are central to answering a query about specifications/benchmarks around Google I/O 2026. B also has the official Google blog, but its highest-ranked result is a non-official site that mixes in unsupported pricing/spec claims and future-product statements, increasing risk of hallucinated or incorrect answers. Neither set includes the anchor's strongest official spec page details like 1,048,576 input tokens, 65,536 output tokens, multimodal inputs, and tool support, but A is overall cleaner and more grounded in the authoritative launch snippet."
+}

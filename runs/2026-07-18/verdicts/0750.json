@@ -1,0 +1,11 @@
+{
+  "id": 750,
+  "query": "DJT stock closing price July 2026 Trump Media",
+  "topic": "Truth Social DJT stock",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor ambiguity about what exact date in July 2026 is being asked, but A directly provides July 17, 2026 closing price as $9.66 from multiple sources (MacroTrends, CNBC, Markets Insider, Investing.com). One result (Digrin) appears misleading or low-quality, showing 'July 2026, $8.54' as a monthly figure that could confuse an LLM, but stronger sources consistently support $9.66.",
+  "b_issues": "B does not directly answer the likely intended query as well because its strongest explicit closing-price fact is stale: MacroTrends says the latest closing price as of July 15, 2026 is $9.57. Other results are intraday/current prices for different dates ($7.98 on July 1, $8.55 current), not a clear July closing price. This makes B more likely to produce an incomplete or outdated answer.",
+  "reasoning": "Content A better enables a correct answer because it contains multiple reliable, mutually reinforcing statements that DJT (Trump Media & Technology Group) closed at $9.66 on July 17, 2026. This matches the anchor. CNBC, Markets Insider, MacroTrends, and Investing.com all point to the same July 17 close. In contrast, Content B mainly offers an older MacroTrends snapshot with July 15 close $9.57 and several unrelated current/intraday prices, so an LLM using only B would be more likely to answer with an outdated or incorrect July 2026 closing price."
+}

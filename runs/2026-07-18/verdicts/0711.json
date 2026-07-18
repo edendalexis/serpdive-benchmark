@@ -1,0 +1,11 @@
+{
+  "id": 711,
+  "query": "Emmanuel Macron Ukraine letter of intent Rafale warplanes up to 100 drones air defense systems France 10 years Reuters July 2026",
+  "topic": "Emmanuel Macron",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Minor issues only: result set mixes November 2025 reporting with one July 2026 follow-up item, which could slightly distract from the target event. One UNITED24 snippet adds an unverified-sounding detail about a future air fleet of up to 250 aircraft that is not needed for the core answer. Otherwise the key facts are present and consistent, including Reuters directly.",
+  "b_issues": "No Reuters result is present despite the query targeting a Reuters July 2026 context. The top France 24 video result is very thin. The France 24 article snippet says Zelensky had already signed a letter of intent last month to acquire 100 to 150 Swedish Gripen fighter jets, which appears questionable and could confuse the answer. The set is less directly tied to the key facts than A and provides weaker source grounding.",
+  "reasoning": "Content A better enables a correct answer because it contains the core facts from a Reuters result and consistent corroboration from other outlets: Macron and Zelensky signed a letter of intent; Ukraine would buy up to 100 Rafale warplanes plus drones and air-defense systems from France over 10 years; and a July 2026 follow-up concerns an initial tranche of 16 Rafales and SAMP/T NG systems. These are the essential facts implied by the query and anchor. Content B also contains many of those facts, but it lacks Reuters, includes thinner and potentially confusing snippets, and has at least one dubious Gripen-related statement. So A is the safer and more complete basis for an LLM answer."
+}

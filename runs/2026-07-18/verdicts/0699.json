@@ -1,0 +1,11 @@
+{
+  "id": 699,
+  "query": "NATO Defence Industry Forum 2026 procurement deals total value contracts announced",
+  "topic": "NATO",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "A does contain the key figure via Euractiv ('at least $50 billion'), but the top NATO result snippet is truncated and does not include the total value. Other results are less directly relevant or lower-reliability aggregations, and one snippet mentions 'Over £4 billion invested in next-generation fighter,' which is unrelated to the asked total and could distract.",
+  "b_issues": "B's NATO snippet also omits the total value, so the answer depends on secondary coverage (Euractiv, Le Monde). Le Monde says 'at least $50 billion (€43 billion)' while Euractiv says '€43.7 billion'; this is a minor rounding discrepancy, not a substantive contradiction.",
+  "reasoning": "B better enables a correct answer because it includes multiple clear, mutually reinforcing snippets stating the aggregate value of the procurement deals: Euractiv says 'At least $50 billion (€43.7 billion) in new defence deals,' and Le Monde says the contracts 'add up to an aggregate total of at least $50 billion (€43 billion).' That gives the LLM a direct answer from two credible sources. In A, only Euractiv explicitly provides the total; the NATO result shown there says only 'tens of billions' and does not state the amount in the snippet. Since the question asks for the total value of contracts announced, B provides stronger direct evidentiary support for the answer: at least $50 billion."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 413,
+  "query": "The Bear season 5 filming Chicago production code name working title",
+  "topic": "The Bear",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A clearly supports that the season 5 Chicago filming code name/working title was “The Fugitive,” but it does not surface any source showing a different ‘production code’ if the user intended a more formal internal title. It also omits some prior pseudonym context found elsewhere.",
+  "b_issues": "Content B also clearly supports that the season 5 Chicago filming code name/working title was “The Fugitive.” It includes an extra claim that previous code names included “Windy City Law” and “Kubelik,” which is not supported by the anchor and may conflict with other reporting that mentions “Kubelik” and “Four Seasons” instead; however, that does not affect the direct answer for season 5.",
+  "reasoning": "Both result sets contain reliable local reporting (especially Chicago Sun-Times and Block Club Chicago) explicitly stating that The Bear season 5 filming notices/vehicles used “The Fugitive” as the code name. That is the key fact needed to answer the question. Content A and B both provide this fact directly and consistently, with no contradiction about season 5 itself. B has slightly more potentially questionable extra context about earlier code names, but for the asked question both sets enable the same correct answer equally well."
+}

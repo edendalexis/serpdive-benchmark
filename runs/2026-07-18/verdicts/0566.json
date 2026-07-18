@@ -1,0 +1,11 @@
+{
+  "id": 566,
+  "query": "Hades II Post-Launch Patch 2 Hotfix 4 Nintendo Switch PlayStation 5 Xbox Series X/S release date",
+  "topic": "Hades II",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "A does not surface the specific Hotfix 4 page or its contents. Its top result talks about a different update ('third hotfix' / June 2026), which is likely not the queried Hotfix 4 and could mislead. It does include reliable sources for console release timing: Supergiant says PS5/Xbox launch April 14, 2026, and mentions Switch/Switch 2 launched September 25 last year, but this is only indirect with respect to the Hotfix 4 query.",
+  "b_issues": "B also does not surface the specific Hotfix 4 Steam news page or state Hotfix 4 details directly. One IGN result is noisy and partially malformed, but it still clearly gives Nintendo Switch/Switch 2/PC launch timing as September 25, 2025. Otherwise the key release-date facts come from reliable sources.",
+  "reasoning": "The question asks for the Nintendo Switch, PlayStation 5, and Xbox Series X/S release date in the context of Hades II Post-Launch Patch 2 Hotfix 4. Neither result set directly provides the Hotfix 4 announcement page, so neither is ideal for answering the exact patch-specific wording. However, both contain enough to infer the platform release dates. B does this more completely and cleanly: it has Supergiant explicitly stating PS5 and Xbox Series X|S release on April 14, 2026, and another result giving Nintendo Switch/Switch 2 release on September 25, 2025. A also has those facts, but its most prominent result is an apparently different update/hotfix that could confuse the model, and it lacks a direct Switch date except via snippet wording on another page. Therefore B better enables a correct answer."
+}

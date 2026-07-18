@@ -1,0 +1,11 @@
+{
+  "id": 420,
+  "query": "Rafah crossing reopening February 2026 daily passenger limits medical evacuees",
+  "topic": "Rafah",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Content A contains some inconsistency on the daily limits: UN News says people demanded the cap be raised from 50 daily, while Al Jazeera says about 200 people (patients and family members) would transit daily into Egypt with 50 returning, Guardian says about 150 were due to leave and 50 enter, and Le Monde says 50 each direction in the first days. This could confuse an LLM about whether the outbound limit was 50 patients only, 150 total including companions, or 200. Otherwise the core facts are broadly aligned that reopening was limited and focused on medical cases.",
+  "b_issues": "Content B also contains ambiguity on the daily limits: the LA Times snippet says 50 patients plus relatives can depart daily and 50 can return, while the Guardian says about 150 were due to leave and 50 enter on Monday. B has less explicit detail tying the limit specifically to medical evacuees beyond the LA Times snippet, and one result is only a generic UNifeed line without the numbers.",
+  "reasoning": "Both result sets provide enough to answer the question substantially correctly: the Rafah crossing reopened in early February 2026, movement was tightly limited, and the daily cap was roughly 50 medical patients plus accompanying relatives outbound, with about 50 people allowed back into Gaza daily. In practice this was often described as about 150 leaving per day and 50 returning, because the 50 patients could travel with companions. A has slightly more source depth and includes strong sources like UN News plus corroborating media, but it also presents a wider spread of seemingly conflicting numbers including an Al Jazeera snippet saying about 200 transit daily. B has fewer results but still includes the key LA Times and Guardian facts needed to answer. Since both contain the essential answer and both have similar ambiguity around whether limits refer to patients only or total outbound travelers, neither clearly outperforms the other."
+}

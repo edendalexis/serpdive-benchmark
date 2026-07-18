@@ -1,0 +1,11 @@
+{
+  "id": 62,
+  "query": "CVE-2026-34743 xz utils lzma_index_append affected versions discoverer report",
+  "topic": "XZ Utils",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "A contains the key affected-version fact (< 5.8.3) and points to reliable sources (NVD, vendor advisory), but it is weak on the 'discoverer/report' part of the query. The tukaani snippet shown in A omits the discoverer/reporter details, and the top results do not surface who reported it. Feedly also inaccurately says the vulnerability is in lzma_index_decoder() rather than the overflow being in lzma_index_append() after decoding an empty Index.",
+  "b_issues": "B includes some lower-reliability aggregator content. SentinelOne says the vulnerability is in lzma_index_decoder() and adds specific root-cause claims ('missing boundary check', 'prealloc value of zero') not supported by the anchor snippet. Feedly repeats the same misleading phrasing. However, B also includes the vendor advisory snippet with the discoverer/report info.",
+  "reasoning": "B better enables a correct answer to the full query because it contains the crucial vendor-advisory snippet stating the bug was reported and discovered by Cantina using their AppSec agent, Apex, which directly answers the 'discoverer report' portion. It also includes the affected-version fact via multiple snippets indicating versions prior to 5.8.3 / fixed in 5.8.3. A has strong reliable sourcing for affected versions (NVD says < 5.8.3; vendor page says fixed in 5.8.3) but does not surface the discoverer/reporter detail in the provided snippets, so an LLM limited to A would likely miss that part of the question. Both sets contain some misleading third-party summaries that frame the issue as being 'in lzma_index_decoder()', but B still has the decisive vendor snippet needed to answer the full query."
+}

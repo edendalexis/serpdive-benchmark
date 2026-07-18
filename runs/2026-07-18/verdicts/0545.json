@@ -1,0 +1,11 @@
+{
+  "id": 545,
+  "query": "ECB TIBER-EU framework DORA updated framework publication date cyber resilience 2025",
+  "topic": "European Central Bank",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A includes several lower-reliability third-party results ranked above the official ECB source, including a 2025/11 implementation guide item and blog posts that could distract from the asked publication date. The ECB result snippet itself does not display the date in the provided content, though the URL encodes 250211 and the title matches the official announcement. One third-party result says only 'In February 2025' rather than the exact date.",
+  "b_issues": "Content B also lacks the exact publication date in the ECB snippet itself; it says the framework was updated to align with DORA but does not show '11 February 2025' in the snippet. It contains a potentially misleading third-party result claiming 'From January 17, 2025' and 'Purple Teaming is now a mandatory phase of TLPT,' which is not needed for the question and could confuse the answer. Another result focuses on the original May 2018 publication of TIBER-EU rather than the 2025 updated framework.",
+  "reasoning": "Both A and B contain the key official ECB news page 'TIBER-EU Framework updated to align with DORA,' which is the authoritative source needed to answer the query about the updated framework and cyber resilience context. Neither set cleanly exposes the exact publication date in the snippet text alone, but both provide the official ECB URL ending in '250211', strongly indicating 11 February 2025, and both mention the DORA alignment and cyber resilience/testing context. A has somewhat more corroborating material, including third-party references explicitly saying February 2025 and an ECB-adjacent explanation page, but B also has enough to infer the same answer from the official result. Since both enable a correct answer to about the same degree, neither is clearly better."
+}

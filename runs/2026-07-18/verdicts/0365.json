@@ -1,0 +1,11 @@
+{
+  "id": 365,
+  "query": "Take-Two Fiscal 2027 net bookings GTA VI Zelnick projection",
+  "topic": "Grand Theft Auto VI",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Lacks a clear primary-source Take-Two IR/SEC result in the surfaced list. Top result is an Instagram post, and several results are secondary/commentary sources. One result (Seeking Alpha) mentions a November 19 launch date that is not supported by the anchor and may be inaccurate. Overall it contains the key $8.0B-$8.2B figure, but source reliability is weaker and there is some speculative/additional detail that could mislead.",
+  "b_issues": "Contains some contradictory or likely inaccurate launch-date details across results: one Take-Two IR item says GTA VI is planned for May 26, 2026, while other results mention November 19, 2026. Reuters snippet says forecasts were below analyst estimates, which is extra context but not directly harmful. Despite the date inconsistency, the core FY2027 net bookings projection is consistently stated.",
+  "reasoning": "The question asks for Take-Two fiscal 2027 net bookings / GTA VI / Zelnick projection. Both A and B include the essential answer that Take-Two projected fiscal 2027 net bookings of $8.0 billion to $8.2 billion, tied to GTA VI. However, B better enables a correct answer because it includes an official Take-Two investor relations results page explicitly quoting Strauss Zelnick and stating that fiscal 2027 operating performance would be driven by GTA VI, alongside the company’s FY2027 outlook. A mostly relies on lower-reliability sources like Instagram, YouTube, TIKR, and Seeking Alpha, with no official IR/SEC result surfaced in the provided list. So B is better grounded in reliable primary-source content for the specific projection, even though both have some launch-date inconsistency in secondary snippets."
+}

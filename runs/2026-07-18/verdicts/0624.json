@@ -1,0 +1,11 @@
+{
+  "id": 624,
+  "query": "Novak Djokovic right shoulder injury Monte Carlo Masters withdrawal April 2026",
+  "topic": "Novak Djokovic",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Mostly accurate. One result snippet from TNT Sports adds an extra claim about forearm problems and broader injury concerns that is not needed for the question and is less directly supported by the anchor. Sky Sports and Newsday snippets are partial and less informative, but they do not materially contradict the key facts.",
+  "b_issues": "Mostly accurate, but less complete. It establishes that Djokovic withdrew from Monte Carlo after skipping Miami with a right shoulder injury, yet it lacks the ATP Tour detail that his next scheduled event was the Madrid Open and includes a lower-reliability/less authoritative result (Pro Football Network) with speculative wording about not fully recovering.",
+  "reasoning": "Both sets contain the core fact needed to answer the query: Djokovic withdrew from the 2026 Monte-Carlo Masters, and this followed his Miami Open withdrawal due to a right shoulder injury. However, A better enables a correct answer because it includes the ATP Tour source directly matching the anchor and provides the fullest, most authoritative details: the withdrawal announcement date, the link to the earlier Miami withdrawal for a right shoulder injury, and that he was next scheduled for the Madrid Open in late April. B has AP and Reuters, which are reliable, but the snippets are briefer and omit the Madrid scheduling detail from the anchor. Neither set contains major contradictions, but A is slightly more complete and authoritative for this specific question."
+}

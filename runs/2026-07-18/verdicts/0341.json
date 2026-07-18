@@ -1,0 +1,11 @@
+{
+  "id": 341,
+  "query": "Worldcoin WLD daily token unlock reduction schedule July 24 2026 confirmed",
+  "topic": "Worldcoin",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A does not include the primary official World blog post from April 10, 2026 that directly confirms the schedule. Most support comes from secondary sources. One result is a very thin Binance Square snippet with minimal detail, and another is a CoinMarketCap AI page rather than a primary source. However, the core figures are internally consistent: total daily unlocks fall 43% on July 24, 2026 from about 5.1M to 2.9M WLD/day; community unlocks drop from 3.2M to 1.6M/day; TFH investor/team unlocks drop from 1.9M to 1.3M/day.",
+  "b_issues": "Content B contains a materially misleading/contradictory TradingView result claiming Worldcoin will unlock about 52.51% of total supply on July 23, 2026 in a single event/large cliff, which conflicts with the confirmed World schedule that unlocks continue daily in a linear fashion with no cliff and that the July 24, 2026 event is a reduction in daily unlock rate, not a massive one-time unlock. B also lacks the direct official April 10, 2026 confirmation post, relying mostly on secondary summaries. Some results are only tangentially relevant (KuCoin article, 2024 lock-up extension post).",
+  "reasoning": "A better enables a correct answer because its top results consistently state the confirmed July 24, 2026 reduction schedule and the key numbers needed to answer: a 43% aggregate reduction, from roughly 5.1M to 2.9M WLD/day, with community tokens cut 50% from 3.2M to 1.6M/day and TFH investor/team tokens cut 32% from 1.9M to 1.3M/day. These facts align with the anchor. By contrast, B includes a prominent contradictory result describing a huge one-time cliff unlock on July 23, 2026, which is the opposite of the confirmed 'daily linear, no cliff' schedule. That contradiction makes B more likely to mislead an LLM, even though B also includes some correct snippets."
+}

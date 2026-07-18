@@ -1,0 +1,11 @@
+{
+  "id": 560,
+  "query": "Hades II latest patch hotfix notes Medea Suffering on Sight Hermes Tall Order Artemis Crossroads Cauldron site:supergiantgames.com OR site:store.steampowered.com",
+  "topic": "Hades II",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Result set A does not include the primary official Steam hotfix page directly; its strongest evidence is a third-party PatchBot snippet and a Fextralife wiki result, both less authoritative than the official source. The PatchBot snippet shown is partial, so not all hotfix facts are visible from A alone.",
+  "b_issues": "Result set B fails to surface the relevant latest hotfix page. Its top results are an older Patch 1 preview, a generic Steam news hub, unrelated Hades 1 Supergiant posts, and a non-informative localized Hotfix 2 page. It does not expose the key hotfix facts about Medea/Suffering on Sight, Hermes/Tall Order, Artemis, or Crossroads/Cauldron in a usable way.",
+  "reasoning": "The anchor indicates the correct target is the official Steam post 'Hades II - Post-Launch Patch 2 - Hotfix 4'. Content A contains direct evidence strongly matching that hotfix: PatchBot explicitly says 'Post-Launch Patch 2 - Hotfix 4' and includes 'Fixed Suffering on Sight (Medea) sometimes damaging foes already present in new Locations,' which is one of the query’s key terms. A also includes another result with related patch-note entities such as Hermes, Artemis, Crossroads, and Cauldron, giving the model useful corroborating context. By contrast, Content B does not provide the Hotfix 4 page or its relevant notes; its results are mostly older, generic, unrelated, or unusable due to localization/no substantive snippet. Therefore A better enables a correct answer, even though its best evidence is partly from third-party sources rather than the official Steam post itself."
+}

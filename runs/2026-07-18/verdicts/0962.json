@@ -1,0 +1,11 @@
+{
+  "id": 962,
+  "query": "Narendra Modi cabinet July 15 2026 semiconductor electronics manufacturing policy approvals",
+  "topic": "Narendra Modi",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A is somewhat incomplete: it does not surface the full Semicon 2.0 details in the snippet, and it splits the relevant approvals across separate results. It also includes secondary commentary (Telegraph) rather than only primary reporting. However, it contains reliable primary/government sources: PIB for Semicon 2.0 and PMIndia for the Mobile Phone Manufacturing Scheme, which together indicate the July 15, 2026 cabinet approvals tied to semiconductor and electronics manufacturing policy.",
+  "b_issues": "Content B is narrower and less complete for the query. It mainly covers Semicon 2.0 and does not clearly provide the separate electronics/mobile-phone manufacturing approval that was part of the cabinet’s July 15, 2026 electronics manufacturing push. It also includes a less relevant YouTube result about April 2026 and an older PIB result about two semiconductor units, which could distract from the specific July 15, 2026 cabinet approvals.",
+  "reasoning": "The anchor indicates the key fact pattern is that on July 15, 2026 the Union Cabinet approved Semicon 2.0 with about Rs 1.27 lakh crore, and broader coverage also shows a companion mobile/electronics manufacturing approval. Content A better supports a correct answer because it includes both a Semicon 2.0 result (PIB/DD India) and a PMIndia result for the Mobile Phone Manufacturing Scheme, both tied to the cabinet chaired by Narendra Modi on July 15, 2026. These are reliable, primary or near-primary sources and match the anchor’s facts. Content B reliably supports Semicon 2.0, but it does not as clearly capture the full set of semiconductor/electronics manufacturing policy approvals referenced in the query, so an LLM using only B is more likely to give an incomplete answer."
+}

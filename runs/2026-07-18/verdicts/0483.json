@@ -1,0 +1,11 @@
+{
+  "id": 483,
+  "query": "WGA West 2026 election candidates Board of Directors Officers list",
+  "topic": "The WGA",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A points to the correct WGAW press release and related official pages, but the snippets do not include the actual candidate names. One result is for the 2025 election and includes a confusing snippet ending with 'The WGAW Board Nominating Committee has announced the initial list of candidates for the 2026 Board of Directors election,' which mixes years and could mislead. It also includes the homepage and elections page without the officers/candidate list in the snippet.",
+  "b_issues": "Content B includes the correct official WGAW press release, but its snippet contains only procedural details and omits the candidate names. It also lacks any officers list despite the query asking for 'Board of Directors Officers list.' Additional results are either generic, unrelated (WGA East council elections), or not directly useful for the requested list.",
+  "reasoning": "Neither set provides the core facts needed to answer the question from the content alone: the actual 2026 WGA West election candidates list, especially the names for the Board of Directors and any officers. Both include the official WGAW press release URL, which is reliable, but the returned snippets do not expose the candidate names shown in the anchor. Content A has slightly more corroborating official WGAW context, but it still lacks the names and introduces a year-mixing snippet from a 2025 page. Content B is cleaner on the main result but also omits the names entirely and adds an irrelevant WGA East result. Therefore, neither better enables a correct answer."
+}

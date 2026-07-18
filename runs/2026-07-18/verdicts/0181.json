@@ -1,0 +1,11 @@
+{
+  "id": 181,
+  "query": "IOC Policy Protection Female Category genetic screening LA28",
+  "topic": "International Olympic Committee",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Mostly accurate, but it leans heavily on secondary reporting and one inaccessible/social result. It lacks the IOC FAQ result that directly states the policy applies from LA28 onward and is not retroactive. The Reuters snippet in A adds an exception for CAIS/rare DSDs, while other snippets summarize more broadly; not necessarily contradictory, but the nuance could confuse an LLM about whether the rule is an absolute ban or has limited exceptions.",
+  "b_issues": "Contains one lower-reliability tertiary source (YIP Institute) and a LinkedIn post, which are weaker than primary/news sources. The featured snippet date ('May 22, 2026') may reflect snippet generation/update timing rather than policy adoption date, but the underlying FAQ result correctly states adoption on 26 March 2026.",
+  "reasoning": "Both sets contain the core facts needed to answer the query: the IOC adopted a new Policy on the Protection of the Female (Women’s) Category, eligibility is restricted to biological females, verification uses one-time SRY gene screening, and it applies from LA28 onward and is not retroactive. However, B better enables a correct answer because it includes the IOC FAQ as the top result plus the IOC announcement page, giving direct primary-source confirmation of the exact LA28/non-retroactive language. A also has the IOC announcement, but its strongest snippets are mostly from secondary outlets (The Athletic, Reuters, BBC). Since the question specifically mentions 'genetic screening' and 'LA28,' B more directly and reliably covers both from official IOC sources."
+}

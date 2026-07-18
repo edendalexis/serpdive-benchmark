@@ -1,0 +1,11 @@
+{
+  "id": 336,
+  "query": "April 2026 Longlegs universe film announcement Osgood Perkins Nicolas Cage official statement trade report",
+  "topic": "Longlegs",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A has less complete evidence for the key point that the film is not a direct sequel but a new project set in the Longlegs universe. Its top THR snippet calls it a 'follow-up' without the crucial clarification. Variety labels it a 'sequel'/'second installment,' which is potentially misleading against the trade reporting that it is not a sequel. Hypebeast also introduces unrelated/likely erroneous material ('The series premieres this May on MGM+ and Prime Video'), adding noise and reducing reliability.",
+  "b_issues": "Content B contains some mild inconsistency across sources: Variety calls it a 'second installment'/'sequel' while THR and IndieWire say it is not a sequel but set in the Longlegs universe. It also includes a YouTube result, which is less authoritative than the trades. However, the core facts are still present from reliable trade sources.",
+  "reasoning": "B better enables a correct answer because it includes the decisive trade-report details from Hollywood Reporter and IndieWire: Paramount picked up a new Longlegs-universe feature, Osgood Perkins wrote/directs/produces, Nicolas Cage returns to star/produce, and—critically—it is not a direct sequel but a film 'set in the Longlegs universe.' Those are the central facts implied by the query about the April 2026 announcement and trade report. A has THR and Variety, but its snippets more strongly frame the project as a sequel/follow-up and omit the key 'not a sequel' clarification in the THR excerpt, making it easier for an LLM to answer incorrectly."
+}

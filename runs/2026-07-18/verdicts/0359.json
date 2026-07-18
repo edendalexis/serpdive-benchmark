@@ -1,0 +1,11 @@
+{
+  "id": 359,
+  "query": "Society of St. Pius X SSPX bishop consecration 2026 Vatican decree date text",
+  "topic": "Pope Leo XIV",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A lacks the key Vatican source or any result explicitly giving the decree date/text. Its top result is a Facebook post, and the set is dominated by secondary or partisan sources (Wikipedia, EWTN, SSPX, blog). While it mentions the July 1, 2026 consecrations, it does not clearly provide the Vatican decree date or the decree text requested by the query.",
+  "b_issues": "Content B includes some weaker/noisy results, such as a generic Pope Leo XIV Wikipedia page and a Wikipedia snippet. However, it contains no major factual contradiction relevant to the query.",
+  "reasoning": "The question asks for the Vatican decree date and text regarding the 2026 SSPX bishop consecrations. Content B directly includes a result titled 'Full Text of Vatican Decree and Accompanying Explanatory Note Regarding the SSPX Episcopal Consecrations' (Edward Pentin Substack), which is exactly responsive and also implies the decree was issued around July 2, 2026. It also includes corroborating news coverage (NPR) and the 2026 Écône consecrations page mentioning the aftermath. Content A, by contrast, has no result clearly providing the decree text or date; it mostly covers the consecrations themselves and SSPX commentary. Therefore B better enables an LLM to answer correctly from the provided content alone."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 697,
+  "query": "Indo-Pacific partners NATO Ankara summit 2026 joint statement Russia North Korea illicit military cooperation text",
+  "topic": "NATO",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A does not actually contain the requested joint statement text. It has relevant reporting on the Ankara summit and IP4 meeting, but only indirect references to Russia-North Korea military cooperation. The most relevant result is a general news summary (Nippon/Jiji) saying participants discussed Russia’s invasion and North Korea policy; it does not provide the wording of any 2026 IP4 joint statement. One result is a NATO background topic page, not the sought statement. Another is a Facebook post summarizing the Ankara Summit Declaration, which is not the IP4 joint statement and is a weak source. The set may also confuse the 2026 Ankara summit with earlier IP4 statements such as the 2024 Washington language in the anchor.",
+  "b_issues": "Content B includes the official NATO Ankara Summit Declaration, but that is not the same as the Indo-Pacific partners’ joint statement. None of the snippets shown contain the requested Russia–North Korea ‘illicit military cooperation’ text. The result set is largely about the NATO leaders’ declaration generally, not the IP4 statement. It therefore risks steering the model to the wrong document. Also, the snippets do not show any official IP4 joint statement or the condemning wording itself.",
+  "reasoning": "The question asks for the text of the Indo-Pacific partners/NATO Ankara summit 2026 joint statement concerning Russia-North Korea illicit military cooperation. To answer correctly from search results alone, the set needs either the actual statement text or a highly reliable report quoting that exact language. Neither set provides that. A has more directly relevant news about the NATO-IP4 Ankara meeting, but its snippets still do not include the sought text. B has a more authoritative official NATO source, but it is the Ankara Summit Declaration of NATO leaders, not the Indo-Pacific partners’ joint statement, so it does not answer the question either. Since both are insufficient and each misses the core requested text, neither better enables a correct answer."
+}

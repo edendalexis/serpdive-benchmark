@@ -1,0 +1,11 @@
+{
+  "id": 450,
+  "query": "Nobel Prize 2024 laureates award money amount SEK per category",
+  "topic": "Nobel Prize 2024",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "A includes a strong official source (NobelPrize.org) but its snippet explicitly states the 2025 amount, not 2024. Other supporting snippets say 11 million SEK for 2024, but mostly from secondary sources. It also includes irrelevant/noisy results (e.g., 2026 Nobel Peace Prize, country rankings). It does not directly spell out 'per category' from an official 2024 page, though the evidence implies the same amount for each full prize.",
+  "b_issues": "B also includes the official NobelPrize.org money page, but again the snippet shown gives the 2025 amount rather than 2024. Secondary snippets mention 11 million SEK this year, but not in a category-by-category official breakdown. It contains noisy/irrelevant results (Wikipedia Nobel Prize, general laureates pages) and does not directly provide a 2024 official snippet stating the amount per category.",
+  "reasoning": "The correct answer is that the 2024 Nobel Prize amount was 11 million SEK for each full prize/category. Both A and B provide enough evidence to infer this, mainly through secondary sources stating 11 million SEK in 2024 and the official NobelPrize.org page showing 11.0 million SEK per full Nobel Prize (albeit for 2025 in the snippet). Neither set clearly outperforms the other for answering this exact 2024 question from the snippets alone, and neither contains a direct official 2024 snippet with a category-by-category statement. So they enable a correct answer about equally well."
+}

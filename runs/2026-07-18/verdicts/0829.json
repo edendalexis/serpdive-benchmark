@@ -1,0 +1,11 @@
+{
+  "id": 829,
+  "query": "Port of Baltimore U.S. Coast Guard security assessment consecutive top rating 2025 state-owned marine terminals",
+  "topic": "Port of Baltimore",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A includes several stale or mismatched results: 11th, 12th, 15th, and 17th consecutive year results, which conflict with the 2025 answer of 16th consecutive year. The only clearly relevant 2025 item is the Fox Baltimore result, but the result set overall is noisy and could mislead an LLM toward an incorrect year/count.",
+  "b_issues": "Content B also includes a 2026 govdelivery result about the 17th consecutive year, which is not the target 2025 fact, and one irrelevant locator entry. However, it also contains a 2025 Fox Baltimore result explicitly stating 16th consecutive year and six state-owned public marine terminals.",
+  "reasoning": "The question is about the 2025 Coast Guard security assessment and the state-owned marine terminals. The anchor shows the correct 2025 fact is that the Port of Baltimore received the top assessment for the 16th consecutive year for its six state-owned public marine terminals. Both A and B contain a result with that fact, but B presents it more directly and with less conflicting clutter: the Fox Baltimore snippet explicitly says '16th consecutive year' and 'six state-owned public marine terminals.' In A, most top results point to other years (11th, 12th, 15th, 17th), making the set more internally inconsistent and more likely to cause an incorrect answer. Therefore B better enables a correct answer."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 988,
+  "query": "Sundar Pichai net worth valuation 2026 billionaire club",
+  "topic": "Sundar Pichai",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "A does not include the key 2026 valuation from the anchor/Forbes result. Its strongest repeated figure is that Pichai joined the billionaire club at about $1.1 billion, which appears to reflect 2025 Bloomberg-based reporting, not a 2026 net worth valuation. The Forbes snippet in A is also noisy and includes an obviously garbled line ('Microsoft CEO Sundar Pichai').",
+  "b_issues": "B is weaker on source reliability and relevance: its top results are Facebook and Instagram posts, which are not strong factual sources. It also repeats the older $1.1 billion figure and lacks the anchor’s 2026 Forbes valuation of about $1.7 billion. Quiver gives only an estimated 'at least $1.0 billion' based on holdings, which may understate total net worth and conflicts with the more widely cited billionaire-club figure. Overall B contains more low-quality and potentially inconsistent signals.",
+  "reasoning": "The question asks about Sundar Pichai’s net worth valuation in 2026 and whether he is in the billionaire club. The anchor indicates the best factual answer is that in 2026 he is worth about $1.7 billion (Forbes, July 15, 2026), clearly making him a billionaire. Neither set fully supplies that exact 2026 Forbes valuation, so neither is ideal. However, A better enables a correct answer because it contains more credible mainstream business/news sources (Forbes, Yahoo Finance, NY Post, Times of India) all consistently stating he is in the billionaire club at roughly $1.1 billion. B has similar $1.1 billion information but relies heavily on weaker sources like Facebook and Instagram, and its Quiver estimate ('at least $1.0 billion') is a less complete methodology for net worth. Since both miss the precise 2026 valuation but A is more reliable and less noisy overall, A is the better result set."
+}

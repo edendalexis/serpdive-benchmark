@@ -1,0 +1,11 @@
+{
+  "id": 151,
+  "query": "Ukraine Russia peace deal current status terms signing timeline 2026",
+  "topic": "Volodymyr Zelenskyy",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A has some relevant pieces from plausible sources (Guardian, Reuters), including a reported June 2026 U.S. deadline and movement toward a potential deal. But it does not clearly state the current status by mid-2026, the concrete terms, or any actual signing timeline. It also includes weak/noisy results: YouTube summaries of uncertain provenance, and a Wikipedia snippet that is incomplete and potentially unstable. A key result says negotiations were 'moving towards a potential deal' in April, but there is no later confirmation of signing or whether talks stalled.",
+  "b_issues": "Content B is also incomplete for answering the question. It provides little direct information on terms or signing timeline, and its most relevant non-Wikipedia source is a lower-credibility Legis1 article saying talks have not resumed since late February 2026. Other results (ISW, NATO declaration) are largely irrelevant to peace-deal status/terms. It lacks strong mainstream reporting like Reuters/Guardian on deadlines or deal progress. The Wikipedia snippet is similarly partial and not enough on its own.",
+  "reasoning": "Neither result set adequately enables a correct answer to 'Ukraine Russia peace deal current status terms signing timeline 2026.' The anchor indicates that as of July 2026 there was no immediate prospect of resumed talks, while unresolved issues included Donbas and the Zaporizhzhia nuclear plant. Content A captures earlier 2026 reporting that the U.S. set a June deadline and that a potential deal was being discussed in April, but it does not supply the later current status or definitive terms/signing date. Content B hints that negotiations stalled and had not resumed, which is closer to the anchor's later-status point, but it provides almost no specifics on terms and relies on weaker sourcing for the crucial claim. Since A is better on early-2026 progress and B is better on stalled-status, but neither provides enough accurate, reliable, and complete facts to answer all parts correctly, the best verdict is a tie."
+}

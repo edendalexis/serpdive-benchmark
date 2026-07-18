@@ -1,0 +1,11 @@
+{
+  "id": 917,
+  "query": "Sam Darnold Seahawks Super Bowl LX performance stats passing yards touchdowns",
+  "topic": "Super Bowl",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A does contain the needed game stat line via Seahawks/Facebook snippets: 19 completions on 38 attempts, 202 passing yards, 1 touchdown. However, it lacks a direct box-score source in the returned snippets, includes an irrelevant Pro-Football-Reference season/career result, and one SI snippet gives only partial in-game splits rather than the final answer. No clear contradiction on the key stats.",
+  "b_issues": "Content B also contains the needed final stat line repeatedly: 19-of-38, 202 yards, 1 touchdown. But its top NFL.com result has a broken/poor title ('Chevron Left'), and there is an irrelevant ESPN player page plus pregame/season-stat results. No meaningful contradiction on the key stats.",
+  "reasoning": "Both result sets clearly surface the answerable facts needed for the question: Sam Darnold threw for 202 passing yards and 1 touchdown in Super Bowl LX, with multiple snippets also giving 19-of-38 passing. In A, the Seahawks.com highlight snippet explicitly says 202 yards and a touchdown, and another snippet confirms he finished 19 of 38 for 202 yards and a TD. In B, NFL.com, Seahawks.com, Yahoo, and DraftKings all state 202 yards and 1 touchdown, with Yahoo and DraftKings explicitly giving 19-of-38. The facts align with the anchor/box-score reference, and neither set presents a contradictory final stat line. Since both enable a correct answer equally well, the verdict is tie."
+}

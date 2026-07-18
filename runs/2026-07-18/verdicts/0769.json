@@ -1,0 +1,11 @@
+{
+  "id": 769,
+  "query": "Boeing 787 737 MAX certificate delegation authority scope conditions FAA approval details 2026",
+  "topic": "FAA",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A has some weaker/non-authoritative results (DeepArrrival, CompositesWorld, Facebook) and one irrelevant FAA DRS entry. It does not itself include the full FAA statement text with all scope conditions, so details are somewhat incomplete beyond Reuters' summary. However, its top Reuters result directly addresses the 2026 FAA approval and states Boeing may issue airworthiness certificates for all 737 MAX and 787 airplanes starting the following week, under FAA oversight, after months of data and safety review; it also correctly notes the authority had been revoked for MAX in 2019 and 787 in 2022.",
+  "b_issues": "Content B is substantially off-target. Its top result is about MAX 7/MAX 10 type certification, not the 2026 restoration of Boeing's delegation authority for issuing airworthiness certificates on 737 MAX and 787 deliveries. Other results focus on the 2025 limited delegation phase rather than the 2026 approval details. It mixes two distinct topics: type certification of MAX 7/10 and production airworthiness certificate delegation for delivered aircraft. This could easily mislead an LLM into answering the wrong question. Source reliability is also weaker overall than A.",
+  "reasoning": "The question asks about Boeing 787/737 MAX certificate delegation authority, scope, conditions, and FAA approval details in 2026. Content A contains a highly reliable Reuters result squarely on that event: FAA restoring Boeing's authority to issue airworthiness certificates for all 737 MAX and 787 airplanes starting next week, following months of safety/data review and under FAA oversight. This matches the anchor's core facts and gives the key scope (all 737 MAX and 787 airplanes), timing, and conditions (months of review, FAA oversight). Content B, by contrast, is dominated by unrelated or only partially related results about MAX 7/MAX 10 type certification and the earlier 2025 limited delegation. Because B conflates separate certification issues, it is less likely to let an LLM answer correctly from the provided content alone."
+}

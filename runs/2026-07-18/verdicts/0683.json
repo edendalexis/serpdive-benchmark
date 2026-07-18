@@ -1,0 +1,11 @@
+{
+  "id": 683,
+  "query": "Shein carbon neutral Weilong Zhaoqing logistics park FY2024",
+  "topic": "Shein",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Minor issues: only the first result directly answers the query; other results are mostly about Shein's broader emissions and could distract. One Globe and Mail/Reuters cluster discusses transport emissions rather than the logistics park. No clear factual contradiction about the queried topic.",
+  "b_issues": "Major issue: none of the top results directly provide the key fact that the Weilong Zhaoqing High-Tech Logistics Park achieved carbon neutrality for FY2024. Results focus mainly on Shein's rising overall emissions, Reuters on transport emissions, and a LinkedIn post with secondary commentary. This makes the answer inferential or unavailable from B alone.",
+  "reasoning": "Content A clearly includes the primary-source SHEIN newsroom result stating that its Weilong Zhaoqing High-Tech Logistics Park in China achieved carbon neutrality for the FY2024 reporting period, matching the query exactly. That is accurate per the anchor and comes from a highly reliable direct source. Content B lacks that direct fact in its retrieved snippets: it discusses Shein's broader 2024 emissions and climate targets, but not the queried logistics park carbon-neutrality achievement for FY2024. Therefore A much better enables an LLM to answer correctly."
+}

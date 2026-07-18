@@ -1,0 +1,11 @@
+{
+  "id": 15,
+  "query": "TSMC global semiconductor industry size forecast 2030 trillion AI demand revision",
+  "topic": "Taiwan Semiconductor Manufacturing Company",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Mostly secondary/tertiary sources rather than primary reporting; top result is from BigGo Finance and another from YourStory. However, multiple results consistently state the key facts: TSMC raised its 2030 global semiconductor market forecast by 50% from about $1 trillion to over $1.5 trillion, driven by AI/HPC demand, with 55% share mentioned. No clear internal contradiction.",
+  "b_issues": "Contains more noise and potentially misleading context. One prominent result is Deloitte saying the industry is expected to reach about $1 trillion by 2030, which is a different forecast and can conflict with the TSMC revision the question asks about. Another result is a LinkedIn post, a weak source. The result set mixes unrelated market forecasts (e.g., generic semiconductor market to 2032) with the TSMC-specific revision, increasing ambiguity.",
+  "reasoning": "The question asks about TSMC's revision to the global semiconductor industry size forecast for 2030 driven by AI demand. Content A directly and repeatedly provides the needed answer: TSMC now sees the market exceeding $1.5 trillion by 2030, a 50% increase from its previous roughly $1 trillion forecast, with AI/HPC driving the revision and accounting for about 55% of the market. These facts align with the anchor. Content B does include one directly relevant result, but it is diluted by conflicting or non-TSMC forecasts such as Deloitte's $1 trillion-by-2030 figure, plus weaker sources like LinkedIn and a generic market-size article. Therefore A better enables an LLM to answer correctly from the provided content alone."
+}

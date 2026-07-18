@@ -1,0 +1,11 @@
+{
+  "id": 723,
+  "query": "Temu Shein UK trial copyright antitrust expected date",
+  "topic": "Temu",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A is internally inconsistent on the expected date. One result says the cases were expected to come to trial towards the end of 2026, another says the copyright trial opened on May 11, 2026, another says part of the case is due to go to trial next year, and an MLex snippet suggests the antitrust fight is set for early next year while the IP dispute is later this year. It lacks a clear Reuters result and mixes later developments with the original expected-date framing, making it harder to answer the query cleanly.",
+  "b_issues": "Content B also includes later-stage results about the trial having opened in May 2026, which could confuse the 'expected date' aspect. Some sources are lower-value or secondary (LinkedIn, non-primary commentary). But it includes the key Reuters result directly stating the rivals were gearing up for a 2026 UK trial.",
+  "reasoning": "B better enables a correct answer because it contains the Reuters article matching the anchor and explicitly says Shein and Temu were gearing up for a 2026 High Court trial over copyright and anti-competitive claims. That is the core fact needed for the query. A contains more contradictions about whether the relevant trial was expected at the end of 2026, opened in May 2026, or due next year, and does not include the direct Reuters result. While both sets contain some later reporting that could blur the timeline, B has the most authoritative and directly relevant source aligned with the anchor."
+}

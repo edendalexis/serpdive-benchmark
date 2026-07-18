@@ -1,0 +1,11 @@
+{
+  "id": 193,
+  "query": "Apple Intelligence Image Playground daily image generation limits iCloud+ tiers 2026",
+  "topic": "Apple Intelligence",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Results are almost entirely irrelevant to the question. They include generic iCloud, Apple homepage, Instagram, Wikipedia, and Yahoo Finance pages, with no facts about Apple Intelligence daily image generation limits or which iCloud+ tiers get increased access. An LLM using only A would not have the needed facts.",
+  "b_issues": "Useful facts are present, but some tier-specific detail is speculative rather than confirmed. The Apple source only says increased access is available with 'most iCloud+ subscription plans' and does not enumerate tiers. MacRumors/9to5Mac/ecorpit infer that the 50GB tier may be excluded and that higher limits likely start at 200GB; that is not directly confirmed by Apple in the snippets. One result is from a low-reliability aggregator (ecorpit), and another is MacDailyNews rather than a primary source.",
+  "reasoning": "B clearly better enables a correct answer. It contains the key confirmed fact from Apple and corroborating Apple-news coverage: some Apple Intelligence features, including image generation/Image Playground, have daily usage limits because they use powerful server models, and iCloud+ subscribers get increased access/higher limits. It also provides the best available tier inference from MacRumors/9to5Mac that 'most iCloud+ plans' likely excludes the base 50GB plan, implying 200GB and above (and Apple One plans with included iCloud+) get the higher limits. That matches the anchor. By contrast, A contains no relevant reporting and would not let an LLM answer the question at all."
+}

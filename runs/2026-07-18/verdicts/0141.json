@@ -1,0 +1,11 @@
+{
+  "id": 141,
+  "query": "Red Lobster CEO Damola Adamolekun expansion upstate New York New England franchise plans 2025",
+  "topic": "Red Lobster",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A does contain the key facts in its top results: possible future growth in upstate New York and New England, international franchising, and more retail sales of Cheddar Bay Biscuit products. However, one key supporting source is Entrepreneur rather than a primary source, and another highly ranked result is from 2026 and not directly responsive. The Independent snippet is truncated, so on its own it gives only partial support. Still, there is no clear contradiction.",
+  "b_issues": "Content B also contains the key facts in the Fox6 snippet: after addressing weak locations, Red Lobster could expand in upstate New York and New England, consider international franchise deals, and sell more branded retail products like Cheddar Bay Biscuit mixes. However, two of the three results are less relevant or later-dated 2026 pieces, and one is from the New York Post. The strongest evidence is concentrated in a single local-news result rather than multiple corroborating sources.",
+  "reasoning": "Both A and B provide the essential facts needed to answer the query correctly: CEO Damola Adamolekun said Red Lobster could grow again in underpenetrated areas such as upstate New York and New England, while also exploring international franchising and expanded retail product sales in 2025-era comeback plans. Content A has this in both the Entrepreneur and Independent snippets; Content B has it very clearly in the Fox6 snippet. Neither set presents a meaningful factual contradiction, and both are somewhat weakened by extra irrelevant 2026 results and by relying on secondary summaries rather than a primary WSJ article. Overall, they enable a correct answer about equally well."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 535,
+  "query": "Mattel Illumination Barbie animated feature film development 2025 announcement",
+  "topic": "Barbie",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "No major factual flaws relative to the anchor. Result snippets correctly state that Illumination and Mattel Studios finalized/developed a deal for the first animated Barbie theatrical feature, with Universal releasing. Minor issue: TheWrap snippet says Mattel Studios 'announced' it, whereas the anchor says Deadline reported it and reps declined comment; this is a wording/source nuance, not a core factual contradiction.",
+  "b_issues": "No major factual flaws relative to the anchor. It accurately includes the key Deadline fact that Illumination and Mattel Studios finalized a deal to develop the first animated Barbie movie for theaters, and notes Universal release/Illumination financing-distribution linkage. Minor issue: one snippet says financing and distribution are 'managed by Illumination,' which is imprecise versus the anchor's statement that Universal releases it under its exclusive financing/distribution partnership with Illumination.",
+  "reasoning": "Both A and B contain the essential facts needed to answer the question correctly: in July 2025, Illumination and Mattel Studios closed/finalized a deal to develop a new Barbie movie; it will be the first animated Barbie feature for theaters; and Universal Pictures is the releasing studio via its partnership with Illumination. Both rely on strong entertainment-industry sources led by Deadline, which matches the anchor. Neither set contains a substantive contradiction that would likely mislead an LLM on the core answer, so they enable an equally correct response."
+}

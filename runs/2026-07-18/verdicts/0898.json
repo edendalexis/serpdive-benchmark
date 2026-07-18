@@ -1,0 +1,11 @@
+{
+  "id": 898,
+  "query": "Alien Romulus sequel pre-production underway Fede Alvarez June 2025",
+  "topic": "Alien: Romulus",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A includes a likely incorrect/contradictory AVP Galaxy result snippet claiming Alvarez said in June 2025 the film would be in pre-production by October 2025, whereas the June 2025 reporting says pre-production was already underway and shooting was planned for October. A also includes a Variety result about September 2025/Alvarez not returning as director, which is outside the June 2025 timeframe and could distract or confuse. The set is therefore somewhat internally inconsistent on the key timing point.",
+  "b_issues": "Content B includes lower-reliability/social results (Reddit, Threads, X) and one AVP Galaxy URL appears without the trailing slash, but the key claim is consistent across results. No major factual contradiction is evident within B.",
+  "reasoning": "The question is about whether, in June 2025, Alien: Romulus 2 was in pre-production and what Fede Alvarez said. Content B directly and consistently supports that: the top AVP Galaxy result says Alvarez told the Marea Nocturna podcast he was in pre-production and planned to start shooting in October; Film Stories and social reposts repeat the same claim. This matches the anchor. Content A has one good Fangoria result with the same facts, but it is weakened by another AVP Galaxy snippet that conflicts on timing (saying writing now and pre-production by October rather than pre-production already underway) and by an irrelevant later Variety item. Therefore B better enables a correct answer from the provided content alone."
+}

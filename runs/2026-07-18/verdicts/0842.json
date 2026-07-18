@@ -1,0 +1,11 @@
+{
+  "id": 842,
+  "query": "Taylor Swift Toy Story 5 original song title release date 2026",
+  "topic": "Taylor Swift",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "A does contain the key facts in some snippets, but its top Guardian result omits the song title and exact single release date in the provided excerpt. It also includes a Wikipedia result with many post-release claims not needed for the query and generally less reliable than primary/major-news sources. There is mild noisiness/incompleteness across snippets, which makes extraction less straightforward.",
+  "b_issues": "B has no major factual flaws for this query. One result is a Disney tourist blog, which is less authoritative, but the key facts are also supported by Guardian, Disney UK Press, and Variety.",
+  "reasoning": "The question asks for the original song title and release date. Both sets contain the answer: the song is 'I Knew It, I Knew You' and it releases June 5, 2026. However, B presents these facts more directly and repeatedly in high-quality sources, including a Disney press page and Guardian/Variety snippets that explicitly state both the title and the June 5 release. In A, the needed facts are present, especially in Variety and ABC, but the first snippet is incomplete and A also includes a noisy Wikipedia entry. So B better enables an LLM to answer correctly and confidently from the content alone."
+}

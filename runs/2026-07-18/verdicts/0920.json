@@ -1,0 +1,11 @@
+{
+  "id": 920,
+  "query": "Wicked For Good 2025 worldwide box office total gross",
+  "topic": "Wicked",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A does not provide the total worldwide box office gross in any snippet. It includes only partial/earlier milestones: Variety gives the opening worldwide gross ($223M/$226M), Deadline gives a mid-run milestone (about $407M), and the Box Office Mojo snippet is just a territory line for South Korea. An LLM would have to guess or infer the final total, which is not supported by the provided text alone.",
+  "b_issues": "Content B contains a direct total from The Numbers: worldwide box office $540,060,870, with domestic $342,915,090 and international $197,145,780. This is slightly inconsistent with the anchor and with Box Office Mojo/Statista figures, which place worldwide around $539.6M-$540.8M, so the exact total may be somewhat stale or variant by source. However, it is still a direct answer from a reliable box-office source.",
+  "reasoning": "B better enables a correct answer because it explicitly includes the worldwide box office total for Wicked: For Good from The Numbers, a reliable source for box-office data. A lacks any final worldwide total and only shows earlier grosses ($223M opening, $407M milestone), so an LLM restricted to A could not answer the question correctly. Although B's exact figure differs somewhat from the anchor and other trackers, it is close and directly responsive, while A is missing the key fact entirely."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 503,
+  "query": "Intel Foundry Fab 52 Arizona first wafer processed 18A Oregon Arizona ramp press release 2026",
+  "topic": "Intel Foundry",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A includes low-reliability or irrelevant results (an X post and a Facebook post). Its strongest Intel Newsroom result says Panther Lake will enter high-volume production at Fab 52 later in 2025 and that Panther Lake/Clearwater Forest are being manufactured at Fab 52, but it does not clearly provide the specific 'first wafer processed' fact or the Arizona/Oregon ramp details asked in the query. The Counterpoint result is only a title/snippet with no usable factual content. Overall A is incomplete for the exact question.",
+  "b_issues": "Content B still does not clearly provide the exact 'first wafer processed' press-release phrasing, and some supporting results are secondary sources with uncertain reliability. However, it gives more concrete ramp facts: Fab 52 is producing Intel 18A, mass production began in Arizona in 2025, and TechPowerUp provides explicit wafer-ramp figures (1,000-5,000 wpm by end of 2025, 15,000 in 2026, eventually 30,000). It still lacks direct Oregon detail.",
+  "reasoning": "B better enables a correct answer because it contains more specific, actionable facts tied to the query: the Intel Tech Tour press kit identifies Fab 52 in Chandler, Arizona as the new high-volume fab producing Intel 18A-era products, and the TechPowerUp result adds concrete 2026 ramp numbers for Fab 52. A has an official Intel result too, but its other evidence is weaker and less specific, and it does not supply the Oregon/Arizona ramp information beyond a bare Counterpoint title. Neither set perfectly answers the full query, especially the exact 'first wafer processed' wording and Oregon details, but B gets closer with clearer production/ramp facts and fewer unusable results."
+}

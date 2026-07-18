@@ -1,0 +1,11 @@
+{
+  "id": 395,
+  "query": "Austria H5N1 wild birds November 2025 alert 21 infected birds official report",
+  "topic": "H5N1 bird flu",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Result 1 is not the official report itself but an Institute of Virology Innsbruck page summarizing the situation; however it directly states the key fact: since late September, 21 infected wild birds were detected in Austria. The official Austrian ministry result is not surfaced prominently in A, and some other results are irrelevant or broad (EW Nutrition, Ireland, EFSA overview).",
+  "b_issues": "B does not contain the key Austria-specific fact about the November 2025 alert and 21 infected wild birds. Most results are generic/global or about other countries. It includes broad EFSA/FAO material and irrelevant Ireland/US items, but no clear Austria official report or equivalent summary.",
+  "reasoning": "The question asks about Austria, H5N1, wild birds, a November 2025 alert, and 21 infected birds in an official-report context. Content A contains a highly relevant Austria-specific result stating that since late September 2025, 21 infected wild birds had been detected, matching the anchor closely, and it also includes Austrian ministry/OTS-related material in the result set. Even though the best snippet is from a university page rather than the official ministry decree, the needed facts are present and consistent with the anchor. Content B lacks those Austria-specific facts altogether; its results are mostly generic international avian influenza pages and do not provide the answer from the supplied content alone. Therefore A better enables a correct answer."
+}

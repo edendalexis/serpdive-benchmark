@@ -1,0 +1,11 @@
+{
+  "id": 840,
+  "query": "Taylor Swift Travis Kelce wedding date July 2026 announcement",
+  "topic": "Taylor Swift",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Contains conflicting pre-wedding rumor results alongside the correct post-announcement coverage. One result says June 13, 2026 in Rhode Island (WGN/Page Six report), which conflicts with the actual July 3, 2026 NYC wedding. Another result is speculative/less reliable (ArtistDirect saying they are scheduled to marry on July 3). Fox News also frames it as rumor/speculation. However, A includes strong reliable confirmation from CNN that they married on July 3, 2026 at Madison Square Garden, and related snippets align with the announcement timing.",
+  "b_issues": "Includes a low-reliability Instagram repost summarizing Page Six claims and noisy irrelevant text, plus social-media/video results (YouTube, Facebook) that are less authoritative than major news reporting. It also contains the same incorrect June 13, 2026 Rhode Island rumor from WGN. Although CNN in B correctly states they are married on July 3, 2026, the result set is overall more contaminated by weak or reposted sources.",
+  "reasoning": "The question asks for the wedding date/July 2026 announcement. Both A and B contain the key fact via CNN: Taylor Swift and Travis Kelce are married, with the event on July 3, 2026 at Madison Square Garden in New York. But A better enables a correct answer because it includes more direct news reporting from recognizable outlets about the announcement/wedding, whereas B relies more heavily on social media reposts and user-generated/video content. Both sets have contradiction from the outdated June 13 rumor, but A’s stronger news results make the correct answer easier to extract confidently: the announcement was that they married on July 3, 2026."
+}

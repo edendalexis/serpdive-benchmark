@@ -1,0 +1,11 @@
+{
+  "id": 230,
+  "query": "Wikimedia Foundation Board Trustees Wikinews closure May 2026",
+  "topic": "Wikipedia",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "No major factual flaw for answering the query. Slight weakness: one irrelevant result (WIPO) and some snippets are secondary/tertiary sources rather than the primary mailing-list announcement. Result 3 attributes confirmation to a Board member and mentions an April 4 statement, which is plausible but not directly anchored here. Overall, A consistently states that the Board of Trustees approved closure and that Wikinews became read-only on May 4, 2026.",
+  "b_issues": "No major factual flaw for answering the query. Slight weakness: it does not surface the direct mailing-list announcement either, and one result says 'all Wikinews projects' / 'all language editions' while another says content pages exist in 36 editions versus 31 active editions, which could confuse an LLM though not materially contradict the closure date and Board decision. Overall, B consistently states that the Board of Trustees approved closure effective May 4, 2026.",
+  "reasoning": "Both result sets contain the key facts needed to answer the query correctly: the Wikimedia Foundation Board of Trustees decided to close Wikinews, the announcement was made around March 30, 2026, and all editions would become read-only on May 4, 2026. In A, this is supported by the Meta-Wiki proposal snippet, the Wikinews article, and the Signpost result. In B, it is supported by the Meta-Wiki public consultation snippet, the Wikinews closure page, the Wikinews article, and the Signpost/Wikipedia snippets. Neither set presents a meaningful contradiction on the core facts, and both are comparably sufficient for an LLM to answer the question correctly from the provided content alone."
+}

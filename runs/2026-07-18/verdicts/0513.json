@@ -1,0 +1,11 @@
+{
+  "id": 513,
+  "query": "Argentina Decree 383/2025 Federal Police restructuring Departamento Federal de Investigaciones June 2025",
+  "topic": "Javier Milei",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A is essentially irrelevant to the query. Its results are generic pages about Argentina (Wikipedia, Britannica, tourism, kids geography) and contain no facts about Decree 383/2025, the June 2025 Federal Police reform, or the Departamento Federal de Investigaciones (DFI). An LLM using only A could not answer the question correctly.",
+  "b_issues": "Content B lacks the primary official source (Argentina.gob.ar / Boletín Oficial) and relies on secondary news reports, so it is less authoritative than the anchor. Some phrasing may be journalistic or interpretive (for example, 'local version of FBI' / 'FBI-inspired'), but the core facts are consistent across results. It does not provide the full decree text or exact official wording.",
+  "reasoning": "B better enables a correct answer because it actually contains the key facts asked about: Decree 383/2025, issued in June 2025, reoriented the Policía Federal Argentina toward investigative functions and created the Departamento Federal de Investigaciones (DFI) / Federal Investigations Department as the new backbone of the force, with focus on complex/federal crimes. These facts align with the anchor, which shows Decreto 383/2025 was sanctioned on 16-06-2025 and concerns reform and modernization of the Policía Federal Argentina; the anchor also confirms that the DFI was created by that decree. By contrast, A contains no relevant information at all."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 648,
+  "query": "Berkshire Hathaway PacifiCorp Oregon wildfires 2020 appeals court ruling outcome 2026",
+  "topic": "Berkshire Hathaway",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Content A does contain the key outcome via reliable sources (Statesman Journal and a Reuters-derived Claims Journal repost): the Oregon appeals court ruled for PacifiCorp, found the class-action handling/jury instruction improper and prejudicial, and reversed/remanded the case, which could reduce damages. However, the top result is PacifiCorp's own litigation page, which is self-interested and mixes broader background rather than clearly stating the 2026 ruling. One Reuters item is only a LinkedIn post rather than the original article.",
+  "b_issues": "Content B also contains the key outcome, mainly through Reuters syndications (Sahm Capital and MarketScreener): PacifiCorp won the appeal; the court said the trial judge erred in letting the case proceed as a class action / in instructing jurors they could assume trial evidence applied to all class members; the ruling could reduce liability. However, the top result is an unreliable-looking/possibly fabricated local-news-style page (nationaltoday.com/Portland Today) with noisy irrelevant text. B is also more dependent on reposts/syndication than primary reporting.",
+  "reasoning": "Both A and B provide enough accurate facts to answer the question correctly: in 2026 the Oregon Court of Appeals ruled in favor of Berkshire Hathaway's PacifiCorp in the 2020 Oregon wildfire litigation, holding that the trial court improperly handled the case as a class action / gave erroneous jury instructions, and reversed/remanded the verdict, potentially reducing or wiping out substantial damages. This matches the anchor Reuters report. A has one solid direct local source plus a Reuters-derived repost; B has multiple Reuters-derived reposts saying the same thing. Neither set has a decisive factual advantage, though each has some source-quality noise, so they enable the answer about equally well."
+}

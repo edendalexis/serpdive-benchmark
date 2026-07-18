@@ -1,0 +1,11 @@
+{
+  "id": 722,
+  "query": "Temu Local Seller Program number of countries expansion date",
+  "topic": "Temu",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "A includes one useful result saying the local-to-local program is active in more than 30 countries, but it does not provide a clear expansion date tied to that count. The UAE result mentions January 2026 expansion in the title/snippet but not the number of countries. Other results are irrelevant or too generic. So A lacks the full answer from one coherent source and forces inference across weakly related snippets.",
+  "b_issues": "B contains some noisy/low-value results, especially the LinkedIn snippet. It also includes potentially conflicting timeline snippets: one result says sellers in more than 20 countries have joined the program, while another says the approach is active in more than 30 countries. However, this can be reconciled as statements from different dates. The key facts are still present.",
+  "reasoning": "The question asks for the number of countries and the expansion date. B better supports a correct answer because it contains both pieces: the IndexBox result gives an expansion date in January 2026 (specifically Monday, January 12), and the Türkiye Today result states the program is active in more than 30 countries. B also includes the Digital Commerce 360 anchor-like result confirming regional expansion context. A has the same Türkiye Today count, but its date evidence is weaker and less clearly connected; the available snippets do not as directly supply both requested facts together. Therefore B better enables an LLM to answer correctly."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 94,
+  "query": "Humane AI Pin refund policy February 2025 90 days customers eligible official support announcement",
+  "topic": "Humane AI Pin",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Mostly indirect/secondary sources rather than the official Humane support announcement. The featured snippet says customers who purchased on or after November 15, 2024 are eligible and that refund requests must be submitted by February 27, which matches other reporting, but Content A does not include the official support page itself. Minor risk of overgeneralizing from media summaries.",
+  "b_issues": "Also lacks the official Humane support announcement and relies on secondary/tertiary sources. It includes a Reddit result, which is not reliable and could distract or mislead. The top Digital Trends snippet gives only a partial rule ('more than 90 days ago' not eligible; refunds by Feb. 27) without the concrete purchase-date cutoff. Other results are less precise, and the set contains more noise than A.",
+  "reasoning": "The question asks about Humane AI Pin refund policy in February 2025, specifically the 90-day eligibility and the official support announcement. Neither result set includes the official support article directly, but A contains clearer, more complete, and mutually consistent facts from reputable outlets: refunds only for customers within the 90-day return period, effectively those who purchased on or after November 15, 2024, with requests due by February 27, 2025. B has some of the same facts, but they are more fragmented, less precise, and mixed with an unreliable Reddit post. Therefore A better enables an LLM to answer correctly from the provided content alone."
+}

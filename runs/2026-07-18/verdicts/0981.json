@@ -1,0 +1,11 @@
+{
+  "id": 981,
+  "query": "Sundar Pichai Alphabet proposed pay package amount 2026",
+  "topic": "Sundar Pichai",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Minor issue: one result is a Reddit post and another is a secondary news source, but A also includes the SEC-filing-derived StockTitan result and multiple mainstream reports consistently stating the package could be worth up to $692 million. No material contradiction in A on the amount.",
+  "b_issues": "Major issue: the featured snippet is factually wrong and contradicts the underlying results, claiming total compensation of ₹63,000 crore (~$7.5 billion). The actual linked results in B consistently indicate about $692 million over three years. This bad snippet could mislead an LLM into answering incorrectly despite the correct articles below it.",
+  "reasoning": "The question asks for the proposed pay package amount for Sundar Pichai in 2026. Content A clearly and consistently provides the answer: Alphabet lined up/approved a three-year package worth up to $692 million, with supporting breakdowns from the SEC-filing summary ($63M + $63M PSUs, $84M RSUs, ~$130M Waymo BPUs, ~$45M Wing BPUs). Content B contains the same correct supporting articles, but its prominent featured snippet gives a wildly incorrect figure of ₹63,000 crore (~$7.5B), directly conflicting with the reliable SEC-linked and news results beneath it. Because the task is to judge which result set better enables an LLM to answer correctly from that content alone, A is safer and more accurate overall."
+}

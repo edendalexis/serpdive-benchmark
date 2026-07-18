@@ -1,0 +1,11 @@
+{
+  "id": 690,
+  "query": "Ankara NATO summit 2026 €70 billion pledge Ukraine military aid details",
+  "topic": "NATO",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor issues only. One result is speculative/pre-summit (Politico 'weigh new €70B pledge') rather than the final outcome, and another is a low-authority blog/PDF snippet. Ukrainska Pravda frames the 2026+2027 total as €140 billion, which is an inference from €70 billion in 2026 plus commitment to at least equivalent levels in 2027, not a separate summit pledge. However, A includes the official NATO declaration with the key facts stated clearly and accurately.",
+  "b_issues": "Lacks the official NATO source. Top result is Crypto Briefing, a lower-authority outlet with irrelevant market-angle commentary. Includes a Facebook post, which is weak evidence. The set does contain the core figure via Kyiv Independent and other reports, but sourcing is generally less reliable and less direct than A. It also gives less detail from the summit text itself.",
+  "reasoning": "A better enables a correct answer because it contains the NATO official declaration explicitly stating the key detail: 'For 2026, Allies pledge €70 billion in military equipment, assistance and training for Ukraine and affirm their sovereign commitments to sustaining at least equivalent levels in 2027.' That directly answers the query about the Ankara NATO summit 2026 €70 billion pledge and its details. Additional A results from Al Jazeera and others are consistent with that. B also has the core facts, especially via Kyiv Independent, but its result set is anchored by weaker sources (Crypto Briefing, Facebook) and does not include the primary NATO text. Since reliability and directness matter, A is superior."
+}

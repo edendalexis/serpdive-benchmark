@@ -1,0 +1,11 @@
+{
+  "id": 942,
+  "query": "Cybercab trademark suspension status Unibev USPTO dispute resolution",
+  "topic": "Cybercab",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A lacks the strongest primary USPTO/TTAB source directly showing current dispute status. It mixes Tesla's separate application suspension with the later TTAB opposition against UNIBEV, so an LLM could confuse 'Tesla's application suspended' with the present status of the UNIBEV dispute. One result is a secondary blog asserting conclusions about suspension rather than a primary record.",
+  "b_issues": "Content B is more error-prone and internally confusing. It heavily emphasizes Tesla's November 14, 2025 application suspension, but the question asks about Unibev USPTO dispute resolution/status, for which the key fact is that Tesla filed an opposition and the TTAB matter is pending. It includes weak/unreliable sources (Reddit, law-firm/blog snippet) and a Yahoo summary that incorrectly calls the TTAB opposition an 'appeal.' It also lacks the primary TTAB status showing UNIBEV's CYBERCAB application is in OPPOSITION PENDING / proceeding pending.",
+  "reasoning": "The anchor shows the relevant current USPTO/TTAB dispute status: Tesla filed a formal opposition against UNIBEV's CYBERCAB application (serial 79412082), opposition no. 91305433, and the matter is pending; the earlier extension request was terminated after the opposition was filed. Content A contains facts pointing to that progression: Tesla got a 30-day extension, then filed a 5-count formal opposition, and UNIBEV has 60 days to respond. That is enough for an LLM to infer the dispute is not resolved and is in active opposition. Content B mostly centers on the older fact that Tesla's own application was suspended because UNIBEV filed first. While it does mention Tesla later filed an opposition, it gives less clear support for the present dispute status and uses less reliable/less precise sources. Therefore A better enables a correct answer."
+}

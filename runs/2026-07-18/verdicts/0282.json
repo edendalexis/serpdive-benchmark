@@ -1,0 +1,11 @@
+{
+  "id": 282,
+  "query": "Devin AI v3 API release date 2026 endpoints",
+  "topic": "Devin AI software engineer",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "A has only one clearly relevant official result. It gives a release date via the overview page snippet ('February 20, 2026. Devin v3 API Officially Released') but provides almost no authoritative detail on the 2026 v3 endpoints the question asks about. The snippet also mixes app release notes with older v3beta1 endpoints, which could mislead an LLM into citing beta endpoints rather than current v3 endpoints. Most other results are irrelevant third-party pages.",
+  "b_issues": "B does not directly show the exact release date in the API release-notes result, and one top result is the general 2026 app release notes rather than API-specific notes. It also includes some beta endpoints in the API release-notes snippet, which could cause minor confusion if the model does not distinguish v3 from v3beta1.",
+  "reasoning": "B better enables a correct answer because it contains official Devin docs results that directly surface the API release notes and list relevant 2026 endpoints, including the current v3 endpoint `POST /v3/enterprise/ip-access-list`, plus other endpoint-related updates. It also includes the 2026 release-notes page confirming API-related 2026 changes. A does contain an apparent official release date for v3 API ('February 20, 2026') from an official docs snippet, which is valuable, but it lacks comparable authoritative endpoint detail and is padded with mostly irrelevant third-party results. Since the question asks about both release date and 2026 endpoints, B provides the stronger factual basis overall, even though A is better on the exact date."
+}

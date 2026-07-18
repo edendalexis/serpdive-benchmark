@@ -1,0 +1,11 @@
+{
+  "id": 763,
+  "query": "FAA investigation closure SpaceX Starlink 17-32 mishap February",
+  "topic": "FAA",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A relies heavily on low-reliability social media sources (Facebook, X, Instagram) and an aggregator article rather than a primary FAA source. It does not clearly provide the key date and details from an authoritative source. The top Facebook snippet is truncated/garbled ('occurred in space on Feb. root cause was the Falcon is closed'), which could confuse an LLM. There is no direct FAA page result in A, so answerability depends on secondary or social reposts.",
+  "b_issues": "Content B includes the authoritative FAA General Statements page directly and gives the needed closure date and core facts, but the snippet appears mixed with unrelated FAA statements (Starship Flight 12, Blue Origin NG-3, Starlink Group 9-3), so some content is noisy. However, the relevant Starlink 17-32 facts are still present and not contradicted.",
+  "reasoning": "The question asks about FAA investigation closure for the SpaceX Starlink 17-32 mishap in February. Content B best supports a correct answer because it includes the primary FAA source stating that the FAA-required investigation of the SpaceX Starlink 17-32 mishap is closed, with the closure date of February 6, 2026, and adds the key finding that the probable root cause was the Falcon 9 stage 2 engine's failure to ignite prior to the deorbit burn. Supporting secondary results in B also confirm that the FAA announced closure and allowed return to flight. Content A has some of the same gist, but mostly through social media and an aggregator, with less reliable sourcing and one malformed snippet. Therefore B better enables an LLM to answer correctly from the provided content alone."
+}

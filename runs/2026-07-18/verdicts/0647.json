@@ -1,0 +1,11 @@
+{
+  "id": 647,
+  "query": "Duracell BASF trade secret lawsuit lithium-ion Berkshire Hathaway subsidiary status",
+  "topic": "Berkshire Hathaway",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "No major factual flaws. Content is sparse and does not explicitly say 'subsidiary,' but Reuters states Duracell is owned by Berkshire Hathaway, which is enough to infer subsidiary status. Secondary results are less authoritative, and the Justia snippet only gives filing metadata.",
+  "b_issues": "No major factual flaws. Like A, it does not explicitly use the word 'subsidiary,' but Reuters states Duracell is owned by Berkshire Hathaway. One result (Claims Journal/Bloomberg pickup) has a likely date/copyright mismatch ('Copyright 2026 Bloomberg' on a 2025 article), but the core facts align with Reuters.",
+  "reasoning": "Both A and B contain the key facts needed to answer the query correctly: Reuters says Duracell is owned by Berkshire Hathaway, and the lawsuit concerns BASF trade secrets related to lithium-ion battery technology; Reuters also says a judge ruled Duracell must face the lawsuit. A additionally includes the Justia docket showing the case was filed in April 2025, while B includes the judge's name and the lower-cost high-powered battery materials detail. Neither set materially contradicts the anchor, and both rely primarily on Reuters for the core facts. Because both enable an LLM to answer that Duracell is a Berkshire Hathaway-owned company/subsidiary and is facing BASF's lithium-ion trade secret suit, neither is meaningfully better."
+}

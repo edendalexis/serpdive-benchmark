@@ -1,0 +1,11 @@
+{
+  "id": 790,
+  "query": "New Caledonia dual citizenship agreement ratification status 2025 2026",
+  "topic": "New Caledonia",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Content A correctly surfaces that the July 2025 Bougival agreement includes dual nationality/citizenship and mentions a 2026 referendum, but it does not provide the key later ratification status. The anchor shows the constitutional bill was adopted by the Senate, then rejected by the National Assembly on 3 April 2026. A includes no legislative-status result; instead it has an irrelevant High Seas Treaty result. Its Anadolu snippet says a referendum is planned for February 2026, while the anchor legislative text refers to a vote before 26 April 2026, so timing details are incomplete/possibly inconsistent.",
+  "b_issues": "Content B also correctly surfaces dual citizenship in the 2025 Bougival agreement and mentions a 2026 referendum, but likewise omits the decisive ratification/legislative outcome shown in the anchor: Senate adoption followed by National Assembly rejection in April 2026. It includes weaker sources such as a YouTube video and a JURIST snippet that says the 1998 Nouméa Accord entailed 'a new dual citizenship for New Caledonians,' which is misleading relative to the later 2025 accord expanding citizenship into a nationality. It also does not clearly state the 2026 rejection status.",
+  "reasoning": "The question asks for the ratification status in 2025-2026 of the New Caledonia dual-citizenship agreement. To answer correctly, an LLM needs both: (1) the agreement created dual French/New Caledonian nationality/citizenship in July 2025, and (2) its constitutional implementation was not fully ratified in 2026 because the Senate adopted the bill but the National Assembly rejected it in April 2026. Both A and B provide part (1) from generally credible sources (Le Monde, Lowy, Anadolu), but neither provides part (2), which is the crucial status update. Since both are missing the decisive ratification outcome and therefore equally fail to enable a correct complete answer, the result is a tie."
+}

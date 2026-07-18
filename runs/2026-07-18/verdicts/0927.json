@@ -1,0 +1,11 @@
+{
+  "id": 927,
+  "query": "Wicked For Good opening weekend domestic international box office ranking 2025",
+  "topic": "Wicked",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A contains a misleading/incorrect ranking claim in the Rotten Tomatoes snippet: it says the $150M domestic opening is 'the second-highest of the year behind only A Minecraft Movie,' but then also calls Wicked: For Good 'the fourth-best international launch of the year' while listing global totals for Jurassic World: Rebirth ($322.6M), Minecraft ($313.7M), and Lilo & Stitch ($307.2M); this appears to confuse international with global ranking. A also lacks a clean, explicit statement of the overall 2025 ranking across domestic and global openings from a highly reliable source, forcing the model to infer from mixed snippets. The Numbers and Box Office Mojo entries shown are cumulative totals, not opening-weekend ranking answers.",
+  "b_issues": "Content B has a small Sunday-estimate vs Monday-actual discrepancy ($150M/$226M versus $147M/$223M), but it explains this via Variety. It does not explicitly state an 'international ranking' as a numbered 2025 placement; instead it gives the international gross ($76M) and says it was the biggest international opening for a Broadway adaptation. However, this is not contradicted elsewhere in B.",
+  "reasoning": "B better enables a correct answer because it directly provides the key opening-weekend facts and rankings from reliable entertainment box-office sources: NBCUniversal says $147M domestic, second-highest opening weekend of 2025; Variety says $147M domestic, $76M overseas, $223M global, and explicitly that it was the fourth-best Hollywood debut of 2025 globally, behind Lilo & Stitch, Jurassic World Rebirth, and A Minecraft Movie. Forbes corroborates the domestic ranking behind A Minecraft Movie. By contrast, A includes the needed grosses but has a contradictory/misattributed Rotten Tomatoes snippet that mixes up 'international' and 'global' ranking, making it easier for an LLM to answer incorrectly."
+}

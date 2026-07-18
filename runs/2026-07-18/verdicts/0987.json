@@ -1,0 +1,11 @@
+{
+  "id": 987,
+  "query": "Sundar Pichai Cloud Next 2026 Gemini Enterprise Agent Platform announcement cybersecurity enterprise agents April 2026",
+  "topic": "Sundar Pichai",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A lacks the key primary-source Sundar Pichai announcement and does not clearly connect the Gemini Enterprise Agent Platform announcement to cybersecurity/enterprise agents from April 2026. Most results are secondary or low-reliability sources, including an obscure blog, LinkedIn, and trade press summaries. It also includes likely inaccurate or weakly sourced claims such as future Vertex AI services being delivered through Agent Platform rather than standalone, and a $750 million partner innovation fund, which are not supported by the anchor. The result set does not clearly surface Sundar Pichai’s role or his specific wording.",
+  "b_issues": "Content B includes some lower-reliability and potentially noisy secondary sources (Thenextweb, LinkedIn, VOI) and one TechCrunch snippet is very thin. The Thenextweb result introduces extra claims not needed for the query and not verified by the anchor. However, these do not materially contradict the core facts.",
+  "reasoning": "Content B better enables a correct answer because it includes the exact primary-source Google blog post from Sundar Pichai that matches the query and directly states the two key facts from the anchor: Google introduced the new Gemini Enterprise Agent Platform, and it unveiled agentic cybersecurity solutions for threat detection as part of an AI-powered cybersecurity platform combining Google’s Threat Intelligence and Security Operations with Wiz’s Cloud and AI Security Platform. It also includes the Google Cloud Next 2026 roundup page reinforcing that Cloud Next ’26 showcased the Gemini Enterprise Agent Platform. By contrast, Content A mostly offers secondary summaries and lacks the crucial Sundar Pichai source and the direct cybersecurity announcement details, making it less reliable and less complete for answering the question."
+}

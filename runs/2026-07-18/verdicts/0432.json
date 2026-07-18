@@ -1,0 +1,11 @@
+{
+  "id": 432,
+  "query": "Megalopolis box office global gross revenue 2024",
+  "topic": "Megalopolis",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A includes one misleading Box Office Mojo snippet that appears to conflate international and opening gross, stating \"International $4,007,797\" when $4,007,797 is the domestic opening. The Numbers result is incomplete and does not give the worldwide total in the snippet. However, A also includes a clear Wikipedia snippet stating Megalopolis grossed $7.6M domestic and $6.8M international for a $14.4M worldwide total, which matches the anchor closely.",
+  "b_issues": "Content B is more contradictory and less reliable for the target fact. Its top result from The Numbers gives a worldwide box office of $12,303,292, which conflicts with the anchor and appears incomplete/outdated. Another result says the film grossed only $9.2M globally, and another says it merely crossed $10M worldwide. The Box Office Mojo snippet in B lists country grosses but does not provide the worldwide total directly in the snippet. So B presents multiple conflicting worldwide figures ($9.2M, $10M+, $12.3M) without a clear correct one.",
+  "reasoning": "A better enables a correct answer because it contains a direct, near-anchor-consistent worldwide gross figure: about $14.4 million globally, with domestic $7.6M and international $6.8M. Although one A snippet is flawed, the key fact is explicitly present from a plausible source and aligns with the anchor's $14,447,666. In contrast, B's results give several conflicting and lower worldwide totals, and its Box Office Mojo snippet omits the global total. An LLM using B alone would be more likely to answer incorrectly."
+}

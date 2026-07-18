@@ -1,0 +1,11 @@
+{
+  "id": 573,
+  "query": "Sheinbaum universal healthcare service first phase launch April 2026 details",
+  "topic": "Claudia Sheinbaum",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A has the key fact that the first phase begins April 13, 2026 and starts with people aged 85+, but it is thin on launch details. Several results are low-reliability/social snippets (Instagram, Facebook). It omits important specifics present in stronger reporting, such as the registration window and what the first phase covers. No major internal contradiction is visible, but it is less complete and relies heavily on secondary/activist outlets.",
+  "b_issues": "Content B contains one likely overstatement/inconsistency: NCD Alliance says 'during this first phase, patients will be able to receive services such as mammograms, biopsies, and breast cancer treatment at the health facility closest to their home,' while other items frame April 13–30 mainly as registration/credentialization starting with those aged 85+. B also includes a less certain claim from Borgen Project about first-phase coverage including emergency services, high-risk pregnancies, heart attacks, strokes, and cancer diagnosis, which is not clearly corroborated by the anchor. However, these issues do not negate the core launch facts.",
+  "reasoning": "Content B better equips an LLM to answer the question because it contains more of the specific April 2026 first-phase details that match the anchor: a decree announced April 7; registration/enrollment beginning April 13; the initial cohort being adults aged 85 and over; and one result explicitly giving the registration period as April 13–30. It also includes structural context that the reform integrates IMSS, ISSSTE, and IMSS-Bienestar. Content A has the basic date and age group, but provides fewer concrete launch details and leans more on weaker sources and social posts. Although B has some potentially muddled claims about what services are included in the first phase, its core facts align more closely with the anchor and allow a more complete correct answer."
+}

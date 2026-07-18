@@ -1,0 +1,11 @@
+{
+  "id": 744,
+  "query": "Supreme Court Texas and New Mexico nuclear waste storage case cert granted case name lower court 2024",
+  "topic": "U.S. Supreme Court",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "A lacks the key lower-court and case-name details needed for the query. Its strongest relevant result is a PBS/AP summary saying only that the Supreme Court stepped into the fight and mentioning the 5th Circuit indirectly ('Only the 5th Circuit allowed the cases to proceed'), but it does not clearly provide the cert-granted case name or explicit lower court. Another result is a 2025 Justia page mixing later merits-stage material with docket snippets, which is less clean for answering a 2024 cert-granted question. A also includes an irrelevant 2026 ANS result.",
+  "b_issues": "B contains some post-grant/merits-stage contamination: Oyez and GWLR discuss the eventual 2025 merits decision, not just the 2024 cert grant. However, B's top SCOTUSblog result directly identifies the case as 'Nuclear Regulatory Commission v. Texas (23-1300)' and states that cert was granted in 2024, with consolidation of No. 23-1312. The Oyez result also accurately identifies the lower court as the U.S. Court of Appeals for the Fifth Circuit. No major contradiction is present.",
+  "reasoning": "The question asks for the cert-granted case name and lower court for the 2024 Supreme Court Texas/New Mexico nuclear waste storage dispute. B better enables a correct answer because it explicitly gives the case name 'Nuclear Regulatory Commission v. Texas' via SCOTUSblog and identifies the lower court as the Fifth Circuit via Oyez. That aligns with the anchor docket: Nuclear Regulatory Commission, et al. v. Texas, et al., lower court United States Court of Appeals for the Fifth Circuit, case no. 21-60743, with cert granted October 4, 2024. A mostly provides generic news coverage and a later Justia merits page, so an LLM would have to infer or piece together the answer less directly and less reliably."
+}

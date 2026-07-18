@@ -1,0 +1,11 @@
+{
+  "id": 13,
+  "query": "TSMC North America Technology Symposium 2026 next-generation process node technology announced",
+  "topic": "Taiwan Semiconductor Manufacturing Company",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A does not contain the needed fact. Its results are mostly generic TSMC homepage/overview pages, Wikipedia, finance, LinkedIn, and Arizona pages, with no result identifying the 2026 North America Technology Symposium announcement or the next-generation node announced there.",
+  "b_issues": "Content B is largely sufficient, but it includes extra process announcements (N2U, N2A, N16HV) that could distract from the specific question. One result mentions broader symposium topics like A16, A14 and beyond, which are not the direct answer. However, there is no clear contradiction about the key fact.",
+  "reasoning": "The question asks what next-generation process node technology was announced at the TSMC North America Technology Symposium 2026. The anchor shows the answer is A13, from TSMC’s press release titled 'TSMC Debuts A13 Technology at 2026 North America Technology Symposium.' Content B contains that exact press release and explicitly states 'TSMC’s new A13 process' debuted at the 2026 North America Technology Symposium, from a highly reliable primary source (TSMC PR). Content A lacks this fact entirely and therefore would not let an LLM answer correctly from the provided content alone."
+}

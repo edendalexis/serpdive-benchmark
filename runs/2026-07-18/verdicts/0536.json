@@ -1,0 +1,11 @@
+{
+  "id": 536,
+  "query": "Mattel Barbie 2026 Miley Cyrus Whitney Houston Mariah Carey dolls release schedule",
+  "topic": "Barbie",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "A only directly confirms Miley Cyrus via an official Mattel Creations product page with a member early-access window starting June 30, 2026. For Whitney Houston it relies on a forum rumor saying release will be in August, which is not an official source. It does not provide a Mariah Carey 2026 release date at all; the anchor only shows a Mariah Carey product page without a visible launch date. One result is a third-party list page that may be incomplete or unofficial.",
+  "b_issues": "B relies heavily on weak or unofficial sources: Instagram posts, a forum thread, Reddit, and a third-party collector list. It gives conflicting timing for Miley Cyrus: one result says launch June 30, another says official release July 1. For Whitney Houston and Mariah Carey, B offers only rumor-level references like 'later this year' and an Instagram claim 'Mariah Carey Doll 2 - 19 November' without official confirmation. No official Mattel product page is present.",
+  "reasoning": "A better enables a correct answer because it contains at least one authoritative Mattel Creations source confirming the Miley Cyrus release schedule: Club 59 member access from June 30, 2026 to July 1, 2026. That aligns with the anchor and gives concrete timing. A also includes a possible August timing for Whitney Houston, albeit from a forum rumor. B has more dates overall, but they come from substantially less reliable sources and contain internal contradiction on Miley (June 30 vs July 1). Since the question asks for a release schedule for Miley Cyrus, Whitney Houston, and Mariah Carey dolls, neither set fully and reliably answers all three; however, A is still preferable because its core factual support is more authoritative and less contradictory."
+}

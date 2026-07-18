@@ -1,0 +1,11 @@
+{
+  "id": 553,
+  "query": "Jerome Powell March 2026 grand jury subpoenas quashed Judge James Boasberg harassment pressure resign Federal Reserve news",
+  "topic": "Jerome Powell",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Includes lower-quality and potentially unreliable results such as a Facebook post and WLT Report, which add partisan framing and unverified embellishment. However, the top CNBC and CBS results accurately state the key facts: Judge James Boasberg quashed the grand jury subpoenas, saying they were a pretext to harass and pressure Jerome Powell to lower rates or resign, and that the government had no evidence of a crime.",
+  "b_issues": "Some snippets are thinner and slightly noisier: the AP URL slug appears misspelled ('feeral'), the AP snippet is truncated and less complete, and several results provide less detail than A. But the key facts are still present in reliable outlets like The Hill, AP, CNN, Spectrum, and DW, with no major contradiction.",
+  "reasoning": "Both result sets contain the core facts needed to answer the query correctly: in March 2026, Judge James Boasberg quashed DOJ/Federal Reserve grand jury subpoenas related to Jerome Powell, finding abundant or mountain-like evidence that they were meant to harass and pressure him to yield to President Trump or resign, rather than pursue a legitimate criminal investigation. Content A gives slightly fuller direct quotations from Boasberg via CBS/CNBC, while Content B relies on highly reliable outlets including AP and CNN and also contains the decisive quotation. A is hurt by inclusion of dubious sources, but its reliable results are sufficient; B is a bit less detailed but still sufficient and accurate. So both enable a correct answer equally well."
+}

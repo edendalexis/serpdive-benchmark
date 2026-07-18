@@ -1,0 +1,11 @@
+{
+  "id": 374,
+  "query": "OpenAI Sora data deletion policy user activity after shutdown",
+  "topic": "Sora OpenAI",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Only the top Help Center result contains the key fact: after Sora is discontinued and any final export window passes, data associated with Sora use will be permanently deleted. But A does not explicitly surface the 'user activity' angle, and several other results are irrelevant news/analysis pieces. One result (The Hill) refers to unspecified future timelines and preserving work, which is stale/incomplete relative to the Help Center. Overall A is usable but less directly complete.",
+  "b_issues": "B includes several low-reliability or misleading results: claims that deleting Sora wipes the entire OpenAI profile / ChatGPT / API data are about account deletion, not the shutdown data-retention policy asked here, and may confuse the issue. Another result speculates about facial-data harvesting without evidence. However, B also includes the OpenAI Help Center snippet with the exact relevant facts.",
+  "reasoning": "B better enables a correct answer because it contains the authoritative OpenAI Help Center result with the precise shutdown policy: Sora web/app ended April 26, 2026; API ends Sept. 24, 2026; users can export data, and after discontinuation plus any final export window, OpenAI will permanently delete data associated with Sora use. That directly answers a question about data deletion policy after shutdown. A also has the Help Center result and is broadly consistent, but it is less complete/direct for the specific question and surrounds it with more irrelevant results. Despite B's noisier misleading extras, the decisive relevant facts are present more explicitly there."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 675,
+  "query": "Kamala Harris Pioneer49 activities 2025 political organizing events AI panel",
+  "topic": "Kamala Harris",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A has only an unrelated Instagram result about Howard University Election Day activity. It does not mention Pioneer49, 2025 political organizing activities, events, or any AI panel, so an LLM could not answer the query from it.",
+  "b_issues": "Content B does not fully answer the query either: it clearly identifies Pioneer49 as Harris's LLC and future-move vehicle, but it gives little concrete detail about Pioneer49's actual 2025 activities or political organizing events. The AI-related item in the anchor (HumanX / AI regulation panel) is not directly included; only a later LA Times mention that Harris could 'tackle AI' appears, which is too vague. One result is a Washington Post video teaser with minimal substance.",
+  "reasoning": "B is better because it at least contains the key factual grounding from a reliable source (Politico) that Pioneer49 exists, was formed by Kamala Harris in California, and is tied to her post-vice-presidential political future. That gives an LLM some basis to discuss Pioneer49. A contains none of the needed facts and is essentially irrelevant. Although B is incomplete regarding specific 2025 organizing events and the AI panel referenced in the anchor, it is still materially closer to enabling a correct answer than A."
+}

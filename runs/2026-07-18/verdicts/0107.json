@@ -1,0 +1,11 @@
+{
+  "id": 107,
+  "query": "Boeing MQ-28 Ghost Bat advanced capabilities extended combat reach unveiling details 2026",
+  "topic": "Boeing",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A misses the key Boeing press release that directly matches the query (item=131675). Its top result is a likely irrelevant/misleading Yahoo Finance piece about a Farnborough 2026 debut, which conflicts with the queried unveiling details at ILA Berlin on June 10, 2026. A does include secondary coverage mentioning larger wings and internal weapon bays, but it lacks the primary-source details on beyond-line-of-sight communications and the exact framing of 'advanced capabilities, extended combat reach.' It also includes another Boeing newsroom result about stealth validation (item=131673), which is related but not the specific unveiling asked about.",
+  "b_issues": "Content B includes some less-relevant supporting results (live-fire milestone, Army Recognition, Yahoo Finance/Farnborough), but these do not materially contradict the main answer. Minor issue: the Boeing snippet shown is truncated and does not surface all bullets from the anchor, such as internal weapons stations, though secondary coverage in B supplies that detail.",
+  "reasoning": "Content B better enables a correct answer because it contains the exact primary Boeing Newsroom release matching the query: 'Boeing unveils advanced MQ-28 capabilities, extended combat reach' from Berlin on June 10, 2026. That snippet directly provides core facts: more than 25% larger wing, expanded mission range/stores capacity, and beyond-line-of-sight communication links. B also includes The Aviationist result adding the missing specifics: internal weapon bays, 2,000 pounds additional fuel/stores/payload, 12,000 lb MTOW, and 4,500 lb useful load. By contrast, A lacks the exact press release and leads with an apparently off-target Yahoo Finance/Farnborough item, making it more likely an LLM would answer with the wrong event or incomplete details. Therefore B is the more accurate and reliable set for answering the question."
+}

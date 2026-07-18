@@ -1,0 +1,11 @@
+{
+  "id": 79,
+  "query": "99th Academy Awards same actor multiple nominations same acting category AMPAS rule 2026",
+  "topic": "Academy Awards Oscars",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "No major factual flaw on the core question. The official Oscars PDF result is poorly excerpted and does not surface the specific acting-rule text, and the Wikipedia result could distract because it discusses multiple nominations in the same year generally rather than the new same-category rule. But A still includes multiple accurate sources stating that actors may receive multiple nominations in the same acting category if their performances rank in the top five votes.",
+  "b_issues": "The official Academy press-office result is poorly excerpted and does not include the key acting-rule language, so B relies mainly on secondary sources. Variety in B includes some possibly noisy/additional claims unrelated to the question, and the official source shown does not help confirm the exact rule text. Core fact appears accurate, but support is thinner.",
+  "reasoning": "The question asks about the 99th Academy Awards / AMPAS rule for when the same actor can receive multiple nominations in the same acting category. Content A contains the needed fact clearly and repeatedly from reliable sources: Variety says performers may receive multiple nominations in the same category if their performances rank among the top five vote-getters; Deadline says the same; IGN confirms it. A also includes the official Oscars rules PDF result, which increases reliability even though the snippet is not the exact rule text. Content B also contains the same core fact in Variety, IGN, and Deadline, but its official AMPAS press-office result does not surface the relevant acting-rule excerpt at all, making it somewhat less directly supportive. Since both can enable a correct answer, but A provides slightly better corroboration and reliability for the exact rule, A is the better set."
+}

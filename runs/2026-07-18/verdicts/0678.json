@@ -1,0 +1,11 @@
+{
+  "id": 678,
+  "query": "Kamala Harris security clearance revoked by Trump 2025 former officials list executive action",
+  "topic": "Kamala Harris",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A does not include the actual list of named individuals in the White House result snippet, so an LLM would have to rely on secondary sources for names beyond Kamala Harris and Hillary Clinton. It also contains an irrelevant result about Harris' Secret Service detail and a Stack Exchange discussion, which could distract. However, it does include the authoritative White House memorandum and secondary coverage that correctly describe the action.",
+  "b_issues": "Content B lacks the authoritative White House or govinfo source entirely. Most snippets are truncated and do not provide the full former-officials list or the text of the executive action. It relies mainly on media summaries, including less reliable/tabloid-style sourcing such as the New York Post, and provides less direct evidence for the exact list and nature of the action.",
+  "reasoning": "The query asks about Trump revoking Kamala Harris' security clearance in 2025 and the former-officials list/executive action. Content A better supports a correct answer because it includes the White House presidential action page—the key primary source confirming that Trump ordered executive departments to revoke active clearances, rescind access to classified information, and revoke unescorted access to secure facilities. Its accompanying BBC/ABC snippets also confirm Kamala Harris was among those named. Content B confirms the event through news coverage, but without the primary-source memorandum and without a complete or precise list in the snippets, it gives the LLM less reliable and less complete grounding for the exact executive action and named individuals."
+}

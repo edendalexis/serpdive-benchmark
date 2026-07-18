@@ -1,0 +1,11 @@
+{
+  "id": 452,
+  "query": "2024 Nobel Prize Physics laureates official press release motivation machine learning artificial neural networks",
+  "topic": "Nobel Prize 2024",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Only the top result is the official Nobel press release, and its snippet omits the laureates’ names and the exact motivation. The rest of A is mostly irrelevant or secondary sources (Yale lecture, blog, AIP, PMC), so an LLM relying on A could struggle to extract the full correct answer from the returned content alone.",
+  "b_issues": "Results are repetitive and include web.archive copies plus malformed/tracking-parameter Nobel URLs, but they consistently preserve the key official press-release facts. No substantive factual contradiction is evident.",
+  "reasoning": "The question asks for the 2024 Nobel Prize in Physics laureates and the official press-release motivation related to machine learning/artificial neural networks. Content B directly contains the official Nobel press-release text, including the exact motivation: “for foundational discoveries and inventions that enable machine learning with artificial neural networks,” and it explicitly names John Hopfield and Geoffrey Hinton in the press-release body. Content A has the official page as result 1, but its snippet is truncated and does not clearly provide the laureates’ names or the exact award motivation; the other results are not the official press release and are less reliable/relevant. Therefore B better enables a correct answer from the provided content alone."
+}

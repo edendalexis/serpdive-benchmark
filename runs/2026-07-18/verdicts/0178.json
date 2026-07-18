@@ -1,0 +1,11 @@
+{
+  "id": 178,
+  "query": "SpaceX Starship Flight 13 scrub cause Super Heavy booster hold signal engine ignition replace two Raptor engines July 16 2026",
+  "topic": "SpaceX Starship",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A is somewhat sparse and one result (Space.com) is mostly about prelaunch context and prior-flight issues rather than the scrub itself. It does not clearly include the 'hold signal' phrasing in the snippets. However, it does contain the key facts needed: four Super Heavy engines did not ignite, the launch was automatically aborted, and two Raptor engines would be replaced before the next attempt.",
+  "b_issues": "Content B lacks the crucial detail about replacing two Raptor engines and does not clearly surface the specific cause beyond some Super Heavy engines failing to ignite during startup. One Spaceflight Now snippet appears to be from the prelaunch/live-coverage page rather than the updated abort details, so it omits the key post-scrub facts. It also includes weaker/less authoritative results like YouTube and X that do not help answer the question.",
+  "reasoning": "A better enables a correct answer because it directly surfaces the main post-scrub facts consistent with the anchor: the abort happened during Super Heavy engine startup at T-0, four engines failed to ignite, and Elon Musk said two of the booster's 33 Raptor engines would be replaced before the next attempt. B only reliably provides the generic scrub fact that some engines didn't start during the startup sequence, but misses the important replacement detail and does not clearly present the more specific cause chain requested by the query."
+}

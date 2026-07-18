@@ -1,0 +1,11 @@
+{
+  "id": 339,
+  "query": "Longlegs universe new movie Paramount Pictures distribution budget exceeded Neon",
+  "topic": "Longlegs",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A does not contain the key facts needed to answer the query about the new Longlegs-universe movie at Paramount and why Neon is not distributing it. The results are mostly generic pages about the original 2024 film (Wikipedia, Neon promo page, Letterboxd, Instagram, Apple TV) and do not mention the new Paramount project or that Neon stepped aside because the new project's scope/budget exceeded its normal range.",
+  "b_issues": "Content B does not give a concrete budget figure for the new film, only that its scope and budget exceeded Neon's normal parameters. One result is a forum repost (ResetEra), which is less reliable than the trade sources, but the key facts are also present in The Hollywood Reporter.",
+  "reasoning": "Content B better enables a correct answer because it directly includes a reliable trade-source report from The Hollywood Reporter stating that Paramount picked up the new Longlegs project and that Neon stepped aside when the new project's scope and budget exceeded the company's normal parameters. It also accurately notes the original film was released by Neon and made $128 million worldwide on a budget under $10 million. Content A lacks the central facts about the new movie and the distribution/budget reason, so an LLM using only A would likely be unable to answer correctly."
+}

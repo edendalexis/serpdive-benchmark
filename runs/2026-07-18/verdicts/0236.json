@@ -1,0 +1,11 @@
+{
+  "id": 236,
+  "query": "Delhi High Court Wikipedia block local laws defamation Supreme Court ruling media takedown real harm India 2025 2026",
+  "topic": "Wikipedia",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "One Reuters result reflects the Delhi High Court's April 2025 position rather than the later Supreme Court ruling, so by itself it could mislead on the final outcome. One LawChakra snippet appears internally inconsistent on dates, saying 'April 2, 2024' for the High Court order that the anchor shows was April 2, 2025. The JURIST snippet includes an obviously irrelevant sentence about Abraham Lincoln, indicating noisy extraction. However, A still contains the key Supreme Court holding and the 'real and substantial risk of prejudice' standard.",
+  "b_issues": "Contains weaker and less reliable sourcing overall, including an Instagram reel. Several snippets are truncated and do not provide the key legal standard in full. The LawChakra title/snippet suggests 'Court Can Order ...' which may blur or partially contradict the Supreme Court's emphasis that takedown orders are not the ordinary duty of courts and must satisfy necessity/proportionality. B does not clearly surface the crucial 'real and substantial risk of prejudice to the proper administration of justice or fairness of trial' test from the Supreme Court ruling.",
+  "reasoning": "A better enables a correct answer because it includes a result (JURIST) that directly states the Supreme Court reversed the Delhi High Court order, cites the free-speech basis, and quotes the core test: takedown orders must meet necessity and proportionality and are justified only where there is a real and substantial risk of prejudice to justice or trial fairness. That matches the anchor and the 2025 Supreme Court judgment. B has some correct high-level results saying the Supreme Court set aside the Delhi HC order, but it lacks the decisive doctrinal language needed to answer a query focused on local laws/defamation/media takedown/real harm. Its evidence is also noisier and less reliable, with an Instagram result and truncated summaries. So A more reliably supports a correct answer from the search results alone."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 485,
+  "query": "WGA 2026 strike duration seven weeks start end dates timeline",
+  "topic": "The WGA",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A does not directly provide the end date or explicitly confirm a seven-week duration. Its top LA Times snippet says the strike ended 'after nearly three months,' which conflicts with the query's 'seven weeks' framing. It also includes irrelevant results about the 2023 WGA strike and 2026 MBA. However, A does contain a reliable start date: February 17, 2026, from Variety/LA Times, and at least indicates the strike was still ongoing on April 7 via OnLabor.",
+  "b_issues": "Content B is dominated by irrelevant results about the 2026 WGA MBA rather than the staff union strike timeline. It provides the same start date indirectly through Variety and says the strike had lasted 'a full month' by a March Deadline item, but it does not provide an end date or seven-week duration. The lack of a strike-ending result makes it harder to answer the question. It is also potentially confusing because the official WGA contract results concern writer negotiations, not the staff union strike.",
+  "reasoning": "A better enables a correct answer because it contains more directly relevant strike-timeline evidence from reliable outlets: the strike began on February 17, 2026, and was still active as of April 7, 2026. While neither set includes the crucial end-date result from Variety about the deal/ratification, A at least provides a clearer timeline anchor and more strike-specific coverage. B mostly returns unrelated 2026 MBA contract pages, so an LLM relying on B would be more likely to answer about the writers' contract rather than the staff union strike. Neither set fully supports the exact 'seven weeks start end dates timeline' answer, but A is closer."
+}

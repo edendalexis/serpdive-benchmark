@@ -1,0 +1,11 @@
+{
+  "id": 44,
+  "query": "2025/26 UEFA Champions League league phase format top 8 round of 16 9th 24th knockout playoff official UEFA",
+  "topic": "UEFA Champions League",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Result 1 and Result 4 are Wikipedia, not official UEFA sources. Result 1 also gives detailed knockout dates that are unnecessary for the query and could distract. However, Result 2 is an official UEFA page and explicitly states the key fact: the top eight in the league qualify automatically for the round of 16, while teams finishing 9th to 24th enter a two-legged knockout phase play-off.",
+  "b_issues": "The strongest relevant result is also mostly Wikipedia rather than official UEFA. The UEFA result included here is a more general format article snippet that, in this result set, does not surface the crucial top-8 / 9th-24th detail in the snippet. Other results are weaker or less reliable for this question (Facebook post, Yahoo, AS), and the presence of a Facebook result lowers source quality. So the set gives less direct official support for the exact asked fact.",
+  "reasoning": "The question asks for the official UEFA format point about the 2025/26 league phase: top 8 to the round of 16 and 9th-24th into the knockout play-off. Content A directly contains that exact wording in an official UEFA.com result snippet ('The top eight sides in the league will qualify automatically for the round of 16, while the teams finishing in 9th to 24th place will compete in a two-legged knock-out phase play-off'). Content B does contain the fact in a Wikipedia snippet, but its UEFA snippet is more generic and does not clearly provide the asked detail. Since A more directly and reliably supports a correct answer from official UEFA content, A is better."
+}

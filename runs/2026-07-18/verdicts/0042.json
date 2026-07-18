@@ -1,0 +1,11 @@
+{
+  "id": 42,
+  "query": "PSG Arsenal 2025/26 Champions League final penalty shootout scorers lineup May 30 2026",
+  "topic": "UEFA Champions League",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A does not contain the full penalty shootout lineup/scorer sequence. It only states that PSG won 4-3 on penalties and that Eberechi Eze and Gabriel missed for Arsenal. The UEFA result included in A is too sparse to recover the shootout order, and no lineup details are provided. Thus it is insufficient for answering the specific question about penalty shootout scorers lineup.",
+  "b_issues": "Content B relies heavily on a YouTube upload and other secondary/liveblog sources rather than the strongest official source. One result (Vavel) is truncated. The YouTube description includes likely embellishments and at least one dubious/statistically inconsistent claim (e.g. possession figures differ within the same text), so not every surrounding detail is trustworthy. However, the key shootout sequence given matches the anchor/ESPN: Gonçalo Ramos, Viktor Gyökeres, Désiré Doué, Eberechi Eze miss, Nuno Mendes saved, Declan Rice, Achraf Hakimi, Gabriel Martinelli, Lucas Beraldo, Gabriel Magalhães miss.",
+  "reasoning": "The question asks for the PSG-Arsenal 2025/26 Champions League final penalty shootout scorers lineup on May 30, 2026. To answer correctly, the search results must include the actual penalty takers and outcomes in order. Content A does not provide that sequence; it only mentions the final score on penalties and two Arsenal misses. By contrast, Content B explicitly lists the full shootout order and outcomes, which aligns with the anchor and ESPN reference: PSG—Gonçalo Ramos scored, Arsenal—Viktor Gyökeres scored; PSG—Désiré Doué scored, Arsenal—Eberechi Eze missed; PSG—Nuno Mendes saved, Arsenal—Declan Rice scored; PSG—Achraf Hakimi scored, Arsenal—Gabriel Martinelli scored; PSG—Lucas Beraldo scored, Arsenal—Gabriel Magalhães missed. Even though B’s sources are less authoritative, it contains the needed facts accurately, while A does not."
+}

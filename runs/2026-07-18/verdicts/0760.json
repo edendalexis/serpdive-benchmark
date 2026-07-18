@@ -1,0 +1,11 @@
+{
+  "id": 760,
+  "query": "FAA reorganization new safety oversight office airspace modernization advanced aviation technologies office headquarters relocation DOT Washington 2026",
+  "topic": "FAA",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A lacks the official FAA source and does not explicitly mention the Office of Advanced Aviation Technologies by name; it refers more generally to advanced aviation technologies or advanced aviation technology. It also gives the announcement date inconsistently via secondary coverage (AOPA says announced January 26, while anchor FAA release is January 27, 2026).",
+  "b_issues": "Content B also contains the January 26/27 announcement-date inconsistency across secondary vs official sourcing. Some snippets are less precise editorial summaries (e.g., FlyingMag says advanced air mobility integration, while the official naming is Office of Advanced Aviation Technologies).",
+  "reasoning": "B better enables a correct answer because it contains the key facts needed from multiple sources, including the official FAA newsroom page: the FAA reorganization created a new safety oversight office, an Airspace Modernization Office, and an Office of Advanced Aviation Technologies, and it ties the changes to modernization and innovation goals. A has strong corroboration and uniquely mentions the Washington-area headquarters relocation to DOT’s Navy Yard via NATA, but it is weaker on the exact official name of the advanced aviation office and lacks the FAA primary source. Since the query asks about the reorganization elements and DOT Washington 2026 context, B’s inclusion of the official FAA source and explicit naming of all three offices makes it more reliable overall for answering correctly."
+}

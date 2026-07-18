@@ -1,0 +1,11 @@
+{
+  "id": 639,
+  "query": "Perplexity enterprise memory features thread preference retention rollout",
+  "topic": "Perplexity AI",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A does not include the key Perplexity blog/help-center source directly. Its strongest evidence is a LinkedIn post and a third-party blog summarizing memory features, plus one Enterprise result that is about data retention policy rather than memory rollout. The Enterprise Max Threads result looks unofficial/leaky and is not reliable for factual rollout details.",
+  "b_issues": "Content B is weaker and noisier. Its LinkedIn snippet is largely irrelevant/truncated and does not clearly state the memory facts. The third-party index.dev page is broad, secondary, and includes potentially inaccurate or speculative claims (for example plan details and comparative product assertions) unrelated to the specific rollout question. The help-center article is about missing threads and retention policy, not the memory feature rollout itself.",
+  "reasoning": "The query asks about Perplexity Enterprise, memory features, thread/preference retention, and rollout. To answer correctly, the result set needs facts that Perplexity introduced memory that remembers threads/interests/preferences and possibly how retention interacts with enterprise policies. Content A contains a relevant LinkedIn post explicitly saying Perplexity now remembers threads and interests and that memory recall works across models/search modes, plus a third-party article stating the feature remembers preferences and past conversations. It also includes an official Enterprise page about configurable data retention, which helps on the enterprise-retention aspect. Content B has one official help-center page about thread retention policies for Enterprise users, but its other results are weak: the LinkedIn snippet is mostly garbage text, and the index.dev article is a broad secondary roundup rather than a trustworthy source on rollout specifics. So A better equips an LLM to answer the question from the provided content alone."
+}

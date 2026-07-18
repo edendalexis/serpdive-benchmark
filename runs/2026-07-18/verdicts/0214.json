@@ -1,0 +1,11 @@
+{
+  "id": 214,
+  "query": "Lil Tay father Hope Tian death hoax 2023 orchestration accusation denial sources",
+  "topic": "Lil Tay",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "A includes one strong directly relevant source (People) but the rest are weaker for this specific question. The LA Times and ABC7 snippets mainly cover the initial death report/account-compromised claim, not the later accusation and denial. Business Insider is broad background and its snippet is vague. A omits the most directly on-point denial source in the anchor set (NY Post/TMZ-based report) and gives less direct evidence about the orchestration accusation/denial pair.",
+  "b_issues": "B includes Page Six and Yahoo, which are derivative/less primary than a direct interview or Rolling Stone, and the snippets are brief. It also includes LA Times, which is more about the initial death confusion than the later accusation. But these do not materially conflict with the needed facts.",
+  "reasoning": "B better enables a correct answer because it contains the key fact pattern in multiple directly relevant results: Christopher Hope was accused of orchestrating/faking Lil Tay's 2023 death hoax, and he denied it. Crucially, B includes the NY Post result matching the anchor, which explicitly says Hope was accused and denied the claim, and the People result adding that Lil Tay alleged her estranged father wanted to sabotage her and that Hope denied the accusation. Together these support both the accusation and denial and identify sources. A has People, but its other results are mostly about the original hoax and confusion over whether Lil Tay was alive, not the later allegation against Hope. So B is more directly responsive and better sourced for the exact question."
+}

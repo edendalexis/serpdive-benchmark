@@ -1,0 +1,11 @@
+{
+  "id": 765,
+  "query": "FAA eVTOL electric vertical takeoff landing major milestone advanced air mobility",
+  "topic": "FAA",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A has some noisy/irrelevant results (LinkedIn, Facebook) and one Facebook snippet appears mismatched to the FAA milestone topic. It also gives fewer specifics than the anchor, not explicitly stating in the top result that this was an interstate organ-transport test from Virginia to Maryland under the eIPP beyond the medical transport capability wording.",
+  "b_issues": "Content B is also sparse on the key specifics. Its top FAA result mentions organ delivery reliability testing and the eIPP, but omits some concrete details from the anchor such as BETA and United Therapeutics in partnership with Pennsylvania DOT completing an interstate flight test from Virginia to Maryland. It also includes less relevant or secondary results (timeline site, generic eIPP selection coverage).",
+  "reasoning": "Both A and B contain the essential fact needed to answer the query: the FAA’s ‘major milestone’ in Advanced Air Mobility/eVTOL was a flight test involving BETA Technologies and United Therapeutics using an electric aircraft to test organ medical transport under the FAA’s eVTOL Integration Pilot Program. In A, this is stated directly in the FAA newsroom result: BETA and United Therapeutics, with Pennsylvania DOT, flight-tested organ medical-transport capabilities from Virginia to Maryland, and the FAA calls it a major milestone for safely launching AAM aircraft. In B, the same FAA newsroom result similarly states that the purpose was to test the reliability of electric aircraft for critical organ delivery and identifies it as part of the eIPP. Both rely on the same authoritative FAA source and neither materially contradicts the anchor. Since both provide enough accurate information from reliable sources for an LLM to answer correctly, neither is clearly better."
+}

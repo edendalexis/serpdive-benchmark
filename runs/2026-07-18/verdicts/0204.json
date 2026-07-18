@@ -1,0 +1,11 @@
+{
+  "id": 204,
+  "query": "Shohei Ohtani 2026 ESPY Awards specific categories won list",
+  "topic": "Shohei Ohtani",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor issue: one result snippet from Yahoo appears malformed/noisy and another Threads result says 'a few more awards' before listing only two. But A consistently indicates Ohtani won Best Single-Game Performance and Best MLB Player, matching reliable ESPN/ESPN Press Room and MLB references. No material contradiction on the categories won.",
+  "b_issues": "Contains a likely factual error/contradiction: the Hindustan Times result says Shohei Ohtani won Best Athlete, Men's Sports, which conflicts with the anchor and ESPN-based sources showing Jalen Brunson won that award. B does not clearly and reliably list Ohtani's actual winning categories, only that he won multiple awards or gives one category snippet. Source set is weaker and more contradictory.",
+  "reasoning": "The question asks for the specific categories Shohei Ohtani won at the 2026 ESPYs. Content A directly provides the needed list multiple times, including from ESPN Press Room and ESPN-adjacent coverage: Best Single-Game Performance and Best MLB Player. These align with the anchor. Content B is less reliable because one prominent result incorrectly labels Ohtani as the winner of Best Athlete, Men's Sports, and the set does not as clearly provide the full correct won-category list. Therefore A better enables a correct answer."
+}

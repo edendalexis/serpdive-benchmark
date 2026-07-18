@@ -1,0 +1,11 @@
+{
+  "id": 252,
+  "query": "CDC RSV vaccine recommendations 2025 adults 75 older 50 74 high risk single dose repeat dosing",
+  "topic": "RSV vaccines",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Result 3 is inaccurate/ambiguous: it says in June 2025 ACIP voted that adults 50–74 at increased risk 'may receive' a single dose, which is weaker than CDC's recommendation language. Result 4 discusses adults under 60 and is off-target for the query. Result 1 includes extra efficacy details but does not explicitly state the key repeat-dosing guidance ('people who already received one dose should not receive another at this time') in the snippet shown. Overall A has more potentially distracting or mismatched material.",
+  "b_issues": "Includes a manufacturer HCP page (Arexvy) and a news article, which are less authoritative than CDC pages, though they are consistent with CDC here. Minor wording variation in some snippets, but no material contradiction to the CDC recommendation shown.",
+  "reasoning": "Both sets contain the core CDC facts needed: a single RSV vaccine dose is recommended for all adults 75+ and adults 50–74 at increased risk, and repeat dosing is not currently recommended/RSV vaccine is not annual. However, B states the repeat-dosing point clearly in multiple results: the CDC adults guidance says the vaccine is not currently annual and only a single dose is recommended, and the CDC consumer page says those already vaccinated, including last year, should not get another dose at this time. A's top CDC result lacks the explicit no-repeat statement in the snippet provided, and A contains more off-target or potentially confusing material (including a weaker 'may receive' phrasing and a result about adults <60). Therefore B better enables an LLM to answer the question correctly from the returned content alone."
+}

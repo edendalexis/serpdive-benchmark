@@ -1,0 +1,11 @@
+{
+  "id": 481,
+  "query": "Writers Guild Awards 2027 date WGA announcement",
+  "topic": "The WGA",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A includes the key official WGA result with the needed fact: '2027 Writers Guild Awards: Date Announced' stating the ceremony will be held on Saturday, February 13, 2027. However, the snippet is truncated and does not fully show the announcement context. Other results are mostly irrelevant or about 2026, and there is a Reddit result that is not authoritative, but nothing clearly contradicts the key fact.",
+  "b_issues": "Content B also includes the key official WGA result and a featured snippet stating the 2027 Writers Guild Awards will be held on Saturday, February 13, 2027. However, the top result’s displayed snippet omits the date itself, relying on the featured snippet/URL fragment for the fact. It also includes a questionable Wikipedia snippet with dubious strike/cancellation details unrelated to the query, but this does not directly contradict the 2027 date announcement.",
+  "reasoning": "Both A and B provide enough accurate information from an official WGA source to answer the question correctly: the WGA announced that the 2027 Writers Guild Awards will be held on Saturday, February 13, 2027. In A, the first result explicitly states the date in the snippet. In B, the featured snippet explicitly states the same date, and the first result is the official WGA announcement page. Neither set contains a contradiction about the 2027 date, so they enable a correct answer equally well."
+}

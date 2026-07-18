@@ -1,0 +1,11 @@
+{
+  "id": 323,
+  "query": "Scottie Scheffler 2026 Genesis Scottish Open cut status",
+  "topic": "Scottie Scheffler",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A includes a low-reliability Facebook post as the top result, but it is consistent with the stronger sources. One result title says 'set to miss cut' while the snippet says he already missed it, though this is not a substantive contradiction. No clear factual flaw on the core question.",
+  "b_issues": "Content B has some snippet noise/truncation in the Sky Sports result ('Jude Championship...') and mixes in a Golf Channel video result rather than a full article, but the core fact remains clear and consistent. No clear factual flaw on the core question.",
+  "reasoning": "Both A and B clearly support the correct answer: Scottie Scheffler missed the cut at the 2026 Genesis Scottish Open. In A, the PGA TOUR result explicitly says Scheffler shot 2-over 72, fell to even par, and missed a cut expected at 2 under; Sky Sports and Golf Channel also confirm he missed the cut and ended his long streak. In B, the featured snippet directly states he missed the cut, and both Sky Sports and PGA TOUR confirm it, including that he finished even par, two shots outside a 2-under cut line. The facts are present, accurate, and aligned with the anchor in both sets, so neither set is meaningfully better for answering the question correctly."
+}

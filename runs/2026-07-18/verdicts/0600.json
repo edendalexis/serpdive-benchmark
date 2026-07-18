@@ -1,0 +1,11 @@
+{
+  "id": 600,
+  "query": "Bank of Japan July 30-31 2026 Monetary Policy Meeting rate decision outcome",
+  "topic": "Bank of Japan",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "A does not include the actual BOJ July 30-31, 2026 decision release, so the answer is still indirect. The key evidence is a Reuters result saying the board 'decided unanimously to keep borrowing costs steady' at the July meeting; this is secondary reporting rather than the primary BOJ statement. Other results are mostly schedule/prediction pages and do not themselves confirm the outcome.",
+  "b_issues": "B also lacks the actual BOJ July 30-31, 2026 decision release. Its BOJ results are mostly schedule pages only. The strongest non-BOJ evidence is a CNBC article about a December 2025 hike to 0.75% that speculates the BOJ is likely to raise rates in mid-2026, which does not answer the July 30-31, 2026 outcome and could mislead. Another result concerns 2025 dates only and is irrelevant. Bloomberg snippet is about December 2025 as well, not the July 2026 meeting outcome.",
+  "reasoning": "The question asks for the outcome of the Bank of Japan July 30-31, 2026 Monetary Policy Meeting rate decision. Content A contains a Reuters snippet explicitly stating that at the July meeting the BOJ 'decided unanimously to keep borrowing costs steady,' which directly answers the question as a no-change decision. Reuters is a reliable secondary source, and nothing else in A contradicts it; the remaining pages are schedules or predictions. Content B does not provide any source that states the July 30-31, 2026 outcome. Its BOJ schedule page only confirms the meeting date and later release of the Summary of Opinions, while the other substantive results are about December 2025 or unrelated 2025 scheduling. Therefore A better enables a correct answer."
+}

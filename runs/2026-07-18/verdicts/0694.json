@@ -1,0 +1,11 @@
+{
+  "id": 694,
+  "query": "NATO summit 2026 5% GDP defense spending target by 2035 declaration text member commitments",
+  "topic": "NATO",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Result 2 from the NATO declaration snippet is too sparse to convey the 5% commitment details. Result 3 is Wikipedia and asserts that Spain received an exemption from the 5% requirement; this may be contentious and is less reliable than official NATO text. However, A also includes a Congress CRS source and a NATO topic page that state the 2025 Hague commitment as 5% of GDP by 2035, split into 3.5% core defence and 1.5% defence/security-related spending.",
+  "b_issues": "Top result is a Wikipedia article explicitly flagged as possibly incorporating LLM text and needing cleanup, reducing reliability. B lacks any direct NATO official declaration text result for the 2026 Ankara summit or the 2025 Hague declaration. Reuters and media sources mention the target but do not provide the declaration text or authoritative wording of member commitments. The Spain exemption claim appears only in the unreliable Wikipedia result.",
+  "reasoning": "The question asks about the 2026 NATO summit, the 5% GDP defence spending target by 2035, declaration text, and member commitments. Content A better supports a correct answer because it includes an official NATO Ankara Summit Declaration result, an official NATO page on the 5% commitment, and a Congress CRS summary that clearly states the key commitment: allies agreed in 2025 to invest 5% of GDP annually by 2035, composed of 3.5% for core defence requirements and 1.5% for defence- and security-related spending. These are reliable and directly relevant. Content B mainly provides secondary reporting plus a dubious Wikipedia page, with no official NATO declaration text. Although both sets mention the 5% by 2035 target, A provides more authoritative sourcing and the actual commitment structure needed to answer accurately."
+}

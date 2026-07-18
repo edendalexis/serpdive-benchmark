@@ -1,0 +1,11 @@
+{
+  "id": 955,
+  "query": "TikTok Shop FBT storage fee discount percentage inventory 2026 seller tools update",
+  "topic": "TikTok Shop",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A does not directly surface the specific storage-fee discount percentage tied to inventory in the June 2026 seller tools/product update. It includes the authoritative TikTok Shop FBT Rate Card page and the June 2026 Product Innovation page only indirectly via the result list context, but the returned snippets do not explicitly connect the seller-tools update to a named inventory discount percentage. Some top results are third-party and may be less reliable. One snippet says storage is free for 60 days, which may conflict with other third-party claims and is not clearly anchored to the official 2026 rate card details.",
+  "b_issues": "Content B lacks the key official TikTok Shop sources most relevant to the query, especially the June 2026 Product Innovation update and the official FBT Rate Card FAQ. It relies heavily on third-party summaries. It includes potentially inaccurate or unsupported claims such as storage being free for 30 days and a December 2025 storage fee reduction of 14–43%, which may not match the official rate card/update. It also does not clearly identify the seller tools inventory update or the specific discount percentage asked about.",
+  "reasoning": "The query asks about a TikTok Shop FBT storage fee discount percentage related to inventory and a 2026 seller tools update. Content A is better because it contains the official TikTok Shop FBT Rate Card & Frequently Asked Questions result, whose snippet explicitly mentions lowered storage fees, and it also includes an official TikTok Shop 2026 seller-tools/product update result in the result set. That combination gives an LLM a path to the correct answer from authoritative sources. Content B, by contrast, omits the official seller-tools update and the official rate-card result, substituting third-party articles with conflicting storage details. Since the needed facts are more likely to be answered correctly from A's official-source presence and fewer unsupported storage claims, A better enables a correct answer."
+}

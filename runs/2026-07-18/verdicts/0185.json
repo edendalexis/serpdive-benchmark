@@ -1,0 +1,11 @@
+{
+  "id": 185,
+  "query": "IOC 15 new reforms endorsed digital transformation revenue streams details",
+  "topic": "International Olympic Committee",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A is sparse and mostly secondary sources. It does not provide the actual 15 recommendations or much detail beyond saying the reforms were unanimously approved, were based on five pillars including digitisation/sustainability/financial resilience, and mentioned increased digital presence/new revenues. One result is a Facebook post and another is a LinkedIn post, which are weaker sources. It also focuses partly on broader IOC financial reforms rather than specifically detailing the 15 endorsed reforms.",
+  "b_issues": "Content B is largely off-topic. Most results are generic digital-transformation pages unrelated to the IOC query. The only IOC result is about the 146th IOC Session and a later 'Fit for the Future' strategy toward 2032, not the IOC's endorsement of 15 new reforms/Olympic Agenda 2020+5. It does not supply the relevant facts about those 15 reforms, digital transformation within them, or associated revenue-stream details. The inclusion of unrelated 2026 consulting content risks misleading the model.",
+  "reasoning": "A better enables a correct answer because it contains directly relevant evidence that the IOC approved a set of 15 reforms and that these reforms involved digitisation/increased digital presence and new revenues/financial resilience. Reuters and Straits Times are credible enough to support that core answer. By contrast, B mostly lacks relevant IOC material and instead mixes in unrelated generic digital-transformation articles; its one IOC page concerns a different later reform package. So only A contains facts close to the asked topic, even though it is incomplete."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 580,
+  "query": "FTX final creditor payout amount completion date 2026",
+  "topic": "FTX",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A does not directly provide a 'final payout completion date' and includes some noisy/less reliable secondary sources. One result (Finance Magnates) appears internally inconsistent, mentioning a March 31, 2026 round while also saying 'starting with a $7 billion payout in February.' However, A includes the key official PR Newswire result stating the next distribution is on July 31, 2026.",
+  "b_issues": "Content B lacks the key July 31, 2026 distribution result entirely and instead focuses on the March 31, 2026 $2.2 billion payout. It therefore does not support the likely intended answer about the 2026 completion/latest payout amount and date. It also includes less authoritative sources and one result (ROIC) says claims are expected to be settled by March 2026, which conflicts with the anchor showing another distribution in July 2026.",
+  "reasoning": "A better enables a correct answer because it contains the official PR Newswire announcement matching the anchor: the next/likely final 2026 creditor distribution is approximately $900 million, commencing July 31, 2026. B mainly supports an earlier March 31, 2026 payout of $2.2 billion and omits the July 31, 2026 $900 million distribution, so an LLM using only B would likely answer incorrectly."
+}

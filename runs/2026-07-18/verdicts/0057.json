@@ -1,0 +1,11 @@
+{
+  "id": 57,
+  "query": "Nintendo Switch 2 Jurassic World Evolution 2 Complete Edition release date July 2026",
+  "topic": "Nintendo Switch 2",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Includes weaker and less reliable sources near the top (cdkeyprices, Facebook, Instagram, Softonic). One result snippet appears noisy/confused, mentioning 'Jurassic World Evolution 3' and 'Rebirth Expansion' in an Instagram snippet, which could mislead a model. Content A does contain the key date July 30, 2026, but source quality is less consistent.",
+  "b_issues": "One Nintendo Wire snippet is noisy and includes unrelated Castlevania text, which could distract a model. It also repeats the questionable mention that Jurassic World Evolution 3 already released last year, but this does not affect the release-date fact for the queried game.",
+  "reasoning": "Both A and B contain the crucial fact needed to answer the question: Jurassic World Evolution 2: Complete Edition for Nintendo Switch 2 releases on July 30, 2026. However, B better supports a correct answer because its top result is Gematsu, a reliable games news source, explicitly stating Frontier Developments will release the game for Switch 2 on July 30 and that it includes all released DLC. B also has corroborating results from GoNintendo and other outlets repeating the same date. A has the correct date too, but relies more heavily on lower-quality or social-media sources, and one snippet is noisy/confusing enough to risk misleading the model. Therefore B better enables a correct answer from the search results alone."
+}

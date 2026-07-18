@@ -1,0 +1,11 @@
+{
+  "id": 194,
+  "query": "WWDC26 Apple Intelligence onscreen awareness web answers conversation history app Siri AI feature details June 2026",
+  "topic": "Apple Intelligence",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A has some useful facts, but its strongest Siri-specific evidence is thinner and partly indirect. The Apple result shown is mostly availability/device support text, not the Siri feature details asked about. It relies on a third-party recap (The Neuron) for key points like the dedicated Siri app, conversation history, and iCloud sync. The Apple Intelligence marketing page snippet mentions a dedicated app and cross-device continuation, but does not clearly name Siri AI in that snippet. Overall it is less directly grounded in primary-source feature descriptions.",
+  "b_issues": "Content B includes one noisy Apple newsroom result whose snippet is dominated by image alt text about unrelated parental controls, so that result is not very useful. It also includes a broad third-party recap and a YouTube video result rather than only tightly targeted textual documentation.",
+  "reasoning": "B better enables a correct answer because it contains a highly relevant primary Apple newsroom snippet that directly states the key WWDC26 Siri AI facts matching the query: Siri AI has personal context understanding, broad world knowledge, onscreen awareness, answers questions from the web on virtually any topic, surfaces information from messages/emails/photos, and shows conversation history in a new dedicated Siri app. It also includes the Apple Developer WWDC26 video snippet explicitly saying users can ask Siri AI anything and revisit conversations in a new dedicated app. Those are the core details asked about. A does contain some of these facts, but several crucial ones come from third-party material rather than Apple, and its top Apple snippets are less directly about the requested Siri AI features. Neither set shows a clear contradiction, but B has the more direct, reliable, feature-specific evidence from primary Apple sources."
+}

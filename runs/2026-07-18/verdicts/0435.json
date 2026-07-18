@@ -1,0 +1,11 @@
+{
+  "id": 435,
+  "query": "Coppola Variety libel lawsuit ruling outcome 2025",
+  "topic": "Megalopolis",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "No major factual flaw on the 2025 ruling outcome. It includes reliable/supportive results saying Variety lost its bid to dismiss and that Judge Christopher Liu denied the anti-SLAPP motion. Minor issues: top result is an IMDb aggregation rather than a primary report; several results focus on the 2024 filing rather than the 2025 outcome; no direct date in the snippets except implied by linked reporting.",
+  "b_issues": "No major factual flaw on the 2025 ruling outcome. It includes reliable/supportive results stating the motion to dismiss was denied in February 2025 and that Variety appealed. Minor issues: some snippets are about the original 2024 lawsuit rather than the 2025 ruling; one snippet adds extra context about allegations/later litigation that is not needed and could distract.",
+  "reasoning": "Both A and B contain the key fact needed to answer the question: in 2025, the court denied Variety’s bid to dismiss Coppola’s libel/defamation suit (i.e., Variety lost the anti-SLAPP motion), and the case continued with Variety appealing. Content A states this very directly via Hollywood Reporter and Courthouse News snippets. Content B also states it directly, including the February 2025 timing via SFGate. The facts are consistent with the anchor and do not materially contradict each other. Since both datasets equally enable a correct answer, the verdict is tie."
+}

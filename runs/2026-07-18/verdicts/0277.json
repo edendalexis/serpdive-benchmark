@@ -1,0 +1,11 @@
+{
+  "id": 277,
+  "query": "El Salvador gang crackdown total detentions count latest figure 2025",
+  "topic": "Nayib Bukele",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A does not directly provide the latest 2025 figure. Its strongest relevant item is a 2026 EL PAÍS result saying authorities had arrested 91,628 people as of March 25, 2026, plus a Wikipedia snippet saying over 92,480 by June 24, 2026. The GOV.UK result shown does not surface the detention count in the snippet. So an LLM could answer, but would likely give a 2026 figure rather than the requested latest figure for 2025. Wikipedia is also a weaker source than official/government or reported year-end 2025 figures.",
+  "b_issues": "Content B is worse for the specific question because it contains no explicit total detention figure for end-2025 or latest-in-2025. The Amnesty and HRW snippets discuss abuses and context only. The Wikipedia snippet is generic and does not include the total detentions count. InSight Crime also gives no number. Thus the key fact needed to answer the question is essentially absent.",
+  "reasoning": "The anchor indicates the correct latest 2025 total is 90,844 detentions by December 31, 2025. Neither set contains that exact fact clearly. However, A at least includes numerically relevant results tied to the crackdown totals, especially the EL PAÍS snippet with 91,628 arrests as of March 25, 2026 and Wikipedia with over 92,480 by June 24, 2026, showing the right order of magnitude and making it somewhat possible to infer the total scale. B lacks any explicit total detentions count for the relevant timeframe and mostly provides background/context. Therefore A better enables an LLM to answer, though imperfectly and likely not with the exact latest-2025 figure."
+}

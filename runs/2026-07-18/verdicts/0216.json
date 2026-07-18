@@ -1,0 +1,11 @@
+{
+  "id": 216,
+  "query": "Lil Tay recent public appearance since death hoax Los Angeles airport September 2023 mother brother photos video",
+  "topic": "Lil Tay",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Includes a less-relevant 2025 People article that could distract from the September 2023 event, and one SCMP result has only a title with no snippet. Otherwise the key facts are present and consistent: LAX/Los Angeles airport, Sept. 27, 2023, first public sighting in years after the death hoax, with mother Angela Tian and brother Jason, plus mention of photographers/security.",
+  "b_issues": "Result set is thinner on core facts. It includes a vague Complex headline snippet, a YouTube video title, and a 2025 People article that is not focused on the September 2023 appearance. The key details are present only piecemeal, with less explicit confirmation in-snippet that she was with both her mother Angela and brother Jason and fewer directly quoted factual details than A.",
+  "reasoning": "A better enables a correct answer because its snippets explicitly state the central facts needed by the query: Lil Tay was seen alive at a Los Angeles airport/LAX on Sept. 27, 2023, in her first public appearance in about five years after the death hoax, wearing a black hoodie/sunglasses/mask, and accompanied by her mother Angela Tian and brother Jason Tian while photographers surrounded them. B points in the same direction, but its evidence is more fragmentary and less detailed, relying on vague snippets and a video title. Both are broadly consistent with the anchor, but A contains the answer more directly and completely."
+}

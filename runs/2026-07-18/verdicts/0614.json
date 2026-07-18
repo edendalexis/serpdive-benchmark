@@ -1,0 +1,11 @@
+{
+  "id": 614,
+  "query": "Suno AI Warner Music Group licensing partnership settlement date artists control terms",
+  "topic": "Suno AI",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A does not explicitly include the settlement/partnership date in the snippets, though one result strongly implies the event and another source in the set is reliable. It also gives only partial terms: artist control is clearly stated, and download restrictions are partly stated across snippets, but some specifics are incomplete or split across sources.",
+  "b_issues": "Content B is weaker and noisier. Its WMG result snippet is unusable boilerplate and does not surface the key facts. It lacks a clear date in the provided snippets. It includes low-reliability and potentially misleading results such as a Reddit post speculating about ownership/control terms and a Facebook post. The stronger MBW snippet mentions the deal and 2026 models but not the artist-control terms central to the query.",
+  "reasoning": "A better enables a correct answer because it contains the most important facts from reliable sources: the official WMG page states that the deal settles prior litigation, that in 2026 Suno will launch new licensed models, and that artists/songwriters will have full control over whether and how their names, images, likenesses, voices, and compositions are used. Additional A results from Rolling Stone and MBW supply the download-term details, such as downloads continuing for paid users with limits and paid accounts being required for downloads. By contrast, B lacks the key artist-control language in accessible snippets, omits a usable official WMG summary, and introduces unreliable speculative content that could lead an LLM astray. Neither set cleanly surfaces the exact date in the snippets themselves, but A still provides the core settlement and control terms more accurately and with better sourcing."
+}

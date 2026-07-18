@@ -1,0 +1,11 @@
+{
+  "id": 36,
+  "query": "Google non-consensual explicit deepfakes search ranking update July 2026 official announcement",
+  "topic": "Google",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A lacks the official announcement result entirely and instead leads with an irrelevant Google I/O 2026 post. It also frames the query as if there were a July 2026 announcement, but the relevant official announcement is from Jul. 31, 2024. One snippet (Mashable) includes an implausible/irrelevant reference to Google I/O 2026 and Suz Chambers, which is not part of the official announcement. Overall A relies mostly on secondary sources and noisy results, making it easier for an LLM to infer the wrong date or context.",
+  "b_issues": "Content B also does not surface any actual July 2026 official announcement; the relevant official Google post is from Jul. 31, 2024, so the query itself appears date-misaligned. However, B includes the official Google blog post directly and accurate secondary summaries of the ranking/removal changes.",
+  "reasoning": "B better enables a correct answer because it contains the official Google announcement URL/title/snippet directly: 'How Google Search is addressing explicit fake content,' which matches the anchor and states the key facts—Google updated removal processes, filters similar explicit results after successful removals, scans/removes duplicates, and updates ranking systems so explicit fake content appears less prominently; sites with many removals may be demoted. This lets an LLM answer that the official announcement was on Jul. 31, 2024, not July 2026. In contrast, A omits the official post, has a top irrelevant 2026 Google I/O result, and includes noisier/possibly misleading snippets that could cause an incorrect answer about a 2026 announcement."
+}

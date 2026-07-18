@@ -1,0 +1,11 @@
+{
+  "id": 111,
+  "query": "site:lvmh.com July 2026 Les Journees Particulieres 2026 65 venues 11 countries program announcement",
+  "topic": "LVMH",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A does not include the key July 2026 press-release fact pattern from the query: it lacks the explicit program announcement wording and does not mention '65 venues' or '11 countries'. Most results are the general 2026 event landing page in multiple languages, not the specific July 2026 announcement. One snippet says 'Source of Dreams' while others say 'Discover where dreams take root' / 'Aux Racines du Rêve', creating minor wording inconsistency, though not a core factual contradiction.",
+  "b_issues": "Content B is far too sparse and does not contain the requested July 2026 program announcement, nor the crucial facts '65 venues' and '11 countries'. The single result is a generic special-events page and provides only background information, so an LLM could not answer the specific query correctly from it alone.",
+  "reasoning": "A is better because it at least retrieves directly relevant LVMH pages for Les Journées Particulières 2026, including the official event page on lvmh.com with dates and theme. Although it still misses the decisive announcement details in the query ('July 2026', '65 venues', '11 countries', 'program announcement'), it is substantially closer to the target facts and comes from reliable first-party sources. B contains only one generic LVMH special-events snippet with no July 2026 announcement details at all. Therefore, if forced to choose which result set better enables a correct answer, A is clearly superior, even though neither is ideal."
+}

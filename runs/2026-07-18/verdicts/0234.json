@@ -1,0 +1,11 @@
+{
+  "id": 234,
+  "query": "Wikimedia Foundation Brooke Vibber dismissal Community Tech team layoffs editor strike 2026",
+  "topic": "Wikipedia",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A includes several lower-reliability or derivative sources and one clearly problematic snippet: the LinkedIn result says Brooke Vibber was 'fired' and 'creator of MediaWiki,' which is imprecise and unsupported by the anchor; the primary source only confirms his departure, not the cause. A also has weaker direct evidence tying Vibber, the Community Tech layoffs, and the editor strike together, since its strongest corroborating result is The Register and the rest are commentary/aggregators. Some snippets add claims not established in the anchor, such as exact financial context and broad strike tactics, without primary sourcing in the result set.",
+  "b_issues": "Content B also relies heavily on derivative/commentary sources, especially Metaintro and Medium, and repeats the stronger claim that Brooke Vibber was 'fired,' which is not directly confirmed by the anchor or the primary mailing-list post. The Gigazine snippet also labels him a labor-union leader, which may be overstated from the provided evidence. However, B contains a highly relevant on-topic Wikipedia petition page summarizing the relationship between Vibber’s termination, the Community Tech layoffs, and the threatened editorial strike.",
+  "reasoning": "B better enables a correct answer because it contains the key factual linkage the question asks about in one place: the Wikipedia solidarity page states that the strike threat arose in direct response to the Wikimedia Foundation laying off five engineers and a manager on the Community Tech team, and that Brooke Vibber had been terminated the week before. This matches the anchor’s core narrative about Community Tech being dissolved, six staff affected, and editors threatening a strike. B also includes supporting commentary from Medium and Metaintro that places Vibber’s dismissal before the May 21 Community Tech announcement. By contrast, A has some relevant pieces, but its evidence is more fragmented and includes a dubious LinkedIn snippet making strong claims with less trustworthy sourcing. Neither set is perfect, but B more directly and coherently supports the needed answer."
+}

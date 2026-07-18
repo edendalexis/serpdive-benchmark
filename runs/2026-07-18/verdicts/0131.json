@@ -1,0 +1,11 @@
+{
+  "id": 131,
+  "query": "BTS FIFA World Cup Final 2026 halftime show performers",
+  "topic": "BTS",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A contains some inconsistency about who exactly are the 'co-headliners' versus the full performer lineup. FIFA says Madonna, Shakira, and BTS co-headline, while Global Citizen and E! also include Justin Bieber in the broader lineup/co-headline framing. It also includes lower-reliability social results (Facebook/Instagram), but the key factual answer is present in high-reliability FIFA and Global Citizen sources.",
+  "b_issues": "Content B is less directly aligned to the question because its top results often list only partial lineups in the snippets. It also adds extra performers not reflected in the anchor as core halftime performers, such as Ghetto Kids, The Muppets, Sesame Street characters, and Emmanuel Kelly, which could distract or confuse an LLM about who the actual named performers are. There is also the same ambiguity between main headliners and the broader set of participants.",
+  "reasoning": "The question asks about BTS FIFA World Cup Final 2026 halftime show performers. Content A gives the clearest, most direct, and most authoritative answer from FIFA and Global Citizen: Madonna, Shakira, Burna Boy, BTS, Justin Bieber, Gustavo Dudamel, and the PS 22 Chorus featuring Coldplay, with FIFA specifically stating Madonna, Shakira, and BTS are co-headliners. This matches the anchor closely. Content B also contains much of this information, especially via Global Citizen and The Athletic, but several snippets emphasize ancillary participants and omit the core lineup in places, making it more ambiguous for an LLM relying only on snippets. Therefore A better enables a correct answer."
+}

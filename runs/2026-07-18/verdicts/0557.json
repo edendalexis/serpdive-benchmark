@@ -1,0 +1,11 @@
+{
+  "id": 557,
+  "query": "central banks governors solidarity statement Jerome Powell January 2026",
+  "topic": "Jerome Powell",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A is mostly secondary reporting and lacks the primary-source statement itself. It includes an unfinished Reuters headline/snippet ('work on statement') that appears to describe a draft stage rather than the final issued statement. The Guardian snippet says it was signed by 10 central bank governors, while another result says 11 central bankers, creating ambiguity. Overall it provides less direct, less authoritative evidence for the exact statement and signatories.",
+  "b_issues": "Content B contains some noisy/irrelevant results, especially a LinkedIn page with user commentary and a BBC snippet mentioning a criminal investigation into Powell, which is not supported by the anchor and could mislead. It also includes a Federal Reserve speeches page that is irrelevant. The Guardian snippet says 10 signers while the BBC says 11, so there is some inconsistency in secondary reporting.",
+  "reasoning": "B better enables a correct answer because it includes the key primary source: the ECB press release titled 'International central bankers on the statement by Federal Reserve Chair Powell on 11 January 2026,' which directly matches the query and is an authoritative source. That is far stronger than A, which only offers news coverage and no official statement page. Although B has some noisy and possibly misleading secondary snippets, the presence of the official ECB result makes it possible for an LLM to ground the answer in the actual statement. A's evidence is less reliable and more ambiguous about details like whether the statement was still being worked on and how many central bankers signed it."
+}

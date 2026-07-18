@@ -1,0 +1,11 @@
+{
+  "id": 284,
+  "query": "Cognition Devin AI productivity guarantee enterprise $10M refund terms",
+  "topic": "Devin AI software engineer",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A is essentially irrelevant to the query. Its results are unrelated pages (ChatForest, SMBtech category page, PMM Stack) and do not provide the needed facts about Cognition, Devin, the AI Productivity Guarantee, enterprise eligibility, $10M cap, or the refund/credit terms.",
+  "b_issues": "Content B includes some lower-reliability/social snippets (LinkedIn, Instagram) and does not fully spell out all detailed eligibility/terms. It also says 'fund your usage up to $10M' and references 'free usage credits' rather than precisely presenting formal legal refund terms, so an answer may be somewhat incomplete. However, it does not materially contradict the anchor.",
+  "reasoning": "B clearly contains the core facts needed to answer the question from reliable primary sources: the Cognition blog and Devin guarantee page. Those results state that the guarantee is for enterprise customers, that Devin's output is measured in equivalent engineering hours converted to dollar value, and that if the value falls short of usage/spend, Cognition issues free usage credits/funds usage to cover the gap up to $10M. A lacks any relevant source or factual content about the guarantee, so it would not enable a correct answer at all. Therefore B is decisively better."
+}

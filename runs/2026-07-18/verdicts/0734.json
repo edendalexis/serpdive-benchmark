@@ -1,0 +1,11 @@
+{
+  "id": 734,
+  "query": "Gaza ceasefire second phase talks Hamas disarmament governance latest developments",
+  "topic": "Israel-Hamas conflict",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A is missing the latest key development reflected in the anchor: Hamas saying it would dissolve/disband its Gaza governing body and hand governance to a technocratic/national committee. It also includes weaker or less reliable items such as Wikipedia, and one BBC snippet reflects an earlier position that Hamas rejected disarmament talks until phase one was implemented, which may be outdated relative to later June-July developments. The ECFR item is analysis rather than straight reporting.",
+  "b_issues": "Content B has poorer source quality and relevance overall: it includes a malformed Facebook post snippet, a partisan/think-tank Long War Journal piece, and lacks the crucial latest governance development that Hamas would dissolve/disband its Gaza government or hand control to a national/technocratic committee. It also provides less concrete detail on governance and disarmament arrangements than the anchor and than Content A.",
+  "reasoning": "A better enables a correct answer because it contains core facts directly responsive to the query: second-phase talks, that disarmament is a central issue, that negotiations are at a critical moment, and that governance questions remain unresolved. It also includes a BBC item noting Hamas’s earlier refusal to discuss disarmament before phase-one implementation, which helps explain the negotiating impasse. B likewise mentions second-phase talks and disarmament, but its evidence base is weaker and noisier, with less reliable or less informative results and no meaningful governance update beyond generic references to stability. Neither set fully captures the latest anchor developments from June-July 2026—especially Hamas’s readiness to step aside in governance and reported movement on placing weapons under a national framework—but A gets closer on the substantive issues and uses stronger mainstream reporting."
+}

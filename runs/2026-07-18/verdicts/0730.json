@@ -1,0 +1,11 @@
+{
+  "id": 730,
+  "query": "Netanyahu Gaza seizure percentage military orders 2025",
+  "topic": "Israel-Hamas conflict",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "One Guardian snippet includes dubious extra claims not needed to answer the query, such as references to a Trump 20-point peace plan, a UN Security Council resolution delegating monitoring to a 'Board of Peace,' and Nickolay Mladenov as 'high representative in Gaza'; these may be hallucinated or unreliable from snippet extraction. One Al Jazeera snippet says Netanyahu said forces controlled 60%, while another says control was 64% based on maps/OCHA context; this is not a direct contradiction if one is Netanyahu's claim and the other an outside estimate, but it could confuse a model. Results are dated 2026 despite the query mentioning 2025, though they clearly refer back to an October 2025 ceasefire.",
+  "b_issues": "Results are from less-established or more partisan outlets overall, with no major wire or top-tier mainstream source in the visible set. Snippets are sparse and omit key grounding details: they mostly state 70% but provide little context about current control levels, the ceasefire baseline, or direct quotations. One snippet says the military had controlled 50% of Gaza under the ceasefire terms, which appears inconsistent with stronger reporting that the ceasefire left Israel with roughly 53% and that Netanyahu said current control was 60% (with outside estimates around 64%). The set gives weaker evidence and less corroboration.",
+  "reasoning": "Content A better supports a correct answer. It contains multiple reputable sources (Guardian, Al Jazeera, CNN) all converging on the key fact: Netanyahu said he directed the Israeli military to take/control 70% of Gaza, while Israeli forces already controlled about 60% by his account and around 64% by some outside estimates, in tension with the October 2025 ceasefire line. That matches the anchor. Content B also points to 70%, but its snippets are thinner, less corroborated, and come from less reliable or less broadly trusted outlets, with less precise factual support and one potentially misleading 50% figure. Therefore A better enables an LLM to answer correctly."
+}

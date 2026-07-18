@@ -1,0 +1,11 @@
+{
+  "id": 930,
+  "query": "Klarna US bank charter application Utah Klarna Bank USA",
+  "topic": "Klarna",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "No major factual flaws. Content A includes multiple reliable sources and consistently states that Klarna submitted applications to the Utah Department of Financial Institutions and the FDIC to establish Klarna Bank USA as a Utah-chartered industrial bank, with additional corroborating detail that Gary Harding would lead the proposed bank.",
+  "b_issues": "No clear factual contradictions, but some snippets are thinner/truncated. One result is a LinkedIn news page, which is less direct/reliable than the primary and major-news sources. The Klarna press-release snippet is cut off before fully stating the structure/details, so B provides slightly less complete grounding.",
+  "reasoning": "Both A and B contain the core facts needed to answer the query: Klarna applied in July 2026 to the Utah Department of Financial Institutions and the FDIC to establish Klarna Bank USA as a proposed Utah-chartered industrial bank/FDIC-insured bank. However, A better enables a correct answer because it includes stronger and more complete source coverage: CNBC, Business Wire, and Klarna’s own press release all clearly align on the application, jurisdiction, and entity name. A also adds consistent detail about the proposed bank being a wholly owned subsidiary and identifies Gary Harding as CEO. B has the same essential facts, but several snippets are more abbreviated, one is from LinkedIn, and the primary-source Klarna snippet is truncated, making it slightly less robust for an LLM relying only on returned content."
+}

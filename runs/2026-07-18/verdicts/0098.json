@@ -1,0 +1,11 @@
+{
+  "id": 98,
+  "query": "Humane AI Pin first consumer shipping date initial delivery start 2024",
+  "topic": "Humane AI Pin",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Content A contains both the original announced shipping timeframe (March 2024) and later delay coverage to mid-April. That is not inherently wrong, but it could confuse an LLM if the question is interpreted as asking for the actual first consumer deliveries rather than the initial announced start. Some lower-reliability/secondary sources are included (CryptoRank, LinkedIn snippet, Mexico Business), but the key facts are supported by reliable sources like TechCrunch and Engadget.",
+  "b_issues": "Content B also mixes the original announced shipping timeframe (March 2024) with the later delay to mid-April, which may create ambiguity about whether the answer sought is the initial announced ship date or the revised actual start. It includes weaker/noisier results: a Facebook post, a Neatprompts result with an apparent error ('March 2023'), and a thin TechCrunch snippet. However, it still contains reliable support from Engadget and the Humane LinkedIn post for March 2024.",
+  "reasoning": "Both result sets contain the core fact needed to answer the query: Humane initially said the AI Pin would start shipping in March 2024, with priority orders first. Both also include the later revision that shipping was pushed to mid-April, which matches the anchor history. Because each set provides enough accurate information for an LLM to answer correctly depending on whether 'initial delivery start' means the original announced date (March 2024) or the later actual first shipments (mid-April/April 11, 2024), neither clearly outperforms the other. A is slightly cleaner in source quality, but B still equally enables the key answer."
+}

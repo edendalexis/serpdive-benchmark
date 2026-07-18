@@ -1,0 +1,11 @@
+{
+  "id": 607,
+  "query": "Japanese government comments Bank of Japan independence 10-year JGB yields spike June 2026",
+  "topic": "Bank of Japan",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A is largely off-target. It contains general June/May 2026 JGB-yield stories and rate-hike speculation, but not the key government comments about respecting BOJ independence. The top Reuters/Yomiuri item is from May 12, not the July episode referenced by the query/anchor. Other results discuss yields spiking but do not connect them to Japanese government wording on BOJ independence. So an LLM using A alone would likely miss the core answer or infer incorrectly.",
+  "b_issues": "Content B is incomplete and partially paywalled/snippet-based. The Central Banking result only gives a short excerpt, and another Reuters result is about July 16 rather than the original June/early-July trigger. However, B does contain the crucial fact pattern: ministers on July 10 stressed BOJ independence after 10-year JGB yields spiked, and Minoru Kiuchi said the BOJ’s independence must be respected. The Oxford Economics and CNBC items provide surrounding yield context but are secondary.",
+  "reasoning": "B better enables a correct answer because it directly surfaces the main fact the question asks about: Japanese government ministers, especially Minoru Kiuchi, said the BOJ’s independence must be respected after 10-year JGB yields jumped to near/multi-decade highs. That matches the anchor. A mostly provides unrelated or earlier market stories about rising JGB yields and hawkish BOJ signals, without the essential government-independence comments. While B is not perfect, it contains the decisive information; A does not."
+}

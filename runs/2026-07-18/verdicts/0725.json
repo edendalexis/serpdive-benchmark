@@ -1,0 +1,11 @@
+{
+  "id": 725,
+  "query": "European Commission Temu action plan deadline August 28 compliance review period",
+  "topic": "Temu",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A has the key timing mostly only in low-reliability snippets from LinkedIn and Facebook. It says Temu has until August 28 to submit an action plan, but it does not clearly state the compliance review period beyond a vague 'one month to review it' in a social post snippet, and it attributes that review to the European Board for Digital Services without stronger corroboration. The official Commission result shown is about consumer protection laws from 2024 and does not answer the question. Overall, A is sparse and relies on weak sources for the crucial fact.",
+  "b_issues": "Content B does not appear internally contradictory. Some results are secondary/commentary sources rather than the Commission itself, but they consistently state the timeline. One result says the Commission will decide whether the action plan is sufficient and set an implementation period without specifying the review duration, but another provides the full timing.",
+  "reasoning": "The question asks about the deadline and the compliance review period after Temu submits its action plan. Content B directly provides both: Temu has until 28 August 2026 to submit the plan, the European Board for Digital Services will issue an opinion one month after receipt, and then the Commission will have one month to adopt a final decision and set an implementation period. That is enough for an LLM to answer correctly. Content A only clearly supports the August 28 deadline, while the review-period detail is incomplete and comes mainly from unreliable social-media snippets, with no strong official corroboration in the returned results. Therefore B better enables a correct answer."
+}

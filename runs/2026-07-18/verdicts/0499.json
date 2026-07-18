@@ -1,0 +1,11 @@
+{
+  "id": 499,
+  "query": "Wimbledon expansion AELTC on-site qualifying matches other Grand Slams aim 2026",
+  "topic": "Wimbledon",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A contains the key fact, but its strongest explicit statement about the purpose/aim comes from a YouTube repost and an AOL snippet rather than a directly authoritative source. The Wimbledon.com result is truncated and does not by itself clearly state the full answer. There is also some inconsistency in court counts across results (38 vs 39), though this is common in coverage depending on whether the show court is counted separately.",
+  "b_issues": "Content B also has the 38 vs 39 courts inconsistency across sources. One top result is behind The Athletic/NYT, so an agent may have less context if it relies only on the snippet. However, the snippet itself still contains the needed fact.",
+  "reasoning": "The question is asking about the aim of the AELTC's Wimbledon expansion by 2026, specifically regarding on-site qualifying and comparison with the other Grand Slams. Both sets contain the core fact that the expansion is intended to allow Wimbledon to host qualifying matches on site, like the Australian Open, French Open/Roland Garros, and US Open. But B states this more directly and completely: the Athletic snippet says the plans are to keep Wimbledon on equal footing with the other three Grand Slams, all of which host qualifying onsite, and the Yahoo result includes a quote explicitly naming Roland Garros, the US Open, and the Australian Open. A has the same idea, but less cleanly: the clearest wording is from a YouTube repost and a short AOL snippet, while the official Wimbledon page is cut off. Therefore B better enables a correct answer from the provided content alone."
+}

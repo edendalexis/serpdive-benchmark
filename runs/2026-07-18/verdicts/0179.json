@@ -1,0 +1,11 @@
+{
+  "id": 179,
+  "query": "FAA SpaceX Starship previous flight mishap investigation flight safety determination license authorization next launch July 2026",
+  "topic": "SpaceX Starship",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Includes a low-reliability Facebook result as the top hit. One SpaceNews result appears to be about an older 2023 Starship investigation ('first Starship launch', 63 corrective actions) and is therefore off-topic for the July 2026 question. Otherwise A does contain the key Reuters result with the needed facts.",
+  "b_issues": "The FAA General Statements snippet is noisy and appears to conflate multiple unrelated FAA/SpaceX statements (Starship Flight 12, a Starlink mishap, Jan. investigation, Flight 7 license language, and an unrelated July 15 public safety request), which could confuse an LLM. It also includes an off-topic older SpaceNews result about the 2023 first integrated flight and 63 corrective actions. PayloadSpace result seems older and focused on a different licensing stage. However, B still contains the direct FAA source plus Reuters and Spaceflight Now.",
+  "reasoning": "Both sets contain enough to answer that the FAA closed the required mishap investigation into Starship Flight 12 / the May booster return failure, clearing SpaceX for the next launch in mid-July 2026. B is slightly better because it includes the FAA's own General Statements page explicitly saying the FAA-required investigation of the SpaceX Starship Flight 12 launch mishap is closed, alongside Reuters confirming this cleared the way for the next test flight as soon as Thursday. A also has Reuters and Spaceflight Now, but its top result is Facebook and it lacks a direct FAA source. Despite B's FAA snippet being somewhat mixed/noisy, it still more strongly supports a correct answer from authoritative sourcing."
+}

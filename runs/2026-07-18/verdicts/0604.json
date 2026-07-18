@@ -1,0 +1,11 @@
+{
+  "id": 604,
+  "query": "10-year Japanese Government Bond yield exact peak level June 2026 BOJ rate hike",
+  "topic": "Bank of Japan",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "A does not directly provide the exact peak 10-year JGB yield level in June 2026 tied to the BOJ hike. The closest items are indirect or incomplete: MUFG gives only an expected range (2.580%–2.700%), Oxford Economics discusses yields around 2.7% later in 2026, and the Reuters July 16 snippet refers to 3%-3.5% as a later defense line, not the June peak. The result set lacks the key June Reuters/Nikkei-style report stating the intraday/post-hike high above 2% with an exact figure. FRED is too generic and not timely for the event. Overall, insufficient exact-event data.",
+  "b_issues": "B also does not clearly provide the exact peak level. It has stronger event-adjacent coverage: Nikkei says yields rose above 2% after the BOJ hike to a 26-year high, and TradingView says around 2.1%, but neither snippet gives the exact peak percentage. The Yomiuri/Reuters result gives an exact 2.540% figure, but that is from May 12, before the June 16 BOJ hike, so it does not answer the asked event. CNBC confirms the hike but gives no yield level. Thus B is still missing the exact June peak level.",
+  "reasoning": "The question asks for the exact peak level of the 10-year Japanese Government Bond yield around the June 2026 BOJ rate hike. To answer correctly, the search results need to contain both the June BOJ hike context and the exact 10Y yield peak. Neither set fully does so. A has no exact June peak at all; it only has ranges, later summaries, and unrelated later levels. B is somewhat closer because it explicitly links the June BOJ hike to 10Y yields moving above 2% and to a 26-year high, but the snippets still stop short of the exact number. Since neither dataset alone reliably contains the precise answer, neither better enables a correct response in a decisive way."
+}

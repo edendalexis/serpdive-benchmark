@@ -1,0 +1,11 @@
+{
+  "id": 501,
+  "query": "Intel Foundry independent subsidiary separation completion date board structure 2026",
+  "topic": "Intel Foundry",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A does not surface the key facts needed to answer the query: it says Intel Foundry will become an independent subsidiary, but it does not mention the completion date tied to 2026 or the board structure. Its top results are mostly secondary summaries, and one 2026 Substack item is likely irrelevant/noisy for the specific question.",
+  "b_issues": "Content B still does not cleanly provide the exact completion date in 2026 from the snippets alone, so an LLM may have to infer or hedge. However, it includes stronger evidence on board structure via CNBC ('independent unit with its own board') and a more relevant Intel Newsroom result about the foundry operating model/separation context. The Substack result is also noisy/less authoritative.",
+  "reasoning": "B better enables a correct answer because it contains the crucial board-structure fact explicitly: Intel Foundry would be an independent subsidiary with its own board. It also includes more authoritative and relevant sources directly from Intel Newsroom plus CNBC. A confirms only that Intel plans to establish Intel Foundry as an independent subsidiary, but its snippets do not mention 'its own board' or any 2026 completion detail, making it harder for an LLM to answer the full question. Neither set is perfect on the exact 2026 completion date from snippets alone, but B is closer and more reliable overall."
+}

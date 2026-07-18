@@ -1,0 +1,11 @@
+{
+  "id": 316,
+  "query": "Ursula von der Leyen January 2026 Lebanon humanitarian aid pledge 130000 people conflict fallout",
+  "topic": "Ursula von der Leyen",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "A does not surface the key January 2026 statement. Its strongest official result is a March 10 ECHO page about emergency aid, which mentions 90,000 people via WFP, not the 130,000-people pledge in the query. It also mixes in later March reporting about a separate €100 million humanitarian aid announcement, which could mislead an LLM away from the January item. Several sources are secondary or lower-authority, and the set lacks the specific fact pattern tying von der Leyen in January 2026 to support for 130,000 people.",
+  "b_issues": "B’s top result is from ReliefWeb rather than the original EU site, and some other results are secondary/press coverage. It also includes distractors about the later €100 million March 2026 aid and an older 2024 €1 billion package. However, none of this directly contradicts the key fact.",
+  "reasoning": "B better enables a correct answer because its top result explicitly contains the crucial fact from the query: 'President von der Leyen announced a mobilisation of ReliefEU stocks to support some 130,000 persons in Lebanon,' which matches the anchor’s subject about aid for 130,000 Lebanese affected by the regional conflict. A lacks that January/130,000-person fact and instead mainly points to March 2026 developments (90,000 people via WFP and later €100 million aid), so an LLM using only A would be more likely to answer incorrectly or incompletely."
+}

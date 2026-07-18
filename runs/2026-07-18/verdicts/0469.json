@@ -1,0 +1,11 @@
+{
+  "id": 469,
+  "query": "Palworld 1.0 player count Steam concurrent sales figures post launch July 2026",
+  "topic": "Palworld",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A has no solid sales figures at all, despite the query asking for player count, Steam concurrent, and sales figures. It includes low-reliability social posts (Threads, Reddit) with conflicting interim counts: one result says 361,334 peak on July 10, another says 498K in the title, another Reddit post says 700K, while the stronger article says 855,525 by July 12. The best result is directionally correct on concurrents, but the set overall is noisy and internally inconsistent, and it does not clearly supply launch/post-launch sales data.",
+  "b_issues": "Content B is also missing concrete post-launch sales figures. It contains some inconsistency in concurrent counts across timepoints/results: Forbes snippet says 725,000, Threads says 361,334 on July 10, while TechPowerUp, Pocketpair, and TechTimes point to roughly 850,000-855,525 launch-weekend concurrents. However, these can be reconciled as different snapshots over the launch window. One TechTimes result adds legal-claim details that are likely irrelevant and could distract, but not directly harmful to the core answer.",
+  "reasoning": "B better enables a correct answer because it provides multiple higher-reliability sources directly supporting the key post-launch July 2026 concurrent figure: TechPowerUp reports 855,459 peak concurrent players on launch weekend, Pocketpair officially says over 850,000 concurrent players, and TechTimes gives 855,525 concurrent users over the launch weekend. These align closely with the anchor SteamCharts peak of about 855,459. A has one good Niche Gamer result and one TechTimes snippet, but is weakened by contradictory social-media snippets and still lacks usable sales figures. Neither set really answers the sales-figures part well, but B is stronger and more reliable on the central Steam concurrent/player-count facts."
+}

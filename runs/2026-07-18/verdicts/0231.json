@@ -1,0 +1,11 @@
+{
+  "id": 231,
+  "query": "Russian court Wikimedia Foundation fine Ukraine article late 2025 amount",
+  "topic": "Wikipedia",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Result set is somewhat noisy and not clearly focused on the likely target event; it includes older 2022 and early/mid-2023 fines, plus a low-reliability Facebook/WION snippet. It does not directly surface the late-2023/\"late\" Interfax Nov. 1 item from the anchor. However, it does include AP-syndicated/VOA-style reporting stating a 2 million ruble fine for a Ukraine-war-related article, which is consistent with the anchor amount.",
+  "b_issues": "Does not surface the anchor late Interfax Nov. 1 fine. Several top results are older 2022 cases about 5 million and 2 million ruble fines for different Ukraine-related articles, which could mislead an LLM into answering with the wrong amount. The VOA result mentions a 2023 2 million ruble fine but not clearly the same late event as the anchor. Overall the set contains more strong but competing alternative amounts (5 million, 2 million) tied to different incidents.",
+  "reasoning": "The anchor indicates the relevant fact is a late-year Russian court fine on Wikimedia Foundation over a Ukraine-related article, amounting to 2 million rubles. Content A more directly supports that answer because its top result states Wikimedia was fined 2 million rubles for not removing a Wikipedia article, and another result repeats a 2 million ruble fine for an article about the war in Ukraine. Content B contains the correct amount in one result, but its higher-ranked and more detailed results emphasize earlier 2022 fines of 5 million and 2 million rubles for different cases, creating more ambiguity about which amount answers the query. Since the task is to enable an LLM to answer correctly from the provided content alone, A is slightly better."
+}

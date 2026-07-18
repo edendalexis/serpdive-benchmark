@@ -1,0 +1,11 @@
+{
+  "id": 815,
+  "query": "Microsoft Purview DLP Copilot Chat worldwide rollout sensitive data protection web searches 2025",
+  "topic": "Microsoft Copilot",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A lacks the key rollout item for the specific feature in question: DLP protecting sensitive data from external web searches in Microsoft 365 Copilot and Copilot Chat. Its strongest Message Center result (MC1181998) is about safeguarding prompts generally, with a Nov-Dec 2025 public preview, which is a different capability from blocking external web search. The top TechCommunity result mentions the web-search protection only as 'entering Public Preview' but gives no rollout timing. Other results are low-reliability or off-topic (LinkedIn, third-party article about sensitive email grounding, YouTube). This could mislead an LLM into answering with the wrong 2025 timeline or the wrong feature.",
+  "b_issues": "Content B includes one less-relevant/possibly confusing result from 'What's new in Microsoft Purview' that does not answer the query directly, and a LinkedIn post of low evidentiary value. The Learn page is product documentation rather than a rollout notice, so by itself it does not provide timing. However, these do not materially conflict with the key Message Center result.",
+  "reasoning": "Content B better enables a correct answer because it contains the exact Message Center item matching the anchor: MC1263277, which states that Microsoft Purview DLP will block sensitive data in Microsoft 365 Copilot and Copilot Chat from external web searches and gives the worldwide GA rollout timing: begins late May 2026 and completes late June 2026. It also includes the Microsoft Learn page confirming the feature behavior ('Copilot doesn't send the prompt to external web search providers' when prompts contain configured sensitive information types). By contrast, Content A mostly surfaces adjacent but different capabilities, especially MC1181998 about safeguarding prompts generally with a 2025 preview timeline, which is not the same feature as web-search blocking and could cause an incorrect answer to the user's query."
+}

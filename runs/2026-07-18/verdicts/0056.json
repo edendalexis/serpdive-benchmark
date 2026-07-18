@@ -1,0 +1,11 @@
+{
+  "id": 56,
+  "query": "Nintendo Switch 2 Star Fox launch date June 2026 official release",
+  "topic": "Nintendo Switch 2",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Result 2 snippet from the official Nintendo store page is noisy and mixes unrelated dates/prices, which could confuse a model. It says 'Star Fox Direct ... June 25' rather than explicitly 'release date June 25, 2026' in that snippet. Result 3 is Wikipedia, a less reliable source than Nintendo. Otherwise A contains multiple official Nintendo results stating 25 June 2026.",
+  "b_issues": "Includes non-official sources such as Wikipedia, Reddit, and AltChar, which are less reliable. However, B also contains official Nintendo results that explicitly state 'Release date: 25 June 2026' and 'coming to Nintendo Switch 2 on 25 June 2026.'",
+  "reasoning": "Both result sets contain clear, accurate, official Nintendo evidence that answers the question: Star Fox for Nintendo Switch 2 has an official release date of June 25, 2026. In A, this is supported by official Nintendo news/store/direct pages; in B, by official Nintendo game/news pages. Neither set contains a meaningful contradiction on the key fact. Although A has a messy official store snippet and B has more low-reliability extras, both enable an LLM to answer correctly from official sources alone equally well."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 466,
+  "query": "Palworld 1.0 auto-run functionality fast travel resettable missions new partner skills",
+  "topic": "Palworld",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A does not explicitly mention the mission-reset detail in the snippets shown. It also relies partly on secondary summaries rather than the official patch notes. However, it does contain direct evidence for auto-run, fast travel from base range, and partner-skill reworks.",
+  "b_issues": "Content B is weaker for this query because most top results are YouTube videos and broad summaries. The shown snippets do not provide the key details about auto-run, fast travel, or missions being reset. It mostly emphasizes partner skills and general 1.0 changes, so an LLM would have to infer or guess missing facts.",
+  "reasoning": "The query asks about several specific Palworld 1.0 features: auto-run functionality, fast travel, resettable missions, and new partner skills. Content A includes explicit snippet text confirming auto-run ('Implemented an auto-run function' / 'An auto-run feature has been added') and fast travel ('When within the base range, you can fast travel directly from the map'). It also includes a result stating that over 200 Partner Skills were adjusted or replaced. While A does not clearly surface the mission-reset fact in the provided snippets, it still covers most of the asked facts with concrete, accurate-seeming statements from recognizable gaming sources. Content B, by contrast, is dominated by YouTube results and generic overviews; its visible snippets strongly support partner-skill changes but do not clearly provide the auto-run, fast-travel, or resettable-missions details. Therefore A better enables a correct answer overall."
+}

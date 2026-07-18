@@ -1,0 +1,11 @@
+{
+  "id": 676,
+  "query": "Kamala Harris 107 Days memoir book tour international dates cities 2025",
+  "topic": "Kamala Harris",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "A includes mostly high-level mentions and does not provide the actual international dates/cities needed to answer the question. The 107daysbook.com snippet in A is irrelevant to tour dates. A also contains contradictory/noisy results: Wikipedia says 18 appearances while NBC says a 15-city tour, and kamalaharristour.com says a 2026 national tour, which is likely unrelated or unreliable. So A has more distracting/conflicting information and less direct schedule detail.",
+  "b_issues": "B is still incomplete: the visible snippets do not fully enumerate all international dates/cities, and one result is a secondary entertainment site (Consequence) rather than the primary publisher/source. It also includes some nonessential results (Politico dispatch) and only partial schedule text from 107daysbook.com. But it does directly surface the official book site with dated tour entries and People confirming the tour spans the U.S., Canada, and England.",
+  "reasoning": "The question asks for Kamala Harris' 2025 '107 Days' memoir book tour international dates/cities. To answer correctly, the key need is schedule information for the non-U.S. stops. Compared with A, B better enables this because it includes the official 107daysbook.com result with explicit dated tour-entry formatting and corroboration that the tour includes Canada and England. A's strongest source, NBC, only says the tour goes 'from New York and San Francisco to Toronto and London' without giving the actual international dates, and A is muddied by contradictory/unreliable results like Wikipedia and a 2026 fan-style tour site. Thus B provides more directly usable, more targeted evidence for the asked facts."
+}

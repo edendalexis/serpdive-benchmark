@@ -1,0 +1,11 @@
+{
+  "id": 28,
+  "query": "SpaceXAI Grok 4 availability Premium+ SuperGrok API real-time search native tool use announcement",
+  "topic": "xAI",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Includes distracting/off-topic and likely future-dated/rebrand-related results (e.g. SpaceXAI acquisition/rebrand claims in 2026, Grok 4.3 guide) that are not needed for the query. Top result is about Grok 4.5 rather than the Grok 4 announcement. However, the official x.ai Grok 4 result directly contains the key facts: native tool use, real-time search integration, availability to SuperGrok and Premium+ subscribers, and API access.",
+  "b_issues": "The official x.ai Grok 4 snippet is less complete for the specific availability question: it mentions SuperGrok Heavy and native tool use, but the provided snippet does not explicitly include 'available now to SuperGrok and Premium+ subscribers, as well as through the xAI API' or real-time search integration. Other results are secondary sources, a YouTube video, and irrelevant Instagram content. This makes the answer more dependent on non-official or incomplete sources.",
+  "reasoning": "A better enables a correct answer because it contains the official x.ai Grok 4 announcement snippet with the exact facts asked in the query: Grok 4 includes native tool use and real-time search integration, and it is available now to SuperGrok and Premium+ subscribers as well as through the xAI API. That directly matches the anchor. In B, although the official x.ai page is present, its snippet focuses on benchmarking/training and omits the crucial availability wording; the Built In article mentions real-time search and tool use, but relying on a secondary source is less ideal, and the API availability detail is not clearly present in the snippet. Therefore A provides more complete, accurate, and directly answerable evidence from the authoritative source."
+}

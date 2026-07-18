@@ -1,0 +1,11 @@
+{
+  "id": 240,
+  "query": "Voyager 1 current operational instruments status 2026",
+  "topic": "Voyager 1",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Includes a Wikipedia snippet and a third-party SpaceDaily result, so not all evidence is from primary sources. One NASA snippet shown in A is truncated/misleading in isolation: it lists CRS as 'Off to save power (Feb. 25, 2025) — On', which could confuse instrument status without the full table context. However, A also includes the key NASA April 17, 2026 post explicitly stating Voyager 1 has two remaining operating science instruments: the plasma-wave instrument and the magnetometer.",
+  "b_issues": "Does not clearly name both remaining operational instruments from a strong primary source in the retrieved text. The top result discusses shutting off LECP but the snippet provided omits the crucial sentence identifying the two remaining instruments. Other results are weaker or secondary (Phys.org, ScienceDaily, Facebook, Orbital Today), and the Facebook snippet is incomplete ('one that measures magnetic fields' only). As returned, B leaves the answer underdetermined or requiring inference from less reliable sources.",
+  "reasoning": "A better enables a correct answer because it directly contains the needed fact pattern and matches the anchor/NASA source: after LECP was shut off on April 17, 2026, Voyager 1 had two operating science instruments remaining, the Plasma Wave Subsystem and the magnetometer. A provides this both in the featured snippet/Wikipedia extract and, more importantly, in the NASA Science result. B has relevant context about LECP being turned off, but the returned snippets do not reliably provide the full current operational-instruments status; they mostly say an instrument was shut down and imply two remain without clearly identifying both from a primary source. Therefore A is more sufficient, accurate, and reliable for answering the question correctly."
+}

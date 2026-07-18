@@ -1,0 +1,11 @@
+{
+  "id": 349,
+  "query": "Worldcoin WLD daily emission tokens amount after unlock reduction July 24 2026",
+  "topic": "Worldcoin",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "No major factual flaws for this question. Multiple results consistently state total daily WLD emissions/unlocks fall from about 5.1 million to about 2.9 million on July 24, 2026. Minor issue: A lacks the primary World blog result and relies more on secondary reporting; one X post is low-value. It also uses 'unlock'/'emission' interchangeably, but not contradictorily.",
+  "b_issues": "No major factual flaws for this question. Multiple results consistently state total daily emissions fall from about 5.1 million to about 2.9 million WLD on July 24, 2026, and the featured snippet only mentions the community slice falling to 1.6 million, which could be incomplete if read alone. However, the full results clarify the aggregate amount. Like A, B relies mostly on secondary sources rather than the primary World blog.",
+  "reasoning": "The question asks for the daily emission token amount after the July 24, 2026 unlock reduction. Both A and B explicitly contain the needed fact: aggregate daily WLD emissions/unlocks decrease to about 2.9 million WLD per day. This matches the anchor and is repeated consistently across several results in both sets. A states it in TECHi, crypto.news, Yahoo, and Binance. B states it in BeInCrypto, TECHi, MetaMask, and bitcoin.com. Neither set contains a material contradiction on the key answer. B’s featured snippet highlights only the community allocation falling to 1.6 million WLD/day, but the result list also clearly gives the total as 2.9 million, so an LLM could still answer correctly. Therefore both enable the correct answer equally well."
+}

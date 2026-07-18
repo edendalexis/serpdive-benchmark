@@ -1,0 +1,11 @@
+{
+  "id": 389,
+  "query": "Meta Instagram Live Video Ads rollout virtual cards support livestreams commerce",
+  "topic": "Meta",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A is mostly accurate and directly matches the anchor, but several top results are secondary/less-reliable marketing or blog sources. It gives fewer concrete specifics on virtual cards than B (e.g., one-time card numbers, Mastercard/Visa mechanics), though the key facts are still present. No major contradictions seen.",
+  "b_issues": "Content B is also mostly accurate and includes the key facts, but its top result is a blog-style playbook and some results add tangential details (post-view Reels ads, DMA/Comscore reporting changes) that are irrelevant to the query and could distract. Source reliability is similarly mixed, though it does include Search Engine Land. No major contradictions seen.",
+  "reasoning": "Both A and B contain the core facts needed to answer the question correctly: Meta is expanding Live Video Ads globally on Facebook and bringing them to Instagram; it is rolling out virtual-card checkout on Facebook and Instagram in partnership with Mastercard and Visa; and it supports livestream commerce through U.S. live-commerce platform partners such as CommentSold, Firework, LiveMeUp, Sprii, and TalkShopLive. A is slightly cleaner and more directly phrased around livestream shopping, while B includes a bit more detail on how virtual cards work. Since both present the essential facts accurately, include a reliable corroborating Search Engine Land result, and do not materially conflict, they enable an LLM to answer equally well."
+}

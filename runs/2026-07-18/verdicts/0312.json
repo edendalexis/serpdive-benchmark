@@ -1,0 +1,11 @@
+{
+  "id": 312,
+  "query": "Ursula von der Leyen April 2025 EU defence investment plan official name budget amount",
+  "topic": "Ursula von der Leyen",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A is largely irrelevant to the query. One result is about Germany's 2026 federal budget and does not answer the EU defence plan question. The other mentions the plan name 'ReArm Europe plan/Readiness 2030' and gives broad spending figures, but it is from 2026 and does not clearly provide the specific official name and budget amount asked. It also introduces ambiguity by pairing 'ReArm Europe' with 'Readiness 2030' rather than cleanly identifying the April 2025 plan name.",
+  "b_issues": "Content B does not explicitly mention the April 2025 renaming/framing 'ReArm Europe Plan/Readiness 2030'; most results refer to the March 2025 'ReArm Europe Plan'. It also mixes the €150 billion loan instrument with the broader 'up to €800 billion' mobilisation figure, so an LLM could be uncertain which amount is the requested 'budget amount'.",
+  "reasoning": "Content B better enables a correct answer because it directly contains the key facts tied to Ursula von der Leyen's 2025 defence initiative: the official plan name as presented in March 2025 ('ReArm Europe Plan') and the associated amounts (€150 billion in loans and up to €800 billion mobilised overall), with a primary EU Commission source plus consistent major-news corroboration. Content A mostly lacks relevant material and does not clearly answer the question from the returned results alone. Although B is imperfect because it omits the April 2025 'Readiness 2030' framing seen in the anchor and could leave some ambiguity over whether the amount sought is €150 billion or €800 billion, it still provides substantially more of the needed facts from stronger, directly relevant sources."
+}

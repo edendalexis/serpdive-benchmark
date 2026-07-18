@@ -1,0 +1,11 @@
+{
+  "id": 350,
+  "query": "Pope Leo XIV France apostolic visit September 2026 itinerary schedule cities",
+  "topic": "Pope Leo XIV",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A includes a likely inaccurate/contradictory result claiming the trip is structured around Paris, Lyon, and Lourdes, whereas the established itinerary is Paris, Lourdes, and Metz. Its stronger snippets only partially give the schedule, and Paris-specific result does not list the full itinerary. Source quality is mixed, with one clearly speculative/interpretive page and no direct high-authority result in the set.",
+  "b_issues": "Content B uses redirect-style URLs and gives only snippets, so detail is limited. It does not fully spell out the city-by-city activities in one place. However, the itinerary facts present are internally consistent.",
+  "reasoning": "B better enables a correct answer because it consistently presents the key factual itinerary: apostolic journey to France from Sept. 25 to 28, 2026, with visits to Paris, Lourdes, and Metz. It also adds a specific schedule clue beyond just cities: Sept. 25-26 Paris, Sept. 27 Lourdes, Sept. 28 Metz, plus snippets about Lourdes on Sept. 27 and a stop at UNESCO headquarters. A, by contrast, contains a directly conflicting result naming Lyon instead of Metz, which could mislead the LLM into an incorrect answer. Since the question asks for itinerary/schedule/cities, avoiding that contradiction is crucial, so B is the safer and more accurate set."
+}

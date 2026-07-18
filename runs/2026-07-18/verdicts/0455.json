@@ -1,0 +1,11 @@
+{
+  "id": 455,
+  "query": "Swedish Academy Han Kang 2024 Nobel Prize Literature official bio bibliography specific books cited",
+  "topic": "Nobel Prize 2024",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "The top NobelPrize.org result is poorly extracted and truncated, with noisy bibliography fragments rather than a clean list of the specific books cited. It may not by itself expose the full official bio-bibliography text. Non-official results include Wikipedia and other commentary, which are less authoritative.",
+  "b_issues": "It does not surface the official bio-bibliography page at all. The key official NobelPrize.org 'Facts' snippet only mentions a few works ('The Vegetarian, Human Acts and We Do Not Part'), which is not the same as the official bio-bibliography and is likely incomplete for the query asking for the specific books cited there. Other results are Wikipedia, a lecture, and Publishers Weekly, none of which directly answer the official bio-bibliography question.",
+  "reasoning": "The question asks about the Swedish Academy/Nobel official bio-bibliography for Han Kang's 2024 Nobel Prize in Literature and the specific books cited there. Content A includes the actual NobelPrize.org bio-bibliography URL as the top result, which is the correct official source and at least shows bibliography fragments from that page. Content B mainly provides the Nobel 'Facts' page and other secondary or adjacent sources, but not the official bio-bibliography page itself. Since the answer must come from the provided content alone, A better enables a correct answer because it points to the exact official page relevant to the query, whereas B does not."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 327,
+  "query": "Scottie Scheffler FedEx Cup standings ranking 2026",
+  "topic": "Scottie Scheffler",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Result 1 (USA Today) says Scheffler is #1 with 3511 points, while the anchor shows a different snapshot where Scheffler is #2 with 2811 points; this likely reflects different update times. Result 3 (PGA TOUR) is more reliable and states Scheffler is 1st with 3,511 points, but it also differs from USA Today on Matt Fitzpatrick's points (3329 vs 3195), so there is some cross-source inconsistency. Some other results are not directly FedExCup standings (ESPN money/stat leaders).",
+  "b_issues": "Contains conflicting time-sensitive snapshots: Yahoo says Scheffler was #1 with 2711 entering the Memorial on June 2, while USA Today says #1 with 3511 later in the season. PGA TOUR snippet is truncated and less explicit on points. Several results are weak or irrelevant for the exact question (Tour Championship promo page, Data Golf snippet that appears unrelated/mixed with TGL-style contract language, ESPN snippet without clear FedExCup points).",
+  "reasoning": "Content A better enables a correct answer because it includes a direct PGA TOUR FedExCup standings result explicitly listing Scottie Scheffler as rank 1 with 3,511 points, supported by USA Today also listing him at #1. That gives the LLM a clear, current-looking answer to 'Scottie Scheffler FedEx Cup standings ranking 2026.' Content B also contains Scheffler at #1, but it mixes an older June article (2711 points entering the Memorial) with a later USA Today snapshot (3511), plus more irrelevant or noisy results. Since the key fact in A is present in a highly reliable source and with less ambiguity, A is better."
+}

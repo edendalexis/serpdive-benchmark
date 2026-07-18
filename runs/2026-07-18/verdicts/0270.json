@@ -1,0 +1,11 @@
+{
+  "id": 270,
+  "query": "El Salvador Bukele IMF loan amount Bitcoin policy shift 2024",
+  "topic": "Nayib Bukele",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Contains one opinion/CFR result that adds potentially confusing extra claims such as bitcoin no longer having legal status and reserve figures not needed to answer the query. Also includes an IMF library result that is not directly about the 2024 deal. However, A does include a strong BBC result with the key facts and another supporting source stating the loan was $1.4 billion and that bitcoin policies were scaled back.",
+  "b_issues": "Top result says $1.3 billion loan program, which conflicts with the anchor and other results stating $1.4 billion. Mixes preliminary/earlier reporting with later reporting, creating ambiguity about the amount. Includes a Forbes August 2024 piece that is only suggestive and not the final deal. Reuters result is about January 2025 implementation rather than the original 2024 agreement.",
+  "reasoning": "A better enables a correct answer because it contains a high-reliability BBC result directly stating the essential facts: El Salvador struck a $1.4bn IMF deal after scaling back bitcoin policies, including allowing businesses to decide whether to accept bitcoin. A’s supporting result from Baker McKenzie also repeats the $1.4 billion figure and the policy concessions. By contrast, B’s highest-ranked result gives a conflicting $1.3 billion figure, which could lead an LLM to answer the amount incorrectly. Although B also includes BBC and Reuters material pointing to the same policy shift, the contradiction on the loan amount makes it less reliable for answering correctly from the search results alone."
+}

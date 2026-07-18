@@ -1,0 +1,11 @@
+{
+  "id": 22,
+  "query": "SpaceXAI Grok For Government US customers launch",
+  "topic": "xAI",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A does not contain the key launch announcement result. Its top results are mostly later/secondary or tangential items, including a Reuters-derived piece about weak traction months later, a TechCrunch article about a later $0.42 GSA offer, and an unrelated 2026 blog post about a supposed SpaceX-xAI acquisition. It lacks the core fact from the launch: that xAI for/Grok for Government was announced as a suite available first to United States government customers. The third result is especially unreliable/tangential for answering the launch query.",
+  "b_issues": "Content B has minor naming inconsistency between 'xAI For Government' and 'Grok For Government,' but the results make clear they refer to the same launch context. It also includes a YouTube result that is less authoritative than the primary xAI source. No major factual contradiction is evident.",
+  "reasoning": "Content B better enables a correct answer because it directly includes the primary xAI announcement page stating that xAI For Government is 'a suite of frontier AI products available first to United States Government customers,' which matches the anchor closely and answers the launch question. It also includes corroborating secondary coverage from GovConWire and FedScoop noting the launch timing, U.S. government customer focus, and related DoD/GSA availability. Content A mostly surfaces later developments and unrelated/tangential material, so an LLM relying only on A would be much less likely to answer the launch question accurately."
+}

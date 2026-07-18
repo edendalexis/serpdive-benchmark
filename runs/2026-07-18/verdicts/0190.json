@@ -1,0 +1,11 @@
+{
+  "id": 190,
+  "query": "Apple Intelligence Siri AI WWDC26 public beta release date 2026",
+  "topic": "Apple Intelligence",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A does not give the exact public beta release date in the snippets. Apple’s newsroom result only says the public beta will be available 'next month' after WWDC26, and other snippets say 'in July' or discuss developer beta timing. It therefore supports only an approximate answer unless the model infers July 2026. However, the sources are generally reliable and internally consistent.",
+  "b_issues": "Content B includes weaker and less reliable sourcing at the top (e.g., WindowsForum). It also does not provide the exact date in the snippets: Mashable says Apple 'officially released the public betas ... on Monday' but does not state the calendar date in the snippet itself, requiring inference from publication context not present in the result. Other results focus on WWDC announcements or fall launch timing rather than the public beta date. Reliability is mixed compared with A.",
+  "reasoning": "The question asks for the 2026 public beta release date of Apple Intelligence/Siri AI after WWDC26. Neither set cleanly states the exact date visible in the anchor (July 14, 2026). But A better enables a correct answer because it contains Apple’s official WWDC26 newsroom announcement saying developer testing starts immediately and the public beta arrives 'next month,' plus corroborating snippets saying the public beta is planned for July 2026. Those are high-reliability, non-contradictory signals. B has one useful Mashable result indicating the public betas were released 'on Monday,' but without the explicit date in the snippet and with weaker surrounding sources, it is less dependable for deriving the correct date from the content alone."
+}

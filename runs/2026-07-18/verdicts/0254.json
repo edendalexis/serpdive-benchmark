@@ -1,0 +1,11 @@
+{
+  "id": 254,
+  "query": "name second FDA approved RSV monoclonal antibody infants 2025",
+  "topic": "RSV vaccines",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Minor ambiguity: the featured snippet emphasizes ACIP recommendation language ('second long-acting monoclonal antibody product') rather than directly naming the FDA-approved product in the snippet itself, though the CDC result content explicitly states FDA approved clesrovimab (Enflonsia, Merck) as a second long-acting RSV monoclonal antibody. No material factual contradiction appears.",
+  "b_issues": "No major factual flaws. The top result clearly states clesrovimab is the second one-shot monoclonal antibody approved for RSV prevention in the U.S., and another result gives the brand name Enflonsia and approval date. Minor imprecision: some snippets say 'newborns' or 'babies' rather than the exact FDA indication wording, but this does not change the answer.",
+  "reasoning": "Both result sets contain the key fact needed to answer the question correctly: the second FDA-approved RSV monoclonal antibody for infants in 2025 is clesrovimab, brand name Enflonsia. In A, the CDC MMWR result explicitly says 'FDA approved clesrovimab (Enflonsia, Merck), a second long-acting RSV monoclonal antibody, for prevention of RSV-associated LRTI among infants,' and supporting results mention Beyfortus/nirsevimab as the earlier product. In B, the Healio result directly says 'Clesrovimab is the second one-shot mAb to be approved for RSV prevention in the U.S.,' and another result names Enflonsia and its June 9, 2025 approval. The sources in both sets are sufficiently reliable and consistent, so both enable a correct answer equally well."
+}

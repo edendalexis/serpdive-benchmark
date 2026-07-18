@@ -1,0 +1,11 @@
+{
+  "id": 833,
+  "query": "Julian Assange US travel restriction ban details after conviction June 2024",
+  "topic": "Julian Assange",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A does not directly provide the specific post-conviction U.S. travel restriction/ban details. It mainly says Assange would plead guilty, be freed, and return to Australia, plus that Saipan was chosen because he opposed travel to the U.S. mainland. It lacks the actual plea-agreement restriction language if that is what the question seeks.",
+  "b_issues": "Content B also lacks the specific travel restriction/ban details after conviction. It includes an older 2021 BBC extradition result that is not about the June 2024 plea outcome, which adds noise and could mislead. Otherwise it mainly says he would return to Australia after pleading guilty and receiving time served.",
+  "reasoning": "Neither set contains the key factual detail needed to answer a question about the 'US travel restriction ban details after conviction' in June 2024. The anchor indicates the relevant source would likely be the court filing/plea documents, but neither A nor B includes those details. Content A is slightly better because it at least includes Reuters and LA Times snippets noting why Saipan was chosen—Assange opposed travel to the U.S. mainland—which is closer to the travel-related aspect of the question. Content B contains mostly generic biography/timeline material and even an outdated extradition article, so it is less focused and more potentially confusing. Still, neither truly enables a correct detailed answer from the provided content alone."
+}

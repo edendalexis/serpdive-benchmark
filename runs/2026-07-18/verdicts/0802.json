@@ -1,0 +1,11 @@
+{
+  "id": 802,
+  "query": "Satya Nadella ultimatum top executives commit to AI or leave Microsoft senior leadership report 2026",
+  "topic": "Satya Nadella",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A is somewhat thin and includes secondary/aggregator coverage (Times of India, Briefs, Financial Express, Yahoo). The key Business Insider result shown is only a partial excerpt from the later 2026 follow-up story rather than the full original December report, so some context is indirect. However, it does contain the core facts: Nadella told top leaders to commit to the AI transformation or leave; this was reported by Business Insider; he personally pressed executives; and it connects to leadership restructuring and AI-focused changes.",
+  "b_issues": "Content B relies more heavily on lower-reliability or derivative sources (Communications Today, MSN syndication, CIO Bulletin). Its Business Insider snippet focuses mainly on the 2026 leadership reset and omits the explicit ultimatum details present in A. The top result is a vague paraphrase ('AI grind') without clear sourcing details. Overall it provides less precise evidence tying the question’s 'commit to AI or leave' report to specific reporting and internal leadership changes.",
+  "reasoning": "A better enables a correct answer because it directly includes the central claim from the relevant report: Satya Nadella told Microsoft’s top executives to sign on to the company’s AI transformation or leave, according to internal documents and employee interviews obtained by Business Insider. It also adds useful specifics: Nadella saw AI as both an existential threat and major opportunity, personally spoke with senior leaders, and made leadership changes such as promoting Judson Althoff to free his own time for technical AI work. B has some overlapping facts, but its strongest Business Insider snippet is more about dismantling the SLT and creating a new inner circle, while the ultimatum itself is conveyed mostly through weaker derivative sources. So A contains the needed facts more directly and reliably."
+}

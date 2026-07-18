@@ -1,0 +1,11 @@
+{
+  "id": 601,
+  "query": "Kazuo Ueda BOJ Governor health status return schedule July 2026",
+  "topic": "Bank of Japan",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A has the key facts, but it leans heavily on the earlier June 10 hospitalization reports and only one result clearly gives the later updated status and return date. It also includes a lower-reliability aggregator (Mezha) with an inaccurate claim that the BOJ was widely expected to raise rates next week, and the result set does not explicitly surface the return date in multiple places. The July schedule is present only as attendance at the July 30–31 meeting, not as a broader July return schedule.",
+  "b_issues": "Content B is mostly accurate and directly aligned with the anchor. Minor issue: one result is an aggregator/republisher (Yahoo/BT syndication) rather than the primary source, and the Mezha item includes speculative political analysis that is not necessary to answer the question. However, the core facts are not contradicted.",
+  "reasoning": "The question asks about Ueda’s health status and return schedule in July 2026. The anchor says he was discharged from hospital on June 19, scheduled to return to work on June 23, would continue outpatient treatment for about two weeks, and was expected to attend the next policy meeting at the end of July. Content B presents these exact facts more directly and from stronger sources: Bloomberg states he was discharged and would continue official duties while undergoing outpatient treatment; Yahoo/BT says he plans to return to work on Tuesday; The Business Times explicitly says he is expected to attend the next policy meeting at the end of July. Content A also contains the needed information, but it is less cleanly surfaced: the first several results focus on the initial hospitalization, and only one later Reuters/Yahoo item states discharge and return-to-office Tuesday. Therefore B better enables a correct answer from the search results alone."
+}

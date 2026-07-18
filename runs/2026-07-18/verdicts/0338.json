@@ -1,0 +1,11 @@
+{
+  "id": 338,
+  "query": "Longlegs 2024 movie Neon highest grossing domestic independent film record",
+  "topic": "Longlegs",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Featured snippet is about a different milestone: highest-grossing independent film release of 2024 globally, not specifically Neon’s domestic record. One result (ScreenRant) says the film is 'on track to beat' Parasite at $51M domestic, which is an earlier/prospective framing than the later confirmed record. Otherwise the key facts are present and consistent via Deadline/Variety.",
+  "b_issues": "Top result is Wikipedia, which is less reliable than trade sources. The Wikipedia snippet says 'highest-grossing film domestically' and 'highest-grossing independent film of the year' but does not clearly specify the actual record benchmark or that it surpassed Parasite’s $53.37M domestic total. The Hindu snippet is potentially misleading, calling it the 'highest-grossing U.S. indie film,' which overstates the claim; the anchor supports that it is Neon’s top domestic grosser and the highest-grossing indie horror of the last decade, not the highest-grossing U.S. independent film overall.",
+  "reasoning": "A better supports a correct answer because it includes reliable trade-source results that directly state the relevant record: Deadline says Longlegs is passing/surpassing Parasite as Neon’s highest-grossing movie ever domestically, with totals around $51.8M and then $58.6M; Variety also says it ranks as Neon’s highest-grossing film of all time, outperforming Parasite’s $53.36M in North America. That directly answers the query about the Neon highest-grossing domestic record. B also contains useful evidence, especially the Deadline result, but it is weaker overall because its lead evidence is Wikipedia and one result appears to overclaim that Longlegs is the highest-grossing U.S. indie film generally. So A more cleanly and accurately enables the LLM to answer the question."
+}

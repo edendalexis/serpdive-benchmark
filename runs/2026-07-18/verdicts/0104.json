@@ -1,0 +1,11 @@
+{
+  "id": 104,
+  "query": "Boeing Q4S mission space-based quantum network entanglement swapping lab test details",
+  "topic": "Boeing",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A lacks the primary Boeing source and is more dependent on secondary summaries. It provides fewer concrete mission details from the anchor, such as the explicit claim that the payload demonstrated leading performance within real-world power/weight constraints and that final spacecraft integration is underway. It also includes a low-reliability/irrelevant LinkedIn result. Some details are thin or potentially distracting, e.g. a generic PayloadSpace snippet about temperature control/mirror alignment rather than the specific Boeing test details.",
+  "b_issues": "Content B includes some weaker results (LinkedIn, a Johns Hopkins page with an outdated/partial snippet mentioning a 2026 hope), but its top results are stronger and more directly relevant. No major contradiction appears in the core results, though the lower-ranked 2024 snippet could confuse timing if over-weighted.",
+  "reasoning": "B better enables a correct answer because it contains the official Boeing newsroom release matching the anchor, plus corroborating secondary coverage. The Boeing result directly states the key facts the question asks about: Q4S successfully demonstrated entanglement swapping in ground/lab testing; the capability was achieved within the power, weight, and environmental constraints of a compact satellite payload; the payload completed environmental qualification testing; and it is in final spacecraft integration ahead of a planned 2027 launch and on-orbit demonstration. Content A has broadly similar themes, but relies mostly on secondary reporting and omits some of the most precise official details present in B. Therefore B is the better set for answering correctly from the provided content alone."
+}

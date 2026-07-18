@@ -1,0 +1,11 @@
+{
+  "id": 892,
+  "query": "Alien Romulus sequel official release date announcement",
+  "topic": "Alien: Romulus",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "A does not contain the strongest direct answer to the query. Its best relevant result says only that an official release date has not yet been announced, but this comes from a fan/lore site (Weyland Uplink), which is less reliable than mainstream reporting. Another result is irrelevant/noisy (Wikipedia about the 2024 film itself), and one result is speculative and likely inaccurate/noisy (MovieWeb discussing a different director and unrelated release timing). It also lacks the NME result that directly states no release date has been confirmed.",
+  "b_issues": "B includes noisy and potentially misleading Reddit results about the original film's Disney+ or theatrical release, not the sequel. Its top Weyland Uplink result is also a fan site and includes extra claims that may be speculative. However, B also includes a directly relevant NME result stating 'No release date has been confirmed,' which is the clearest answer.",
+  "reasoning": "The question asks for the official release date announcement of the Alien: Romulus sequel. Based on the provided evidence and the anchor, the correct answer is that there has been no official release date announcement/confirmation yet. Both A and B contain this basic fact via Weyland Uplink, but B better enables a correct answer because it additionally includes the NME result explicitly saying 'No release date has been confirmed,' which is a more reliable and direct source than the fan-site summary in A. Although B has some irrelevant Reddit noise, it still provides the clearest path for an LLM to answer correctly that no official release date has been announced."
+}

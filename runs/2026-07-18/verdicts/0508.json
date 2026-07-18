@@ -1,0 +1,11 @@
+{
+  "id": 508,
+  "query": "Intel Foundry CHIPS Act $3B funding Secure Enclave program government manufacturing contract award date 2026",
+  "topic": "Intel Foundry",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A is unusable for the query: it returns an unrelated ChatForest homepage with no relevant facts about Intel, CHIPS Act funding, Secure Enclave, or an award date. It does not contain the answering facts at all.",
+  "b_issues": "Content B does not clearly address the trailing '2026' in the query and does not provide any 2026 award date; one result includes an unrelated site timestamp/snippet mentioning Jan. 10, 2026 that could be distracting. The results are mostly secondary/press-release reposts rather than top-tier primary reporting, though they are broadly consistent.",
+  "reasoning": "B better enables a correct answer because it contains the core facts needed: Intel was awarded up to $3 billion under the CHIPS and Science Act for the Secure Enclave program, and multiple results state this was announced 'today' on the publication date of those September 2024 articles, matching the anchor that the award date was Sept. 16, 2024. B also consistently describes the program as for secure/trusted semiconductor manufacturing for the U.S. government/DoD. A contains no relevant information, so an LLM using A alone could not answer correctly."
+}

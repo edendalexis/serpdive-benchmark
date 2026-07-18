@@ -1,0 +1,11 @@
+{
+  "id": 103,
+  "query": "Boeing MQ-28 Ghost Bat Valiant Shield 2026 U.S. Air Force multinational joint force first collaborative combat aircraft details",
+  "topic": "Boeing",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A relies heavily on secondary reposts and social-media results (Facebook, Instagram), with limited detail beyond the core claim. It does not clearly include dates, locations, or the fuller operational details from the anchor such as the exercise window, Marianas operating area, or the purpose of developing tactics/ACE data. No obvious internal factual contradiction is present in A.",
+  "b_issues": "Content B includes one result (MiGFlug) with likely inaccurate or unsupported specifics versus the anchor and other results: it says the exercise ran from 23 June to 1 July across Hawaii, Japan, and Australia, and claims MQ-28 flew alongside F-22s in defensive/offensive counter-air missions; those details are not supported by the anchor, which instead cites 22 June to 1 July and aircraft such as F-35A/F-35B/F-15EX/E-3/E-2D/EA-18G/RC-135/HC-130J. B therefore contains more risk of contamination from dubious added details, though its stronger results are otherwise aligned.",
+  "reasoning": "Both A and B contain the key facts needed to answer the question: Boeing’s Australian-developed MQ-28 Ghost Bat participated in Valiant Shield 2026; it was the first collaborative combat aircraft in a multinational/joint operational exercise; it integrated with U.S. Air Force and coalition/joint aircraft; and examples of partner aircraft include F-35A, F-35B, F-15EX, HC-130, E-3, E-2D, EA-18G, and RC-135. A states these core facts directly via AvWeb and Joint Forces. B also states them, and adds useful context about informing USAF CCA requirements and tactics/techniques/procedures. However, B also includes at least one result with questionable extra claims not supported by the anchor, while A is sparser and less detailed. Netting this out, both datasets still enable a correct answer about the first multinational joint-force CCA deployment and its basic details equally well."
+}

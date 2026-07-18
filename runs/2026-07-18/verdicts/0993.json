@@ -1,0 +1,11 @@
+{
+  "id": 993,
+  "query": "Nicolas Cage True Detective Season 5 Henry Logan casting confirmed",
+  "topic": "True Detective",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Includes a low-reliability X/Twitter result at the top and some secondary/aggregator sources. However, it also includes Deadline directly and consistently states Cage is only 'in talks' and not officially confirmed.",
+  "b_issues": "The key Deadline snippet is truncated and omits the specific Henry Logan detail, forcing reliance on weaker sources for that fact. It also includes a fandom wiki and a speculative Military.com piece. Yahoo's title ('to Cast Nicolas Cage') could misleadingly imply confirmation, though its snippet says he is only in talks.",
+  "reasoning": "The question is whether Nicolas Cage's casting as Henry Logan in True Detective season 5 is confirmed. Content A more clearly supports the correct answer: no, it is not confirmed; Deadline explicitly says Cage is 'in talks' for the lead role of Henry Logan, and other results in A reinforce that HBO has not officially confirmed casting. Content B also points toward 'in talks,' but its best source snippet (Deadline) lacks the Henry Logan role detail, and the set leans more on weaker or potentially misleading sources such as Yahoo's title, a fandom wiki, and a speculative article. So A better enables an LLM to answer correctly from the provided content alone."
+}

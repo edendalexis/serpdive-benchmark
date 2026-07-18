@@ -1,0 +1,11 @@
+{
+  "id": 768,
+  "query": "FAA United Airlines $255,000 civil penalty response appeal outcome 2026",
+  "topic": "FAA",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "No actual appeal/response outcome is provided; the results only show that the FAA proposed the $255,000 penalty and that United has 30 days to respond. The generic FAA press releases result is not specific to United. One legal-update result appears to confuse airlines, mentioning a similar $255,000 penalty against American Airlines, which could distract but does not directly contradict the United-specific FAA/Aviation24 results.",
+  "b_issues": "No actual appeal/response outcome is provided. The top result is an X/Twitter post, which is less reliable. Another result is an unrelated older Aviation Week story about $2.5 million fines against United/ACA. A Facebook snippet vaguely says cases can be appealed through administrative channels but gives no outcome. Overall the set is thinner and less authoritative.",
+  "reasoning": "Content A better supports a correct answer because it includes a direct FAA result for the exact matter ('FAA Proposes $255,000 Fine Against United Airlines...') plus Aviation24 repeating the key fact that this is only a proposed penalty and United has 30 days to respond. From A alone, an LLM can correctly say that as of the cited July 2026 material, no response/appeal outcome is given yet. Content B also lacks any outcome, but its evidence is weaker: it leans on social media, a shop/blog page, an unrelated older fine, and a vague Facebook snippet. Thus A more reliably enables the best possible answer: there is no reported 2026 appeal/response outcome in the provided results, only the proposal and response window."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 788,
+  "query": "Netanyahu lobby Trump joint military offensive Iran February 2026 regime change",
+  "topic": "Benjamin Netanyahu",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A is dominated by weak or inaccurate sources. The top result is a Wikipedia page asserting highly specific claims such as Khamenei being assassinated on Feb. 28, 2026 and Trump covertly arming Kurdish rebels; these are not supported by the anchor and are risky for an LLM to rely on. Its only directly relevant mainstream result is a brief GBH/NPR-style summary saying the U.S. and Israel launched strikes on Feb. 28 with regime-change goals, but it does not clearly answer the key part of the query about Netanyahu lobbying Trump in February 2026 for a joint offensive. Other results are tangential, truncated, or opinion pieces (e.g. New Republic), and there is little reliable detail tying together the February lobbying, Trump’s approval, and regime-change objective.",
+  "b_issues": "Content B also includes a problematic Wikipedia result and some opinion/analysis sources. One result from The Wire is only a fragment and not useful. However, these issues are outweighed by a strong directly relevant New York Times result and a corroborating Arab Center summary.",
+  "reasoning": "Content B better enables a correct answer because it contains the key fact pattern reflected in the anchor: Netanyahu had been pressing Trump for months and made a classified presentation in the White House Situation Room in February 2026 that influenced Trump’s decision to join Israel in attacking Iran. The NYT result explicitly says Trump’s go-ahead was influenced by Netanyahu’s February presentation and subsequent White House discussions. The Arab Center result corroborates that on Feb. 28, 2026, the United States and Israel launched a joint attack and that Trump declared the aim was regime change in Tehran. Together, these results let an LLM answer the query: yes, Netanyahu lobbied Trump in February 2026 for a joint military offensive on Iran, and the operation launched on Feb. 28 was framed as seeking regime change. Content A lacks a comparably strong reliable source directly connecting the February lobbying to Trump’s decision."
+}

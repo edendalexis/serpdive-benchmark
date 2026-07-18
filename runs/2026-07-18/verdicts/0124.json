@@ -1,0 +1,11 @@
+{
+  "id": 124,
+  "query": "Japan Prime Minister Sanae Takaichi Yasukuni Shrine visit 2026 date announcement",
+  "topic": "Japan Prime Minister",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Content A does not directly provide a clear 'announcement date' for a visit; instead it shows reporting that Takaichi was considering skipping a visit (Apr. 17, 2026) and then that she sent a ritual offering on Apr. 21, 2026 without visiting. One result is about October fall rites and is not directly relevant to the 2026 spring-festival question. Some official-site results are unrelated noise.",
+  "b_issues": "Content B also does not directly provide a clear 'announcement date' for a visit; it mainly shows Apr. 17, 2026 reporting that she would skip/is considering skipping a visit and Apr. 21, 2026 reporting that she sent a ritual offering instead of visiting. It includes low-reliability/noisy Facebook results, including one with extraneous or garbled content.",
+  "reasoning": "Both sets contain the key facts needed to answer the likely underlying question: Takaichi did not make a Yasukuni Shrine visit in this instance, and on Apr. 21, 2026 she made a ritual offering for the spring festival instead. Both also contain the earlier Apr. 17, 2026 report that she was expected to skip a visit during the festival. Relative to the anchor, these facts are accurate and non-contradictory. Neither set cleanly answers a literal request for a 'date announcement' of a visit, because there was no actual visit date announced in the provided evidence; rather, there was reporting on skipping the visit and then an offering on Apr. 21. A has somewhat better source quality overall, but B includes NHK and a clear Straits Times snippet stating Apr. 21 and no in-person visit. Since both enable essentially the same correct answer and neither uniquely resolves an announcement date, the result is a tie."
+}

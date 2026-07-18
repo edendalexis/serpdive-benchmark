@@ -1,0 +1,11 @@
+{
+  "id": 167,
+  "query": "Rivian Greg Revelle appointed Chief Customer Officer date January 2026 background customer experience role",
+  "topic": "Rivian",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A lacks the primary Rivian newsroom/Business Wire source and relies mostly on secondary or republished coverage. One result is explicitly AI-generated/machine-translated (Sahm Capital), which is less reliable. However, the key facts are consistent across results: appointment date Jan. 12, 2026; Revelle came from Revatek; prior roles at Kohl's, Best Buy, AutoNation, Expedia; Cars.com board member; role covers the customer journey and go-to-market strategy including sales, marketing, and operations.",
+  "b_issues": "Content B also lacks the primary Rivian newsroom/Business Wire result. The top LinkedIn result snippet is not useful for the appointment question. The WardsAuto snippet is truncated and includes an unclear/possibly misleading line about Revatek ceasing operations, but it does not directly contradict the core facts. Despite that, B still contains the needed facts through EV.com and MediaPost: effective Jan. 12, 2026; background at Revatek/Kohl's/Best Buy/AutoNation/Expedia/Cars.com; role overseeing customer journey and go-to-market including sales, marketing, and operations.",
+  "reasoning": "Both result sets provide enough accurate information for an LLM to answer the question correctly. From A, multiple results state that Rivian appointed Greg Revelle Chief Customer Officer on January 12, 2026, that he joined from Revatek, had leadership roles at Kohl's, Best Buy, AutoNation, and Expedia, serves on the Cars.com board, and would oversee the entire customer journey and Rivian's go-to-market strategy including sales, marketing, and operations. From B, EV.com, WardsAuto, and MediaPost provide the same essential facts, including the Jan. 12, 2026 effective date and his customer-experience role. Neither set shows substantive contradictions on the core facts, and both are sufficient to answer the query accurately."
+}

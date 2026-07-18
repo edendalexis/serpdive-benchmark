@@ -1,0 +1,11 @@
+{
+  "id": 537,
+  "query": "Mattel 2026 Barbie playsets folding house pizza playset three dolls reveal",
+  "topic": "Barbie",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A is sparse and relies heavily on weak sources like YouTube and YouLoveIt rather than Mattel product pages. It does not directly surface the key Mattel Weekend Escape House product page or the Mattel Pizza Shop product page. It also does not clearly identify the three-doll pizza playset by product name, only indirectly via a general Mattel new arrivals page and unrelated videos.",
+  "b_issues": "Content B includes the Mattel dollhouses/playsets collection page and a YouLoveIt page about the folding house, but it lacks the crucial pizza playset result with three dolls entirely. The Mattel collection page is generic and even says smaller gift sets may include dolls but are typically sold separately, which does not answer the specific three-doll pizza playset question. It also does not provide the reveal-specific or product-specific facts needed.",
+  "reasoning": "The query appears to ask about 2026 Barbie playsets, specifically a folding house and a pizza playset with three dolls, likely asking what was revealed. The anchor confirms two relevant facts: the foldable house is the Barbie Weekend Escape House and the pizza playset exists as a Barbie Pizza Shop Playset; the anchor also includes a third-party result explicitly naming a 2026 pizza playset with Barbie Malibu, Brooklyn, and Chelsea dolls. Content A at least contains a direct result about the 2026 folding house stating only Barbie is included and not her sisters, which aligns with the anchor's Weekend Escape House being a foldable house and not a multi-doll set. A also includes a Mattel new-arrivals page that mentions multi-doll Barbie playsets, making it somewhat more plausible for an LLM to connect the query components. Content B has a reliable Mattel collection page plus the same YouLoveIt folding-house page, but nothing about the pizza playset with three dolls, so it is missing a central fact needed to answer the question. Therefore A better enables a correct answer, though imperfectly."
+}

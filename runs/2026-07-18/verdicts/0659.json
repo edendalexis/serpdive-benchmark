@@ -1,0 +1,11 @@
+{
+  "id": 659,
+  "query": "UNRWA Lebanon flash appeal 2024 Israel-Lebanon conflict emergency shelters number displaced persons housed official figures",
+  "topic": "United Nations Relief and Works Agency for Palestine Refugees in the Near East",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Most top results are about 2026, not the 2024 Israel-Lebanon conflict, so they are temporally off-target and could mislead. The only clearly relevant 2024 result is the UNRWA Lebanon Crisis Flash Appeal page, whose snippet gives funding sought but does not provide the key figures asked for: number of emergency shelters and displaced persons housed. No result snippet in A directly states the official 2024 shelter and IDP figures from UNRWA situation reports.",
+  "b_issues": "All returned results are about 2026, not 2024. The snippets only mention 2026 figures for two emergency shelters and about 1,719-1,741 displaced people, which do not answer the question about the 2024 Israel-Lebanon conflict or the 2024 UNRWA Lebanon flash appeal. No 2024 official figures are present.",
+  "reasoning": "A is the better set because it at least includes one directly relevant 2024 UNRWA source: the Lebanon Crisis Flash Appeal dated 3 October 2024, from the official UNRWA site. B contains only 2026 situation reports, so an LLM relying on B would almost certainly answer with the wrong year and wrong figures. Neither set cleanly contains the specific official 2024 figures seen in the anchor (for example, 11 emergency shelters and 3,281 registered IDPs as of 20 November 2024, or nearby November/October counts), but A has some relevant 2024 signal while B has none. Therefore A better enables a correct answer, though still imperfectly."
+}

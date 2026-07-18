@@ -1,0 +1,11 @@
+{
+  "id": 622,
+  "query": "Novak Djokovic Wimbledon all-time wins record 2026",
+  "topic": "Novak Djokovic",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor issue: includes a Wikipedia result, which is less authoritative than newswire/sports outlets. One snippet from The Athletic oddly says Djokovic moved to within one of Rafael Nadal’s 22 Grand Slam titles and overtaking Federer, which is unrelated to the Wimbledon-wins query and could be distracting, but it does not conflict with the key fact. Otherwise the results consistently state Djokovic reached 106 Wimbledon singles wins, surpassing Roger Federer’s 105 for the men’s record.",
+  "b_issues": "Contains a potentially outdated/contradictory ATP Tour snippet stating Djokovic has a 102-13 Wimbledon record and lost in the 2025 semifinals, which conflicts with the 2026 record-setting result of 106 wins. Also includes less relevant/noisy results such as Tennis-X grand slam finals and an Instagram post about 105 wins, which could confuse the current record. The top Olympics result is truncated.",
+  "reasoning": "The question is asking for Djokovic’s Wimbledon all-time wins record in 2026. Content A gives multiple clear, consistent snippets from credible sources saying Djokovic earned his 106th Wimbledon singles win in 2026, surpassing Roger Federer’s previous men’s mark of 105. Content B also has that fact in its top result, but it mixes in a conflicting ATP Tour snippet with an older 102-13 record and noisier less-relevant results, increasing the chance an LLM answers incorrectly or hesitates. Therefore A better enables a correct answer."
+}

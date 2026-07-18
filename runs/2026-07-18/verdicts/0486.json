@@ -1,0 +1,11 @@
+{
+  "id": 486,
+  "query": "WGAW Los Angeles Awards Show canceled picket line strike announcement date reason",
+  "topic": "The WGA",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "The key facts are only partially exposed in snippets. The official WGA result in A does not include the announcement date or the picket-line reason in its snippet, and instead emphasizes ticket-purchase timing and honorees. The result set requires stitching together details from third-party sources. No direct contradiction, but the evidence is less complete from the returned text alone.",
+  "b_issues": "The official WGA snippet in B also omits the explicit announcement date and picket-line language, so the answer still depends mainly on third-party snippets. However, there are no clear factual contradictions in the returned content.",
+  "reasoning": "B better enables a correct answer because its snippets directly contain the core facts asked: the Los Angeles awards show was canceled because WGAW staff were on strike, and the guild would not ask members or guests to cross a picket line. The Los Angeles Times snippet in B explicitly says the letter was sent 'on Sunday' and gives the reason with a quote about not crossing a picket line; the IndieWire snippet adds that the strike began February 17. A has similar supporting results, but its top official result is less useful and its snippets are more fragmented, with the cancellation reason and announcement timing less clearly presented from the returned text alone. Therefore B provides the necessary facts more directly and reliably."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 814,
+  "query": "Microsoft Copilot federated connectors general availability MCP Model Context Protocol LSEG HubSpot Notion partners official 2025",
+  "topic": "Microsoft Copilot",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A has strong official Microsoft Learn coverage of what federated connectors are and that they use MCP, but it does not provide the key official fact about general availability or the named first-wave Microsoft-built partners in 2025/2026. Its only result mentioning GA and partners like HubSpot, Notion, Linear, Canva, Moody's, and LSEG is a LinkedIn post, which is not an authoritative source. So the crucial answer elements are missing from reliable sources.",
+  "b_issues": "Content B includes the needed official Microsoft Community Hub announcement, but several additional results are lower-reliability secondary/social sources and one says connectors were available worldwide from April to May 2026, which may be rollout detail rather than the core announcement. Still, these do not directly contradict the main official result.",
+  "reasoning": "B better enables a correct answer because it contains an official Microsoft Community Hub post explicitly stating the key facts: Microsoft announced general availability of federated Copilot connectors; they bring real-time data via Model Context Protocol (MCP); and the first wave of Microsoft-built federated connectors includes Canva, HubSpot, Intercom, Linear, LSEG, Moody’s, and Notion, with availability in Microsoft 365 Copilot Chat and Researcher and Excel support for LSEG and Moody’s coming soon. A has official docs about federated connectors and MCP, but lacks an official source for the GA announcement and named partners, forcing reliance on a LinkedIn post for the central facts. Therefore B is the better set for answering the query correctly."
+}

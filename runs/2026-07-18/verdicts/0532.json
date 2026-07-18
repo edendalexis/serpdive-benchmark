@@ -1,0 +1,11 @@
+{
+  "id": 532,
+  "query": "Barbie Type 1 diabetes doll insulin pump 2025 release date Mattel",
+  "topic": "Barbie",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "A does not explicitly state the Mattel release date in the snippets shown. It includes reliable supporting evidence that the doll has an insulin pump and CGM, and a Mattel product page, but the key date must be inferred from news result timestamps rather than clearly given from Mattel. No clear factual contradictions are present.",
+  "b_issues": "B also does not include the actual Mattel press release result, though it does contain multiple snippets explicitly giving July 8, 2025 and mentioning the insulin pump. Some sources are less authoritative (People, New York Post) than Mattel/Breakthrough T1D, but there is no obvious contradiction.",
+  "reasoning": "The question asks for the Barbie type 1 diabetes doll with insulin pump and its 2025 Mattel release date. Both result sets contain enough information for an LLM to answer that Mattel released/announced the first Barbie doll with type 1 diabetes on July 8, 2025, and that it includes an insulin pump. In A, the insulin-pump fact is well supported and the Mattel product page is present, but the date is only indirectly available via article dates and not clearly tied to Mattel in the snippet. In B, the date July 8, 2025 is explicit in multiple snippets, and the insulin-pump fact is also explicit, but the source set is not clearly better overall because it lacks Mattel directly and leans more on secondary coverage. Since both sets enable a correct answer and neither has a decisive factual advantage, the best verdict is a tie."
+}

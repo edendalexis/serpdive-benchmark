@@ -1,0 +1,11 @@
+{
+  "id": 315,
+  "query": "Ursula von der Leyen early 2026 Mercosur trade deal EU application despite legal review announcement",
+  "topic": "Ursula von der Leyen",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A has the core fact, but several results are thin snippets or liveblog-style summaries rather than clearly authoritative reporting. It does not clearly provide the timing/detail that provisional application could start after Mercosur-side ratification and EU notification, and one result is just a YouTube duplicate. Overall it is somewhat sparse on the legal-review mechanics.",
+  "b_issues": "Content B includes a law-firm analysis and a business site, which are secondary sources rather than straight news reporting, and it introduces extra technical framing ('Interim Trade Agreement', 'EMPA') that could confuse some models if not handled carefully. However, these do not appear to contradict the core facts.",
+  "reasoning": "Both sets contain the key answer: von der Leyen/Commission announced on 27 February 2026 that the EU would provisionally implement/apply the Mercosur trade deal despite the European Parliament having triggered a legal/CJEU review that paused ratification. But Content B supports that answer better. Its White & Case result explicitly states the Commission would proceed 'notwithstanding the European Parliament's request for a prior opinion from the Court of Justice of the European Union,' gives the 21 January 2026 Parliament action, and explains likely next steps/timing after Argentina and Uruguay ratified. The Euronews and DW results in B reinforce the same facts. Content A also has Euronews and supportive snippets, but several entries are less precise, more redundant, or less authoritative, so B better equips an LLM to answer correctly and confidently from the search results alone."
+}

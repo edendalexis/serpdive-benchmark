@@ -1,0 +1,11 @@
+{
+  "id": 147,
+  "query": "Red Lobster August 2024 sale 23 restaurants bankruptcy court buyers",
+  "topic": "Red Lobster",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A has only snippet-level results with limited detail. It mentions the 23 restaurant closures and separately the later court-approved sale, but does not clearly identify the buyers in the returned text except indirectly via a Reuters snippet about lenders including Fortress Investment Group. It also has a likely inaccurate snippet saying the Chapter 11 petition was approved, whereas Chapter 11 cases are filed, and what was approved was the sale/restructuring plan. Overall, key facts are fragmented and less explicit.",
+  "b_issues": "Content B does not itself state the Aug. 22 court filing date in full detail, and one People snippet is truncated. It also says Red Lobster closed at least 99 restaurants / still operates 544 locations, which may reflect timing differences versus reports of 23 more closures, but this is not a clear contradiction.",
+  "reasoning": "Content B better supports a correct answer because it explicitly contains both sides of the query: (1) the August 2024 closure of 23 restaurants via the People result, and (2) the bankruptcy sale/buyers via ABC News and Reuters. ABC clearly names the approved buyer as RL Investor Holdings LLC, created by funds managed by affiliates of Fortress Investment Group, with co-investors TCW Private Credit and Blue Torch Capital. Reuters adds that no other bidders stepped up and that lenders including Fortress were set to take control. Content A has relevant pieces, but they are thinner, less explicit, and include a misleading snippet about the bankruptcy petition being approved. Therefore B more reliably enables an LLM to answer the question correctly from the provided content alone."
+}

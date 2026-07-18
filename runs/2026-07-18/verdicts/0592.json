@@ -1,0 +1,11 @@
+{
+  "id": 592,
+  "query": "COP30 adaptation finance tripling 2035 target amount USD baseline year",
+  "topic": "COP climate summit",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A does not fully resolve the baseline year with certainty. It gives the target amount clearly ($120 billion by 2035) and strongly suggests the COP26 doubling target based on 2019 levels (~$18.8 billion) is the relevant baseline, but also includes sources noting that COP30 text lacked clarity on the baseline year. So an LLM could infer 2019, but the ambiguity remains.",
+  "b_issues": "Content B lacks the key facts needed to answer the question. It mentions tripling adaptation finance by 2035, but does not provide the target amount in USD or the baseline year. The remaining results are generic COP30 pages and a Wikipedia article with no relevant finance specifics.",
+  "reasoning": "The question asks for the COP30 adaptation-finance tripling target amount in USD and the baseline year. Content A contains a highly relevant WRI result explicitly stating the goal was tripled to $120 billion by 2035, and it also provides the COP26 reference that adaptation finance was to double from 2019 levels of about $18.8 billion. Carbon Brief and ODI in A further discuss that the baseline year was unclear in the COP30 text, while indicating the COP26 doubling target is the likely reference point. That is enough for an LLM to answer approximately: $120 billion, baseline likely 2019, with ambiguity noted. Content B only says COP30 called for tripling adaptation finance, without the USD amount or baseline year, so it does not enable a correct answer from the content alone."
+}

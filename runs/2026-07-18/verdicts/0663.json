@@ -1,0 +1,11 @@
+{
+  "id": 663,
+  "query": "Ilya Sutskever Safe Superintelligence research infrastructure cloud provider partnership",
+  "topic": "Ilya Sutskever",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A includes weak/unreliable results high in the ranking (Instagram, LinkedIn post, Wikipedia) and lacks a clearly reliable primary/news result stating the partnership details beyond a Yahoo syndication snippet. The key fact is still present: SSI chose Google Cloud / Google Cloud TPU chips as its infrastructure partner. No major internal contradiction is visible.",
+  "b_issues": "Content B also relies on weaker sources near the top (LinkedIn article, Wikipedia), and the Yahoo result snippet shown omits the core fact unless inferred from the title. However, B does contain the key fact explicitly in the LinkedIn snippet and corroborates it via Wikipedia. No major internal contradiction is visible.",
+  "reasoning": "The question asks which cloud provider partnered with Ilya Sutskever’s Safe Superintelligence for research infrastructure. The anchor says SSI partnered with Google Cloud and is using Google Cloud TPUs. Both A and B contain that answer. A states it directly in the Instagram snippet ('chosen Google Cloud as the core infrastructure partner') and Yahoo title/snippet ('taps Google Cloud ... using Google Cloud TPU chips'). B states it directly in the LinkedIn snippet ('partnering with Google Cloud to use TPUs') and also in Wikipedia ('Google Cloud announced a partnership to provide TPUs for SSI's research'). Neither set is clearly superior on factual answerability: both expose the essential fact, both lean somewhat on less authoritative sources, and neither materially contradicts the anchor."
+}

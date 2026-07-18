@@ -1,0 +1,11 @@
+{
+  "id": 645,
+  "query": "Berkshire Hathaway Todd Combs departure JPMorgan Chase end of 2025 Berkshire portfolio exits Amazon Mastercard Visa 2026",
+  "topic": "Berkshire Hathaway",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A has the Todd Combs/JPMorgan departure fact, but it does not clearly provide the 2026 Berkshire portfolio exits from Amazon, Mastercard, and Visa. The only mention of those names is incidental in a Motley Fool/Yahoo snippet about recommendations, not Berkshire exits. It also includes a low-reliability Instagram result and a Finviz aggregation snippet mentioning other 2026 portfolio moves that are not directly tied to the queried exits and may confuse the answer.",
+  "b_issues": "Content B includes a Daily Hodl result, which is less reliable than top-tier financial reporting, and an Oninvest summary that appears secondary/aggregated and awkwardly states Combs would 'move to a competitor at the end of 2025.' It also says 'before his firing,' which conflicts with the anchor that Combs resigned for JPMorgan. However, the key facts still align overall: Combs left Berkshire in December 2025 for JPMorgan, and Berkshire later exited Amazon, Visa, and Mastercard in 2026 filings.",
+  "reasoning": "B better enables a correct answer because it contains both halves of the queried fact pattern: (1) Todd Combs left Berkshire for JPMorgan as Buffett's transition approached, and (2) Berkshire's 2026 portfolio disclosures showed exits from Amazon, Visa, and Mastercard. A only reliably covers the first half and lacks a clear, direct source for the 2026 exits. Although B's sources are weaker and somewhat imperfectly worded, the necessary facts are present and mostly consistent with the anchor, whereas A is missing the core portfolio-exit information needed to answer the question fully."
+}

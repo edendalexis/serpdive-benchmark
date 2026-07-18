@@ -1,0 +1,11 @@
+{
+  "id": 687,
+  "query": "Public Eye May 2025 Shein supplier factories Guangzhou overtime 75-hour weeks investigation",
+  "topic": "Shein",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Does not surface the key Public Eye primary-source page directly. Top result is a secondary repost/summary, and one result is an X post. Query mentions May 2025, but results are mostly about the May 2024 follow-up investigation; this could confuse timing. Otherwise the core facts are broadly accurate: Public Eye said workers in Guangzhou supplier factories were still doing 75-hour weeks in a follow-up investigation.",
+  "b_issues": "Also does not surface the key May 2024 Public Eye follow-up page directly; the Public Eye result shown is the older 2021 feature ('Toiling away for Shein'), which could mix old and new findings. Query mentions May 2025, but results are mostly about May 2024. One result (Rogue Valley Times) appears to contain a likely inaccurate wage figure ('2,400 yuan per month') inconsistent with the BBC/Public Eye reporting of roughly 6,000–10,000 yuan. Otherwise the main BBC result accurately captures the follow-up investigation.",
+  "reasoning": "Both result sets contain enough accurate information for an LLM to answer the question: Public Eye's follow-up investigation found that in Guangzhou-area Shein supplier factories, excessive overtime persisted and 75-hour work weeks were still common, despite Shein's promises of improvement. In A, this is stated in the Human Trafficking Search and Business & Human Rights summaries; in B, it is clearly stated in the BBC result. Neither set clearly resolves the 'May 2025' wording, because both mainly return coverage of the May 13, 2024 Public Eye follow-up rather than a distinct May 2025 investigation. Since both provide the essential facts and both have similar weaknesses around date ambiguity and lack of the exact primary press-release result, neither is clearly better overall."
+}

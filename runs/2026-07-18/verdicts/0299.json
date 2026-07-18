@@ -1,0 +1,11 @@
+{
+  "id": 299,
+  "query": "X video reaction selfie overlay feature release date posts",
+  "topic": "Twitter",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A mostly has thin snippets and weaker sources. It includes low-reliability or hard-to-verify items like a Facebook post, YouTube video, and an X post, and it does not clearly provide the release date in the snippets. One snippet says “Reply in post,” which appears inconsistent with the actual feature name “React with Video.”",
+  "b_issues": "Content B does not explicitly show the release date in the provided snippets either, and some results are about later related video tools rather than the original launch. However, it includes a direct Social Media Today result with the key fact pattern and generally more reliable supporting context.",
+  "reasoning": "The question is asking about the release date/posts for X’s video reaction selfie overlay feature. The anchor shows the relevant fact is the launch of X’s “React with Video” feature on June 2, 2026, letting users respond to posts with overlaid selfie-style video. Between the two sets, B better enables a correct answer because it contains a reliable Social Media Today result explicitly describing the filmed selfie overlay and the “React with video” reply option on iOS. Its other results are from generally credible outlets and support the same feature family. A has similar descriptive snippets, but the evidence is thinner, more mixed in reliability, and lacks a strong direct source snippet with enough context; several results are social/video reposts rather than dependable reporting. So B is slightly better positioned for an LLM to infer the correct answer, even though neither set cleanly states the exact June 2, 2026 date in the snippet text."
+}

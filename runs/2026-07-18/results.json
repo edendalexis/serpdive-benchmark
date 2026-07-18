@@ -1,0 +1,734 @@
+{
+  "by_topic": {
+    "Academy Awards Oscars": {
+      "error": 0,
+      "mako": 3,
+      "n": 10,
+      "tavily": 3,
+      "tie": 4
+    },
+    "Alien: Romulus": {
+      "error": 0,
+      "mako": 5,
+      "n": 10,
+      "tavily": 4,
+      "tie": 1
+    },
+    "Anthropic": {
+      "error": 0,
+      "mako": 7,
+      "n": 10,
+      "tavily": 3,
+      "tie": 0
+    },
+    "Apple Intelligence": {
+      "error": 0,
+      "mako": 7,
+      "n": 10,
+      "tavily": 2,
+      "tie": 1
+    },
+    "BTS": {
+      "error": 0,
+      "mako": 4,
+      "n": 10,
+      "tavily": 3,
+      "tie": 3
+    },
+    "Bank of Japan": {
+      "error": 0,
+      "mako": 6,
+      "n": 10,
+      "tavily": 1,
+      "tie": 3
+    },
+    "Barbie": {
+      "error": 0,
+      "mako": 4,
+      "n": 10,
+      "tavily": 3,
+      "tie": 3
+    },
+    "Benjamin Netanyahu": {
+      "error": 0,
+      "mako": 5,
+      "n": 10,
+      "tavily": 3,
+      "tie": 2
+    },
+    "Berkshire Hathaway": {
+      "error": 0,
+      "mako": 5,
+      "n": 10,
+      "tavily": 2,
+      "tie": 3
+    },
+    "Blue Origin": {
+      "error": 0,
+      "mako": 3,
+      "n": 10,
+      "tavily": 3,
+      "tie": 4
+    },
+    "Boeing": {
+      "error": 0,
+      "mako": 7,
+      "n": 10,
+      "tavily": 2,
+      "tie": 1
+    },
+    "COP climate summit": {
+      "error": 0,
+      "mako": 5,
+      "n": 10,
+      "tavily": 1,
+      "tie": 4
+    },
+    "Claudia Sheinbaum": {
+      "error": 0,
+      "mako": 7,
+      "n": 10,
+      "tavily": 1,
+      "tie": 2
+    },
+    "Cybercab": {
+      "error": 0,
+      "mako": 8,
+      "n": 10,
+      "tavily": 1,
+      "tie": 1
+    },
+    "Devin AI software engineer": {
+      "error": 0,
+      "mako": 5,
+      "n": 10,
+      "tavily": 3,
+      "tie": 2
+    },
+    "EU AI Act": {
+      "error": 0,
+      "mako": 7,
+      "n": 10,
+      "tavily": 2,
+      "tie": 1
+    },
+    "Elon Musk": {
+      "error": 0,
+      "mako": 5,
+      "n": 10,
+      "tavily": 2,
+      "tie": 3
+    },
+    "Emmanuel Macron": {
+      "error": 0,
+      "mako": 1,
+      "n": 10,
+      "tavily": 7,
+      "tie": 2
+    },
+    "European Central Bank": {
+      "error": 0,
+      "mako": 5,
+      "n": 10,
+      "tavily": 2,
+      "tie": 3
+    },
+    "FAA": {
+      "error": 0,
+      "mako": 3,
+      "n": 10,
+      "tavily": 5,
+      "tie": 2
+    },
+    "FTX": {
+      "error": 0,
+      "mako": 5,
+      "n": 10,
+      "tavily": 1,
+      "tie": 4
+    },
+    "Gaza ceasefire negotiations": {
+      "error": 0,
+      "mako": 6,
+      "n": 10,
+      "tavily": 3,
+      "tie": 1
+    },
+    "Google": {
+      "error": 0,
+      "mako": 4,
+      "n": 10,
+      "tavily": 4,
+      "tie": 2
+    },
+    "Grand Theft Auto VI": {
+      "error": 0,
+      "mako": 8,
+      "n": 10,
+      "tavily": 2,
+      "tie": 0
+    },
+    "H5N1 bird flu": {
+      "error": 0,
+      "mako": 0,
+      "n": 10,
+      "tavily": 6,
+      "tie": 4
+    },
+    "Hades II": {
+      "error": 0,
+      "mako": 3,
+      "n": 10,
+      "tavily": 4,
+      "tie": 3
+    },
+    "Humane AI Pin": {
+      "error": 0,
+      "mako": 3,
+      "n": 10,
+      "tavily": 4,
+      "tie": 3
+    },
+    "Ilya Sutskever": {
+      "error": 0,
+      "mako": 3,
+      "n": 10,
+      "tavily": 2,
+      "tie": 5
+    },
+    "Intel Foundry": {
+      "error": 0,
+      "mako": 6,
+      "n": 10,
+      "tavily": 2,
+      "tie": 2
+    },
+    "International Olympic Committee": {
+      "error": 0,
+      "mako": 7,
+      "n": 10,
+      "tavily": 3,
+      "tie": 0
+    },
+    "Israel-Hamas conflict": {
+      "error": 0,
+      "mako": 8,
+      "n": 10,
+      "tavily": 1,
+      "tie": 1
+    },
+    "JD Vance": {
+      "error": 0,
+      "mako": 4,
+      "n": 10,
+      "tavily": 5,
+      "tie": 1
+    },
+    "Japan Prime Minister": {
+      "error": 0,
+      "mako": 5,
+      "n": 10,
+      "tavily": 2,
+      "tie": 3
+    },
+    "Javier Milei": {
+      "error": 0,
+      "mako": 7,
+      "n": 10,
+      "tavily": 3,
+      "tie": 0
+    },
+    "Jerome Powell": {
+      "error": 0,
+      "mako": 1,
+      "n": 10,
+      "tavily": 5,
+      "tie": 4
+    },
+    "Julian Assange": {
+      "error": 0,
+      "mako": 3,
+      "n": 10,
+      "tavily": 4,
+      "tie": 3
+    },
+    "Kamala Harris": {
+      "error": 0,
+      "mako": 6,
+      "n": 10,
+      "tavily": 2,
+      "tie": 2
+    },
+    "Keir Starmer": {
+      "error": 0,
+      "mako": 5,
+      "n": 10,
+      "tavily": 2,
+      "tie": 3
+    },
+    "Klarna": {
+      "error": 0,
+      "mako": 1,
+      "n": 10,
+      "tavily": 4,
+      "tie": 5
+    },
+    "LVMH": {
+      "error": 0,
+      "mako": 5,
+      "n": 10,
+      "tavily": 4,
+      "tie": 1
+    },
+    "Lil Tay": {
+      "error": 1,
+      "mako": 4,
+      "n": 10,
+      "tavily": 3,
+      "tie": 2
+    },
+    "Longlegs": {
+      "error": 0,
+      "mako": 4,
+      "n": 10,
+      "tavily": 5,
+      "tie": 1
+    },
+    "Megalopolis": {
+      "error": 0,
+      "mako": 5,
+      "n": 10,
+      "tavily": 2,
+      "tie": 3
+    },
+    "Meta": {
+      "error": 0,
+      "mako": 3,
+      "n": 10,
+      "tavily": 3,
+      "tie": 4
+    },
+    "Microsoft Copilot": {
+      "error": 0,
+      "mako": 5,
+      "n": 10,
+      "tavily": 2,
+      "tie": 3
+    },
+    "NASA Artemis program": {
+      "error": 0,
+      "mako": 9,
+      "n": 10,
+      "tavily": 0,
+      "tie": 1
+    },
+    "NATO": {
+      "error": 0,
+      "mako": 7,
+      "n": 10,
+      "tavily": 2,
+      "tie": 1
+    },
+    "NBA Finals": {
+      "error": 0,
+      "mako": 6,
+      "n": 10,
+      "tavily": 2,
+      "tie": 2
+    },
+    "Narendra Modi": {
+      "error": 0,
+      "mako": 8,
+      "n": 10,
+      "tavily": 1,
+      "tie": 1
+    },
+    "Nayib Bukele": {
+      "error": 0,
+      "mako": 5,
+      "n": 10,
+      "tavily": 4,
+      "tie": 1
+    },
+    "New Caledonia": {
+      "error": 0,
+      "mako": 3,
+      "n": 10,
+      "tavily": 2,
+      "tie": 5
+    },
+    "Nintendo Switch 2": {
+      "error": 0,
+      "mako": 8,
+      "n": 10,
+      "tavily": 1,
+      "tie": 1
+    },
+    "Nobel Prize 2024": {
+      "error": 0,
+      "mako": 1,
+      "n": 10,
+      "tavily": 6,
+      "tie": 3
+    },
+    "Notre-Dame de Paris": {
+      "error": 0,
+      "mako": 3,
+      "n": 10,
+      "tavily": 4,
+      "tie": 3
+    },
+    "Novak Djokovic": {
+      "error": 0,
+      "mako": 5,
+      "n": 10,
+      "tavily": 1,
+      "tie": 4
+    },
+    "Oppenheimer": {
+      "error": 0,
+      "mako": 4,
+      "n": 10,
+      "tavily": 6,
+      "tie": 0
+    },
+    "Ozempic and Wegovy": {
+      "error": 0,
+      "mako": 7,
+      "n": 10,
+      "tavily": 2,
+      "tie": 1
+    },
+    "Palworld": {
+      "error": 0,
+      "mako": 7,
+      "n": 10,
+      "tavily": 2,
+      "tie": 1
+    },
+    "Perplexity AI": {
+      "error": 0,
+      "mako": 3,
+      "n": 10,
+      "tavily": 7,
+      "tie": 0
+    },
+    "Pope Leo XIV": {
+      "error": 0,
+      "mako": 5,
+      "n": 10,
+      "tavily": 2,
+      "tie": 3
+    },
+    "Port of Baltimore": {
+      "error": 0,
+      "mako": 3,
+      "n": 10,
+      "tavily": 4,
+      "tie": 3
+    },
+    "RSV vaccines": {
+      "error": 0,
+      "mako": 1,
+      "n": 10,
+      "tavily": 4,
+      "tie": 5
+    },
+    "Rafah": {
+      "error": 0,
+      "mako": 6,
+      "n": 10,
+      "tavily": 1,
+      "tie": 3
+    },
+    "Red Lobster": {
+      "error": 0,
+      "mako": 4,
+      "n": 10,
+      "tavily": 3,
+      "tie": 3
+    },
+    "Rivian": {
+      "error": 0,
+      "mako": 6,
+      "n": 10,
+      "tavily": 3,
+      "tie": 1
+    },
+    "SAG-AFTRA": {
+      "error": 0,
+      "mako": 2,
+      "n": 10,
+      "tavily": 6,
+      "tie": 2
+    },
+    "Satya Nadella": {
+      "error": 0,
+      "mako": 7,
+      "n": 10,
+      "tavily": 3,
+      "tie": 0
+    },
+    "Scottie Scheffler": {
+      "error": 0,
+      "mako": 2,
+      "n": 10,
+      "tavily": 4,
+      "tie": 4
+    },
+    "Shein": {
+      "error": 0,
+      "mako": 3,
+      "n": 10,
+      "tavily": 3,
+      "tie": 4
+    },
+    "Shohei Ohtani": {
+      "error": 0,
+      "mako": 7,
+      "n": 10,
+      "tavily": 2,
+      "tie": 1
+    },
+    "Skydance Media": {
+      "error": 0,
+      "mako": 3,
+      "n": 10,
+      "tavily": 4,
+      "tie": 3
+    },
+    "Sora OpenAI": {
+      "error": 0,
+      "mako": 3,
+      "n": 10,
+      "tavily": 5,
+      "tie": 2
+    },
+    "SpaceX Starship": {
+      "error": 0,
+      "mako": 7,
+      "n": 10,
+      "tavily": 2,
+      "tie": 1
+    },
+    "Sundar Pichai": {
+      "error": 0,
+      "mako": 5,
+      "n": 10,
+      "tavily": 3,
+      "tie": 2
+    },
+    "Suno AI": {
+      "error": 0,
+      "mako": 6,
+      "n": 10,
+      "tavily": 3,
+      "tie": 1
+    },
+    "Super Bowl": {
+      "error": 0,
+      "mako": 5,
+      "n": 10,
+      "tavily": 2,
+      "tie": 3
+    },
+    "Taiwan Semiconductor Manufacturing Company": {
+      "error": 0,
+      "mako": 6,
+      "n": 10,
+      "tavily": 2,
+      "tie": 2
+    },
+    "Taylor Swift": {
+      "error": 0,
+      "mako": 4,
+      "n": 10,
+      "tavily": 3,
+      "tie": 3
+    },
+    "Temu": {
+      "error": 0,
+      "mako": 4,
+      "n": 10,
+      "tavily": 3,
+      "tie": 3
+    },
+    "Tesla": {
+      "error": 0,
+      "mako": 5,
+      "n": 10,
+      "tavily": 4,
+      "tie": 1
+    },
+    "The Bear": {
+      "error": 0,
+      "mako": 6,
+      "n": 10,
+      "tavily": 2,
+      "tie": 2
+    },
+    "The WGA": {
+      "error": 0,
+      "mako": 2,
+      "n": 10,
+      "tavily": 6,
+      "tie": 2
+    },
+    "Ticketmaster DOJ lawsuit": {
+      "error": 0,
+      "mako": 5,
+      "n": 10,
+      "tavily": 4,
+      "tie": 1
+    },
+    "TikTok Shop": {
+      "error": 0,
+      "mako": 2,
+      "n": 10,
+      "tavily": 7,
+      "tie": 1
+    },
+    "True Detective": {
+      "error": 0,
+      "mako": 5,
+      "n": 10,
+      "tavily": 3,
+      "tie": 2
+    },
+    "Truth Social DJT stock": {
+      "error": 0,
+      "mako": 5,
+      "n": 10,
+      "tavily": 2,
+      "tie": 3
+    },
+    "Twitter": {
+      "error": 0,
+      "mako": 6,
+      "n": 10,
+      "tavily": 4,
+      "tie": 0
+    },
+    "U.S. Supreme Court": {
+      "error": 0,
+      "mako": 5,
+      "n": 10,
+      "tavily": 3,
+      "tie": 2
+    },
+    "UEFA Champions League": {
+      "error": 0,
+      "mako": 3,
+      "n": 10,
+      "tavily": 4,
+      "tie": 3
+    },
+    "United Nations Relief and Works Agency for Palestine Refugees in the Near East": {
+      "error": 0,
+      "mako": 3,
+      "n": 10,
+      "tavily": 6,
+      "tie": 1
+    },
+    "Ursula von der Leyen": {
+      "error": 0,
+      "mako": 5,
+      "n": 10,
+      "tavily": 3,
+      "tie": 2
+    },
+    "Venezuela election crisis": {
+      "error": 0,
+      "mako": 4,
+      "n": 10,
+      "tavily": 3,
+      "tie": 3
+    },
+    "Volodymyr Zelenskyy": {
+      "error": 0,
+      "mako": 5,
+      "n": 10,
+      "tavily": 4,
+      "tie": 1
+    },
+    "Voyager 1": {
+      "error": 0,
+      "mako": 7,
+      "n": 10,
+      "tavily": 2,
+      "tie": 1
+    },
+    "Wicked": {
+      "error": 0,
+      "mako": 5,
+      "n": 10,
+      "tavily": 2,
+      "tie": 3
+    },
+    "Wikipedia": {
+      "error": 0,
+      "mako": 3,
+      "n": 10,
+      "tavily": 3,
+      "tie": 4
+    },
+    "Wimbledon": {
+      "error": 0,
+      "mako": 9,
+      "n": 10,
+      "tavily": 1,
+      "tie": 0
+    },
+    "Worldcoin": {
+      "error": 0,
+      "mako": 4,
+      "n": 10,
+      "tavily": 2,
+      "tie": 4
+    },
+    "XZ Utils": {
+      "error": 0,
+      "mako": 4,
+      "n": 10,
+      "tavily": 5,
+      "tie": 1
+    },
+    "xAI": {
+      "error": 0,
+      "mako": 4,
+      "n": 10,
+      "tavily": 4,
+      "tie": 2
+    }
+  },
+  "ci95": [
+    44.5,
+    50.6
+  ],
+  "cost": {
+    "mako": {
+      "latency_server_ms_median": 1643,
+      "latency_server_reported": 1000,
+      "latency_wall_ms_median": 1774,
+      "responses_ok": 1000,
+      "tokens_per_query": 1001
+    },
+    "tavily": {
+      "latency_server_ms_median": 1140,
+      "latency_server_reported": 1000,
+      "latency_wall_ms_median": 1391,
+      "responses_ok": 1000,
+      "tokens_per_query": 1255
+    }
+  },
+  "headline": {
+    "error": 1,
+    "mako": 475,
+    "n": 1000,
+    "tavily": 307,
+    "tie": 217
+  },
+  "judge_agreement": {},
+  "run": "2026-07-18",
+  "win_rate": 47.5
+}

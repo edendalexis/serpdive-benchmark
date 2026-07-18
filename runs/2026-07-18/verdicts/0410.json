@@ -1,0 +1,11 @@
+{
+  "id": 410,
+  "query": "The Bear season 5 final season premiere date episode count FX Hulu official announcement",
+  "topic": "The Bear",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor issue: most results are secondary sources, and the official Disney result snippet in A omits the full phrase that all eight episodes stream at debut, though other A results supply that fact. No meaningful contradictions are present.",
+  "b_issues": "Top result is Wikipedia rather than an official announcement. It also says the season premiered on 'FX on Hulu,' which is not the wording in the official announcement and could confuse an LLM about platform details. Another result is a Facebook post, which is not a reliable primary source. B lacks the actual official FX/Disney announcement result, so source quality is weaker overall.",
+  "reasoning": "Both sets contain the key facts needed to answer the question: The Bear's fifth and final season premieres June 25, 2026, and has eight episodes, with all eight available at once. However, A better supports a correct answer because it includes the official Walt Disney Company announcement directly, plus corroborating mainstream sources (USA Today, Newsweek, Rolling Stone). The official snippet in A explicitly identifies it as the fifth and final season premiering June 25 on FX and Hulu, and other A results clearly state all eight episodes. In B, the facts are mostly present, but the strongest result is Wikipedia, the official announcement itself is absent, and one result is an unreliable Facebook post. So A offers more reliable and cleaner evidence for an LLM to answer correctly."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 163,
+  "query": "Rivian Q4 2025 earnings report gross profit full year revenue 2026 vehicle delivery guidance",
+  "topic": "Rivian",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A lacks the primary-source Rivian newsroom/SEC result and relies mostly on secondary summaries. It gives full-year revenue only via Electrek ($5.29 billion) and Q4 revenue via Yahoo (~$1.3 billion), but does not directly present the clean official full-year gross profit/revenue/guidance set in one reliable source. One result is a forum thread and another is an irrelevant 2025 LinkedIn item. There is minor ambiguity because Yahoo says 'Q4 consolidated revenue of about $1.3 billion' while no official source is present to confirm exact figures.",
+  "b_issues": "Content B contains an internal inconsistency on revenue: CNBC snippet says full-year 2025 revenue included '$1.7 billion during the fourth quarter,' while Electrek says Q4 consolidated revenue was $1.29 billion. MLQ says full-year revenue was $5.387 billion, conflicting with Electrek's $5.29 billion. A forum result mentions automotive gross profit of negative $59 million for Q4, which could confuse an LLM if it mistakes automotive gross profit for consolidated gross profit. However, B also includes the official Rivian newsroom result confirming $120 million Q4 consolidated gross profit and $144 million full-year gross profit.",
+  "reasoning": "The question asks for Rivian's Q4 2025 earnings details: gross profit, full-year revenue, and 2026 vehicle delivery guidance. Both sets contain the key guidance of 62,000–67,000 vehicles and the gross profit figures of $120 million in Q4 and $144 million for full year 2025. But B better enables a correct answer because it includes the official Rivian newsroom result explicitly stating the gross profit figures, plus CNBC and Electrek snippets that provide the delivery guidance and full-year revenue figures. Although B has conflicting revenue snippets, it still contains the needed facts from stronger sources, including the official company release. A has fewer reliable/official sources and no direct official result, so an LLM would have to rely on secondary summaries and a forum post. Therefore B is more likely to support a correct answer from the provided content alone."
+}

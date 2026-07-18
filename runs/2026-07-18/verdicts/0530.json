@@ -1,0 +1,11 @@
+{
+  "id": 530,
+  "query": "Mattel autistic Barbie release date features ASAN",
+  "topic": "Barbie",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A does not clearly provide the release date from a primary source snippet. CNN and ABC say Mattel introduced/unveiled the doll, but the snippets shown do not state the exact date in-text. It also lacks a direct ASAN source snippet, though the Mattel product page does mention partnership with ASAN. Some features in the Mattel product page snippet differ from the anchor’s product-page excerpt, so completeness/consistency is limited.",
+  "b_issues": "Content B is largely irrelevant to the query. It contains general Mattel pages, Wikipedia, Instagram, and Mattel Creations, but no result giving the autistic Barbie release date, its features, or the ASAN partnership. Therefore it does not supply the needed facts.",
+  "reasoning": "A is clearly better because it contains directly relevant results about Mattel’s autistic Barbie, including feature details and explicit mention that it was created in partnership with the Autistic Self Advocacy Network (ASAN). The ABC and Mattel shop snippets mention features such as flexible elbows/wrists for stimming, non-direct eye contact/slanted gaze, noise-canceling headphones, a fidget spinner, and an AAC tablet. Although A does not cleanly surface the exact release date in the snippets, it at least points to the right event and gives the ASAN connection. B does not provide the core facts at all, so an LLM using only B would be unable to answer correctly."
+}

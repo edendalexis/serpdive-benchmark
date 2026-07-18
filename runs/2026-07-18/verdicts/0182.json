@@ -1,0 +1,11 @@
+{
+  "id": 182,
+  "query": "IOC Fit for the Future initiative May 2026 athlete input details",
+  "topic": "International Olympic Committee",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A is only partially aligned to the query. It mostly surfaces June 2026 outcomes of Fit for the Future, especially the Olympian Grant, rather than May 2026 athlete-input details. It does include one relevant IOC item about the June Session and one secondary-source snippet stating that over 2,200 athletes and athlete representatives engaged in discussion, but it lacks the specific May athlete consultation details implied by the question. Some sources are secondary (ICMG, Team Canada) rather than primary IOC reporting.",
+  "b_issues": "Content B is less aligned to the query and is dominated by grant-related June 2026 items, social media, and peripheral coverage. It does not provide May 2026 athlete-input details. Several sources are lower-authority or fragmentary (Instagram, Facebook, niche outlets), and no result clearly states the athlete consultation facts needed to answer the question.",
+  "reasoning": "Neither set cleanly answers 'May 2026 athlete input details.' However, A is better because it contains more reliable IOC-related material and at least one snippet with a concrete participation fact relevant to athlete input: that over 2,200 athletes and athlete representatives engaged in the Fit for the Future discussion. It also includes the official IOC article about the June Session and consolidation stage. B is mostly grant coverage and social posts, with no meaningful athlete-input detail from May. So while neither is sufficient, A better enables a correct answer from the available facts."
+}

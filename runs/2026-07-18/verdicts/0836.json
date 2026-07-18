@@ -1,0 +1,11 @@
+{
+  "id": 836,
+  "query": "Julian Assange plea agreement court filing PDF case number Northern Mariana Islands June 2024",
+  "topic": "Julian Assange",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "A does not surface the best primary-source PDF directly from the court or CourtListener; its strongest direct PDF is a Washington Post-hosted copy with a garbled OCR snippet of the caption/case number. Most other results are secondary coverage. However, it still includes the official Northern Mariana Islands court page and a PDF of the plea agreement showing the case number.",
+  "b_issues": "B lacks a direct plea-agreement PDF result and instead leads with a Wikimedia file labeled as an indictment, which is not the requested filing and is less reliable. Its CourtListener result provides docket context and the case number but not the plea agreement PDF itself. Other results are secondary commentary/news rather than the court filing requested.",
+  "reasoning": "The query asks for the June 2024 Northern Mariana Islands court filing PDF for Julian Assange's plea agreement and the case number. Content A contains both the official court page for 'Criminal Case No. 1:24-cr-00014' and a direct PDF result titled with the plea agreement text snippet, including 'CRIMINAL CASE NO...00014' and 'PLEA AGREEMENT.' That is enough for an LLM to answer correctly that the case number is 1:24-cr-00014 and identify the plea agreement filing PDF. Content B does include the CourtListener docket with the correct case number 1:24-cr-00014 and the official court page, but it does not provide the plea agreement PDF itself; its top result is an unrelated/less reliable Wikimedia file described as an indictment. So A better supports a correct answer from the search results alone."
+}

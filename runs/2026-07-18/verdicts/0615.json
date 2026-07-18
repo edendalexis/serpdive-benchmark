@@ -1,0 +1,11 @@
+{
+  "id": 615,
+  "query": "Suno AI Songkick acquisition live music concert integration announcement year",
+  "topic": "Suno AI",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Most results are secondary reporting rather than the primary announcement, and one source (hype-index.com) is of unclear reliability. The exact year is only inferable from publication dates and phrases like 'last November' rather than always stated directly in each snippet.",
+  "b_issues": "Also lacks the primary announcement. The top MBW snippet says 'acquired Songkick from WMG in November' without explicitly stating the year in the snippet itself, so the answer depends more on surrounding dated results. Includes a LinkedIn post, which is less reliable than trade press. Overall provides less direct evidence about the integration announcement phrasing than A.",
+  "reasoning": "The question asks for the year of Suno AI's Songkick acquisition/live music concert integration announcement. Content A more clearly contains the needed fact pattern: it quotes the integration language ('connects Songkick’s live music graph with Suno’s artist and creation ecosystem' and 'move a fan from creating music on Suno to driving live experiences on Songkick') and ties it to reporting that Suno acquired Songkick from WMG in November. Because the cited articles are dated May 2026 and refer to the acquisition as having happened the previous November, an LLM can correctly infer 2025. Content B also points toward 2025, but it is slightly weaker: less of the integration-announcement language is present, and one of its key explicit year mentions comes from a LinkedIn post rather than a stronger publication. Thus A better supports a correct answer: 2025."
+}

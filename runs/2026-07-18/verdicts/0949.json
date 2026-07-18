@@ -1,0 +1,11 @@
+{
+  "id": 949,
+  "query": "Cybercab Gigafactory Texas drone footage count newly built units lacking driver controls side mirrors",
+  "topic": "Cybercab",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A has one highly relevant result giving approximately 14 newly manufactured Cybercabs with no driver controls, but the rest is noisy and partly conflicting. It includes less reliable/social sources (Facebook, Instagram) and other results emphasizing 60 or even 102 units without tying those counts specifically to the newly built units lacking driver controls/side mirrors. This could mislead an LLM into answering 60 or 102 instead of the narrower count. It also does not clearly restate the side-mirror detail in the best result snippet.",
+  "b_issues": "Content B also contains some noise and one irrelevant/low-value result, but its top results consistently point to roughly 14 production-ready/newly built Cybercabs at Giga Texas lacking traditional driver controls, and one snippet explicitly says Tesla is moving forward with ditching side-view mirrors. Minor issue: one source says these are undergoing validation testing / staged at crash testing rather than clearly in the outbound lot, but this does not materially change the count asked for.",
+  "reasoning": "The question asks for the count from drone footage of newly built Cybercab units at Gigafactory Texas that lack driver controls and side mirrors. Content B better supports the correct answer because multiple results converge on roughly 14 units: Not a Tesla App says production-ready units are missing a steering wheel and notes Tesla is ditching side-view mirrors; eletric-vehicles.com says drone images showed roughly 14 builds in the outbound lot with none equipped with a steering wheel; Drive Tesla says the vehicles appear to be missing traditional driver controls including steering wheel and pedals. This lines up with the anchor reference that later reporting discussed side mirrors and lack of controls. Content A has one directly useful snippet with approximately 14 units and no driver controls, but surrounding results prominently mention 60 and 102 Cybercabs, which are broader fleet sightings and could easily cause an LLM to choose the wrong count. Therefore B more reliably enables a correct answer."
+}

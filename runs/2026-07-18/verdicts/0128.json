@@ -1,0 +1,11 @@
+{
+  "id": 128,
+  "query": "Japan prime minister 2026 current name official Kantei profile",
+  "topic": "Japan Prime Minister",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Includes non-official and potentially less reliable sources (Wikipedia, BBC) alongside official Kantei pages. The key official profile page for Takaichi is not returned, so the 'profile' part is only indirectly supported by Wikipedia and homepage snippets.",
+  "b_issues": "Does not return the current official Kantei profile page either. One Kantei result is an older Kishida-cabinet profile for Takaichi rather than her current prime minister profile, which could mislead. Also includes non-official sources (Al Jazeera, YouTube, Wikipedia).",
+  "reasoning": "Both result sets contain enough official Kantei evidence to answer the core question that the current prime minister in 2026 is TAKAICHI Sanae. In A, this is supported by the official Kantei designation page stating she became the 105th Prime Minister and by the Kantei homepage showing 'Prime Minister Takaichi' in 2026. In B, this is supported by the official Kantei homepage showing 'Prime Minister Takaichi' in 2026. However, neither set includes the specific official Kantei profile page requested in the query. A is somewhat stronger on direct official confirmation of appointment, while B has an official homepage plus a misleading older cabinet-profile result. Since both still enable a correct answer from official Kantei content alone, neither clearly outperforms the other enough to avoid a tie."
+}

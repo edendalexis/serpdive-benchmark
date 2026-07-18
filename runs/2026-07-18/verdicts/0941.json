@@ -1,0 +1,11 @@
+{
+  "id": 941,
+  "query": "Cybercab EPA specifications horsepower weight battery kWh 2026",
+  "topic": "Cybercab",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Mostly accurate and sufficient. Minor issue: some lower-ranked sources are less reliable/secondary, and one result gives 47.6 kWh while others round to 48 kWh, but this is not a real contradiction. No major factual conflict on the key answer fields.",
+  "b_issues": "Contains one dubious/likely noisy claim in the Hypebeast snippet about 'an auxiliary pack in a towable unit' and an '800V main battery,' which is not supported by the anchor and appears irrelevant or erroneous. Also includes approximate phrasing like 'roughly 50-kWh' and 'just under 280 miles' from Car and Driver, which is less precise than the core figures.",
+  "reasoning": "Both A and B clearly contain the key facts needed to answer the query: horsepower about 219 hp, curb weight 3,113 lbs, and battery about 48 kWh (47.6 kWh exact / 48 kWh rounded). However, B better enables a correct answer because its top result directly includes all three requested specs and adds the exact battery figure context (47.6 kWh / 48 kWh), while the featured snippet also repeats the full trio of facts. A also has the facts, but B presents them slightly more directly and with stronger redundancy at the top. Despite a noisy lower-ranked result in B, the dominant evidence is accurate and aligns with the anchor."
+}

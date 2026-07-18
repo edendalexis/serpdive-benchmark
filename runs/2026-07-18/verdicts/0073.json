@@ -1,0 +1,11 @@
+{
+  "id": 73,
+  "query": "AMPAS AI actors scripts eligibility rules 99th Oscars 2026",
+  "topic": "Academy Awards Oscars",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A lacks a primary Academy source. It relies on secondary reports (LA Times, Variety, IGN, etc.), so an LLM would have to infer the official AMPAS rule wording from journalism. It does contain the key facts that screenplays must be human-authored and acting performances must be demonstrably performed by humans with consent, but it omits the official added acting detail from AMPAS that eligible roles must be credited in the film’s legal billing. No clear internal contradiction is present.",
+  "b_issues": "One result (DW) paraphrases the acting rule as 'No AI actors' / 'created by humans,' which is less precise than the official AMPAS wording and could slightly overstate the rule. The featured snippet says movies need 'meaningful human involvement,' which is broader paraphrase rather than exact rule text. However, the official Academy press result supplies the key specifics accurately.",
+  "reasoning": "Content B better enables a correct answer because it includes the official Academy Press Office announcement for the 99th Oscars, which directly states the relevant eligibility rules: in Acting, only roles credited in the film’s legal billing and demonstrably performed by humans with their consent are eligible; in Writing, screenplays must be human-authored. Those are the core facts needed for the query about AMPAS AI/actors/scripts eligibility rules for the 99th Oscars. Content A has the main ideas, but only through secondary coverage and without the official source or the legal-billing detail. Since source reliability and exactness matter, B is stronger."
+}

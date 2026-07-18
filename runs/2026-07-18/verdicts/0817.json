@@ -1,0 +1,11 @@
+{
+  "id": 817,
+  "query": "Microsoft 365 Copilot Bing interactive answer cards weather stocks display chat integration 2025",
+  "topic": "Microsoft Copilot",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A does not contain the key roadmap fact about rich/interactive Bing web answer cards in Microsoft 365 Copilot for relevant queries such as Weather and Stocks, nor the 2025 rollout timing. The top result is irrelevant live weather data, and other results are generic Copilot Chat/in-app integration items. One result is only a Yahoo video snippet about Bing Chat Enterprise pricing, which is not the asked feature. No source in A directly confirms the specific feature.",
+  "b_issues": "Content B also lacks the key fact about Microsoft 365 Copilot showing rich/interactive Bing web answer cards like Weather and Stocks and gives no 2025 release timing. Its results are mostly about Bing Chat Enterprise, Copilot general availability, and generic Copilot Chat support. These are reliable sources but not about the specific feature asked.",
+  "reasoning": "The anchor says the answer should be that Microsoft 365 Copilot will display rich and interactive Bing web answer cards such as Weather and Stocks for relevant queries, with GA in late 2025 (Nov/Dec CY2025). Neither result set provides that fact. A has some adjacent material on Copilot Chat in Microsoft 365 apps, which loosely matches 'chat integration,' but it still does not establish the Bing interactive answer cards feature or timing. B has reliable Microsoft sources, but they are about Bing Chat Enterprise and Copilot availability, not the specific Microsoft 365 Copilot answer-card integration. Since neither set contains the decisive facts needed to answer correctly from the content alone, the result is a tie."
+}

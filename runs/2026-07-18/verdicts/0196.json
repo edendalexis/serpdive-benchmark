@@ -1,0 +1,11 @@
+{
+  "id": 196,
+  "query": "iOS 27 Foundation Models framework unified Language Model protocol API documentation Claude Gemini",
+  "topic": "Apple Intelligence",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "A lacks the key Apple documentation page that explicitly states the Foundation Models framework can work with any language model conforming to the Language Model protocol, including Claude and Gemini. Its top Apple result is a WWDC video snippet about bringing an LLM provider, which is relevant but less direct. Several secondary sources are unofficial blogs and may add noise. One result says Apple introduced the framework at WWDC 2025 and expanded it at WWDC 2026, which is not directly supported by the anchor and could confuse chronology.",
+  "b_issues": "B also lacks the most direct Apple 'What’s new in iOS 27' page that explicitly mentions Claude and Gemini together with the Language Model protocol. It includes weaker or potentially noisy third-party results such as a press/blog-style article claiming Apple will open-source the framework, which is not needed for the question and is not corroborated by the anchor. Its Apple Foundation Models documentation result is somewhat generic and does not itself mention Claude/Gemini integration.",
+  "reasoning": "Both result sets contain enough accurate evidence to answer the question: Apple’s Foundation Models framework in iOS 27 exposes a unified LanguageModel/LanguageModelSession API, and third-party providers like Claude and Gemini can plug into it. A has the Apple WWDC26 provider video plus official Claude docs and Firebase’s Gemini post, which together support the unified-provider story. B has official Claude docs, the Claude GitHub repo explicitly saying it conforms to Apple’s LanguageModel protocol and is used with LanguageModelSession, plus Apple’s Foundation Models docs and a result mentioning Gemini/Claude support. Neither set includes the strongest anchor page from Apple that directly says 'work with any language model, including Apple Foundation Models, cloud models like Claude and Gemini, or any other provider that conforms to the Language Model protocol,' so neither clearly outperforms the other. Both are sufficient, with similar gaps and similar reliability."
+}

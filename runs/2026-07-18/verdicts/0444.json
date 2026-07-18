@@ -1,0 +1,11 @@
+{
+  "id": 444,
+  "query": "Notre-Dame de Paris towers reopening September 2025 Heritage Days booking official",
+  "topic": "Notre-Dame de Paris",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A includes one strong official source directly answering the query, but it is incomplete on booking timing: it says reopening is on 20 September 2025 and mentions e-ticketing, yet the snippet does not include the key official detail from CMN that online reservations open on 15 September. The other two results are weak/noisy: one is a 2026 third-party article and one is a generic Heritage Days page not specific to Notre-Dame towers booking.",
+  "b_issues": "Content B has one useful official result, but most other results are third-party news reports rather than official booking information. It omits the key official reservation-opening detail as well. Euronews says reservations are already full for Saturday, which is timing-specific and less useful for answering the general booking question. There is also a factual error in one snippet: Zenit says 'On Friday, September 20,' but 20 September 2025 is a Saturday. Overall it is noisier and less reliable than A.",
+  "reasoning": "The question asks about Notre-Dame de Paris towers reopening in September 2025, tied to Heritage Days, with official booking information. Content A contains the official Towers of Notre-Dame page stating the circuit reopens on 20 September 2025, which matches the anchor and directly supports the reopening/Heritage Days part. Although A does not surface the official 15 September booking-opening detail from the CMN press release, it still clearly indicates that booking is via the official e-ticketing service and that reopening is 20 September 2025. Content B also has the same official towers page, but its surrounding evidence is mostly non-official media coverage, and one snippet contains a day/date error. Since A is cleaner and relies less on potentially error-prone third-party reporting, it better enables an LLM to answer correctly from the provided content alone."
+}

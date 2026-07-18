@@ -1,0 +1,11 @@
+{
+  "id": 882,
+  "query": "Skydance $400 million investment KKR valuation August 2025",
+  "topic": "Skydance Media",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "No clear factual flaws. Results consistently state Skydance completed a $400 million round led by KKR in October 2022 and was valued at over $4 billion. Minor issue: the query includes 'August 2025,' but Content A does not address any August 2025 angle; however, it still contains the core facts needed if the question is really about the KKR investment and valuation.",
+  "b_issues": "No clear factual flaws. Results consistently state Skydance completed a $400 million round led by KKR and was valued at over $4 billion. Minor issue: like A, it does not address any 'August 2025' aspect from the query, and snippets are a bit thinner.",
+  "reasoning": "Both result sets contain the key facts supported by reliable or at least directly relevant sources: Skydance raised $400 million, KKR led the round, and the company was valued at over $4 billion. These facts match the anchor. Content A includes the direct Skydance press release plus Variety, Deadline, Paul Weiss, and Nasdaq; Content B includes Nasdaq, Paul Weiss, Variety, and other corroborating snippets. Neither set presents contradictory information, and both are sufficient for an LLM to answer the likely intended question correctly. A has slightly richer sourcing, but not enough to make it materially better than B for answerability."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 658,
+  "query": "UNRWA 2026 budget shortfall $100 million latest donor pledges status May 2026",
+  "topic": "United Nations Relief and Works Agency for Palestine Refugees in the Near East",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A is sparse on the actual pledge status. It confirms the $100 million shortfall and gives background figures for 2025 pledges vs receipts, but it does not provide concrete latest donor-pledge status tied to the 2026 conference. One result is irrelevant (UNHCR, not UNRWA). The other non-UN sources largely repeat the shortfall without adding donor specifics.",
+  "b_issues": "Content B includes a low-reliability/partisan X post (UN Watch), which should be treated cautiously. It also does not directly answer the user's mention of May 2026; most evidence is from late June/early July 2026. However, the core figures are internally consistent rather than contradictory.",
+  "reasoning": "B better enables a correct answer because it contains the key facts needed to infer the latest status: UNRWA still faced a $100 million 2026 gap around the 30 June 2026 pledging conference; the agency had received only $313 million of $817 million needed for critical services; and the amounts raised at the conference did not significantly reduce the deficit. These are directly relevant to 'latest donor pledges status.' A mainly confirms the existence of the shortfall and offers historical context, but lacks concrete 2026 pledge/receipt status and includes an irrelevant UNHCR result. Both sets are somewhat mismatched to 'May 2026,' but B is still more informative and actionable for answering the question."
+}

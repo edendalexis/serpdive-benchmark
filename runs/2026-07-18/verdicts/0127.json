@@ -1,0 +1,11 @@
+{
+  "id": 127,
+  "query": "Japan male-only imperial succession Takaichi policy proposal 2026 status",
+  "topic": "Japan Prime Minister",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A has only one clearly relevant mainstream result directly about Takaichi (Japan Times). The rest are weak or unreliable for answering the question: Instagram and Facebook posts are secondary/social snippets, and the AP-derived fox2now item is indirect. It does not clearly establish the 2026 status of the proposal/law from high-quality sources, and the snippets are fragmentary. There is no strong result explicitly stating that parliament enacted the revision in July 2026 while keeping male-only succession.",
+  "b_issues": "Content B does not include a direct Takaichi-focused article, so her role is inferred from broader coverage rather than centered in the top result set. One CNN snippet says the proposal applies to people who are 'unmarried and childless,' while BBC/Mainichi emphasize adoption of male distant relatives aged over 15; this is a detail mismatch in snippet framing, though not central to the question. Otherwise the set is broadly consistent.",
+  "reasoning": "The question asks about Japan’s male-only imperial succession, Takaichi’s policy proposal, and its 2026 status. Content B better supports a correct answer because it contains multiple reliable, directly relevant news sources (BBC, France 24, Mainichi, CNN) that together establish the key facts: Japan retained the ban on female emperors / male-line succession, adopted a reform allowing adoption of male-line descendants from former imperial branches and allowing princesses to retain status after marriage, and this was approved/passed in July 2026. France 24 and CNN also explicitly connect the policy direction to Takaichi. Content A does show that Takaichi backed male-only succession, but it lacks equally strong, reliable corroboration of the final 2026 status, relying heavily on social-media and lower-quality relay sources. So B better enables an LLM to answer accurately from the provided content alone."
+}

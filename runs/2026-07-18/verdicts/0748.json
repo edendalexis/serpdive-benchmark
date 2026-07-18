@@ -1,0 +1,11 @@
+{
+  "id": 748,
+  "query": "Supreme Court Biden voter registration ease Republican challenge rejection ruling 2024",
+  "topic": "U.S. Supreme Court",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Content A does not contain the relevant Supreme Court case or any result about the 2024 ruling. Its results are largely irrelevant (Brookings on Trump regulatory changes, 340B Report, CNN sitemap) and provide no facts answering the query.",
+  "b_issues": "Content B also does not contain the relevant ruling. Its results are irrelevant or low-quality for this query (Facebook posts, a partisan House PDF, an unrelated Supreme Court appendix, Practical Law on a different case). It provides no reliable factual account of the Supreme Court rejecting the Republican-led challenge to Biden's voter registration order.",
+  "reasoning": "Neither set includes the key facts needed to answer the question: that in 2024 the Supreme Court declined/rejected a Republican-led challenge to President Biden's 2021 executive order intended to ease/boost voter registration, with lower courts having dismissed the suit and the justices not commenting. Because both A and B lack the relevant article or equivalent accurate reporting, neither better enables an LLM to answer correctly."
+}

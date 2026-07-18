@@ -1,0 +1,11 @@
+{
+  "id": 834,
+  "query": "Julian Assange presidential pardon status Stella Assange latest update 2025",
+  "topic": "Julian Assange",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Mostly only June 2024 material; does not provide a 2025 status update on whether any pardon was granted or still pending. Includes one irrelevant/mis-snippeted BBC result with unrelated wildfire/World Cup text, which could distract. No explicit statement of latest 2025 pardon status.",
+  "b_issues": "Also limited to June 2024 reporting and does not provide a 2025 status update on whether any pardon was granted or remains pending. Includes an older/less relevant NBC result about a prior alleged Trump-era pardon offer, which could confuse the current-status question. No explicit latest 2025 outcome/status.",
+  "reasoning": "Both sets contain the key reliable fact from Reuters that Stella Assange said on June 25, 2024 that she would seek a U.S. presidential pardon for Julian Assange after his plea deal. Both also have supporting June 2024 coverage (e.g., SBS, Guardian). However, the question asks for the latest update in 2025 on pardon status, and neither result set actually contains a 2025 authoritative status update such as whether a pardon was requested, granted, denied, or remains pending. Because both mainly support only the 2024 fact that she planned to seek a pardon, and neither adequately answers the 2025-status part, neither enables a clearly correct full answer better than the other."
+}

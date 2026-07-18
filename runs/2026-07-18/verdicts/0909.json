@@ -1,0 +1,11 @@
+{
+  "id": 909,
+  "query": "Oppenheimer Holdings Q1 2026 financial results earnings report",
+  "topic": "Oppenheimer",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Contains a misleading third-party result from MarketBeat stating Q1 2026 EPS was $4.21 without clarifying that this is adjusted/non-GAAP, whereas GAAP EPS was a loss of $(1.93). Otherwise the top PR Newswire result matches the anchor on net loss $(20.6M), revenue $445.1M, the $70M legal accrual, $22.3M compensation expense, and adjusted net income/EPS.",
+  "b_issues": "Includes the same misleading MarketBeat result reporting EPS of $4.21 as if it were headline EPS, and also includes an irrelevant SEC filing for 2024 (opy-20240331) that could confuse the model with wrong-period figures. The StockTitan snippet says adjusted diluted EPS was $4.21 while the PR Newswire result gives adjusted basic EPS $4.46; both can coexist, but the mixed presentation increases ambiguity.",
+  "reasoning": "Both result sets contain the key authoritative PR Newswire earnings release that answers the question and aligns with the anchor: May 1, 2026, revenue $445.1M, net loss $20.6M / $(1.93) per share, with results hurt by a $70M cash-sweep litigation accrual and $22.3M compensation expense. However, A better enables a correct answer because its top result directly states the main Q1 2026 earnings facts and adjusted figures, and the rest of the set is mostly consistent. B also has the correct PR Newswire result, but it introduces more confusion through an unrelated 2024 SEC filing and mixed EPS framing from StockTitan/MarketBeat. Therefore A is the cleaner and more reliable set for answering the question correctly."
+}

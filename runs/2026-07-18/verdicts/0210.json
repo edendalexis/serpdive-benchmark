@@ -1,0 +1,11 @@
+{
+  "id": 210,
+  "query": "Lil Tay OnlyFans launch earnings claim first 3 hours August 2025 source interview amount",
+  "topic": "Lil Tay",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Content A contains a misleading headline snippet from Power 105.1 saying '6 Figures in 3 Hours' while the body says $1,000,000 / $1,024,298.09, which is seven figures. It also includes inconsistent breakdown figures in the AOL/Parade snippet ($511,318.90, $486,381.19, $27,405) that do not match the more widely repeated amounts in the anchor/other reports. It does not clearly identify the specific source interview asked for.",
+  "b_issues": "Content B has the same underlying issues: the Power 105.1 result says '6 Figures' despite reporting about $1,024,298.09, and the AOL snippet shows inconsistent component amounts. It also does not clearly identify the specific source interview asked for.",
+  "reasoning": "Both result sets provide enough to answer the core amount claim: Lil Tay said she made about $1 million in her first 3 hours on OnlyFans, specifically around $1,024,298.09 in early August 2025. However, neither set clearly surfaces the 'source interview' part of the query; both mainly show aggregation/reporting articles rather than a distinct interview source. Since both A and B contain essentially the same key facts and the same contradictions/inaccuracies, neither better enables a correct answer than the other."
+}

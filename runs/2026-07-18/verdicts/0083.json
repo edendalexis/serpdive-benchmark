@@ -1,0 +1,11 @@
+{
+  "id": 83,
+  "query": "Blue Origin 10% workforce reduction plan announced by CEO Dave Limp 2026",
+  "topic": "Blue Origin",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Query says 2026, but results are about the Feb. 13, 2025 layoff announcement. Top result is a Facebook/CNN post with user-comment noise and 'David Limp' instead of the more commonly reported 'Dave Limp.' Also includes weaker sources like LinkedIn/Facebook alongside solid ones.",
+  "b_issues": "Query says 2026, but results are about the Feb. 13, 2025 layoff announcement. One result (Payload) appears unrelated to the layoff announcement and could distract. The Hill snippet is truncated/noisy. Fewer results overall.",
+  "reasoning": "Both A and B contain the key facts needed to answer: Blue Origin announced about a 10% workforce reduction; the announcement was made by CEO Dave Limp in an all-hands/email; reporting cites roughly 1,000 to 1,400 affected employees and reasons such as reducing bureaucracy, cutting costs, and ramping manufacturing/launch cadence. Both include reliable, directly relevant sources such as GeekWire, SpaceNews, and The Hill. Neither set supports '2026' specifically; both point to the 2025 announcement instead. Because both provide substantially the same core facts with no major contradiction, neither clearly enables a more correct answer than the other."
+}

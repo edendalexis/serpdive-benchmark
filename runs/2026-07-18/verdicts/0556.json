@@ -1,0 +1,11 @@
+{
+  "id": 556,
+  "query": "Jerome Powell remain Fed Board of Governors April 2026 announcement investigation",
+  "topic": "Jerome Powell",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Contains some likely noisy or questionable snippets: the Reuters title/date pairing appears inconsistent with the scenario, and one Reuters snippet says Powell would remain 'at the helm' and serve as chair pro tem until a successor is confirmed, which conflicts with the anchor's April 29 announcement that he would remain on the Board after his chair term ends. Fortune snippet is thin and not very informative. But A still includes clear, relevant results from ABA Banking Journal and LA Times stating Powell would remain on the Fed board until the investigation was over or for an indefinite period.",
+  "b_issues": "Also contains noisy or questionable snippets: Reuters again says Powell would remain 'at the helm' until successor confirmation, conflicting with the anchor's Board-of-Governors-after-chair framing. NYT January result is background on the probe, not the April 2026 announcement. Barron's says DOJ ended the investigation and discusses Warsh confirmation, which may distract from the exact question. But B still includes clear, relevant CNBC and LA Times results stating Powell planned to remain on the Fed board after his chair term, tied to the investigation/legal attacks.",
+  "reasoning": "Both result sets contain the core facts needed to answer the question: in late April 2026 Powell announced he would remain on the Federal Reserve Board of Governors after his chair term ended next month, and this was linked to the ongoing investigation/probe and broader legal attacks on the Fed. In A, the ABA Banking Journal and LA Times snippets state this directly. In B, the CNBC April 24 preview plus the LA Times April 29 report also state it directly. Both sets also contain some contradictory or lower-quality snippets, especially the Reuters item suggesting Powell would remain 'at the helm' until successor confirmation, which does not match the anchor's more precise account. Since each set nevertheless provides enough accurate information from credible outlets to answer correctly, neither is clearly better than the other."
+}

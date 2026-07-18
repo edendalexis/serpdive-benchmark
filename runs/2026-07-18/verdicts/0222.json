@@ -1,0 +1,11 @@
+{
+  "id": 222,
+  "query": "Tesla 2025 EV sales year over year percentage change",
+  "topic": "Tesla",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A does not contain the needed fact about Tesla's 2025 year-over-year sales change. Its results are mostly about general EV market trends or Tesla's 2026 quarterly deliveries. The only Tesla-specific figures are Q2 2026 vs Q2 2025 (+25%), which answers a different question. No result states Tesla's full-year 2025 sales or the 2025 vs 2024 percentage change.",
+  "b_issues": "Content B does not provide the exact global full-year 2025 Tesla EV sales change from authoritative year-end delivery results. Its strongest relevant hit is an InsideEVs article citing U.S. sales projected to be down 8.9% in 2025 versus 2024, which is about U.S. sales, not global Tesla deliveries. Other results are partial or tangential: Q1 2025 down nearly 9%, 2024 stats, H1 2025 record sales, and a Q1 2025 slump chart. So B may still mislead an LLM into answering with a U.S. or quarterly figure rather than the full-year global figure.",
+  "reasoning": "The anchor indicates the correct answer is that Tesla delivered 1.63 million vehicles globally in 2025, down 9% from 1.79 million in 2024. Content A never presents this 2025 year-over-year figure at all; it mainly discusses broad EV market data and Tesla's 2026 quarter-over-quarter or year-over-year comparisons. Content B at least includes a directly relevant 2025 year-over-year percentage for Tesla sales: an InsideEVs result saying Tesla's U.S. sales are on track to be down 8.9% in 2025 versus 2024. Although that is not the exact global annual deliveries figure, it is much closer to the asked fact and numerically aligns with the anchor's 9% decline. Therefore B better enables an LLM to answer correctly, even if imperfectly."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 43,
+  "query": "Thibaut Courtois thigh injury return date Real Madrid Champions League 2026",
+  "topic": "UEFA Champions League",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Mostly accurate and on-topic, but heavily redundant: 3 Goal.com duplicates repeat the same claim. It lacks the original six-week diagnosis from a top-tier wire/source in the returned set itself, relying mainly on Athletic/Goal-style update pieces. Minor internal uncertainty remains because it says he is 'targeting' a return for the end of April/Champions League semifinals rather than giving a firmer expected date.",
+  "b_issues": "Includes a lower-quality/possibly noisy SI result unrelated to the specific injury-return question. The Bolavip snippet is vague ('final stretch of the season'). Yahoo is an aggregator rather than an original top-tier source. However, the set also contains ESPN and CBS, which directly support the key facts.",
+  "reasoning": "Both sets contain the core answer: Courtois suffered the thigh injury on March 17, 2026, was initially expected to miss about six weeks, and was targeting a return around the end of April or in time for a potential Champions League semifinal, with May 10 (El Clasico) as a plausible latest marker. However, B better enables a correct answer because it includes ESPN explicitly stating the six-week diagnosis and CBS reinforcing that timeline, while Yahoo adds the 'return by April end / semi-finals' update. That combination matches the anchor closely and gives both the initial timetable and the likely return window. A is also good, but it is more repetitive and leans on update articles without as clear a direct original-source statement of the initial injury length in the set itself."
+}

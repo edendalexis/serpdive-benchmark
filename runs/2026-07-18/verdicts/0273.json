@@ -1,0 +1,11 @@
+{
+  "id": 273,
+  "query": "El Salvador state of exception extensions total Bukele March 2025",
+  "topic": "Nayib Bukele",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Result quality is mixed and somewhat stale. One result says the state of exception was 'first approved in April 2022,' which is incorrect; it began in March 2022. Another result is about the 9th extension and is outdated for a March 2025 question. However, A does contain a directly relevant clue: a Feb. 19, 2025 item stating the Jan. 29, 2025 action was the 35th extension, which lets an LLM infer that the March 2025 extension would be the 36th. It also includes a reliable CRS source for background, though the snippet does not state the extension count.",
+  "b_issues": "B lacks a directly relevant March 2025 source and mostly returns later or unrelated material. The strongest numeric clue is a May 31, 2026 article saying the 51st extension took effect then, but using that to back-calculate March 2025 is error-prone. Other results discuss 2026 or broader human-rights commentary without giving the needed March 2025 total. There is no source in B explicitly identifying the March 2025 extension count, so an LLM would have to guess or infer across long time gaps.",
+  "reasoning": "The anchor shows that in March 2025 El Salvador's congress approved the 36th extension of Bukele's state of exception. Content A is imperfect, but it includes a near-contemporaneous result explicitly saying the Jan. 29, 2025 extension was the 35th, which makes the March 2025 total answerable as 36th. Content B does not provide a comparable March 2025 fact; its results are mostly from 2026 or general commentary, so the needed answer is not reliably present. Therefore A better enables a correct answer."
+}

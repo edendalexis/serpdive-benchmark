@@ -1,0 +1,11 @@
+{
+  "id": 696,
+  "query": "NATO Ankara summit 2026 Ukraine Patriot missile license production four systems delivery timeline",
+  "topic": "NATO",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "A does not directly mention the 'four systems' part of the query. One result is a NATO summit declaration that gives general Ukraine support figures but not the Patriot-license specifics. The Reuters result is only a snippet, so the delivery timeline details are limited. Euromaidan Press is less authoritative than Reuters/AP and says the license was promised rather than actually granted in Ankara, which could create ambiguity.",
+  "b_issues": "B also does not clearly supply the 'four systems' part of the query. It relies heavily on Euromaidan Press plus lower-reliability or secondary sources (Substack, Facebook posts, Quartz). It includes potentially shaky or unsupported claims such as a Facebook snippet saying Ukraine expects technical capability to produce Patriot missiles by end of 2026, which may conflict with broader reporting that production would take at least a year or longer. It provides less authoritative sourcing than A and more room for confusion about whether the license covers missiles, interceptors, batteries, or full systems.",
+  "reasoning": "A better enables a correct answer because it includes a Reuters result explicitly tied to the Ankara NATO summit and the Patriot-production pledge, and its snippets align with the anchor: Trump made the pledge during the summit, Ukraine would be allowed to produce Patriots in Ukraine, and this would take time rather than solving shortages immediately. B contains more speculative and lower-credibility material, including Substack and Facebook, and introduces ambiguity and possible contradiction about the timeline and what exactly was licensed. Neither set fully answers the 'four systems delivery timeline' portion, but A is more reliable and closer to the anchor on the core facts."
+}

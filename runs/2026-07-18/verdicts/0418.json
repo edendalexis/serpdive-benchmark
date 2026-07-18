@@ -1,0 +1,11 @@
+{
+  "id": 418,
+  "query": "The Bear season 5 rotten tomatoes metacritic critic reviews score",
+  "topic": "The Bear",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Rotten Tomatoes result A does not explicitly include the Tomatometer number in the snippet, so an LLM would have to infer or not know it from that result alone. The Metacritic result is likely wrong/mismatched: it shows Jun 29, 2025 and user-score text, not the season-5 critic score; it omits the 81 Metascore and appears to mix in another season/date. Another result claims 100% on Rotten Tomatoes based on 20 reviews, which conflicts with the anchor's 97% based on 73 reviews and appears to be an outdated early score.",
+  "b_issues": "B contains contradictory/outdated Rotten Tomatoes numbers: Yahoo says 100% with 25 reviews; Instagram mentions both 100% with 26 reviews and 97%; IMDb says 100% with 24 reviews; Facebook snippet references 80% critics and 69% audiences, likely unrelated/outdated. The Metacritic result only shows user score text and does not provide the critic Metascore 81 directly in that result snippet. Several sources are secondary/social rather than the primary sites.",
+  "reasoning": "Neither set cleanly provides both critic-review scores from reliable, consistent primary-source snippets alone. A has the primary Rotten Tomatoes and Metacritic URLs, but its snippets fail to state the needed Rotten Tomatoes score and give a likely incorrect/mismatched Metacritic snippet; it also includes an outdated 100% RT article. B at least states both numbers in the Yahoo snippet (100% RT, 81 Metacritic), but the Rotten Tomatoes value is contradicted by other B results and by the anchor, and the Metacritic primary snippet does not confirm 81. Since both sets would likely lead an LLM to an incorrect or uncertain Rotten Tomatoes answer, neither better enables a correct answer."
+}

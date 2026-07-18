@@ -1,0 +1,11 @@
+{
+  "id": 264,
+  "query": "2026 NBA Finals consecutive unique champions streak since 2019 eight different winners",
+  "topic": "NBA Finals",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor issue: one Yahoo snippet contains unrelated text about the 'Canes,' suggesting snippet contamination. Also, A does not itself list all eight champions in one place, though it clearly states the streak is eight consecutive unique champions and includes reliable NBA/Wikipedia sources.",
+  "b_issues": "Weaker source mix: top results include X/Twitter, Reddit, and Threads, which are less reliable than official or encyclopedic sources. The Wikipedia snippet shown in B omits the key sentence about 'eighth consecutive year with a unique champion,' so the main support comes from social-media-style snippets. One Reddit result is pre-Finals and says 'San Antonio Spurs or New York Knicks,' which is less definitive.",
+  "reasoning": "A better enables a correct answer because it directly includes reliable evidence from Wikipedia stating that the 2026 Finals produced 'the NBA's eighth consecutive year with a unique champion, the longest such stretch in league history,' and Yahoo/NBA snippets corroborate that 2026 made it the eighth straight season with a different champion. B also points toward the same conclusion, but its strongest explicit statements come from X and Threads, with a less complete Wikipedia snippet and a Reddit result that is pre-championship. So A provides more authoritative, accurate, and less contradictory support for answering that the 2026 Knicks title made eight different champions in eight seasons since 2019."
+}

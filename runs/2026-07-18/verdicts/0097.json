@@ -1,0 +1,11 @@
+{
+  "id": 97,
+  "query": "Imran Chaudhri Bethany Bongiorno HP Humane acquisition employment status 2025",
+  "topic": "Humane AI Pin",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Result quality is mixed: Wikipedia is secondary and not ideal for current employment status; one result (inngot.com) is poorly excerpted and unclear; the LinkedIn post is indirect evidence rather than a primary profile. However, A explicitly states that HP IQ will be home to co-founders Imran Chaudhri and Bethany Bongiorno, and includes a LinkedIn post saying both are SVPs leading HP IQ, which supports 2025 employment status.",
+  "b_issues": "B is weaker on the specific employment-status question. The TechCrunch excerpt omits the key sentence naming Imran Chaudhri and Bethany Bongiorno, so it mainly says some employees got offers and a new unit exists. The LinkedIn result for Imran is effectively unusable from the snippet, and there is no Bethany LinkedIn/profile result. Other results are low-quality or opinionated (Daring Fireball, Medium). Wikipedia says the founders will join HP on HP IQ, but it does not clearly state their specific titles/status as of 2025.",
+  "reasoning": "The question is about Imran Chaudhri and Bethany Bongiorno’s employment status after HP’s 2025 Humane acquisition. Content A contains enough accurate facts to answer that: HP acquired most of Humane in Feb. 2025, the founders would be part of HP IQ, and a LinkedIn post explicitly says both are 'SVPs leading HP IQ.' That aligns with the anchor showing Imran as SVP, Design & Innovation - HP IQ from Mar 2025 and Bethany as SVP - HP IQ from Feb 2025. Content B supports that they joined HP/HP IQ, but it is less explicit and less well-sourced on their precise employment status, since the useful LinkedIn evidence is missing and the TechCrunch snippet does not name both founders. Therefore A better enables a correct answer."
+}

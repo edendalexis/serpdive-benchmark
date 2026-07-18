@@ -1,0 +1,11 @@
+{
+  "id": 213,
+  "query": "Lil Tay new single Stuck in July August 2025 release date music platforms",
+  "topic": "Lil Tay",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Contains a date discrepancy that could confuse the model: Complex says the single/mv was released/out on YouTube on August 5, 2025, while Apple Music/Shazam/auto-generated YouTube indicate August 8, 2025 for the streaming release. Shazam snippet is awkwardly phrased ('In July was released'). Instagram result is only a snippet and not fully verifiable from the result alone.",
+  "b_issues": "Also has the same unresolved date discrepancy between Complex (August 5, 2025, out on YouTube) and Apple Music (August 8, 2025, streaming release), but lacks additional platform evidence to clarify availability across music platforms. It provides less support for the 'music platforms' part of the query.",
+  "reasoning": "A better enables a correct answer because it includes the key facts needed to reconcile the query: Complex gives the initial release/news context ('Stuck in July' released on Tuesday, August 5, 2025, and out on YouTube), Instagram explicitly says it would be available on all streaming platforms at midnight, and Apple Music/Shazam/YouTube indicate an August 8, 2025 streaming/platform release. That lets an LLM answer both release date nuance and platform availability more completely. B has reliable sources too, but only shows Complex plus Apple Music, so it leaves the 'music platforms' aspect less directly supported and the date discrepancy less explainable."
+}

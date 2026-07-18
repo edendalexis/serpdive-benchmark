@@ -1,0 +1,11 @@
+{
+  "id": 650,
+  "query": "UNRWA current Commissioner-General 2026 budget shortfall funding pledges latest",
+  "topic": "United Nations Relief and Works Agency for Palestine Refugees in the Near East",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A includes a less reliable featured-snippet/result from Mada Masr claiming Christian Saunders had announced $4 million in pledges by July 7, 2026; this is not corroborated by the stronger official/UN sources shown. It also mixes direct UN sources with third-party summaries, so an LLM could over-weight the snippet. However, it correctly identifies the current head at the time as Commissioner-General ad interim Christian Saunders and repeatedly states the 2026 shortfall is about $100 million.",
+  "b_issues": "Content B is more incomplete for the specific question. Its top result highlights an older Nov. 2025 statement by Philippe Lazzarini with a different $200 million shortfall figure, which is stale and potentially misleading for a query asking for current/latest 2026 information. It does contain an official statements index noting Christian Saunders as Commissioner-General ad interim on 30 June 2026 and a UN News result with the $100 million shortfall, but it provides little or no concrete information on latest funding pledges.",
+  "reasoning": "The question asks for three things together: the current Commissioner-General, the 2026 budget shortfall, and the latest funding pledges. Content A better supports all three. It contains UN/UN News material showing the shortfall is an unprecedented $100 million in 2026, names Christian Saunders as Commissioner-General ad interim, and includes at least one result giving a latest-pledges update ($4 million, albeit from a less authoritative outlet). Content B has reliable official/UN links for Saunders and the $100 million gap, but it lacks substantive latest pledges detail and risks confusion because its top result is an older Philippe Lazzarini page with a different $200 million figure from late 2025. Therefore A better enables a correct answer from the provided content alone."
+}

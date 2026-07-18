@@ -1,0 +1,11 @@
+{
+  "id": 886,
+  "query": "Skydance New Media Marvel 1943 Rise of Hydra announcement partnership Marvel Entertainment release window",
+  "topic": "Skydance Media",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A includes newer/outdated-conflicting release info beyond the likely target timeframe: one result says 2025, another Marvel page title says 2026, and IGN says 2027 at the earliest. This creates contradiction on release window. It also lacks the original Marvel partnership announcement result directly, though one IGN snippet states it was announced in October 2021.",
+  "b_issues": "Content B is dominated by social posts and secondary/tertiary sources about later delays, with no clear authoritative source for the original Skydance New Media partnership with Marvel Entertainment. It does not provide the key announcement date/partnership details, and only indirectly mentions release-window changes. Sources are less reliable overall and incomplete for the asked question.",
+  "reasoning": "The question asks about the Skydance New Media partnership announcement with Marvel Entertainment and the release window for Marvel 1943: Rise of Hydra. Content A contains enough core facts to assemble a substantially correct answer: it states the project was announced in October 2021 as a Marvel collaboration, and it includes an authoritative Skydance source saying Marvel 1943: Rise of Hydra was due in 2025. Although A has contradictory later release-window updates, it still provides the essential partnership timing and at least one reliable release-window source. Content B mostly contains low-reliability social/aggregator results about later delays and lacks the crucial original partnership announcement details entirely. Therefore A better enables a correct answer from the provided content alone."
+}

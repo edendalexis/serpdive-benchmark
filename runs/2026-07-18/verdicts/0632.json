@@ -1,0 +1,11 @@
+{
+  "id": 632,
+  "query": "Perplexity Computer Brain persistent memory system research preview launch date",
+  "topic": "Perplexity AI",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor issue: the key result snippet does not explicitly include the calendar date in the content text, though the linked Perplexity blog result is the authoritative source and clearly identifies Brain as rolling out in Research Preview to Max and Enterprise Max subscribers. Another result says 'all Perplexity Max subscribers,' which is slightly less precise than the blog. A changelog item dated July 13, 2026 could distract from the actual launch date if over-weighted, but it is not the main launch source.",
+  "b_issues": "Contains off-target and potentially misleading results about the February 2026 launch of Perplexity Computer rather than the launch of Brain. The strongest date-bearing result is a third-party MarkTechPost snippet saying 'Today, Perplexity launched Brain' without enough source context in the snippet itself. Includes a low-reliability blog (explainx.ai) and unrelated YouTube/Medium items. The set does not clearly establish the research preview launch date from an authoritative source, and the February dates in other results may confuse the model.",
+  "reasoning": "Content A better enables a correct answer because it includes the authoritative Perplexity blog result 'Self-improving Memory for Agents,' which states that Brain is launching and that it is 'rolling out today to Max and Enterprise Max subscribers in Research Preview.' Combined with the known publication date of that blog, this supports the correct launch date: June 18, 2026. A also includes corroboration from LinkedIn and press coverage. Content B is weaker because several top results are about the earlier launch of Computer in February 2026, not Brain, and the research-preview/date facts are not clearly presented from a primary source. Therefore A is more accurate, more reliable, and less likely to lead the LLM astray."
+}

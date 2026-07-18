@@ -1,0 +1,11 @@
+{
+  "id": 208,
+  "query": "Shohei Ohtani 2026 season pitching stats after July 22 return from knee injury",
+  "topic": "Shohei Ohtani",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A does not directly answer 'after July 22 return' because it only says Ohtani is expected to start Wednesday after the All-Star break and gives season-to-date pitching stats. It includes one potentially outdated/contradicted detail from an MLB.com news result saying he would have his knee drained, while AP/anchor say he instead received a lubricant injection and did not have fluid drained. It also includes irrelevant batting-only ESPN content.",
+  "b_issues": "Content B is much weaker and largely irrelevant. It lacks reliable season pitching stats, includes a Reddit post and Facebook post, an ESPN batting gamelog, and a Yahoo player page snippet with no actual pitching line. The RotoWire snippet is generic/possibly cross-season commentary and does not provide the needed 2026 pitching totals. It does not establish the July 22 return details or the post-return stats.",
+  "reasoning": "The question asks for Shohei Ohtani's 2026 season pitching stats in the context of his return from a knee issue around July 22. Content A contains the key usable facts: multiple reliable snippets indicate the knee-related absence/return timing, and RotoWire explicitly provides his 2026 pitching line: 14 starts, 8-2, 1.79 ERA, 0.95 WHIP, 95:26 K:BB in 85.2 innings. Those match the anchor's stats closely enough to let an LLM answer correctly. Content B does not provide the necessary pitching stat line from reliable sources and is dominated by irrelevant or low-reliability results, so it would not let an LLM answer the question as well."
+}

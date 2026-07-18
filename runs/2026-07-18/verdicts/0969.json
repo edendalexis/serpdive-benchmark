@@ -1,0 +1,11 @@
+{
+  "id": 969,
+  "query": "President Droupadi Murmu article Jagannath devotion spiritual experiences childhood full text July 2026",
+  "topic": "Narendra Modi",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A mostly contains secondary summaries and snippets, with no result clearly providing the full text of Murmu's article. It lacks key concrete details visible in the anchor/full-text reproductions, such as her daily humming of Jagannath bhajans, the Bhakta Kabi Madhusudan Rao line, and specific spiritual experiences tied to nomination/oath/Puri visit. One result is a PIB press release about PM Modi sharing the article, which is reliable but still only a summary. Overall it is too sparse to answer a request that explicitly asks for the article/full text and Murmu's childhood devotion/spiritual experiences.",
+  "b_issues": "Content B also does not directly supply the full text from the original publication, and some sources are secondary/aggregator-style (Big News Network, Devdiscourse). It includes one likely inaccurate detail: calling the 2026 event the '149th Rath Yatra,' which is not a meaningful or standard count for Jagannath's annual Rath Yatra. However, this does not materially affect answering the core query about Murmu's article and devotion.",
+  "reasoning": "B better enables an LLM to answer correctly because it contains more of the substantive facts from Murmu's article: lifelong devotion since childhood, singing bhajans, faith guiding her through personal challenges and public life, prayer at the Delhi Jagannath temple before filing nomination papers, feeling the deity's presence during oath-taking, and the barefoot walk on the Bada Danda after becoming President. These align with the anchor and reproduced text. A has only high-level summaries and less factual coverage, so it is less sufficient for answering a query seeking the article's substance or full text."
+}

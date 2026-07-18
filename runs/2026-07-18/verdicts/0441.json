@@ -1,0 +1,11 @@
+{
+  "id": 441,
+  "query": "Notre-Dame summer 2026 Musique Sacrée concerts schedule ticket information",
+  "topic": "Notre-Dame de Paris",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "One result is irrelevant and about the University of Notre Dame, not Notre-Dame de Paris. The snippets are somewhat incomplete: the main summer-concert page snippet does not show the full schedule, and one snippet mentions concert rates/on-site sales in a way that may blur summer-2026 specifics. There is also some tension with the anchor because the official Notre-Dame page says no tickets sold at the venue or by phone, while A includes a snippet suggesting on-site sales from 8 p.m.; this likely comes from a broader concert-season page rather than the summer-specific page.",
+  "b_issues": "Contains multiple irrelevant results about the University of Notre Dame and a third-party blog. It lacks the key official summer-2026 page from Notre-Dame de Paris or the dedicated summer-concerts page, so ticketing guidance is weaker. The snippets give only generic season information ('every Tuesday at 8:30 p.m.') and not the summer-specific practical info such as online booking only / no venue or phone sales. The Mapado ticketing result helps, but B still provides less authoritative and less complete summer-2026 information overall.",
+  "reasoning": "A better supports a correct answer because it includes the official Notre-Dame de Paris summer-2026 page explicitly about 'Musique Sacrée at Notre-Dame de Paris – Summer 2026 Concerts,' which states the concerts take place every Tuesday at 8:30 pm and refers to practical information and online booking. It also includes the Musique Sacrée summer-concerts page and an official concert-season page with pricing context. B has some useful official results, but they are mostly generic 2025–2026 season pages rather than the summer-2026-specific page, and several results are irrelevant or third-party. For answering 'schedule ticket information' from the provided content alone, A has the more directly relevant official facts."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 10,
+  "query": "TSMC Q2 2026 net profit revenue guidance capex raised full-year forecast Reuters July 2026",
+  "topic": "Taiwan Semiconductor Manufacturing Company",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Reuters result title/snippet appears mismatched: the July 15 Reuters URL/title shown as 'TSMC to invest another $100 billion in US as Q2 profit ...' is likely not the exact article title and does not provide the key figures directly. A includes a speculative preview article as the top result, which is not the answer source. A also lacks an explicit result containing the raised 2026 capex range and full-year forecast details in one reliable source snippet; the Reuters snippets are partial and one is only a pre-earnings expectation.",
+  "b_issues": "Contains lower-reliability/social sources (X post, Facebook) and one Facebook snippet appears stale/incorrect, mentioning capex '$52-56 billion' rather than the raised range. However, these do not prevent answering because other results provide the needed facts. Reuters result included is a pre-earnings piece, not the final post-results Reuters story.",
+  "reasoning": "B better enables a correct answer because it explicitly contains the core post-Q2 facts needed: TSMC Q2 2026 net income NT$706.56 billion and revenue US$40.20 billion from the official earnings release; 3Q26 guidance of US$44.6-45.8 billion from the same official source; and the raised full-year 2026 revenue growth forecast to 'slightly above 40%' plus raised capex to US$60-64 billion from the Yahoo/BeInCrypto pickup. A has the official earnings release and some Reuters links, but its Reuters snippets are incomplete or pre-results, and it does not clearly surface the raised capex/full-year forecast in a dependable snippet as directly as B does. Despite B's noisy social results, the necessary facts are present, mutually consistent, and mostly supported by the official TSMC release plus a secondary article."
+}

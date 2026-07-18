@@ -1,0 +1,11 @@
+{
+  "id": 563,
+  "query": "Hades II new Hidden Aspects Nocturnal Arms names Vow of Rivals Oath of the Unseen effects",
+  "topic": "Hades II",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A does not provide the names of the new Hidden Aspects for the Nocturnal Arms. It only gives a generic description of Vow of Rivals from a Fandom snippet (new moves, extra phases, new arena) and otherwise mostly high-level update blurbs. Reliance is largely on Fandom/Reddit/secondary sources, with no direct authoritative page containing the specific aspect names or full effects.",
+  "b_issues": "Content B likewise does not provide the names of the new Hidden Aspects. It contains mostly high-level update coverage plus generic weapon-aspect guidance, and one snippet about Hidden Aspects from TheGamer without the actual names. It also includes a possibly confusing Fandom snippet about 'Rewards you for waking Hypnos, though this cannot be done just yet...' that is not directly relevant to the query. As with A, there is no source excerpt giving the full specific Vow of Rivals effects beyond broad stronger-Guardian claims.",
+  "reasoning": "The question asks for specific factual details: the names of the new Hidden Aspects of the Nocturnal Arms and the effects of Vow of Rivals at the Oath of the Unseen. Neither result set includes the Hidden Aspect names in the provided snippets. For Vow of Rivals, A is slightly better because it includes a direct snippet stating it enhances Guardian fights with new moves, extra phases, or a new arena, but that still falls short of a complete answer and comes from Fandom rather than an authoritative source. B has similar high-level information but not the specific effects in the snippets. Since both lack the core requested names and neither clearly enables a correct full answer from the provided content alone, the best verdict is a tie."
+}

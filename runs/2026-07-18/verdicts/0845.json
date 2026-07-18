@@ -1,0 +1,11 @@
+{
+  "id": 845,
+  "query": "Taylor Swift Songwriters Hall of Fame induction June 2026 second-youngest inductee net worth 2026",
+  "topic": "Taylor Swift",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A contains conflicting net worth figures: CNBC TV18 says $2 billion as of March 2026, while a Forbes result snippet says $1.6 billion. It also does not explicitly state who the youngest-ever inductee was or clearly say 'second-youngest inductee'; it only strongly implies Swift was the youngest woman. Several lower-ranked results are weak/unreliable for factual answering (Facebook, Instagram, YouTube).",
+  "b_issues": "Content B also contains a conflicting net worth figure versus the anchor/current Forbes profile: the Forbes snippet says $1.6 billion, not the $2 billion shown in the independent reference for July 2026. While AP clearly states Stevie Wonder was the youngest ever and Swift the youngest woman, B does not itself provide the later 2026 $2 billion net worth figure. One Yahoo snippet appears odd ('Opalite hitmaker'), which slightly reduces confidence, though AP/Forbes are strong.",
+  "reasoning": "Both sets provide enough to infer that Taylor Swift was the second-youngest inductee overall because AP in B explicitly says Stevie Wonder was the youngest ever and Swift was the youngest woman at 36, while A at least indicates she was one of the youngest/youngest woman. But both A and B have the same core weakness on the 'net worth 2026' part: they surface contradictory or outdated figures, especially Forbes snippets citing $1.6 billion, whereas the independent reference shows Forbes at $2 billion in July 2026. A includes a $2 billion figure from CNBC TV18, but with weaker sourcing than Forbes/AP; B has stronger sourcing for the induction fact but only the older $1.6 billion net worth. Since each set is better on one part and weaker on the other, neither clearly better enables a fully correct answer than the other."
+}

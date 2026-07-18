@@ -1,0 +1,11 @@
+{
+  "id": 548,
+  "query": "ECB economic modelling upgrade uncertainty war energy shocks progress 2025 2026",
+  "topic": "European Central Bank",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Mostly strong. It includes the key ECB blog result directly and also an ECB-related bulletin result about the war in the Middle East increasing uncertainty and revising 2026 inflation/growth projections. Minor issues: some supporting results are secondary/non-ECB sources (BIS speech mirror, MUFG, IEU) and one result mentions 2025 'Liberation Day' tariff volatility, which may distract from the core query. But no major factual contradiction is evident.",
+  "b_issues": "Contains more questionable/non-authoritative material. The second result is a KuCoin news flash summarizing ECB projections and model upgrades, which is not a primary or especially reliable source. It also gives specific numbers (3.0% inflation, 0.8% GDP growth in 2026) without clear grounding in the snippet, and these differ from other figures appearing elsewhere. Another result is a YouTube video with potentially low reliability. While the top ECB blog result is correct, the rest is noisier and less trustworthy.",
+  "reasoning": "Both sets include the crucial primary source: the ECB blog 'Still fit for purpose? Upgrading our economic models for an age of uncertainty' from 10 July 2026, which directly answers the main theme: the ECB is upgrading its economic modelling to cope with uncertainty driven by war and energy shocks. However, Content A better supports a correct answer because its additional evidence is more authoritative and aligned with the anchor: it includes an ECB Economic Bulletin-style result describing how the war in the Middle East increased uncertainty and pushed up 2026 inflation while lowering growth, matching the query's 2025/2026 context. Content B adds weaker sources like KuCoin and a YouTube video, and the KuCoin snippet introduces potentially inconsistent projection numbers. So A better enables an LLM to answer accurately from the provided content alone."
+}

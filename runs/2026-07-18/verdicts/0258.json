@@ -1,0 +1,11 @@
+{
+  "id": 258,
+  "query": "GSK Arexvy FDA prescribing information RSV vaccine 2025 updated safety efficacy labeling",
+  "topic": "RSV vaccines",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Content A lacks the key FDA prescribing-information PDF and the FDA GBS safety communication text excerpt is not shown in detail. It also includes GSK press-release snippets that are not the primary FDA labeling source. One result says Arexvy was approved for ages 50-59 at increased risk, while another GSK press-release snippet discusses 18-49 expansion and references 2026 approval; this is not clearly aligned to the user's 2025-updated-labeling framing and could confuse timeline/indication status.",
+  "b_issues": "Content B includes secondary-media summaries (PharmExec, Optometry Advisor) instead of relying mainly on primary FDA/GSK labeling sources. It also contains contradictory/dated indication information: secondary results say Arexvy is approved for ages 50-59 at increased risk, while the FDA package-insert snippet shown reflects a later 2026 label with 18-59 at increased risk. That mismatch could confuse the answer to a 2025-labeling question.",
+  "reasoning": "Both sets contain the core facts needed to answer at least part of the question: that FDA required a 2025 prescribing-information safety labeling update for Arexvy adding a Guillain-Barre syndrome warning, and both include authoritative FDA/GSK sources related to Arexvy labeling. Content A has the FDA Arexvy page and GSK materials, but misses the actual package-insert result and gives less direct access to the labeling text. Content B has the FDA package insert and the FDA GBS safety communication, which is strong, but it also mixes in secondary sources and conflicting indication snapshots (50-59 vs 18-59) because the package insert shown is from a later 2026 revision rather than specifically the 2025 update. Since both sets provide enough information to infer the 2025 safety-labeling change but both are compromised on the precise, current/dated labeling context and indication details, neither clearly outperforms the other."
+}

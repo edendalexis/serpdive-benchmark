@@ -1,0 +1,11 @@
+{
+  "id": 819,
+  "query": "Copilot Organizational Messages usage-based targeting dynamic behaviors admin feature 2025",
+  "topic": "Microsoft Copilot",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A has the key Microsoft Learn page and a third-party post, but the most relevant result is a generic Microsoft 365 Roadmap page with noisy snippets and no specific feature facts. It does not clearly state the feature name 'Action Segments,' roadmap ID, or rollout timing in the snippets. The Learn snippet says admins can target messages based on user activity, but it is broad and may not specifically identify the Copilot-targeting admin feature in 2025. Overall, A is usable but less precise and more ambiguous.",
+  "b_issues": "Content B includes a strong Microsoft Learn Copilot release-notes snippet saying admins can target Organizational Messages using dynamic usage behaviors through Usage-based targeting, but that wording may be a summarized/snippet paraphrase rather than the exact feature name. It also relies on a third-party M365 Admin page for the precise 'Action Segments' naming and rollout dates rather than an official detailed source in the result set. No major contradiction is present within B.",
+  "reasoning": "B better enables a correct answer because it directly contains the core fact pattern the question is asking about: an admin feature for Copilot Organizational Messages that uses dynamic/usage-based targeting behavior. The first result explicitly says admins can target Organizational Messages using dynamic usage behaviors through Usage-based targeting, which closely matches the query. The second result adds the precise feature framing: Action Segments for Microsoft 365 Copilot, with dynamic pre-defined usage segments and rollout timing beginning in Public Preview in mid-November 2025. By contrast, A has only a broad Organizational Messages Learn snippet about targeting based on user activity and a third-party result, without as clear a connection to the specific Copilot 2025 feature or its formal naming/timing. So B is more directly on-point, sufficiently accurate, and less likely to cause the LLM to miss the intended answer."
+}

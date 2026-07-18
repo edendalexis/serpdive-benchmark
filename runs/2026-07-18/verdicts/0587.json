@@ -1,0 +1,11 @@
+{
+  "id": 587,
+  "query": "FTX surplus amount customer recovery more than 100 percent outstanding debts latest bankruptcy disclosures 2025 2026",
+  "topic": "FTX",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A has only indirect support for the key figures and timing. It includes Reuters Oct. 2024 saying up to $16.5B recovered and a trade-press summary saying FTX owes about $11.2B and 98% of creditors are expected to receive about 118% of allowed claims, but it lacks a strong primary/latest 2025-2026 bankruptcy disclosure result. One result is stale/irrelevant (FT top-50 creditors from 2022), and another is a low-reliability secondary site. It also does not clearly connect the surplus amount to the question’s 'latest bankruptcy disclosures 2025 2026' framing.",
+  "b_issues": "Content B still lacks the actual 2025 Annual Financial Report / 2026 distribution press releases from the anchor, so it is not perfect on 'latest disclosures.' It contains some weaker or stale results (Yahoo 2022 creditor-count filing; cryptoresearch secondary summary). However, its Reuters result explicitly states customers receive at least 118% and up to $16.5B recovered, and Banking Dive explicitly states debts of about $11.2B versus $14.5B-$16.3B available, which directly supports the surplus amount and >100% recovery claim.",
+  "reasoning": "B better enables a correct answer because it contains the core facts needed to answer the question: outstanding debts of about $11.2B, available assets of roughly $14.5B-$16.3B (implying a surplus over liabilities), and that 98% of customers/creditors are expected to receive about 118% of allowed claims. It also includes Reuters, a highly reliable source, explicitly saying the plan allows full repayment and at least 118% for most customers. A has some of the same facts, but its result set is noisier and less aligned with the 'latest bankruptcy disclosures 2025 2026' angle, with weaker sourcing and more irrelevant material. Neither set is ideal relative to the anchor, but B is more directly sufficient and reliable for answering the question correctly."
+}

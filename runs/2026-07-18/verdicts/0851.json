@@ -1,0 +1,11 @@
+{
+  "id": 851,
+  "query": "SAG-AFTRA Llama Fortnite ULP charge AI resolution outcome 2025",
+  "topic": "SAG-AFTRA",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A establishes the filing of the May 19, 2025 ULP charge and the basis for it, but it does not provide any actual resolution or outcome of the charge in 2025. Its top result speculates that the outcome could set precedent, which is not an outcome. It also lacks the official SAG-AFTRA statement page in the returned set, though it does include the SAG-AFTRA PDF charge and AP/Variety coverage. No clear contradiction, but incomplete for the 'resolution outcome' part of the query.",
+  "b_issues": "Content B likewise establishes the filing and allegations, using strong official and news sources, but it also does not provide any actual resolution or outcome of the ULP charge in 2025. The results stop at the filing/allegation stage. No clear contradiction, but incomplete for the 'resolution outcome' part of the query.",
+  "reasoning": "Neither set contains the key fact needed to answer the full query: what the resolution or outcome of the SAG-AFTRA/Llama Productions Fortnite AI ULP charge was in 2025. Both sets accurately show that SAG-AFTRA filed a ULP charge against Llama Productions on May 19, 2025 over Fortnite's AI Darth Vader voice and alleged failure to notify/bargain. Content A includes the official PDF charge, while Content B includes the official SAG-AFTRA statement page. But neither includes an NLRB disposition, settlement, withdrawal, dismissal, or adjudicated result. Since both are similarly missing the decisive 'outcome' information, neither better enables a correct answer to the full question."
+}

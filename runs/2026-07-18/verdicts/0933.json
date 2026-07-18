@@ -1,0 +1,11 @@
+{
+  "id": 933,
+  "query": "Klarna Germany capital efficiency platform €900 million facility €5 billion financing",
+  "topic": "Klarna",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "",
+  "b_issues": "One result contains obvious irrelevant contamination/mixed content (the InvestingNews snippet includes unrelated Rio Tinto/BHP/AmeriTrust text). Another snippet states the facility size is \"$900mn\" instead of €900 million, introducing a currency error. Some B snippets are thinner/truncated and omit key mechanics present in A.",
+  "reasoning": "Content A more clearly and reliably contains the facts needed to answer the query: Klarna added Germany to its capital efficiency platform via its first forward flow and warehouse financing agreement in Germany; the facility is €900 million; it is a two-year agreement; Klarna sold a portfolio of German Fair Financing term loans and will continue selling newly originated receivables on a rolling basis; and Klarna expects this to support up to €5 billion of German Fair Financing term-loan origination over the remaining life of the program. These facts appear consistently across multiple reliable/redundant sources, including Klarna investor relations and Yahoo reposting the Business Wire release. Content B also has the core answer, but it is weakened by the contaminated unrelated snippet and the incorrect \"$900mn\" currency reference, which makes it less dependable for an LLM answering from the search results alone."
+}

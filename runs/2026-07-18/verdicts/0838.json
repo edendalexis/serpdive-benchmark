@@ -1,0 +1,11 @@
+{
+  "id": 838,
+  "query": "Julian Assange charter flight VJT199 cost crowdfunding campaign total raised Saipan Canberra",
+  "topic": "Julian Assange",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A lacks the key primary source result showing the crowdfunding campaign total raised. It includes secondary/tertiary snippets saying the campaign had raised almost $400,000 or 82% of target at some earlier point, which is incomplete/outdated relative to the question asking for the total raised. It also mixes the charter debt figure ($520,000 owed) with the later revealed total charter cost ($781,480), which could confuse an LLM without clearly tying this to the crowdfunding total.",
+  "b_issues": "Content B has some snippet quality issues: one result says 'Flight VJ199' instead of VJT199/VJ199 ambiguity, and several snippets only mention the target/debt ($US520,000) rather than the final amount raised. It also lacks the exact total raised in the snippet text, so the model would need to infer or rely on visiting the crowdfunder result. Source quality is mixed, with News.com.au and Facebook less authoritative than the crowdfunder page itself.",
+  "reasoning": "The anchor indicates the crucial answer is on the Crowdfunder page: the campaign ultimately raised £525,520, while the flight debt mentioned was USD 520,000 for the charter to Saipan and onward to Australia/Canberra. Content B is better because it directly includes the Crowdfunder page itself, plus corroborating snippets about the $US520,000 charter-flight debt to Saipan/Australia. That gives an LLM access to the most relevant source for the 'total raised' part of the question. Content A, by contrast, does not include the Crowdfunder page and only provides partial/intermediate fundraising figures ('almost $400,000', '82% of target'), which are not the final total. So A is more likely to produce an incorrect answer to the total-raised portion, while B better enables a correct answer."
+}

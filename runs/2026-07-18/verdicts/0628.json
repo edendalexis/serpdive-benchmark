@@ -1,0 +1,11 @@
+{
+  "id": 628,
+  "query": "Novak Djokovic future comments after Wimbledon 2026 exact quote retirement uncertainty July 2026",
+  "topic": "Novak Djokovic",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A relies heavily on secondary/tabloid-style sources (Bolavip, Express, Yahoo aggregation) rather than the strongest primary or top-tier reporting in the anchor. It does not clearly provide the full exact retirement/future quote beyond snippets, and includes one irrelevant pre-Wimbledon SI result plus speculative Tennis365 commentary. However, it does contain the key quote fragments: 'I would like to, at least one more time. Let's see.' and indicates he did not retire.",
+  "b_issues": "Content B is weaker and noisier: the top result is a Facebook post with dubious/garbled commentary, not a reliable source; it includes an irrelevant YouTube post-match interview from 7 July 2026 before the semifinal loss, not the post-exit retirement discussion; and it has fewer corroborating sources overall. It also only offers partial quote snippets and less context about the question's retirement uncertainty after Wimbledon exit.",
+  "reasoning": "The question asks about Djokovic's future comments after Wimbledon 2026, specifically the exact quote tied to retirement uncertainty in July 2026. Both sets contain the crucial quote fragment that he said he would like to return 'at least one more time' and 'Let's see,' which aligns with the anchor. But A better enables a correct answer because it provides multiple results explicitly tied to the semifinal loss and retirement question, including the key wording and context that he had not announced retirement. B's highest-ranked content is an unreliable Facebook post, and one of its main results is a pre-semifinal YouTube interview unrelated to the retirement-uncertainty question. So A is the more reliable and contextually relevant set, even though neither is ideal."
+}

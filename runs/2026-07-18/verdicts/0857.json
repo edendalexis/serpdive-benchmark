@@ -1,0 +1,11 @@
+{
+  "id": 857,
+  "query": "SAG-AFTRA Network Television Code Agreement ratification August 2025 AI terms 2026 TV theatrical provisions",
+  "topic": "SAG-AFTRA",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A is incomplete and somewhat indirect: it does not clearly include the August 2025 ratification result for the Network Television Code itself, and one result is a Facebook post. However, it does contain a SAG-AFTRA source stating that the Network Television Code deal 'adds a commitment to adopt future artificial intelligence terms secured in the upcoming 2026 TV/Theatrical Agreement,' plus SAG-AFTRA results confirming the 2026 TV/Theatrical Agreement was ratified. So the key linkage between the 2025 Network Television Code AI terms and the 2026 TV/Theatrical provisions is present.",
+  "b_issues": "Content B is essentially irrelevant to the question. Its only result is a SAG-AFTRA Plans television reporting page about contribution rates, ceilings, and reporting rules, not the August 2025 Network Television Code ratification or AI terms or 2026 TV/Theatrical provisions. It does not provide the needed facts.",
+  "reasoning": "A better enables a correct answer because it includes reliable SAG-AFTRA sources indicating that the 2025 Network Television Code agreement incorporated a commitment to adopt future AI terms from the upcoming 2026 TV/Theatrical Agreement, and it also includes SAG-AFTRA confirmation that the 2026 TV/Theatrical Agreement was later ratified. While A does not cleanly supply the August 2025 ratification vote details for the Network Television Code itself, it at least contains the core factual bridge needed to answer the query. B lacks the relevant facts altogether and would not let an LLM answer correctly."
+}

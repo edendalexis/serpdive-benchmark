@@ -1,0 +1,11 @@
+{
+  "id": 737,
+  "query": "Al Aqsa Mosque access restrictions 12 consecutive days Israel Jerusalem 2025 latest report",
+  "topic": "Israel-Hamas conflict",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Top result is about March 2026, not 2025, so it mismatches the year in the query. Result set also includes weak/low-reliability items such as Instagram reels, and one 2025 WAFA item about a separate June closure that is not clearly tied to the '12 consecutive days' claim. However, A does contain a strong, reliable source explicitly stating the mosque was closed for 12 days and access to Jerusalem's Old City was restricted.",
+  "b_issues": "Does not directly provide the key '12 consecutive days' fact from a strong source. Top IMEMC result says 'tenth consecutive day,' not 12. Other results are mixed in date/context, including a 2026 Euro-Med Monitor item, a Jerusalem Story piece about Ramadan 2025 restrictions but not the 12-day closure, a TRT World piece about a 40-day closure in a different context, and Wikipedia background. This makes the set less precise and more potentially confusing for answering the asked question.",
+  "reasoning": "A better enables a correct answer because it includes a credible source (Al Jazeera) stating that Israel had closed Al-Aqsa Mosque for the past 12 days and restricted movement in Jerusalem's Old City. That directly matches the core of the question about access restrictions and 12 consecutive days. Although A's best evidence is from 2026 rather than 2025, B is worse: it lacks a strong source for the 12-day fact, leads with 'tenth consecutive day,' and mixes in less relevant or broader contextual items. So an LLM using A is more likely to produce the key facts correctly than one using B."
+}

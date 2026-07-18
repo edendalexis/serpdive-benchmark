@@ -1,0 +1,11 @@
+{
+  "id": 431,
+  "query": "Megadoc Mike Figgis documentary Megalopolis rental availability",
+  "topic": "Megalopolis",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A does not explicitly state rental availability. It shows Apple TV and Criterion Channel pages, but without saying whether Megadoc is rentable versus subscription-only or merely listed. It also includes less useful general results (Wikipedia, IMDb, Deadline) that do not answer availability.",
+  "b_issues": "Content B also does not explicitly state rental availability. Most results are reviews/editorial pages (Letterboxd, IndieWire, Frida Cinema, Wikipedia) rather than availability sources. Only the Apple TV listing is directly relevant, and it likewise does not specify rental terms. B lacks the Criterion Channel result and any aggregator/storefront evidence about where it can be watched.",
+  "reasoning": "The question is about rental availability for Mike Figgis' Megadoc. Neither set directly gives a clear rent/not-rent answer. However, A better supports a correct answer because it contains two relevant availability sources from the anchor-backed evidence: the Criterion Channel page and the Apple TV page. Those at least indicate the title is available on Criterion Channel and listed on Apple TV, which is closer to answering where it can be watched. B is weaker because most of its results are reviews or background pages, with only one availability-adjacent source (Apple TV). Since neither explicitly confirms rental status, both are incomplete, but A provides more reliable and directly relevant evidence."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 913,
+  "query": "2027 Super Bowl LXI television broadcast network channel debut",
+  "topic": "Super Bowl",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A relies heavily on Wikipedia plus lower-reliability/social sources (Facebook posts, The Big Lead). It does not surface the stronger Los Angeles Times or ESPN result directly. However, its key factual claim is consistent: Super Bowl LXI will be on ESPN and ABC, with ESPN airing the Super Bowl for the first time and ABC simulcasting.",
+  "b_issues": "Content B is somewhat better sourced because it includes ESPN and the Los Angeles Times, but the top Wikipedia snippet introduces extra details not needed for the question and contains a potentially confusing wording difference ('first time that ESPN will air a live Super Bowl in the United States in English') plus mention of Univision/channel 5 that could distract from the core answer. Still, its core facts are consistent with the anchor.",
+  "reasoning": "Both result sets clearly contain the facts needed to answer the question: Super Bowl LXI in 2027 will be broadcast by ESPN with a simulcast on ABC, and this will be ESPN's first Super Bowl telecast/debut. Content A states this explicitly in the top Wikipedia result and reinforces it with additional snippets about ESPN's first-ever Super Bowl telecast. Content B also states it explicitly via Wikipedia, ESPN, and the Los Angeles Times. Neither set presents a contradiction on the central fact, and both enable a correct answer equally well."
+}

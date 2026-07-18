@@ -1,0 +1,11 @@
+{
+  "id": 590,
+  "query": "COP30 Belém final decision text download PDF",
+  "topic": "COP climate summit",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Content A does not surface the key official UNFCCC page or the direct PDF for the final/advance unedited decision text. Its results are mostly secondary sources (C2ES, IISD) summarizing outcomes, plus a PDF that appears to be an external summary document rather than the decision text itself. The snippets mention 'advanced unedited version' and decision references, but do not provide the actual UNFCCC download link shown in the anchor. One result is a garbled PDF snippet, reducing usefulness.",
+  "b_issues": "Content B includes the general UNFCCC COP30 page, but not the specific 'Outcomes ... Advance Unedited Versions (AUVs)' page or the direct PDF download. Most results are secondary or tertiary sources (UN news, Wikipedia, WRI, TNC) discussing outcomes rather than linking to the final decision text PDF. The snippets do not expose the needed PDF URL or exact page path from the anchor.",
+  "reasoning": "The question is specifically asking for the COP30 Belém final decision text download PDF. The anchor shows the best factual answer is the UNFCCC AUV outcomes page and a direct PDF such as the CMA draft decision PDF. Neither A nor B clearly contains that decisive information in the returned content. A is slightly closer because it mentions an 'Advanced unedited version' and decision identifiers, but it still lacks the official UNFCCC AUV page or direct PDF link. B has an official UNFCCC COP30 page, but not the specific decisions/download page or PDF. Since neither result set reliably enables an LLM to answer with the correct official PDF/download target from the content alone, this is a tie."
+}

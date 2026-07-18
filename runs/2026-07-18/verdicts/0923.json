@@ -1,0 +1,11 @@
+{
+  "id": 923,
+  "query": "Wicked For Good trailer first 24 hours views",
+  "topic": "Wicked",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "No material factual flaws for this question. It includes multiple corroborating results, including Variety, all stating 113 million views in the first 24 hours. One result is an X post, which is less reliable, but it is consistent with the others and not needed.",
+  "b_issues": "No material factual flaws for this question. It includes a featured snippet and highly reliable source coverage from Variety stating 113 million views in the first 24 hours, with corroboration from Today, BroadwayWorld, and Collider.",
+  "reasoning": "Both A and B clearly contain the needed fact: the 'Wicked: For Good' trailer got 113 million views in its first 24 hours. Both align with the anchor and do not present contradictory numbers. A has direct corroboration from Variety plus other outlets; B has the same key Variety source and an explicit featured snippet repeating the 113 million figure. Since either set would let an LLM answer correctly and confidently, the result is a tie."
+}

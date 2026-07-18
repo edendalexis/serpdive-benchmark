@@ -1,0 +1,11 @@
+{
+  "id": 929,
+  "query": "Wicked Broadway second highest grossing musical as of 2026 surpassed Phantom of the Opera source",
+  "topic": "Wicked",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Contains weaker and less reliable support overall: one strong Playbill result, but also Facebook posts and Reddit, which are not ideal sources. It lacks a clearly reliable secondary source like Variety, and most snippets refer to the 2017 milestone rather than establishing the broader current-source context as of 2026. No direct contradiction, but source quality is mixed.",
+  "b_issues": "Most key evidence is from 2017 reporting the moment Wicked passed Phantom at about $1.12B vs $1.11B, not a 2026-specific article stating the ranking. However, it does include a 2025-2026 Broadway season source and multiple reliable trade/media sources. No meaningful internal contradiction.",
+  "reasoning": "B better enables a correct answer because it contains multiple reliable sources explicitly stating that Wicked surpassed The Phantom of the Opera and became the second-highest-grossing Broadway show: Playbill, NYTIX, and Variety all say Wicked reached about $1.12 billion and passed Phantom's $1.11 billion. Those are the core facts needed for the question. A also has Playbill and NYTIX, but its remaining support is lower-quality social and forum content, making it less dependable. Neither set alone gives the best 2026 cumulative-gross source compared with the anchor, but B more reliably supports the claim and is less likely to mislead an LLM."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 153,
+  "query": "Zelenskyy Starmer Kyiv July 2026 UK 300 million Sweden Ukraine 16 advanced aircraft agreement model aircraft details announcement",
+  "topic": "Volodymyr Zelenskyy",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A is somewhat thin and mostly based on secondary reporting rather than the strongest official source. One result says '£300 million' while the same snippet also says '€300 million,' creating a currency inconsistency. It also says Ukraine and Sweden are preparing to sign contracts for Saab JAS 39 Gripen fighter jets, which may overstate details not clearly confirmed in all snippets. However, A consistently gives the key answer elements: Starmer in Kyiv on 16 July 2026, UK support of €300 million with Sweden, 16 aircraft, and identifies them as Saab JAS 39 Gripen/Gripen fighter jets.",
+  "b_issues": "Content B contains more serious contradictions on the core facts. Multiple results incorrectly say 15 aircraft instead of 16, and use £300 million instead of €300 million. This conflicts with the anchor and with B's own CGTN result that says 16 advanced aircraft and 300 million euros. B therefore gives inconsistent and potentially wrong answers on the two most important factual points: number of aircraft and currency/amount framing. It also lacks a clear, reliable official source in the returned set.",
+  "reasoning": "A better enables a correct answer because its top results align more closely with the anchor: Starmer announced in Kyiv on 16 July 2026 that the UK would provide €300 million, working with Sweden, for 16 advanced aircraft for Ukraine, identified in reporting as Saab Gripen fighters. B includes a directly conflicting cluster of results saying 15 aircraft and £300 million, which would likely cause an LLM to answer incorrectly. Although A has a minor currency inconsistency and relies on secondary sources, its results are materially more consistent with the anchor on the decisive facts."
+}

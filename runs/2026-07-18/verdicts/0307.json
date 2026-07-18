@@ -1,0 +1,11 @@
+{
+  "id": 307,
+  "query": "NASA Human Lander Challenge 2026 winners announcement next generation systems",
+  "topic": "NASA Artemis program",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Top result is misleading/outdated in snippet form: it says '2026 finalists announced' and highlights UC Davis rather than the winners, which could confuse an LLM about whether the page is about finalists or winners. Supporting results are weaker and include social media/secondary pages. The NASA result snippet is truncated and does not clearly provide the full set of winners or the 'next-generation' lander relevance by itself.",
+  "b_issues": "Includes one clearly irrelevant older result about the 2025 finalist teams, which could introduce noise. The HuLC homepage snippet is also thin and somewhat generic. However, these do not directly contradict the main winner information.",
+  "reasoning": "Content B better supports a correct answer because its top NASA result directly states the winners announcement context, names California Polytechnic State University as the overall winner, gives the winning project ('Peltier-based Hydration Accumulation Terminal'), dates the announcement, and explicitly says student solutions could be incorporated into 'next-generation Artemis landers'—matching the query's 'next generation systems' angle. Content A does contain the official NASA page and the HuLC site, but its highest-ranked result is a confusing finalist-oriented snippet centered on UC Davis, not the winners, making it easier for an LLM to misidentify the answer. B is more accurate and directly aligned with the question from the retrieved content alone."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 446,
+  "query": "Notre-Dame de Paris chevet sacristy restoration ongoing progress updates 2025 2026",
+  "topic": "Notre-Dame de Paris",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "A lacks strong, direct evidence about the chevet and sacristy progress in 2025–2026. Its most relevant result (Paris Unlocked) says restoration of the apse/chevet and sacristy would conclude sometime in 2025, which conflicts with the anchor indicating those works began after July 2025 and were still ongoing into 2026. Most other A results are generic reconstruction updates focused on reopening, spire statues, or surroundings, not the chevet/sacristy phase-3 works. Sources are also mixed in reliability, with travel/news-style pages rather than primary project documents.",
+  "b_issues": "B also lacks direct, reliable evidence about chevet and sacristy progress in 2025–2026. Its top results are largely the same generic Friends of Notre-Dame updates about the spire and reopening, plus broad project pages with no specific chevet/sacristy status. It contains no clear progress update for those works and omits the key 2026 phase-3 information seen in the anchor. Some results are older or only tangentially relevant.",
+  "reasoning": "Neither set gives an LLM enough accurate, targeted information to answer the query well. The anchor shows that by July 2026 phase 3 had begun, including restoration of the entire chevet and the exterior of the sacristy, with related 2026 tender activity confirming those works were active. But neither A nor B surfaces that key fact. A at least mentions the apse/sacristy, but does so via a likely inaccurate statement that the work would conclude in 2025, which would mislead the model. B avoids that specific false lead but still does not provide the needed facts. Since both fail to support a correct answer from the provided content alone, the best verdict is a tie."
+}

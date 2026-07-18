@@ -1,0 +1,11 @@
+{
+  "id": 471,
+  "query": "xAI Texas antitrust lawsuit Apple OpenAI",
+  "topic": "Elon Musk",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Mostly accurate and relevant. Minor issues: top results are later procedural updates rather than the initial filing; one DocumentCloud snippet is garbled/OCR-corrupted; CNBC/Law360 are later-dated and could distract from the core facts of the original suit. No clear factual contradiction with the anchor.",
+  "b_issues": "Also mostly accurate and relevant. Minor issues: includes low-credibility/opaque aggregator links (amelica.org, mshale.com) with thin snippets; includes an irrelevant NYT result about a different Apple/OpenAI trade-secrets suit; top CNBC result is a later venue update rather than the initial filing. No clear factual contradiction with the anchor.",
+  "reasoning": "Both A and B contain the key facts needed to answer correctly: xAI/X sued Apple and OpenAI in federal court in Texas, alleging an anticompetitive scheme/illegal conspiracy tied to Apple’s OpenAI partnership, with claims about maintaining monopolies and harming Grok/xAI, and Reuters provides a strong reliable source in both sets. A has an advantage in including Courthouse News and a direct complaint mirror snippet, while B has an advantage in including CourtListener docket metadata. But neither set is materially better for answering the question from the search results alone, and both are sufficient and substantially accurate."
+}

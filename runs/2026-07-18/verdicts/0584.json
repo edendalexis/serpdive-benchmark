@@ -1,0 +1,11 @@
+{
+  "id": 584,
+  "query": "FTT token price Bankman-Fried Trump pardon petition rally percentage June 2026",
+  "topic": "FTX",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A has some inconsistency on the rally size: one result says 30%/33%, another says 50% to 60%+, while the anchor suggests about 50%. It also includes one likely irrelevant or dubious result about a Senate resolution, and one result title is from a less-established site. However, it does contain directly relevant reporting about Bankman-Fried filing for a Trump pardon and FTT rallying on that news.",
+  "b_issues": "Content B does not contain the key fact tying the June 2026 FTT move to Bankman-Fried's Trump pardon petition. It mainly shows generic price/history pages, including irrelevant ambiguity where 'FTT' refers to financial transaction tax, and provides no clear rally percentage connected to the petition.",
+  "reasoning": "The question asks about the FTT token price move/rally percentage associated with Bankman-Fried's Trump pardon petition in June 2026. Content A directly includes results stating that Sam Bankman-Fried formally sought a Trump pardon and that FTT surged, with multiple snippets giving a rally range from roughly 30% to over 60%. While internally inconsistent on the exact percentage, A still provides the core event and an answerable rally figure, and one result aligns closely with the anchor's ~50% move. Content B lacks the causal news entirely and mostly offers generic token price pages without the pardon-petition context, so an LLM using B alone would be unlikely to answer correctly."
+}

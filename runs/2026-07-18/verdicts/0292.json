@@ -1,0 +1,11 @@
+{
+  "id": 292,
+  "query": "X non-premium users daily post limit number 2024",
+  "topic": "Twitter",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A mostly contains 2026 secondary coverage. It does include the key fact (50 original posts and 200 replies per day for free/unverified users), but lacks a primary source and has no clearly 2024-dated result despite the query mentioning 2024. Reliability is weaker overall because several results are from less authoritative outlets or future-dated pages.",
+  "b_issues": "Content B also mixes in 2026 coverage, and one result from X Help says the post limit is 2,400 updates per day, which conflicts with the newer reporting. This internal contradiction could confuse an LLM. Some top results are also secondary/aggregated coverage.",
+  "reasoning": "The question asks for the daily post limit number for X non-premium users. Both A and B contain the core answer that free/non-premium users are limited to 50 original posts per day and 200 replies per day. However, B better enables a correct answer because it includes a highly reliable corroborating source (PCMag) and a result explicitly stating the exact limit in the snippet. Although B also contains a contradictory X Help result showing the older 2,400/day limit, the presence of multiple stronger results with the updated 50 posts/200 replies figure makes the correct answer clearer than in A. Therefore B is the better set overall."
+}

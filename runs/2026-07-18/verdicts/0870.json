@@ -1,0 +1,11 @@
+{
+  "id": 870,
+  "query": "cabinet ministers resigned Keir Starmer June 2026 list names",
+  "topic": "Keir Starmer",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Content A does not actually provide the needed list of names of cabinet/ministers who resigned in June 2026. Its only directly relevant snippet mentions John Healey resigning on 11 June 2026, and another result is a generic BBC cabinet page with no resignation names in the snippet. Other results are irrelevant or too general. It is therefore insufficient to answer the query fully.",
+  "b_issues": "Content B also does not provide the needed June 2026 resignation list. It mentions only that several members of government resigned, giving Wes Streeting on 14 May as an example, which is not June. Other results are irrelevant, low-reliability Facebook snippets, or a generic cabinet page. It lacks a trustworthy, complete list of June 2026 names and mixes in non-June information.",
+  "reasoning": "Neither set gives an LLM enough accurate, directly relevant information to correctly answer 'cabinet ministers resigned Keir Starmer June 2026 list names.' The anchor indicates there was a June 2026 wave including John Healey and that multiple ministers had resigned, but Content A only clearly surfaces John Healey, while Content B only clearly surfaces Wes Streeting in May plus vague references to several resignations. Neither contains a reliable complete list of June 2026 names, so neither better enables a correct answer."
+}

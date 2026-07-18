@@ -1,0 +1,11 @@
+{
+  "id": 883,
+  "query": "Paramount Games Studio launch date Skydance Interactive New Media",
+  "topic": "Skydance Media",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A has weaker source quality overall: two Instagram posts, a fandom wiki, and Yahoo/LA Mag aggregation rather than primary or top-tier trade sources. It also includes a likely inaccurate claim in the LA Mag snippet that David Ellison announced a new TMNT game at Summer Game Fest on June 5, which is not needed for the query. However, A does contain the key fact that Paramount announced/launched Paramount Games Studio on June 5, 2026, combining Skydance Interactive and Skydance New Media.",
+  "b_issues": "Content B lacks the exact launch date in multiple results except indirectly via the Deadline article URL/snippet and the VGChartz repost dated June 6, 2026. Source mix is uneven: VGChartz is secondary, and the Skydance corporate page describes Skydance Games broadly rather than the specific Paramount Games Studio launch. Still, B includes a reliable Deadline result confirming Paramount formed/launched a new studio encompassing Skydance Interactive and Skydance New Media, and another result states it was announced on June 5, 2026.",
+  "reasoning": "Both result sets provide enough information for an LLM to answer the question: Paramount Games Studio launched/was announced on June 5, 2026, uniting Skydance Interactive and Skydance New Media. A states this more explicitly in the LA Mag, Yahoo, and fandom snippets, but relies heavily on lower-reliability sources. B has fewer directly explicit snippets, but includes a reliable Deadline article plus a secondary result stating the announcement date and merger details. Since both contain the necessary facts and neither presents a direct contradiction on the core answer, they enable a correct answer about equally well."
+}

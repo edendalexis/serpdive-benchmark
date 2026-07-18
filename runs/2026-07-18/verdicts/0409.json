@@ -1,0 +1,11 @@
+{
+  "id": 409,
+  "query": "EU AI Act maximum fines prohibited AI violations Article 71 35 million 7 percent turnover official text 2026",
+  "topic": "EU AI Act",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Mostly non-official blog/marketing sources; no official text surfaced. Several results cite Article 99, but the query mentions Article 71 and official text/2026. One result introduces a likely unreliable claim about a 2026 'Digital Omnibus' deferring Annex III deadlines, which is not needed for the fine question and could distract. Overall accuracy on the fine amount appears consistent, but sourcing is weaker.",
+  "b_issues": "Contains one clearly problematic result citing old draft numbering/amounts ('Art 71(3) ... €40 million — 7%') that conflicts with the final AI Act. Another result says Article 99(3) became enforceable from 2 August 2025, which is likely inaccurate for penalties tied to prohibited practices already applying from 2 February 2025. However, B also includes an official/near-official Article 99 source and an official Commission page with applicability dates.",
+  "reasoning": "The question asks about the EU AI Act maximum fines for prohibited AI violations, references Article 71, €35 million/7% turnover, official text, and 2026. Content B better supports a correct answer because it includes a direct Article 99 page for the AI Act text and an official European Commission page stating the Act entered into force on 1 August 2024, is fully applicable on 2 August 2026, and that prohibited AI practices applied from 2 February 2025. It also explicitly states the correct final-rule fine level of up to EUR 35 million or 7% of worldwide annual turnover. Although B contains one misleading draft-era result mentioning Article 71 and €40 million, the presence of official/final-text-aligned sources makes it easier for an LLM to resolve the query correctly. Content A has the right fine figures, but relies entirely on secondary blogs and lacks official text, making it less reliable for an 'official text' question."
+}

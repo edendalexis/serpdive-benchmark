@@ -1,0 +1,11 @@
+{
+  "id": 586,
+  "query": "FTX Chapter 11 plan confirmation date effective date plan of reorganization court filing January 2025 October 2024",
+  "topic": "FTX",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor issue: one result snippet for the confirmation order PDF shows an incorrect/ambiguous date ('Sep 30, 2024') in the search snippet, which could confuse the exact confirmation date. However, the top Kroll result explicitly states the key facts correctly: confirmation hearing October 7, 2024, confirmation order entered October 8, 2024, and effective date January 3, 2025.",
+  "b_issues": "Content B has the key dates, but relies more heavily on secondary/tertiary sources and snippets. It says the plan was 'signed on 10/8/2024' from the Kroll docket page rather than clearly stating the court entered the confirmation order on October 8, 2024. It also includes less authoritative crypto news results, which add noise and could reduce confidence.",
+  "reasoning": "Both sets contain enough information to answer that FTX's Chapter 11 plan was confirmed on October 8, 2024 and became effective on January 3, 2025. However, A better enables a correct answer because its top result is the official Kroll restructuring site and directly states all relevant facts in one place: confirmation hearing on October 7, 2024, order confirming the plan entered October 8, 2024, and effective date occurred January 3, 2025. That aligns with the anchor court filing and effective date notice. B also has these dates, but the strongest confirmation-date evidence is less explicit and the result set is more dependent on press release/crypto-news snippets rather than the official case page."
+}

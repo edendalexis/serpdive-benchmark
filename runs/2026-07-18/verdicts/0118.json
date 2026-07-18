@@ -1,0 +1,11 @@
+{
+  "id": 118,
+  "query": "Repossi Place Vendome heritage anniversary celebration July 15 2026 LVMH details",
+  "topic": "LVMH",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A has only one directly relevant result, a MarketScreener repost of an LVMH release. It confirms the July 15, 2026 publication date and the basic fact of Repossi celebrating 40 years at 6 Place Vendôme, but it provides very few substantive details about the heritage/anniversary celebration itself. The other results are about LVMH Journées Particulières and are off-topic. So A is sparse and does not contain enough of the specific celebration details implied by the query.",
+  "b_issues": "Content B relies partly on social posts and snippets rather than full primary articles, so source quality is mixed. The Facebook snippet is noisy/truncated and includes malformed markup. It also does not explicitly show the July 15, 2026 date in the snippet itself, though the MarketScreener result helps corroborate timing. However, there are no clear factual contradictions in B.",
+  "reasoning": "B better enables a correct answer because it contains the key factual details of the Repossi Place Vendôme anniversary celebration: Repossi is celebrating 40 years at 6 Place Vendôme in 2026; the anniversary also coincides with 10 years since the Rem Koolhaas/OMA redesign; and, crucially, it lists the exclusive Vendôme editions and high-jewellery capsule tied to the celebration (Antifer Heart earrings in blue-hued gold, Berbère Chromatic ring in blue lacquer, Serti sur Vide brooch with floating pear-shaped diamond, gradient tourmalines and aquamarines). Those details align with the anchor pages about the 40th anniversary and exclusive creations. A only gives the generic LVMH/MarketScreener statement that Repossi celebrates its historic home on Place Vendôme, with the July 15, 2026 publication date, but lacks most of the substantive details needed to answer the query. Therefore B is the stronger set overall."
+}

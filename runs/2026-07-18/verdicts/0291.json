@@ -1,0 +1,11 @@
+{
+  "id": 291,
+  "query": "X Hotshot AI video tool integration platform availability",
+  "topic": "Twitter",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Includes a low-reliability Facebook result claiming the software is not available, and one irrelevant result about the legal learning platform Hotshot. It does not directly show the later X/xAI developer docs proving current API availability, so an LLM may only infer future integration from acquisition/news coverage.",
+  "b_issues": "Does not clearly address platform availability. Results focus on the acquisition and planned integration, but omit the key fact that Hotshot's own platform stopped accepting new video creation and also omit direct evidence of current X/xAI video availability. Includes irrelevant/low-relevance 2026 listicle results. Overall weaker on the availability question.",
+  "reasoning": "The question is about X/Hotshot AI video tool integration platform availability. Content A contains a crucial fact from a reasonably credible source (TECHi) that Hotshot's standalone platform 'will no longer be available for new video creation,' plus Techzine says Hotshot was immediately integrated into xAI and Grok Video would soon be integrated into Grok. That gives an LLM enough to answer that Hotshot itself is no longer separately available and its tech is being folded into xAI/X rather than offered as the old platform. Content B mostly says xAI acquired Hotshot and planned a video model, but it lacks the explicit availability detail and gives no direct platform-status answer. Neither set includes the strongest anchor evidence about actual xAI video generation docs / Grok Imagine availability, but A is still more directly useful and accurate for answering the question."
+}

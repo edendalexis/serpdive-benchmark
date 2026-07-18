@@ -1,0 +1,11 @@
+{
+  "id": 980,
+  "query": "Sundar Pichai AI infrastructure investment India 2026 summit amount location",
+  "topic": "Sundar Pichai",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Content A contains one low-reliability LinkedIn post and one WION result that mentions infrastructure expansion without the key amount/location in the snippet. It also includes a Times of India result about summit dates/location that could distract from the specific ask. However, A does include a strong directly relevant result (India TV) stating the key facts: $15 billion, infrastructure investment in India, and a full-stack AI hub in Visakhapatnam/Vizag.",
+  "b_issues": "Content B relies more on social/video/secondary sources (Facebook post, YouTube, LinkedIn post, Mashable snippet). The official Google blog snippet is somewhat compressed and slightly ambiguous because it says 'in that same city' after mentioning New Delhi, while separately referring to a full-stack AI hub as part of the $15 billion investment; the exact hub location is clearer only in the other results. Still, B also contains the needed facts via multiple snippets: $15 billion and Visakhapatnam/Vizag, with the summit in New Delhi.",
+  "reasoning": "Both result sets provide the facts needed to answer the query correctly: Sundar Pichai announced a $15 billion AI/infrastructure investment in India at the AI Impact Summit 2026, and the full-stack AI hub location was Visakhapatnam (Vizag), while the summit itself was in New Delhi/Bharat Mandapam. In A, the India TV result directly states the amount and location; the Times of India result gives the summit location. In B, the Facebook/YouTube/LinkedIn snippets directly state the $15 billion amount and Visakhapatnam/Vizag, and the official Google blog snippet confirms the $15 billion investment in India at the summit in New Delhi. Neither set materially contradicts the anchor, and both enable a correct answer equally well."
+}

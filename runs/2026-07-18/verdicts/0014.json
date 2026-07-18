@@ -1,0 +1,11 @@
+{
+  "id": 14,
+  "query": "TSMC market cap 2026 valuation trillion stock price rise percentage year",
+  "topic": "Taiwan Semiconductor Manufacturing Company",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A has some internal inconsistency on exact market cap: CompaniesMarketCap snippet says $2.066T, while MacroTrends says $2.125T, and the anchor also shows varying values across sites/dates. One Yahoo result is only a preview about whether shares can hit $500 and is not directly answering the query. The investor transcript snippet is not useful for market cap/stock-rise facts.",
+  "b_issues": "Content B also has conflicting market-cap figures: StockAnalysis says $1.99T as of July 16, 2026, while CompaniesMarketCap says $2.251T as of July 2026, a large discrepancy. It lacks a strong direct source for the stock price rise percentage tied clearly to the current year; the Binance snippet says surged over 50% in 2025, which is likely about a prior year and not the 2026 year-to-date or one-year rise asked. Several results are forward-looking/opinion pieces rather than factual current data.",
+  "reasoning": "Content A better supports a correct answer because it contains the key facts the question appears to seek: a 2026 trillion-dollar valuation/market cap and a stock price rise percentage for the year. Specifically, A includes CNBC stating 'The stock has risen over 58% so far this year' and MacroTrends giving market cap as $2125.12B, with CompaniesMarketCap corroborating roughly $2.066T in July 2026. Those are directly responsive and from relatively reliable sources. Content B has the market-cap element, but the figures conflict more sharply ($1.99T vs $2.251T) and it does not clearly provide the relevant 2026 stock rise percentage; instead it offers one-year market-cap growth and a 2025 stock surge claim, which are not the same as the queried stock price rise percentage for the year. Therefore A better enables an LLM to answer correctly."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 403,
+  "query": "EU AI Act nudifier prohibition sexually explicit intimate content without consent CSAM effective date AI Omnibus 2026 official source",
+  "topic": "EU AI Act",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A includes the key official EP source, but most of the answer-critical detail comes from non-official secondary sources. The EP snippet shown in A is truncated and does not clearly include the actual prohibition wording about sexually explicit intimate content without consent or CSAM. A also contains potentially uncertain/qualified secondary-source claims such as the ban taking effect on 2 December 2026 and conditional timing tied to formal adoption, without the official legal text in the snippet itself. This makes it less self-sufficient for a model answering from the provided content alone.",
+  "b_issues": "Content B relies heavily on a featured snippet and secondary sources, especially fintechlaw.ai, for the effective date of 2 December 2026. The official EP result shown in B is not the most informative snippet and does not itself state the prohibition details or date. So the crucial date is not anchored as directly in an official source snippet as would be ideal.",
+  "reasoning": "B better enables a correct answer because it contains all the core facts needed in the returned content: the prohibition covers AI systems generating non-consensual sexually explicit/intimate content and CSAM, including nudifier apps; one result explicitly gives the operative description ('depict the intimate parts of an identifiable person, or them engaged in sexually explicit activities, without that person’s consent'); and the featured snippet plus supporting secondary result state the effective date as 2 December 2026. A has the official EP article, but the snippets shown there do not clearly surface the exact prohibited-content wording, and the effective date is mainly inferable from secondary material rather than directly stated in the official snippet. Since the question asks for the prohibition, the sexually explicit intimate content/consent and CSAM scope, the effective date, and an official-source angle, B more directly presents the needed facts with less inference, even though neither set is perfect."
+}

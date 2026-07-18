@@ -1,0 +1,11 @@
+{
+  "id": 806,
+  "query": "Satya Nadella Microsoft software manufacturer intelligence engine declaration quote source date",
+  "topic": "Satya Nadella",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Most results are irrelevant to the query. One top CNBC result contains a likely transcription error in the snippet ('written by software' instead of AI). Build 2026 and later-dated Motley Fool/Yahoo/TechCrunch results are unrelated noise. However, A does include the key official Microsoft Blog result with the exact quote and date.",
+  "b_issues": "Top results are weak or unreliable for this question: the leading hit is an Instagram repost paraphrasing the claim rather than the primary source, and it gives an inconsistent timeline ('Video ... August 12, 2025' plus other June dates). Another result is a noisy LinkedIn page with little usable evidence. B does not surface the official July 24, 2025 Microsoft blog post that is the primary source. Relevant facts are present only indirectly through social/media reposting, reducing reliability.",
+  "reasoning": "The question asks for Satya Nadella's declaration/quote about Microsoft shifting from a software manufacturer/factory to an intelligence engine, plus source and date. Content A directly includes the official Microsoft Blog page 'Recommitting to our why, what, and how' dated 2025-07-24, and its snippet contains the core quote: 'That’s the shift we are driving—from a software factory to an intelligence engine...'. That is the best primary evidence and aligns with the anchor. Content B has paraphrases of the same idea, mainly via Instagram and other secondary/noisy sources, but lacks the primary Microsoft source and gives less dependable dating. Therefore A better enables a correct answer."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 564,
+  "query": "Hades II Unseen Update June 2025 Umbral Flames rework combat changes patch notes",
+  "topic": "Hades II",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Content A is sparse and mostly relies on a Fextralife wiki snippet rather than the official Supergiant/Steam patch notes. The Fextralife result appears to include unrelated v1.0 launch-era notes mixed into the snippet, creating temporal contamination and making it unclear which items belong specifically to the June 2025 Unseen Update. It does include one directly relevant line about Umbral Flames (Eos), but provides little broader Unseen Update context. The IGN result is secondary coverage and says spoiler notes were removed, so it is incomplete.",
+  "b_issues": "Content B is also sparse and leans on non-official or secondary sources. It includes the same Fextralife wiki line plus a Fandom summary and a Reddit paraphrase, which are less authoritative than the official blog/Steam notes. It also mixes in clearly unrelated later material such as v1.0 launch notes from Mobalytics and another IGN snippet with a different Umbral Flames balance line, introducing ambiguity about which changes are from the June 2025 Unseen Update. The snippets are fragmentary and not full patch notes.",
+  "reasoning": "Both sets contain enough to identify that the June 2025 Unseen Update reworked Umbral Flames, describing them as a smoother/snappier fighting style and giving at least one specific change (Omega Attack for Umbral Flames/Eos now fires a slow shot that occasionally creates damage blasts and copies your Specials). However, neither set provides the official Supergiant or Steam patch notes directly, and both are contaminated by later/non-June-2025 balance notes. A has slightly cleaner evidence via the Fextralife line plus IGN mentioning Unseen Update patch notes, while B adds corroborating snippets from Fandom/Reddit but also more contradictory later snippets. Overall, neither clearly enables a fully correct answer better than the other; both only partially support the answer and both suffer from mixed-update contamination."
+}

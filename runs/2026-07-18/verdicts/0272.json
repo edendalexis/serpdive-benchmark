@@ -1,0 +1,11 @@
+{
+  "id": 272,
+  "query": "El Salvador Bukele constitutional reforms presidential term limits reelection",
+  "topic": "Nayib Bukele",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Mostly low-quality or secondary sources, with only one clearly relevant result describing the reform. Key facts are incomplete and somewhat muddled: the ColombiaOne result says the reform 'allowed his reelection in 2024 and was later permanently incorporated into the constitutional text,' which is imprecise because Bukele's 2024 reelection was enabled by a 2021 court ruling, while the 2025 constitutional reform separately eliminated term limits. Other results are off-target, derivative, or not directly about the reform itself.",
+  "b_issues": "Minor issue: includes one analytical/advocacy source (ConstitutionNet) and one partially noisy Le Monde snippet, but the core factual results are consistent and reliable. No major contradictions visible.",
+  "reasoning": "B better enables a correct answer because it contains multiple strong, mutually reinforcing sources directly addressing the question: BBC, AP, and Al Jazeera all state that El Salvador's Legislative Assembly approved constitutional reforms abolishing presidential term limits / allowing indefinite reelection for Bukele. They also include key associated facts from the anchor: presidential terms extended from five to six years, approval by Bukele's congressional majority, and elections moved up to 2027 (or synchronization leading to 2027). Content A is much weaker: it is dominated by secondary or low-reliability pieces about Bukele's later candidacy rather than the actual constitutional reform, and its main factual description blurs the distinction between the 2021 court ruling and the later constitutional amendment. Therefore B more clearly and accurately supports answering the query."
+}

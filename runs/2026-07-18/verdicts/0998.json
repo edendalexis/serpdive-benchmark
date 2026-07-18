@@ -1,0 +1,11 @@
+{
+  "id": 998,
+  "query": "True Detective Night Country filming production schedule start end dates HBO Max",
+  "topic": "True Detective",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Result mix is somewhat noisy: top results emphasize episode release schedule rather than production schedule. The key filming dates rely mainly on Wikipedia rather than the official HBO press release, so source reliability is not ideal. However, there is no clear internal contradiction, and Wikipedia gives the needed production window: filming began in November 2022 and wrapped in April 2023.",
+  "b_issues": "More problematic source quality and ambiguity. The top result is a ResetEra forum thread whose visible 'Start date Sep 14, 2022' appears to be the forum thread date, not necessarily the production start date. No result in B explicitly gives the filming end date; the rest mostly discuss episode release dates or simply say production has begun. Thus B does not reliably establish the production schedule start and end dates.",
+  "reasoning": "The question asks for the filming/production schedule start and end dates for HBO Max's True Detective: Night Country. Content A contains a result (Wikipedia) explicitly stating that filming began in November 2022 and wrapped in April 2023, which matches the anchor reference and enables a correct answer. A also includes corroborating items that production was underway in Iceland. Content B lacks a trustworthy explicit end date and its apparent start date comes from a forum-thread timestamp that could mislead the model into answering September 14, 2022. Because A contains the necessary dates more directly and with less misleading contradiction, it better enables a correct answer."
+}

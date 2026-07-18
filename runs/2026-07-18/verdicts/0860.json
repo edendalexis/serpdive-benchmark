@@ -1,0 +1,11 @@
+{
+  "id": 860,
+  "query": "Novo Nordisk Q1 2026 earnings Wegovy oral launch US sales debut quarter injectable Wegovy sales constant currency SEC press release",
+  "topic": "Ozempic and Wegovy",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "A includes the SEC filing itself and a CNBC result with the key figures. Minor issue: the SEC snippet shown in A is incomplete/indirect and does not surface the specific oral Wegovy launch sales figure on its own; the answer relies on CNBC for that. Also one third-party result rounds oral Wegovy revenue to about DKr2.3bn/$360m, which is slightly less precise than 2.26bn DKK.",
+  "b_issues": "B lacks the SEC press release/SEC filing result entirely, so it is weaker on the 'SEC press release' part of the query. It also contains likely inaccurate figures in the Quartz snippet: reported first-quarter net sales are stated as 96.82bn kroner, a 24% increase, and operating profit 59.62bn, up 54%, whereas the anchor/SEC-linked materials indicate reported sales increased 32% at CER and reported operating profit increased 65% at CER. B therefore mixes reported DKK amounts with incorrect growth rates. Sources are also generally less authoritative than A.",
+  "reasoning": "The question asks about Novo Nordisk Q1 2026 earnings, the US debut quarter of oral Wegovy, injectable Wegovy sales, constant-currency performance, and specifically references the SEC press release. Content A better supports a correct answer because it contains both the SEC filing result and a CNBC result with the crucial sales details: oral Wegovy sales of 2.26bn DKK in the first US quarter and injectable Wegovy sales of 18.2bn DKK, alongside constant-currency context (reported sales +32% at CER; adjusted sales -4%; adjusted obesity care +22% at CER). These align with the anchor. Content B has some of the same commercial facts via CNBC and other third-party summaries, but it omits the SEC source and includes conflicting/incorrect growth figures from Quartz, making it less reliable for answering correctly from the provided results alone."
+}

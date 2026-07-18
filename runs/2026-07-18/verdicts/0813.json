@@ -1,0 +1,11 @@
+{
+  "id": 813,
+  "query": "Copilot in Excel new feature prevent unwanted edits shared workbooks prepare changes",
+  "topic": "Microsoft Copilot",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Top result focuses on Personalization/workbook rules, which is related but not the specific feature in the anchor (Plan Mode). It does not clearly state the 'prepare changes before applying edits' capability. Other results include low-reliability or irrelevant items (Reddit, Neowin, Q&A) and could distract.",
+  "b_issues": "Does not surface the key feature directly. Results are more generic about Copilot updates, editing, and personalization. The snippets only vaguely imply review/preparation before edits (e.g., dashboard example) and do not clearly identify Plan Mode or its function. Several sources are third-party summaries with limited detail, and one result is broad release notes not obviously tied to the asked feature.",
+  "reasoning": "A is better because it contains a highly relevant official Microsoft Excel blog result about controlling how Copilot edits workbooks, including workbook-level rules for shared files, which is close to the query’s themes of preventing unwanted edits in shared workbooks. While it misses the exact anchor feature name 'Plan Mode,' it still gives actionable, accurate facts about mechanisms to constrain edits. B, by contrast, is more diffuse: it mentions personalization and generic Edit with Copilot capabilities, but does not clearly present the specific fact pattern from the anchor—namely a feature that lets users review a step-by-step plan before workbook changes are applied. Since A has more directly relevant and reliable evidence for the query, it better enables a correct answer."
+}

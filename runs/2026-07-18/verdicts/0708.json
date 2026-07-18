@@ -1,0 +1,11 @@
+{
+  "id": 708,
+  "query": "$1.72 per ticket overcharge treble damages total amount Live Nation Ticketmaster Clayton Act jury verdict 2026",
+  "topic": "Ticketmaster DOJ lawsuit",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A contains some uncertainty and mixed contexts: Thompson Coburn discusses both the states' case and a separate California consumer class action, so an LLM could confuse the states' damages with the class-action calculation. Crowell says trebled damages could approach $450 million before offsets, which is not directly derived in the snippet and may reflect the states' case only. WITN says 22 states while Time says 21 states plus D.C.; this is a minor framing inconsistency rather than a core contradiction.",
+  "b_issues": "Content B does not provide the key total-damages figure the question is asking for. It repeatedly states the $1.72 overcharge and mentions that treble damages will be determined later, but gives no concrete total amount. Some sources are weaker or derivative (TradingView/GuruFocus syndication, allaboutlawyer.com), and there is duplicate Winston result content. The allaboutlawyer result introduces extra claims about a separate California class action and possible billions, which could distract from the specific jury-verdict damages question.",
+  "reasoning": "The question asks about the $1.72 per-ticket overcharge, treble damages, and the total amount tied to the 2026 Live Nation/Ticketmaster jury verdict. Content A is the only set that contains the crucial numerical total: Crowell says mandatory Clayton Act trebling means the figure could approach $450 million, and Thompson Coburn gives additional context distinguishing that from a separate class-action theory exceeding $2 billion after trebling. A also includes mainstream/credible corroboration that the jury found a $1.72 overcharge per ticket. Content B confirms the $1.72 figure but never supplies the total amount for treble damages, only saying the case moves to a remedies phase. Therefore A better enables an LLM to answer correctly from the provided content alone."
+}

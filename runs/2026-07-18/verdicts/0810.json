@@ -1,0 +1,11 @@
+{
+  "id": 810,
+  "query": "Microsoft Copilot Apple CarPlay availability announcement Microsoft 365 Copilot app CarPlay official blog 2025",
+  "topic": "Microsoft Copilot",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Content A includes an official Microsoft source that directly states Apple CarPlay support for Microsoft 365 Copilot and a Microsoft Community Hub post saying Apple CarPlay is part of the Microsoft 365 Copilot app updates, but the key announcement surfaced is from May 2026, not clearly the requested 2025 official blog announcement. Other results are weakly relevant or noisy.",
+  "b_issues": "Content B also includes the official Microsoft support page confirming Apple CarPlay availability for Microsoft 365 Copilot, but its other results are mostly noisy or unrelated. The roadmap result is largely unusable due to extracted image clutter, and the surfaced official blog posts do not clearly provide the specific 2025 CarPlay announcement either.",
+  "reasoning": "Both result sets contain the crucial fact needed to answer the query: an official Microsoft support page stating that Microsoft 365 Copilot is available in Apple CarPlay / supports Apple CarPlay. Both also contain some Microsoft blog/community material about the Microsoft 365 Copilot app, but neither set cleanly surfaces a definitive 2025 official blog post announcing CarPlay availability. A has a somewhat more explicit snippet mentioning Apple CarPlay in a Microsoft 365 Copilot blog post, but it is dated May 2026, which does not match the requested 2025 timeframe. B likewise has the support page and related Microsoft properties, but no clearer 2025 announcement. Since both would let an LLM infer that CarPlay support exists from official Microsoft content, yet neither clearly nails the specific 2025 announcement asked for, they enable a correct answer about equally well."
+}

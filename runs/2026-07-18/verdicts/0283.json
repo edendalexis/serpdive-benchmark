@@ -1,0 +1,11 @@
+{
+  "id": 283,
+  "query": "Infosys Cognition Devin partnership details January 2026 engineering capacity",
+  "topic": "Devin AI software engineer",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Minor issue: the top Analytics India Magazine result is secondary and only snippet-level. Some snippets are truncated, and A does not explicitly surface the January 7, 2026 date in every key result. However, it includes both primary sources and a Cognition post that directly mentions expanding delivery capacity and initial rollout in Financial Services.",
+  "b_issues": "Contains a weaker/misleading Cognition result: it links only to the generic Cognition blog homepage rather than the specific Infosys partnership post, so key details are missing. Includes secondary/less authoritative sources like LinkedIn and WebWire. PRNewswire URL differs from the anchor variant, and one result mixes in unrelated company references on the Cognition blog homepage snippet, increasing noise/confusion. It also provides less direct detail on the engineering-capacity aspect than A.",
+  "reasoning": "A better enables a correct answer because it contains the most relevant primary and near-primary evidence for the query’s core points: the Infosys press release says Infosys and Cognition announced a strategic collaboration to scale Devin across Infosys’ internal engineering ecosystem and client engagements, with shared engineering frameworks and enablement programs integrating Infosys Topaz Fabric and Devin. Crucially, A also includes the specific Cognition post stating Infosys will 'dramatically expand its delivery capacity,' calling it one of the largest global deployments of agentic software engineering, and noting the rollout began in Financial Services with plans to expand further. Those facts directly answer the 'partnership details' and 'engineering capacity' portions of the query. B has the Infosys press release, but its Cognition result is only the generic blog page, so the strongest direct evidence about engineering capacity is absent or reduced to a thin WebWire snippet. Therefore A provides more complete, accurate, and directly relevant support."
+}

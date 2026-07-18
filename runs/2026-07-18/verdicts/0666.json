@@ -1,0 +1,11 @@
+{
+  "id": 666,
+  "query": "Ilya Sutskever departure OpenAI May 2024 date announcement new project",
+  "topic": "Ilya Sutskever",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A has the key facts but is weaker on the exact announcement date and direct sourcing. Its top CNBC snippet says 'Tuesday' and mentions a 'personally meaningful' project, but does not explicitly include 'May 14, 2024' in the snippet text. Other results imply the timing and the new project, but are more secondary/aggregated sources. No major factual contradictions are visible.",
+  "b_issues": "Content B includes a lower-quality result (contxto) saying Sutskever 'announced his departure on May 15,' which conflicts with stronger sources showing May 14, 2024. However, B also contains the direct X post with timestamp '11:00 PM · May 14, 2024' and AP/CNBC-derived snippets confirming May 14 and the 'very personally meaningful' project, so the contradiction is limited and resolvable.",
+  "reasoning": "Both sets contain enough to answer that Ilya Sutskever announced his OpenAI departure on May 14, 2024, and said he was starting a new project that was 'very personally meaningful' without giving details. However, Content B better enables a correct answer because it includes the primary-source X post from Sutskever himself with the exact date and the exact wording about the new project, plus corroborating AP/CNBC snippets. Content A is mostly secondary reporting and its snippets are less explicit about the exact date in the extracted text, even though they are broadly accurate. Therefore B is stronger despite one conflicting low-quality result."
+}

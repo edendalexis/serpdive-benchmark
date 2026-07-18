@@ -1,0 +1,11 @@
+{
+  "id": 554,
+  "query": "Federal Reserve Eccles Building renovation federal probe Jerome Powell 2026",
+  "topic": "Jerome Powell",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A is thinner and less reliable overall. It leans on Fox Business/Fox affiliate snippets and a CNN video item rather than stronger explanatory reporting. It presents the probe as a criminal investigation and subpoena campaign, but gives little grounding on the Eccles Building/East Building renovation itself beyond one local Fox snippet. It also lacks the key later development from the anchor/CNN reference that prosecutors told a judge there was no evidence to criminally pursue Powell, so an LLM using A alone could overstate the status of the case.",
+  "b_issues": "Content B also lacks the later March 2026 development that prosecutors said they had no evidence to criminally pursue Powell, so it may leave the impression the criminal probe was still substantively active. One result is a paywalled/very short NYT snippet with limited usable detail.",
+  "reasoning": "Content B better equips an LLM to answer the query because it contains more of the core facts reflected in the anchor: the issue is a federal/DOJ probe tied to Jerome Powell's congressional testimony and the $2.5 billion renovation of the Federal Reserve headquarters, specifically including the Marriner S. Eccles Building and East Building. The Business Insider result in B explicitly names the Eccles Building and says renovations began around 2022, matching the anchor. Axios and NBC in B clearly explain that the investigation is widely viewed as tied to the Trump-Powell conflict and pressure over Fed independence/rates, which is consistent with the anchor set (AP/NPR/Axios). By contrast, A has fewer directly relevant facts about the Eccles Building renovation itself, relies more on less authoritative sources, and offers less context needed to answer correctly from the search results alone."
+}

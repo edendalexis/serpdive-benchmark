@@ -1,0 +1,11 @@
+{
+  "id": 766,
+  "query": "FAA Airspace Modernization office new air traffic control system installation status 2026",
+  "topic": "FAA",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A lacks any official FAA source and is mostly secondary reporting. It gives some useful status details via FedScoop, including that about half of the $12.5B will be committed by the end of 2026 and that completion is expected by Q3 2027, but it does not directly surface the FAA Modern Skies site or a clearly official installation-status tracker. One result is a LinkedIn post that is not a reliable source for the question.",
+  "b_issues": "Content B is mixed in relevance: the top FAA result is about controller hiring, not installation status; one result is a Facebook post summarizing Aviation Week, which is weak and indirect; and the GovExec snippet is too thin. It does not explicitly provide detailed installation metrics in the snippets shown, beyond the FedScoop item and the presence of the official Modern Skies site.",
+  "reasoning": "B better enables a correct answer because it includes the official FAA Modern Skies site, which is the authoritative source for the new air traffic control system modernization effort and installation/progress tracking, plus a FedScoop result with concrete 2026 status facts: about half of the $12.5B budget will be committed by the end of 2026 and a radar acquisition is planned by year-end. The anchor indicates Modern Skies is the FAA’s status tracker for this effort, so having that official site in B is important. A has similar FedScoop progress information but lacks the official FAA modernization site and relies entirely on secondary sources. Neither set is perfect, but B has the stronger source base and enough status facts to support a more accurate answer."
+}

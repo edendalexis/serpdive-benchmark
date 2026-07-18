@@ -1,0 +1,11 @@
+{
+  "id": 135,
+  "query": "BTS OREO limited edition collaboration 2026 details",
+  "topic": "BTS",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "No major factual flaws apparent. Minor issue: one result only gives the presale date, and another is a lower-reliability secondary source/YouTube short, but these do not conflict with the anchor. The product page itself is not included, so some details like the exact product naming are less directly sourced.",
+  "b_issues": "No major factual flaws apparent. Minor issue: it relies on only two results, one of which is a trade/news site rather than a primary source. It does not include the PRNewswire press release directly, so details like the exact presale URL and some campaign specifics are less directly sourced.",
+  "reasoning": "Both A and B contain the key facts needed to answer the question correctly: this is a 2026 BTS x OREO limited-edition collaboration; the flavor is hotteok-inspired brown sugar pancake creme; the wafers are purple; it is BTS’s first global snack partnership; the rollout is in 80+ markets; presale starts June 1, 2026; broader launch starts June 8, 2026; and the cookies feature 13 unique embossments tied to BTS’s 13th anniversary. Content A has slightly better sourcing breadth, including Forbes plus the PRNewswire release and corroborating coverage, while Content B has fewer results but still includes the same core facts, including presale and launch timing, flavor, purple wafers, and 13 embossments. Neither set appears to contradict the anchor or itself, and both would enable an LLM to answer the question about the collaboration details accurately."
+}

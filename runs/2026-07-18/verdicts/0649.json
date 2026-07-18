@@ -1,0 +1,11 @@
+{
+  "id": 649,
+  "query": "Berkshire Hathaway largest equity holdings ranking Alphabet Google position value Greg Abel 2026",
+  "topic": "Berkshire Hathaway",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A contains conflicting and likely inaccurate figures for Alphabet. MLQ says Alphabet expanded to $16.6B combined, while the Motley Fool snippet says nearly 58 million shares worth about $23B and another result implies Alphabet became Berkshire's No. 3 holding. Other top-holding/ranking details are sparse or truncated, so an LLM would have trouble determining the exact ranking and value confidently.",
+  "b_issues": "Content B also has internal inconsistency on Alphabet's rank/value: CNBC says Berkshire already owns $21.3B of Alphabet Class A and that it is the fifth-largest position, Yahoo says Alphabet is the fourth-largest when combining classes, MLQ says $16.6B combined, and IndexBox says nearly $17B. One Yahoo snippet even says 'Class A and Class B' instead of the expected A/C classes. However, B still provides a clearer full ranking context from IndexBox: Apple largest, American Express second, Coca-Cola third, with Alphabet near $17B after the increase.",
+  "reasoning": "The question asks for Berkshire Hathaway's largest equity holdings ranking and Alphabet/Google's position and value in 2026, in the Greg Abel context. Content B better supports a correct answer because it explicitly states the top holdings ordering at the top of the portfolio: Apple largest, American Express next, Coca-Cola third, and gives Alphabet's approximate value as nearly $17B after Greg Abel's first-quarter increase. Although B has contradictions about whether Alphabet ranks fourth or fifth and whether the value is $16.6B, ~$17B, or $21.3B, it still more directly provides the ranking framework needed. Content A is weaker because its strongest result gives only the combined value ($16.6B) without clear rank, while other snippets conflict more severely by claiming Alphabet is No. 3 and worth about $23B, which is farther from the anchor. Thus B better enables an LLM to answer correctly from the provided content alone."
+}

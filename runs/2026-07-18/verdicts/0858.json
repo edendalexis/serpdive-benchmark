@@ -1,0 +1,11 @@
+{
+  "id": 858,
+  "query": "SAG-AFTRA Sean Astin president Michelle Hurd secretary-treasurer 2025 election term length start date",
+  "topic": "SAG-AFTRA",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Second result is about Astin running, not the election outcome, so it does not answer the term-length/start-date part. But the first Deadline result directly states the needed facts and matches the anchor: Astin elected president, Michelle Hurd elected secretary-treasurer, two-year term, begins immediately.",
+  "b_issues": "Top Deadline snippet is truncated and omits the key term-length/start-date facts. Other results do contain the two-year term, but only Yahoo clearly provides it, and none of the visible snippets explicitly says 'begin immediately' except a less authoritative/clean Bleeding Cool snippet phrased as 'beginning their two-year terms today.' There is also duplication of the Yahoo result and some noisier/less reliable sources.",
+  "reasoning": "Content A better enables a correct answer because its first result from Deadline contains all core facts needed for the query in one reliable snippet: Sean Astin was elected SAG-AFTRA president, Michelle Hurd was elected secretary-treasurer, they will serve a two-year term, and both begin their terms immediately. This aligns with the anchor exactly. Content B has some of the facts, but the most reliable top result is missing the term-length/start-date details, and the start-date fact is only inferable from a noisier secondary source. So A is more complete and reliable for answering from the provided content alone."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 76,
+  "query": "Academy Awards Board of Governors 2026-2027 elected members list branches",
+  "topic": "Academy Awards Oscars",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A does not itself provide the full elected-members-by-branch list in the snippets shown. It includes only partial branch/member details from secondary sources and one official press-office result with only the representation-change summary. An LLM might still need to infer or reconstruct from incomplete snippets.",
+  "b_issues": "Content B is weaker and more error-prone: the top result is a Facebook post snippet, which is less reliable than official or major-trade sources; the snippets are also highly incomplete and do not provide the full branch/member list. It includes social-media and Instagram results rather than substantive article snippets, making factual extraction harder. The Facebook snippet also presents names that do not align with the anchor’s highlighted newly elected members, increasing uncertainty without enough context.",
+  "reasoning": "A better enables a correct answer because it includes an official Academy press-office result plus reputable trade coverage from IndieWire, The Hollywood Reporter, and Variety. Its snippets contain multiple concrete elected-member/branch pairings such as Guillermo del Toro (Directors), Kris Bowers (Music), Fred Berger (Producers), Michael Goi (Cinematographers), Anne Goursaud (Film Editors), Patricia Dehaney (Makeup Artists and Hairstylists), Vic Armstrong and David Leitch (Production and Technology), and Kim Magnusson (Short Films), along with some reelected/returning governors. B does contain the official press result, but the remaining evidence is mostly incomplete snippets and lower-quality social-media entries, with less trustworthy and less coherent support for assembling the answer. Neither set is perfect, but A has more reliable and more specific branch/member facts consistent with the anchor."
+}

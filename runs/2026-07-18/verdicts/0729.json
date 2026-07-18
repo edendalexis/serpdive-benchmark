@@ -1,0 +1,11 @@
+{
+  "id": 729,
+  "query": "Temu US local fulfillment model US-based sellers marketplace only transition details announced 2025",
+  "topic": "Temu",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "A has one strong relevant result echoing CNN/NYT that Temu said U.S. pricing remained unchanged during a transition to a local fulfillment model, but it gives very limited detail on the announced transition. Several other results are low-reliability or tangential (a fulfillment-company blog, a merchant blog, a Facebook post). It does not clearly surface the key phrasing that all U.S. sales are handled by locally based sellers / fulfilled within the U.S., nor much context about the switch being announced right after the de minimis exemption expired.",
+  "b_issues": "B includes some weaker/tangential items too (merchant blog, RETHINK Retail feature, Marketplace Pulse older background on inviting U.S. sellers). But none materially contradict the core facts. One result discusses an earlier marketplace opening to U.S. sellers rather than the 2025 transition itself, so an LLM could blur chronology if careless.",
+  "reasoning": "B better enables a correct answer because it contains the crucial facts from reliable reporting: the CNN-syndicated WRAL result says that hours after the U.S. tariff exemption expired, Temu overhauled its shipping model so all American sales go via U.S.-based sellers, with pricing unchanged during the transition to a local fulfillment model; the Yahoo/USA Today-syndicated result explicitly quotes that all U.S. sales are handled by locally based sellers with fulfillment from within the country and notes active recruitment of U.S. sellers. Those details directly answer the question about the U.S. local-fulfillment / U.S.-based-sellers / marketplace-only transition announced in 2025. A has only fragments of that announcement and relies more on lower-quality or indirect sources, so it is less complete and less dependable for answering from the search results alone."
+}

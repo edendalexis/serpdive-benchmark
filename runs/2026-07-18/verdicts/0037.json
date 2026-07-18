@@ -1,0 +1,11 @@
+{
+  "id": 37,
+  "query": "Google Home Speaker built for Gemini launch 2026 specs pricing availability",
+  "topic": "Google",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Top result appears unreliable and likely hallucinatory: claims a dedicated NPU, Gemini Nano running fully on-device, sub-100ms responses, and references a class-action settlement; these are not supported by the anchor and could mislead an LLM. Several results emphasize subscription upsell details more than core launch/spec facts. Specs are sparse overall in A; aside from one 9to5Google snippet, it does not provide concrete hardware specifications needed to answer a specs/pricing/availability query. Includes weak/low-reliability sources like a YouTube description and Memeburn snippet.",
+  "b_issues": "Does not provide many concrete hardware specs either; mostly launch, price, colors, and some feature/subscription info. One 9to5Google result is a pre-launch retailer leak rather than the final official announcement, and it says 19 countries whereas the anchor example elsewhere mentions 18 countries, creating possible inconsistency. Memeburn is also lower reliability and introduces subscription-cost framing not central to the question.",
+  "reasoning": "B better enables a correct answer because it includes the official Google blog announcement as the top result, directly stating the key facts in the question: first audio device built for Gemini, pre-order status, $99.99 price, shelves on June 25, and available colors. Those align with the anchor. A has one useful 9to5Google snippet for price and availability, but its top result contains significant unsupported technical claims that conflict with the anchor’s level of detail and could cause an LLM to invent specs such as an NPU or full on-device Gemini Nano. Since the question asks for launch 2026 specs/pricing/availability, source reliability and absence of misleading technical claims matter most, and B is safer and more accurate overall."
+}

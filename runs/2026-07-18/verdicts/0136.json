@@ -1,0 +1,11 @@
+{
+  "id": 136,
+  "query": "BTS Hooligan music video July 2026 Korean version Normal announcement source",
+  "topic": "BTS",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Only a single Threads post snippet is returned. It is a weak, secondary source and does not directly answer the likely target of the query: the announcement source for the July 2026 Korean-version/Normal release. It provides limited detail, no explicit attribution to BigHit Music beyond implication, and no reliable news coverage. It also mixes in YouTube timing not supported by the anchor.",
+  "b_issues": "Contains some noisier/less relevant results, including an IMDb entry for 'Hooligan' and a Facebook group post, which could distract. However, the key results are consistent and reliable.",
+  "reasoning": "B clearly better enables a correct answer because it includes direct, reliable reporting from The Korea Times and The Korea Herald stating that BigHit Music announced BTS would release the 'Normal' music video on Spotify alongside new versions including a Korean-language version. This matches the anchor closely. Content A lacks a solid announcement source and relies only on a social-media snippet, so an LLM would be much less able to answer accurately from A alone."
+}

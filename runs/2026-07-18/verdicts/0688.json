@@ -1,0 +1,11 @@
+{
+  "id": 688,
+  "query": "Shein sustainable aviation fuel DHL GoGreen Plus partnership agreement",
+  "topic": "Shein",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A contains the key facts, but its DHL result is truncated and omits the most important operational detail: that SHEIN will use SAF provided by DHL Express for international express air freight shipments to reduce emissions on intercontinental routes. The SHEIN Group URL also appears truncated/incomplete in the path, though the snippet itself is broadly consistent. Overall accurate, but less directly answer-complete from the snippets alone.",
+  "b_issues": "Content B has some noisy duplication in the SHEIN Group snippet and includes a lower-reliability LinkedIn result, but the core facts are accurate and consistent. No material factual contradiction is present.",
+  "reasoning": "Both sets point to reliable primary sources from SHEIN and DHL and agree that SHEIN signed a GoGreen Plus agreement with DHL tied to sustainable aviation fuel. However, Content B better enables a correct answer because its DHL snippet explicitly states the core terms of the agreement: it was signed at DHL Group’s NOW & NEXT summit in Shanghai, and under the agreement SHEIN will use SAF provided by DHL Express for international express air freight shipments to reduce carbon emissions on intercontinental routes. That is the clearest direct answer to the query. Content A is also usable, but its strongest source snippet is less complete and leaves out those central specifics."
+}

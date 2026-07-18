@@ -1,0 +1,11 @@
+{
+  "id": 20,
+  "query": "Anthropic SpaceXAI compute resources monthly payment amount",
+  "topic": "xAI",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Contains mostly secondary or low-reliability sources; the featured snippet and one result give the correct figure ($1.25 billion per month), but top-ranked unrelated Google/SpaceX results could distract. One result cites New Street Research estimating only $3-$4 billion annual revenue, which conflicts with the implied ~$15 billion/year from $1.25 billion/month. Some sources are questionable (LinkedIn, Substack, Basenor).",
+  "b_issues": "Also contains mixed-quality sources, including Basenor, Teslarati, and Reddit. One TechCrunch result says Anthropic will pay xAI, while Reuters says Anthropic will pay SpaceX; this entity framing is somewhat inconsistent, though both still state the same monthly amount. Reuters snippet mentions both Colossus clusters, which differs from other descriptions centered on Colossus 1. However, the core payment figure is consistent.",
+  "reasoning": "Both A and B clearly contain the key fact needed to answer the question: Anthropic's monthly payment amount is $1.25 billion. In A, the featured snippet directly states Anthropic agreed to pay $1.25 billion per month through May 2029, and another result repeats it. In B, multiple results, including Reuters, state Anthropic will pay SpaceX $1.25 billion monthly through May 2029. Neither set lacks the answer, and neither set's issues undermine the core fact. B has a stronger mainstream source (Reuters), but A also has the exact amount in the featured snippet. So both enable a correct answer equally well."
+}

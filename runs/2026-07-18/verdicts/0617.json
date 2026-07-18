@@ -1,0 +1,11 @@
+{
+  "id": 617,
+  "query": "Suno AI WavTool acquisition date June 2025 Digital Audio Workstation DAW integration details",
+  "topic": "Suno AI",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A includes the key Suno blog result and corroborating coverage, but it does not explicitly state the acquisition date in the snippets themselves except via the TechCrunch URL slug. It also lacks the richer DAW integration specifics found in other reporting, such as VST plugin compatibility, sample-accurate editing, live recording, and automated MIDI generation. Several snippets are truncated/generic.",
+  "b_issues": "One PR Newswire snippet is inaccurate/generic ('today announced its newest product launch') and not about the acquisition details. TechCrunch snippet says Suno acquired WavTool 'a few months ago,' which is imprecise relative to the public announcement date. There is also minor noise ('Savings end June 26...').",
+  "reasoning": "Content B better enables a correct answer because it directly provides both the date and the integration details needed for the query. Music Business Worldwide explicitly says Suno announced the acquisition on Thursday, June 26, and explains that WavTool’s browser-based DAW tech would be integrated into Suno’s AI music generation platform, with specific features including VST plugin compatibility, sample-accurate editing, live recording, stem separation, and automated MIDI generation. TechCrunch in B adds that Suno would integrate WavTool into its new editing interface launched that month. Content A is broadly accurate and reliable, but its snippets are less explicit about the date and provide fewer concrete DAW integration details, so an LLM would have to infer more."
+}

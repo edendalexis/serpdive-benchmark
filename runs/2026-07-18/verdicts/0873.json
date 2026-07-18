@@ -1,0 +1,11 @@
+{
+  "id": 873,
+  "query": "Andy Burnham Labour MPs support next Prime Minister Starmer 2026",
+  "topic": "Keir Starmer",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Minor inconsistency across A results on the exact MP backing count: Guardian says 349 MPs, LabourList says 369, and another result references 322 earlier nominations. However, this can be reconciled as different stages of the nomination process, and A's top result clearly states the decisive figure and that Burnham will replace Starmer as prime minister.",
+  "b_issues": "B is weaker because only one result directly answers the key question with the crucial fact: BBC says 322 Labour MPs backed Burnham in the first tally. Other results mostly discuss his confirmation as leader or general context. B also includes Wikipedia with a different figure of 379 nominations, creating unresolved numerical inconsistency, and lacks the clearer 'mathematically impossible for any rival' explanation present in A.",
+  "reasoning": "Content A better enables a correct answer because its top result from The Guardian directly states the central facts asked about: Andy Burnham won the backing of 349 Labour MPs, including Starmer cabinet members, making it impossible for a rival to challenge him, and he is set to replace Keir Starmer as prime minister. This aligns closely with the anchor. A also includes additional corroboration from reputable outlets and LabourList showing overwhelming MP support, even if counts vary over time. Content B contains some relevant information, especially the BBC result saying 322 Labour MPs backed Burnham, but the rest is more contextual and less directly tied to the question. Its numerical inconsistency (322 vs 379) is less clearly explained from the snippets alone. Therefore A gives the LLM a more accurate and complete basis to answer correctly."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 757,
+  "query": "Donald Trump no intention sell DJT stake Truth Social post 2025 stock price reaction",
+  "topic": "Truth Social DJT stock",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A has only thin snippets and lacks the key stock-price reaction details. The Yahoo result snippet says the stock 'climbs' but gives no magnitude; the CBS snippet also omits the move in its snippet. It also includes lower-value/noisy results (Wikipedia with irrelevant 2025/2026 text, a Facebook/CNN post unrelated to the question). This makes it harder for an LLM to answer precisely from A alone.",
+  "b_issues": "Content B includes one potentially confusing older CNBC September 2024 result about a prior 'I'm not selling' statement, and a BBC result about the March 2024 post-IPO plunge that is not directly about the queried event. But these do not materially contradict the main answer.",
+  "reasoning": "The question asks about Trump's Truth Social post saying he had no intention to sell his DJT stake and the stock-price reaction. Content B directly provides both pieces: Trump said on Truth Social, 'I HAVE NO INTENTION OF SELLING,' and reliable sources quantify the reaction—CBS says the stock rose $3.15, or 11.4%, to $30.84 in early afternoon trading, while Yahoo says DJT closed more than 15% higher Friday after the post. B therefore gives enough accurate facts to answer correctly. Content A has the same topic but mostly partial snippets; it does not clearly provide the numeric stock reaction in the visible content and contains more irrelevant/noisy results, so it is less sufficient."
+}

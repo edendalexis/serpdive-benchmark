@@ -1,0 +1,11 @@
+{
+  "id": 80,
+  "query": "Blue Origin New Glenn hotfire test May 28 2026 anomaly damage launchpad",
+  "topic": "Blue Origin",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A has the key event but is weaker and less precise. Its strongest official source is a Blue Origin snippet that does not enumerate the launchpad damage in the result text beyond implying a rebuild path; the detailed damage list is not present as clearly as in B. It also includes lower-reliability or peripheral items: an old 2024 Space.com result unrelated to the May 28, 2026 anomaly, and a questionable secondary source (theonlinecitizen) containing dubious details and attribution. Overall A provides less direct, source-grounded evidence about what was damaged at the pad.",
+  "b_issues": "Content B includes a Wikipedia result, which is less authoritative than the official Blue Origin and CNN sources, but it is not necessary to answer the question and does not materially conflict with the better sources shown.",
+  "reasoning": "The question asks about the May 28, 2026 New Glenn hotfire anomaly and launchpad damage. Content B directly contains the best answering evidence from Blue Origin itself: it states there was a significant anomaly during the New Glenn hotfire test at LC-36 on May 28, 2026, and specifically says Blue Origin lost the lightning tower, transporter-erector, and hydraulic cylinders. CNN in B also confirms the anomaly occurred during a hotfire/static-fire test around 9 p.m. at Cape Canaveral and that there was launchpad damage. Those facts align with the anchor. Content A confirms an explosion during testing, but its returned snippets are less complete and include noisier/less reliable results, with the most detailed damage information not presented as clearly or as authoritatively in the snippets. Therefore B better enables an LLM to answer correctly from the provided content alone."
+}

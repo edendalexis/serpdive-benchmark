@@ -1,0 +1,11 @@
+{
+  "id": 844,
+  "query": "Taylor Swift Travis Kelce engagement ring first public photos July 2026 source",
+  "topic": "Taylor Swift",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A is muddled between engagement-ring coverage and wedding-ring first-public-photos coverage. Its strongest result is a Yahoo item about wedding rings one week after the ceremony, but it does not clearly identify the original source of the first public photos. Other results are about the 2025 engagement announcement, a March 2026 awards appearance, and a generic first appearance since engagement, which are off-target for the July 2026 first public photos question.",
+  "b_issues": "Content B includes some low-reliability/noisy results (Instagram, Facebook, an older engagement-sighting article). However, its top SI result explicitly states that People magazine posted the photos from JuJu Smith-Schuster and Laura Kruk’s July 10 wedding and that these were the first photos showing Swift and Kelce’s wedding rings. One Yahoo result is also vague and slightly inconsistent in age wording.",
+  "reasoning": "The query asks for the source of the first public photos in July 2026. Content B more directly contains that answer: the SI result says People magazine posted the photos of the newlyweds at JuJu Smith-Schuster and Laura Kruk’s ceremony on Friday, July 10, including the first photos of the rings. That gives an LLM the needed source and event context. Content A has relevant July 10 wedding-ring reporting, but it mainly points to Yahoo summarizing the event and other off-target engagement-ring articles; it does not as clearly provide the source of the first public photos. Therefore B better enables a correct answer."
+}

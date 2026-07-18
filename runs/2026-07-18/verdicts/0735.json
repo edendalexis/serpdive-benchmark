@@ -1,0 +1,11 @@
+{
+  "id": 735,
+  "query": "EU sanctions Hamas leaders Israeli settlers West Bank details list 2025",
+  "topic": "Israel-Hamas conflict",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A has very limited concrete detail. It mainly says the EU agreed in May 2026 to sanction Israeli settlers and Hamas leaders, but does not provide the actual listed names or clearly distinguish agreed packages from adopted listings. One result speculates with 'may include' possible settler groups/leaders, which is not confirmed and weakens answerability. It also lacks strong official-source detail on the sanctions list.",
+  "b_issues": "Content B also does not directly provide the full Hamas-leader list sought by the query, and some snippets contain dubious or unsupported details, especially the claim that Viktor Orban was ousted and replaced by Peter Magyar, which is highly suspect. However, B includes an official Consilium result confirming prior adopted EU listings for West Bank settlers (four individuals and two entities in April 2024; later four entities and three individuals in May 2026), which helps ground the answer better than A. Still, it remains incomplete for a precise 'details list' answer on Hamas leaders.",
+  "reasoning": "The query asks about EU sanctions on Hamas leaders and Israeli settlers in the West Bank, with details/list context. Both sets are imperfect and neither fully supplies the complete 2025/2026 sanctions list for Hamas leaders. But B better enables a correct answer because it combines mainstream reporting (Al Jazeera, NPR) with an official EU Consilium source that confirms actual adopted settler listings and dates. A mostly offers one news report plus speculative secondary material ('may include'), so an LLM would have less verified basis for answering. Although B contains one likely inaccurate political-transition claim about Hungary, overall it gives more reliable and specific factual support for the sanctions details than A."
+}

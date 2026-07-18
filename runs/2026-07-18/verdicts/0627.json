@@ -1,0 +1,11 @@
+{
+  "id": 627,
+  "query": "Novak Djokovic Indian Wells 2026 Jack Draper fourth round score",
+  "topic": "Novak Djokovic",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "No major factual flaws. One top result is Reddit, which is less reliable than official/news sources, and one result snippet (Sofascore) is incomplete, but multiple reliable results in A consistently give the score as Draper d. Djokovic 4-6, 6-4, 7-6(5).",
+  "b_issues": "No major factual flaws. Multiple reliable results and the featured snippet consistently give the score as Draper d. Djokovic 4-6, 6-4, 7-6(5). Minor variation in formatting only: some snippets write the final-set tiebreak as 7-6(5) and others as 7-6 (7-5), which are equivalent.",
+  "reasoning": "Both A and B clearly contain the facts needed to answer the question: in the 2026 Indian Wells fourth round, Jack Draper beat Novak Djokovic 4-6, 6-4, 7-6(5). In A, the ATP Tour result, LTA result, and BNP Paribas Open match page all support the answer. In B, the featured snippet, LTA result, and ATP Tour result do the same. The information is accurate, consistent, and drawn from reliable sources in both sets, so neither set better enables the answer than the other."
+}

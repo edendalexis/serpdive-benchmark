@@ -1,0 +1,11 @@
+{
+  "id": 246,
+  "query": "Voyager 1 trajectory correction maneuver TCM thrusters status April 2025",
+  "topic": "Voyager 1",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Content A is mostly about the 2017 status of Voyager 1’s TCM thrusters, not their status in April 2025. It supports that the TCM thrusters were successfully reactivated in 2017 after being dormant since 1980, but it does not provide an April 2025 update. It also includes outdated or dubious claims such as PopSci saying the probe would likely be incommunicado after 2025, which conflicts with the anchor’s May 2025 NASA update. No result directly states the TCM thrusters’ April 2025 status.",
+  "b_issues": "Content B is even less responsive to the question. Its top result is about primary roll thrusters in 2025, not TCM thrusters. Other results are generic background (Wikipedia) or old 2017 articles about TCM revival. It likewise provides no direct April 2025 status of the TCM thrusters. It also includes a low-reliability/oddly formatted SpaceDaily item and a Facebook post snippet instead of a clear primary source.",
+  "reasoning": "The question asks for the status of Voyager 1’s trajectory correction maneuver (TCM) thrusters in April 2025. The anchor indicates that by May 2025 NASA had revived a different set of thrusters considered inoperable since 2004, while the TCM thrusters are discussed only indirectly in supporting articles as not providing roll control. Neither A nor B gives the key April 2025 fact directly. Both mainly offer older 2017 evidence that the TCM thrusters had been brought back into use after 37 years of dormancy. That can help infer they were functional sometime after 2017, but neither dataset establishes their status specifically in April 2025. A has slightly cleaner sourcing on TCM history, but B has some 2025 context; neither clearly enables a correct answer from the provided content alone."
+}

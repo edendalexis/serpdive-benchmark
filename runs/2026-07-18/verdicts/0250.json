@@ -1,0 +1,11 @@
+{
+  "id": 250,
+  "query": "Merck clesrovimab FDA approval date infant RSV monoclonal antibody 2025",
+  "topic": "RSV vaccines",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "No material factual flaws for answering this query. The featured snippet includes an extra publication date ('Aug 28, 2025') from the CDC MMWR page that could be confused with the FDA approval date, but the snippet explicitly states the approval was on June 9, 2025. Sources are reliable overall (CDC, Merck).",
+  "b_issues": "No material factual flaws for answering this query. Top results are mostly secondary sources rather than the manufacturer press release, but they consistently state June 9, 2025, and one result is an FDA accessdata review document confirming approval status for BLA 761432.",
+  "reasoning": "Both result sets clearly contain the key fact needed to answer the question: Merck's clesrovimab (ENFLONSIA) for infant RSV was FDA approved on June 9, 2025. In A, the CDC MMWR featured snippet explicitly says 'On June 9, 2025, the FDA approved clesrovimab (Enflonsia, Merck),' and the Merck press release corroborates it. In B, multiple results independently state 'On June 9, 2025,' including Contemporary Pediatrics, Guideline Central, Drugs.com, and BioPharma Dive, and the FDA accessdata review confirms the product and approval action. Neither set materially contradicts itself, and both provide enough accurate information from credible sources for an LLM to answer correctly."
+}

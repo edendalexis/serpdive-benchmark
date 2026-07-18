@@ -1,0 +1,11 @@
+{
+  "id": 219,
+  "query": "Lil Tay OnlyFans total earnings latest figure 2025 subscriber count update",
+  "topic": "Lil Tay",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A does not provide any subscriber count update, so it only partially answers the query. It also includes a likely typo/misstatement from an iHeart result saying '6 figures' despite the cited amount being $1,024,298.09, and mixes the initial $1.024M-in-3-hours reports with a later claim of $15 million in two weeks without corroboration. The later $15M figure appears in weaker/tabloid-style sources and is not independently verified.",
+  "b_issues": "Content B also lacks any subscriber count update. It includes the same misleading '6 figures in 3 hours' headline while giving a 7-figure amount, and says both 'first day' and 'first six hours,' introducing inconsistency versus the anchor's 3-hour figure. One result is irrelevant/low-reliability estimated net-worth content from Hafi, not OnlyFans earnings. The $15 million in two weeks claim is presented from a secondary aggregation source and is unverified.",
+  "reasoning": "A better enables a correct answer because it contains a more reliable and direct source (Us Weekly) with the specific launch earnings breakdown: $1,024,298.09 total, including $511,003.79 from subscriptions, $26,736.19 in tips, and $486,558.11 from messages. It also includes multiple corroborating entertainment-news results consistent with the anchor. Both A and B fail on the 'subscriber count update' part, but B is weaker overall because it has fewer relevant results, includes an irrelevant speculative earnings-estimate page, and introduces more inconsistency ('6 figures,' 'first day,' 'first six hours') around the core number. Neither set cleanly supports a definitive latest-2025 total beyond reported claims, but A provides the stronger factual basis."
+}

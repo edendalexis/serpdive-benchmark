@@ -1,0 +1,11 @@
+{
+  "id": 331,
+  "query": "Longlegs spin-off Paramount distribution Neon",
+  "topic": "Longlegs",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Mostly solid. The key result from The Hollywood Reporter directly states that the new Longlegs project is at Paramount rather than original distributor Neon, and that it is not a sequel but a film set in the Longlegs universe. Minor issue: some lower-ranked results are social-media reposts and an IndieWire item that adds speculative commentary about Neon having 'made a mess' of another campaign, which is less reliable and not needed.",
+  "b_issues": "Contains useful corroboration, but has more ambiguity/noise. The AV Club result is secondary reporting rather than an original trade source. The Variety snippet calls it a 'sequel' while also implying a broader universe expansion, which could mislead since the trade reporting says it is not a traditional sequel. The Wikipedia result is less reliable than the trade reports. Deadline also mentions Perkins/Ferguson having a first-look deal with Neon, which could distract from the core distribution answer.",
+  "reasoning": "Both sets contain the core answer: Neon distributed the original Longlegs, while Paramount picked up/distributes the new follow-up/spin-off set in the Longlegs universe. However, A does this more cleanly and directly via a highly reliable primary trade source (The Hollywood Reporter) that explicitly says 'rather than original distributor Neon being involved, this one has ... Paramount Pictures as the project’s new home' and clarifies it is not a sequel but set in the Longlegs universe. B also supports the answer, but it relies more on secondary/less authoritative sources and includes a potentially misleading 'sequel' framing plus Wikipedia. Therefore A better enables a correct answer from the content alone."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 523,
+  "query": "Anthropic 10 million investment Canadian AI research announcement",
+  "topic": "Anthropic",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "No direct Anthropic source is present. Top result is a secondary aggregator (Odaily) and includes some potentially imprecise institution naming in the snippet (mentions universities rather than the named partner institutes in some places). One result is a YouTube commentary summary that says Canada ranks eighth worldwide in Claude use, conflicting with another A result that says Canada ranks second globally in per-capita usage. Overall mostly accurate, but more indirect and slightly noisier.",
+  "b_issues": "Contains a minor internal inconsistency across secondary results about Canadian Claude usage geography/metrics: Anthropic snippet mentions New Brunswick, Nova Scotia, and Québec leading in certain measures, while TNW says British Columbia leads in per-person use. This is likely about different metrics, but the snippets do not clarify. Otherwise no major factual flaw.",
+  "reasoning": "B better enables a correct answer because it includes the primary source: Anthropic’s own announcement page titled 'Anthropic commits $10 million to Canadian AI research.' That directly confirms the key fact the query is asking about: the announcement of a C$10 million commitment to Canadian AI research. B also provides supporting secondary coverage that consistently identifies the eight partner institutions (Amii, Mila, Vector, CHEO, CAMH, Université Laval, University of Toronto, University of Saskatchewan) and mentions startup API credits. A has broadly similar supporting facts, but lacks the direct Anthropic announcement and relies more on secondary/aggregated sources, including a YouTube summary and an Odaily aggregation. Since source reliability and directness matter, B is stronger."
+}

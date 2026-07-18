@@ -1,0 +1,11 @@
+{
+  "id": 571,
+  "query": "Mexico constitutional amendment foreign interference election annulment 2026 text",
+  "topic": "Claudia Sheinbaum",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A is dominated by low-reliability or inaccessible sources: Instagram, Facebook, and Quora. It does not include the actual constitutional text or an official/legal source, and the snippets are too thin to reconstruct the amendment precisely. One result (teleSUR) mixes this with a separate judicial-election delay reform, which risks confusing the issue. Overall A gives only generic claims that Congress approved a measure, without enough authoritative detail to answer a query asking for the 2026 amendment text.",
+  "b_issues": "Content B is noisy and includes several irrelevant results, including a garbled PDF, an unrelated Cambridge article, an unrelated Iowa PDF, and an unrelated Italian electoral-law item. Its best result is not the official decree text and contains a likely inconsistency: it says the constitution was amended on 29 May, but also says the ruling party withdrew the draft bill and postponed its consideration, and that implementing laws would not be ready until 2030. That could confuse an LLM about enactment versus regulation.",
+  "reasoning": "B better enables a correct answer because its CIVICUS result contains the key substantive fact the question is about: Congress amended Article 41 to add a new ground for annulling elections when foreign intervention or interference influencing the results is proven. That is materially aligned with the anchor. A, by contrast, mostly offers social-media posts and generic news snippets, with no authoritative wording and not enough detail to identify the constitutional article or the substance of the clause. Neither set is ideal because neither includes the official DOF/SIL text seen in the anchor, but B contains more of the actual legal substance needed to answer the query."
+}

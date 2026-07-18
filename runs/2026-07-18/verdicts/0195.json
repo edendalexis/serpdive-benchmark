@@ -1,0 +1,11 @@
+{
+  "id": 195,
+  "query": "Apple Intelligence China availability regulatory requirements Siri AI not available in China 2026 Apple official statement",
+  "topic": "Apple Intelligence",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A lacks a direct Apple official source. Its strongest evidence is a Threads repost quote and third-party coverage (MacRumors, Yahoo/Reuters pickup). The MacRumors snippet focuses mainly on the EU and gives less detail on China beyond saying the features will not be available there when released in beta. Several lower-quality sources (Sportskeeda, YouTube) add noise. It also mixes June unavailability with July approval reporting without clearly tying them together from authoritative sourcing.",
+  "b_issues": "Content B includes Apple’s official newsroom page with the key statement, but that page also says Apple Intelligence supports Simplified/Traditional Chinese, which could confuse an LLM unless it distinguishes language support from regional availability in mainland China. Some supporting results are weaker or informal (AppleInsider forum, Apple Community).",
+  "reasoning": "The question asks about China availability, regulatory requirements, Siri AI not being available in China in 2026, and an Apple official statement. Content B directly contains Apple’s official newsroom result stating: 'Siri AI and the other new Apple Intelligence features will not be available in China while Apple works through regulatory requirements.' That is exactly the official statement the question seeks. B also includes reliable follow-up reporting from Reuters/MacRumors showing that by mid-July 2026 Apple Intelligence was registered/approved by China’s regulator, with no launch date yet. This lets an LLM answer both the earlier non-availability due to regulatory requirements and the later approval status. Content A has some of the same facts, but mostly through indirect or lower-reliability sources and without the Apple official page itself, so it is less robust for answering correctly from the provided results alone."
+}

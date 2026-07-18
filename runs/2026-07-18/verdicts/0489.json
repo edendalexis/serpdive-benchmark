@@ -1,0 +1,11 @@
+{
+  "id": 489,
+  "query": "WGA antitrust lawsuit Paramount Skydance Warner Bros court docket number jurisdiction",
+  "topic": "The WGA",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A gives the jurisdiction clearly: United States District Court for the Northern District of California. It also includes a highly relevant official PDF from the California AG for the related states' case showing a federal docket number 4:26-cv-07116, but that is not the WGA case and could confuse an LLM into using the wrong docket number. A does not surface the WGA complaint PDF itself in the result list, so the WGA case number is not directly available from the provided snippets.",
+  "b_issues": "Content B gives the jurisdiction only at a high level via media reporting: U.S. District Court for the Northern District of California. It does not provide the WGA docket number, and none of the surfaced snippets contain a case number. Its sources are mostly secondary media/report aggregators rather than official court or WGA materials, so it is less reliable for precise docket information. It also includes discussion of the separate 12-state case and related-case assignment, which may distract from the WGA suit.",
+  "reasoning": "The question asks for the court docket number and jurisdiction of the WGA antitrust suit. Neither set fully provides the WGA docket number from the surfaced content alone. However, A is better because it includes official WGA materials confirming the jurisdiction and an official court-filed PDF with a docket number format from the related antitrust litigation, making it closer to the needed answer and based on more reliable primary sources. B only confirms the Northern District of California through news reports and provides no docket number at all. Because A better supports a correct answer on jurisdiction and is closer on docket information, A wins."
+}

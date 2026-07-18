@@ -1,0 +1,11 @@
+{
+  "id": 826,
+  "query": "Key Bridge reconstruction Baltimore winning bid contractor awarded cost timeline 2025",
+  "topic": "Port of Baltimore",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Contains weakly relevant and partially contradictory material. One result is from 2026 about Kiewit being dropped, which can confuse a 2025-focused question. The Wikipedia snippet mixes timelines and includes potentially unreliable or muddled details (e.g., early estimates, procurement notes, and delayed opening date all in one excerpt). It does not clearly provide a 2025 awarded winning construction bid/contractor beyond the earlier 2024 $73M preconstruction award to Kiewit, and that is not necessarily the final reconstruction contractor implied by the query.",
+  "b_issues": "Also lacks a clear 2025 winning reconstruction bid/contractor award. It includes a 2025 fabrication contract award worth $35M, a Jan. 2025 $75M construction-management support contract to a WSP-led team, and references to Kiewit’s earlier 2024 $73M phase-1 design-build award. These are adjacent contracts, not clearly the main reconstruction winning bid asked for. Includes a 2026 rebid article that may confuse the timeline.",
+  "reasoning": "Neither result set cleanly answers the question as posed. The anchor indicates the key facts are: Kiewit was selected in Aug. 2024 for an initial $73M progressive design-build phase; later cost estimates rose to $4.3B-$5.2B with an anticipated late-2030 opening; and by 2026 Kiewit was dropped before the main construction phase. Content A contains the updated MDTA cost/timeline and the 2024 Kiewit award, but with confusing 2026 and Wikipedia material. Content B contains the 2025 $75M management contract and a 2025 fabrication contract, plus the delayed timeline/cost, but still does not identify a 2025 main winning rebuild bid/contractor because that apparently did not occur as implied. Since both sets provide partial but incomplete/confusable facts and neither clearly supports a correct direct answer to the exact query better than the other, the best verdict is tie."
+}

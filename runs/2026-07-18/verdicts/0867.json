@@ -1,0 +1,11 @@
+{
+  "id": 867,
+  "query": "Novo Nordisk semaglutide 1.3 million prescriptions Q1 2026 US fill rate weekly signup statistics",
+  "topic": "Ozempic and Wegovy",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A does not contain the key 1.3 million Q1 2026 prescription figure in any snippet. It has a debut-week 18,410 prescription item and a CNBC result with revenue, but lacks the central quarterly prescription statistic and the weekly >200,000 prescription figure tied to 17 April in accessible form. It also does not provide any fill-rate or signup/new-start statistic matching the query. The Novo press-release page snippet is generic and not useful. Some snippets are tangential or forward-looking rather than directly answering the query.",
+  "b_issues": "Content B still does not directly provide a 'fill rate' metric in the sense of prescription conversion, and 'weekly signup statistics' are only partially covered via PR Newswire's 82% new-to-brand starts and >80% new-to-GLP-1 statements. It includes some irrelevant results (PMC article, Forbes stats). However, there is no major factual contradiction in the key results.",
+  "reasoning": "Content B better enables a correct answer because it includes the authoritative SEC filing snippet stating the exact core facts from the anchor: around 1.3 million total prescriptions in Q1 2026, more than 2 million since launch, and that this was the strongest-ever GLP-1 volume launch in the US. It also includes a result stating weekly prescriptions exceeded 200,000 for the week ending 17 April, which matches the anchor. In addition, B provides a PR Newswire result with useful adoption/start statistics: more than 80% of filled new prescriptions were for people new to GLP-1 therapy, and 82% of Wegovy pill new-to-brand starts YTD 2026. By contrast, A lacks the crucial 1.3 million Q1 prescription fact in the snippets and does not furnish the weekly >200,000 statistic or comparable signup/start metrics clearly enough. Therefore B more fully and reliably supports answering the question from the returned content alone."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 922,
+  "query": "Wicked For Good US theatrical release date 2025",
+  "topic": "Wicked",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "No material factual flaws for answering the query. Multiple reliable sources (NBC, Fandango, USA Today, Playbill) consistently state the U.S. theatrical release is Friday, November 21, 2025. Minor snippet truncation in the USA Today result, but it still supports Nov. 21.",
+  "b_issues": "No material factual flaws for answering the query. Reliable sources (NBC, Fandango, USA Today) and Wikipedia all state the U.S. release is November 21, 2025. The Wikipedia snippet includes a non-U.S. premiere date (Nov. 4, 2025 in São Paulo), which could be distracting, and Reddit is a less reliable result, but neither contradicts the U.S. theatrical date.",
+  "reasoning": "Both result sets clearly enable the correct answer: the U.S. theatrical release date for Wicked: For Good is November 21, 2025. In A, NBC, Fandango, USA Today, and Playbill all independently confirm Nov. 21, 2025. In B, Wikipedia explicitly says November 21, 2025 (United States), and NBC, Fandango, and USA Today also confirm it. Since both sets contain accurate, consistent, and sufficient evidence from reliable sources to answer the question correctly, neither is meaningfully better."
+}

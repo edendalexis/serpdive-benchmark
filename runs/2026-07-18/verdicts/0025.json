@@ -1,0 +1,11 @@
+{
+  "id": 25,
+  "query": "SpaceXAI May 2026 layoff employee count Grok team restructuring",
+  "topic": "xAI",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A does not contain the key May 2026 SpaceXAI/Grok restructuring result at all. Its top relevant-looking hit is a Business Insider article about xAI laying off at least 500 data-annotation workers, but that article is dated 2025-9 and is not the May 2026 SpaceXAI merger/restructuring event in the anchor. The rest are generic layoff trackers or unrelated company layoffs. So A lacks the needed facts such as 'more than 50 researchers and engineers departed since February' and Grok-team details.",
+  "b_issues": "Content B also does not contain the key May 2026 SpaceXAI/Grok restructuring result. It includes the same irrelevant Business Insider article about at least 500 xAI data-annotation layoffs from 2025-9, plus generic 2026 layoff roundups unrelated to SpaceXAI. No result supplies the anchor facts about more than 50 researchers/engineers leaving after the February merger, including Grok coding/world models/voice and pre-training team shrinkage. The TechCrunch layoff roundup snippet is unrelated and could mislead.",
+  "reasoning": "Neither set enables an LLM to answer the specific question correctly from the provided content alone. The anchor indicates the relevant answer is about SpaceXAI in May 2026 losing more than 50 researchers and engineers since February, with Grok-team restructuring and the pre-training team reduced to a handful. Neither A nor B includes that report or equivalent facts. Both instead surface an unrelated Business Insider article about 500 xAI data-annotation layoffs and generic tech layoff trackers. Since both omit the necessary facts and risk steering the model to an incorrect answer, the result is a tie."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 490,
+  "query": "UK High Court 2026 Wimbledon expansion ruling statutory trusts land use",
+  "topic": "Wimbledon",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "A lacks the primary source judgment and includes a likely irrelevant/incorrect Guardian result dated 2025 about a different High Court ruling on planning approval rather than the 19 March 2026 statutory-trust case. Reuters snippet is very thin. The BBC result gives the key holding, but A overall provides less direct grounding for the exact case details and legal basis.",
+  "b_issues": "B includes some secondary/advocacy or paywalled sources (Wimbledon Society, Times) with limited accessible detail, but these do not materially conflict with the core facts. No clear factual contradiction appears in the provided snippets.",
+  "reasoning": "B better enables a correct answer because it contains the official judiciary PDF for the exact case identified in the anchor: Neutral Citation [2026] EWHC 628 (Ch), dated 19 March 2026, concerning whether s.164 of the Public Health Act 1875 imposed a statutory trust on the Wimbledon golf-course land. Its snippet directly states the parties' legal issue and argument chain, matching the anchor. B also includes corroborating BBC coverage that the High Court ruled the land was not subject to land-use restrictions/statutory trust. A has useful corroboration from BBC and Local Government Lawyer, but it lacks the judgment itself and includes at least one result that appears to concern a separate planning challenge, which could mislead an LLM. Therefore B is the stronger, more reliable set for answering the question correctly."
+}

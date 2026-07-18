@@ -1,0 +1,11 @@
+{
+  "id": 392,
+  "query": "H5N1 human cases deaths global count December 2025 WHO update",
+  "topic": "H5N1 bird flu",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Does not surface the key December 2025 WHO source. Top results are mostly later secondary sources (CDC June 2026, FAO, PMC, Wikipedia). The only result that directly gives a cumulative global total is Wikipedia, which says 993 cases and 477 deaths between 2003 and December 2025; this is not a WHO source and may conflict with the WHO December 19, 2025 cumulative table indicated by the anchor. Content is therefore indirect and potentially inaccurate for a WHO-update-specific query.",
+  "b_issues": "Also does not surface the key December 2025 WHO cumulative table. The closest figure is a PAHO March 2025 PDF giving 964 cases and 466 deaths, which is outdated for a December 2025 WHO update. Other results are later CDC/FAO/Wikipedia pages or a WHO DON about H5N5 in the U.S., not the requested global H5N1 December 2025 WHO count. Thus the needed December 2025 WHO facts are missing or stale.",
+  "reasoning": "Neither set reliably enables an LLM to answer 'H5N1 human cases deaths global count December 2025 WHO update' correctly from the provided content alone. The anchor indicates the relevant source is WHO's cumulative table dated 19 December 2025. Content A includes no WHO cumulative table result and relies on later CDC/Wikipedia material; while Wikipedia supplies a December 2025 total (993/477), it is not the requested WHO update and may be unreliable. Content B likewise lacks the December 2025 WHO table; its only explicit cumulative count is PAHO's March 2025 number (964/466), which is outdated. Since both fail to present the actual December 2025 WHO cumulative count directly and both would force an LLM to infer from secondary or stale sources, neither is clearly better."
+}

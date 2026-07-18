@@ -1,0 +1,11 @@
+{
+  "id": 820,
+  "query": "Port of Baltimore second largest container ship visit 15000 capacity name",
+  "topic": "Port of Baltimore",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A does not directly surface the key fact needed for the query. Its only relevant result says the previous largest ship before Ever Max was the Triton with capacity 14,424 containers, which helps infer the 'second largest' name, but A never mentions a 15,000-capacity second-largest vessel and most other results are irrelevant 2025 cargo-recovery stories. This makes it weaker and potentially confusing for answering the exact question.",
+  "b_issues": "Content B has some inconsistency/noise in snippets: one result describes Triton as '14,000 TEU' while another says Gunde Maersk was the largest container ship to ever dock, reflecting older record-holding status. However, the set still clearly shows Ever Max at 15,432 TEU and Triton as the prior/lower record-holder, allowing identification of the second-largest vessel.",
+  "reasoning": "The question asks for the name of the Port of Baltimore's second-largest container ship visit, with a clue around 15,000 capacity. The anchor establishes Ever Max at 15,432 TEU as the largest-ever visit, and Triton at 14,424 TEU as the previous record-holder and thus second-largest. Content B directly includes both crucial facts: Ever Max with 15,432 capacity and multiple results naming Evergreen Triton as the largest/record ship before Ever Max. That gives an LLM enough to answer 'Evergreen Triton' correctly. Content A includes the same inferential clue in one Patch snippet, but the rest of A is largely irrelevant and does not reinforce the answer. So B better enables a correct answer."
+}

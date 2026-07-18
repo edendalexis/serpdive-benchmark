@@ -1,0 +1,11 @@
+{
+  "id": 662,
+  "query": "Safe Superintelligence SSI March 2025 valuation funding amount raised",
+  "topic": "Ilya Sutskever",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Result set A contains some weaker or secondary sources and one irrelevant LinkedIn item. It also mixes March-query intent with April reporting, since the strongest result is a Crunchbase April roundup. However, A explicitly states the key facts needed: SSI reportedly raised $2 billion at a $32 billion valuation, which matches the anchor. No strong internal contradiction is visible.",
+  "b_issues": "Result set B’s top Crunchbase snippet is truncated and omits the valuation/amount in the visible text, making it less directly useful. B also includes lower-reliability/derived sources like Wikipedia and UpMarket. The CB Insights result withholds the March 2025 valuation behind 'sign up' language, so the visible snippet gives the $2 billion raise date but not the actual valuation number; it also shows a September 2024 valuation of $5 billion, which may distract from the target fact. Overall B is less direct and relies more on inference from weaker sources.",
+  "reasoning": "The question asks for SSI’s March 2025 valuation and funding amount raised. Content A directly provides both in a visible snippet from Crunchbase news: SSI 'reportedly raised a $2 billion round at a $32 billion valuation led by Greenoaks Capital Partners.' This aligns with the anchor from The Information ($2 billion at $32 billion valuation). Content B has partial support: CB Insights clearly shows the latest round was $2,000M on March 9, 2025, and Built In SF says $2B at $32B valuation, but the strongest visible evidence is split across results and some sources are weaker or gated. Since A presents the complete answer more directly and accurately in one visible result, it better enables a correct answer."
+}

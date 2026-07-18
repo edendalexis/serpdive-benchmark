@@ -1,0 +1,11 @@
+{
+  "id": 310,
+  "query": "Ursula von der Leyen January 2026 Damascus meeting Syria financial assistance package amount 2026 2027 official statement",
+  "topic": "Ursula von der Leyen",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "No major factual flaws. The key official statement result directly states the amount as around EUR 620 million for 2026 and 2027 and specifies it includes humanitarian aid, early recovery support, and bilateral support. Minor issue: only one result is the official EU statement; the other results are secondary reporting and one mentions a separate March pledge for 2025 and 2026, which could be distracting but does not contradict the answer.",
+  "b_issues": "The top result is an official EU page, but its snippet is truncated and does not clearly present the full answer in one place. Most other results are secondary sources rather than the official statement requested. No clear contradiction, but less direct grounding in the official statement itself.",
+  "reasoning": "The question asks for the amount of the Syria financial assistance package announced during Ursula von der Leyen’s January 2026 Damascus meeting, specifically from the official statement. Content A includes the exact official EU statement page and quotes the crucial passage: financial support of around EUR 620 million for 2026 and 2027. This matches the anchor exactly and is enough for an LLM to answer correctly from official-source text alone. Content B also points toward the right answer, especially via the official EU news page snippet mentioning around €620 million for 2026 and 2027, but it relies more on brief snippets and non-official sources and does not surface the official statement text as directly. Therefore A better enables a correct answer."
+}

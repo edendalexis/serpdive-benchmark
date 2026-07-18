@@ -1,0 +1,11 @@
+{
+  "id": 968,
+  "query": "India first hydrogen train route specifications capacity manufacturer July 2026 launch details",
+  "topic": "Narendra Modi",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A has some inconsistency on power/capacity details across results: one result says 1,200 kW propulsion and another says 1,200 HP; one says seating capacity 682 while another says over 2,500 passengers in eight coaches, which appears to refer to an older/incorrect configuration versus the launched 10-coach train. It also does not clearly provide manufacturer details beyond indigenous/Make in India, and some results are pre-launch rather than post-launch.",
+  "b_issues": "Content B includes a badly polluted first result with large amounts of irrelevant TOI link spam and almost no usable train facts. It provides fewer concrete specifications overall and largely lacks manufacturer details. It also has the same unresolved inconsistency risk around speed/configuration, with one result mentioning 110 km/h while another says max operating speed 75 km/h, without clarifying operational vs design/test speed. Capacity information is thinner than A.",
+  "reasoning": "A better enables a correct answer because it contains more of the needed facts from reliable sources: July 17 launch, Jind–Sonipat route, operational speed 75 km/h, designed/top/test speeds up to 110–120 km/h, 10-coach trainset, 1,200 kW propulsion, and a concrete seating-capacity figure of 682 from Economic Times. B has some core route and launch facts, but its top result is heavily corrupted and contributes little, and the remaining results provide fewer specifications and less capacity detail. Neither set gives a strong clear manufacturer name, but A still covers the question substantially better."
+}

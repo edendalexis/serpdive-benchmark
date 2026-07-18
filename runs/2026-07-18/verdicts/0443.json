@@ -1,0 +1,11 @@
+{
+  "id": 443,
+  "query": "Notre-Dame forecourt Bas Smets landscape redesign completion date budget",
+  "topic": "Notre-Dame de Paris",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A gives the completion date repeatedly as 2027, which is consistent with the anchor, but it does not provide the budget in the shown snippets. One result is from Facebook and another from a lifestyle site, so source reliability is mixed. It also includes a likely irrelevant Harvard 2024 page and does not clearly distinguish the forecourt project from the broader Notre-Dame restoration.",
+  "b_issues": "Content B includes a reliable Ville de Paris result saying redevelopment will begin in early 2026, which conflicts with some 2022 reporting that said work might start in 2024/2025; however this may reflect an updated timetable rather than a factual error. Crucially, the shown snippets do not provide the budget or the completion date. Other results are weak or unreliable for answering the question (LinkedIn post, event listing), and the ArchPaper snippet shown lacks the needed date/budget facts.",
+  "reasoning": "The question asks for the Notre-Dame forecourt Bas Smets landscape redesign completion date and budget. To answer correctly, an LLM needs both. Content A clearly supplies the completion date (2027) but not the budget. Content B supplies neither in the visible snippets, though it has a strong official source for timing context. Since A lacks the budget and B lacks both key requested facts, neither set alone adequately enables a fully correct answer. A is slightly better on completion date, but not enough to answer the full question correctly, so the best verdict is tie."
+}

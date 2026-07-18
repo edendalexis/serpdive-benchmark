@@ -1,0 +1,11 @@
+{
+  "id": 888,
+  "query": "Skydance New Media Lucasfilm Games Star Wars interactive project official title",
+  "topic": "Skydance Media",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Content A does not provide an official game title. Its best source is the Skydance press release, which only calls it 'a new Star Wars project' / a 'richly cinematic action-adventure game featuring an original story.' One lower-quality result (Wookieepedia/Fandom) says it is an 'untitled video game,' which is consistent with there being no announced title, but that is not an official source.",
+  "b_issues": "Content B likewise does not provide an official game title. Its strongest source is the same Skydance press release, which only describes it as 'a new Star Wars project' and an original action-adventure game. It also includes a Fandom page calling it an 'untitled video game,' which is not an official source, plus a YouTube result of limited reliability.",
+  "reasoning": "The question asks for the official title of the Skydance New Media/Lucasfilm Games Star Wars interactive project. In both A and B, the authoritative Skydance result is present and shows no official title was announced in that April 19, 2022 announcement—only a generic description of a new Star Wars project/game. Neither result set contains evidence of a specific official title, and neither contains a contradictory official source naming one. Since both sets equally support the same correct conclusion—no official title is given in the provided sources / it is effectively untitled—this is a tie."
+}

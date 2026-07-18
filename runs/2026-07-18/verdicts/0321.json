@@ -1,0 +1,11 @@
+{
+  "id": 321,
+  "query": "Scottie Scheffler baby birth date Houston Open withdrawal 2026",
+  "topic": "Scottie Scheffler",
+  "judge": "openai/gpt-5.4",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A establishes the Houston Open withdrawal date (Mar. 24, 2026) and reason (family reasons / impending birth of second child), but it does not provide the second baby's actual birth date. It only mentions the first child Bennett was born in May 2024. One result is a Facebook post, which is less reliable, but the key facts are also supported by PGA Tour and Golf Digest.",
+  "b_issues": "Content B also establishes the withdrawal date/reason and includes a reliable PGA Tour result plus corroboration from ESPN/Golf Channel, but it likewise does not provide the second baby's actual birth date. It only gives Bennett's birth date (May 8, 2024). There is a likely factual error in the Sky Sports snippet calling Rory McIlroy the defending Masters champion in 2026, which could reduce trust, though it is irrelevant to the queried fact.",
+  "reasoning": "The question appears to seek the baby's birth date in relation to Scheffler's 2026 Houston Open withdrawal. Both result sets clearly support that Scheffler withdrew from the Texas Children's Houston Open on March 24, 2026 for family reasons connected to the imminent birth of his second child. However, neither set includes the actual birth date of that second baby, so an LLM relying on either set alone could not fully answer the question correctly. Because both are equally incomplete on the crucial birth-date fact, the correct verdict is a tie."
+}
