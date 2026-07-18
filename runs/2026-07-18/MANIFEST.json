@@ -14,6 +14,18 @@
       "protocol_sha": "b2ff66de281c5bc0c7430ec1512c718372802c34e9ab7a73a5bc15e028ca74fc",
       "count": 100,
       "seed": "ca892667b36ee0becf08a28c99498593f3cec380eb74391ac4f8dd1b99e7a335"
+    },
+    {
+      "stage": "questions",
+      "tool": "2-questions.mjs",
+      "at": "2026-07-18T00:03:26.456Z",
+      "reads": {
+        "topics.json": "a3bedcbd0a0d9922ab0f2324bb6c57fcc3870767d136570f47c601376738028c"
+      },
+      "writes": {
+        "questions.json": "fb95528a935cc26326a648f21f43e2b610fd7c80338f32738c151ca7bacd49c1"
+      },
+      "count": 1000
     }
   ],
   "protocol_sha": "b2ff66de281c5bc0c7430ec1512c718372802c34e9ab7a73a5bc15e028ca74fc"
