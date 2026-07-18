@@ -26,6 +26,23 @@
         "questions.json": "fb95528a935cc26326a648f21f43e2b610fd7c80338f32738c151ca7bacd49c1"
       },
       "count": 1000
+    },
+    {
+      "stage": "collect",
+      "tool": "3-collect.mjs",
+      "at": "2026-07-18T01:16:18.204Z",
+      "reads": {
+        "questions.json": "fb95528a935cc26326a648f21f43e2b610fd7c80338f32738c151ca7bacd49c1"
+      },
+      "writes": {
+        "payloads/": "5f5a6e60f20a1109a381fd783bbdcdb42e140059bedd11a410d4e4661d0b1389"
+      },
+      "arms": [
+        "mako",
+        "tavily"
+      ],
+      "count": 1000,
+      "collected_on": "2026-07-18"
     }
   ],
   "protocol_sha": "b2ff66de281c5bc0c7430ec1512c718372802c34e9ab7a73a5bc15e028ca74fc"

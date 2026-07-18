@@ -1,0 +1,21 @@
+{
+  "id": 218,
+  "query": "Lil Tay Stuck in July streaming numbers chart performance first week sales",
+  "topic": "Lil Tay",
+  "topic_id": 21,
+  "collected_at": "2026-07-18T00:19:51.273Z",
+  "arms": {
+    "mako": {
+      "status": 200,
+      "latency_ms": 2348,
+      "tokens": 460,
+      "raw": "{\"query\":\"Lil Tay Stuck in July streaming numbers chart performance first week sales\",\"model\":\"mako\",\"response_time_ms\":2241,\"verdict\":null,\"extra_info\":null,\"results\":[{\"url\":\"https://www.viberate.com/artist/lil-tay/\",\"title\":\"LIL TAY - Songs, Events and Music Stats | Viberate.com\",\"content\":\"One of Lil Tay's standout tracks is “SUCKER 4 GREEN.” The song reflects on themes of ambition and the hustle for success, combining catchy hooks with a straightforward beat.\\n“Growing Up” showcases a more personal side, touching on the experiences and challenges of youth.\\nOther popular tracks include “Stuck In July” and more, illustrating her ability to capture moments and feelings in her music.\\nLil Tay has been active with new music in recent years.\\nHer latest single, “Stuck In July (2025),” showcases a blend of catchy hooks and relatable themes.\\nThe song captures a moment in time, making it resonate with those navigating similar feelings.\\nBefore this release, she dropped “Growing Up (2024),” which dealt with personal growth and the challenges of adolescence.\\nIn 2023, “SUCKER 4 GREEN (MONEY)” provided a commentary on ambition and the pursuit of success, featuring a mix of sharp beats and engaging verses.\\nViberate is a professional music analytics service that provides a complete data overview of LIL TAY, covering audience data, Spotify playlists and stats, individual track performance, and cross-platform metrics including Spotify, YouTube, streaming, and radio airplay analytics.\\nThe platform also includes full social media analytics across Instagram, TikTok, and Facebook, as well as insights from Apple Music playlists, SoundCloud, Beatport, Shazam, and Deezer, alongside artist charts, streaming charts, genre charts, and genre analytics to support A&R discovery, benchmarking, and strategic decision-making.\"}]}"
+    },
+    "tavily": {
+      "status": 200,
+      "latency_ms": 2323,
+      "tokens": 478,
+      "raw": "{\"query\":\"Lil Tay Stuck in July streaming numbers chart performance first week sales\",\"follow_up_questions\":null,\"answer\":null,\"images\":[],\"results\":[{\"url\":\"https://www.viberate.com/artist/lil-tay\",\"title\":\"LIL TAY - Songs, Events and Music Stats\",\"content\":\"Stuck In July 1K streams last week. LIL TAY's Chart Ranks Past 12 Months. Her latest single, “Stuck In July (2025),” individual track performance, and cross-\",\"score\":0.7992077,\"raw_content\":null},{\"url\":\"https://app.chartmetric.com/artist/11096762\",\"title\":\"LIL TAY\",\"content\":\"6.8M Streams. TikTok. 2.2K Videos. 2. Growing Up. Spotify. 629.3K Streams. 3. Stuck In July. Spotify. 133.1K Streams. Audience Summary. Primary\",\"score\":0.78631157,\"raw_content\":null},{\"url\":\"https://open.spotify.com/artist/5dsEqJbJ3ZC5A77Yaqwnu3\",\"title\":\"LIL TAY\",\"content\":\"Listen to LIL TAY on Spotify. SUCKER 4 GREEN (MONEY) 6,833,691 Growing Up E 631,150 Stuck In July 134,526. Singles and EPs Stuck In July Single\",\"score\":0.7373288,\"raw_content\":null},{\"url\":\"https://www.youtube.com/watch?v=lL-nSrBtPx4\",\"title\":\"Stuck In July\",\"content\":\"Stuck In July · LIL TAY · Josh Lopez · Tay Tian · Erik Madrid. Lil Tay Release. Released on: 2025-08-08 … 8.8K views11 months ago\",\"score\":0.37930995,\"raw_content\":null},{\"url\":\"https://www.instagram.com/reel/DM_DDCGvuvu?hl=en\",\"title\":\"Instagram\",\"content\":\"Never miss a post from liltay. Sign up for Instagram to stay in the loop. By continuing, you agree to Instagram's Terms of Use and Privacy Policy. Video by LIL TAY on August 05, 2025. “STUCK IN JULY” OUT NOW on YouTube 🤩. Thank god she’s not rapping. I fw the new stuff. Song is 🔥 and you’re so beautiful. Log in to like or comment. Photo by LIL TAY on February 14, 2026. Video by LIL TAY on September 21, 2025. Photo by LIL TAY on September 09, 2025.\",\"score\":0.2579898,\"raw_content\":null}],\"response_time\":1.86,\"request_id\":\"73d0c887-0fe6-4c61-8891-3e964045ce7a\"}"
+    }
+  }
+}

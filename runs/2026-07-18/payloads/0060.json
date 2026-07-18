@@ -1,0 +1,21 @@
+{
+  "id": 60,
+  "query": "site:tukaani.org xz-utils release 5.8.3 security issue CVE changelog",
+  "topic": "XZ Utils",
+  "topic_id": 6,
+  "collected_at": "2026-07-18T00:08:26.544Z",
+  "arms": {
+    "mako": {
+      "status": 200,
+      "latency_ms": 956,
+      "tokens": 462,
+      "raw": "{\"query\":\"site:tukaani.org xz-utils release 5.8.3 security issue CVE changelog\",\"model\":\"mako\",\"response_time_ms\":895,\"verdict\":null,\"extra_info\":null,\"results\":[{\"url\":\"https://tukaani.org/xz/\",\"title\":\"XZ Utils\",\"content\":\"XZ Utils are a complete C99 implementation of the .xz file format.\\nCVE-2026-34743: Buffer overflow in lzma_index_append()\\nXZ Utils 5.6.0 (2024-02-24) and 5.6.1 (2024-03-09) release tarballs contain a backdoor that was inserted by a malicious co-maintainer.\\nMalicious filenames can make xzgrep to write to arbitrary files or (with a GNU sed extension) lead to arbitrary code execution.\\nA patch to fix it was made public on 2022-04-07.\\nCVE-2020-22916 is bogus; it’s not a security issue or a bug.\\nXZ Utils 5.8.3 fix a minor security issue that affects all stable XZ Utils releases.\\nSee the security advisory for details.\\nXZ Utils source packages are also available on Codeberg and Sourceforge.\\nIt is fine to build packages from the Git repository instead of using the release tarballs.\\ngit clone https://github.com/tukaani-project/xz\\nThe repository is mirrored (with some delay) to Codeberg and git.tukaani.org as well.\\nCMake-based build became feature complete in June 2024.\\nTranslation support also requires that GNU gettext-tools are installed.\\nIf Clang/LLVM is available for the operating system then it should work too.\\nWindows 2000 and later (GCC or Clang/LLVM with mingw-w64, GCC/Cygwin, Visual Studio 2015 or later)\\nWindows 95/98/98SE/ME, NT4, Interix (pre-W2k support was disabled after XZ Utils 5.4.x)\\nFrom the version 5.5.2beta onwards, the core components of XZ Utils are under the BSD Zero Clause License (0BSD).\\nSome parts of XZ Utils (for example, scripts from GNU gzip and some build system files) are under different free software licenses such as GNU LGPLv2.1, GNU GPLv2, or GNU GPLv3.\"}]}"
+    },
+    "tavily": {
+      "status": 200,
+      "latency_ms": 1729,
+      "tokens": 108,
+      "raw": "{\"query\":\"xz-utils release 5.8.3 security issue CVE changelog\",\"follow_up_questions\":null,\"answer\":null,\"images\":[],\"results\":[{\"url\":\"https://tukaani.org/xz\",\"title\":\"XZ Utils\",\"content\":\"Stable XZ Utils 5.8.3 fix a minor security issue that affects all stable XZ Utils releases. See the security advisory for details.\",\"score\":0.8488849,\"raw_content\":null}],\"response_time\":1.58,\"request_id\":\"403dc941-278e-4b7f-a798-19eb69519944\"}"
+    }
+  }
+}

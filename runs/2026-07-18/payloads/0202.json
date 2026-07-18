@@ -1,0 +1,21 @@
+{
+  "id": 202,
+  "query": "Shohei Ohtani 300th career home run date opponent inning first Japanese-born MLB player milestone July 2026",
+  "topic": "Shohei Ohtani",
+  "topic_id": 20,
+  "collected_at": "2026-07-18T00:18:42.852Z",
+  "arms": {
+    "mako": {
+      "status": 200,
+      "latency_ms": 1985,
+      "tokens": 501,
+      "raw": "{\"query\":\"Shohei Ohtani 300th career home run date opponent inning first Japanese-born MLB player milestone July 2026\",\"model\":\"mako\",\"response_time_ms\":1891,\"verdict\":null,\"extra_info\":null,\"results\":[{\"url\":\"https://www.timesleaderonline.com/sports/local-sports/2026/07/shohei-ohtani-hits-his-300th-career-homer-becoming-first-japanese-born-mlb-player-to-reach-mark/\",\"title\":\"Shohei Ohtani Hits His 300th Career Homer, Becoming First Japanese-Born MLB Player To Reach Mark - The Times Leader\",\"content\":\"By Associated Press July 9, 2026 2 min read\\nLos Angeles Dodgers' Shohei Ohtani watches a foul ball go out during the third inning of a baseball game against the Colorado Rockies, Tuesday, July 7, 2026, in Los Angeles.\\nLOS ANGELES (AP) -- Shohei Ohtani hit his 300th career homer on Tuesday night, a leadoff shot against Colorado Rockies pitcher Michael Lorenzen that made him the first Japanese-born player in the majors to reach the milestone.\\nThe Los Angeles Dodgers’ two-way superstar blasted a 409-foot line drive to center on a 2-0 pitch for his 20th homer of the season.\\nOhtani is the fifth-fastest in history to reach 300 and the 170th member of the club.\\nIt took him 1,102 games between playing for the Los Angeles Angels and Dodgers; New York Yankees slugger Aaron Judge was the quickest at 955 games.\\nIt was Ohtani’s 31st career leadoff homer and seventh this season.\\nHe also homered in the Dodgers’ 8-7 victory in 11 innings on Monday night to highlight a 3-for-4 performance.\\nRoberts believes there’s a lot more homers within reach for Ohtani, who turned 32 last Sunday.\"},{\"url\":\"https://www.mlb.com/video/ohtani-300th-hr\",\"title\":\"Shohei Ohtani's 300th career home run (20) | 07/07/2026 | MLB.com\",\"content\":\"MLB.comhttps://www.mlb.com · Jul 7, 2026MLB.comhttps://www.mlb.com · Jul 7, 20260:27Shohei Ohtani homers to left-center field in the bottom of the 1st inning, the 300th home run of his MLB career. Dodgers July 7, 2026\\nShohei Ohtani's 300th career home run (20)\"}]}"
+    },
+    "tavily": {
+      "status": 200,
+      "latency_ms": 1962,
+      "tokens": 428,
+      "raw": "{\"query\":\"Shohei Ohtani 300th career home run date opponent inning first Japanese-born MLB player milestone July 2026\",\"follow_up_questions\":null,\"answer\":null,\"images\":[],\"results\":[{\"url\":\"https://www.japantimes.co.jp/sports/2026/07/08/baseball/mlb/ohtani-300th-home-run\",\"title\":\"Shohei Ohtani hits 300th MLB career home run\",\"content\":\"Shohei Ohtani hit his 300th career home run in Major League Baseball on Tuesday, becoming the first Japanese MLB player to achieve the\",\"score\":0.8215175,\"raw_content\":null},{\"url\":\"https://www.nytimes.com/athletic/7427130/2026/07/07/shohei-ohtani-home-run-300\",\"title\":\"With home run No. 300, Shohei Ohtani hits another milestone - The Athletic\",\"content\":\"Ohtani became the first Japanese-born player to reach 300 home runs in MLB. Of his homers, 129 have come with the Dodgers.\",\"score\":0.81347597,\"raw_content\":null},{\"url\":\"https://cryptobriefing.com/shohei-ohtani-hits-300th-mlb-home-run-first-japanese-born-player-to-reach\",\"title\":\"Shohei Ohtani hits 300th MLB home run, first Japanese-born player to ...\",\"content\":\"Shohei Ohtani hits his 300th MLB home run, becoming the first Japanese-born player to do so. Ohtani for 2026 NL MVP at 86.5% YES.\",\"score\":0.77893573,\"raw_content\":null},{\"url\":\"https://www.threads.com/@mlb/post/Dag9JU_AMqQ/shohei-ohtani-is-the-first-japanese-born-player-to-hit-mlb-home-runs\",\"title\":\"Shohei Ohtani is the FIRST Japanese-born player to hit 300 MLB home runs! ...\",\"content\":\"Shohei Ohtani is the first Japanese-born player to join the exclusive 300-homer club (170th overall) and is the 5th fastest player to do so\",\"score\":0.6745014,\"raw_content\":null}],\"response_time\":1.82,\"request_id\":\"eb40d674-4043-4225-8850-515cd543c000\"}"
+    }
+  }
+}
