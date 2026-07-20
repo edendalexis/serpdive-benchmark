@@ -1,0 +1,11 @@
+{
+  "id": 283,
+  "query": "Infosys Cognition Devin partnership details January 2026 engineering capacity",
+  "topic": "Devin AI software engineer",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Provides good rollout specifics (Financial Services practice, banking/payments/capital markets/insurance/wealth management) and quotes from Salil Parekh, but lacks concrete quantitative capacity figures.",
+  "b_issues": "Includes a Cognition blog snippet about Cognizant (a different company) which is irrelevant and could cause confusion if not read carefully, though it is not framed as being about Infosys.",
+  "reasoning": "Both sets accurately capture the core facts: Infosys and Cognition's Jan 7, 2026 strategic collaboration to deploy Devin alongside Infosys Topaz Fabric, aimed at scaling engineering capacity and delivery capability across financial services and other industries. A adds useful specifics on the initial rollout scope (Financial Services sub-verticals) and executive quotes, while B adds useful quantitative context (4,600 active AI projects, 500 AI agents from Q3 earnings call) and a CEO quote from Cognition's Scott Wu. B's inclusion of an unrelated Cognizant-Cognition blog snippet is a minor distraction but not a factual contradiction since it's clearly about a different company. Neither set contradicts itself on the core facts, and both are reasonably reliable (press releases, PR Newswire, Economic Times, AIM, Cognition's own blog). The complementary strengths roughly balance out, making this a tie."
+}

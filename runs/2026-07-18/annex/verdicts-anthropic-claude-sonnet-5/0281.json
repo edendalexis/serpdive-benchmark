@@ -1,0 +1,11 @@
+{
+  "id": 281,
+  "query": "Goldman Sachs Devin software engineer Employee #1 deployment",
+  "topic": "Devin AI software engineer",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Lacks the primary CNBC source, relying instead on secondary summaries; includes a less-authoritative source (wilmott.com) without added factual value; no direct quote confirming Goldman is 'first major bank' to use Devin.",
+  "b_issues": "No major factual issues; content is consistent with the anchor and provides accurate, corroborated details from multiple reputable outlets (CNBC, IBM, Fortune, HCA, HR Katha).",
+  "reasoning": "Both sets converge on the same core facts: Devin is Cognition's autonomous AI software engineer dubbed 'Employee #1' at Goldman Sachs, announced by CIO Marco Argenti via CNBC on July 11, 2025, with plans to scale from hundreds to thousands of instances alongside Goldman's ~12,000 human developers. Content B includes the original CNBC article directly, adding authoritative confirmation (e.g., 'Goldman is the first major bank to use Devin, according to Cognition') and consistent scaling details from HCA and HR Katha. Content A omits the CNBC primary source and substitutes a lower-reliability source (wilmott.com) that adds no unique verified facts. Both are internally consistent, but B offers a more complete and well-sourced basis for answering the question accurately."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 350,
+  "query": "Pope Leo XIV France apostolic visit September 2026 itinerary schedule cities",
+  "topic": "Pope Leo XIV",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A contains an internal contradiction: one source (via.bible) claims the itinerary consists of 'Paris, Lyon and Lourdes,' while another source in the same result set (ombredelatour.fr) correctly states Paris, Lourdes, and Metz. This conflicting information about Lyon vs. Metz could mislead an LLM into giving an incorrect city in the itinerary, especially since it's presented as an analytical piece with specific reasoning for why Lyon was chosen.",
+  "b_issues": "No significant factual issues; all results consistently state Paris, Lourdes, and Metz with dates September 25-28, matching the anchor. One result adds a UNESCO headquarters stop, which is plausible additional detail not contradicting the core itinerary.",
+  "reasoning": "Both sets agree on the core dates (Sept 25-28, 2026) and most cities (Paris, Lourdes, Metz), matching the anchor. However, Content A includes a source claiming Lyon is part of the itinerary instead of Metz, directly contradicting other sources within the same result set and the anchor. This internal inconsistency could cause an LLM to state incorrect information. Content B has no such contradiction—all snippets align consistently with the anchor's Paris-Lourdes-Metz itinerary, making it more reliable for accurately answering the question."
+}

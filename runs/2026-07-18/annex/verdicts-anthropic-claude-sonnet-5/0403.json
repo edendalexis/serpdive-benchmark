@@ -1,0 +1,11 @@
+{
+  "id": 403,
+  "query": "EU AI Act nudifier prohibition sexually explicit intimate content without consent CSAM effective date AI Omnibus 2026 official source",
+  "topic": "EU AI Act",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "The complexdiscovery.com snippet in A explicitly says the Dec 2, 2026 date for the nudifier ban is uncertain and 'should be verified against the final legal text,' introducing ambiguity. The europarl official press release snippet doesn't spell out the specific definition of the nudifier/CSAM prohibition (only mentions watermarking delay), so the exact scope of the ban (non-consensual, sexually explicit, real individuals, CSAM) is less directly stated.",
+  "b_issues": "Relies on the same set of sources as A, including the fintechlaw.ai blog which is not an official EU source; the featured snippet is a secondary aggregation rather than a primary official citation, though it aligns with the other results.",
+  "reasoning": "Both sets draw from largely the same underlying articles (fintechlaw.ai, ieu-monitoring, complexdiscovery, pubaffairsbruxelles, europarl), but Content B's snippets give more explicit, unhedged confirmation of both the substantive scope (non-consensual sexually explicit/intimate content and CSAM prohibition, as stated plainly by ieu-monitoring and pubaffairsbruxelles in B) and the effective date (Dec 2, 2026, reinforced by the featured snippet). Content A includes a notable hedge in the complexdiscovery snippet casting doubt on the Dec 2, 2026 date, which could lead a model to be less confident or inaccurate in its answer. Therefore B better supports a correct, confident answer."
+}

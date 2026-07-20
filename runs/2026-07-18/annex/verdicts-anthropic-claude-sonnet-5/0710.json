@@ -1,0 +1,11 @@
+{
+  "id": 710,
+  "query": "Emmanuel Macron Damascus hotel explosions visit Ahmed al-Sharaa first European head of state since Assad fall Reuters August 2026",
+  "topic": "Emmanuel Macron",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "No Reuters source included despite the query specifically referencing a Reuters report; otherwise facts (casualties, Four Seasons hotel, first EU/European head of state since Assad's fall) are accurate and consistent with the anchor.",
+  "b_issues": "Contains the same 'August 2026' vs actual July 2026 date issue as A (inherited from the query), but the article dates within results correctly say July 2026, so this is a minor inconsistency rather than a factual error introduced by the content itself.",
+  "reasoning": "Both sets present consistent, accurate details about the Damascus explosions during Macron's visit, matching the anchor's facts (18 wounded initially, later 1 dead/36 wounded, Four Seasons hotel, meeting with al-Sharaa, first European/EU head of state visit since Assad's ouster). However, the question explicitly asks about a Reuters report, and only Content B includes an actual Reuters article and Reuters video source with matching content ('first visit to Syria by a European Union head of state since Bashar al-Assad was toppled'), directly fulfilling the query's request. Content A lacks any Reuters source, relying on Le Monde, France24, and Al Jazeera instead. Since the query specifically references Reuters coverage, Content B better enables a correct, source-matching answer."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 544,
+  "query": "ECB supervisory publications scrapped simplification push number of publications dropped 2025 banks clearer expectations",
+  "topic": "European Central Bank",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "No major factual errors; some redundancy (Yahoo and Bloomberg both cover same info), but all facts consistent (130 reviewed, ~40 discontinued, 30% drop) and sourced from reputable outlets.",
+  "b_issues": "No major factual errors; similar facts (130 reviewed, ~40 discontinued) with slightly different additional detail (management buffer, dividend ban) but no contradictions, sourced from reputable outlets.",
+  "reasoning": "Both content sets contain the same core, accurate facts needed to answer the question: ECB reviewed about 130 supervisory publications, discontinued roughly 40 (≈30%), and aimed to give banks clearer expectations, all dated June 26, 2026 matching the anchor. Neither set contains internal contradictions, and both draw from credible sources (ECB press release, Central Banking, Bloomberg, plus one extra reputable outlet each). Consequently, an LLM could answer the question equally well from either set."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 784,
+  "query": "Netanyahu Twelve-Day War Iran airstrikes June 2026 casualties damage assessment",
+  "topic": "Benjamin Netanyahu",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "A's Wikipedia entry gives correct Israeli-side casualty figures (28 deaths, home destruction) for the 2025 Twelve-Day War, but the set lacks any Iranian-side casualty data for that war (no HRANA-type figures). Instead it substitutes the Al Jazeera 'US-Israel attacks on Iran' tracker (2026 war, started Feb 28, 2026, 3,468 killed) and an ISW report about a separate Hezbollah/Lebanon flare-up in June 2026 — both belong to a different conflict, risking the model conflating the 2026 US-Israel-Iran war's casualty numbers with the 2025 Twelve-Day War, producing an inaccurate answer.",
+  "b_issues": "B's Wikipedia Twelve-Day War entry is just a navbox/see-also list with no actual casualty content, adding little value. It also includes the same 2026 Al Jazeera tracker (different war, 3,468 killed) and a Britannica piece that oddly asks 'why did the US strike Iran in 2026,' which similarly risks conflating the two conflicts.",
+  "reasoning": "Both sets include the same confusingly-labeled 2026 Al Jazeera tracker, which pertains to a different (later) US-Israel-Iran conflict, not the 2025 Twelve-Day War the anchor describes. However, B additionally contains the HRANA report (matching the anchor's Iranian casualty figures of 1,190 killed/4,475 injured) and a Times of Israel snippet confirming 28 Israeli deaths — both directly matching the anchor's figures for the actual Twelve-Day War. A lacks any Iranian-side casualty source and instead pulls in an unrelated 2026 ISW Lebanon report, increasing the risk of the model citing wrong-war figures. Thus B provides more accurate, anchor-consistent data for answering the casualties/damage question, despite both sets sharing some risk of date confusion."
+}

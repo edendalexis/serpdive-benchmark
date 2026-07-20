@@ -1,0 +1,11 @@
+{
+  "id": 956,
+  "query": "TikTok Shop total investment amount safety tools technologies personnel counterfeit fraud combating 2025 IPR reports issuance date",
+  "topic": "TikTok Shop",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Provides only one source, but it directly contains the key figure (~$1 billion investment in tools, technologies, and people) matching the anchor's reported figure, along with specific IPR enforcement statistics and report timing (third Safety Report, covering H2 2024, released May 2025). No apparent contradictions.",
+  "b_issues": "Only provides snippets/URLs without substantive content pulled through; none of the result snippets actually state the total investment amount figure. The snippets mention dates, report titles, and some stats (e.g., 124,000 products removed, 2.2 million shops closed) but omit the core $1 billion/$500 million investment figure needed to answer the question. An LLM relying solely on this content would lack the key fact.",
+  "reasoning": "Content A directly supplies the critical fact needed to answer the question: TikTok Shop invested nearly $1 billion in tools, technologies, and personnel, tied to the third Safety Report covering H2 2024, consistent with the anchor. Content B lists several relevant-looking URLs but the actual snippets do not surface the investment amount, making it insufficient on its own for an LLM to confidently answer the question."
+}

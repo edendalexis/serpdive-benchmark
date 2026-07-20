@@ -1,0 +1,11 @@
+{
+  "id": 95,
+  "query": "Humane AI Pin user data deletion deadline February 2025 photo export transfer instructions official",
+  "topic": "Humane AI Pin",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "No major factual errors; all sources consistently state the Feb 28, 2025 12pm PST deadline. Does not include explicit 'official instructions' beyond general mentions of syncing/downloading data, but is internally consistent.",
+  "b_issues": "Contains an internal contradiction: the-decoder.com result states the shutdown time as '9 p.m.' on Feb 28, while other results in the same set (CNET, biometricupdate) state 12pm PST — a factual inconsistency that could mislead an LLM about the exact deadline time.",
+  "reasoning": "Both sets provide similar core facts (Feb 28, 2025 shutdown, data deletion, advice to sync/download photos and data before deadline) from comparable outlets. However, Content B includes a conflicting deadline time (9 p.m. vs 12 p.m. PST) from the-decoder.com, creating an internal contradiction not present in Content A. Content A's five results are mutually consistent on the key deadline and data-loss facts, making it slightly more reliable for a correct answer."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 339,
+  "query": "Longlegs universe new movie Paramount Pictures distribution budget exceeded Neon",
+  "topic": "Longlegs",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A contains no information about the new Longlegs universe movie, Paramount Pictures acquiring rights, or Neon stepping aside due to budget/scope reasons. It only covers the original 2024 Longlegs film's release, cast, and box office performance, which does not answer the question about the sequel/new project.",
+  "b_issues": "No significant factual flaws; content is consistent with the anchor and across sources, confirming Paramount acquired rights, Neon stepped aside due to budget/scope exceeding normal parameters, and details on cast/crew returning.",
+  "reasoning": "Content B directly and accurately addresses the question with multiple corroborating sources (Hollywood Reporter, ResetEra, Daily Dead, Flickering Myth) confirming that Paramount Pictures acquired distribution rights to a new Longlegs universe film after Neon stepped aside due to the project's budget and scope exceeding Neon's normal parameters. This matches the anchor's key facts. Content A, by contrast, only discusses the original 2024 film's release and box office success under Neon, with no mention of the new movie, Paramount, or the budget/Neon stepping-aside narrative, making it insufficient to answer the question."
+}

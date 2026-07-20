@@ -1,0 +1,11 @@
+{
+  "id": 463,
+  "query": "Palworld version 1.0 Lily Tower new map location waypoint modifications",
+  "topic": "Palworld",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "None of the results in Content A mention Lily's specific tower location, coordinates, or any waypoint/map marker changes for the Lily boss fight. The entries are generic overviews of the 1.0 update (new areas, patch notes, level maps) without any reference to Lily Tower or its map placement.",
+  "b_issues": "Content B also lacks a direct statement of Lily's tower coordinates, but the Fandom wiki snippet does mention tower-boss-related map changes ('Removed the Great Eagle Statue from the top of the tower bosses, improving map visibility') and new Watchtowers, which are at least tangentially related to 'waypoint modifications' for towers. Still, no explicit Lily location or waypoint data is given.",
+  "reasoning": "Neither result set contains the specific fact needed (Free Pal Alliance Tower in Frostbound Mountains near (182,29) as given in the anchor). However, Content B includes a slightly more relevant detail about tower-related map/visibility changes and new watchtowers, which is marginally closer to the concept of 'waypoint modifications' than Content A's purely generic patch-note summaries. Thus B provides a marginally better, though still insufficient, basis for answering the question."
+}

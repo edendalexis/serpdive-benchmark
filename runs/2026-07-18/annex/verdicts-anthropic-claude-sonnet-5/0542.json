@@ -1,0 +1,11 @@
+{
+  "id": 542,
+  "query": "ECB euro area current account surplus percent GDP 2025 Economic Bulletin",
+  "topic": "European Central Bank",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Includes irrelevant Banca d'Italia bulletin snippet (Issue 1/2026, unrelated topic) and also cites the monthly BoP figure of 1.6% for 2025, which differs slightly from the Economic Bulletin's 1.7% figure (a minor internal inconsistency inherent to ECB's own data revisions, not a content error).",
+  "b_issues": "Includes a third-party news site (eutoday.net) as a source, which is less authoritative than ECB's own publications, and also includes the monthly BoP figure of 1.6%, creating the same minor 1.6% vs 1.7% discrepancy as in A. Also includes tangential monthly/12-month data (e.g., August 2025, March 2025) not directly relevant to the full-year 2025 Economic Bulletin figure.",
+  "reasoning": "Both Content A and Content B contain the critical, correct answer directly from the ECB Economic Bulletin focus box: the euro area current account surplus declined to 1.7% of GDP in 2025 from 2.7% in 2024, matching the anchor exactly. Both also include the same secondary monthly BoP release showing 1.6%, which is a real ECB-published figure (not an error introduced by either search API) reflecting different data vintages/revisions. Content A additionally confirms the Economic Bulletin Issue 4/2026 sourcing via the official PDF, while Content B provides confirmation via a third-party article and additional monthly context. Neither set contradicts the anchor's key fact, and both provide sufficient information for an LLM to answer accurately that the 2025 current account surplus was 1.7% of GDP per the ECB Economic Bulletin. Overall quality and reliability are comparable."
+}

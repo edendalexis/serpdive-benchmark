@@ -1,0 +1,11 @@
+{
+  "id": 575,
+  "query": "Mexico Sinaloa Governor Ruben Rocha US DOJ indictment drug trafficking April 2026 charges",
+  "topic": "Claudia Sheinbaum",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Includes an Instagram post claiming the indictment occurred on 'June 3rd, 2026,' which contradicts the correct April 29, 2026 date given by all other sources (including the anchor and A's own Guardian result) — an internal contradiction. Also includes a low-reliability Facebook post as a source, diluting quality.",
+  "b_issues": "No significant factual issues found; sources are reliable (Guardian, CNN, AP, The Hindu) and consistent with the anchor's details (indictment date, charges, Rocha's denial, extradition/immunity context).",
+  "reasoning": "Both sets correctly identify the core facts: Rocha and nine others charged April 29, 2026 by DOJ/SDNY for cartel-related drug trafficking and weapons charges. However, Content A contains an internal contradiction via the Instagram result citing a different date (June 2026), which could mislead an LLM, and includes a lower-quality Facebook source. Content B pulls from uniformly reputable outlets (CNN, AP, Guardian, The Hindu), provides consistent dates and additional accurate detail (five-count indictment, Chapitos link, Rocha's resignation, immunity waiver, extradition context) without contradiction, making it a more reliable and complete basis for answering the question."
+}

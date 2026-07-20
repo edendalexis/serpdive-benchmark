@@ -1,0 +1,11 @@
+{
+  "id": 654,
+  "query": "Israel UNRWA legislative ban effective date Knesset bill implementation 2025",
+  "topic": "United Nations Relief and Works Agency for Palestine Refugees in the Near East",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Does not explicitly state the January 2025 effective date, but gives the key mechanism (law takes effect three months after October 28, 2024 passage), which correctly implies the ~late January 2025 effective date matching the anchor.",
+  "b_issues": "Contains confusing/contradictory dates: one source claims a vote on '29 December 2025' passing new anti-UNRWA legislation, which appears to be an error or reference to a different, later law, and is not reconciled with the Oct 2024/Jan 2025 timeline given elsewhere. This could mislead an LLM into citing an incorrect or confusing effective date. The core Jan 2025 effective date is only loosely referenced via titles/snippets without the clear three-month implementation rule.",
+  "reasoning": "Content A clearly establishes the causal chain: Knesset passed two UNRWA bills on October 28, 2024, with the law taking effect three months later (aligning with the anchor's January 30, 2025 effective date), giving an LLM the information needed to derive the correct answer. Content B contains the same October 2024 passage date and a January 2025 'taking effect' reference, but also introduces a confusing and likely erroneous 'December 29, 2025' vote reference without context, which risks producing an incorrect or muddled answer about the ban's timeline."
+}

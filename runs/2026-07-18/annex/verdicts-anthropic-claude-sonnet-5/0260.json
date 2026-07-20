@@ -1,0 +1,11 @@
+{
+  "id": 260,
+  "query": "2026 NBA Finals champion series result opponent games won game-by-game scores official recap",
+  "topic": "NBA Finals",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A confirms champion (Knicks), opponent (Spurs), and overall series result (4-1) via NBA.com and Wikipedia snippets, and mentions Game 1 (105-95) and Game 5 (94-90) scores embedded in prose, but it never provides a complete game-by-game score breakdown for Games 2, 3, and 4. Its Basketball-Reference entry only lists the MVP and playoff leaders, not the scores.",
+  "b_issues": "The Basketball-Reference snippet in B is garbled/incomplete (shows Knicks 105 and Spurs 115 out of context, not clearly tied to a specific game), but this is compensated by other sources.",
+  "reasoning": "Both sets agree on the core facts: Knicks defeated Spurs 4-1 to win the 2026 NBA Finals, with Jalen Brunson as Finals MVP. However, the question specifically asks for game-by-game scores. Content B's ESPN excerpt explicitly lists all five games' final scores (105-95, 105-104, 115-111, 107-106, 94-90), matching the anchor's data precisely and giving a complete, accurate recap. Content A only supplies two of the five game scores (Game 1 and Game 5) scattered within Wikipedia prose, leaving Games 2-4 scores absent from its results. Since the query explicitly requires game-by-game scores, B provides a materially more complete and accurate answer, while A's sources are reliable but insufficient to fully answer the question."
+}

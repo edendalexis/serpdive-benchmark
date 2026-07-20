@@ -1,0 +1,11 @@
+{
+  "id": 897,
+  "query": "Michael Pruss 2025 interview Alien Romulus next film direct sequel comments",
+  "topic": "Alien: Romulus",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Snippets are mostly short teaser text without full quotes (e.g., screenrant and avpgalaxy content is cut off), though all are on-topic and consistent with the core fact (may not be a direct sequel, early development stage).",
+  "b_issues": "The avpgalaxy result's content snippet is irrelevant (discusses The Wolfman/Alien: Earth rather than Pruss's comments), which could mislead if relied upon alone; also includes extra tangential info about Alvarez later departing as director (accurate but not part of the original 2025 Pruss interview question).",
+  "reasoning": "Both sets contain the essential correct facts: producer Michael Pruss, in an interview around the Saturn Awards (Feb 2025), said the next Alien film may not be a direct sequel to Romulus but will remain part of the franchise, and that development is in early stages. Content A supplies this via consistent but partially truncated snippets from reliable sources (ScreenRant, AvPGalaxy, Reddit, Facebook). Content B supplies fuller direct quotes from Budapest Reporter, CinemaBlend, and ScreenRant that clearly convey the same facts, but its AvPGalaxy snippet is irrelevant noise, and it adds extra (accurate but tangential) information about Alvarez's later departure. Neither set contains factual errors regarding the core question, and both would let an LLM answer correctly, so the two are essentially equivalent in overall utility."
+}

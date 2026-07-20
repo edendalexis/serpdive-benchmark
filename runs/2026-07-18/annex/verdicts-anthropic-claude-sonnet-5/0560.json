@@ -1,0 +1,11 @@
+{
+  "id": 560,
+  "query": "Hades II latest patch hotfix notes Medea Suffering on Sight Hermes Tall Order Artemis Crossroads Cauldron site:supergiantgames.com OR site:store.steampowered.com",
+  "topic": "Hades II",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "The snippets don't mention 'Tall Order (Hermes)' explicitly, and the fextralife wiki isn't an official Supergiant/Steam source, but it does accurately reproduce many exact patch-note lines (Suffering on Sight (Medea), Quick Buck (Hermes), Crossroads Renewal, Bounties of the Infinite Abyss (Cauldron), Sister Blades (Artemis)) that closely match the query terms.",
+  "b_issues": "Results are dominated by unrelated official Supergiant blog posts about the original Hades game (Big Bad Update, High Speed Update), not Hades II, and the Steam news snippets shown are for Patch 1 and generic hub listings that never mention Medea's Suffering on Sight, Artemis, Tall Order, or the Cauldron—key terms in the question.",
+  "reasoning": "Content A's fextralife excerpt directly quotes patch-note lines containing 'Suffering on Sight (Medea)', 'Quick Buck (Hermes)', 'Sister Blades (Artemis)', and 'Bounties of the Infinite Abyss (Cauldron)', giving an LLM concrete, accurate material to answer the question, even though 'Tall Order' isn't found. Content B's results are mostly irrelevant (original Hades patches, foreign-language hub pages) and never surface the specific terms asked about, making it far less useful for answering the question."
+}

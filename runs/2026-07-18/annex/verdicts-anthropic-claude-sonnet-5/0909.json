@@ -1,0 +1,11 @@
+{
+  "id": 909,
+  "query": "Oppenheimer Holdings Q1 2026 financial results earnings report",
+  "topic": "Oppenheimer",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A is generally consistent with the anchor (net loss $20.6M, EPS -1.93, revenue $445.1M, adjusted net income $47.5M, adjusted basic EPS $4.46, adjusted diluted EPS $4.21) and does not contain contradictory data. Minor point: the difference between adjusted basic EPS ($4.46) and adjusted diluted EPS ($4.21) is not explicitly explained, but both figures are plausible non-contradictory metrics.",
+  "b_issues": "Content B includes a GAAP reconciliation snippet stating Q1 2025 basic EPS of $2.72, which contradicts the anchor's stated $2.93 basic EPS for Q1 2025, introducing a factual inconsistency. It also includes an irrelevant SEC filing for Q1 2024 (opy-20240331.htm) that could confuse the model with unrelated period data.",
+  "reasoning": "Both sets contain the core Q1 2026 figures (revenue $445.1M, net loss $20.6M, EPS -1.93) matching the anchor. However, Content B introduces a contradictory Q1 2025 EPS figure ($2.72 vs. anchor's $2.93) and includes an irrelevant 2024 10-Q filing, which could mislead an LLM. Content A's figures align more cleanly with the anchor and each other, making it the more reliable source for accurately answering the question."
+}

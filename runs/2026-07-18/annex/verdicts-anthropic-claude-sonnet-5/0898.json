@@ -1,0 +1,11 @@
+{
+  "id": 898,
+  "query": "Alien Romulus sequel pre-production underway Fede Alvarez June 2025",
+  "topic": "Alien: Romulus",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Contains an internal contradiction: the Fangoria article states pre-production was already underway in June 2025 with filming set for October, but the avpgalaxy 'Alien: Romulus 2' overview result states Alvarez 'mentioned in June 2025... think the film will be in pre-production by October 2025' – implying pre-production hadn't started yet. This conflicting timeline could confuse an answer about the exact June 2025 status. The Variety piece, while accurate, is from a later date (Alvarez stepping down as director) and isn't directly about the June 2025 pre-production announcement.",
+  "b_issues": "No significant factual issues; all sources consistently confirm pre-production was underway in June 2025 with filming set to begin in October, directly matching the question and the anchor.",
+  "reasoning": "Both sets contain the core accurate fact (pre-production underway, filming to start in October, per Fede Alvarez on the Marea Nocturna podcast). However, Content A includes a contradictory statement suggesting pre-production wouldn't begin until October, undermining the clarity and consistency needed to correctly answer the question about the June 2025 status. Content B's five sources are uniform and directly reinforce the same accurate timeline without contradiction, making it more reliable for answering the specific question."
+}

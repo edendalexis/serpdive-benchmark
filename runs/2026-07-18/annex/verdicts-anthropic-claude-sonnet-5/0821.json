@@ -1,0 +1,11 @@
+{
+  "id": 821,
+  "query": "Mid-Chesapeake Bay Environmental Restoration Project Maryland Port Administration federal funding amount",
+  "topic": "Port of Baltimore",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "None of the results directly state the specific federal funding amount for the Mid-Chesapeake Bay Island Ecosystem Restoration project itself. The top results are about unrelated Chesapeake Bay Trust Fund grants ($31.5 million), general funding info, and a Facebook post about different projects. Only the last result (Mid-Bay Project page) is directly relevant but its snippet doesn't contain the funding figure. The $37.5 million figure (from the anchor) is not present anywhere in Content A.",
+  "b_issues": "None of the results mention the Mid-Chesapeake Bay Island Ecosystem Restoration project's federal funding amount at all. Results are about MPA's general operating/capital budget, unrelated water infrastructure grants, Chesapeake Bay Program funding levels, and unrelated ecological restoration grants. The $37.5 million figure from the anchor is completely absent, and no result addresses the specific project in question.",
+  "reasoning": "Both content sets fail to surface the key fact from the anchor ($37.5 million in USACE FY22 Supplemental Workplan funding for the Mid-Chesapeake Bay Island Ecosystem Restoration project). Content A at least has one directly relevant URL (the Mid-Bay Project page from Maryland Port Administration) though its snippet lacks the dollar figure, while Content B's results are entirely about unrelated budget items, other grants, and general Chesapeake Bay Program funding with no connection to the specific project. Neither would allow an LLM to correctly answer the question with the specific $37.5 million figure, making this a tie in terms of enabling a correct answer — both are inadequate, though A is marginally more topically relevant without providing the actual answer."
+}

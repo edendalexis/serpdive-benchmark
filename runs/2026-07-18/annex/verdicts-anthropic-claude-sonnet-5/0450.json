@@ -1,0 +1,11 @@
+{
+  "id": 450,
+  "query": "Nobel Prize 2024 laureates award money amount SEK per category",
+  "topic": "Nobel Prize 2024",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "All sources state the flat 11 million SEK figure but don't break it out by each specific category (Physics, Chemistry, Medicine, Literature, Peace, Economics), though this is accurate since the amount is uniform across categories in 2024. No major factual errors.",
+  "b_issues": "Similar to A, gives the 11 million SEK figure via observer.com but the nobelprize.org snippet is framed as the '2025' amount, which could cause slight confusion about whether it applies to 2024, even though the actual amount is the same. The Wikipedia and all-nobel-prizes list entries are mostly noise (navigation text, citations) without any direct prize-money figures for 2024.",
+  "reasoning": "Both content sets converge on the same core fact (11 million SEK per full Nobel Prize in 2024, uniform across the six categories) and neither is factually wrong. Content A has an explicit 'As of 2024' statement (via worldpopulationreview) directly tying the 11 million SEK figure to 2024, plus a corroborating factbox source also stating 2024/$1.1M SEK explicitly. Content B's clearest 2024-specific confirmation comes only from the Observer article, while the Nobel Prize official page snippet in B references the 2025 amount rather than 2024, and the Wikipedia/all-prizes-list entries contribute little useful monetary detail. Thus Content A slightly more directly and redundantly confirms the 2024 SEK amount, making it marginally more reliable for answering the question."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 860,
+  "query": "Novo Nordisk Q1 2026 earnings Wegovy oral launch US sales debut quarter injectable Wegovy sales constant currency SEC press release",
+  "topic": "Ozempic and Wegovy",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "CNBC snippet labels the 65% operating profit growth as \"on a reported basis,\" which appears to actually be the CER growth figure (per the investor presentation/biopharmaboardroom data showing 65% growth at CER) — a minor mislabeling, but it does not create an internal contradiction within Content A itself.",
+  "b_issues": "Content B never surfaces the specific injectable Wegovy sales figure (18.2bn DKK, +12% YoY) that the query explicitly asks for, and it omits any direct SEC EDGAR/filing source, despite the query asking for the 'SEC press release.' It also presents net-sales growth figures (32% CER vs. QZ's '24% increase') and operating-profit growth figures (65% CER vs. QZ's '54%') without clearly distinguishing CER from as-reported currency, which could easily be read as contradictory by a model unless it infers the CER/as-reported distinction itself.",
+  "reasoning": "Content A directly includes text from the SEC EDGAR filing (matching the anchor) and explicitly states the injectable Wegovy sales figure and its constant-currency growth (18.2bn DKK, +12% YoY) alongside the oral Wegovy debut-quarter sales (2.26bn DKK, 1.3M prescriptions) and overall CER sales growth (32%), giving a complete, well-sourced answer to every element of the query. Content B covers the oral Wegovy launch and guidance well but never states an injectable Wegovy sales number, and lacks any SEC-sourced content, while also introducing growth percentages (24%, 54%) that could be confused with the CER figures unless carefully parsed. This makes Content A more complete and accurate for the specific question asked."
+}

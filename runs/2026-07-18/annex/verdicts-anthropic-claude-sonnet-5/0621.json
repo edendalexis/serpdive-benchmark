@@ -1,0 +1,11 @@
+{
+  "id": 621,
+  "query": "Novak Djokovic General Atlantic role title 2026",
+  "topic": "Novak Djokovic",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "None significant; all sources consistently confirm the title 'Global Strategic Advisor' with accurate supporting details.",
+  "b_issues": "None significant; all sources consistently confirm the title 'Global Strategic Advisor' with accurate supporting details.",
+  "reasoning": "Both content sets clearly and consistently state that Novak Djokovic's role at General Atlantic is 'Global Strategic Advisor,' announced June 26, 2026. Both include the official General Atlantic press release as a primary source, plus corroborating secondary sources (Yahoo Sports, and others) with no contradictions. Neither set contains factual errors relevant to the question. The additional details in each (e.g., Bill Ford quotes in B, Instagram/WSJ mentions in A) are supplementary and don't change the core answer. Both equally enable a correct answer to the query."
+}

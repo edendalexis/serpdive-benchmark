@@ -1,0 +1,11 @@
+{
+  "id": 776,
+  "query": "Gaza ceasefire second phase implementation timeline international security force disarmament status",
+  "topic": "Gaza ceasefire negotiations",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A doesn't explicitly address the deployment status of the international security force (e.g., Kosovo/Morocco troops mentioned in the anchor's related article), but its sources are consistent and directly relevant, correctly describing the stalled disarmament process and citing the same 15 May 2026 BoP biannual report referenced in the anchor.",
+  "b_issues": "The politicstoday.org result introduces a confusing reference to a 'three-phase Gaza ceasefire plan on January 19, 2025,' which conflates an earlier 2025 ceasefire with the October 2025 plan being asked about, risking misleading timeline confusion. The Wikipedia timeline result is mostly casualty statistics rather than substantive information on the security force or disarmament status.",
+  "reasoning": "Both sets touch on the stalled second-phase implementation and Hamas disarmament impasse, and both are broadly consistent with the anchor's facts about the Board of Peace and the 17 Nov 2025–14 May 2026 reporting period. However, Content A's sources (Security Council Report, J Street, Wikipedia, Al Jazeera) are cleaner, mutually consistent, and one directly matches the anchor's referenced official report, giving a clear and unambiguous picture of the stalled disarmament and lack of security force deployment. Content B's IDSA piece is detailed and useful, but the inclusion of the politicstoday result referencing a different 2025 ceasefire date creates a risk of factual confusion for an LLM trying to build an accurate timeline, and other B results (YouTube transcript, casualty-focused Wikipedia timeline) add less substantive value on the specific disarmament/security force status question."
+}

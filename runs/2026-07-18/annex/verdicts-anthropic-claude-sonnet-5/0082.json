@@ -1,0 +1,11 @@
+{
+  "id": 82,
+  "query": "Blue Origin New Shepard pause flights redirect resources human lunar lander Artemis 2026",
+  "topic": "Blue Origin",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None major; content is consistent and directly supports the pause announcement, redirection to lunar programs, and Artemis III context (Sean Duffy quote). Minor: featured snippet has odd date stamp 'Feb 10, 2026' but doesn't contradict facts.",
+  "b_issues": "The blueorigin.com excerpt is contaminated with unrelated/confusing content about a May 28, 2026 New Glenn hotfire anomaly and future launch dates, which is irrelevant to the New Shepard pause and could mislead or confuse the model about timeline/consistency. Also includes low-quality/noisy sources (Facebook posts with raw SVG/image code) that add no reliable value and reduce overall source quality.",
+  "reasoning": "Both sets confirm the core facts: Jan 30, 2026 announcement, pause of New Shepard for at least two years, redirection of resources to lunar human landing capabilities tied to Artemis. Content A presents this cleanly across reputable sources (Blue Origin, SpaceNews, CNBC, Space.com, Astronomy.com, Payload Space, NPR, CNN/LinkedIn) with consistent, non-contradictory details and even useful context (Dave Limp quote, Sean Duffy's Artemis III contingency plan). Content B has similar core facts but is undermined by a garbled blueorigin.com excerpt that introduces unrelated and confusing information about a separate New Glenn anomaly event, plus lower-quality Facebook sources cluttered with irrelevant CSS/SVG code, which could degrade an LLM's ability to produce a clean, accurate answer."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 188,
+  "query": "IOC International Biathlon Union Ski Snowboard Federation neutral flag Russian athletes 2026 Winter Games qualification",
+  "topic": "International Olympic Committee",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Does not explicitly mention IBU (Biathlon) decisions, though covers IOC/FIS/AIN framework accurately and consistently; minor omission of specific federation-by-federation qualification nuances.",
+  "b_issues": "Contains an internal contradiction: The Inertia article states Russian/Belarusian athletes were barred from 2026 qualifying events, while Moscow Times and CBS articles state athletes were cleared/allowed as neutrals — without clear dating, this creates confusion about the actual outcome. Sources are also weaker (Facebook post, truncated CBS AMP snippet) compared to A's official IOC page.",
+  "reasoning": "Content A draws on the official IOC news page, NBC Olympics explainer, and Wikipedia, giving a clear, internally consistent picture: AIN eligibility criteria, flag/anthem, and specific quota numbers (20 total, 13 Russian, 7 Belarusian) which align with the anchor's framing. Content B mixes an outdated/contradictory claim (FIS barring athletes) with later claims of clearance, creating an unresolved contradiction that could mislead an LLM about the final qualification status. A's sources are also more authoritative (IOC.com, NBC, Wikipedia) versus B's mix of social media, amp-cut news snippets, and a niche outlet."
+}

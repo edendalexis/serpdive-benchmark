@@ -1,0 +1,11 @@
+{
+  "id": 372,
+  "query": "OpenAI Sora web app experiences official discontinuation date 2026",
+  "topic": "Sora OpenAI",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "The featured snippet correctly gives the official dates, but one secondary result (laozhang blog) introduces confusing/contradictory info about a separate 'Sora 1 vs Sora 2' web deprecation on March 13, 2026 and questions whether the shutdown is 'complete,' which could muddy the clear answer.",
+  "b_issues": "The official help.openai.com content correctly and directly quotes the answer, and several corroborating sources agree, but the Milvus result introduces an inconsistent claim that 'Sora was already discontinued on March 24, 2026' before describing the phased April 26/September 24 shutdown, which is a minor internal contradiction.",
+  "reasoning": "Both content sets include the same core, correct, and authoritative fact (Sora web/app discontinued April 26, 2026; API discontinued September 24, 2026), sourced directly from OpenAI's help center or a featured snippet quoting it. Each also includes one secondary source with some potentially confusing or slightly contradictory tangential information, but neither undermines the primary correct answer, which is clearly and prominently stated in both. Overall, both equally enable a correct answer."
+}

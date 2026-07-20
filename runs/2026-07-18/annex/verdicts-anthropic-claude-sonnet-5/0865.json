@@ -1,0 +1,11 @@
+{
+  "id": 865,
+  "query": "Bernie Sanders Wegovy price inquiry 2026 US monthly list price UK comparison Novo Nordisk Q1 price reductions",
+  "topic": "Ozempic and Wegovy",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Uses future-dated speculative articles (Feb 2026) treating hypothetical 2027 price cuts as real; minor inconsistency in dates (2026 query vs 2027 effective date), but this mirrors the anchor's own framing.",
+  "b_issues": "Provides good Sanders/UK price comparison quotes but lacks any concrete figures on the Q1 2026 Novo Nordisk price reduction (e.g., new $675 list price, percentage cuts, effective date) — the CNBC 2026-01-01 result only vaguely mentions 'lower pricing' without specifics, leaving that part of the question unanswered.",
+  "reasoning": "The query has two parts: (1) Sanders' Wegovy price inquiry with UK comparison, and (2) Novo Nordisk's Q1 price reductions with new US list price. Content A covers both: it has the Sanders quote with the $1,349 US vs $92 UK comparison, plus multiple sources (CNBC, Yahoo Finance, Benefits and Pensions Monitor) detailing the specific 2026 price reduction announcement — new $675 list price, 50% cut for Wegovy, 34% cut for Ozempic/Rybelsus, matching the anchor closely. Content B covers the Sanders/UK comparison well but fails to surface the specific price reduction figures, only vaguely referencing 'lower pricing' in one article. Since the question explicitly asks about the Q1 price reductions with numeric details, Content A is more complete and accurate for answering the full question."
+}

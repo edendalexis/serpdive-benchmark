@@ -1,0 +1,11 @@
+{
+  "id": 736,
+  "query": "Rafah border crossing closed Israel latest date reason humanitarian impact Gaza 2025",
+  "topic": "Israel-Hamas conflict",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "The Wikipedia excerpt in A is garbled and internally inconsistent (jumps to 'early May 2026' EUBAM report without context), making the timeline hard to follow. The Refugees International and Next Century Foundation snippets are tangential (general Gaza humanitarian conditions) rather than specifically tied to the Rafah closure's cause and impact. Neither content set captures the anchor's specific Oct 18-19, 2025 closure (tied to ceasefire-violation accusations/hostage remains), but A's supplementary sources are less directly useful for reconstructing an accurate closure timeline.",
+  "b_issues": "Also misses the anchor's specific Oct 18-19, 2025 closure event tied to ceasefire violation accusations, instead emphasizing a later March 2026 Iran-war closure. The PBS 'reopen on Sunday' article lacks a clear date, requiring inference.",
+  "reasoning": "Both sets share the same core Al Jazeera article describing the Iran-war-related Rafah closure and its stated humanitarian impact, but B additionally provides a cleaner, more coherent Wikipedia timeline (Israeli control from May 2024, withdrawal Jan 2025, reopening Feb 2026, re-closure amid Iran war) plus context from Red Cross (Oct 10, 2025 ceasefire) and PBS (reopening after nearly two-year closure), giving an LLM more consistent and usable chronological facts. A's Wikipedia excerpt is more fragmented and its extra sources (Refugees International, Next Century Foundation) are less specifically tied to the Rafah crossing's closure reason and impact, making B modestly more reliable and coherent for answering the question."
+}

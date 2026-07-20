@@ -1,0 +1,11 @@
+{
+  "id": 689,
+  "query": "Shein marketplace seller education series 2025 product safety quality compliance topics",
+  "topic": "Shein",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A's results are largely repetitive press-release snippets (title, partners, launch date) but never actually enumerate the specific topics/categories covered by the seller education series beyond generic phrases like 'regulatory updates, product safety requirements, testing standards, and industry best practices.' It lacks the detailed breakdown of what the Seller Education Hub covers.",
+  "b_issues": "No major factual flaws; content is consistent with the anchor and other sources. Some extra details (e.g., Temu/Qima comparison, AI monitoring plans) are tangential but not inaccurate.",
+  "reasoning": "Both sets agree on the core facts (launch date, TIC partners Bureau Veritas/Intertek/SGS/TÜV SÜD, first session on children's toys). However, the question specifically asks about the 'topics' covered in the series. Content B uniquely provides a direct answer via the SHEIN Group snippet: the Hub covers 'product safety requirements, prohibited and restricted products, quality standards, intellectual property protection, and operational compliance across onboarding, listing, and day-to-day operations.' Content A never surfaces this level of topic detail, making it less useful for directly answering the question. Both are sourced from reliable outlets (official SHEIN newsroom, PRNewswire, Chain Store Age), and neither contradicts itself, but B's inclusion of the topic breakdown gives it a clear edge in actually answering the question."
+}

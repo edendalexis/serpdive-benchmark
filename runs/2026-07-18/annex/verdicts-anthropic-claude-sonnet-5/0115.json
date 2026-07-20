@@ -1,0 +1,11 @@
+{
+  "id": 115,
+  "query": "Bulgari Place Vendome historic location celebration event July 2026 LVMH",
+  "topic": "LVMH",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Relies on an Instagram post as the source for the July 13, 2026 'Eternally Reborn' heritage exhibition at Bulgari Place Vendôme, which is less authoritative than an official press release, and the claim cannot be cross-verified within the provided content.",
+  "b_issues": "None of the results actually address a Bulgari Place Vendôme event in July 2026. The LVMH Watch Week 2026 results are about Milan (Via Montenapoleone), not Place Vendôme. The Les Journées Particulières 2026 result mentions 'Abbaye Vendôme' in Loir-et-Cher (a Louis Vuitton leather workshop), which is a different 'Vendôme' unrelated to Bulgari's Place Vendôme flagship in Paris, and registrations are said to open in September 2026, not matching a July event.",
+  "reasoning": "The question specifically asks about a Bulgari Place Vendôme celebration event in July 2026. Content A directly surfaces a result naming a specific event ('Eternally Reborn' heritage exhibition) with a specific date (July 13, 2026) at the exact location in question (Bvlgari flagship, Place Vendôme). Content B's results, while related to LVMH and Bulgari more broadly, do not address this specific event/location/date combination — they cover LVMH Watch Week in Milan and Les Journées Particulières involving a differently-named 'Vendôme' location tied to Louis Vuitton, not Bulgari's Place Vendôme. Thus Content A better enables a correct, on-topic answer to the specific query, despite the source being a social media post."
+}

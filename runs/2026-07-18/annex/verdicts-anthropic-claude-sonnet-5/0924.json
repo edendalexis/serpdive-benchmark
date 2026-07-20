@@ -1,0 +1,11 @@
+{
+  "id": 924,
+  "query": "Wicked musical North American tour 2026 new dates official website",
+  "topic": "Wicked",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Includes wickedtour.net, a non-official fan/ticket site, which claims to be the 'official website' - could mislead. Otherwise clean official sources.",
+  "b_issues": "The official tour.wickedthemusical.com URL is buried under a long, messy tracking/query string, which is harder to present as a clean official link. Also includes wickedtour.net with same misleading 'official website' claim, and Ticketmaster which is a third-party ticket vendor, not an official show site.",
+  "reasoning": "Both contain the same core official schedule snippet from tour.wickedthemusical.com and wickedthemusical.com confirming new North American tour dates for 2026 (Minneapolis, Kansas City, Des Moines, etc.), so both can support a correct answer. Content A presents the official domain cleanly (https://tour.wickedthemusical.com/), while Content B's link to the same domain is obscured by a very long tracking parameter string, making it less clean as an 'official website' reference. Neither result set contains contradictory information, but A's presentation of official URLs is slightly more reliable and clear for citing the official source."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 619,
+  "query": "Suno AI copyright lawsuit 61000 songs training allegations status ruling latest update",
+  "topic": "Suno AI",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "None of A's snippets explicitly cite the '61,026 recordings' motion figure or the ruling on it, but the included techtimes and digitalmusicnews pieces are directly on-topic (fingerprinting revealing millions of tracks, dispute over training-data volume, ruling pending) and internally consistent with the anchor's narrative that the case is still active and unresolved. No contradictory or clearly fabricated claims appear.",
+  "b_issues": "Overlaps largely with A's sources but adds patentailab and aivortex results containing questionable/unverified claims (e.g., Warner and UMG settlements, a Nguyen complaint alleging 40 million tracks, an unrelated Alsup 'text training' ruling) that are not corroborated and partly contradict the anchor's depiction of an ongoing, unresolved UMG/Sony vs. Suno dispute over the 61,000-recording motion. These extra claims add noise and potential inaccuracy without directly addressing the specific 61,000-song motion status.",
+  "reasoning": "Neither set contains the precise anchor facts (Suno opposing the amended complaint, the parallel Udio ruling denying expansion), but Content A's results are more tightly relevant to the discovery/fingerprinting and ruling-timeline aspects of the question and avoid introducing unverified settlement claims that could mislead an LLM about the case's status. Content B, while covering similar ground, injects extraneous and potentially inaccurate claims (settlements, unrelated verdicts) that could confuse the answer about whether the Suno case is still contested over the 61,000 recordings."
+}

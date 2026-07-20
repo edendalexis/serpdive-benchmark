@@ -1,0 +1,11 @@
+{
+  "id": 751,
+  "query": "Truth API launch date pricing tiers Trump Media investor data service",
+  "topic": "Truth Social DJT stock",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A returned completely irrelevant dictionary definitions of the word 'truth' with no information about Trump Media's Truth API, launch date, pricing, or investor data service. It fails entirely to answer the query.",
+  "b_issues": "Does not explicitly mention the $60,000/month discounted three-year pricing tier reported by AInvest in the anchor, though pricing details are less central than launch date/service specifics which are covered accurately.",
+  "reasoning": "Content B provides accurate, consistent, and directly relevant information from multiple reliable sources (Yahoo Finance/GlobeNewswire press release, SEC 8-K filing via StockTitan, TradingView, The Hill, Reuters) confirming the Truth API launch date of August 1, 2026, details on institutional access, 24/7 coverage, historical archive since 2022, and the business-to-business nature of the service. This aligns well with the anchor facts. Content A is entirely off-topic, returning generic dictionary definitions of 'truth' with zero relevant information about Trump Media's API, making it useless for answering the question."
+}

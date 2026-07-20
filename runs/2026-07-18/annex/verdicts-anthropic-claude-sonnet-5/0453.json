@@ -1,0 +1,11 @@
+{
+  "id": 453,
+  "query": "2024 Nobel Peace Prize winner official Nobel announcement organization reason awarded nuclear-free world",
+  "topic": "Nobel Prize 2024",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "No significant factual issues; includes official Nobel press release plus corroborating sources (NPR, PBS, Nobel Peace Center) all consistent with the anchor.",
+  "b_issues": "No significant factual issues; includes official Nobel press release, Wikipedia entries, and Nobel Peace Center article, all consistent with the anchor. Featured snippet correctly states the prize motivation.",
+  "reasoning": "Both Content A and Content B contain the exact official Nobel Peace Prize motivation for Nihon Hidankyo—'for its efforts to achieve a world free of nuclear weapons and for demonstrating through witness testimony that nuclear weapons must never be used again'—directly matching the anchor's official press release. Both include the actual nobelprize.org press release URL and content, plus corroborating secondary sources (NPR/PBS for A, Wikipedia/Nobel Peace Center for B) that reinforce the same facts: the organization name (Nihon Hidankyo), the country (Japan), the announcing body (Norwegian Nobel Committee), the date (Oct 11, 2024), and the reasoning tied to nuclear disarmament and witness testimony. Neither set contains contradictions or factual errors. Both are equally sufficient for an LLM to answer the question correctly."
+}

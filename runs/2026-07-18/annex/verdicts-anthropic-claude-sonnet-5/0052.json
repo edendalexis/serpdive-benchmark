@@ -1,0 +1,11 @@
+{
+  "id": 52,
+  "query": "Nintendo Switch 2 EU replaceable battery revised model launch July 2026 right to repair original Switch discontinuation Europe February 2027 official announcement",
+  "topic": "Nintendo Switch 2",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; all facts align with the official Nintendo support page (summer 2026 start, mid-Feb 2027 EU deadline, rolling revisions, original Switch discontinuation) and are corroborated by Nintendo Life, Verge, Polygon, Ghacks. Minor redundancy but no contradictions.",
+  "b_issues": "Includes a March 2026 Hypebeast piece using speculative language ('reportedly gearing up') that predates and slightly contradicts the later confirmed July 2026 announcement, and a Reddit post that is not an official/reliable source and itself notes uncertainty ('highly likely') about original Switch discontinuation rather than confirming it. Less direct quoting of the official Nintendo support page text.",
+  "reasoning": "Both sets contain overlapping, largely accurate information about the EU replaceable-battery Switch 2 revision and the Feb 2027 regulation. However, Content A more directly quotes the official Nintendo support page and pairs it with strong corroborating outlets (Nintendo Life, Verge, Ghacks, TechRadar via B too) giving clear, consistent, and specific dates (summer 2026 rollout, autumn 2026 hardware, Feb 18 2027 deadline, original Switch discontinuation). Content B includes weaker/less certain sources (a speculative March 2026 Hypebeast article and a Reddit post expressing uncertainty), which slightly undermines confidence in the discontinuation claim. Thus Content A provides a more reliable and directly verifiable basis for answering the question."
+}

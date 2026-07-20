@@ -1,0 +1,11 @@
+{
+  "id": 123,
+  "query": "Japan defense strategy revision 2026 Takaichi lethal arms export ban lift",
+  "topic": "Japan Prime Minister",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Covers the lethal-arms-export ban lift comprehensively (date, cabinet approval, historical background from 1967 and 2014/2023 easing) but does not mention the broader 'defense strategy revision' aspect of the query, e.g., the planned revision of Japan's National Security and Defense Strategies later in 2026, leaving that part of the question unanswered.",
+  "b_issues": "Includes one lower-reliability source (ecns.cn, Chinese state media) which states the ban dates to 1976 rather than the more commonly cited 1967 Three Principles, a minor inconsistency; also the CNBC snippet is thin on detail.",
+  "reasoning": "Both sets accurately describe the April 21, 2026 Cabinet decision to scrap Japan's ban on lethal weapons exports, citing similar reliable outlets (AP-derived PBS, CNBC, IISS) and giving background on the 2014/2023 partial easing. However, the query explicitly asks about 'defense strategy revision 2026' alongside the export ban lift. Content B uniquely includes the CSIS analysis noting that Japan will release a new defense industrial strategy along with revised National Security and Defense Strategies in December 2026, directly addressing that part of the query, and also provides the specific list of 17 ETTA countries eligible for lethal exports from IISS, giving more actionable detail. Content A, while solid on the export ban itself, omits this forward-looking strategy revision context, making B more complete for fully answering the combined question."
+}

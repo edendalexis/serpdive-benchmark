@@ -1,0 +1,11 @@
+{
+  "id": 585,
+  "query": "FTX exchange reboot revival plan latest status mid-2026",
+  "topic": "FTX",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "A includes older reboot-related articles (paymentsjournal, Yahoo, The Block) that describe attempts to relaunch FTX.com but never clarifies that this reboot plan was ultimately abandoned. Without that correction, an LLM relying on A could mistakenly conclude the reboot is still in progress or planned for 2026, when in fact it was scrapped in Jan 2024. It does include a March 2026 distribution press release, which is useful for context but does not directly address the reboot's fate.",
+  "b_issues": "B also includes older reboot proposal articles (The Block, Bloomberg Law, Yahoo) without any 2026-specific distribution data, so it lacks the most recent concrete financial details (e.g., the $900M fifth distribution in July 2026) that the anchor highlights. The Bitcoin Foundation article is only tangentially related and adds little value.",
+  "reasoning": "The core fact needed to correctly answer 'FTX exchange reboot revival plan latest status' is that the reboot was abandoned in January 2024 (per the Guardian) and that FTX has since focused solely on repaying creditors through its Chapter 11 plan—consistent with the anchor's distribution-focused reality. Content B explicitly includes this critical Guardian article confirming the reboot was scrapped, which prevents an LLM from erroneously stating the reboot is ongoing. Content A omits this key correction, instead presenting multiple older articles implying an active reboot effort, which could mislead an LLM into an inaccurate answer about the reboot's current status, despite including a somewhat relevant March 2026 distribution update. Overall, B better safeguards factual accuracy on the specific reboot question, even though neither source directly covers mid-2026 news on the reboot topic."
+}

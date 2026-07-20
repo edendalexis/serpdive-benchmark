@@ -1,0 +1,11 @@
+{
+  "id": 151,
+  "query": "Ukraine Russia peace deal current status terms signing timeline 2026",
+  "topic": "Volodymyr Zelenskyy",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Relies partly on secondary/aggregator sources and YouTube video descriptions rather than primary reporting, and does not mention specific terms of a draft agreement (only deadlines and near-completion status). Some details (95% done, June deadline) are attributed to Zelenskyy without independent confirmation.",
+  "b_issues": "Content is thinner and less directly relevant to 'terms/signing/timeline' - includes an ISW campaign assessment (military, not peace-deal specific) and a NATO summit declaration about defense funding pledges rather than peace deal terms. The Legis1 snippet notes formal talks stalled since February 2026 due to Iran operations, which is useful but less detailed on deal terms or timeline than Content A. Overall less coherent narrative on deal status/terms.",
+  "reasoning": "Both sets of results are consistent with the anchor's picture of stalled-but-ongoing negotiations with no final deal as of mid-2026. However, Content A provides more specific, directly relevant details on the negotiation timeline (June 2026 deadline, proposed Miami trilateral talks, Geneva talks in Feb 2026, Bloomberg's April 2026 report on movement toward a deal, and specific sticking points from Ukraine's former FM), giving an LLM more concrete material to construct an answer about status, terms, and timeline. Content B's results are more diffuse, including military campaign assessments and NATO funding declarations that are tangential to the specific question about deal terms and signing timeline, making it harder to construct a focused, accurate answer."
+}

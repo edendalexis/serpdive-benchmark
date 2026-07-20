@@ -1,0 +1,11 @@
+{
+  "id": 705,
+  "query": "Live Nation total treble damages calculation Ticketmaster antitrust April 2026 verdict",
+  "topic": "Ticketmaster DOJ lawsuit",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Provides the $1.72 per-ticket overcharge figure and correctly notes damages will be trebled under the Clayton Act, but gives no concrete dollar figures for the total damages calculation before or after trebling, leaving the question only partially answered.",
+  "b_issues": "No major inaccuracies; figures are consistent with the Business Insider anchor and other sources (e.g., $1.72/ticket, ~$150M estimated single damages, ~$450M trebled), though these are Live Nation's own estimates rather than the jury's official figure, which should be noted as a caveat.",
+  "reasoning": "Both sets confirm the liability verdict and the $1.72 per-ticket overcharge finding. However, Content B goes further by including specific numeric estimates relevant to the treble damages calculation—Live Nation's estimate of an aggregate single damages figure 'below $150 million' (WTOC) and a claim it 'should pay no more than $450 million for damages' (Time), which is consistent with trebling ~$150M. Content A explains the legal mechanism (Clayton Act trebling) and notes the court still needs to determine how many tickets qualify, but never supplies concrete dollar figures, making it less useful for actually answering a query about the total treble damages calculation."
+}

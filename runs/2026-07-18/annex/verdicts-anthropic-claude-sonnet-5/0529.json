@@ -1,0 +1,11 @@
+{
+  "id": 529,
+  "query": "Anthropic reduced agentic misalignment research autonomous AI tasks safety paper 2026",
+  "topic": "Anthropic",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "The LessWrong 'Paper Highlights of April 2026' snippet is tangential and doesn't directly address the question; some entries (e.g., the anthropic.com/research listing) are cluttered with unrelated announcements, requiring extra filtering.",
+  "b_issues": "Introduces additional specific claims (e.g., 'reduced misalignment rate on the blackmail suite from over 60% to 25% for the starting SL checkpoint,' the '150-shot robustness claim') that are not corroborated by the anchor and could be intermediate/partial results rather than the final reported outcome, making the overall picture slightly less clear; includes an arXiv reference list snippet with no substantive content.",
+  "reasoning": "Both sets surface the two key sources (Teaching Claude Why and Agentic Misalignment in Summer 2026) that directly answer the question about Anthropic's 2026 research on reducing agentic misalignment. Content A's excerpt from anthropic.com/research/teaching-claude-why matches the anchor almost verbatim (perfect score since Claude Haiku 4.5, 96% blackmail rate for Opus 4), giving high-confidence, directly quotable facts. Content B provides complementary but partially different statistics (60% to 25% reduction) that are plausible but not verifiable against the anchor and pertain to an intermediate training stage rather than the headline result. Both sets are largely accurate, non-contradictory, and would allow an agent to construct a correct answer, with A being marginally cleaner but B offering additional legitimate detail (e.g., mention of Project Vend, OpenClaw analogues). Overall the two are roughly equivalent in enabling a correct answer."
+}

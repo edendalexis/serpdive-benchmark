@@ -1,0 +1,11 @@
+{
+  "id": 604,
+  "query": "10-year Japanese Government Bond yield exact peak level June 2026 BOJ rate hike",
+  "topic": "Bank of Japan",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Includes a WSJ snippet from Dec 2025 (2.100% yield) that is from an earlier hike cycle, which could be confusing if not carefully dated; the MUFG forecast range (2.580%-2.700%) is a projection, not a confirmed 'exact peak' figure, but it is closely aligned with the actual mid-June level (~2.605% per anchor).",
+  "b_issues": "No result gives a yield figure specifically tied to the June 2026 BOJ hike; closest data points are from May 12, 2026 (2.540%, 29-year high) and vague mentions of yields 'above 2%' or '~2.1%' without clear dates matching the June hike, making it hard to pin down the June 2026 peak.",
+  "reasoning": "The question needs the 10-year JGB yield level around the June 2026 BOJ hike. Content A's MUFG Research snippet explicitly gives a forecast/actual range for the week of the June 15-16 meeting (2.580%-2.700%), which closely matches the anchor's implied real level (~2.605% per MarketScreener) and also provides Trading Economics data showing yields at 2.71% shortly after (July 17), giving useful bracketing context. Content B's yield figures (2.540% on May 12, ~2.1% generic mentions) are either from before the June hike or too vague/undated to confidently identify the June 2026 peak, making it less useful for answering the specific question."
+}

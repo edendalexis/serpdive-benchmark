@@ -1,0 +1,11 @@
+{
+  "id": 879,
+  "query": "Keir Starmer remain MP after resigning prime minister labour leader June 2026 confirmation",
+  "topic": "Keir Starmer",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "None of the results directly confirm whether Starmer will remain an MP after resigning as PM/Labour leader. The results focus on the resignation announcement itself but do not address the specific question of whether he stays on as MP, leaving the core question unanswered.",
+  "b_issues": "None; results directly and consistently confirm via multiple reliable sources (BBC, The Guardian, Al Jazeera) that Starmer will remain MP for Holborn and St Pancras after stepping down as PM, matching the anchor's confirmation.",
+  "reasoning": "Content B directly answers the question with explicit confirmation from BBC and The Guardian that Starmer will stay on as MP for Holborn and St Pancras, aligning with the anchor article. It also provides context (final PMQs, transition to Burnham) that corroborates the timeline. Content A's results describe the resignation announcement and succession process but never explicitly confirm whether Starmer will remain an MP, missing the key fact the question asks about."
+}

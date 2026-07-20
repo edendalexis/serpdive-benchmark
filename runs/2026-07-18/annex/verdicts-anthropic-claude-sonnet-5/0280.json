@@ -1,0 +1,11 @@
+{
+  "id": 280,
+  "query": "Devin AI Cognition FedRAMP High In-Process approval date",
+  "topic": "Devin AI software engineer",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Contains only relative date hints ('4 days ago') without any absolute date; includes irrelevant content (Idlen review) that adds noise without answering the question.",
+  "b_issues": "No explicit date information at all, no relative time markers either; relies on multiple sources describing the FedRAMP status but never states when the In-Process approval occurred.",
+  "reasoning": "Neither content set provides an explicit calendar date for when Devin/Cognition achieved FedRAMP High In-Process status. Content A at least hints at a relative timeframe ('4 days ago') that could be used to approximate a date if the current date were known, but this is unreliable and vague. Content B corroborates the FedRAMP status with additional independent sources (X/Twitter, LinkedIn) but offers no temporal information whatsoever. Both are equally insufficient to pinpoint the actual approval date, making this a tie."
+}

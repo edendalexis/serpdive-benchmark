@@ -1,0 +1,11 @@
+{
+  "id": 338,
+  "query": "Longlegs 2024 movie Neon highest grossing domestic independent film record",
+  "topic": "Longlegs",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Facts are accurate but fragmented across multiple sources at different points in the film's run (58.6M, 51M, 100M+), lacking a single clear final summary of the record. No source gives the final domestic/worldwide totals.",
+  "b_issues": "Facts are accurate; Wikipedia entry provides a clean, authoritative final summary ($128M worldwide, highest-grossing indie of the year, Neon's highest domestic grosser), though it doesn't break out final domestic-only figure explicitly.",
+  "reasoning": "Both sets contain accurate, non-contradictory information confirming Longlegs surpassed Parasite to become Neon's highest-grossing film and the top domestic indie release of 2024. However, Content B's Wikipedia result gives a concise, comprehensive, and clearly stated final answer (worldwide gross, record status) that directly and efficiently answers the question, whereas Content A's information is scattered across multiple snapshots in time (various interim box office totals) without a definitive final figure, requiring more synthesis and risking confusion about which number is the 'final' record."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 849,
+  "query": "Taylor Swift The Life of a Showgirl most-streamed album 2025 major platforms",
+  "topic": "Taylor Swift",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Relies partly on social media sources (Instagram, Reddit) rather than journalistic outlets, though the facts they contain are still accurate and consistent with the anchor.",
+  "b_issues": "No major factual errors; all sources align with the anchor reference. Slight redundancy across sources but no contradictions.",
+  "reasoning": "Both sets convey the same core facts: The Life of a Showgirl broke Spotify's 2025 single-day streaming record, Apple Music's 2025 single-day record, and Amazon Music's all-time single-day (or 24-hour) streaming record. Content B draws from more reliable, professionally edited sources (Spotify, Hollywood Reporter, Music Ally, Deadline, Sortiraparis) that consistently corroborate these claims without relying on social media posts. Content A includes Instagram and Reddit as sources, which, while containing accurate information, are less authoritative and could be seen as weaker evidence for an LLM to cite. Both are accurate and non-contradictory, but B's source quality gives it a slight edge for enabling a well-supported, correct answer."
+}

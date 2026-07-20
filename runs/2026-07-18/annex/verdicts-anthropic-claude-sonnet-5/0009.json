@@ -1,0 +1,11 @@
+{
+  "id": 9,
+  "query": "Delcy Rodriguez interim Venezuela state of emergency duration end date National Assembly decree",
+  "topic": "Venezuela election crisis",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "The uppermichiganssource/AP snippet in A gives the 90-day rule for the acting presidency but omits the specific clause about the National Assembly's power to extend the term for an additional 90 days, leaving the actual question (about National Assembly's role in extending/decreeing duration) unanswered. Other results (Wikipedia infobox, YouTube, Reuters, US News) are about unrelated topics (earthquake emergency decree, ministerial history) and don't address the interim-presidency emergency duration question.",
+  "b_issues": "The state-of-emergency earthquake decree (Reuters/US News snippet) is a different, later state of emergency (June 2026) not directly tied to the original January emergency decree tied to Maduro's capture, which could cause minor topic conflation if not read carefully. Security Council and Wikipedia entries add context but don't state exact end dates for the state of emergency decree itself.",
+  "reasoning": "Content B's uppermichiganssource excerpt directly states the key legal fact needed to answer the question: after the initial 90-day term (set to end around April 3, 2026), 'these interim appointments can be extended by the national assembly for an additional 90 days,' which is the crux of the question about duration and National Assembly's decree power. Content A's version of the same article omits this critical sentence, leaving the extension mechanism unstated. Both include the same earthquake-related state of emergency articles, but B's inclusion of the extension clause makes it substantially more useful and accurate for answering the specific question asked."
+}

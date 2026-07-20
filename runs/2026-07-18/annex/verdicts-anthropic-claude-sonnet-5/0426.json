@@ -1,0 +1,11 @@
+{
+  "id": 426,
+  "query": "Rafah crossing daily crossings numbers latest update March 2026 goods humanitarian aid status",
+  "topic": "Rafah",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Lacks explicit daily crossing count figures (e.g., EUBAM Rafah's 138/day, 3672 cumulative) found in the anchor; the Doctors Without Borders snippet is generic and adds little new information.",
+  "b_issues": "Includes sources with inconsistent or off-topic dates (SIS article dated June 2026 mentioning crossings closed since March 2, 2025; WAFA article from April 6, 2026) that can create timeline confusion relative to the March 2026 focus of the question; the Al Jazeera 'liberties' snippet gives a vague weekly figure (397 travelers) without clear context, which could be mistaken for a daily number.",
+  "reasoning": "Both sets share the core OCHA report (ochaopt.org) describing the March 2026 humanitarian situation and the Rafah crossing's reopening for limited medical evacuations, and both include the Mezan Center data on aid truck declines (400 trucks in March vs. 900/week earlier). However, Content A's additional sources (the UN unispal reproduction of the same OCHA report) reinforce the same, consistent facts about March 2026, keeping the information tightly focused on the target period. Content B introduces extra sources from later months (April, June 2026) that discuss different events and even contradict the reopening timeline, which could mislead an LLM about the crossing's status in March 2026 specifically. Neither set contains the precise EUBAM daily crossing numbers from the anchor, but Content A's information is more internally consistent and directly relevant to the March 2026 timeframe requested."
+}

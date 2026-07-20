@@ -1,0 +1,11 @@
+{
+  "id": 131,
+  "query": "BTS FIFA World Cup Final 2026 halftime show performers",
+  "topic": "BTS",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Core lineup is correct and consistent with the anchor, but two of the five sources (a Facebook post and an Instagram caption) are low-reliability social media reposts rather than journalistic sources, even though their content agrees with the rest.",
+  "b_issues": "No factual inaccuracies; all sources (NPR, NYT/The Athletic, FADER, E!Online, Global Citizen) are reputable and consistent with each other and with the anchor.",
+  "reasoning": "Both content sets correctly identify BTS as co-headlining alongside Madonna, Shakira, Justin Bieber, Burna Boy, Gustavo Dudamel, PS22 Chorus, and Coldplay for the July 19, 2026 Final Halftime Show, matching the anchor's facts with no contradictions. However, Content B draws from more authoritative journalistic sources (NPR, The Athletic/NYT, FADER) and provides additional verified detail (e.g., Ghetto Kids, Muppets characters, Emmanuel Kelly) that corroborates and enriches the answer without any inconsistency. Content A includes the same core facts but relies partly on social media posts (Facebook, Instagram) as sources, which are less reliable for an LLM to cite confidently. Thus B offers a marginally more robust and higher-quality basis for answering correctly."
+}

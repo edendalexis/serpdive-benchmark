@@ -1,0 +1,11 @@
+{
+  "id": 240,
+  "query": "Voyager 1 current operational instruments status 2026",
+  "topic": "Voyager 1",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; content is consistent and well corroborated across multiple sources (Wikipedia, NASA blog, spacedaily), all agreeing that only the Plasma Wave Subsystem and magnetometer remain operational after the April 2026 LECP shutdown.",
+  "b_issues": "Provides good context on the LECP shutdown but never explicitly states the final complete list of currently operating instruments; the closest confirmation is a truncated Facebook post snippet ('two active scientific instruments—one that measures magnetic fields...') which is cut off and less authoritative than NASA/Wikipedia sourcing.",
+  "reasoning": "Both sets cover the April 17, 2026 LECP shutdown accurately. However, Content A explicitly and repeatedly confirms the complete current status (only two instruments operational: Plasma Wave Subsystem and magnetometer) via a featured snippet, Wikipedia, and NASA's own blog, giving a clear, directly answerable fact. Content B's results focus mainly on the LECP shutdown event itself and only hint at the remaining instrument count through a low-reliability, truncated Facebook source, making it harder for an LLM to state the full current instrument status with confidence."
+}

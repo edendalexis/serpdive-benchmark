@@ -1,0 +1,11 @@
+{
+  "id": 385,
+  "query": "Meta jury verdict $375 million penalty lawsuit pending cases",
+  "topic": "Meta",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Includes two low-value/unreliable sources (a YouTube video transcript and a Facebook post) that add little factual substance beyond repeating the $375M figure; the CNBC snippet in A is truncated to a generic teaser and omits key details (verdict basis, related trial, damages sought) found in the anchor's CNBC excerpt.",
+  "b_issues": "The CNBC excerpt states Meta was held liable for 'nearly $400 million' while other sources say $375 million, creating a mild internal inconsistency (though this mirrors the original CNBC article's own wording, not a fabrication).",
+  "reasoning": "Content B draws from more authoritative, verifiable outlets (Reuters, NBC, BBC, Guardian, CNBC) that closely match the anchor's own trusted sources, and it provides richer context on 'pending cases' — the parallel California Meta/YouTube trial, thousands of similar lawsuits nationwide, and other platforms (Snap, TikTok) facing suits. Content A includes the same core facts but pads results with a YouTube video description and a low-substance Facebook post, which are weaker, less reliable sources and add redundant information rather than new pending-case context. Both contain a minor figure discrepancy ($375M vs nearly $400M) inherited from the same CNBC article, so this is not a distinguishing flaw. Overall, B offers a more reliable and comprehensive basis for answering the question about the verdict and related pending litigation."
+}

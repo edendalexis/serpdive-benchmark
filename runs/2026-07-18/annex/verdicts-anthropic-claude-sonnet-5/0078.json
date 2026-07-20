@@ -1,0 +1,11 @@
+{
+  "id": 78,
+  "query": "99th Academy Awards international feature eligibility new qualifying festival awards AMPAS rule change 2026",
+  "topic": "Academy Awards Oscars",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "No major factual errors; content is a mix of snippets but consistent with the rule change (dual pathway: country selection or qualifying festival award) and explicitly lists the qualifying festivals and their specific awards (Cannes Palme d'Or, Venice Golden Lion, Berlin Golden Bear, Sundance World Cinema Grand Jury Prize, TIFF Platform Award, Busan Award), directly answering the 'qualifying festival awards' part of the query.",
+  "b_issues": "Provides good explanation of the dual-pathway rule change and mentions director/film being credited as nominee, but never names the specific qualifying festivals or their awards. The Tempo.co articles are lower-quality/confusing, describing a vague 'secondary route through a selection committee directly authorized by AMPAS' that doesn't match the actual festival-award mechanism, potentially misleading on the specifics.",
+  "reasoning": "Both sets confirm the core rule change (a film can now qualify either via country selection or by winning an award at a qualifying international festival). However, the question specifically asks about the 'new qualifying festival awards,' and only Content A (via the AwardsWatch snippet) names the actual festivals and their specific awards (Cannes Palme d'Or, Venice Golden Lion, Berlin Golden Bear, etc.), which is exactly the kind of detail needed to fully and correctly answer the query. Content B lacks this specific list and includes a Tempo.co source with somewhat garbled/inaccurate framing of the submission process, making it less reliable and less complete for this particular question."
+}

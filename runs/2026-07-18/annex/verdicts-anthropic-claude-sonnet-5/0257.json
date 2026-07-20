@@ -1,0 +1,11 @@
+{
+  "id": 257,
+  "query": "Moderna mRNA-1345 pediatric maternal RSV vaccine clinical trial phase status 2025",
+  "topic": "RSV vaccines",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "The IDSE and Contemporary Pediatrics snippets are brief and don't fully detail the resumption or final status of the trial in 2025, but they correctly capture the key event (FDA-mandated pause due to safety signal) and confirm Phase 2 status via ClinicalTrials.gov and Veeva sources.",
+  "b_issues": "Focuses mostly on the adult (60+) RSV vaccine BLA/approval and a separate Phase 1 trial in children 2-18 years at high risk, none of which directly address the maternal/pediatric mRNA-1345-P201 trial (NCT06143046) status in 2025. Omits the critical 2024-2025 safety-signal pause that is central to the current status of pediatric RSV vaccine trials, making it less useful for answering the specific question.",
+  "reasoning": "The question asks about the phase/status of Moderna's maternal-pediatric RSV vaccine trial in 2025. Content A directly surfaces the ClinicalTrials.gov and Veeva records confirming Phase 2 status, plus the highly relevant 2024-2025 news about the trial pause due to a safety signal—key context for 'status 2025.' Content B is dominated by information about the unrelated adult RSV vaccine (mRESVIA) approval and a different pediatric trial (2-18 years, Phase 1), and never surfaces the pause/hold status or clearly confirms Phase 2 status for the maternal trial. Thus A better equips an LLM to answer accurately and completely."
+}

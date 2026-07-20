@@ -1,0 +1,11 @@
+{
+  "id": 452,
+  "query": "2024 Nobel Prize Physics laureates official press release motivation machine learning artificial neural networks",
+  "topic": "Nobel Prize 2024",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A's snippet from the official press release is fragmented and omits key motivational details (e.g., does not clearly explain Hopfield's associative memory or Hinton's Boltzmann machine mechanism in context); relies more on secondary sources (AIP, PMC, Yale, Lamarr blog) that, while not inaccurate, dilute the direct citation of the official motivation and add tangential/unrelated content (e.g., AlphaFold, atomic bomb references) that could confuse the answer.",
+  "b_issues": "Minor redundancy (multiple archive.org snapshots and near-duplicate nobelprize.org mirror pages with tracking parameters), but content is consistent and accurate across all duplicates.",
+  "reasoning": "Both sets include the correct official citation: 'for foundational discoveries and inventions that enable machine learning with artificial neural networks.' However, Content B provides much fuller, direct excerpts from the actual official press release, including the full quote, explanation of Hopfield's energy-based network, Hinton's Boltzmann machine, and the Ellen Moons quote — all directly from nobelprize.org (via archive.org and live mirrors). Content A's snippets are shorter, more fragmented, and pull in less relevant tangential material (medical AI, AlphaFold, atomic bomb history) that is not directly about the official motivation. Content B's sources, though duplicated, are highly reliable (nobelprize.org itself) and give a complete, accurate, self-consistent answer to the question. Thus B better enables a correct, well-supported answer."
+}

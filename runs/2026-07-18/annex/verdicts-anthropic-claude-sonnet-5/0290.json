@@ -1,0 +1,11 @@
+{
+  "id": 290,
+  "query": "X iOS chat app standalone release date features",
+  "topic": "Twitter",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "The App Store snippet includes user review complaints (e.g., missing video/voice messages) that seem inconsistent with the official feature description elsewhere (audio/video calls), but this is a minor discrepancy from an actual review comment, not a fabricated fact.",
+  "b_issues": "Most snippets are truncated with 'Read more' and lack detailed feature descriptions (e.g., disappearing messages, screenshot blocking, edit/delete messages are not spelled out in B's content). Reddit result adds no substantive new info.",
+  "reasoning": "Both sets agree on the core fact: XChat launched April 24, 2026, standalone iOS (and iPad) app from X. However, Content A provides richer, more detailed feature information across multiple sources (App Store description with encryption details, edit/delete messages, disappearing messages, screenshot blocking, language support, TechCrunch's explicit feature list including calling and privacy features). Content B's snippets are shorter and often cut off before delivering the actual feature list, making it harder for an LLM to extract complete, specific features. Thus A better supports a correct and detailed answer."
+}

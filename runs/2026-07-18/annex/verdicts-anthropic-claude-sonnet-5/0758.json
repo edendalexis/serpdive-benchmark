@@ -1,0 +1,11 @@
+{
+  "id": 758,
+  "query": "DJT Truth API enterprise customer list financial sector clients 2026",
+  "topic": "Truth Social DJT stock",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Neither content actually names specific enterprise/financial-sector clients (none exist publicly); Content A includes an oddly irrelevant CNBC fact about share issuance to Trump that doesn't pertain to the query.",
+  "b_issues": "Same fundamental limitation as A — no named customer list is provided, only generic descriptions of target industries (banks, hedge funds, algorithmic trading firms) and confirmation that unspecified customers have signed up.",
+  "reasoning": "Both sets of results are drawn from the same underlying press release/8-K and closely related news coverage (Reuters, Straits Times, Yahoo Finance, Axios/gvwire). Neither contains an actual list of named financial-sector enterprise customers because that information has not been publicly disclosed as of the filing date — both merely state that customers have been signed and are being onboarded, targeting algorithmic/HFT firms, banks, hedge funds, and financial news organizations. The facts presented (launch date Aug 1, 2026; 24/7 coverage; archive back to 2022; no confirmed named clients) are consistent and accurate in both sets, with no contradictions. Content A's Axios excerpt adds slightly more color (McGurn's comments on scraping and target sectors) while Content B's gvwire piece offers similar quotes. Neither surpasses the other in ability to answer the specific question, since the requested 'client list' does not exist in the source material for either set."
+}

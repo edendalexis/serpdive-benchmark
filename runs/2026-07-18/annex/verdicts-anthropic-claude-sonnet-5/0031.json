@@ -1,0 +1,11 @@
+{
+  "id": 31,
+  "query": "Android 17 Compose-first UI release details",
+  "topic": "Google",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A lacks the actual primary source content from developer.android.com/blog/posts/android-17-is-here that explicitly states the Compose-first declaration. It relies on a secondary paraphrase from PhoneArena and a generic Compose documentation page, plus an unreliable Medium blog post about 'Remote Compose' that appears speculative/unverified and not corroborated by official sources. This makes the Compose-first claim less directly grounded and introduces potentially fabricated details (Remote Compose server-driven UI) not confirmed by official Android sources.",
+  "b_issues": "Minor: does not elaborate extensively on what 'Compose-first' entails beyond the quoted snippet, but the core fact is accurately sourced from the official Android Developers blog.",
+  "reasoning": "Content B directly quotes the official Android Developers Blog stating 'Android development is now Compose-first. All new Android APIs, libraries, tools, and developer guidance will be built exclusively for Jetpack Compose,' which precisely answers the question with a primary, reliable source. Content A only indirectly references this via a secondary PhoneArena paraphrase and includes a dubious, likely unreliable Medium article about 'Remote Compose' that is not corroborated elsewhere and could mislead the model into treating unverified claims as fact. B's sources are more authoritative (official Android blog, Google blog) and directly support the answer without contradiction or speculative content."
+}

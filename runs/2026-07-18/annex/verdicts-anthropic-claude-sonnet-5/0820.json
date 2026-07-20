@@ -1,0 +1,11 @@
+{
+  "id": 820,
+  "query": "Port of Baltimore second largest container ship visit 15000 capacity name",
+  "topic": "Port of Baltimore",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Most results in A are about the Port's 'second-best year' for cargo tonnage in 2025, which is unrelated to the question about the second-largest container ship by TEU capacity. Only one result (Patch) actually mentions the relevant ship (Triton, 14,424 TEU) as the prior record holder, and it doesn't clearly frame it as 'second largest' with a ~15,000 capacity figure.",
+  "b_issues": "None significant; results directly identify Ever Max (15,432 TEU, largest) and Triton (14,000-14,424 TEU, second largest), consistent with the anchor. Minor inconsistency in TEU figure (14,000 vs 14,424) across sources, but this is minor and also present in the anchor.",
+  "reasoning": "The question is about identifying the ship that is second-largest by container capacity (~15,000 TEU) to visit Port of Baltimore. Content B provides directly relevant results naming Ever Max (largest, 15,432 TEU) and Triton (second largest, ~14,000-14,424 TEU), along with Gunde Maersk as the prior record holder, closely matching the anchor's information. Content A largely diverges into unrelated 'second-best year' cargo tonnage statistics for the port in 2025, which does not address the ship-specific question, with only one relevant result buried among unrelated ones. Thus B better enables a correct answer."
+}

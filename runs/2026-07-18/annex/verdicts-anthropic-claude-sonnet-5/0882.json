@@ -1,0 +1,11 @@
+{
+  "id": 882,
+  "query": "Skydance $400 million investment KKR valuation August 2025",
+  "topic": "Skydance Media",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tine",
+  "a_issues": "Neither result set actually addresses 'August 2025' - all sources describe the October 2022 $400M KKR investment. No factual errors, but no August 2025 information is present.",
+  "b_issues": "Same issue as A - all sources describe the October 2022 investment, no August 2025 information. No factual errors.",
+  "reasoning": "Both content sets return essentially the same core facts (the $400M KKR-led investment valuing Skydance at over $4 billion) from equally reliable sources (Nasdaq, Paul Weiss, Variety, etc.), and neither has any content specific to 'August 2025' - the actual event being referenced was October 2022. Since neither set has an advantage in accuracy, sourcing quality, or completeness relative to the question, they are functionally equivalent for answering purposes."
+}

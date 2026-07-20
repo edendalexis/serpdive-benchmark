@@ -1,0 +1,11 @@
+{
+  "id": 725,
+  "query": "European Commission Temu action plan deadline August 28 compliance review period",
+  "topic": "Temu",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Relies partly on a LinkedIn post (low authority) for the key compliance-review timeline; other sources are only tangentially relevant (SHEIN/CPC network) and provide limited detail on the review process.",
+  "b_issues": "No major factual issues; sources are consistent with each other and with the anchor, providing detailed and accurate description of the August 28 deadline and the subsequent one-month EDBS opinion plus Commission decision period.",
+  "reasoning": "Both sets confirm the August 28 deadline for Temu's action plan, but Content B offers multiple higher-reliability sources (Slaughter and May, Lewis Silkin, ICLG, Digital Policy Alert, prodlaw.eu) that consistently and accurately describe the full compliance review process—submission of the action plan, EDBS's one-month opinion, and the Commission's subsequent decision with implementation period—matching the anchor's core fact and adding accurate detail. Content A's key detail about the review timeline comes from a LinkedIn post, a less reliable source, and its other results are less directly on-point."
+}

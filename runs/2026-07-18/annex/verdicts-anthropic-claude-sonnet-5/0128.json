@@ -1,0 +1,11 @@
+{
+  "id": 128,
+  "query": "Japan prime minister 2026 current name official Kantei profile",
+  "topic": "Japan Prime Minister",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; content directly confirms TAKAICHI Sanae as the 105th Prime Minister via the official Kantei designation page, matching the anchor closely. Wikipedia snippet is consistent.",
+  "b_issues": "Includes an outdated Kishida-era Kantei profile page for Takaichi (as a minister, not PM) which could mislead about the current administration; lacks the explicit Kantei statement naming her as the 105th PM (only implied via homepage and an Al Jazeera video), making the confirmation less direct and clear.",
+  "reasoning": "Content A contains the official Kantei 'Designation of the Prime Minister' page explicitly stating TAKAICHI Sanae was designated the 105th Prime Minister, directly answering the query with an authoritative source, plus consistent Wikipedia/BBC context. Content B relies on the homepage (implicit current PM) and an outdated Kishida-cabinet-era profile page for Takaichi, which could confuse the model about her current role/title, making A more directly and reliably answer the question."
+}

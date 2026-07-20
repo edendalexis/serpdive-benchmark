@@ -1,0 +1,11 @@
+{
+  "id": 107,
+  "query": "Boeing MQ-28 Ghost Bat advanced capabilities extended combat reach unveiling details 2026",
+  "topic": "Boeing",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Does not include the actual Boeing press release (item=131675) that directly matches the anchor; instead includes unrelated items (131673 stealth validation, 131682 Valiant Shield) and a Farnborough-focused Yahoo Finance piece that seems inconsistent with the ILA Berlin event date/venue. Key details like Beyond Line of Sight capability and internal weapons stations are only partially covered via secondary snippets, not the primary release.",
+  "b_issues": "Includes a Yahoo Finance snippet referencing a Farnborough debut, which is inconsistent with the ILA Berlin unveiling date/venue described in the primary release and other sources, creating minor contradiction, but this does not undermine the core accurate facts.",
+  "reasoning": "Content B directly includes the actual Boeing newsroom press release (item=131675) with the same headline and key quote as the anchor, providing the core accurate details (25%+ larger wing, BLOS communications, internal weapons stations) verbatim. It also includes The Aviationist article with matching specifics (MTOW, payload, wingspan) and additional context. Content A omits the primary press release with the exact details, relying on secondary/tangential Boeing releases (stealth testing, Valiant Shield) and a Farnborough-focused article that does not directly address the ILA Berlin unveiling of extended combat capabilities. Thus B provides a more complete and accurate basis for answering the question."
+}

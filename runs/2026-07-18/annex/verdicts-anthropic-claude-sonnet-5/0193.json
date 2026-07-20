@@ -1,0 +1,11 @@
+{
+  "id": 193,
+  "query": "Apple Intelligence Image Playground daily image generation limits iCloud+ tiers 2026",
+  "topic": "Apple Intelligence",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A contains no relevant information about Apple Intelligence Image Playground daily limits or iCloud+ tiers at all; results are generic Apple homepage, Instagram, Wikipedia, and stock ticker pages with no substantive content addressing the query.",
+  "b_issues": "Does not give exact numeric daily limits (Apple itself did not disclose exact numbers, so this is consistent with the anchor), but provides useful inference from MacRumors/9to5Mac/ecorpit that the 50GB $0.99 tier likely does not qualify while 200GB and above (and Apple One) do, aligning with the anchor's reasoning.",
+  "reasoning": "The anchor establishes that iCloud+ subscribers get higher daily usage limits for Apple Intelligence features like image generation, with 'most' iCloud+ plans qualifying except possibly the base 50GB tier. Content B directly reflects and expands on this via multiple consistent sources (MacRumors, 9to5Mac, Apple newsroom quote, and a detailed ecorpit breakdown of tier pricing and likely qualifying thresholds), closely matching and supplementing the anchor's facts. Content A is entirely irrelevant, containing no information about the query topic whatsoever, making it useless for answering the question."
+}

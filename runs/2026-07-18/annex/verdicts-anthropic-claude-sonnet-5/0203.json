@@ -1,0 +1,11 @@
+{
+  "id": 203,
+  "query": "Shohei Ohtani 2026 All-Star Game missed reason left knee procedure lubricant injection return to pitching second half Dodgers",
+  "topic": "Shohei Ohtani",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A lacks the specific 'lubricant injection' detail and the return-to-pitching date (Wednesday in Philadelphia). It relies on Sportskeeda, MLB Trade Rumors, and Facebook posts, which are less authoritative and don't confirm the lubricant injection name (Orthovisc) or the specific plan to pitch Wednesday. The MLB Trade Rumors piece mentions 'an injection of some kind' but doesn't confirm it happened or specify lubricant. No source confirms Ohtani actually pitched or was expected to pitch Wednesday.",
+  "b_issues": "Minor redundancy across sources but no factual contradictions; all details align with the anchor (lubricant injection, no fluid drained, Wednesday return target, missing All-Star Game due to knee irritation).",
+  "reasoning": "Content B directly corroborates all key facts from the anchor: the lubricant injection (even naming it Orthovisc), confirmation that fluid was NOT drained, the reason for missing the All-Star Game (left knee irritation), and the expected return to pitching Wednesday in Philadelphia. It uses reliable sources (MLB.com, Yahoo Sports, NY Post, ABC7/AP) that closely mirror the anchor's narrative. Content A only establishes the reason for missing the All-Star Game and mentions a drain plus possible injection, but doesn't confirm the actual injection type, the no-drain detail, or the specific return-to-pitch date, making it less complete and precise for answering the full question."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 498,
+  "query": "Jannik Sinner 2026 Wimbledon final match score opponent",
+  "topic": "Wimbledon",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Includes an outdated Wikipedia article on Zverev that is irrelevant/noisy (discusses old matches), but doesn't contradict the correct score or opponent, which are clearly given in the BBC featured snippet and confirmed by USA Today, ESPN, Sky Sports.",
+  "b_issues": "Includes a YouTube video result with a disclaimer stating it's not an actual live match and is filled with spam-like keyword stuffing, which is low-quality/noisy but doesn't provide false final score info. Core facts (score, opponent) are correctly given via Yahoo and NYT excerpts.",
+  "reasoning": "Both content sets provide the correct final score (6-7(7) 7-6(2) 6-3 6-4) and correct opponent (Alexander Zverev) via reliable outlets (BBC, Yahoo, USA Today, NYT/The Athletic in A; Yahoo, NYT in B). Neither set contains contradictory or incorrect scores. A has extra irrelevant Wikipedia content, and B has a spammy YouTube result, but neither undermines the core answer. Both allow an LLM to correctly answer the question equally well."
+}

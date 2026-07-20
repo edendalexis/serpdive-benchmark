@@ -1,0 +1,11 @@
+{
+  "id": 150,
+  "query": "Ukraine defense minister appointment successor Fedorov removal cabinet reshuffle July 2026",
+  "topic": "Volodymyr Zelenskyy",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Does not mention Khmara being named acting defense minister (a later development noted in the anchor), and doesn't clarify that Klymenko's appointment was only a proposal that may not be finalized; otherwise consistent and accurate.",
+  "b_issues": "Provides no clear successor name for Fedorov at all (no mention of Klymenko or Khmara), includes irrelevant Wikipedia entries about Ukraine's geography/history, and introduces a confusing mention of 'Koretskyi as prime minister' without context, which could mislead about the reshuffle timeline. Much less directly useful for answering the specific question about the successor.",
+  "reasoning": "Content A directly answers the core of the question: Fedorov was dismissed, Klymenko was tapped as his replacement, and it gives consistent context (PM Svyrydenko's resignation triggering the reshuffle) corroborated by multiple reliable outlets (Defense News, Kyiv Post, RBC-Ukraine, Reuters, TVP World). Content B, while confirming the dismissal and protests, never names a successor and includes irrelevant general Wikipedia content, making it far less useful for answering the specific question about who replaced Fedorov."
+}

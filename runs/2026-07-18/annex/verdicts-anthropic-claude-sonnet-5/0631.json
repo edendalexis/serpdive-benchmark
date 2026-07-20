@@ -1,0 +1,11 @@
+{
+  "id": 631,
+  "query": "Perplexity open-sourced WANDR benchmark SPACE sandbox production traffic",
+  "topic": "Perplexity AI",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "No major factual flaws; content is consistent with the anchor and directly relevant (WANDR release details, SPACE production traffic since June, latency stats).",
+  "b_issues": "Several results are irrelevant or outdated (March 2026 feature roundup, general Perplexity usage statistics unrelated to WANDR/SPACE), and the key sources are truncated with 'Read more' snippets that don't fully convey the facts, requiring inference rather than direct evidence.",
+  "reasoning": "Content A provides direct, on-topic excerpts confirming both the WANDR benchmark open-source release (500 tasks, 170,495 records, Apache 2.0) and SPACE sandbox details (handling 100% of Computer production traffic since June, with specific latency improvements). These align closely with the anchor. Content B includes some relevant snippets (WANDR task count, SPACE traffic claim) but dilutes them with unrelated statistics and marketing content, and the most detailed sources are cut off with 'Read more', reducing the actionable factual density available to answer the question fully and accurately."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 460,
+  "query": "Palworld 1.0 launch date full release July 2026 official announcement patch notes",
+  "topic": "Palworld",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "IGN snippet is truncated and doesn't explicitly state a date, relying on other sources for the July 10 date; some sources (shockbyte, boostmatch, supercraft.host) are lesser-known/AI-aggregator style sites, though consistent.",
+  "b_issues": "Sources are similarly a mix of niche/aggregator sites (g2a, cybrancee, supercraft.host, shockbyte) rather than major outlets, but content is internally consistent and matches anchor facts.",
+  "reasoning": "Both content sets converge on the same core facts matching the anchor: Palworld 1.0 launched July 10, 2026, ending Early Access, with ~27 pages of patch notes, new Pals, World Tree, Sunreach sky island, Mutation/Awakening systems, etc. Neither set contradicts itself or the anchor. Content A includes a couple of additional mainstream outlets (IGN, PC Gamer) for corroboration, while Content B includes a couple of different secondary sources (g2a, cybrancee) with similar reliability. The factual payload needed to answer the question—date, patch note scope, key features—is equally present and accurate in both."
+}

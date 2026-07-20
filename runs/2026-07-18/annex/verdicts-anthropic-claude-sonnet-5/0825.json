@@ -1,0 +1,11 @@
+{
+  "id": 825,
+  "query": "Howard Street Tunnel reconstruction completion date Port of Baltimore CSX double-stack rail permanent route",
+  "topic": "Port of Baltimore",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A does not explicitly state a final completion/launch date for double-stack rail service; it relies on indirect clues (MPA's 'May 26, 2026' MOA completion, CSX's project timeline starting Feb 2025, and general references to 2026) rather than a clear, sourced date. It also lacks an explicit cost figure for the project in the shown snippets.",
+  "b_issues": "Content B's CSX press release explicitly dates the tunnel's structural reopening as September 26, 2025 and cites a cost of '$450+ million,' both of which conflict with the anchor's multiple, more authoritative sources (FreightWaves, Supply Chain Dive, Railway News, Governor's office) that place the double-stack launch/ribbon-cutting in June 2026 and cite a $495-496 million total cost. This creates a factual mismatch that could lead an LLM to give an incorrect completion date and cost.",
+  "reasoning": "Both sets omit an explicit, unambiguous statement of the final double-stack launch date matching the anchor's June 2026 timeline, but Content A's supporting data (MPA's May 26, 2026 completion note) is temporally consistent with the anchor's June 2026 ribbon-cutting, and it does not introduce a conflicting cost figure. Content B, in contrast, provides a specific but earlier date (September 2025) and a different cost figure ($450+ million) that directly contradict the anchor's later, more consistent reporting of a June 2026 completion and $495-496 million cost, increasing the risk of an incorrect answer if used as the sole source."
+}

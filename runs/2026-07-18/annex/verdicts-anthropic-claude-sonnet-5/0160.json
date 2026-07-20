@@ -1,0 +1,11 @@
+{
+  "id": 160,
+  "query": "Rivian R2 public customer deliveries start date June 2026 reservation holders official announcement",
+  "topic": "Rivian",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Relies mainly on forum speculation and a secondary blog claiming Rivian 'delayed' deliveries to 'soon after' June 9, contradicting the official June 9 date; also includes an unrelated claim about spring 2026 start and R3X reservation confusion, which could mislead the model into giving an inaccurate or hedged answer.",
+  "b_issues": "Includes a low-value tangential Facebook post about 'late June/early July' deliveries, which is a minor inconsistency but doesn't override the clear, authoritative sources.",
+  "reasoning": "Content B directly includes the official Rivian newsroom article and the FT.com business wire press release, both explicitly stating the June 9, 2026 official announcement of first public customer deliveries and rolling order invitations, matching the anchor exactly. Content A lacks the official press release entirely and instead relies on forum threads and a secondary blog that introduces contradictory information (a delay to 'soon after' June 9, and inconsistent 'spring 2026' start claims), which could confuse or mislead an LLM trying to answer precisely. B provides clearer, more authoritative, and internally consistent facts."
+}

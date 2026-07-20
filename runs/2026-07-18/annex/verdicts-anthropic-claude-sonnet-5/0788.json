@@ -1,0 +1,11 @@
+{
+  "id": 788,
+  "query": "Netanyahu lobby Trump joint military offensive Iran February 2026 regime change",
+  "topic": "Benjamin Netanyahu",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "The aawsat.com result is almost entirely irrelevant (discusses Ukraine negotiations and a German-French summit rather than Netanyahu's lobbying), diluting the useful content. ISW update from Feb 8 is unrelated to the lobbying/regime-change theme. While the Wikipedia snippet and New Republic piece give some relevant background (Barnea plan, Dec 30 Mar-a-Lago meeting), none of the results directly detail Netanyahu's February Situation Room pitch that is central to the query and matches the anchor's core story.",
+  "b_issues": "The Wikipedia entry returned is just an infobox/table-of-contents with no substantive prose, providing little usable factual content. Aside from that, the set is strong.",
+  "reasoning": "The anchor's central fact is Netanyahu's February pitch/lobbying in the White House Situation Room that led Trump to approve a joint offensive against Iran with regime-change goals. Content B includes the actual NYT article ('How Trump Took the U.S. to War With Iran') that directly describes this February presentation and Netanyahu's months-long pressure campaign, closely mirroring the anchor's Times of Israel piece (which cites the same NYT reporting). It also includes a Carnegie Endowment piece offering counter-perspective on the 'Netanyahu made Trump do it' narrative, adding useful nuance. Content A's Wikipedia snippet is more substantive than B's, but its other results (aawsat, ISW) are largely off-topic or generic, weakening its ability to directly answer the lobbying/joint-offensive question. Overall, B's direct hit on the NYT source makes it more effective for answering the specific query, despite its weak Wikipedia snippet."
+}

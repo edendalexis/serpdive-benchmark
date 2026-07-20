@@ -1,0 +1,11 @@
+{
+  "id": 164,
+  "query": "Rivian Volkswagen Group equity investment amount early 2026 announcement",
+  "topic": "Rivian",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Mostly accurate; historical VW ad-hoc announcement mentions an earlier '5 billion by 2026' figure (from the original 2024 framework, later revised to $5.8B), which could slightly confuse timeline but is clearly dated. Core answer (the April 30, 2026 $1.0B equity investment, 62,889,522 shares at $15.90) is explicitly and correctly stated in the stocktitan snippet, matching the anchor.",
+  "b_issues": "The stocktitan snippet included is truncated to omit the explicit '$1.0 billion Volkswagen Group equity investment... 62,889,522 Class A shares at $15.90' line that is central to answering the question, focusing instead on unrelated guidance/DOE loan/Uber details. The Reuters snippet is garbled and confusing, seemingly conflating '$5 billion' and '$2 billion' figures without clear context, risking a wrong or muddled answer.",
+  "reasoning": "Both sets include the same core historical sources (VW ad-hoc release, CNBC $5.8B breakdown, stocktitan 8-K), but Content A's version of the critical stocktitan snippet explicitly states the exact $1.0 billion equity investment amount and share purchase details (62,889,522 shares at $15.90), directly and accurately answering the question and matching the anchor. Content B's corresponding snippet omits this specific figure from the visible content, and includes a confusingly worded Reuters snippet with seemingly contradictory dollar figures, making it harder to extract a correct, confident answer."
+}

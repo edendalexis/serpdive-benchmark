@@ -1,0 +1,11 @@
+{
+  "id": 437,
+  "query": "All-Movie Hotel Coppola Hideaway opened July 2024 Megalopolis location public opening date",
+  "topic": "Megalopolis",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A's awardsdaily snippet is truncated ('The film opens') which could be mildly ambiguous about whether it refers to the film's or hotel's opening, though other results (GPB, Instagram, tonetoatl) clearly state July 25, 2024 for the hotel's public opening.",
+  "b_issues": "No factual inaccuracies; content is consistent and includes fuller quotes, though it doesn't add anything materially different from A's confirmed date.",
+  "reasoning": "Both sets clearly and consistently state that The All-Movie Hotel in Peachtree City, Georgia opened to the public on July 25, 2024, sourced from reliable outlets (GPB, AwardsDaily, ToneToATL) and the official Coppola Hideaways site. Neither set contains contradictory information, and both allow an LLM to correctly answer the question with the same core facts (date and location)."
+}

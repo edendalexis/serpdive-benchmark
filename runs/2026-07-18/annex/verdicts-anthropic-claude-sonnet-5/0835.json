@@ -1,0 +1,11 @@
+{
+  "id": 835,
+  "query": "Julian Assange public appearances statements after release 2025",
+  "topic": "Julian Assange",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "All results are about 2024 events (Strasbourg appearance in October 2024) rather than 2025; content includes garbled/irrelevant YouTube playlist text (unrelated video titles about Morning Joe, Lindsey Graham, etc.) mixed into the actual result content, reducing reliability and clarity; no 2025 appearances (Cannes, pope funeral, Sydney march, Albanese praise) are mentioned at all.",
+  "b_issues": "All results are also about the 2024 release and October 2024 Strasbourg speech, not 2025 events; misses entirely the 2025 appearances mentioned in the anchor (Cannes documentary, pope funeral, Albanese statement, Sydney Harbour Bridge march); so it does not actually answer a query specifically about 2025.",
+  "reasoning": "Neither set contains any information about Assange's actual 2025 public appearances (Cannes, pope's funeral, Albanese election statement, Sydney march) that the anchor establishes as the correct answer. Both sets are focused on his 2024 release and October 2024 Strasbourg speech. However, Content B's sources are more reliable and coherent (Washington Post, DW, ABC News, AP, Politico) with clean, accurate quotes and context about the 2024 statement, whereas Content A's results include messy, cluttered YouTube metadata with irrelevant unrelated video titles mixed in, making it harder for an LLM to extract clean, reliable facts even about the 2024 period. Since neither answers the 2025-specific question correctly, but B provides cleaner, more reliable, and more detailed factual content, B is marginally better despite both missing the 2025 focus."
+}

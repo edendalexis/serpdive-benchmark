@@ -1,0 +1,11 @@
+{
+  "id": 997,
+  "query": "Nic Pizzolatto Cohle Hart return quotes future True Detective project",
+  "topic": "True Detective",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Sources are largely low-quality (Facebook posts, an old 2014 EW article, IMDb quotes page, a lesser-known site 3dvf.com) rather than primary reporting. The key quote is present but buried in secondary/aggregator content, and lacks context like the podcast name, date, or nuance about Season 4/Night Country backlash.",
+  "b_issues": "Includes a BrainyQuote page with older, tangential quotes not directly about a return, and an old fan-transcript interview (ohnotheydidnt LiveJournal) that isn't about the future project. However, it does include the Deadline article with the accurate, directly relevant quote and context.",
+  "reasoning": "Both contain the core accurate quote ('I actually have another story for Cohle and Hart that, who knows, maybe we'll do it one day'), but Content B sources it from Deadline, a reliable, reputable outlet with fuller context (podcast name, date, additional details about Season 4 and pressure comments), matching the anchor's sourcing closely. Content A's version of the quote comes mostly from a Facebook post and a fan blog (3dvf.com), which are less reliable and provide less context. Content B's inclusion of BrainyQuote and the old interview don't directly harm the answer since the Deadline result alone fully answers the question accurately and reliably."
+}

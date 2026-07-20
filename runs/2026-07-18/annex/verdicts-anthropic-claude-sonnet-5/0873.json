@@ -1,0 +1,11 @@
+{
+  "id": 873,
+  "query": "Andy Burnham Labour MPs support next Prime Minister Starmer 2026",
+  "topic": "Keir Starmer",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Contains multiple differing MP-count figures (322, 349, 369) across sources reflecting different points in the nomination process, which could seem inconsistent though it mirrors the actual evolving tally described in the anchor. Includes a tangential legal-advisory article not directly relevant to leadership support numbers.",
+  "b_issues": "Includes a Wikipedia snippet claiming 379 nominations as a final count, which conflicts with the anchor's verified figure of 349 (also corroborated by Guardian and BBC sources). This introduces a factual discrepancy not well reconciled within the content, and none of B's sources directly confirm the 349 figure that the anchor treats as authoritative.",
+  "reasoning": "Both content sets convey the core facts: Burnham secured overwhelming Labour MP support, made his leadership challenge-proof, and will become PM on 20 July 2026 succeeding Starmer. However, Content A includes the exact Guardian article matching the anchor's stated 349-MP figure, plus LabourList's detailed account of the nomination process (322 initial, later 369), which aligns reasonably with the anchor's narrative of growing support. Content B's Wikipedia entry states 379 nominations, a number not corroborated by any anchor source and potentially misleading if taken as the definitive figure. This makes A's numerical consistency and direct source overlap with the anchor slightly stronger, giving it an edge in factual reliability for this specific question about MP support numbers."
+}

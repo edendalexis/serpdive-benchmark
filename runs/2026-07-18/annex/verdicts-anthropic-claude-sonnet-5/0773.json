@@ -1,0 +1,11 @@
+{
+  "id": 773,
+  "query": "Hamas Israeli captives release agreement bodies transfer conditions Egypt talks",
+  "topic": "Gaza ceasefire negotiations",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "None major; mostly consistent with anchor facts about hostage-for-prisoner exchange, though it doesn't explicitly break out the 20 living/28 deceased hostage body count as clearly as B does.",
+  "b_issues": "Contains a highly suspicious 'Security Council Report' dated July 2026 covering events from Nov 2025 to May 2026, which is chronologically implausible given the query's Oct 2025 context and could mislead an LLM about timeline/veracity. Otherwise facts (28 bodies, 20 living, prisoner exchange numbers) are accurate and align with the anchor.",
+  "reasoning": "Both sets contain the core facts matching the anchor (living hostages/bodies exchanged for Palestinian prisoners, Egypt-hosted talks, ceasefire conditions). Content A additionally includes the BBC article detailing the Qatar/Egypt-mediated proposal and Israel's condition that all hostages be released at once, which directly addresses the 'conditions' and 'Egypt talks' angle of the question more thoroughly. Content B has good detail on body counts and prisoner numbers but includes an oddly dated, seemingly out-of-place future 'Monthly Forecast' source that undermines reliability and could confuse timeline understanding. Overall A provides a cleaner, more directly relevant set of facts without the confusing artifact."
+}

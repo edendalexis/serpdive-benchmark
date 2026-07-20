@@ -1,0 +1,11 @@
+{
+  "id": 469,
+  "query": "Palworld 1.0 player count Steam concurrent sales figures post launch July 2026",
+  "topic": "Palworld",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Includes the same contradictory Threads post reporting both 361,334 and 498K figures, and relies mainly on Niche Gamer, Reddit and VGC for corroboration; lacks any official Pocketpair statement, giving less cross-source verification of the 855,525 peak figure.",
+  "b_issues": "Also includes the contradictory Threads post (361,334 vs 498K) and a Forbes figure (725,000) that is lower than the 855,525 peak reported elsewhere, though this can be read as a different day's count; overall the set still contains an internal inconsistency in the low-end figures.",
+  "reasoning": "Both sets converge on the key fact that Palworld's 1.0 launch peaked at roughly 855,000-855,525 concurrent Steam players (matching the anchor's 24-hour peak of 824,585 closely), and both include a contradictory Threads source citing 361,334/498K. However, Content B provides stronger corroboration via an official Pocketpair blog post confirming '850,000+ concurrent players' and TechPowerUp citing SteamDB's 855,459, plus Forbes noting a follow-up weekend figure of 725,000 which aligns well with the anchor's live count (~714K-497K) and Raijin's 713,975 active players, giving a more complete and consistent picture of the post-launch trajectory. Content A's supporting sources (Niche Gamer, Reddit, VGC) are less authoritative and provide less numerical cross-verification, making Content B's evidence base more reliable and consistent overall."
+}

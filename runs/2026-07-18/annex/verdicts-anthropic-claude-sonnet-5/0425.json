@@ -1,0 +1,11 @@
+{
+  "id": 425,
+  "query": "Rafah city post-destruction population numbers 2026 return figures",
+  "topic": "Rafah",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "No exact 2026 population or return figures given; relies partly on a Wikipedia summary and a Facebook post (less rigorous sourcing) for the '200,000 residents' figure. Some entries (Britannica, Facebook) are tangential but at least focus on Rafah city specifically.",
+  "b_issues": "None of the results give Rafah-specific 2026 population or return figures; most content is about West Bank displacement, Gaza-wide (not Rafah) population trends, Israeli/Gaza casualty counts, or Rafah crossing procedures (not population/return numbers), making it largely off-topic for the specific question about Rafah city's post-destruction population and return figures.",
+  "reasoning": "While neither source set provides precise 2026 Rafah city population or return statistics, Content A at least stays focused on Rafah city itself, offering context (destruction extent, displacement of 1.4 million to Rafah, prior population estimates, evacuation orders, and return difficulties per MSF). Content B's results largely address unrelated topics (West Bank refugee displacement, Gaza-wide demographic decline, Israeli population growth, general casualty statistics) that do not pertain specifically to Rafah city, making it less useful for answering the question even qualitatively."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 291,
+  "query": "X Hotshot AI video tool integration platform availability",
+  "topic": "Twitter",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Does not mention the specific 'Imagine' feature name from the anchor, but includes relevant details (platform no longer available for new video creation, Grok Video integration) that address availability and integration directly.",
+  "b_issues": "Lacks explicit mention of 'Imagine' feature or availability details beyond acquisition news; includes two irrelevant results about unrelated 2026 AI video platform lists that do not address X/Hotshot integration or availability, diluting relevance.",
+  "reasoning": "Both sets correctly describe the xAI-Hotshot acquisition, but Content A provides more directly relevant facts about integration (Grok Video) and availability (platform closed to new creation), which are central to the question. Content B's extra results are off-topic (generic 2026 AI video tool lists) and add no value to answering the specific query, making it less useful despite similar core facts."
+}

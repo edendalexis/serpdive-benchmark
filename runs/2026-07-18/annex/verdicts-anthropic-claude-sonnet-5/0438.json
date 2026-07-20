@@ -1,0 +1,11 @@
+{
+  "id": 438,
+  "query": "Francis Ford Coppola Megalopolis summer 2025 speaking tour cities schedule",
+  "topic": "Megalopolis",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; provides all six tour cities with explicit dates (Red Bank July 20, Port Chester July 23, Chicago July 25, Denver July 27, Dallas July 29, San Francisco Aug 1), sourced from reliable outlets (Deadline, Relix, HR, Capitol Theatre).",
+  "b_issues": "Snippets are truncated and do not explicitly state Denver or Dallas dates; only Red Bank, Port Chester, Chicago, and San Francisco are clearly dated. An LLM using only this content could not confidently list all six cities/dates.",
+  "reasoning": "Both sets share overlapping sources, but Content A's snippets explicitly enumerate all six tour dates and venues (including Denver's Paramount Theatre July 27 and Dallas' Texas Theatre July 29 via the Relix excerpt), giving a complete, accurate schedule. Content B's snippets are cut off before naming Denver and Dallas dates, leaving gaps in the schedule despite listing the same underlying sources. Thus Content A better enables a correct, complete answer."
+}

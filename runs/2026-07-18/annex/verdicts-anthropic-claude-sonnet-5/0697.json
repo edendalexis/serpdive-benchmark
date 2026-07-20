@@ -1,0 +1,11 @@
+{
+  "id": 697,
+  "query": "Indo-Pacific partners NATO Ankara summit 2026 joint statement Russia North Korea illicit military cooperation text",
+  "topic": "NATO",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Does not provide the verbatim text of an IP4 joint statement specifically condemning Russia-North Korea 'illicit military cooperation' for the 2026 Ankara summit; some results (NATO topic page, Facebook post) are tangential. Still, it keeps focus on the IP4 meeting itself and reproduces relevant details (participants, Motegi's remark linking Euro-Atlantic/Indo-Pacific security, Russia-North Korea context).",
+  "b_issues": "Almost entirely off-topic: results focus on the general NATO Ankara Summit Declaration (collective defence, Ukraine funding, defence spending) rather than the specific IP4 joint statement on Russia-North Korea illicit military cooperation. No mention of IP4 participants, the Indo-Pacific Four meeting, or any Russia-North Korea condemnation language. An LLM relying on this content would not be able to address the core of the question at all.",
+  "reasoning": "The question specifically seeks the IP4 (Indo-Pacific partners) joint statement on Russia-North Korea illicit military cooperation from the 2026 Ankara summit. Content A's results (nippon.com, SCMP) directly describe the IP4 meeting, its participants, and touch on the Russia-North Korea military cooperation theme, giving an LLM enough context to construct a reasonable, topic-relevant answer even without the exact statement text. Content B's results are dominated by the general NATO Summit Declaration (Ukraine funding, defence spending, Article 5) and contain no mention of the IP4 grouping or Russia-North Korea condemnation at all, making it far less useful for answering this specific question."
+}

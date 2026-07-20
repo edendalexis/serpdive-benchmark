@@ -1,0 +1,11 @@
+{
+  "id": 871,
+  "query": "Keir Starmer defense investment plan DIP funding NATO summit 2026 details",
+  "topic": "Keir Starmer",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Top result is a Facebook post from a local political party, a low-reliability source. Other snippets (Independent, Times, DefenceOnline) are truncated and give only headline-level context without concrete figures. Only the Euronews snippet provides real numeric detail (£300bn total, £15bn increase).",
+  "b_issues": "Content is otherwise consistent with A; no major factual errors. Minor redundancy since Euronews article overlaps with A's version, but with more of the text preserved (mentions £5bn for drones, ministerial resignations).",
+  "reasoning": "Both sets reference the same core event, but B offers stronger, more reliable sourcing: the official gov.uk speech transcript, a BBC article with concrete NATO summit context (3% target, 3.5% by 2035 goal), the same Euronews article as A but with more retained detail (£15bn increase, £5bn for drones, ministerial resignations), and a Hansard transcript giving precise GDP percentage figures (2.3% to 2.7%, commitments to 3% and 3.5%). This gives a more complete, accurate, and verifiable picture of the DIP's funding details and its NATO summit context. Content A's top hit is a Facebook post (unreliable), and its other snippets are thinner on concrete figures, making it less useful for accurately answering the question."
+}

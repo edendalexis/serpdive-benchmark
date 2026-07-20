@@ -1,0 +1,11 @@
+{
+  "id": 762,
+  "query": "FAA proposed civil penalty United Airlines flight attendant drug alcohol violation",
+  "topic": "FAA",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; includes accurate FAA.gov content plus a related but distinct American Airlines penalty that could be mildly confusing if not read carefully, though it's clearly labeled.",
+  "b_issues": "Includes low-quality/redundant sources (X/Twitter and Facebook posts) that add no new verified detail; the Facebook snippet includes stray dollar figures ($81,950 and $77,272) unrelated to the $255,000 penalty, which could confuse an LLM about the actual fine amount.",
+  "reasoning": "Both sets contain the authoritative FAA.gov press release with the core facts (47 flights, May 2024-July 2025, $255,000 penalty, 2021 termination and rehire), matching the anchor. Content A supplements this with a solid corroborating secondary source (AeroCorner) that accurately reiterates the same facts and adds legitimate context about similar FAA actions against American and Southwest, without contradiction. Content B's secondary sources are weaker (social media snippets) and include a confusing fragment with unrelated dollar figures that could mislead an LLM. Thus Content A better supports a correct, unambiguous answer."
+}

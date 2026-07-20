@@ -1,0 +1,11 @@
+{
+  "id": 60,
+  "query": "site:tukaani.org xz-utils release 5.8.3 security issue CVE changelog",
+  "topic": "XZ Utils",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content is a mix of scraped fragments from the page which could be slightly disjointed, but contains accurate facts: mentions CVE-2026-34743 buffer overflow, XZ Utils 5.6.0/5.6.1 backdoor, xzgrep vulnerability, CVE-2020-22916 being bogus, and explicitly states XZ Utils 5.8.3 fixes a minor security issue affecting all stable releases, directing to the security advisory. No major factual errors.",
+  "b_issues": "Very minimal content - only contains a single short sentence about 5.8.3 fixing a minor security issue, with no CVE identifier, no context about what the issue is, and no changelog details. Lacks the specific CVE-2026-34743 reference that ties directly to the 5.8.3 fix mentioned in the anchor.",
+  "reasoning": "The question asks about the CVE and changelog details for xz-utils 5.8.3's security issue. Content A includes the specific CVE-2026-34743 reference along with contextual details from the site (buffer overflow in lzma_index_append, fixed in 5.8.3), plus additional relevant CVE history (backdoor, xzgrep issue, bogus CVE-2020-22916) that helps ground the answer accurately per the anchor. Content B only has a generic one-line statement without the CVE number or any changelog specifics, making it far less useful for a complete and accurate answer to the query."
+}

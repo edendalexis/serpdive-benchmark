@@ -1,0 +1,11 @@
+{
+  "id": 20,
+  "query": "Anthropic SpaceXAI compute resources monthly payment amount",
+  "topic": "xAI",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "The Google/SpaceX $920M deal is a separate, unrelated agreement mixed into results, which could confuse the reader about which figure pertains to Anthropic. Featured snippet is correct but result list is somewhat noisy/less consistent.",
+  "b_issues": "No significant factual flaws; all results consistently confirm $1.25 billion/month through May 2029 from reliable sources (Reuters, TechCrunch, Teslarati).",
+  "reasoning": "Both sets correctly state the core fact: Anthropic will pay SpaceX $1.25 billion per month through May 2029 for compute. Content B's results are more consistent and come from highly reliable, directly relevant sources (Reuters, TechCrunch, Teslarati, Basenor) all reinforcing the same figure without distraction. Content A includes the correct figure in its featured snippet, but its first search result concerns a different deal (Google paying SpaceX $920M/month), which could potentially confuse an LLM into conflating the two separate payment amounts. This makes B slightly cleaner and more reliable for answering the specific question."
+}

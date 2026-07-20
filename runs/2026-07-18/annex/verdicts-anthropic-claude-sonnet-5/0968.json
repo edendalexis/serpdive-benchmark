@@ -1,0 +1,11 @@
+{
+  "id": 968,
+  "query": "India first hydrogen train route specifications capacity manufacturer July 2026 launch details",
+  "topic": "Narendra Modi",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Contains some inconsistency in capacity figures across snippets (682 passengers in one source vs implied larger figures elsewhere), and speed figures vary slightly (75 kmph operational vs 110-120 kmph trial/design speeds), but these are explainable as different metrics (operational vs design vs trial speed) rather than outright contradictions.",
+  "b_issues": "The first and most detailed result is heavily polluted with irrelevant navigation links (celebrity news, unrelated politics, gaming codes) that dilute the useful content. Key details like exact seating capacity (682 passengers) and TÜV SÜD certification are missing. Manufacturer/indigenous development details are less explicit than in A.",
+  "reasoning": "Both sets pull from largely the same reliable Indian news sources (TOI, India TV, Times Now) and agree on core facts: Jind-Sonipat route, 89 km distance, 10-coach train, 1200 kW hydrogen fuel cell propulsion, 75 kmph operational speed, July 17 2026 launch by PM Modi. However, Content A provides additional accurate specification details (682 passenger capacity, TÜV SÜD safety validation, trial speeds up to 120 kmph, indigenous Make in India development) that are highly relevant to the query's request for 'specifications capacity manufacturer.' Content B's top result is cluttered with irrelevant hyperlinks unrelated to the topic, making it harder for an LLM to extract clean, focused information, and it lacks the capacity and certification details present in A. Thus A offers a more complete and cleanly presented set of facts for answering the question correctly."
+}

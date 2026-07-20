@@ -1,0 +1,11 @@
+{
+  "id": 884,
+  "query": "Paramount Skydance PSKY stock price latest closing",
+  "topic": "Skydance Media",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Yahoo Finance snippet is garbled/inconsistent (mixes Aug 3, 2026 and Jun 15, 2026 dates oddly), and CNBC intraday quote (8.75, -4.32%) is presented as 11:37 AM EDT rather than an explicit close, but Macrotrends explicitly states the latest closing price as of July 17, 2026 is 8.75, matching the anchor exactly and providing a clear, unambiguous answer.",
+  "b_issues": "No source in Content B explicitly states the 'latest closing' price with a clear figure. Yahoo history table only shows an old close from Mar 31, 2026 ($9.02), CNN references a price change ($0.43) without giving the absolute number, and MarketWatch/CNBC snippets contain no explicit closing price value at all, leaving the LLM unable to confidently state the latest closing price.",
+  "reasoning": "The question asks for the latest closing price of PSKY. Content A contains a direct, unambiguous statement from Macrotrends: 'The latest closing stock price for Paramount Skydance as of July 17, 2026 is 8.75,' which exactly matches the anchor's reported close of $8.75. This gives a reliable, verifiable answer. Content B lacks any equivalent explicit statement of the most recent closing price — its Yahoo Finance data is outdated (showing a March close), and other sources mention price changes or current quotes without clearly identifying them as the latest close. Thus Content A better enables a correct answer."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 89,
+  "query": "Blue Origin TeraWave satellite communications network planned constellation size deployment schedule 2026",
+  "topic": "Blue Origin",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "None significant; all key facts (5,408 satellites, 5,280 LEO + 128 MEO, 6 Tbps, Q4 2027 deployment start) are accurate and consistent across sources.",
+  "b_issues": "None significant; same core facts as A, accurate and consistent, with slightly more technical detail (altitude shells) but fewer total sources.",
+  "reasoning": "Both content sets provide the same essential facts needed to answer the question: TeraWave will comprise 5,408 satellites (5,280 LEO + 128 MEO), offering up to 6 Tbps speeds, with deployment beginning Q4 2027. Both sets pull from reliable outlets (Blue Origin official press release, TechCrunch, SatNews) and are internally consistent with no contradictions. A includes Reuters and additional confirming sources (Lexology, FCC filing via Scribd), while B includes slightly more granular technical detail (MEO altitude shells) and a Starlink comparison. Neither has factual errors, and both fully answer the question equally well."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 840,
+  "query": "Taylor Swift Travis Kelce wedding date July 2026 announcement",
+  "topic": "Taylor Swift",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Includes the outdated/debunked June 13, 2026 Rhode Island rumor (WGN) without clarifying it was superseded; ArtistDirect and cjonline are lower-reliability sources though they corroborate the July 3 date.",
+  "b_issues": "Relies partly on an Instagram post as a source, which is less reliable in isolation, though its text content actually clarifies that the earlier Rhode Island rumor was debunked, aiding accuracy; also repeats the outdated WGN Rhode Island story.",
+  "reasoning": "Both sets converge on the correct, confirmed fact: Taylor Swift and Travis Kelce married July 3, 2026 at Madison Square Garden, officiated by Adam Sandler, as reported by CNN in both. Both also include the earlier, outdated June 13/Rhode Island speculation, which could confuse a reader, but Content B's Instagram excerpt explicitly notes that this earlier rumor was shut down, slightly improving clarity, while Content A leaves the contradiction unresolved. Overall the core answerable facts are equally present and accurate in both, making this a close call resulting in a tie."
+}

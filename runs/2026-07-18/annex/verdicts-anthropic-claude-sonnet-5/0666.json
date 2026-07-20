@@ -1,0 +1,11 @@
+{
+  "id": 666,
+  "query": "Ilya Sutskever departure OpenAI May 2024 date announcement new project",
+  "topic": "Ilya Sutskever",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; all sources consistently give May 14, 2024 as the departure date, mention Jakub Pachocki as new chief scientist, and note the vague 'personally meaningful' new project without elaboration. No contradictions.",
+  "b_issues": "Includes a source (contxto.com) that incorrectly states Sutskever announced his departure on May 15, contradicting the correct date of May 14, 2024 given by every other source (including the anchor and other entries in B itself). This creates an internal contradiction that could mislead the model on the exact date, even though B usefully includes the actual X post text.",
+  "reasoning": "Both sets convey the core facts: Sutskever left OpenAI on May 14, 2024, announced via X, replaced by Jakub Pachocki as chief scientist, and mentioned an unspecified 'personally meaningful' new project. Content A is internally consistent across all five reputable sources with no date discrepancies. Content B, despite including the valuable primary-source X post, contains a contradictory date (May 15) from a lower-quality source (contxto.com), introducing a factual inconsistency that undermines reliability. This makes A slightly more trustworthy for a clean, correct answer."
+}

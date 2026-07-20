@@ -1,0 +1,11 @@
+{
+  "id": 481,
+  "query": "Writers Guild Awards 2027 date WGA announcement",
+  "topic": "The WGA",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "The top result confirms the date (Saturday, February 13, 2027) but provides minimal supporting context beyond that single snippet; other results are largely about the 2026 awards and less directly useful for confirming details.",
+  "b_issues": "None significant; the featured snippet and top result both clearly state the same date (Saturday, February 13, 2027), consistent with content A, and additional results provide corroborating context about the 2026 ceremony without contradiction.",
+  "reasoning": "Both A and B contain the same core fact from the same official WGA press release URL confirming the 2027 Writers Guild Awards date as Saturday, February 13, 2027. However, B presents this fact more prominently via a featured snippet directly answering the query, and includes additional consistent context (e.g., WGAE communications contact, 2026 winners announcement) without contradiction. A's supporting results are more tangential (Reddit, Facebook) and less authoritative, while B's supporting results are all from official or reliable sources (WGA, WGAE, Wikipedia). This makes B slightly more robust and clear for answering the question correctly."
+}

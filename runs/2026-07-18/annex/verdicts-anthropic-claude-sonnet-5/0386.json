@@ -1,0 +1,11 @@
+{
+  "id": 386,
+  "query": "Meta Anthropic computing power lease deal value term report 2026",
+  "topic": "Meta",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor: includes tangential CapEx figures and unrelated lease commitments, but the core fact (Meta-Anthropic $10B deal over two years, monthly payments) matches the anchor accurately via The Verge, TechCrunch, and Invezz sources.",
+  "b_issues": "Does not contain the actual Meta-Anthropic compute lease deal details. The investing.com link has no content ('No information available'), the Reuters/HN links discuss unrelated Anthropic-Google and SpaceX-Anthropic deals, and Bloomberg/global-scale.io results are about general data center leasing, not the specific $10B Meta-Anthropic deal. An agent relying on this content would fail to state the deal's value ($10B) or term (2 years).",
+  "reasoning": "Content A directly surfaces the exact facts needed to answer the query—$10 billion deal, two-year term, monthly payments—corroborated across multiple sources (Verge, TechCrunch, Invezz), consistent with the anchor. Content B's results are largely tangential (general data center capex, Anthropic's own leasing plans, SpaceX-Anthropic compute deal, broken investing.com snippet) and never clearly state the $10B/two-year Meta-Anthropic deal terms, making it insufficient to answer the question correctly."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 917,
+  "query": "Sam Darnold Seahawks Super Bowl LX performance stats passing yards touchdowns",
+  "topic": "Super Bowl",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Includes an SI.com snippet citing '9-of-22 for 88 yards' and a Facebook post citing 'start to the game: 6-of-17, 67 yards' which are partial/in-game figures that could be mistaken for final stats, creating potential confusion; also includes a PFR snippet with career/season totals unrelated to the Super Bowl.",
+  "b_issues": "Also mixes in season-long stats (ESPN regular season line, prizepicks regular season totals) but consistently and clearly labels the Super Bowl LX final stats (19/38, 202 yards, 1 TD) across multiple independent sources (NFL.com, Yahoo Sports, DraftKings, Seahawks.com) without conflicting partial-game figures.",
+  "reasoning": "Both sets ultimately surface the correct final stat line (19/38, 202 passing yards, 1 TD), matching the ESPN box score anchor. However, Content A includes fragments (SI.com's '9-of-22/88 yards' and Facebook's '6-of-17/67 yards') that represent partial-game or mid-game stats without clear context, risking misinterpretation as final totals. Content B's results consistently reinforce the same final numbers across several reputable outlets and even name the touchdown recipient (AJ Barner) and additional corroborating context, making it slightly more reliable and less prone to causing confusion in an LLM's answer."
+}

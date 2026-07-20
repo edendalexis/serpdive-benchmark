@@ -1,0 +1,11 @@
+{
+  "id": 541,
+  "query": "Eurosystem Collateral Management System ECMS launch date status 2025",
+  "topic": "European Central Bank",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "None significant; all results consistently confirm the ECMS launched successfully on 16 June 2025, matching the anchor.",
+  "b_issues": "B's results are dominated by pre-launch announcements (October 2024 rescheduling notice, 'first half of 2025' Clearstream article, LinkedIn piece) rather than confirmation that the launch actually occurred and succeeded. The featured snippet only says a press release was published announcing the planned date, not that the launch happened. Only one ECB link (mipnews241024) mentions the June 16 date, but no result in B confirms the actual go-live status/completion in June 2025, leaving the 'status' part of the question unanswered or ambiguous.",
+  "reasoning": "The question asks for both the launch date and current status in 2025. Content A directly provides both: the ECB and Bundesbank sources confirm the ECMS was successfully launched on 16 June 2025, giving a clear, accurate, and non-contradictory answer. Content B's results are mostly historical/pre-launch (announcing the planned date in October 2024, rescheduling notices, and pre-launch preparation advice from Clearstream), none of which confirm the actual successful launch outcome, making it less useful for determining the current 2025 status despite mentioning the same date."
+}

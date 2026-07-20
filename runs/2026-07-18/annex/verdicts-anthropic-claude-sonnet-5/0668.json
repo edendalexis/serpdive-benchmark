@@ -1,0 +1,11 @@
+{
+  "id": 668,
+  "query": "Safe Superintelligence SSI latest funding round valuation 2026 investors total raised",
+  "topic": "Ilya Sutskever",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A consistently reports SSI raising $1B (Sept 2024) then $2B (April 2025) for a total of $3B at a $32B valuation, led by Greenoaks Capital. It does not surface the more recent $6B total-funding figure (per PitchBook/startuphub in the anchor), so it may be slightly dated for a 2026 'latest' figure, but internally it is coherent and corroborated by multiple independent, reputable sources (Reuters, Crunchbase News, BuiltInSF, LinkedIn, Latka).",
+  "b_issues": "Content B contains multiple internal contradictions: startuphub claims $6B total raised, upmarket's own snippet mentions both a $37B valuation and a $32B valuation in the same passage, Reddit gives an early $5B valuation, and Tracxn says the latest round (July 2025) was for an 'undisclosed amount' while other sources cite $2B/$3B specifics. These conflicting figures are not reconciled, making it harder to extract a single accurate, confident answer.",
+  "reasoning": "Both sets draw from similar underlying (and somewhat conflicting) real-world reporting, but Content A presents a cleaner, mutually reinforcing narrative ($1B + $2B = $3B raised, $32B valuation, Greenoaks-led round) drawn from higher-reliability sources like Reuters and Crunchbase News. Content B includes more numerical inconsistencies (37B vs 32B, 6B vs 3B, undisclosed vs specific amounts) that could mislead or confuse an LLM trying to give a single coherent answer, even though it does surface the more current $6B figure via startuphub. Overall, A's internal consistency and sourcing quality give it an edge for producing a correct, confident answer."
+}

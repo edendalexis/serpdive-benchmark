@@ -1,0 +1,11 @@
+{
+  "id": 684,
+  "query": "Shein Hong Kong IPO listing status 2026 headquarters relocation China",
+  "topic": "Shein",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Contains a minor factual inconsistency (Yahoo/Bloomberg piece says Shein moved HQ to Singapore in 2021, while more authoritative sources like Guardian/Reuters/SCMP say 2022). More importantly, Content A omits any mention of the widely reported narrative that Shein was considering moving its headquarters back to China to facilitate the Hong Kong listing — a key part of the question ('headquarters relocation China') that is present in the anchor.",
+  "b_issues": "Does not include the very latest anchor development (July 17, 2026 news that Shein passed its HKEX listing hearing/committee approval), so it is slightly behind the most current status, though it does cover the July 10 CSRC approval and valuation details.",
+  "reasoning": "Both sets cover the core fact of Shein's July 10, 2026 CSRC approval for a Hong Kong IPO, valuation figures (~$40-50B), and the Singapore headquarters background. However, the question specifically asks about 'headquarters relocation China,' which refers to reports that Shein considered moving its base back to China to enable the HK listing. Content B includes this exact story via the Guardian article, matching the anchor's second source directly. Content A omits this narrative entirely, and additionally contains a small factual slip on the Singapore relocation year (2021 vs. the correct 2022). Neither set includes the most recent July 17 hearing-approval news from the anchor, so both are slightly behind on the very latest status, but B better addresses all parts of the question with more internally consistent and complete information."
+}

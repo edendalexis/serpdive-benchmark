@@ -1,0 +1,11 @@
+{
+  "id": 936,
+  "query": "Klarna Q2 2026 revenue guidance full-year 2026 outlook investor release",
+  "topic": "Klarna",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "The Klarna investor-relations snippet is truncated at 'GMV of $35.5...' and never gives the actual Q2 revenue guidance figures or the full-year 2026 outlook numbers. The PDF snippet also cuts off before stating the FY26 guidance range. So an LLM using only Content A would know guidance exists but not the specific revenue figures.",
+  "b_issues": "No significant factual flaws; the StockTitan snippet accurately reflects Klarna's reiterated FY26 guidance and gives specific Q2 2026 guidance figures (GMV $35.5-36.5B, revenue $960M-$1.0B, transaction margin $375-395M, adj. operating profit $30-50M).",
+  "reasoning": "Both sets include the same core sources, but Content B contains a StockTitan excerpt that explicitly states the specific Q2 2026 revenue guidance range ($960M-$1.0B) and confirms reiteration of FY26 guidance, directly answering the question. Content A's relevant snippets are truncated before revealing the actual revenue guidance numbers, leaving the answer incomplete."
+}

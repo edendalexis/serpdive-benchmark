@@ -1,0 +1,11 @@
+{
+  "id": 791,
+  "query": "Alcide Ponga president New Caledonia administration policies 2025",
+  "topic": "New Caledonia",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Some biographical details (e.g., Wikipedia's odd '11th President' label) are slightly inconsistent, but overall factual; no major errors on policy content.",
+  "b_issues": "Mostly biographical/background information about Ponga's rise to power; lacks any concrete policy details for 2025 (budget, reforms, health system, economic measures) that the question specifically asks about.",
+  "reasoning": "The question asks about Ponga's administration policies in 2025. Content A includes a YouTube video description that details specific 2025 policy actions (budget austerity, ending tax loopholes, debt negotiations with the French state, nickel crisis response) which aligns closely with the anchor's policy-focused declaration. Content B, while accurate biographically, provides no substantive policy information for 2025, focusing almost entirely on Ponga's personal background and election context. Thus A better enables an LLM to answer the specific question about administration policies."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 832,
+  "query": "Julian Assange 14-year legal saga conclusion date outcome",
+  "topic": "Julian Assange",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Contains an internal date inconsistency (one snippet says Assange pleaded guilty on June 24, 2024, while another says June 26, 2024). This minor discrepancy could confuse the exact date, though both refer to the same event due to timezone differences between the U.S. and Saipan/Australia.",
+  "b_issues": "Provides no explicit date for the plea/conclusion beyond 'Wednesday,' making it harder to pinpoint the exact date (June 25 or 26, 2024) without cross-referencing other sources; also includes tangential timeline entries (e.g., 2019 Ecuador embassy event) that don't directly address the conclusion date.",
+  "reasoning": "Both sets correctly convey the core outcome: Assange pleaded guilty to an Espionage Act charge, was sentenced to time served, and was freed after a 14-year legal battle, aligning with the anchor's reference. However, Content A provides more specific and reinforcing details (e.g., 'sentenced Wednesday to time served,' explicit dates for plea and extradition events) that closely match the anchor's factual outline. Content B, while consistent, is vaguer about the exact date and outcome mechanics, relying on generic phrasing like 'years-long saga' and 'abrupt end' without concrete dates. Despite a minor date inconsistency in A, it still supplies more actionable, corroborating detail for answering the question accurately."
+}

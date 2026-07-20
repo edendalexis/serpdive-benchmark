@@ -1,0 +1,11 @@
+{
+  "id": 793,
+  "query": "New Caledonia 2026 referendum State of New Caledonia date results",
+  "topic": "New Caledonia",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A only covers the 28 June 2026 provincial/legislative elections and their results (turnout, seat counts) but never explicitly connects this to the Bougival Accord's referendum plan or clarifies that the actual constitutional referendum on the 'State of New Caledonia' was postponed indefinitely, potentially causing an LLM to conflate the provincial election results with the referendum outcome.",
+  "b_issues": "Also conflates provincial election coverage with the referendum question and does not explicitly state the referendum was delayed indefinitely, but it does include the crucial detail from Wikipedia that the Bougival Accord 'would have scrapped any future referendums on independence' and that legislative elections were 'postponed again following the Bougival Accord,' giving more accurate context about the accord's referendum implications.",
+  "reasoning": "Neither source set explicitly states the anchor's key fact that the local referendum was 'delayed indefinitely,' and both sets mix in coverage of the 28 June 2026 provincial elections as if related to the referendum. However, Content B includes an important clarifying detail (Bougival Accord would scrap future referendums, elections postponed due to the Accord) that gives an LLM more accurate context to correctly note that no referendum results exist and that the accord altered referendum plans, whereas Content A only provides election results without any linkage to the referendum's status, making it more likely to produce a factually confused answer."
+}

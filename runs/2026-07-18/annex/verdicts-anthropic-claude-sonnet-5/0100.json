@@ -1,0 +1,11 @@
+{
+  "id": 100,
+  "query": "Boeing Q2 2026 commercial defense deliveries total by program",
+  "topic": "Boeing",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "One secondary source (pluang.com) incorrectly states that Boeing delivered 'a total of 65 defense aircraft' in Q2 2026, when 65 is actually the year-to-date figure (35 is the Q2 figure per the official press release and the anchor). This creates an internal inconsistency in the search results, though the majority of A's sources (StockTitan, Sahm Capital, and the actual investors.boeing.com excerpt) correctly report 35 Q2 / 65 YTD.",
+  "b_issues": "None of the sources directly quote the official press release's per-program breakdown table (e.g., AH-64 New/Remanufactured, CH-47 New/Renewed, F-15, F/A-18, MH-139, P-8 individual figures). Only KC-46 (4/8) and the commercial breakdown by model are given in detail; other defense programs are only named, not quantified.",
+  "reasoning": "Both sets agree on the key aggregate figures (171 commercial Q2/314 YTD; 35 defense Q2/65 YTD). Content A includes an actual excerpt from the official investors.boeing.com press release showing per-program defense numbers (AH-64 Apache New: 6, etc.), which is exactly the 'total by program' breakdown the question asks for, and this matches the anchor precisely. Content B lacks this level of per-program defense detail, only naming programs without quantifying most of them. While A contains one outlier (pluang.com) that misstates the Q2 defense total as 65, the preponderance of A's other sources—including the primary press release—correctly state 35, so a careful reading still yields the correct answer. Overall, A provides more complete and directly sourced program-level data despite the minor contradiction, making it more useful for answering the specific question about totals by program."
+}

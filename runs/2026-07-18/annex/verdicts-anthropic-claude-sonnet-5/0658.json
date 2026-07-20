@@ -1,0 +1,11 @@
+{
+  "id": 658,
+  "query": "UNRWA 2026 budget shortfall $100 million latest donor pledges status May 2026",
+  "topic": "United Nations Relief and Works Agency for Palestine Refugees in the Near East",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Provides useful historical context (2025 pledges $878M vs received $839M) but lacks specific 2026 donor pledge status figures. Includes an irrelevant result (donortracker.org UNHCR pledging conference, not UNRWA) that dilutes relevance. Multiple results are redundant reposts of the same UN News article.",
+  "b_issues": "The UN Watch tweet is a secondary/advocacy source rather than a primary UN or major news outlet, though the quote appears consistent with other reporting. Some result snippets are terse and require inference to connect figures.",
+  "reasoning": "Both share the same top anchor article, but Content B provides more specific, directly relevant data on the 2026 pledging conference outcome: UNRWA's own campaign page states it received only $313 million of $817 million needed, a tweet confirms pledges did not significantly reduce the $100M cashflow deficit, and Reuters reports the agency is 'nearing breaking point' with 20% cuts to service hours. This directly answers the 'latest donor pledges status' portion of the query. Content A instead includes an off-topic UNHCR donor tracker result and redundant reposts of the same article, offering less new information about the actual 2026 pledge outcomes."
+}

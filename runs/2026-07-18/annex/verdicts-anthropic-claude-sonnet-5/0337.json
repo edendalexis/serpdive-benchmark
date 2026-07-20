@@ -1,0 +1,11 @@
+{
+  "id": 337,
+  "query": "upcoming Longlegs universe movie January 2028 release standalone sequel producers Brian Kavanaugh-Jones Chris Ferguson Dave Caplan",
+  "topic": "Longlegs",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "None significant; all sources consistently confirm the Jan 14, 2028 release date, producers Brian Kavanaugh-Jones, Osgood Perkins, Chris Ferguson, Dave Caplan, and Nicolas Cage, and that it's not a traditional sequel but a film in the Longlegs universe.",
+  "b_issues": "Includes a featured snippet and Deadline/HR results confirming the same facts (date, producers, universe framing). One result (networkisa.org) is low-quality/irrelevant with no real content, but this doesn't detract from the other reliable sources present.",
+  "reasoning": "Both Content A and Content B provide the key facts needed to answer the question accurately: the release date of January 14, 2028, the producers (Brian Kavanaugh-Jones, Chris Ferguson, Dave Caplan, plus Perkins and Cage), and the clarification that this is not a direct sequel but a film set in the Longlegs universe, from Paramount. Both draw on the same reliable sources (Deadline, Hollywood Reporter, IndieWire, ThatHashtagShow) with consistent, non-contradictory information. Content A has slightly more redundant sources but no errors. Content B has one weak/irrelevant result (networkisa.org) but compensates with a clear featured snippet and equally reliable sourcing. Overall, both sets equally enable a correct answer."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 567,
+  "query": "Hades II Odysius Arachne prophecy narrated conclusion scene Faded list updated artwork quality of life update",
+  "topic": "Hades II",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Neither result set actually contains the key facts from the anchor (that Post-Launch Patch 2 added narrated conclusion scenes for Odysseus and Arachne prophecies, viewable in the Fated List, alongside QoL updates). Content A focuses only on the Arachne 'Silk and Spitefulness' achievement/trophy walkthroughs, with no mention of the narrated conclusion scene update, the patch, Odysseus, or quality-of-life changes.",
+  "b_issues": "Content B also fails to surface the specific patch notes about narrated conclusions for Odysseus and Arachne. One result is a Steam guide for the Arachne achievement (similar to A), and the other is about a different, earlier update ('The Unseen Update') which is unrelated to the queried Post-Launch Patch 2 and does not mention Odysseus, Arachne conclusion scenes, or the Fated List update in question.",
+  "reasoning": "Both content sets miss the actual answer found in the anchor (Post-Launch Patch 2 adding narrated conclusion scenes for Odysseus and Arachne prophecies in the Fated List, plus QoL changes). A only has Arachne achievement guides, B has one similar Arachne guide plus an unrelated update's wiki page. Neither set provides the specific patch information needed to answer the question correctly, making them equally inadequate."
+}

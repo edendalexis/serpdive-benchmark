@@ -1,0 +1,11 @@
+{
+  "id": 852,
+  "query": "SAG-AFTRA 2025 Interactive Media Agreement ratification vote percentage compensation increases AI protections July 2025 video game strike end",
+  "topic": "SAG-AFTRA",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "One secondary source (ipandmedialaw.fkks.com) mistakenly cites the compensation increase as 'compounded 15.7%' instead of the correct 15.17% figure, creating a minor internal inconsistency; ratification percentage is stated as 95.04% (from Wikipedia) or ~95% (from fkks) rather than the precise 95.04% to 4.96% split, though this is still accurate.",
+  "b_issues": "Provides the precise 95.04% to 4.96% vote split and correct 15.17% compensation figure consistently across multiple sources, but lacks explicit detail on the specific AI protection provisions (e.g., consent/disclosure requirements for digital replicas, ability to suspend consent during a strike) that are directly relevant to the question.",
+  "reasoning": "Both sets agree on the core facts: 95.04% approval, 15.17% compounded pay increase with additional 3% annual raises, and the strike's end in July 2025. Content A includes a direct, detailed description of the AI protections (consent/disclosure requirements, suspension of consent during strikes) sourced from SAG-AFTRA's official announcement, which is a key part of the question. Content B has more consistent vote percentage reporting but omits explicit AI protection details, only vaguely referencing 'informed consent and fair compensation' via Variety. Since the question explicitly asks about AI protections, Content A's inclusion of that specific detail gives it an edge despite one source's minor numerical typo (15.7% vs 15.17%), which is outweighed by the majority of consistent sources confirming 15.17%."
+}

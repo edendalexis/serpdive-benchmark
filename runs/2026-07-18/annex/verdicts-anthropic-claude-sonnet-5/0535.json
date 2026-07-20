@@ -1,0 +1,11 @@
+{
+  "id": 535,
+  "query": "Mattel Illumination Barbie animated feature film development 2025 announcement",
+  "topic": "Barbie",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "None significant; slightly thinner per-result detail but covers the core facts (deal signed, first animated theatrical Barbie, Illumination/Universal involvement, no release date/talent yet) across multiple reputable sources without contradiction.",
+  "b_issues": "None significant; fewer sources but richer excerpts, adds tangential detail about Mattel's other IP projects (Hot Wheels, Whac-A-Mole, etc.) which is accurate and doesn't detract from the core answer.",
+  "reasoning": "Both content sets present the same core facts accurately and consistently: Illumination and Mattel Studios finalized a deal for Barbie's first animated theatrical feature, to be released by Universal Pictures, announced around July 17-18, 2025, with no release date or creative talent confirmed yet. Sources in both are reputable (Deadline, People, Kidscreen, TheWrap, CinemaExpress) and neither contains factual errors or internal contradictions. The extra context in B (other Mattel IP projects) and the extra sources in A (Animation Magazine) are supplementary but do not change the ability to correctly answer the question. Overall, both are equally sufficient."
+}

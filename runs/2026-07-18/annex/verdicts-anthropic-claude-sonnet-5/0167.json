@@ -1,0 +1,11 @@
+{
+  "id": 167,
+  "query": "Rivian Greg Revelle appointed Chief Customer Officer date January 2026 background customer experience role",
+  "topic": "Rivian",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Minor: relies on secondary/aggregator sites (sahmcapital, streetinsider, etc.) rather than primary sources, but all facts are consistent (Jan 12, 2026 appointment, background at Kohl's, Best Buy, AutoNation, Expedia, founder of Revatek, Cars.com board member, oversight of sales/marketing/operations).",
+  "b_issues": "LinkedIn snippet contains a confusing/contradictory update suggesting Revelle 'is stepping into a new role leading Strategic and Technology Partnerships for Rivian x Volkswagen,' which muddies his actual CCO role. WardsAuto snippet is truncated ('Revatek however, ceased operations on Jan.') and includes irrelevant financial loss details not tied to the appointment. Overall less coherent and includes potentially misleading tangential info.",
+  "reasoning": "Both sets confirm the core facts (Jan 12, 2026 appointment, CCO title, prior roles at Kohl's, Best Buy, AutoNation, Expedia, Revatek founder, Cars.com board seat, oversight of customer journey/go-to-market). However, Content A presents this consistently across five sources without contradiction, making it easier for an LLM to extract a clean, accurate answer. Content B includes a LinkedIn snippet that introduces a confusing, seemingly contradictory detail about Revelle's role shifting to Volkswagen partnerships, and a truncated/irrelevant WardsAuto excerpt about Revatek ceasing operations and Rivian's Q3 losses, which could lead to inaccurate or muddled answers."
+}

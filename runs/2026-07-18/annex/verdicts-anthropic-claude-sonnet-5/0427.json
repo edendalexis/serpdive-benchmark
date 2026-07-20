@@ -1,0 +1,11 @@
+{
+  "id": 427,
+  "query": "Rafah crossing operator management Egypt EU monitors reopening 2026 agreement",
+  "topic": "Rafah",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A consists mostly of generic background/history pages about Rafah crossing (Wikipedia, Britannica, MSF) with little specific detail on the 2026 reopening agreement, EU monitoring role, or Egypt's management. The Wikipedia snippet only briefly mentions the 2 Feb 2026 reopening and a later closure due to 'Iran war' without explaining who operates/manages the crossing or the specifics of the EU/Egypt arrangement.",
+  "b_issues": "Minor lack of detail on Egypt's specific operational role, but otherwise consistent and relevant.",
+  "reasoning": "Content B directly addresses the query with multiple sources (EEAS, Al Jazeera, The Arab Weekly, DW, Le Monde) that explain the EU's monitoring role (EUBAM Rafah), coordination with Egypt and Israel, the ceasefire/peace plan context, and specific details like troop movements, patient crossings, and quotes from EU officials (Kaja Kallas). It even covers a later reopening in March after a pause, giving a fuller timeline. Content A is largely generic encyclopedia content lacking specifics on the operator/management structure or EU's monitoring role, making it far less useful for answering the specific question about the 2026 agreement and EU/Egypt coordination."
+}

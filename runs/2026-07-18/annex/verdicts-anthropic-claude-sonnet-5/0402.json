@@ -1,0 +1,11 @@
+{
+  "id": 402,
+  "query": "EU AI Act AI Omnibus annex III high-risk systems compliance deadline extension annex I regulated products deadline official text 2026",
+  "topic": "EU AI Act",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A contains an internal contradiction: compliancehub.wiki states Annex I obligations apply from 'August 2, 2027' while verifywise.ai and innovaiden.com (also in A) state Annex I is deferred to 2 August 2028. This conflicting date could mislead an LLM into giving an incorrect answer. Otherwise the Annex III date (2 December 2027) is consistent across A's sources.",
+  "b_issues": "No significant factual flaws; all sources in B consistently state Annex III deferred to 2 December 2027 and Annex I deferred to 2 August 2028, matching the anchor (Gibson Dunn) figures. Minor: one source repeats the original 2 August 2027 as the pre-omnibus Annex I deadline, but clearly distinguishes it as the prior/original date, not the new one, avoiding contradiction.",
+  "reasoning": "Both sets cover the same core facts (Digital Omnibus agreement, Annex III postponed to 2 Dec 2027, Annex I postponed to 2 Aug 2028, political agreement reached 6-7 May 2026), matching the anchor. However, Content A includes a source (compliancehub.wiki) that states an inconsistent Annex I deadline of August 2027, contradicting other entries within the same result set and the anchor's stated 2028 date. Content B's sources are mutually consistent and align precisely with the anchor's figures, making it more reliable for accurately answering the question."
+}

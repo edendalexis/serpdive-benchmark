@@ -1,0 +1,11 @@
+{
+  "id": 847,
+  "query": "Travis Kelce NFL training return date July 2026",
+  "topic": "Taylor Swift",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "TMZ source is questionable and gives a vague relative date ('training camp in 12 days') rather than an exact date; the Instagram post cites training camp running July 30-Aug 20, which is off by one day from the officially announced July 29-Aug 20 window (per the anchor). These minor date discrepancies could lead to a slightly imprecise answer.",
+  "b_issues": "None of the results are Chiefs-specific for the July 2026 report/training date - they only give generic league-wide veteran report windows (July 21-28) without tying it to Kelce or the Chiefs' actual July 29 date from the anchor. The Kelce-specific article (Yahoo) is about his contract decision back in early 2026, not his July training return, so it doesn't directly address the question's temporal focus.",
+  "reasoning": "The question specifically asks about Travis Kelce's training return date in July 2026. Content A, despite using a less authoritative source (TMZ) and having a minor date inconsistency, directly addresses Kelce's personal return to training and gives concrete (if approximate) July 2026 dates tied to Chiefs camp. Content B provides only generic, team-agnostic NFL report date ranges and repeats older (March 2026) news about Kelce's contract decision, without connecting to the specific July 2026 training return date the question asks about. Thus A better enables a relevant, dated answer, even though its source reliability is imperfect."
+}

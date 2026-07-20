@@ -1,0 +1,11 @@
+{
+  "id": 116,
+  "query": "LVMH Q1 2026 financial results fashion leather goods sales decline 2% organic Middle East Iran war impact",
+  "topic": "LVMH",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Includes an off-topic Forbes article about a different reporting period (Jul 2025) that could cause confusion about which quarter's decline is referenced; the globalbankingandfinance snippet attributes CFO comments to 'Cecile Cabanis' as 'finance chief,' which is likely an inaccurate title/attribution that could mislead about who made the Middle East traffic-decline statement; a LinkedIn result adds unrelated comparisons (Richemont, Gap, H&M) that add noise without harming core facts.",
+  "b_issues": "No significant factual errors identified; all sources consistently report the 2% organic decline in Fashion & Leather Goods, €9.2-9.25bn revenue, and ~1ppt Middle East/Iran war drag on group organic growth.",
+  "reasoning": "Both sets contain the core correct facts (Fashion & Leather Goods down 2% organically, group revenue €19.1bn, +1% organic growth, Middle East/Iran war impact ~1ppt). However, Content B's results are more tightly focused on the exact question, cross-confirming the same figures (InsiderFinance, LVMH official release, Crain, Yahoo Finance) without introducing extraneous or potentially inaccurate details. Content A includes an off-topic 2025 Forbes piece and a questionable attribution of finance-chief commentary, which could introduce confusion or minor inaccuracies for an LLM synthesizing the answer."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 988,
+  "query": "Sundar Pichai net worth valuation 2026 billionaire club",
+  "topic": "Sundar Pichai",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Does not surface Forbes' real-time $1.7B figure (only bio text); relies on Bloomberg's $1.1B figure from mid-2025 rather than a 2026-dated figure, so it's slightly dated relative to the 2026 query.",
+  "b_issues": "Relies on low-quality/unreliable sources (Facebook post, Instagram caption) for core facts; quiverquant gives a conflicting $1.0B figure vs the $1.1B cited elsewhere, creating minor inconsistency; no NY Post-level detail or authoritative Forbes/Yahoo sourcing beyond duplicates already in A.",
+  "reasoning": "Both sets converge on the same core fact (Pichai became a billionaire with ~$1.1B net worth per Bloomberg), but Content A sources this from more reputable outlets (Yahoo Finance, NY Post, Times of India, Forbes profile) with additional context (Page/Brin comparison, cricket investment) and no internal contradictions. Content B includes lower-quality sources (Facebook, Instagram) and introduces a conflicting figure ($1.0B from quiverquant vs $1.1B elsewhere), reducing reliability. Neither surfaces the Forbes $1.7B real-time figure from the anchor, but A's overall source quality and consistency make it more suitable for accurately answering the question."
+}

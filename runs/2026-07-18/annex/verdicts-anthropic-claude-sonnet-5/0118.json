@@ -1,0 +1,11 @@
+{
+  "id": 118,
+  "query": "Repossi Place Vendome heritage anniversary celebration July 15 2026 LVMH details",
+  "topic": "LVMH",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Includes the LVMH/MarketScreener piece confirming the July 15, 2026 publication date and general 40th-anniversary tribute, but lacks specific details about the celebration (e.g., Rem Koolhaas redesign anniversary, the exclusive jewellery pieces). Two of its three results are about an unrelated LVMH event (Journées Particulières, Oct 2026), which could mislead or dilute the answer.",
+  "b_issues": "The LVMH Facebook post result is cluttered with irrelevant SVG/CSS code, though the actual textual content is accurate and relevant. Otherwise no major factual errors.",
+  "reasoning": "Both sets include the same MarketScreener article confirming LVMH published the Repossi anniversary story on July 15, 2026. However, Content B additionally provides the LVMH Facebook post with specific, accurate details matching the anchor context (40 years at 6 Place Vendôme, 10 years since Rem Koolhaas/OMA redesign, and specific jewellery pieces like Antifer Heart earrings and Berbère Chromatic ring), plus corroborating Repossi and Instagram sources. Content A instead pads its results with details about an unrelated LVMH event (Journées Particulières), which do not help answer the specific question about the Repossi anniversary details. Thus B offers more complete, accurate, and directly relevant information."
+}

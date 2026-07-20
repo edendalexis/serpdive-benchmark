@@ -1,0 +1,11 @@
+{
+  "id": 966,
+  "query": "Narendra Modi Haryana Punjab July 17 2026 schedule itinerary official visit details",
+  "topic": "Narendra Modi",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "The PM India snippet in A cuts off before giving Chandigarh's specific project value or timing, and never mentions the Jalandhar (Punjab) leg's rupee figure. The only detailed schedule times given are for Jind (11 AM, 11:30 AM); no explicit time for the Chandigarh stop is provided. The babushahi.com result promises a 'minute-to-minute schedule' but the excerpt does not actually deliver it, so much of the itinerary must be inferred from disparate secondary articles with slightly differing total figures (Rs 24,800cr, 25,000cr, 26,800cr).",
+  "b_issues": "The Tribune excerpt says the visit falls on 'Wednesday,' which appears to be an error (other reporting, including the anchor's own TOI/Statesman excerpts, refers to the day as Friday). This is a minor inconsistency that could mislead on the day-of-week, though it does not affect the core schedule/monetary details.",
+  "reasoning": "Both sets draw heavily on the same official pmindia.gov.in release and agree on the core facts (hydrogen train Jind-Sonipat, ~Rs 26,800cr total, Amrit Bharat stations, PGIMER/PEC in Chandigarh). However, Content B's pmindia.gov.in excerpt and supporting sources (UNI/Facebook, bignewsnetwork/ANI) give a more complete and specific breakdown matching the anchor almost verbatim: Jind ₹14,700cr with times (11 AM/11:30 AM), Chandigarh ₹6,600cr at 1:45 PM, and Jalandhar/Punjab rail-road ₹5,470cr with Haryana highway ₹12,470cr — details A largely lacks (A stops short of Chandigarh's figure/time and omits Jalandhar's figure entirely). B's one flaw (Tribune's 'Wednesday' mention) is a minor, non-central error, whereas A's gaps are more consequential to actually reconstructing the itinerary asked about in the query."
+}

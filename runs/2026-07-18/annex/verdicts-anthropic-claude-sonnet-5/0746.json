@@ -1,0 +1,11 @@
+{
+  "id": 746,
+  "query": "Supreme Court reject appeal Texas police officer convicted shooting woman window",
+  "topic": "U.S. Supreme Court",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Contains the correct core facts (Aaron Dean, manslaughter conviction, Atatiana Jefferson, ~12-year sentence) via the police1 excerpt, but also mixes in three unrelated results about a different Supreme Court case (Felix/Barnes traffic-stop shooting lawsuit) that could confuse an LLM trying to isolate the requested facts, even though those results are clearly distinguishable as a civil suit, not a criminal appeal.",
+  "b_issues": "Contains the correct core facts via the police1 snippet and corroborating tweet/YouTube titles, but includes an unrelated case (Amber Guyger/Botham Jean) which, while factually accurate for that case, is irrelevant noise that could be mistaken as related to the query since it's also a Texas officer appeal denial.",
+  "reasoning": "Both sets provide the essential correct facts needed to answer the question—Aaron Dean, convicted of manslaughter for shooting Atatiana Jefferson through a window, sentenced to nearly 12 years, appeal rejected by the Supreme Court—primarily through the shared police1.com excerpt. Neither set contains factual errors in the relevant material, and both include extraneous but not contradictory content about unrelated Texas police shooting cases. The extra noise in each does not corrupt the answerable facts, so the two are roughly equivalent in enabling a correct answer."
+}

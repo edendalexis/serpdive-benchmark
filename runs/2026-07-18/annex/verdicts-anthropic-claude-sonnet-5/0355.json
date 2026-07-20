@@ -1,0 +1,11 @@
+{
+  "id": 355,
+  "query": "Pope Leo XIV Vatican Apostolic Library new exhibition cycle July 2026 title theme",
+  "topic": "Pope Leo XIV",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Contains a minor date inconsistency (gaudiumpress mentions Sept. 25, 2026 – May 14, 2027 for the exhibition run, while other sources state Sept. 14 as the inauguration date), which could cause slight confusion but doesn't contradict the core naming/theme facts.",
+  "b_issues": "No significant factual flaws; the catholicworldreport snippet is truncated but the core facts (title, date, theme, artists) remain accurate and consistent across sources.",
+  "reasoning": "Both sets of results converge on the same core facts: the exhibition cycle is titled 'Catastrophe and Wonder', its first chapter is 'AQVA', it will be inaugurated by Pope Leo XIV on September 14, 2026, at the Vatican Apostolic Library, focusing on water as a threat/resource, featuring artists JR, Bill Moran, and Fulvio Pierangelini. Content B adds a bit more context (partnership details, Monsignor Pagazzi quote, historical background) but Content A's essential facts are equally correct and sufficient to answer the question. The minor date discrepancy in A (Sept. 25 opening) is a small nuance rather than a contradiction of the main title/theme facts. Overall, both provide equally reliable and accurate information to answer the question correctly."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 949,
+  "query": "Cybercab Gigafactory Texas drone footage count newly built units lacking driver controls side mirrors",
+  "topic": "Cybercab",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A gives multiple different counts (14, 60, 102) drawn from different dates/events without clarifying which ones actually lack steering wheels/mirrors; the 60-unit sighting (per the anchor) still had visible steering wheels, but A's snippet doesn't note that, risking confusion. It also relies on lower-reliability sources (Facebook post, Instagram reel) whose content is vague about mirror/driver-control status for the larger counts.",
+  "b_issues": "The first result's snippet doesn't repeat the specific '14' figure (though it's from the same article family as A's top hit), and one source (eletric-vehicles.com) is less well-known, but the count and details it provides (14 units, no steering wheel, side mirrors being removed) are consistent and match the anchor's reporting.",
+  "reasoning": "Both sets contain the key fact that roughly 14 Cybercab units without steering wheels were spotted via drone footage, matching the anchor's EVwire figure. However, Content B's sources (notateslaapp, eletric-vehicles, driveteslacanada) consistently and clearly tie the '14' count to units missing driver controls and mention Tesla's plan to remove side mirrors, directly answering the compound question. Content A mixes in unrelated, larger counts (60, 102) from different sightings without clarifying that those units still had steering wheels (per the anchor's own teslanorth citation), and it leans on less reliable social media sources (Facebook, Instagram) for the mirror-related claim, increasing the risk of a confused or inaccurate answer."
+}

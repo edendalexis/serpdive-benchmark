@@ -1,0 +1,11 @@
+{
+  "id": 923,
+  "query": "Wicked For Good trailer first 24 hours views",
+  "topic": "Wicked",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A provides only short snippets without full context; while it does contain the correct 113 million figure and 75 million comparison, the snippets are terse and some results (X/Twitter, YouTube) are less authoritative sources, though they still corroborate the figure.",
+  "b_issues": "No significant factual flaws; content is consistent with the anchor and provides fuller context.",
+  "reasoning": "Both A and B contain the core fact (113 million views in 24 hours, surpassing 75 million for the first film) sourced from Variety and corroborated by Broadwayworld, Collider, and Today. However, Content B provides fuller, more detailed excerpts from reliable sources (Variety, Today, Broadwayworld, Collider) including additional context like the release date and comparison figures, plus a featured snippet that directly answers the question. Content A's snippets are shorter and includes less authoritative sources (a tweet, a YouTube video) without as much substantive detail, though the core fact is still present. Both are accurate and non-contradictory, but B offers richer, more directly usable content for answering the question."
+}

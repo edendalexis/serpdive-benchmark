@@ -1,0 +1,11 @@
+{
+  "id": 545,
+  "query": "ECB TIBER-EU framework DORA updated framework publication date cyber resilience 2025",
+  "topic": "European Central Bank",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Includes a LinkedIn post as a source (lower reliability, though not contradicting facts) and adds a separate Nov 2025 SSM Implementation Guide, which is accurate but could be confused with the 'updated framework' itself.",
+  "b_issues": "Includes a note about the original 2018 publication date, which could be conflated with the 2025 update if not read carefully, and relies on a CybrOps blog for the Jan 17, 2025 effective date rather than an ECB primary source.",
+  "reasoning": "Both sets contain the core, mutually consistent facts: the TIBER-EU framework document is dated January 2025, and the ECB officially announced the DORA-aligned update on 11 February 2025, via the same authoritative ECB press release. Neither set contradicts itself internally, and both draw on the same primary ECB source plus secondary commentary (regulationtomorrow, deepstrike, etc.) that corroborate the dates. The extra items in each (A's Nov 2025 SSM guide, B's 2018 original publication note) are accurate historical/contextual facts rather than errors, and don't materially help or hinder answering the specific question about the 2025 update date. Overall, both equally enable a correct answer."
+}

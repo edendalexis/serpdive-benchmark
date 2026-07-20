@@ -1,0 +1,11 @@
+{
+  "id": 645,
+  "query": "Berkshire Hathaway Todd Combs departure JPMorgan Chase end of 2025 Berkshire portfolio exits Amazon Mastercard Visa 2026",
+  "topic": "Berkshire Hathaway",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A thoroughly covers Combs' departure to JPMorgan (NYT, Reuters, Sharecafe, Yahoo) but does not clearly confirm the specific 2026 portfolio exits from Mastercard and Visa. The finviz snippet only mentions Amazon being cut and NYT stake added, leaving Mastercard/Visa exits unconfirmed or inferable only indirectly.",
+  "b_issues": "Content B is thinner on the personnel/organizational details (advisory council, GEICO CEO role, Hamburg/Chang CFO change) since it has fewer sources, but the core facts requested are present and accurate.",
+  "reasoning": "The question specifically asks about Berkshire's 2026 portfolio exits from Amazon, Mastercard, and Visa in addition to the Combs/JPMorgan move. Content B's Daily Hodl article explicitly and directly states that 13F filings show Berkshire 'divested its positions in Amazon, Visa, Mastercard and UnitedHealth,' directly answering that part of the question, while its oninvest article adds detail on the ~$15 billion sell-off of Combs' former portfolio and confirms his December 2025 departure for JPMorgan. Content A covers the Combs/JPMorgan transition well but only weakly touches on the Amazon cut (via a finviz news ticker snippet) and never confirms Mastercard or Visa exits, leaving that part of the question unanswered. Thus B enables a more complete and accurate answer to the full compound question."
+}

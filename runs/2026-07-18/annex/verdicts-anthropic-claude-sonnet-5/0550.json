@@ -1,0 +1,11 @@
+{
+  "id": 550,
+  "query": "Federal Reserve new chair appointment successor Powell May 2026",
+  "topic": "Jerome Powell",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A never reports the actual swearing-in/handover event; it only covers nomination and Senate confirmation. The Guardian excerpt even states Warsh 'will officially step into the role on 14 May,' which conflicts with the actual timeline (Powell served as chair pro tempore until Warsh's May 22 swearing-in per the Fed's own press release), creating a factual inaccuracy/contradiction with the true sequence of events.",
+  "b_issues": "Includes some low-quality/irrelevant source (a Facebook post with encoded emoji SVG data cluttering the content), but the core facts remain accurate and consistent.",
+  "reasoning": "Content B directly includes the Federal Reserve's own press release confirming Powell served as chair pro tempore until Warsh's May 22 swearing-in, and corroborates this with consumerfinancemonitor and spectrumlocalnews articles describing the actual ceremony, Powell remaining as governor, and Warsh becoming the 17th Fed chair. This matches the anchor's facts precisely. Content A only covers the nomination/confirmation phase and contains a misleading detail (May 14 handover date) that contradicts the actual May 22 swearing-in event described in the anchor, making it less accurate and incomplete for answering the question about the successor and appointment timeline."
+}

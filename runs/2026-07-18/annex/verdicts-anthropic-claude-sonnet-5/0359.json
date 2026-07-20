@@ -1,0 +1,11 @@
+{
+  "id": 359,
+  "query": "Society of St. Pius X SSPX bishop consecration 2026 Vatican decree date text",
+  "topic": "Pope Leo XIV",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A provides only titles/snippets describing the events but no actual excerpt of the Vatican decree's text; the decree date (July 2, 2026) is only implied, not stated in any snippet; lacks detail on the specific decree content or explanatory note text.",
+  "b_issues": "Content B's featured snippet and Wikipedia excerpt are solid, but the Pope Leo XIV Wikipedia entry is irrelevant filler; some minor redundancy across sources, though not contradictory.",
+  "reasoning": "Both sets reference the same core event (July 1, 2026 consecrations, subsequent excommunication), but Content B provides more substantive detail: it includes an actual quoted excerpt from the Vatican decree via the Pentin substack ('...are to be considered schismatic and excommunicated'), plus a fuller timeline including specific dates (Feb 12, July 8, July 11, 2026) relevant to the decree and appeals process, and an NPR source confirming details. Content A's snippets are more superficial, mostly describing the consecration event itself rather than the decree text or its date, making it less useful for the specific question about the decree's date and text."
+}

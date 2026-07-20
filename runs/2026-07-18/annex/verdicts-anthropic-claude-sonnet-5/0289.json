@@ -1,0 +1,11 @@
+{
+  "id": 289,
+  "query": "Cognition Devin Review Security Swarm automated PR scan bug detection rate comparison 2026",
+  "topic": "Devin AI software engineer",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Includes an irrelevant result (idlen.io) that is a generic Devin review unrelated to Security Swarm, adding noise. The key benchmark figures (72% recall, 36/50, 30% cheaper) are scattered across secondary sources (byteiota, yahoo finance) rather than the primary Cognition/Devin blog, and none of A's snippets give the direct quantitative comparison (e.g., recall vs. cost of alternatives) in one authoritative source.",
+  "b_issues": "No major factual errors; the devin.ai blog snippet says 'two-thirds the cost' while press releases say '30% lower cost' — these are roughly consistent (2/3 cost ≈ 33% reduction) but phrased differently, which could cause minor confusion if not reconciled.",
+  "reasoning": "Both content sets ultimately convey the same core facts (72% recall, 36/50 vulnerabilities found, ~30% lower cost than nearest alternative). However, Content B includes the actual devin.ai blog excerpt (the primary source matching the anchor) directly stating the 72% recall and cost details, plus multiple corroborating official sources (PR Newswire, AOL, LinkedIn, Dealroom) that consistently reinforce the 36/50 and cost-efficiency figures. Content A relies more on secondary blog aggregators (byteiota, topaiproduct-like sites) and includes an irrelevant, off-topic result (idlen.io) that dilutes relevance. Content B's sourcing is more authoritative and directly ties back to the anchor's primary source, making it more reliable for answering the question accurately."
+}

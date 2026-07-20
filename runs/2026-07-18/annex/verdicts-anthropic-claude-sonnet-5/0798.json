@@ -1,0 +1,11 @@
+{
+  "id": 798,
+  "query": "New Caledonia French police presence duration Macron pledge continuity post-2024 riots 2025 2026",
+  "topic": "New Caledonia",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Mostly focused on 2024 events; doesn't have strong direct 2025/2026 continuity coverage, though Wikipedia snippet references state of emergency lift archived July 2025 giving some temporal extension.",
+  "b_issues": "Contains no sources beyond 2024 events; lacks any 2025/2026 information, and includes a Reuters link with an incorrect/misleading title suggesting Macron 'delays' reform rather than discussing police duration.",
+  "reasoning": "Both sets are dominated by 2024-era articles about Macron's initial pledge that police would stay 'as long as necessary,' and neither provides robust 2025-2026 confirmation of continued presence. However, Content A includes a Wikipedia entry that extends the timeline further, mentioning events through October 2024 and referencing an archived source from July 2025, providing slightly more temporal continuity relevant to the query. Content B's additional YouTube and Reuters entries add little new information beyond what's already covered by A, and do not extend past 2024. Thus Content A offers marginally better coverage for the 2025/2026 continuity aspect of the question, though both are heavily weighted toward the original 2024 crisis rather than the requested 2025-2026 continuity a"
+}

@@ -1,0 +1,11 @@
+{
+  "id": 419,
+  "query": "The Bear 2026 Emmy nominations season 5 categories acting comedy series list",
+  "topic": "The Bear",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Includes speculative, pre-announcement articles (GoldDerby, Yahoo) about 'Emmy odds' for a future season, which conflicts with the fact that the 2026 (78th) nominations have already been announced and creates confusion about which season/year is being discussed. Does not clearly state which acting categories The Bear was nominated in for 2026 beyond a partial repeat of the TV Academy page.",
+  "b_issues": "Does not include the official Television Academy show page, so it lacks the direct category-by-category breakdown (e.g., exact wording of 'Outstanding Lead Actress in a Comedy Series - 2026') that the anchor provides, relying instead on secondary news summaries.",
+  "reasoning": "Both sets contain reputable, up-to-date sources reporting on the 78th Emmy nominations. Content B's sources (CNN, BBC, CBS, Deadline, TheWrap) consistently and clearly state that The Bear received an Outstanding Comedy Series nomination for 2026 and specifically note that Jeremy Allen White was snubbed for Lead Actor, giving concrete, non-contradictory facts about the acting/comedy categories. Content A repeats much of the same news but also mixes in GoldDerby/Yahoo articles discussing pre-nomination 'Emmy odds' for a season/timeframe that seems to predate the actual announcement, creating a confusing timeline that could mislead an LLM about what has already been decided versus what is speculative. This makes B a cleaner, more reliable basis for answering the question accurately."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 288,
+  "query": "Cognition Devin AI recurring sessions state maintenance task delegation capabilities May 2026",
+  "topic": "Devin AI software engineer",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A's results are accurate and closely match the anchor (cognition.com blog snippet on scheduled Devins, docs page on delegation/managed Devins, LinkedIn snippet on scheduling). Minor imprecision: some snippets are truncated but no factual errors.",
+  "b_issues": "Content B lacks the actual Cognition blog post snippet about scheduling (only a brief LinkedIn mention), and pads results with a long, low-quality Reddit/SEO-spam post about 'auto triage' that is not clearly tied to an official Cognition announcement and may misrepresent actual capabilities. It also includes an outdated digitalapplied.com piece referencing Devin 2.0 pricing from April 2025, which is stale relative to a May 2026 query and could mislead about current state.",
+  "reasoning": "Both sets share the docs.devin.ai/advanced-capabilities page describing delegation to managed Devins, which is accurate and relevant. However, Content A also surfaces the actual cognition.com blog post text describing scheduled/recurring sessions ('Schedule this for every Monday at 9am', cadence, automatic execution), directly matching the anchor's core facts about recurring sessions and state maintenance. Content B substitutes this with a lower-quality, speculative Reddit/SEO article about 'auto triage' that is not verified against Cognition's actual documentation and introduces content not corroborated by the anchor, plus an outdated 2025 pricing article. This makes A more reliable and complete for answering the specific question about recurring sessions, state maintenance, and delegation capabilities."
+}

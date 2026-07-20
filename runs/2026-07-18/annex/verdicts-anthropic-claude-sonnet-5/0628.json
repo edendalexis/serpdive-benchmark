@@ -1,0 +1,11 @@
+{
+  "id": 628,
+  "query": "Novak Djokovic future comments after Wimbledon 2026 exact quote retirement uncertainty July 2026",
+  "topic": "Novak Djokovic",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "No major factual flaws; multiple sources (Express, Yahoo, Bolavip) converge on the same accurate quote ('I'd like to. At least one more time. Let's see.') matching the anchor's reported sentiment. Some noise from unrelated Nadal retirement prediction, but doesn't contradict the core answer.",
+  "b_issues": "Includes a low-quality, garbled Facebook repost as the top result that misattributes quotes and is unreliable. Also includes a YouTube video from Djokovic's earlier quarterfinal win over Auger-Aliassime (July 7), not the actual post-semifinal loss remarks, which could mislead about context/timing. Fewer corroborating sources for the exact quote compared to A.",
+  "reasoning": "Both sets contain the key accurate quote ('I'd like to. At least one more time. Let's see.') via Express.co.uk and Yahoo, matching the anchor. However, Content A surrounds this with more consistent, reputable sources (Bolavip, SI, Tennis365, Yahoo, Threads) reinforcing the same narrative without contradiction. Content B dilutes reliability by including a garbled Facebook post and an irrelevant YouTube clip from a different match, which could confuse an LLM about which quote/context is authoritative. Thus Content A better enables a correct, well-supported answer."
+}

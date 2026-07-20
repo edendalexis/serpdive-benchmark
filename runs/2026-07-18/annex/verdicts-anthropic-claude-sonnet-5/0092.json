@@ -1,0 +1,11 @@
+{
+  "id": 92,
+  "query": "HP IQ AI lab projects products released 2025",
+  "topic": "Humane AI Pin",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A only covers the 2026 HP Imagine product announcement and does not mention that HP IQ originated as HP's AI innovation lab formed from the Humane acquisition in 2025 (the actual '2025' event tied to HP IQ). It also contains a confusing/contradictory snippet ('Available in Spring 2025') that conflicts with other snippets citing Spring 2026 for early access, creating internal inconsistency.",
+  "b_issues": "Minor: includes some lower-quality sources (Facebook post, job listing) but they are consistent with and corroborate the official HP press release facts; no major factual errors.",
+  "reasoning": "The anchor establishes that HP IQ began in Feb 2025 as HP's AI innovation lab (from the Humane acquisition) and was later used as a product name in the 2026 Imagine announcement. Content B captures both facts clearly and accurately, directly matching the anchor's key 2025 event (formation of the HP IQ lab) alongside the 2026 product reveal, giving a fuller and more accurate picture for the 2025-focused query. Content A omits the 2025 lab formation entirely and contains a confusing date inconsistency, making it less reliable for answering the question."
+}

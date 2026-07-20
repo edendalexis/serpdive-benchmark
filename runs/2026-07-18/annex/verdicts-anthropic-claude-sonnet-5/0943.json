@@ -1,0 +1,11 @@
+{
+  "id": 943,
+  "query": "NHTSA investigation Tesla Model 3 fatal crash Texas autonomous vehicle rollout impact",
+  "topic": "Cybercab",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Includes lower-quality/redundant sources (YouTube video transcript, Facebook post, Reddit thread) that add little new factual content beyond the top two results; the rollout impact angle is only briefly touched via NBCDFW's robotaxi mention, and duplicate information from NBCDFW/CNBC is presented without added depth on NHTSA's broader ADAS investigation pattern.",
+  "b_issues": "None significant; content is consistent with the anchor and other sources, using only mainstream, reliable outlets (CNBC, NBC5, Forbes).",
+  "reasoning": "Both sets agree on core facts: NHTSA opened a special investigation into a Tesla Model 3 crash in Katy, Texas, that killed 76-year-old Martha Avila, with driver Michael Butler allegedly using Autopilot/FSD, and this ties to Musk's robotaxi/autonomous vehicle ambitions. However, Content B is more efficient and higher-value: it uses three reliable, non-redundant mainstream sources and includes a key fact absent from A—that NHTSA has opened more than three dozen special crash investigations into Tesla's ADAS since 2016, and explicitly links the investigation to Musk's autonomous vehicle rollout goals, directly answering the 'rollout impact' part of the query. Content A pads its results with lower-value sources (YouTube, Facebook, Reddit) that don't add new verified facts and could introduce noise or lower reliability. Thus B better and more concisely equips the agent to answer the full question accurately."
+}

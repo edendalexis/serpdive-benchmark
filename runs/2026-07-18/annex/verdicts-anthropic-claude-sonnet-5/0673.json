@@ -1,0 +1,11 @@
+{
+  "id": 673,
+  "query": "Kamala Harris Secret Service protection revoked Trump early 2025",
+  "topic": "Kamala Harris",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "All sources correctly describe the August 2025 revocation and extension details, but none include the original AP anchor article, and none provide broader context (e.g., other early terminations like Mayorkas, Bolton, Pompeo) that helps disambiguate the 'early 2025' phrasing in the query.",
+  "b_issues": "No major factual issues; minor redundancy from two ABC video entries with little content, but core facts are accurate and consistent with the anchor.",
+  "reasoning": "Both sets accurately report that Trump revoked Harris' Secret Service protection in late August 2025, which had been extended by Biden. Content B directly includes the AP News article that matches the anchor exactly, ensuring high reliability, and adds useful context (e.g., prior revocations of Mayorkas, Bolton, and Pompeo details, and the extension from 6 to 18 months). Content A's sources (CNN, NPR, Politico, NewsNation, WBAL) are also reliable and consistent, but lack this extra context and the anchor-matching AP source. The information in both is factually consistent with no contradictions, but B provides marginally richer and more corroborated detail."
+}

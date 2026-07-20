@@ -1,0 +1,11 @@
+{
+  "id": 410,
+  "query": "The Bear season 5 final season premiere date episode count FX Hulu official announcement",
+  "topic": "The Bear",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; all sources (Disney press release, Rolling Stone, Newsweek, USA Today, Cincinnati.com) consistently report June 25, 2026 premiere, 8 episodes, FX/Hulu/Disney+ simulcast, matching the anchor exactly.",
+  "b_issues": "Includes a messy Facebook post result containing raw SVG/icon markup instead of clean text, which pollutes the content; relies more on secondary aggregator sites (Wikipedia, howtogeek, showsnob) rather than the primary official press release, though the core facts (date, episode count, platforms) are still accurate and consistent with the anchor.",
+  "reasoning": "Both content sets correctly state the premiere date (June 25, 2026), episode count (eight), and platforms (FX, Hulu, Disney+ internationally), matching the anchor's official Disney announcement. Content A directly includes the exact Disney press release used as the anchor, plus corroborating major outlets (Rolling Stone, USA Today, Newsweek), giving a highly reliable and clean set of sources. Content B also has the correct facts spread across Wikipedia and other sites, but one result (Facebook) is cluttered with garbled SVG code, reducing usability, and it lacks the direct official press release text that A provides verbatim. Both are largely accurate, but A's inclusion of the official source and cleaner content gives it a slight edge."
+}

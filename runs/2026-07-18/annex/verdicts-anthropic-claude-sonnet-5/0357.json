@@ -1,0 +1,11 @@
+{
+  "id": 357,
+  "query": "Pope Leo XIV Spain June 2026 apostolic visit itinerary cities schedule",
+  "topic": "Pope Leo XIV",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A's results are largely generic, mentioning only 'Canary Islands' broadly without specifying Las Palmas de Gran Canaria or Santa Cruz de Tenerife. Three of its five results are duplicate RVA articles that conflate the Spain trip with separate Monaco and Africa journeys, adding potentially confusing unrelated information. No detailed day-by-day schedule or Barcelona-specific details are provided.",
+  "b_issues": "Content B's results are generally accurate and consistent with the anchor, though the Wikipedia and Aleteia excerpts are fragments rather than complete itineraries, requiring the reader to piece together details across multiple sources.",
+  "reasoning": "Content B provides more specific and accurate itinerary details matching the anchor: it explicitly names all four cities (Madrid, Barcelona, Las Palmas de Gran Canaria, Santa Cruz de Tenerife) via the official Vatican.va title, and includes specific schedule details (Barcelona arrival time, Olympic Stadium vigil, Montserrat visit, Las Raíces migrant center, Tenerife Mass details) that align with the anchor's official Vatican schedule. Content A only vaguely references 'Canary Islands' without naming specific islands/cities, and dilutes relevant Spain-trip details with unrelated content about Monaco and Africa trips from duplicate RVA articles. B better enables a correct, detailed answer to the itinerary question."
+}

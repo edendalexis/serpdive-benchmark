@@ -1,0 +1,11 @@
+{
+  "id": 201,
+  "query": "Shohei Ohtani home run total season 2026 current count",
+  "topic": "Shohei Ohtani",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Contains conflicting home run figures: ESPN shows HR=22 for 2026, but a YouTube video result claims 'all 20 home runs' hit so far in 2026, creating an internal contradiction. Baseball-Reference snippet only shows game log fragments without a clear season HR total statement.",
+  "b_issues": "Includes an MLB.com video reference to 'all of Ohtani's 300 home runs' (career total) which is close to but not exactly matching Baseball-Reference's stated career total of 302, a minor inconsistency, though unrelated to the season HR count being asked.",
+  "reasoning": "Both sets include ESPN (HR 22) and Baseball-Reference results, but Content B's Baseball-Reference snippet explicitly states 'Shohei Ohtani has 22 home runs this season,' directly and clearly answering the question, and this matches ESPN's HR=22 with no contradiction. Content A instead introduces a conflicting figure (20 HRs) via a YouTube video title, which could mislead an LLM into inconsistency or uncertainty about the correct count. Thus Content B provides more consistent and directly stated evidence for the correct 2026 season home run total (22)."
+}

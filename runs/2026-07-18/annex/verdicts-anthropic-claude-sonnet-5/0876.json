@@ -1,0 +1,11 @@
+{
+  "id": 876,
+  "query": "Labour leadership election 2026 nomination timeline candidates schedule results",
+  "topic": "Keir Starmer",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "The Local Government Association result is irrelevant to the query (though harmless). The Wikipedia snippet's '94%' figure and Gordon Brown comparison are unverified but internally consistent with the anchor's 379/403 tally.",
+  "b_issues": "Lacks specific nomination-count figures (e.g., the 349/369/379 progression or 94% final tally) that are central to the 'results' part of the query. Includes extraneous backstory about Gorton/Denton and Makerfield by-elections not corroborated by the anchor, which could distract from the core nomination timeline without adding verifiable value. The truncated LabourList snippet gives almost no timetable detail.",
+  "reasoning": "Both sets draw from largely the same core sources (Wikipedia, LabourList, Labour.org.uk, PollCheck, Al Jazeera), but Content A's Wikipedia excerpt includes concrete, dated nomination totals (349 by 13 July, 369 by 14 July, and an implied 379/94% final) that closely match the anchor's official PLP nomination totals (379 for Burnham, 1 for West, finalized 15 July). Content A's LabourList excerpt also details the specific affiliate nomination window (July 15-16) and contingent ballot dates (Aug 6-27, result Aug 29), aligning well with the anchor and BBC timetable. Content B's equivalent Wikipedia and LabourList entries are less detailed on the actual nomination numbers and instead include unverified narrative details (by-elections) that don't help answer the schedule/results question. Overall, Content A supplies a more complete, anchor-consistent set of facts for nomination timeline, candidates, and results."
+}

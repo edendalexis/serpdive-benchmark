@@ -1,0 +1,11 @@
+{
+  "id": 622,
+  "query": "Novak Djokovic Wimbledon all-time wins record 2026",
+  "topic": "Novak Djokovic",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "No major factual errors; all sources consistently state Djokovic's 106th Wimbledon win surpassed Federer's 105, with Navratilova's 120 noted as the overall record.",
+  "b_issues": "Contains an internal contradiction: the ATP Tour source states Djokovic's record as '102-13' wins, which conflicts with the 106-win figure cited by other sources in the same result set (Olympics.com, NYT). This inconsistency could confuse an LLM trying to determine the accurate win count. The Instagram result also references an outdated '105 wins' milestone without context, adding potential confusion.",
+  "reasoning": "Both sets correctly identify that Djokovic broke Federer's Wimbledon win record with his 106th victory in 2026, and both correctly note Navratilova's 120 as the overall record. However, Content B includes an ATP Tour source stating a '102-13' win-loss record, which contradicts the 106-win figure emphasized elsewhere in the same result set — creating ambiguity for an LLM attempting to extract the accurate figure. Content A's sources (NYT, BBC, Yahoo, Forbes, Wikipedia) are consistent with each other and do not present conflicting numbers, making it more reliable for answering the question correctly."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 93,
+  "query": "Humane AI Pin CosmOS open source community offline functionality restoration progress",
+  "topic": "Humane AI Pin",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "First result (Forbes) is about an older 2024 update, not directly about restoration efforts; otherwise results are accurate and relevant.",
+  "b_issues": "None of the results address the open source community restoration/jailbreak efforts (PenumbraOS, OpenPin, etc.) at all. All four sources are pre-shutdown or shutdown-announcement articles about CosmOS as Humane's original software, not about community efforts to restore offline functionality. This leaves the core of the question unanswered.",
+  "reasoning": "Content A directly surfaces the key restoration project (PenumbraOS/Adam Gastineau) via the Hackster.io and Yanko Design articles, which describe the reverse-engineering effort, hours invested, and goals (SDK, MABL app) to restore functionality after Humane's shutdown—directly answering the question. It also includes OpenPin as another community alternative. Content B contains no information about any open source restoration effort; all its results describe the pre-shutdown CosmOS software or the shutdown announcement itself, providing no path to answering the actual question about community-driven offline functionality restoration."
+}

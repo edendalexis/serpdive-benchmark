@@ -1,0 +1,11 @@
+{
+  "id": 162,
+  "query": "Rivian Autonomy+ self driving service one time price monthly subscription cost release date 2026",
+  "topic": "Rivian",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor: doesn't explicitly state a single 2026 launch date beyond 'through April 4' and 'Apr 6, 2026' from a lower-tier source, but the price figures ($49.99/mo, $2,500 one-time) are consistent across all three sources and align with the anchor.",
+  "b_issues": "Contains contradictory and outdated pricing information: a Reddit post claims $10,000 one-time/$550 yearly (clearly outdated/inaccurate for the 2026 Autonomy+ launch), and an Autonews snippet mentions a $69/month figure inconsistent with the $49.99 figure elsewhere. A low-quality foreign source (saudiauto.com.sa) adds SAR pricing that isn't clearly reconciled with USD pricing, adding noise rather than clarity.",
+  "reasoning": "Both sets agree on the core facts ($2,500 one-time or $49.99/month, 2026 launch) via Electrek and other reputable outlets. However, Content A stays consistent across its three sources (rivian.com, electrek, eletric-vehicles.com) and even supplies a specific 2026 rollout date (April 2026) after trial extensions ended. Content B includes conflicting numbers from a Reddit thread ($10,000/$550) and an Autonews snippet ($69/month) that contradict the correct $2,500/$49.99 pricing, which could mislead an LLM into presenting inconsistent or wrong figures. Content A's information is cleaner and more reliable for answering the question."
+}

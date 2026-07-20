@@ -1,0 +1,11 @@
+{
+  "id": 846,
+  "query": "Taylor Swift Travis Kelce adopted dog July 2026 breed name",
+  "topic": "Taylor Swift",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "No significant factual flaws; consistent with anchor, confirms Samoyed breed across multiple reliable sources (USA Today, Page Six, Kansas City Star, Palm Beach Post).",
+  "b_issues": "No significant factual flaws; consistent with anchor, confirms Samoyed breed across multiple reliable sources (USA Today, Kansas City Star, Page Six, Yahoo/ET). Includes some additional hedging language noting breed unconfirmed by couple, which is accurate but doesn't detract.",
+  "reasoning": "Both content sets provide essentially the same core fact: the dog is believed/reported to be a Samoyed breed, based on paparazzi photos from mid-July 2026, sourced from the same reliable outlets (USA Today, Page Six, Kansas City Star). Both align with the anchor's identification of the dog as a Samoyed. Neither set contains contradictory or inaccurate information, and both would equally enable an LLM to correctly answer that the breed is a Samoyed. Content B includes slightly more hedging (noting no official confirmation from the couple), which is arguably more precise, but this doesn't change the overall correctness or completeness compared to A. The core answer is equally well supported in both."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 624,
+  "query": "Novak Djokovic right shoulder injury Monte Carlo Masters withdrawal April 2026",
+  "topic": "Novak Djokovic",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "None significant; all facts consistent with anchor (right shoulder injury, withdrew from Miami, Monte Carlo main draw April 5-12, next event Madrid). One result (TNT Sports) mentions forearm issues too, but doesn't contradict the shoulder injury fact.",
+  "b_issues": "None significant; all facts consistent with anchor (right shoulder injury, withdrew from Miami Open, dated March 27, 2026). Slightly more redundant sources (AP syndicated across multiple outlets) but no incorrect information.",
+  "reasoning": "Both content sets accurately convey the core facts matching the anchor: Djokovic withdrew from the 2026 Monte-Carlo Masters due to a right shoulder injury, having also withdrawn from the Miami Open with the same injury, announced March 27, 2026. Content A includes the ATP Tour official source plus ESPN, Sky Sports, and others, providing additional context like tournament dates and next scheduled event (Madrid). Content B includes AP, Reuters, and US News, all corroborating the same facts with reliable sourcing, though some results are duplicative (AP syndicated). Neither set contains contradictions or factual errors relative to the anchor, and both are sufficient for an LLM to correctly answer the question."
+}

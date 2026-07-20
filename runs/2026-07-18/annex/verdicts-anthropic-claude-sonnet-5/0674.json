@@ -1,0 +1,11 @@
+{
+  "id": 674,
+  "query": "Kamala Harris BBC interview 2028 presidential election possibility September 2025",
+  "topic": "Kamala Harris",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A does not directly quote or link the actual BBC article; it relies on a secondary AOL article that only briefly mentions the BBC interview, and includes irrelevant results (Hoover Institution bio, Wikipedia list of 2028 contenders) that don't address the specific BBC interview content. Doesn't give direct BBC source details or full context of what Harris said.",
+  "b_issues": "None significant; content is accurate and directly sourced from BBC, Guardian, CNN, and ABC7, all corroborating the same facts.",
+  "reasoning": "Content B directly includes the BBC News article itself along with corroborating reports from The Guardian, CNN, and ABC7, all confirming Harris's statement that she 'is not done' and could 'possibly' run again in 2028, made in a BBC interview with Laura Kuenssberg airing around October 25, 2025. This provides clear, consistent, and well-sourced information directly answering the question. Content A only tangentially touches on the topic through an AOL article about Montel Williams, with much of its content being irrelevant profile and Wikipedia pages, making it far less useful for accurately answering the question."
+}

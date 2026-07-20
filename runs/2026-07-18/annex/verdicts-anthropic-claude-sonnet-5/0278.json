@@ -1,0 +1,11 @@
+{
+  "id": 278,
+  "query": "El Salvador 2027 synchronized national elections Bukele constitutional reform shortened current term six-year presidency latest",
+  "topic": "Nayib Bukele",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content is somewhat scattered across snippets and repeats brief mentions of the reform rather than a single thorough exposition, but it accurately reflects election timing (February 2027) matching the anchor's Wikipedia data, and crucially includes the 'latest' 2026 developments (Bukele's primary win/nomination for a third term), which directly addresses the 'latest' part of the question.",
+  "b_issues": "All five sources are from July/August 2025, describing only the initial constitutional reform; none cover the 'latest' 2026 developments (e.g., Bukele's primary victory/nomination for a third term) that the question explicitly asks about. Also, one source (France24) states the shortened-term elections are due in 'March 2027,' which contradicts the anchor's and other reporting's February 2027 date, introducing a factual inconsistency.",
+  "reasoning": "Both sets cover the core constitutional reform (indefinite reelection, six-year terms, shortened current term to synchronize elections) accurately and with reliable sources. However, the question specifically asks for the 'latest' update, and Content A uniquely includes 2026 reporting (ticotimes and ABC News) on Bukele's primary win and formal nomination for a third term, which is essential to fully and correctly answering the query. Content B, while more detailed on the 2025 reform itself, is entirely limited to 2025 sources and contains a minor factual inconsistency (March vs. February 2027 election date), making it slightly less accurate and less complete for the 'latest' aspect of the question."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 797,
+  "query": "French National Assembly New Caledonia election delay bill rejection January 2026 vote details",
+  "topic": "New Caledonia",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "A's snippets largely lack concrete vote figures; the pina.com.fj snippet only says the postponement was 'narrowly endorsed' without numbers, the islandsbusiness.com excerpt focuses on Accord names rather than the rejection itself, and the islandtimes.org fragment only mentions a one-day date shift, giving no real rejection details. The Facebook post adds no substantive information and is a low-quality source.",
+  "b_issues": "B also omits the precise floor-vote tallies (e.g., 279-247, 190-107) that appear in the anchor, and does not explicitly cite the October 2025 National Assembly postponement vote, relying instead on secondary framing.",
+  "reasoning": "Both sets miss the exact numeric vote counts from the anchor, but Content B provides a more coherent and directly relevant narrative: the devpolicy.org piece explicitly notes Macron's January 2026 dialogue, the Senate's February 2026 adoption, and the April 2026 National Assembly debate, while the islandsbusiness.com excerpt explicitly states the 'National Assembly's Legal Commission rejected the bill,' directly addressing the 'rejection' aspect of the query. The Guardian source further confirms the eventual June 28, 2026 election, reinforcing the timeline. Content A's snippets are more fragmented, include a low-value Facebook post, and its most relevant piece (islandtimes.org) only offers a minor scheduling detail without substantive rejection information, making it less useful for answering the specific query about rejection vote details."
+}

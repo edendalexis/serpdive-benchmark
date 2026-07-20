@@ -1,0 +1,11 @@
+{
+  "id": 455,
+  "query": "Swedish Academy Han Kang 2024 Nobel Prize Literature official bio bibliography specific books cited",
+  "topic": "Nobel Prize 2024",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A's official bio-bibliography excerpt is truncated and only partially shows the full list of cited works (it cuts off mid-list), so an agent might not get the complete bibliography, but everything shown is accurate and directly sourced from the official Nobel bio-bibliography page.",
+  "b_issues": "Content B includes a Publishers Weekly snippet listing 'Europa (2019)' as a Han Kang title, which appears to be an erroneous/nonexistent work attributed to her, introducing a factual inaccuracy. The official facts.html quote is accurate but brief, listing only three works (The Vegetarian, Human Acts, We Do Not Part) rather than the fuller bibliographic citation format the question seeks.",
+  "reasoning": "Content A directly quotes the official Nobel bio-bibliography page, which is the specific source the question asks about, giving actual bibliographic citations with Korean titles, translators, and publication details (e.g., 눈물상자, 회복하는 인간, The Vegetarian). This is more precisely responsive to a question about the 'official bio bibliography specific books cited.' Content B relies more on secondary summaries and includes a likely factual error ('Europa') from a non-Nobel source, which could mislead an agent about Han Kang's actual bibliography. While B's Nobel lecture and facts.html excerpts are accurate, they are less directly focused on bibliographic citation than A's excerpt."
+}

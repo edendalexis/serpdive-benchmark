@@ -1,0 +1,11 @@
+{
+  "id": 526,
+  "query": "Claude Sonnet 5 benchmark coding performance specifications launch 2026",
+  "topic": "Anthropic",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Several snippets are garbled or hard to parse (e.g., the Anthropic snippet mixes HLE score restatements confusingly, cosmicjs snippet is nearly content-free, lmcouncil.ai snippet is truncated/contradictory table text). While it does include useful benchmark numbers (Terminal-Bench, GDPval-AA v2, CursorBench, pricing tiers), it provides no concrete technical specifications (context window, max output tokens, model ID) that the query asks about ('specifications'), and two of its sources (explainx.ai, morphllm.com) add little verifiable value.",
+  "b_issues": "Lacks explicit pricing figures (intro $2/$10, standard $3/$15) that A provides, and terminal-bench numbers for Sonnet 4.6 (67.0%) differ slightly in framing from A's presentation, though not contradictory.",
+  "reasoning": "Both sets agree on the core launch facts (June 30, 2026, near-Opus-4.8 performance, agentic coding gains) and cite consistent benchmark numbers (e.g., Terminal-Bench 2.1: 80.4 vs 74.6). However, Content B additionally surfaces concrete specifications—1M-token context window, 128K max output tokens, adaptive thinking, and the API model ID 'claude-sonnet-5'—directly answering the 'specifications' part of the query, which Content A omits entirely. Content A's snippets are also noisier and partly garbled (confusing HLE score restatements, near-empty cosmicjs excerpt, truncated lmcouncil table), making it harder for an LLM to extract clean, reliable facts. Content B's excerpts are more coherent and complete for answering the full question."
+}

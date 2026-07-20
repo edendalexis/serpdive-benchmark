@@ -1,0 +1,11 @@
+{
+  "id": 685,
+  "query": "Shein French appeals court ruling age verification adult products June 2026",
+  "topic": "Shein",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Two of the five sources (Facebook post and X/Twitter post) are low-quality, non-authoritative snippets that provide minimal verifiable detail; the globalbankingandfinance.com source is a less well-known outlet. The core facts (appeals court rejection, age-verification requirement) are present but delivered through weaker sourcing than needed for confident verification.",
+  "b_issues": "No mention of a 'June 2026' date, but this matches the actual timeline (ruling was March 19, 2026) rather than being an error; the query's 'June 2026' appears to be a false premise not addressed directly, though this is not really an error in the content itself.",
+  "reasoning": "Both sets convey the same core facts: the Paris Court of Appeal on March 19, 2026 rejected the French government's bid to suspend Shein's marketplace, while upholding/reiterating the December 2025 ruling requiring robust age-verification before adult/pornographic products could be sold again. Content B sources this consistently across five reputable outlets (DW, Le Monde, Yahoo/Reuters, RFI, Straits Times), adding useful context such as the EU's DSA investigation and the €10,000 fine for non-compliance, with no contradictions. Content A includes the same key facts but relies partly on lower-quality sources (a Facebook photo caption and a bare X/Twitter link) that offer little substantive content, and one lesser-known outlet, making it slightly less reliable overall despite reaching the same conclusion."
+}

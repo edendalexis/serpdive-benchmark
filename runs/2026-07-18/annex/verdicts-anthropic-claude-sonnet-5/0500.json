@@ -1,0 +1,11 @@
+{
+  "id": 500,
+  "query": "Intel Foundry 18A volume manufacturing yield rate Q4 2026 external customer tapeout status",
+  "topic": "Intel Foundry",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Does not explicitly reference 'Q4 2026' but provides recent (June-July 2026) data points on 18A yield improvement (7-8%/month, ~50% per Morgan Stanley), 100+ tapeouts, and 18A-P risk production, which are the most current facts available before the question's implied timeframe. Slightly dated Morgan Stanley 50% figure may not reflect the very latest yield state.",
+  "b_issues": "Mixes outdated info (2024-era 'disappointing 20-30% yield' Reddit snippet) with a claim that yield issues are 'solved' and D0=0.1-0.2 achieved, creating internal inconsistency across sources. Includes a LinkedIn post result that is almost entirely navigation/UI clutter with no substantive content, and a low-value YouTube video summary, diluting reliable signal.",
+  "reasoning": "Content A offers a more coherent, dated timeline (VLSI Symposium June 2026, techtimes-style 85% yield era, Morgan Stanley 50% report, 100+ tapeouts, 18A-P risk production) directly relevant to yield and tapeout status near Q4 2026. Content B's most useful source (TechPowerUp) is undated and asserts a strong 'solved' claim that conflicts with an older 20-30% yield Reddit citation also included, creating contradiction, and wastes space on a nearly content-free LinkedIn post. This makes A's set more reliable and less self-contradictory for answering the question."
+}

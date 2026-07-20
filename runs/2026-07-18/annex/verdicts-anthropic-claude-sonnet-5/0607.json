@@ -1,0 +1,11 @@
+{
+  "id": 607,
+  "query": "Japanese government comments Bank of Japan independence 10-year JGB yields spike June 2026",
+  "topic": "Bank of Japan",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "None of the results directly address the specific event referenced in the question (Kiuchi's comments on BOJ independence, the draft policy blueprint controversy, or the government's response to the yield spike). Results are all about earlier yield spikes (May, unspecified dates) tied to hawkish BOJ signals, not government comments on independence. No mention of Kiuchi, the draft economic policy document, or the government's reassurance efforts. This misses the core of the question entirely.",
+  "b_issues": "Slightly limited detail in the snippet from Central Banking (paywalled), but it directly names Kiuchi, confirms the July 10 date, ties the comments explicitly to the 10-year JGB yield spike to near 30-year highs, and mentions the government's June 30 policy document. Additional results provide useful context on yield levels and forecasts, though not all are directly about the independence comments.",
+  "reasoning": "Content B directly matches the question's specifics: it identifies the Japanese government's comments on BOJ independence (Kiuchi's remarks), ties them explicitly to the 10-year JGB yield spike, and references the relevant draft policy document from June 30, aligning closely with the anchor's facts. Content A's results are all about bond yield movements from unrelated or earlier periods and never mention government comments on BOJ independence, Kiuchi, or the draft policy blueprint - failing to answer the actual question posed."
+}

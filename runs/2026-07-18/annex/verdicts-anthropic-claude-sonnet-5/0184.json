@@ -1,0 +1,11 @@
+{
+  "id": 184,
+  "query": "IOC Olympic Charter amendments June 2026 individual discipline inclusion framework 2032 Brisbane",
+  "topic": "International Olympic Committee",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "The ANOC article result is tangential (mostly about athlete grants) and doesn't add specific detail on the discipline framework itself.",
+  "b_issues": "Relies more heavily on secondary/duplicate reporting (SCMP and wtaq essentially repeat the same sentence), and includes a LinkedIn post as a source, which is less authoritative.",
+  "reasoning": "Both sets contain the core factual answer: the IOC Session (146th, June 24, 2026) approved Olympic Charter amendments moving to discipline-based evaluation rather than whole-sport evaluation, effective from the Brisbane 2032 Games, alongside neutrality-related changes. Content A includes the official IOC Olympics.com article detailing the new methodology and OCOG discipline-proposal framework, which adds authoritative specificity. Content B includes Reuters, a highly reliable source, with useful added detail about the timeline for programme decisions. Both are accurate and non-contradictory, and either would let an LLM answer correctly with similar completeness."
+}

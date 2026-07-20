@@ -1,0 +1,11 @@
+{
+  "id": 732,
+  "query": "Hamas releases hostages Israel frees Palestinian prisoners Trump peace deal 2025 status",
+  "topic": "Israel-Hamas conflict",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "No major factual inaccuracies; content is tightly focused on Oct 13, 2025 events, consistent with anchor, sourced from NPR/PBS/NBC/BBC.",
+  "b_issues": "Includes an older Britannica article about the January-March 2025 ceasefire/hostage phase, which could create timeline confusion when mixed with October 2025 results, though it is not factually wrong—just a separate, earlier phase of the deal.",
+  "reasoning": "Both sets provide accurate, well-sourced information matching the anchor's account: Hamas releasing the last living hostages, Israel freeing ~1,900-2,000 Palestinian prisoners, and Trump's Oct 13 Egypt summit declaring the war's end. Content A is more tightly focused on the Oct 13 event with reliable outlets (NPR, PBS, NBC, BBC) and no internal contradictions. Content B also uses strong sources (AP, Guardian, NPR) and adds useful context (AJC's 20-point framework, Oct 8 announcement) but includes a Britannica piece describing the earlier Jan-March 2025 ceasefire phase, which could be mildly confusing when conflated with the October 2025 events, though it doesn't strictly contradict the facts. Both would allow an LLM to answer the question correctly with similar completeness and accuracy, making this a tie."
+}

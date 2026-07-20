@@ -1,0 +1,11 @@
+{
+  "id": 176,
+  "query": "SpaceX IPO public offering announcement Elon Musk 2026 details",
+  "topic": "SpaceX Starship",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor apparent inconsistency between the $1.77 trillion IPO valuation and Wikipedia's $2.1 trillion first-day market cap figure, but these refer to different metrics (offering price vs. first-day trading value) so not a true contradiction. Otherwise consistent with anchor facts (135/share, 555.6M shares, $75B raised, June 11-12 2026 dates, SPCX ticker).",
+  "b_issues": "Results are thin, redirect-obscured URLs (not directly verifiable), and give slightly inconsistent valuation figures ($1.75 trillion vs $75 billion raise mentioned without clear distinction). Less detail on actual pricing, listing dates, exchange, underwriters, or trading performance. Harder to construct a complete, confident answer from these snippets alone.",
+  "reasoning": "Content A supplies substantially more detailed, accurate, and mutually consistent information directly matching the anchor's core facts (IPO price $135/share, 555.6M shares, $75B raised, $1.77T valuation, June 11-12 2026 dates, ticker SPCX) via reputable sources (CNBC, Wikipedia, LA Times). Content B's results are sparser, rely on redirect links that obscure the actual source, and provide less complete and slightly fuzzier figures, making it harder for an LLM to construct a fully correct and well-supported answer."
+}

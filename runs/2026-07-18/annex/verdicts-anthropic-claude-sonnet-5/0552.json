@@ -1,0 +1,11 @@
+{
+  "id": 552,
+  "query": "Jerome Powell April 2026 DOJ investigation dropped congressional testimony Senate Banking Committee U.S. Attorney Jeanine Pirro news",
+  "topic": "Jerome Powell",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "The Banking Dive snippet is a bit choppy/fragmentary, but no factual contradictions. Otherwise content is accurate and well-sourced (CNBC, JURIST, official Fed statement).",
+  "b_issues": "Coverage is solid but omits the specific detail about the underlying subpoenas/court quashing and the exact nature of the alleged false congressional testimony; the YouTube result adds little substantive text beyond a caption, diluting depth on the 'congressional testimony' angle.",
+  "reasoning": "Both sets agree on the core facts (Pirro dropping the DOJ probe, referral to the Fed IG, Tillis's hold on Warsh's confirmation). However, Content A includes the JURIST article, which directly addresses the 'congressional testimony' part of the query—explaining that the probe centered on whether Powell made false statements to the Senate Banking Committee last June, that grand jury subpoenas were issued, and that a federal judge (Boasberg) quashed them, plus a direct quote from Fed Chair Powell's official statement (via federalreserve.gov, a highly reliable primary source) confirming the subpoena timeline. Content B's sources (Roll Call, CNBC, YouTube caption, Daily Record, ABC) cover the same basic story but with less specificity on the testimony/subpoena narrative, which is a key part of the question. This makes Content A slightly more complete and precise for fully answering the multi-faceted question."
+}

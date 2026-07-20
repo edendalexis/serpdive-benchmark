@@ -1,0 +1,11 @@
+{
+  "id": 955,
+  "query": "TikTok Shop FBT storage fee discount percentage inventory 2026 seller tools update",
+  "topic": "TikTok Shop",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Does not give a single explicit 'discount percentage' for storage fees, but it directly quotes the official TikTok FBT Rate Card & FAQ document (matching the anchor's primary source) and correctly notes that storage fees were lowered, SIOC discount increased, and other 2026 fee changes (multi-unit pricing Jan 2026, fulfillment fee changes May/June 2026), which aligns well with the anchor's factual content.",
+  "b_issues": "Relies mainly on secondary/aggregator blog sources (dashboardly.io, 3plguys.com, hubfluence.io) rather than TikTok's own documentation. While it supplies a concrete number (14-43% storage fee reduction, 'up to 24%' multi-unit discount), these figures are unverified against the anchor and could be fabricated or outdated, and the sources are less authoritative than TikTok's own seller center page.",
+  "reasoning": "Content A includes the actual TikTok seller-center FBT Rate Card page (the same URL as the anchor), giving the LLM access to the authoritative, verifiable source describing 2026 storage fee reductions, SIOC discount increases, and other fee updates—closely matching the anchor's facts. Content B lacks this official source and instead relies on third-party blogs with specific but unverifiable percentage claims, which risk being inaccurate or hallucinated. Although B's numbers appear to more directly answer the 'discount percentage' phrasing, the lack of a reliable primary source lowers confidence in correctness, making A the safer and more accurate basis for answering the question."
+}

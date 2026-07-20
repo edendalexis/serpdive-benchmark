@@ -1,0 +1,11 @@
+{
+  "id": 381,
+  "query": "Meta Iris AI chip manufacturing start date plan",
+  "topic": "Meta",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "No significant factual flaws; consistent with anchor, states September (2026 implied/explicit) start of manufacturing, mentions Broadcom/TSMC roles, 14GW plan by 2027.",
+  "b_issues": "No significant factual flaws; consistent with anchor, includes featured snippet directly stating September 2026 start, corroborated by CNBC, Times Now, StreetInsider, Mexico Star sources with same key facts.",
+  "reasoning": "Both content sets clearly and accurately answer the question: Meta plans to begin manufacturing its in-house 'Iris' AI chip in September 2026, as part of the MTIA program, with computing capacity plans to reach 14 gigawatts by 2027. Both are sourced from reliable, consistent outlets (Yahoo Finance, Quartz, BigGo, CNBC, Times Now, StreetInsider) that align with the anchor's Reuters-based reporting. Neither set contains contradictions or factual errors relative to the anchor. Content B includes a direct featured snippet with the exact answer plus explicit 'September 2026' date, which is slightly more explicit, but Content A also conveys the same information clearly across multiple sources. The two sets are essentially equivalent in enabling a correct answer."
+}

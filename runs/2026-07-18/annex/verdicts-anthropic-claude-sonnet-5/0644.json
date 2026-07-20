@@ -1,0 +1,11 @@
+{
+  "id": 644,
+  "query": "Berkshire Hathaway 13F 2026 Delta Air Lines Macy's new positions shares value Greg Abel portfolio changes",
+  "topic": "Berkshire Hathaway",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "The InvestSnips result in Content A introduces a contradictory total portfolio figure (~$274.2B across 42 disclosed positions) that conflicts with the anchor and even Benzinga's own account (42 positions was the prior quarter, dropping to 29 after Abel's overhaul in Q1 2026). This creates internal inconsistency that could confuse an LLM about the correct post-filing portfolio size/value. Otherwise the core Delta (39,809,456 shares, ~$2.6B) and Macy's (~3.04M shares, ~$55M) figures are accurate and match the anchor.",
+  "b_issues": "The Benzinga excerpt is thinner/less informative than in Content A (mostly headers without embedded figures), and Forbes content lacks concrete numbers, but neither introduces factual errors or contradictions.",
+  "reasoning": "Both sets contain the key facts needed to answer the question correctly: Delta's new stake of 39,809,456 shares valued at roughly $2.6-2.647B, and Macy's new stake of ~3.04M shares valued at ~$55M, matching the anchor. Both also cover the exits (UnitedHealth, Amazon, Visa, Mastercard) and Greg Abel's role. However, Content A includes an InvestSnips article whose portfolio totals (42 positions, $274.2B) contradict the other sources within the same result set (which state positions went from 42 to 29 and total value was ~$263B), introducing an internal inconsistency. Content B's results are consistent with each other and the anchor, and additionally include an AP News piece explicitly confirming the Alphabet stake tripling and Delta/Macy's additions, reinforcing accuracy without contradiction. This makes Content B marginally more reliable for correctly answering the question."
+}

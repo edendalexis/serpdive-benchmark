@@ -1,0 +1,11 @@
+{
+  "id": 319,
+  "query": "von der Leyen July 2024 re-election European Commission President vote count European Parliament second mandate",
+  "topic": "Ursula von der Leyen",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Minor inconsistency between sources on total Parliament seats (719 vs 720), but core vote count (401 in favour, 284 against) is consistent across all sources; sources are reliable news outlets.",
+  "b_issues": "Relies partly on Wikipedia (less authoritative) but the vote figures (401/284/22 blank) exactly match the official anchor; includes extraneous later-dated information (Nov 2024 Commission approval, 2025 no-confidence vote) that is unrelated to the July 2024 question but not incorrect; minor inconsistency on total seats (720 vs anchor's 719).",
+  "reasoning": "Both content sets contain the essential, accurate facts needed to answer the question: von der Leyen was re-elected on 18 July 2024 with 401 votes in favour versus 284 against, exceeding the required majority (~360-361) in a chamber of about 719-720 MEPs, marking her second term. Content A draws on multiple reputable news outlets (Europarl, BBC, Reuters, CNN, Le Monde) that consistently report these figures. Content B includes a Wikipedia entry that precisely matches the anchor's numbers (401/284/22 blank) plus Le Monde confirming the same vote count, though it also includes some unrelated later-year details that don't affect the core answer. Neither set contains factual errors relevant to the question, and both are internally consistent enough to allow a correct answer, resulting in a tie."
+}

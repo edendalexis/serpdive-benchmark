@@ -1,0 +1,11 @@
+{
+  "id": 967,
+  "query": "Narendra Modi Union cabinet ministers heatwave instructions July 2026 government action plan measures",
+  "topic": "Narendra Modi",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A's snippets are mostly duplicative headlines without substantive details on the actual measures; only a brief mention of ministries protecting citizens, no specifics on which departments (health, water resources) or what actions were directed. Also includes an outdated 2022 article that could confuse the timeline.",
+  "b_issues": "Also includes the outdated 2022 Yahoo article, but this is offset by richer, more detailed content elsewhere.",
+  "reasoning": "Content B provides multiple sources with specific, consistent details: PM Modi directed all Union cabinet ministers to ensure ministries/departments take steps, specifically naming health and water resources departments, emphasizing a 'whole-of-nation' approach involving Centre, states, and citizens. It also adds context from Amit Shah on reducing heatwave deaths and specifies affected regions (Punjab, Haryana, Delhi, UP). Content A's snippets are shorter, more repetitive, and lack the specific ministerial/departmental detail needed to answer the question thoroughly."
+}

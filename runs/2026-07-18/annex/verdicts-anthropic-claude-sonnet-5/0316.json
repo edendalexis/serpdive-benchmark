@@ -1,0 +1,11 @@
+{
+  "id": 316,
+  "query": "Ursula von der Leyen January 2026 Lebanon humanitarian aid pledge 130000 people conflict fallout",
+  "topic": "Ursula von der Leyen",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A never mentions the specific figure of 130,000 people that is central to the question; the closest figures given are 90,000 (WFP food recipients) and vague references to 4 million people needing aid overall. This makes it hard for an LLM to accurately answer the specific query about the 130,000-person pledge.",
+  "b_issues": "Content B's ReliefEU result (matching the anchor almost exactly) confirms the 130,000 figure but doesn't give full context on dates; some other results (2024 €1bn package, March 2026 €100m pledge) could cause confusion about timeline if not read carefully, but they are still factually accurate and dated appropriately.",
+  "reasoning": "The question specifically asks about the 130,000-person aid pledge. Content B contains a direct match to this figure via the ReliefEU joint statement result, which aligns with the anchor's key article. Content A omits this number entirely, instead providing surrounding context (100 million euro pledge, 90,000 people fed by WFP) that could lead an LLM to answer incorrectly or incompletely regarding the specific 130,000 figure requested in the query. Both contain relevant supporting facts about EU aid to Lebanon, but B better satisfies the precise informational need of the question."
+}

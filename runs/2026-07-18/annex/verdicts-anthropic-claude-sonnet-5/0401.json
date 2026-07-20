@@ -1,0 +1,11 @@
+{
+  "id": 401,
+  "query": "EU AI Act Scientific Panel Advisory Forum members list announced June 2026",
+  "topic": "EU AI Act",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "The CDT bulletin snippet states the Advisory Forum is 'currently at 172 members' while other sources (and the official EC page) say 174 — a minor internal inconsistency across results. No other major factual errors; the named Scientific Panel members (Bengio, Chatila, Hilton, etc.) are consistent with the ELLIS and EC scientific-panel pages.",
+  "b_issues": "Content B accurately states the counts (60 Scientific Panel, 174 Advisory Forum) and confirms a full member list was published, but it never actually surfaces any individual member names, leaving the 'members list' part of the query unanswered in substance.",
+  "reasoning": "Both sets confirm the same core facts (appointment on 1 June 2026, 60 Scientific Panel members, 174 Advisory Forum members from 700+ applications) matching the anchor. However, Content A goes further by naming actual Scientific Panel members (Yoshua Bengio, Raja Chatila, Jacob Hilton, Judith Simon, Charlotte Stix, etc.), which directly addresses the 'members list' aspect of the question. Content B only asserts that a list was published without providing any names, making it less useful for a query specifically asking for the members list. The minor 172-vs-174 discrepancy in Content A is a small blemish but does not outweigh the added value of concrete member names."
+}

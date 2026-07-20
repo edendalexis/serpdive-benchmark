@@ -1,0 +1,11 @@
+{
+  "id": 194,
+  "query": "WWDC26 Apple Intelligence onscreen awareness web answers conversation history app Siri AI feature details June 2026",
+  "topic": "Apple Intelligence",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "No major factual contradictions with the anchor; the martiancraft snippet adds an EU DMA restriction claim not corroborated elsewhere, but this doesn't affect answering the core question.",
+  "b_issues": "Second Apple newsroom result is mostly image captions about parental controls rather than textual detail on onscreen awareness/web answers/conversation history, adding less direct value; YouTube video listing offers only timestamps without substantive feature description.",
+  "reasoning": "Both sets include the two key Apple newsroom articles confirming onscreen awareness, web-based answers, personal context, and a conversation-history-enabled Siri app, matching the anchor. However, Content A additionally includes theneuron.ai's explainer, which explicitly ties together all the queried elements (onscreen awareness demo, world-knowledge demo, personal-context demo, and the Siri app's conversation history synced via iCloud) with specific detail, and the developer.apple.com Apple Intelligence guide, which adds technical grounding for onscreen awareness (View Annotations API). Content B's second result is largely image alt-text about parental controls, offering little on the actual query topics, making Content A's set more directly useful for comprehensively and accurately answering the question."
+}

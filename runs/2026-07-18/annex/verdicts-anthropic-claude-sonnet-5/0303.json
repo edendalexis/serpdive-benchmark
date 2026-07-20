@@ -1,0 +1,11 @@
+{
+  "id": 303,
+  "query": "Artemis II completed April 10 2026 crewed test flight beyond the Moon mission summary official NASA press release",
+  "topic": "NASA Artemis program",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Does not link directly to the official NASA press release from the anchor, but content is factually accurate and consistent (SLS as launch vehicle, correct splashdown date/location/time details from Planetary Society and NASA Johnson recap).",
+  "b_issues": "Contains a major factual error inherited from a corrupted Wikipedia excerpt: 'The SpaceX Falcon Heavy was selected as the launch vehicle' — this is false; Artemis II flew on NASA's Space Launch System (SLS), not Falcon Heavy. This directly contradicts the anchor and real mission facts, and could mislead an LLM into stating an incorrect launch vehicle.",
+  "reasoning": "Both sets omit the exact official press release URL from the anchor, but Content A's excerpts (Wikipedia, Planetary Society, NASA Johnson recap, Space.com) are internally consistent and accurate regarding launch vehicle (SLS), crew, dates, and splashdown details. Content B includes a serious factual error stating the launch vehicle was a SpaceX Falcon Heavy, which is incorrect and could cause an LLM to give a wrong answer about a core mission fact. This factual inaccuracy makes Content A more reliable for correctly answering the question."
+}

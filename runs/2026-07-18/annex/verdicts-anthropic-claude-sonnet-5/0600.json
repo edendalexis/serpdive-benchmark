@@ -1,0 +1,11 @@
+{
+  "id": 600,
+  "query": "Bank of Japan July 30-31 2026 Monetary Policy Meeting rate decision outcome",
+  "topic": "Bank of Japan",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Includes a Reuters article about the July 2025 meeting minutes (mislabeled context, could be confused with 2026), and an Ominari prediction-market link showing an unresolved market rather than confirmed outcome. Still, the TradingView snippet directly forecasts 'BoJ set to keep interest rates unchanged in July' for 2026, matching market consensus.",
+  "b_issues": "Contains no direct statement about the expected or actual outcome of the July 30-31, 2026 meeting. The Release Schedule entry only shows that a 'Summary of Opinions' will be released Aug 10, implying the meeting occurred but giving no rate decision. Includes outdated Dec 2025 and 2025 articles (CNBC, Bloomberg, Equalsmoney) about a prior hike to 0.75%, which could mislead a reader into thinking that's the current/latest data point without clarifying it's not the July 2026 decision.",
+  "reasoning": "Since the meeting date is in the future relative to most data, neither source has a confirmed official rate decision. However, Content A provides a forward-looking statement (TradingView) indicating the BoJ is expected to hold rates steady in July 2026, consistent with the anchor's market-implied 98% probability of no change. Content B lacks any forecast or outcome-relevant statement, only showing scheduling metadata and unrelated past rate hikes, making it less useful for answering the question about the expected/actual outcome."
+}

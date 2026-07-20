@@ -1,0 +1,11 @@
+{
+  "id": 90,
+  "query": "Humane AI Pin HP acquisition date 2025 amount",
+  "topic": "Humane AI Pin",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; all three sources (TechCrunch, ComplexDiscovery, HowToGeek) consistently state Feb 18, 2025 announcement and $116 million deal, matching the anchor.",
+  "b_issues": "Core facts (Feb 18, 2025, $116M) are present via TechCrunch and Wikipedia, but two of five results are Instagram posts with confusing, seemingly unrelated future dates (e.g., 'March 04, 2026', 'November 05, 2025', 'June 06, 2025') attached to the same acquisition story, which could mislead a model about the actual acquisition date. This introduces noise and lower-reliability sources (social media) alongside the reliable ones.",
+  "reasoning": "Both sets contain the correct answer ($116 million, announced Feb 18, 2025) from reliable outlets like TechCrunch and Wikipedia/HowToGeek. However, Content A is cleaner, drawing solely from journalistic sources with no extraneous or confusing timestamps, while Content B mixes in Instagram posts with nonsensical future dates that could create confusion about when the acquisition actually occurred, making A the more reliable and less noisy source for answering the query correctly."
+}

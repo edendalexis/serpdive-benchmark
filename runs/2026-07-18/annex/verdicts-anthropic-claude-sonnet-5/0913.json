@@ -1,0 +1,11 @@
+{
+  "id": 913,
+  "query": "2027 Super Bowl LXI television broadcast network channel debut",
+  "topic": "Super Bowl",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "None significant; consistent with anchor and other reliable sources (ESPN/ABC simulcast, first for ESPN, first ABC since Super Bowl XL in 2006).",
+  "b_issues": "The Wikipedia excerpt in B states ABC last aired the Super Bowl in 'Super Bowl XL (2005)', but Super Bowl XL was played in February 2006, contradicting the anchor's own information. It also introduces unverified extra claims (Univision Spanish broadcast, UK Channel 5 broadcast, specifics about an '11-year NFL television contract' rotation) that are not corroborated by the anchor or other sources, raising risk of inaccuracy.",
+  "reasoning": "Both sets confirm the core facts (Feb 14, 2027, SoFi Stadium, first ESPN Super Bowl, ABC simulcast, first ABC Super Bowl since 2006). However, Content B contains an internal factual error (wrong year for Super Bowl XL) and unsupported additional claims that could mislead an LLM, while Content A's information is accurate and consistent across all provided sources."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 347,
+  "query": "Worldcoin parent company workforce reduction staff cuts June 2026",
+  "topic": "Worldcoin",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Most relevant results are duplicative and lack full detail on headcount numbers or percentage cut, but the core fact (Tools for Humanity/Worldcoin parent laying off staff in June 2026) is present and accurate, corroborated by multiple sources (Yahoo Finance, BeInCrypto, Instagram post referencing June 8 internal email).",
+  "b_issues": "Only one result (BeInCrypto) is actually relevant to the query; the rest are about Oracle, Crypto.com, and general 2026 layoffs unrelated to Worldcoin/Tools for Humanity, which could mislead or distract the model into conflating unrelated companies.",
+  "reasoning": "Content A directly surfaces multiple sources specifically about Tools for Humanity/Worldcoin's June 2026 layoffs, including confirmation of the internal email date (June 8) and reasons (Orb revenue struggles). Content B includes only one relevant result on the actual topic, with the remaining four results about entirely different companies (Oracle, Crypto.com, general 2026 layoffs), which does not help and could confuse the answer. Content A is far more focused and accurate for the specific question asked."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 763,
+  "query": "FAA investigation closure SpaceX Starlink 17-32 mishap February",
+  "topic": "FAA",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Relies heavily on social media reposts (Facebook, X/Twitter, Instagram) rather than primary or authoritative sources; while the facts conveyed (investigation closed, root cause engine failure) are correct, the sourcing is weaker and less citable, and some content is vague or interpretive commentary rather than factual reporting.",
+  "b_issues": "Minor: does not explicitly state the exact closure date in the spaceflightnow excerpt (says 'Friday evening' rather than Feb 6), but this is corroborated by the featured snippet which gives the exact date.",
+  "reasoning": "Content B directly quotes the FAA's own statement (via the FAA.gov URL and featured snippet) stating the investigation is closed, no public injuries/damage, and matches the anchor's key facts almost verbatim. It also includes corroborating reporting from Spaceflight Now confirming the closure announcement. Content A conveys similar facts but sources them primarily from social media reposts (Facebook, X, Instagram), which are less reliable and more prone to paraphrase errors, even though the underlying facts align with the anchor. B provides more authoritative, directly quotable material for answering the question accurately."
+}

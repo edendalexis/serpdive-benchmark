@@ -1,0 +1,11 @@
+{
+  "id": 922,
+  "query": "Wicked For Good US theatrical release date 2025",
+  "topic": "Wicked",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "No significant factual flaws; consistently states November 21, 2025 across NBC, Fandango, USA Today, and Playbill sources.",
+  "b_issues": "No significant factual flaws; Wikipedia entry clarifies premiere in São Paulo on Nov 4 vs US release Nov 21, which adds slight complexity but is accurate and clearly distinguishes the US date.",
+  "reasoning": "Both content sets clearly and consistently identify November 21, 2025 as the US theatrical release date for 'Wicked: For Good,' corroborated by multiple reliable sources (NBC, Fandango, USA Today). Content B includes an additional Wikipedia source that adds international premiere context (Brazil, Nov 4) but explicitly clarifies the US release as Nov 21, avoiding contradiction. Neither set has factual errors or internal contradictions, so both equally enable a correct answer."
+}

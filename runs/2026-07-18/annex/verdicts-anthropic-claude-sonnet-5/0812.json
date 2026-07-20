@@ -1,0 +1,11 @@
+{
+  "id": 812,
+  "query": "Microsoft 365 Copilot declarative agents updated GPT model version automatic model selection",
+  "topic": "Microsoft Copilot",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A confirms GPT-5.1 with automatic model selection but does not mention the later GPT-5.2 upgrade, so it may be slightly out of date relative to the anchor, though the core fact (automatic model selection) is accurate and directly stated.",
+  "b_issues": "Content B's actual content snippets are largely unhelpful (navigation links for the release-notes page, a forum thread speculating that model selection was 'removed', a LinkedIn post about GPT-5.3/5.4). None of the snippets explicitly state that declarative agents use automatic/auto model selection; the GPT-5.2 blog title is present but its body text is not shown, so the key fact about 'automatic model selection' is not clearly present, and some included content (forum speculation about removal) could mislead the model.",
+  "reasoning": "Content A contains an explicit, on-topic sentence: 'Microsoft 365 Copilot declarative agents now use the GPT-5.1 model with automatic model selection for performance and reasoning,' which directly answers the question and aligns with the anchor's description of GPT-5.1's auto-selecting orchestrator. Content B's snippets, while mentioning GPT-5.2 update titles, do not clearly convey the automatic model selection detail and instead surface tangential/contradictory community discussion (e.g., users unsure if manual selection was removed), which could confuse rather than inform. Thus Content A better supports a correct, confident answer."
+}

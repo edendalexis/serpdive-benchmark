@@ -1,0 +1,11 @@
+{
+  "id": 546,
+  "query": "ECB banks instruction AI-related cyber collapse risk planning expectations",
+  "topic": "European Central Bank",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A's sources do not mention the ESRB's warning of a potential 'collapse' in banks' cyber defences, which is the specific framing used in the query ('collapse risk'). It covers the action plan, deadline, and DORA extension well, but misses this key systemic-risk angle. Also includes a less authoritative blog source (itcpeacademy).",
+  "b_issues": "The Central Banking article is paywalled/truncated so full detail is limited, but the key fact (ESRB collapse warning, Oct 31 deadline) is captured. No major factual contradictions found; sources are largely reputable mainstream outlets (Euronews, American Banker) plus a specialized quantum-security blog.",
+  "reasoning": "The query specifically asks about 'collapse risk' related to AI cyber threats. Content B directly surfaces this via the Central Banking headline ('ECB tells banks to plan for AI-related collapse in cyber defences') and the Euronews article confirming the ESRB's warning that AI could cause simultaneous cyber incidents/systemic collapse risk across the financial sector—matching the anchor's implied context. Content A's results, while accurate on the action plan, deadline, and DORA extension, never mention the ESRB collapse warning or systemic risk framing, making it less complete for this specific query. Both sets are otherwise consistent with the anchor (letter date, Oct 31 deadline, short/long-term expectations), but B better addresses the 'collapse risk' phrasing central to the question."
+}

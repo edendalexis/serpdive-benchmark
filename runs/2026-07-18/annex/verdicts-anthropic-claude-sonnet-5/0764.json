@@ -1,0 +1,11 @@
+{
+  "id": 764,
+  "query": "FAA Boeing resume issuing certificates new airplanes 737 MAX 787 limited delegation",
+  "topic": "FAA",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Includes an unrelated 2020 article about the FAA lifting the 737 MAX grounding, which is off-topic and could confuse the timeline. The FAA statement snippet is truncated and less detailed than in B, omitting the ODA explanation and 'alternating weeks' detail in full context.",
+  "b_issues": "Two of the five results are duplicate Facebook reposts of the same Reuters snippet, adding little new information; the deeparrival snippet is truncated compared to A's version, losing some July 2026 detail like production limit changes.",
+  "reasoning": "Both sets cover the two key events (Sept 2025 limited delegation and July 2026 full resumption), but B's FAA official statement excerpt is fuller (includes ODA program explanation and alternating-week certification detail), and its Investing.com result adds valuable context about the 8-month review period and comparable production quality findings that justified full resumption. A's inclusion of an irrelevant 2020 return-to-service article dilutes relevance without adding value to this specific question. Overall B provides a more complete and accurate basis for answering the question."
+}

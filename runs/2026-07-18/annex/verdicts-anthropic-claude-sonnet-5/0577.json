@@ -1,0 +1,11 @@
+{
+  "id": 577,
+  "query": "Sheinbaum sexual assault attacker November 2025 Mexico City court sentence outcome",
+  "topic": "Claudia Sheinbaum",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Contains only initial November 2025 coverage of the incident and charges being pressed; no information about the actual court proceedings (vinculación a proceso, juicio oral, prórroga) or any sentence/outcome. Does not answer the 'court sentence outcome' part of the query at all.",
+  "b_issues": "Also contains only initial November 2025 coverage of the groping incident and Sheinbaum pressing charges; no information about subsequent court proceedings, vinculación a proceso, juicio oral, or any sentencing outcome. Like A, fails to address the 'court sentence outcome' part of the query.",
+  "reasoning": "Both Content A and Content B consist almost entirely of early November 2025 news articles about the initial incident and Sheinbaum pressing charges. Neither set includes any information about the subsequent legal proceedings—such as the man being vinculado a proceso, the juicio oral starting, prórrogas for investigation, or any actual sentence/outcome—which is what the question specifically asks about ('court sentence outcome'). The anchor reference shows that reliable info exists (vinculación a proceso in Nov 2025, ongoing trial into 2026, no sentence yet), but neither A nor B captures this. Both are equally incomplete and would leave an LLM unable to correctly answer the sentencing/outcome portion of the query. Since neither surpasses the other in relevant fact coverage, this is a tie."
+}

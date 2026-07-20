@@ -1,0 +1,11 @@
+{
+  "id": 900,
+  "query": "Oppenheimer Holdings cash sweep class action settlement amount court approval status 2026",
+  "topic": "Oppenheimer",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "The Westlaw snippet is truncated and vague ('wins... Federal court approval... May 22, 2026'), leaving the exact nature of the approval (preliminary vs. final) ambiguous. It requires inference to conclude that preliminary approval was granted.",
+  "b_issues": "No major factual issues; the openclassactions.com and litigation website snippets are consistent with the anchor and provide clear, explicit statements of preliminary approval date (May 22, 2026) and final approval deadline (September 17, 2026).",
+  "reasoning": "Both sets agree on the core fact: $70 million settlement, case Liberty Capital Group v. Oppenheimer Holdings et al., filed in SDNY, with claimed damages exceeding $440 million. However, the question specifically asks about court approval status, and Content B explicitly states that preliminary approval was granted on May 22, 2026, and gives a final approval/claims deadline of September 17, 2026, directly and clearly answering that part of the query. Content A only hints at this via a fragmented Westlaw excerpt referencing 'Federal court approval... May 22, 2026' without clearly labeling it as preliminary approval or providing further procedural detail. Thus, B offers a more complete and unambiguous answer to the court approval status portion of the question, while both are equally accurate on the settlement amount."
+}

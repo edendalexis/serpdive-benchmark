@@ -1,0 +1,11 @@
+{
+  "id": 744,
+  "query": "Supreme Court Texas and New Mexico nuclear waste storage case cert granted case name lower court 2024",
+  "topic": "U.S. Supreme Court",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "The PBS snippet only vaguely references the 5th Circuit ('Only the 5th Circuit allowed the cases to proceed') without clearly stating it as the lower court whose ruling was appealed, making the lower-court identification indirect. It also includes an unrelated 2026 ANS article about a different case (Beyond Nuclear vs. Holtec), which could confuse the model about which case is relevant.",
+  "b_issues": "No major factual errors; the scotusblog snippet is brief and slightly terse but correctly confirms cert was granted and cases consolidated (23-1300 and 23-1312).",
+  "reasoning": "Both sets correctly identify the case name 'Nuclear Regulatory Commission v. Texas' and reference the Texas/New Mexico nuclear waste storage dispute. However, Content B's Oyez snippet explicitly states 'The U.S. Court of Appeals for the Fifth Circuit vacated the license,' directly and unambiguously naming the lower court and its ruling, and the ScotusBlog snippet explicitly confirms the cert grant and consolidation of 23-1300/23-1312. Content A's information about the lower court is more indirect (via a vague PBS reference to '5th Circuit') and includes an irrelevant, potentially confusing result about a different 2026 case. Thus B better and more clearly supports a correct answer to the specific question about case name, lower court, and cert grant."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 775,
+  "query": "Hamas receives new proposals Qatar Egypt mediators Gaza ceasefire talks standstill details",
+  "topic": "Gaza ceasefire negotiations",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "The PBS article's exact date is unclear, and the France24 snippet header (\"agrees to\") doesn't quite match the truncated body text (\"receives new truce plan\"), causing minor tense/timeline ambiguity. No article gives a full run-down of every proposal detail in one place, so the reader has to piece together the Aug 18 event from several corroborating sources.",
+  "b_issues": "The included BBC article (c1m0ekn3jkjo) is clearly from an earlier period (references Secretary of State Blinken, a Nov. 2024 week-long truce, and '111 hostages still held, 39 presumed dead') that predates the Trump/Witkoff-era 2025 negotiations referenced in the other results (which cite ~50 remaining hostages). Mixing this outdated article with 2025 sources risks the model presenting stale hostage/ceasefire figures as current, creating a real internal inconsistency in the result set.",
+  "reasoning": "Both sets supply core facts matching the anchor (mediators Qatar/Egypt/US, 60-day ceasefire framework, Witkoff-based proposal, phased hostage releases, Israeli hesitancy over full withdrawal/disarmament, and a general 'standstill' narrative). Content B has closer verbatim overlap with two anchor articles (Axios, NBC) and explicitly uses 'stalled' language (Doha News), which nicely matches the query's 'standstill' term. However, it also imports an outdated BBC article from a different (Nov. 2024/Blinken-era) context with materially different hostage numbers, which could mislead the model into blending stale details with the 2025 narrative. Content A's sources are more internally consistent and center on the same well-corroborated Aug 18, 2025 event (CNN, BBC, Al Jazeera video, France24) plus earlier context (PBS, AA-adjacent details), giving a coherent, if slightly less numerically precise, narrative without a glaring anachronism. On balance, Content A poses less risk of factual contamination, even though Content B has slightly better anchor overlap."
+}

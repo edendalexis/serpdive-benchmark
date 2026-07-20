@@ -1,0 +1,11 @@
+{
+  "id": 256,
+  "query": "Abrysvo Arexvy real-world effectiveness percent RSV hospitalizations emergency visits older adults 2024 2025",
+  "topic": "RSV vaccines",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "The 91% Kaiser figure and 84.6%/76.4% meta-analysis figures are correctly sourced but the results list mixes systematic-review pooled estimates with single-study estimates without much context; some entries (Pharmacytimes, HMP) are tangential (uptake/averted-cases rather than VE%).",
+  "b_issues": "The Kaiser and PMC12936786 snippets are truncated before giving actual VE percentages (Kaiser snippet omits the 91% number, PMC12936786 snippet cuts off before the Arexvy hospitalization VE value), leaving key numeric answers missing. Other results (82.3%/86.7%, 78-80%) are present but not clearly tied to Abrysvo/Arexvy specifically in the snippet.",
+  "reasoning": "Content A explicitly surfaces concrete effectiveness percentages for both hospitalizations and ED/urgent-care visits (91% Kaiser Abrysvo VE, 76.4% pooled ED VE, 84.6% Arexvy VE) directly relevant to the question. Content B references the same underlying studies but its snippets are cut off before the actual percentage figures for Kaiser and the meta-analysis, forcing the agent to rely on less directly relevant numbers (82.3%/86.7%, 78-80%) that are not as clearly tied to Abrysvo/Arexvy specifically. Thus Content A better equips the agent to answer with accurate, specific effectiveness percentages."
+}

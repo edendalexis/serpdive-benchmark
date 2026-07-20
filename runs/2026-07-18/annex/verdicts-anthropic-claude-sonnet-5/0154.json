@@ -1,0 +1,11 @@
+{
+  "id": 154,
+  "query": "Zelenskyy Nawrocki Poland dispute Ukrainian Insurgent Army renamed military unit specific name",
+  "topic": "Volodymyr Zelenskyy",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; all facts align with anchor and add the specific unit designation (Separate Special Operations Center North) named 'Heroes of the Ukrainian Insurgent Army' via decree No. 440/2026.",
+  "b_issues": "Does not specify the actual military unit's designation (e.g., 'Separate Special Operations Center North'); only describes it generically as an 'elite Special Operations Forces unit,' leaving the 'specific name' part of the query only partially answered.",
+  "reasoning": "Both sets agree on the core facts: Zelenskyy issued a May 26 decree naming a Special Operations Forces unit 'Heroes of the Ukrainian Insurgent Army (UPA)', causing Nawrocki to strip him of the Order of the White Eagle. However, the question specifically asks for the 'renamed military unit specific name.' Content A includes a result (english.nv.ua) that explicitly names the unit as the 'Separate Special Operations Center North,' which was granted the honorary name 'Heroes of the Ukrainian Insurgent Army.' Content B never specifies this unit designation, only referring to it vaguely as 'an elite Special Operations Forces unit.' This makes Content A more complete and precise in answering the specific question asked, while both are accurate and non-contradictory otherwise."
+}

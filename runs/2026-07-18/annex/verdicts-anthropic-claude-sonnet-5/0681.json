@@ -1,0 +1,11 @@
+{
+  "id": 681,
+  "query": "European Commission DSA investigation Shein March 2026 reason",
+  "topic": "Shein",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "The EC press-corner snippet is truncated and doesn't explicitly mention the recommender-system transparency issue; the LinkedIn snippet included only covers the illegal-products angle, so A's results, taken together, under-represent the addictive-design and recommender-system-transparency reasons cited by the Commission. The ADVANT-NCTM piece frames the investigation mainly around counterfeit/IP issues, which could mislead about the primary rationale.",
+  "b_issues": "digitalpolicyalert.org states the proceedings opened on 16 February 2026, which conflicts with the official 17 February 2026 date given elsewhere (including the anchor), a minor factual inconsistency. It also includes the same ADVANT-NCTM IP-focused framing as A.",
+  "reasoning": "Both sets include the same core reliable sources (ec.europa.eu, abc7news, advant-nctm, LinkedIn post). However, Content B's LinkedIn excerpt explicitly lists all three reasons matching the anchor (illegal products/CSAM, addictive design, and recommender-system transparency), giving a fuller and more accurate picture of the investigation's rationale. Content A's parallel LinkedIn and EC snippets are truncated/narrower, mentioning mainly illegal products and addictive design without the recommender-system transparency angle, making it less complete for answering the 'reason' question. B's minor date discrepancy is a small flaw but doesn't undermine the core reason information as much as A's incompleteness does."
+}

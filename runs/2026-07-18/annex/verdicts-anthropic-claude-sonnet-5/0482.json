@@ -1,0 +1,11 @@
+{
+  "id": 482,
+  "query": "Paramount Skydance Warner Bros. Discovery merger lawsuit WGA antitrust 2026",
+  "topic": "The WGA",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "The first Variety result in Content A is internally inconsistent/incorrect: its title claims the Paramount states' antitrust case is being linked to a subscriber suit, but the body content actually describes an unrelated HPE-Juniper Networks merger case, which is confusing and factually misleading in this context. Content A also has a minor inconsistency in deal valuation ($111B vs $110B across results) and lacks the clear procedural chronology (state AGs suit July 13, WGA suit July 14) that is central to correctly answering the question.",
+  "b_issues": "No significant factual issues; all results are on-topic and consistent with the anchor facts (filing date July 14, 2026, court, parties, $110B figure, prior state AG suit).",
+  "reasoning": "Content B provides multiple corroborating, on-topic sources (WGA press release, Variety, Hypebeast, Deadline) that consistently and accurately reflect the anchor's key facts: WGA East/West jointly sued in N.D. Cal. on July 14, 2026, one day after 12 state AGs sued, over the $110B Paramount-WBD merger, citing antitrust harm to writers. Content A includes an off-topic/inaccurate snippet (HPE-Juniper case content under a Paramount-related headline) that could mislead an LLM, and has a minor valuation inconsistency, making it less reliable overall despite covering similar core facts."
+}

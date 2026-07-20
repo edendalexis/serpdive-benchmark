@@ -1,0 +1,11 @@
+{
+  "id": 885,
+  "query": "Nocturna horror label Muschietti They Will Kill You release date",
+  "topic": "Skydance Media",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "None significant; multiple sources consistently confirm March 27, 2026 release date.",
+  "b_issues": "Featured snippet answer directly states 'March 27, 2026' but is oddly appended with 'Dec 23, 2025' which is confusing/contradictory and could mislead about the actual release date or suggest a different date.",
+  "reasoning": "Both content sets provide the correct release date of March 27, 2026 for 'They Will Kill You' from Nocturna label. However, Content B's featured snippet includes a confusing 'Dec 23, 2025' date appended to the answer with no context, which could confuse an LLM into thinking this is an alternate or relevant date. Content A's results are clean, consistent, and unambiguous across all sources (Facebook, Fandom wiki, IMDb, Instagram, Deadline), all clearly stating March 27, 2026 without contradictory information."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 647,
+  "query": "Duracell BASF trade secret lawsuit lithium-ion Berkshire Hathaway subsidiary status",
+  "topic": "Berkshire Hathaway",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "The Reuters snippet in A omits the key detail (Judge Gregory Williams rejecting Duracell's motion to dismiss) that is central to answering the 'status' part of the question; relies more on secondary sources (Bloomberg, Justia) that add little on current litigation status.",
+  "b_issues": "The claimsjournal snippet oddly says 'Copyright 2026 Bloomberg' which is inconsistent, but this doesn't affect factual accuracy of the core content.",
+  "reasoning": "Both sets cover the BASF-Duracell lawsuit and Berkshire Hathaway ownership accurately, matching the anchor. However, Content B includes the crucial specific detail that Judge Gregory Williams rejected Duracell's motion to dismiss, directly addressing the current legal status of the case, and the Law360 excerpt reinforces this with quoted ruling details. Content A's Reuters snippet omits this specific judicial action, making it less complete for determining the lawsuit's current status, even though it links to the correct article."
+}

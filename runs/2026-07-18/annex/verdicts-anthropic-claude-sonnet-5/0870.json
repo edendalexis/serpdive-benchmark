@@ -1,0 +1,11 @@
+{
+  "id": 870,
+  "query": "cabinet ministers resigned Keir Starmer June 2026 list names",
+  "topic": "Keir Starmer",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Does not provide a complete list of June 2026 cabinet resignations with names beyond Healey; relies on brief Wikipedia snippet and tutor2u data that is dated before June 2026, so overall list is incomplete.",
+  "b_issues": "Contains irrelevant and potentially misleading content: a Facebook post listing Conservative-era ministers (John Glen, Victoria Atkins, Jo Churchill, Stuart Andrew, Selaine Saxby) unrelated to Starmer's June 2026 resignations, and another Facebook post listing current cabinet members (Miliband, Mahmood, Cooper) rather than resignees, which could cause the LLM to conflate unrelated ministers with the June 2026 resignation list. The Wikipedia snippet only mentions Streeting's May resignation, not June ministers.",
+  "reasoning": "Both sets lack a full, explicit list of June 2026 cabinet resignations with names, but Content A stays focused on relevant Wikipedia/BBC/Al Jazeera sources describing the actual June 2026 events (Healey's resignation, Starmer's resignation, Burnham's rise) without introducing extraneous or misleading data. Content B introduces confusing Facebook snippets that reference ministers from an entirely different era or context, risking factual contamination for the LLM. Thus Content A provides a cleaner, more reliable basis for answering, even though neither is fully complete."
+}

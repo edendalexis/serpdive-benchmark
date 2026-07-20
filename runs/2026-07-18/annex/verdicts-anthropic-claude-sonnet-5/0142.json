@@ -1,0 +1,11 @@
+{
+  "id": 142,
+  "query": "Red Lobster restaurant closures list locations 2025 2026",
+  "topic": "Red Lobster",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Includes one 2024-dated article (citizen-times, NC closures) which is outdated context, but the bulk of the content (Times Square June 14, Tallahassee, Chambersburg PA, Overland Park KS, Independence, Michigan/Texas) is accurately tied to 2026 closures consistent with the anchor's timeline.",
+  "b_issues": "The specific location lists (Yuma AZ, Little Rock AR, 'closing another 23 restaurants,' 'nearly two dozen more restaurants... by August 31') appear to be from the original 2024 bankruptcy closure round, not 2025/2026 as the query asks. This risks the LLM presenting outdated 2024 closure addresses as if they were 2025/2026 closures, which would be factually misleading for this specific query.",
+  "reasoning": "Content A provides closure details (Times Square NYC, Tallahassee FL, Chambersburg PA, Overland Park KS, Independence, plus Michigan/Texas) that are clearly framed as 2026 events and align well with the anchor sources (Undercurrent News, Star-Advertiser, FSR) describing ongoing 2026 closures. Content B's detailed location lists come from sources (CBS News, The Hill via amp links, 6abc) whose content ('closing another 23 restaurants,' 'by August 31') strongly resembles the 2024 bankruptcy-era closure list rather than new 2025/2026 closures, which could mislead an LLM into misdating these closures. Thus Content A better supports an accurate answer to the specific 2025/2026 closures query."
+}

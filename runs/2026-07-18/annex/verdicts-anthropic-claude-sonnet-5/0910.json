@@ -1,0 +1,11 @@
+{
+  "id": 910,
+  "query": "Super Bowl LX final score winner MVP Kenneth Walker III Seattle Seahawks New England Patriots February 8 2026",
+  "topic": "Super Bowl",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "One secondary source (Yahoo) gives Walker's rushing yards as 131 instead of 135, creating a minor internal inconsistency, though all other sources and the featured snippet correctly state 135 yards, 29-13 Seahawks win, and MVP status.",
+  "b_issues": "No significant factual errors; all sources consistently report the 29-13 Seahawks win, Kenneth Walker III as MVP, and 135 rushing yards on 27 carries.",
+  "reasoning": "Both sets of results correctly and consistently answer the core question: Seahawks won 29-13 over the Patriots on Feb 8, 2026, and Kenneth Walker III was named Super Bowl LX MVP with 135 rushing yards. Content A includes one outlier stat (131 vs 135 yards) from a Yahoo snippet, but this doesn't affect the primary answer since the majority of sources (NFL.com, ESPN, Seahawks.com, USA Today) agree on 135 yards. Content B's sources are uniformly consistent. Since the key facts needed to answer the question (final score, winner, MVP) are accurately and reliably presented in both, this is a tie."
+}

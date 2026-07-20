@@ -1,0 +1,11 @@
+{
+  "id": 676,
+  "query": "Kamala Harris 107 Days memoir book tour international dates cities 2025",
+  "topic": "Kamala Harris",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Includes a contradictory/erroneous source (kamalaharristour.com) claiming the tour is in 2026, which conflicts with all other sources and could mislead an LLM about the year. Otherwise the NBC and Wikipedia snippets are accurate and detailed (cities, countries, dates).",
+  "b_issues": "Does not provide a full list of all 15 cities or explicit dates for the Toronto/London international stops, only a couple of concrete dates (Sept 24 NYC, Oct 4 Houston) plus confirmation of US/Canada/England countries.",
+  "reasoning": "Both sets contain the core facts (15-city tour, US/Canada/UK, starting Sept 24 2025). However, Content A includes a clearly false/contradictory snippet (2026 tour) that could confuse an LLM about the correct year, undermining reliability. Content B, while less detailed on the full city list, is internally consistent and accurate across all its sources (Consequence.net, 107daysbook.com, Politico, People), making it safer for correctly answering the question."
+}

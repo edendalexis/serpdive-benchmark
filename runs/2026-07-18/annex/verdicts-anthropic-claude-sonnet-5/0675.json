@@ -1,0 +1,11 @@
+{
+  "id": 675,
+  "query": "Kamala Harris Pioneer49 activities 2025 political organizing events AI panel",
+  "topic": "Kamala Harris",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A only returns a single, irrelevant Instagram result about 'The Hilltop' account that has nothing to do with Pioneer49, AI panels, or Harris's 2025 organizing activities. It provides no usable facts to answer the question.",
+  "b_issues": "Content B does not explicitly mention the HumanX AI conference/panel appearance by name, though the LA Times result references her considering 'Tackle AI' as an option, which loosely relates to AI involvement but isn't as specific as the anchor's TechBrew result about the HumanX panel.",
+  "reasoning": "Content B provides multiple relevant, reliable sources (Politico, Washington Post, LA Times) that directly address Pioneer49's creation and purpose, Harris's 2025 political deliberations (governor run, 2028 presidential run), and hints at AI-related activities. Content A provides only a single irrelevant Instagram result with no connection to the query topics, making it useless for answering the question. B clearly enables a much more accurate and complete answer."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 208,
+  "query": "Shohei Ohtani 2026 season pitching stats after July 22 return from knee injury",
+  "topic": "Shohei Ohtani",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Does not explicitly break out post-July 22 stats alone, but reports season-cumulative pitching totals (8-2, 1.79 ERA, 85.2 IP, 95 K, 0.95 WHIP through 14 starts) that match the anchor reference closely, giving an accurate basis for answering.",
+  "b_issues": "Provides little to no concrete pitching stat line for the season or post-return period; mentions only an anecdotal '6 scoreless innings' in a first start with no clear date context, and otherwise focuses on batting/game logs and unrelated Facebook/Yahoo snippets, making it hard to answer the specific pitching-stats question.",
+  "reasoning": "The question asks for Ohtani's 2026 pitching stats after his July 22 return from knee injury. Content A's RotoWire and MLB.com snippets give the exact cumulative pitching numbers (14 GS, 8-2, 1.79 ERA, 85.2 IP, 95 K, 0.95 WHIP) that match the anchor's official MLB.com stats, and also provide context (knee drained, expected return Wednesday vs Phillies) that ties directly to the injury timeline. Content B lacks any consolidated pitching stat line for the season and instead offers fragmented, less reliable sources (Reddit, Facebook) without clear, verifiable numbers, making it far less useful for accurately answering the question."
+}

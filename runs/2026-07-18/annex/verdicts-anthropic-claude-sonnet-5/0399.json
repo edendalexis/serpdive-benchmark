@@ -1,0 +1,11 @@
+{
+  "id": 399,
+  "query": "Sanofi GSK H5N1 mRNA vaccine clinical trial phase status progress 2025",
+  "topic": "H5N1 bird flu",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Does not explicitly break out GSK's H5N1 program separately (mentions GSK/CureVac in passing), and lacks deep detail on trial specifics beyond the CIDRAP table entry, but the core facts (Sanofi SP0289, Phase 1/2, NCT06907511 and NCT06727058) are accurate and match the anchor.",
+  "b_issues": "Largely off-target: the GSK result concerns a seasonal influenza mRNA vaccine (not H5N1), the Sanofi result concerns a flu-COVID-19 combination vaccine (not H5N1 mRNA), and other results focus on Moderna/CEPI/universal flu vaccines. No NCT IDs or phase/status details for the actual Sanofi or GSK H5N1 mRNA candidates are provided, making it hard to answer the specific question accurately.",
+  "reasoning": "Content A includes a CIDRAP pipeline table entry explicitly listing Sanofi's H5 mRNA vaccine (SP0289) with Phase 1/2 status and the exact NCT IDs (NCT06907511, NCT06727058) that match the anchor's ground truth, plus a mention of GSK/CureVac's H5N1 mRNA candidate in active development. This gives an LLM concrete, accurate, anchor-consistent facts to answer the question. Content B's results are mostly tangential—covering seasonal flu (GSK), COVID-flu combo (Sanofi), and Moderna's H5N1 vaccine—without providing the specific Sanofi/GSK H5N1 trial phase/status details needed, risking a conflated or incorrect answer."
+}

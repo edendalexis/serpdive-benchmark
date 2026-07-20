@@ -1,0 +1,11 @@
+{
+  "id": 554,
+  "query": "Federal Reserve Eccles Building renovation federal probe Jerome Powell 2026",
+  "topic": "Jerome Powell",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "All results are from Jan 2026 or earlier (one from July 2025); none capture the later March 2026 development (prosecutor telling judge there was no evidence, subpoenas quashed) that the anchor highlights as the most recent, resolving stage of the story. Otherwise the facts (subpoenas, $2.5B cost, testimony before Senate Banking Committee, IG review) are consistent with reliable outlets (Fox Business, NPR, CNBC, CNN, Fox26).",
+  "b_issues": "Same limitation as A: all sources are from Jan 2026, describing only the investigation's launch/backstory, with no mention of the March 2026 resolution (no evidence found, subpoenas quashed) that the anchor's CNN/AP results emphasize. Facts presented (cost, subpoenas, political context) are accurate and sourced from reputable outlets (Axios, NYT, NBC, Bloomberg, Business Insider).",
+  "reasoning": "Both content sets are essentially frozen at the same point in the timeline (the January 2026 investigation launch) and provide accurate, well-sourced background on the DOJ probe, the $2.5B renovation cost, and the Trump-Powell conflict. Neither set includes the more recent March 2026 development—prosecutor admitting lack of evidence and subpoenas being quashed—which the anchor suggests is a key, more current fact. Since both omit this crucial update equally and otherwise provide comparable, accurate coverage from reliable sources, neither is clearly superior."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 652,
+  "query": "UNRWA eUNRWA interactive bilingual mobile platform launch registration services Palestine refugees latest official announcement",
+  "topic": "United Nations Relief and Works Agency for Palestine Refugees in the Near East",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None identified; content is accurate and consistent with the anchor, and adds verifiable detail (developer partnership with UNICC, registration statistics, Digital Transformation Strategy) not contradicted by other sources.",
+  "b_issues": "Results are mostly duplicate/thin snippets repeating the same single sentence across five links, with no additional substantive detail (e.g., no info on developers, statistics, or strategic context). Provides direct official UNRWA links, which is a plus for authority, but content depth is minimal.",
+  "reasoning": "Both sets are factually accurate and non-contradictory, but Content A supplies richer, more complete information about the eUNRWA platform (its development partners, scale of registered refugees, and its role in UNRWA's Digital Transformation Strategy), enabling a more thorough and accurate answer. Content B's results, while including the official unrwa.org source, offer little beyond the same short description already given in the anchor, making it less useful for a comprehensive answer."
+}

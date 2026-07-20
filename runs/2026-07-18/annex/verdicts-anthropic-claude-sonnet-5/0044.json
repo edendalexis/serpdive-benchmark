@@ -1,0 +1,11 @@
+{
+  "id": 44,
+  "query": "2025/26 UEFA Champions League league phase format top 8 round of 16 9th 24th knockout playoff official UEFA",
+  "topic": "UEFA Champions League",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "No major factual errors; the first Wikipedia snippet in A focuses mainly on draw dates and playoff seeding but doesn't explicitly restate the 'top-8 bye/9th-24th playoff' rule in that particular excerpt, though other sources (official UEFA article, ESPN, second Wikipedia page) do state it clearly.",
+  "b_issues": "No major factual errors; includes a low-reliability Facebook post as a source (though its content is consistent with the reliable sources), and the Yahoo Sports snippet is only tangentially relevant (focuses on qualifying rounds rather than the 9th-24th playoff rule).",
+  "reasoning": "Both content sets contain the core, accurate facts needed to answer the question: the top 8 teams in the league phase get a bye to the Round of 16, while teams finishing 9th-24th enter a two-legged knockout playoff, with teams 25th-36th eliminated. Both include the same official UEFA article explicitly stating this rule, and both include Wikipedia excerpts (from the knockout phase and/or league phase articles) confirming the seeding breakdown (9-16 seeded, 17-24 unseeded for the playoff draw). A supplements this with ESPN confirmation and concrete seeded team pairings (SI.com), while B supplements with a more complete single Wikipedia quote covering both playoff and Round of 16 seeding, plus AS.com. Neither set contains contradictions or unreliable information that would mislead an answer. The minor weaknesses (B's Facebook/Yahoo inclusions, A's less complete first snippet) are offset by strengths elsewhere in each set, making them roughly equivalent in enabling a correct answer."
+}

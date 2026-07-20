@@ -1,0 +1,11 @@
+{
+  "id": 856,
+  "query": "SAG-AFTRA federal tax spending bill AI regulation state prohibition litigation lobbying outcome 2025",
+  "topic": "SAG-AFTRA",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Does not mention SAG-AFTRA specifically; ATR piece is from before the Senate vote and is somewhat dated/opinionated, potentially misleading if read alone without the Goodwin/AP context; no direct info on union lobbying.",
+  "b_issues": "Does not mention SAG-AFTRA specifically; some sources (Claims Journal) are pre-vote and could mislead if read in isolation; Forbes piece about a later ($150M) lobbying war is tangential to the original bill's outcome and could conflate timelines if not read carefully.",
+  "reasoning": "Both result sets accurately convey the core factual outcome that matches the anchor: the House included a 10-year AI regulation moratorium in the 'One Big Beautiful Bill,' and the Senate voted 99-1 to strip it after backlash from states. Content A conveys this via ATR, Goodwin Law, and AP News; Content B conveys it via Claims Journal, PBS, Reuters (duplicate of anchor), and DLA Piper, plus additional context on ongoing lobbying (Forbes). Neither set specifically surfaces SAG-AFTRA's role, which is central to the question, so both are equally incomplete on that specific entity. Overall factual accuracy and reliability are comparable between the two, with B offering marginally more breadth (including the anchor's own Reuters article and a later lobbying update) but neither being clearly superior at directly answering the SAG-AFTRA-specific portion of the question."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 696,
+  "query": "NATO Ankara summit 2026 Ukraine Patriot missile license production four systems delivery timeline",
+  "topic": "NATO",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Does not explicitly mention 'four systems' production/delivery detail requested in the query, and some entries are truncated (e.g., NATOWatch briefing) so full detail isn't visible.",
+  "b_issues": "Relies partly on low-reliability sources (Facebook posts) and includes a contradictory claim ('by end of 2026 we will have technical capability') that conflicts with the more consistent 1-2 year timeline given elsewhere; the Euromaidan Press snippet is less detailed than in A, omitting the '2027' timeline and negotiation-status details.",
+  "reasoning": "Both sets miss the specific 'four systems' figure from the query, but Content A draws on more authoritative and consistent sources (official NATO declaration, Reuters, NATOWatch, and a more detailed Euromaidan Press excerpt that explicitly cites the 2027 timeline and notes the license wasn't finalized at the summit). Content B's mix of Facebook posts and a conflicting year-end 2026 claim reduces reliability and could lead to inconsistent or inaccurate timeline statements. Thus Content A better supports a correct, well-sourced answer."
+}

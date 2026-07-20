@@ -1,0 +1,11 @@
+{
+  "id": 899,
+  "query": "Alien Romulus sequel Predator appearance script rumors April 2025",
+  "topic": "Alien: Romulus",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Core facts (Jeff Sneider rumor, Fede Álvarez sequel, Predator crossover) are accurate, but content is thinner overall; two of the five results (forum thread, X post) add little substantive information, and no result mentions the specific podcast (The Hot Mic) or executive comments that corroborate the rumor.",
+  "b_issues": "No major factual errors; content aligns with the anchor and matches known reporting (Jeff Sneider, AvP Galaxy, Weyland Uplink, Budapest Reporter). Slight redundancy but no inaccuracies.",
+  "reasoning": "Both sets correctly identify the core rumor: Jeff Sneider reported that Fede Álvarez's Alien: Romulus sequel script includes a Predator, tying into speculation about a future AVP crossover after the Predator: Badlands trailer teased Weyland-Yutani connections. However, Content B provides additional verifiable specifics that strengthen the answer's reliability and depth—naming the exact podcast ('The Hot Mic', timestamp 44:22), quoting Sneider's exact wording, and citing a corroborating statement from 20th Century Studios exec Steve Asbell. Content A's extra results (forum thread, X post) are lower-value duplicates that don't add new substantive facts. Thus B offers a more complete and equally accurate basis for answering the question."
+}

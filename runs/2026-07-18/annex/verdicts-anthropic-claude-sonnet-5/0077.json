@@ -1,0 +1,11 @@
+{
+  "id": 77,
+  "query": "98th Oscars 2026 Sinners record nominations total wins categories",
+  "topic": "Academy Awards Oscars",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Does not explicitly list Sinners' 4 wins or their categories, though Yahoo result confirms 'Sinners' dominated alongside One Battle After Another and mentions record 16 nominations; requires piecing together but no false info present.",
+  "b_issues": "Featured snippet lists nomination categories including 'Best Picture, Best Director, Best Actor, Costume Design, Original Score, Best Supporting Actor and Best Supporting Actress' - this is inaccurate/misleading since Sinners was not nominated for Best Director, and the list conflates nomination categories without clarifying wins vs nominations. Does not mention the 4 wins or their specific categories (Best Actor, Cinematography, Original Score, Original Screenplay) at all, leaving the 'wins' part of the query unanswered.",
+  "reasoning": "The question asks about nominations total, wins, and categories. Content A's Yahoo result confirms Sinners and One Battle After Another dominated, provides context on the ceremony, and combined with Screendaily/Variety confirms the 16-nomination record accurately. While A doesn't explicitly enumerate Sinners' 4 wins, it doesn't contain contradictory or false info. Content B's snippet contains a factual error (listing 'Best Director' as a Sinners nomination, which is incorrect per the anchor - Coogler was nominated for directing but the anchor doesn't confirm this either way, though it's suspicious) and B's results focus heavily on nominations context without ever addressing the wins/categories won, which is a core part of the query. Neither perfectly answers, but A's information is more accurate and less likely to mislead, while B risks providing incorrect category information."
+}

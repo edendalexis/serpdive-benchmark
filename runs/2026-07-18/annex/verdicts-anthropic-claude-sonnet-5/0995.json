@@ -1,0 +1,11 @@
+{
+  "id": 995,
+  "query": "Jodie Foster return True Detective season 5 interview anthology one and done 2025",
+  "topic": "True Detective",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "None significant; multiple sources consistently confirm Foster's 'one and done' quote and anthology confirmation, matching the anchor.",
+  "b_issues": "None of the result snippets actually include the key 'one and done' quote or Foster's direct 'No, it's an anthology' statement—the Variety snippet is truncated before the relevant quote. Also introduces potentially confusing/tangential details (2027 launch date, Jamaica Bay setting) that don't directly address the specific interview quote asked about.",
+  "reasoning": "The question specifically asks about Foster's interview quote 'one and done' and anthology confirmation. Content A directly surfaces this exact quote in multiple sources (X/Variety post, ScreenRant, Variety article description), giving a clear, well-supported answer. Content B includes relevant background sources (Variety, TVGuide, THR, Uproxx) confirming Foster won't return, but none of the snippets actually contain the specific 'one and done' quote or the direct 'No, it's an anthology' line—an LLM relying on B would have to infer the quote rather than cite it directly, making A more precise and complete for this specific query."
+}

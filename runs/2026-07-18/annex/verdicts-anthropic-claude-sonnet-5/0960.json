@@ -1,0 +1,11 @@
+{
+  "id": 960,
+  "query": "Narendra Modi July 17 2026 Chandigarh development projects amount sectors inaugurated official release",
+  "topic": "Narendra Modi",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "First result's snippet is a bit run-together (combines the overall trip total of ₹6,600 crore with Chandigarh-specific ₹4,700 crore in one paragraph), which could momentarily confuse a reader, but on close reading it correctly attributes ₹4,700 crore to Chandigarh and ₹6,600 crore to the broader Haryana trip, and provides accurate sector/project detail (PGIMER Advanced Mother and Child Centre, Neurosciences Centre, PEC hostels, Jind-Gohana highway, Amrit Bharat stations) matching the anchor.",
+  "b_issues": "The PIB (official) result snippet is truncated right before listing the sectors, so the key sector breakdown is not actually visible. Worse, the organiser.org snippet states Chandigarh projects were worth 'over Rs 6,600 crore', directly contradicting the correct ₹4,700 crore figure for Chandigarh confirmed by the anchor and PIB title itself, creating an internal contradiction within Content B.",
+  "reasoning": "Content A supplies a fuller, self-consistent official readout (via pmindia.gov.in) with the correct ₹4,700 crore figure for Chandigarh and detailed sector/project breakdown matching the anchor. Content B includes a PIB link but its visible snippet is cut off before the sector details, and another source in B (organiser.org) misstates the Chandigarh amount as ₹6,600 crore, creating a contradiction that could mislead an LLM. Thus A better enables a correct, detailed answer."
+}

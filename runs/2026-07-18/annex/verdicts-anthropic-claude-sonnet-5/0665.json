@@ -1,0 +1,11 @@
+{
+  "id": 665,
+  "query": "Ilya Sutskever NeurIPS Test of Time Award consecutive National Academy Sciences Award 2026",
+  "topic": "Ilya Sutskever",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "None significant; results directly confirm Sutskever's three consecutive NeurIPS Test of Time Awards (2022-2024) and 2026 NAS Award for Industrial Application of Science, matching the anchor. One irrelevant result (ACS chemistry awards) but doesn't detract from correct info present.",
+  "b_issues": "Does not mention the 2026 NAS Award at all - focuses only on NeurIPS Test of Time awards (2013 word2vec paper and 2014 seq2seq paper), missing half the question entirely. Cannot confirm the National Academy of Sciences 2026 award connection needed to fully answer the query.",
+  "reasoning": "The question asks about both Sutskever's NeurIPS Test of Time Award (consecutive wins) and the National Academy of Sciences Award for 2026. Content A provides direct evidence for both: the YouTube video and NAS award page confirm the 2026 NAS Award for Industrial Application of Science, while other results reference the Test of Time award context. Content B only covers NeurIPS Test of Time awards for older papers (2013, 2014) and completely omits any mention of the National Academy of Sciences or the 2026 award, making it impossible to fully answer the question using B alone."
+}

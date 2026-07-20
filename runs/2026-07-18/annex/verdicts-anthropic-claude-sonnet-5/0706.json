@@ -1,0 +1,11 @@
+{
+  "id": 706,
+  "query": "number US states rejected DOJ Live Nation Ticketmaster settlement withdrawn claims 2026 Pennsylvania New Jersey",
+  "topic": "Ticketmaster DOJ lawsuit",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Numbers are inconsistent across snippets (WHYY says 'more than 30 states,' Politico says 'more than two dozen,' Wikipedia says '36 states and D.C.' after settlement), but it directly names both Pennsylvania and New Jersey as rejecting states, matching the question's specifics.",
+  "b_issues": "Numbers also inconsistent (27 per Inc.com, 'more than two dozen' per Politico/Daily Record). Pennsylvania is only confirmed via a tweet snippet, and New Jersey is never explicitly mentioned as one of the rejecting states in any of B's results, leaving a gap relative to the question's specific mention of NJ.",
+  "reasoning": "Both sets contain some numerical inconsistency, a common issue given evolving reporting, but Content A explicitly states that Pennsylvania and New Jersey both rejected the settlement in a single unambiguous sentence, directly answering the question's specific ask. Content B never explicitly ties New Jersey to the rejection—only Pennsylvania and New York are mentioned in separate results—making it less complete for this specific query."
+}

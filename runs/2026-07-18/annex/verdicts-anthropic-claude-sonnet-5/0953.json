@@ -1,0 +1,11 @@
+{
+  "id": 953,
+  "query": "TikTok Shop 2026 crackdown affiliate spam low quality products deceptive sellers official policy enforcement blog",
+  "topic": "TikTok Shop",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Relies partly on secondary sources (ppc.land, novadata.io, auditsocials.com, emplicit.co) rather than official TikTok policy pages directly, though it does include and accurately reflect the actual official Policy Pulse page and closely mirrors the anchor's official content; specifics like exact enforcement thresholds are not fully detailed.",
+  "b_issues": "Results are largely irrelevant tangential commentary (student newspaper opinion piece, LinkedIn post, FTC disclosure speculation, fake products article) rather than official TikTok Shop policy or enforcement documentation; does not reference the actual Content Policy, Product Listing Policy, or Creator Enforcement Policy dates/details; lacks concrete official policy facts needed to answer the query accurately.",
+  "reasoning": "Content A directly includes and paraphrases the official TikTok Shop Policy Pulse page (matching the anchor) and reputable industry coverage (ppc.land, novadata.io) detailing specific official policy changes (Content Policy May 22, 2026; Product Listing Policy June 2, 2026; posting limits; creator binding rules), giving concrete, accurate, verifiable facts aligned with the anchor. Content B's results are mostly unofficial, tangential, or opinion-based sources that do not address the specific 2026 crackdown policies, enforcement mechanisms, or official TikTok documentation, making it far less useful and partly inaccurate/irrelevant for answering the question."
+}

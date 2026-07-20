@@ -1,0 +1,11 @@
+{
+  "id": 166,
+  "query": "Rivian Redwood Materials energy storage partnership announcement April 2026 details manufacturing supply chain",
+  "topic": "Rivian",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A is accurate but less detailed; the rivianforums source adds an uncertain, speculative comment about whether this constitutes 'true recycling', which is not authoritative and adds little value. No major factual errors, but less supply-chain/manufacturing context is provided (e.g., no comparison to Redwood's other storage projects).",
+  "b_issues": "No significant factual errors; content is consistent across sources.",
+  "reasoning": "Both sets cover the core facts correctly and consistently: the April 14, 2026 announcement, Normal, Illinois plant, 100+ second-life Rivian packs, 10 MWh capacity, Redwood Pack Manager tech, and JB Straubel's quote. However, Content B's Electrek excerpt adds valuable extra detail relevant to the 'manufacturing supply chain' angle of the question—specifically the comparison to Redwood's larger 12MW/63MWh Sparks, Nevada microgrid (792 packs) powering a Crusoe AI data center, and detail on how Redwood Pack Manager handles mixed battery chemistries and states of health. This gives a more complete picture of Redwood's broader battery supply chain/manufacturing capabilities. Content A's additional sources (WardsAuto, LinkedIn) provide some useful context but also include a less reliable, speculative rivianforums post that adds uncertainty rather than clarity. Overall, B offers a slightly richer and equally accurate set of details for answering the question."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 494,
+  "query": "AELTC Wimbledon Park expansion 2026 39 courts £200m planning permission GLA former golf course latest update",
+  "topic": "Wimbledon",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Court figures vary between 38 and 39 courts depending on source (38 grass courts + 1 show court = 39 total), which could cause minor confusion but is factually consistent with the actual plan; the BBC 'appeal court' article's date/context is a bit ambiguous relative to the March 2026 ruling.",
+  "b_issues": "No official GLA source is included despite the query explicitly asking about GLA planning permission; court figures (38 vs 39) vary across sources similarly to A; some articles (Forbes, YouTube) are less directly tied to the 'GLA planning permission' aspect of the question.",
+  "reasoning": "Both sets accurately convey the core facts (£200m cost, ~39 new courts, former golf course, AELTC vs Save Wimbledon Park litigation, March 2026 High Court ruling). However, Content A uniquely includes the official London.gov.uk (GLA) press release detailing the Deputy Mayor's approval of the planning application—directly answering the 'GLA planning permission' portion of the query with a primary, highly reliable source—plus a Guardian article detailing the GLA approval process and a Wimbledon Society timeline. This gives A a more complete and specifically GLA-focused answer. Content B offers strong detail on the March 2026 court ruling (via NYT Athletic and Al Jazeera) and later developments (protests, Forbes), but lacks any GLA-sourced content, weakening its coverage of that explicit query element. Overall, A better satisfies all facets of the question, including the GLA planning-permission angle that B omits."
+}

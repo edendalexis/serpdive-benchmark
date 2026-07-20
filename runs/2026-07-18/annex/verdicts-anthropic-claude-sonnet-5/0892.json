@@ -1,0 +1,11 @@
+{
+  "id": 892,
+  "query": "Alien Romulus sequel official release date announcement",
+  "topic": "Alien: Romulus",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Contains only tangential/consistent info; no explicit release date is given because none exists, which is accurate. Slightly indirect (movieweb piece focuses on director change and Alien: Earth season 2 rather than directly addressing release date), but no contradictions or false claims.",
+  "b_issues": "Includes two Reddit results with clearly false/contradictory claims ('ALIEN: ROMULUS will officially release on Disney+ on November 21' and 'will premiere on Hulu on August 16'), which directly contradict the Wikipedia entry's actual theatrical release info in the same result set. This could mislead an LLM into fabricating a false release date or confusing streaming vs theatrical release facts.",
+  "reasoning": "Both sets agree on the core truth (no official release date has been announced for the Romulus sequel; it's in development, filming planned for Oct 2025, Alvarez departed). However, Content B introduces internally contradictory and factually incorrect Reddit snippets suggesting specific (and wrong) release dates/platforms for the original film, which risks the LLM asserting a false release date. Content A's sources are more consistent and free of such contradictions, making it more reliable for answering the question correctly."
+}

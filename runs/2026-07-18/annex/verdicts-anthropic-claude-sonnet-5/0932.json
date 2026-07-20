@@ -1,0 +1,11 @@
+{
+  "id": 932,
+  "query": "Klarna Curve Dental healthcare payments integration launch",
+  "topic": "Klarna",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "The Klarna press-release snippet in A omits the explicit announcement date/location and the 'now live' launch language, focusing instead on the Sykes quote and general Klarna stats; it also includes an unrelated Bluefin partnership result that adds noise without contradicting anything.",
+  "b_issues": "No major factual issues; content is consistent across sources.",
+  "reasoning": "Both sets converge on the same core facts (Klarna via Curve Pay, powered by Stripe, offering pay-in-full, pay-in-4, and longer-term financing for dental patients). However, Content B's Klarna press-release snippet explicitly states 'New York, July 14, 2026 — Klarna... announced today that it is now live with... Curve Dental®,' which directly and clearly answers the 'launch' aspect of the question with date and confirmation of go-live status. Content A's corresponding snippet lacks this explicit launch confirmation, requiring more inference. Both sources are reliable (klarna.com, prnewswire, marketscreener), and neither set contradicts itself, but B provides a slightly more direct and complete answer to the launch question."
+}

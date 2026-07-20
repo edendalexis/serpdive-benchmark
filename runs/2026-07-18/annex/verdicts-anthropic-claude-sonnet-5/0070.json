@@ -1,0 +1,11 @@
+{
+  "id": 70,
+  "query": "101st Academy Awards 2029 exclusive broadcast rights winner",
+  "topic": "Academy Awards Oscars",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "None significant; all sources consistently confirm YouTube won exclusive global rights starting with 101st Oscars in 2029 through 2033.",
+  "b_issues": "None significant; all sources consistently confirm YouTube won exclusive global rights starting with 101st Oscars in 2029 through 2033.",
+  "reasoning": "Both content sets contain multiple reliable sources (official Academy press release, Deadline, and other reputable outlets) that clearly and consistently state YouTube won the exclusive global broadcast rights to the Oscars starting with the 101st ceremony in 2029, running through 2033. Both provide the same core facts with no contradictions, allowing an LLM to answer the question correctly with either set."
+}

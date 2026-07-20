@@ -1,0 +1,11 @@
+{
+  "id": 15,
+  "query": "TSMC global semiconductor industry size forecast 2030 trillion AI demand revision",
+  "topic": "Taiwan Semiconductor Manufacturing Company",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "None significant; all results consistently confirm the $1.5 trillion by 2030 forecast, the 50% upward revision from $1 trillion, and 55% AI/HPC share, matching the anchor.",
+  "b_issues": "Contains a contradictory/outdated data point from Deloitte stating the industry is expected to reach only $1 trillion by 2030 (not $1.5 trillion), which conflicts with the TSMC forecast and could confuse the answer. Also includes an unrelated/outdated market research stat (Market.us, 2024) projecting $1307.7B by 2032, adding further noise.",
+  "reasoning": "Both sets contain the core correct fact (TSMC's revised $1.5 trillion by 2030 forecast, up 50% from $1 trillion, with AI/HPC at 55%). However, Content B includes a Deloitte source that explicitly states a different, lower 2030 figure ($1 trillion), which directly contradicts the TSMC forecast the question is asking about, creating confusion. Content A's five sources are all consistent, corroborating the anchor's figures precisely and without contradiction, making it more reliable for correctly answering the question."
+}

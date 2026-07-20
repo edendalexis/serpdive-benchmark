@@ -1,0 +1,11 @@
+{
+  "id": 363,
+  "query": "GTA 6 Online multiplayer mode launch availability official confirmation Rockstar",
+  "topic": "Grand Theft Auto VI",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Relies entirely on secondary/tertiary sources (games.gg, msn, gtaboom, vice, a Facebook post) with no primary Rockstar source; the Facebook post excerpt is garbled with SVG code and an oddly-phrased fragment ('confirmed Grand Theft Auto 6 features a game at launch') that could confuse the reading model, though it doesn't contradict the core fact.",
+  "b_issues": "The rockstargames.com newswire snippet gives a launch date (Nov 19, 2026) that may not match other sources' stated year, but this is tangential to the multiplayer question and not clearly wrong within the snippet itself.",
+  "reasoning": "Both sets agree on the core fact that Rockstar has officially described GTA 6 as a 'single-player experience' with no multiplayer/GTA Online confirmed at launch, matching the anchor. Content B is slightly stronger because it includes an official Rockstar Games source (rockstargames.com) alongside the same games.gg article used in A, and its games.gg excerpt is more detailed (covering GTA 5's online rollout precedent, possible delivery methods, and explicit note that no release window has been confirmed), giving a fuller and more accurate basis for answering. Content A's supporting sources are all secondary outlets restating the same conclusion, and one result (the Facebook post) is noisy and poorly formatted, adding no real value and slight confusion risk. Neither set contradicts the anchor, but B's inclusion of a primary source and richer detail gives it a slight edge."
+}

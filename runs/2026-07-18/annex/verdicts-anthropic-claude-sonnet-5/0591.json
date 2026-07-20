@@ -1,0 +1,11 @@
+{
+  "id": 591,
+  "query": "Powering Past Coal Alliance new members 2024 2025 list",
+  "topic": "COP climate summit",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Does not include the Honduras (May 2025) addition mentioned in the anchor, so the 2024-2025 list is incomplete, but the COP30 (Nov 2025) Korea/Bahrain addition is clearly and accurately presented via a dedicated article.",
+  "b_issues": "Does not mention Bahrain at all; the Republic of Korea's 2025 accession is only implied indirectly via a vague homepage snippet ('By joining the PPCA, the Republic of Korea made its first official coal phase-out commitment') without stating it happened at COP30 2025 or naming Bahrain as a co-joiner. Also omits Honduras. Less complete and less clear on the 2024-2025 timeframe.",
+  "reasoning": "Content A contains a dedicated, clear, and accurate article directly stating that Republic of Korea and Bahrain joined PPCA at COP30 in November 2025, which directly answers the query for the most recent new members. Content B only alludes to Korea's phase-out commitment without explicitly stating the accession event or mentioning Bahrain, making it a weaker and less complete source for the same recent addition. Both omit Honduras (May 2025), but A still provides more complete and explicit information for the query."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 790,
+  "query": "New Caledonia dual citizenship agreement ratification status 2025 2026",
+  "topic": "New Caledonia",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Contains an irrelevant, off-topic result (High Seas Alliance treaty ratification page) that has nothing to do with New Caledonia and could mislead or confuse the answer. Neither A nor B mentions the critical 2026 development (Senate adoption then National Assembly rejection of the constitutional bill) shown in the anchor, so both are outdated on ratification status, but A's noise is a clear flaw.",
+  "b_issues": "Also lacks the key 2026 update (Assembly rejection of the constitutional bill) shown in the anchor, so it does not reflect the most current ratification status either. All results are at least topically relevant, but the ratification outcome itself is missing.",
+  "reasoning": "Both content sets are similarly incomplete regarding the true 2026 status (Senate passed, then National Assembly rejected the constitutional reform, per the anchor), so neither would let an LLM state the accurate current ratification status. However, Content A includes an irrelevant result about the High Seas Treaty, which is factually unrelated to New Caledonia and could introduce confusion or a wrong tangent into the answer. Content B's results are all on-topic and relevant to the Bougival Accord, dual citizenship, and the 2026 referendum timeline, providing a cleaner (if still incomplete) basis for an answer. Thus B is marginally better."
+}

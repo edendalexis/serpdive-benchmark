@@ -1,0 +1,11 @@
+{
+  "id": 768,
+  "query": "FAA United Airlines $255,000 civil penalty response appeal outcome 2026",
+  "topic": "FAA",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "The Eckert Seamans item describes a separate $255,000 penalty against American Airlines (not United) for similar drug-testing follow-up issues, which could be mistaken for the United case if not read carefully. None of the results state a final appeal outcome, since the news is only ~1 day old and United has 30 days to respond, so the 'outcome' isn't yet knowable.",
+  "b_issues": "Relies on lower-reliability sources (an X/Twitter post and a Facebook post snippet that is cut off) for key claims (e.g., 'cases can be appealed through administrative...') without giving concrete substantiation. Also includes an unrelated older Aviation Week story about a $1M/$1.5M penalty against United/ACA with no date, which could be confused with the current $255,000 case. No final outcome is present, consistent with the actual state of the story.",
+  "reasoning": "Neither content set contains an actual 'outcome' of an appeal, since the underlying event (FAA proposing the fine) is only about a day old and United has 30 days to respond—there is no appeal resolution to report as of the dataset's timestamp. Given that, the best an LLM can do is accurately state that this is a proposed penalty, that United can contest/negotiate/respond within 30 days, and that no final outcome exists yet. Content A conveys this more reliably: it includes an official FAA.gov press release link matching the exact question topic, plus an aerocorner snippet explicitly stating 'An FAA proposed civil penalty is not a final judgment. United can respond to the agency, contest the allegations, or negotiate before any...' which directly and accurately frames the current status. Content B's equivalent information comes from weaker sources (X post, truncated Facebook snippet) and introduces a distracting, differently-dated Aviation Week article about a different, larger penalty amount that could cause confusion about which case is being discussed. Thus Content A better supports an accurate answer explaining the current status of the proposed penalty and the process ahead, even though neither has a final 2026 appeal outcome."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 12,
+  "query": "TSMC Vanguard International Semiconductor VIS share sale block trade May 2026 ownership percentage reduction",
+  "topic": "Taiwan Semiconductor Manufacturing Company",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "None significant; all key facts (27.1% to 19%, 152 million shares, 8.1%, block trade, no board seat since June 2024) are present and accurate across its results.",
+  "b_issues": "None significant; all key facts (27.1% to 19%, 152 million shares, 8.1%, block trade, no plans for further sales) are present and accurate across its results, with additional corroboration from Reuters and SEC filing.",
+  "reasoning": "Both content sets contain the core accurate facts needed to answer the question: TSMC held ~27.1% of VIS, plans to sell up to 152 million shares (~8.1% of fully-diluted capital) via block trade to institutional investors, reducing its stake to ~19%. Both include the primary TSMC press release plus multiple corroborating secondary sources (Digitimes, Focus Taiwan in A; Reuters, SEC filing, US News in B). Neither contains contradictions or factual errors relative to the anchor. B has slightly more diverse and higher-authority secondary sources (Reuters, SEC filing) but this does not change the answerability - both fully and correctly answer the question."
+}

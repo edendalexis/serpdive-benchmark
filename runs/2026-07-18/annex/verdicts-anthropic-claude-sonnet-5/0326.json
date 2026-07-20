@@ -1,0 +1,11 @@
+{
+  "id": 326,
+  "query": "Scottie Scheffler 2026 season wins earnings statistics",
+  "topic": "Scottie Scheffler",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "The PGATour.com snippet is garbled and appears to drop the actual numeric value for 'Wins (2026)', so it never clearly states how many wins Scheffler has in 2026 (a core part of the query). Season earnings figures ($13.0M as of June 23) are reasonable but the content never identifies which tournament Scheffler won, leaving the 'wins' portion of the question unanswered from the text alone. Career-earnings figures ($110M–$114.5M) are plausible but not explicitly tied to a season total.",
+  "b_issues": "Sources are less authoritative in places (a Facebook post and a lesser-known site, dailyclubgolf.com). The dailyclubgolf.com career-earnings figure ($201.6M total, with an official/majors breakdown that double-counts majors as separate from official money) looks implausibly inflated and could mislead if taken as career context. Season-earnings snapshots ($11.6M on May 26, $15.1M undated on ESPN) are not clearly dated relative to each other, making the earnings trajectory a bit harder to pin down precisely.",
+  "reasoning": "Both sets supply plausible season earnings trajectories consistent with Scheffler leading the money list in 2026, but B explicitly names the win (American Express, Jan 25, $1,656,000) and matches it to the '1 win' figure in the anchor, while also providing a detailed event-by-event breakdown (Masters runner-up, RBC Heritage playoff loss, Cadillac Championship runner-up, Travelers runner-up) that corroborates a coherent season narrative. A never clearly conveys the 2026 win count due to a scraping artifact that drops the actual number, which is a direct gap for a query specifically asking about 'wins.' Although B includes a dubious career-earnings figure from a low-reliability source, that number is tangential to the season-specific ask, whereas A's failure to identify the win is a more direct shortfall for this exact question. Thus B slightly better enables a correct, complete answer."
+}

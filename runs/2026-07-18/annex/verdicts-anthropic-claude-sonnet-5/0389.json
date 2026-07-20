@@ -1,0 +1,11 @@
+{
+  "id": 389,
+  "query": "Meta Instagram Live Video Ads rollout virtual cards support livestreams commerce",
+  "topic": "Meta",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "No major factual errors; content is consistent across all five results but slightly less detailed on affiliate program specifics.",
+  "b_issues": "The digitalapplied.com result contains oddly disjointed fragments (e.g., 'Coverage conflates the June 8–10 post-view rollout with the June 18 live expansion' and unrelated ad-percentage figures) that could confuse rather than clarify, though the core facts about Live Video Ads and virtual card checkout are still accurate elsewhere in the set.",
+  "reasoning": "Both content sets contain the essential facts needed to answer the question correctly: Meta is expanding Live Video Ads globally on Facebook and newly to Instagram, introducing a virtual card checkout system (via Mastercard/Visa) launching summer 2026, and partnering with livestream commerce platforms (CommentSold, Firework, LiveMeUp, Sprii, TalkShopLive) to convert livestreams into ads. Content A presents this cleanly and consistently across multiple reputable sources (SearchEngineLand, CommonThreadCo, StealThisPlay, AndroidHeadlines) with no contradictions. Content B covers the same facts and adds useful extra detail on affiliate program expansion (Flipkart, Mercado Libre, Lazada), but one source (digitalapplied.com) includes confusing, tangential fragments that don't directly serve the query and could introduce noise for an LLM synthesizing an answer. Since the core answerable facts are equally present and accurate in both, and the extra noise in B is minor and doesn't invalidate the correct facts, this is best judged a tie."
+}

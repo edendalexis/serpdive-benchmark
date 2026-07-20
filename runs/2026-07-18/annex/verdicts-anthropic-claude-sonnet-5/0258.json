@@ -1,0 +1,11 @@
+{
+  "id": 258,
+  "query": "GSK Arexvy FDA prescribing information RSV vaccine 2025 updated safety efficacy labeling",
+  "topic": "RSV vaccines",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A mixes two GSK press releases at different time points (one about an application merely 'accepted for review' for ages 18-49, another claiming it was already 'approved') creating an internal contradiction about the current indication scope; it never quotes the FDA GBS warning language directly, and the Frontiers article is tangential and not clearly tied to the official label.",
+  "b_issues": "Minor: relies on secondary news summaries (PharmExec, Optometry Advisor) rather than full label text, but their content matches the official FDA GBS warning page verbatim and is consistent with the anchor's package insert excerpt.",
+  "reasoning": "Content B directly reproduces the anchor's key sources (FDA package insert PDF and the FDA GBS warning page) with consistent, accurate details on both the indications (60+, 50-59 increased risk) and the newly required GBS safety labeling change, matching the anchor closely. Content A's GSK press releases present conflicting statements about whether the 18-49 expansion was merely under review or already approved, which could mislead an LLM about the current, accurate labeling status, making it less reliable for answering the question correctly."
+}

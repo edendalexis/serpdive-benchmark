@@ -1,0 +1,11 @@
+{
+  "id": 314,
+  "query": "Ursula von der Leyen March 2026 Iran Khamenei response credible transition rules-based order statement",
+  "topic": "Ursula von der Leyen",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; content directly includes the Reuters article with the exact quote matching the anchor ('credible transition for Iran, the definite halt to both the nuclear and ballistic programs and an end to destabilizing activities in the region'), plus Guardian and Consilium quotes on rules-based order.",
+  "b_issues": "Lacks direct access to the full Reuters quote — only a truncated version via a YouTube video snippet ('This means a credible transition for'), which cuts off before the key details about nuclear/ballistic halt and destabilizing activities. Relies on iranintl.com for a rules-based system quote that duplicates the Guardian's coverage rather than adding new confirmed facts.",
+  "reasoning": "Both sets cover the core narrative (Khamenei's death, von der Leyen's 'credible transition' call, and her later 'rules-based order' remarks) via overlapping sources like Euronews, Guardian, and Consilium. However, Content A includes the actual Reuters article snippet with the complete, precise quote that matches the anchor's exact wording, giving a more accurate and complete answer to the question. Content B substitutes this with a truncated YouTube description, which loses the full substance of the quote (the halt to nuclear/ballistic programs and destabilizing activities), making Content A slightly more reliable and complete for accurately answering the question."
+}

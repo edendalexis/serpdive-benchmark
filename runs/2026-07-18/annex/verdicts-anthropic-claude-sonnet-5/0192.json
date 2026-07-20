@@ -1,0 +1,11 @@
+{
+  "id": 192,
+  "query": "Apple Foundation Models Gemini partnership deal terms cost payment details 2026",
+  "topic": "Apple Intelligence",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A relies on some less authoritative blog aggregator sites (tech-insider.org, Codimite) but figures ($1B/year, $5B estimate, 1.2T parameters) are consistent across sources and align with the anchor.",
+  "b_issues": "Content B relies heavily on low-quality/social-media sources (Facebook post, Instagram post) rather than primary journalism, and includes a Baidu wiki entry that incorrectly dates the announcement as January 14, 2026 instead of January 12, 2026, creating an internal contradiction with other results and the anchor.",
+  "reasoning": "Both sets converge on the same core facts (multi-year deal, ~$1B/year payment, up to $5B estimate, 1.2T parameter custom Gemini model, Private Cloud Compute retained). However, Content A draws from more substantive, reputable sources (Google's official blog, MacRumors, Introl, a dedicated tech analysis site, Codimite) with no internal contradictions. Content B includes a factual inconsistency (wrong announcement date via Baidu wiki) and leans on social media reposts (Facebook, Instagram) which are less reliable and could introduce reliability concerns for an LLM sourcing an answer. This makes A the stronger, more internally consistent and better-sourced option."
+}

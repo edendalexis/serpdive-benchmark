@@ -1,0 +1,11 @@
+{
+  "id": 650,
+  "query": "UNRWA current Commissioner-General 2026 budget shortfall funding pledges latest",
+  "topic": "United Nations Relief and Works Agency for Palestine Refugees in the Near East",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor: relies on a few blog/aggregator sources (MadaMasr, Middle East Monitor) rather than primary UN documents, but the facts (Saunders as Commissioner-General ad interim, $100M shortfall, $175M austerity measures, $4M in emergency pledges) are consistent with the anchor and internally coherent.",
+  "b_issues": "Includes a result labeling Philippe Lazzarini as 'UNRWA Commissioner-General' (Nov 2025) alongside later 2026 results calling Christian Saunders the 'Commissioner-General ad interim,' creating an unresolved contradiction about who currently holds the role. It also surfaces an inconsistent shortfall figure ('$200 million' shortfall from Lazzarini's Nov 2025 statement) versus the $100 million figure used everywhere else, without context reconciling the two, which could confuse an LLM answering about the 'current' Commissioner-General and the 'current' shortfall.",
+  "reasoning": "Both sets converge on the key fact that UNRWA faces a $100 million shortfall for 2026 and that Christian Saunders is Commissioner-General ad interim, matching the anchor. However, Content B introduces an older, seemingly contradictory statement from Philippe Lazzarini as 'Commissioner-General' with a different shortfall figure ($200M) without clarifying the leadership transition or reconciling the numbers, which risks misleading an agent about who is currently in charge and what the true shortfall is. Content A stays consistent throughout, naming Saunders as interim Commissioner-General, citing the $100M shortfall consistently, and adding a useful, non-contradictory detail about $4 million in pledges from emergency appeals, making it more reliable and complete for answering the question correctly."
+}

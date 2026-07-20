@@ -1,0 +1,11 @@
+{
+  "id": 984,
+  "query": "Sundar Pichai testimony US search antitrust trial Chrome divestiture ruling 2026",
+  "topic": "Sundar Pichai",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "CNBC snippet is about search deals with Apple, not clearly about Chrome divestiture ruling; Wikipedia snippet is fragmentary and confusingly mixes dates/topics without clear context; Bloomberg snippet only lightly touches on testimony without much ruling detail; Digiday piece is about pre-ruling DOJ proposals, adding little clarity on the final outcome.",
+  "b_issues": "None significant; content is accurate and consistent with the anchor (Mehta's ruling rejecting Chrome divestment, ordering data sharing and ending exclusivity deals; Pichai's testimony calling data-sharing a 'de facto divestiture' of search).",
+  "reasoning": "Both sets contain the NPR article confirming the ruling. However, Content B provides more direct and detailed coverage of both key aspects of the query: Pichai's testimony (Yahoo Finance quotes him directly on 'unintended consequences' and 'de facto divestiture') and the ruling details (Courthouse News' detailed breakdown of Judge Mehta's 230-page opinion, including the rejection of Chrome/Android divestment and imposition of data-sharing and exclusivity bans). Content A's supporting sources are weaker for this specific query—CNBC discusses default search deals rather than Chrome divestiture, the Wikipedia snippet is disjointed, and Digiday is outdated pre-ruling content. This makes B more directly useful and coherent for accurately answering the question."
+}

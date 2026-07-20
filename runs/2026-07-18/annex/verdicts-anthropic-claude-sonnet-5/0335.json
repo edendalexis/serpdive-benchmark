@@ -1,0 +1,11 @@
+{
+  "id": 335,
+  "query": "Osgood Perkins Longlegs universe filming start date production schedule",
+  "topic": "Longlegs",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Contains an outdated IndieWire snippet stating Paramount has not announced a release date/timeline, which is superseded by the correct Jan 14, 2028 date reported in the same result set (Nerdist, Facebook post) — a minor internal contradiction, but the correct date is clearly present and confirmed by multiple sources. No explicit filming start date is provided, but this matches the actual state of public information.",
+  "b_issues": "Also lacks any explicit filming start date. Includes an HollywoodReporter snippet mentioning Perkins has 'wrapped production' on an unrelated film, 'The Young People' (with Nicole Kidman), which could be mistakenly conflated with the Longlegs universe project, creating a risk of factual confusion. Also contains the same outdated IndieWire note about no announced timeline, alongside the correct 2028 date from Variety/Wikipedia, creating a similar contradiction as A.",
+  "reasoning": "Neither content set contains the actual filming start date or detailed production schedule for the new Longlegs universe film, since that information does not appear to be publicly available per the source material. Both correctly report the Jan 14, 2028 release date and Paramount's acquisition of rights, with lingering outdated 'no timeline announced' snippets. However, Content B introduces an extraneous detail about Perkins having wrapped an unrelated project ('The Young People'), which could mislead an LLM into conflating it with the Longlegs universe film's production status. Content A's results are more tightly focused on the Longlegs universe project without this confusion, making it marginally safer and more accurate for answering the question truthfully (i.e., that no confirmed filming start date exists yet)."
+}

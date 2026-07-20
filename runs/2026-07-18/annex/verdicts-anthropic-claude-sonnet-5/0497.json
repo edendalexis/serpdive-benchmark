@@ -1,0 +1,11 @@
+{
+  "id": 497,
+  "query": "Wimbledon Park expansion High Court ruling March 2026 presiding judge name",
+  "topic": "Wimbledon",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "None of the results in Content A mention Justice Thompsell, who presided over the March 2026 statutory trust ruling. All results focus on Justice Saini's earlier July 2025 judicial review ruling on planning permission, which is a different case/judge. An LLM relying solely on Content A would likely answer 'Saini' incorrectly for the March 2026 ruling.",
+  "b_issues": "Some results (archpaper, courthousenews) also reference the earlier Saini ruling, which could cause confusion if not carefully distinguished, but the tennisnow.com result explicitly and correctly names Justice Thompsell as presiding over the ruling described in the question, matching the anchor.",
+  "reasoning": "The anchor confirms the March 2026 ruling was presided over by Mr Justice Thompsell. Content B contains an explicit, correct reference to 'Justice Thompsell' ruling on the statutory trust issue, aligning with the anchor's judgment date and detail (land 'never appropriated or dedicated to public use'). Content A never mentions Thompsell at all, only discussing the earlier July 2025 ruling by Justice Saini, which would lead an LLM to give the wrong judge's name for the March 2026 ruling in question."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 85,
+  "query": "Blue Origin New Glenn NG-3 mission AST SpaceMobile BlueBird Block 2 booster recovery Jacklyn results April 2026",
+  "topic": "Blue Origin",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A only contains pre-launch preview articles, the Blue Origin mission page (which just describes the planned flight profile), and social media posts. None of these sources report the actual outcome of the NG-3 mission (upper-stage malfunction, satellite stranded in off-nominal orbit, eventual loss of BlueBird 7) or confirm the booster recovery success. The critical results the question asks about are missing entirely.",
+  "b_issues": "Slightly less explicit confirmation that the reused booster ('Never Tell Me the Odds') successfully landed on Jacklyn on this particular NG-3 flight (it only references a prior Nov 2025 landing and general reuse milestone), so the booster-recovery outcome for NG-3 itself is inferred rather than stated outright.",
+  "reasoning": "Content B includes the SpaceNews article explicitly stating the upper-stage malfunction and the satellite's off-nominal/unrecoverable orbit, the target orbit parameters (460 km, 49.4°), and Wikipedia confirming the satellite deployment failure and the reused booster designation, closely matching the anchor's known facts (payload lost, booster milestone achieved). Content A contains only pre-launch preview material and social posts with no post-launch results, failing to answer the core question about mission outcome, booster recovery, and satellite fate."
+}

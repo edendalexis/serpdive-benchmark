@@ -1,0 +1,11 @@
+{
+  "id": 720,
+  "query": "Temu European Union fine amount hazardous products EU regulations",
+  "topic": "Temu",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "None significant; all snippets consistent with anchor and each other, giving fine amount (€200m/$232m), reason (DSA violation, unsafe toys/electronics/chargers), and context (second DSA fine after X).",
+  "b_issues": "None significant; provides same core facts plus additional detail (Temu's response, mystery shopping exercise, 19-month investigation) consistent with anchor.",
+  "reasoning": "Both content sets accurately and consistently report the €200 million ($232 million) EU fine on Temu under the Digital Services Act for failing to prevent sale of illegal/hazardous products like toxic toys, unsafe electronics, and faulty chargers, matching the anchor's key facts. Both draw from reliable sources (BBC, Guardian, DW, AA, etc.) with no internal contradictions. Content B includes slightly more contextual detail (Temu's official response, investigation length, mystery shopping findings) but this is not essential to answering the core question, which both sets answer equally well and correctly."
+}

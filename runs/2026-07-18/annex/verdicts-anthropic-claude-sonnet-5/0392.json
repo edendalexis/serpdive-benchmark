@@ -1,0 +1,11 @@
+{
+  "id": 392,
+  "query": "H5N1 human cases deaths global count December 2025 WHO update",
+  "topic": "H5N1 bird flu",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Relies on Wikipedia as the source for the global cumulative figures (993 cases, 477 deaths as of December 2025), which is a secondary source rather than a primary WHO document, though the numbers are plausible and consistent with WHO reporting trends. The CDC and FAO snippets contain oddly future-dated content (2026) that is confusing/likely mismatched data, and don't directly restate a clean global total.",
+  "b_issues": "No single result gives a clear global cumulative case/death count for the December 2025 timeframe. The only cumulative figure present (PAHO: 964 cases/466 deaths) is dated March 2025, well before the December 2025 reference point, which could mislead an agent into citing an outdated and lower total. The remaining results (CDC future-dated summary, FAO update, Wikipedia outbreak page, WHO H5N5 DON) provide fragmentary information (specific country cases, outbreak counts) but never a global cumulative human case/death tally aligned with December 2025.",
+  "reasoning": "The question asks for the global H5N1 human case/death count as of the December 2025 WHO update. Content A includes a Wikipedia entry explicitly stating WHO's cumulative figures 'between 2003 and December 2025' (993 cases, 477 deaths), which directly and specifically answers the question with a figure aligned to the correct timeframe and attributed to WHO. Content B lacks any equivalent up-to-date global total; its only cumulative figure (from PAHO) is stale (March 2025), and other sources only offer partial/regional or outbreak-count data, making it harder for an agent to construct an accurate December 2025 global answer."
+}

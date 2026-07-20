@@ -1,0 +1,11 @@
+{
+  "id": 26,
+  "query": "SpaceXAI total funding raised 2026 projected income data center burn rate",
+  "topic": "xAI",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Includes irrelevant/generic Goldman Sachs and Motley Fool IT-spending articles not specific to SpaceX/xAI; contains confusing consolidated SpaceX figures ($2.59B/$2.6B loss on $18.67B revenue) that mix overall SpaceX financials with xAI-specific burn data, creating potential confusion about which segment the $6.4B loss belongs to; the $22.8B cash burn figure lacks clear sourcing context.",
+  "b_issues": "Minor redundancy across sources (TechCrunch and cryptorank cover the same filing details), but no major factual inconsistencies; all figures align with the anchor's reported $6.4B loss, $3.2B revenue, $12.7B/$7.7B capex figures.",
+  "reasoning": "Both sets reference the same core SpaceX S-1 filing data on xAI's $6.4B operating loss and $3.2B revenue, matching the anchor. However, Content B's sources (TechCrunch, cryptorank, BNN Bloomberg, Motley Fool) are tightly focused on SpaceX/xAI financials, IPO valuation, and capex figures that directly corroborate the anchor without contradiction. Content A includes generic, off-topic Goldman Sachs articles about broader AI industry capex (not SpaceX-specific) and introduces potentially confusing consolidated SpaceX operating loss figures ($2.59B on $18.67B revenue) alongside the xAI-specific $6.4B loss, which could lead an LLM to conflate segment-level and company-level financials. This makes B more reliable and consistent for accurately answering the burn-rate question."
+}

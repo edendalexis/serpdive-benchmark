@@ -1,0 +1,11 @@
+{
+  "id": 663,
+  "query": "Ilya Sutskever Safe Superintelligence research infrastructure cloud provider partnership",
+  "topic": "Ilya Sutskever",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "The LinkedIn result in A is cluttered with unrelated content about Anthropic's TPU deal and other AI news, making it noisy and less directly useful, though the title still confirms the Google Cloud partnership. The Instagram result is thin and lacks detail. Overall the core fact (Google Cloud as SSI's cloud partner) is still present across multiple results, but signal-to-noise is lower.",
+  "b_issues": "Includes a tangential Calcalistech article about an SSI engineer leaving to found a different company, which is not directly relevant to the cloud partnership question, but it does not contradict or confuse the main answer.",
+  "reasoning": "Both sets ultimately support the correct answer that SSI partnered with Google Cloud (using TPUs) for its research infrastructure, consistent with the anchor. However, Content B's results are more focused and reliable: it includes the official SSI website, a Wikipedia excerpt explicitly dating the partnership (April 2025) and describing it accurately, a LinkedIn pulse article specifically about the Google Cloud partnership, and the same core TechCrunch/Yahoo article as the anchor. Content A includes a similar Yahoo/Wikipedia confirmation, but is diluted by a heavily cluttered LinkedIn result full of unrelated promotional links about Anthropic and other companies, and a thin Instagram snippet, which could distract or confuse an LLM trying to extract the specific fact. Thus B provides a cleaner, more directly on-topic set of sources for correctly answering the question."
+}

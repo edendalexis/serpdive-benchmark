@@ -1,0 +1,11 @@
+{
+  "id": 875,
+  "query": "Labour MPs pressure Keir Starmer resign timeline local elections 2026 number",
+  "topic": "Keir Starmer",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Relies partly on Polymarket, a prediction market site rather than a news outlet, for the key numeric claim ('over 100 MPs') and the Guardian/Wikipedia/Al Jazeera sources do not give explicit MP counts, leaving only one number data point despite the question specifically asking about 'number' of MPs and a timeline of escalation.",
+  "b_issues": "The ITV figure ('close to 40'/'more than 35') and LabourList figure (97) are not perfectly time-ordered in the snippet, and exact dates for the LabourList 97 figure ('Friday') are ambiguous, but both are plausible intermediate points consistent with the anchor's progression from ~20 to 51 to 100 MPs.",
+  "reasoning": "Both sets cover the same general narrative (poor local election results, growing MP defections, Burnham's Makerfield by-election, eventual resignation), consistent with the anchor. However, Content B provides more specific, dated numeric data (97 MPs, 35-40 MPs) from primary/reliable news sources (LabourList, ITV, The Independent) that directly answer the 'number' part of the question with clear timeline context. Content A's key numeric claim ('over 100') comes from Polymarket, a prediction market aggregator rather than a journalistic source, making it less reliable, and its other sources (Guardian, Wikipedia, Al Jazeera) lack explicit MP-count figures. This makes Content B slightly more precise and reliable for answering the specific numeric/timeline question."
+}

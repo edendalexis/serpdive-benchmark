@@ -1,0 +1,11 @@
+{
+  "id": 509,
+  "query": "Intel Foundry multi-billion AWS framework AI fabric chip 18A custom Xeon 6 Intel 3 deal size details 2026",
+  "topic": "Intel Foundry",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "No factual errors; all five sources consistently describe the 18A AI fabric chip, Intel 3 Xeon 6, multi-year multi-billion framework, and the $7.8B AWS Ohio investment. Redundant but accurate.",
+  "b_issues": "The Intel Newsroom source (identical to anchor) is fully accurate and includes the $7.8B Ohio investment detail. However, one of only three results (Futurum) is tangential, discussing a 2026 Xeon 6+ Computex launch and Ireland investment rather than the AWS deal size/terms, adding little relevant detail.",
+  "reasoning": "Both content sets include the core accurate facts needed to answer the question: Intel 18A for the AI fabric chip, Intel 3 for custom Xeon 6, multi-year multi-billion-dollar framework, and the $7.8B AWS Ohio investment context. Content A provides broader corroboration across five consistent secondary sources. Content B includes the primary/authoritative Intel Newsroom source (most reliable) but pads out with a less relevant Futurum article. Neither contains contradictions or factual errors relative to the anchor, and both give enough detail to correctly answer the question, so the two are roughly equivalent in enabling a correct answer."
+}

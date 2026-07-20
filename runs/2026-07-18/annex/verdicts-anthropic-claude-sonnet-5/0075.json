@@ -1,0 +1,11 @@
+{
+  "id": 75,
+  "query": "2027 Oscars 99th scientific technical awards submission deadline rules",
+  "topic": "Academy Awards Oscars",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "None significant; includes both the official press release with the July 23, 5 p.m. PT deadline and the oscars.org/sci-tech/apply page with actual rules text (eligibility, employee restrictions), directly relevant to the query.",
+  "b_issues": "Lacks the oscars.org/sci-tech/apply rules page; most additional sources (NPR, Animation Magazine, Indiewire, Deadline, Gold Knight) discuss general Oscars date/rule changes rather than sci-tech-specific submission rules, providing less direct support for the 'rules' portion of the query.",
+  "reasoning": "Both sets include the core press.oscars.org article giving the July 23 deadline for the 2027 Scientific and Technical Awards. However, Content A additionally surfaces the oscars.org/sci-tech/apply page, which contains actual submission rules (eligibility criteria, employee restrictions) specific to the Sci-Tech Awards, making it more complete for answering the 'rules' part of the question. Content B's extra results focus on general Oscars ceremony dates and broader rule changes (acting category, AI protections) rather than Sci-Tech award rules, so it offers less specific support for the query."
+}

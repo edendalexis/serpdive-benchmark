@@ -1,0 +1,11 @@
+{
+  "id": 229,
+  "query": "Tesla one-time Full Self-Driving purchase discontinued after February 14 2026 subscription only official support page",
+  "topic": "Tesla",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Relies entirely on secondary/tertiary blog sources (Yahoo Finance, EVDANCE, Basenor, Tesmag, notanfsdtracker) rather than the actual official Tesla support page content, which isn't retrievable in either case. No direct confirmation from Tesla's site itself.",
+  "b_issues": "Also relies on secondary sources (Electrek, Tesla Oracle, Basenor, LowerMySubs) rather than direct official page content. The claim that pricing was 'verified on Tesla's official support site' is asserted by a third-party blog, not an actual screenshot/quote pulled from tesla.com.",
+  "reasoning": "Both result sets converge on the same core facts: Tesla discontinued the one-time FSD purchase after February 14, 2026 (final price $8,000, or $2,000 upgrade for Enhanced Autopilot owners), shifting exclusively to a $99/month subscription (down from $199), with Europe following on separate deadlines (May 15 Netherlands, May 21 rest of Europe). Neither content set actually surfaces the literal official Tesla support page content (consistent with the anchor showing those pages are Akamai-protected and return no substantive text), so both are equally reliant on secondary reporting. The facts in A and B are consistent with each other and with the anchor's TechCrunch/BusinessInsider/Electrek references, and neither internally contradicts itself. Content B offers slightly more granular pricing detail and an explicit (if unverified) claim of official-site confirmation, but this is not enough to meaningfully differentiate reliability or completeness from A, which also covers the core facts plus the Europe timeline and subscription price history. Overall, both equally enable a correct answer to the question."
+}

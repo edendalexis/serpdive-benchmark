@@ -1,0 +1,11 @@
+{
+  "id": 730,
+  "query": "Netanyahu Gaza seizure percentage military orders 2025",
+  "topic": "Israel-Hamas conflict",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; figures are consistent with anchor (60% current, 70% target, 64% per IDF maps, 53% ceasefire line).",
+  "b_issues": "Results are mostly title/snippet fragments lacking the actual percentage details needed to answer confidently; one snippet vaguely references '50%' without clarifying context, which could confuse the 60%/70% figures actually used by Netanyahu.",
+  "reasoning": "Content A includes substantive excerpts from Guardian, Al Jazeera, and CNN that clearly state Netanyahu's 60%->70% directive, the 64% IDF-reported control, and the 53% ceasefire line, matching the anchor's facts closely and consistently. Content B provides only search-result titles and one-line snippets from various outlets, most of which don't include the actual percentage figures or context, making it much harder for an LLM to construct an accurate, detailed answer from that content alone."
+}

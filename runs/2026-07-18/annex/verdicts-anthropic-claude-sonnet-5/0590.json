@@ -1,0 +1,11 @@
+{
+  "id": 590,
+  "query": "COP30 Belém final decision text download PDF",
+  "topic": "COP climate summit",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Does not include the actual official UNFCCC AUV page or the specific decision PDFs (e.g., cma2025_L24_adv.pdf or Belem_Declaration_ENG-final.pdf) that the anchor identifies as the authoritative source. The PDF link provided (c2es.org/wp-content/uploads/2026/02/COP30-Summary-FINAL5.pdf) is a third-party summary PDF, not the official decision text. However, it does reference specific draft decision text (Draft Decision -/CMA.7, Global Mutirão) and provides an actual downloadable PDF file.",
+  "b_issues": "Contains no PDF links whatsoever — all results are HTML news/summary pages (UN.org, Wikipedia, WRI, Nature.org) describing outcomes in prose, none pointing to the actual decision text or any downloadable document. The unfccc.int/cop30 link is the general conference page, not the AUVs/decisions page or a specific PDF.",
+  "reasoning": "The question specifically asks for a downloadable PDF of the final decision text. Content A at least surfaces an actual PDF resource and cites specific draft decision language (e.g., Draft Decision -/CMA.7 on the Global Mutirão), giving an LLM some basis to reference specific decision text and a document to point to, even though it's not the official UNFCCC source. Content B provides no PDF or document link at all — every result is a general news article or overview page, none of which would let an LLM locate or download any decision text PDF. Neither matches the anchor's precise official links, but A comes closer to satisfying the 'download PDF' intent of the query."
+}

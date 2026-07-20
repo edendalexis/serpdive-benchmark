@@ -1,0 +1,11 @@
+{
+  "id": 183,
+  "query": "JPMorgan Chase partnership IOC May 2026 commercial operational support",
+  "topic": "International Olympic Committee",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Some entries (Instagram, JPMorganChase press release navigation menu) are low-value/noisy but the SportsBusinessJournal article gives specific, accurate detail on the commercial/investment banking, asset & wealth management, private banking and retail banking categories covered by the deal, directly answering 'commercial operational support'.",
+  "b_issues": "The SportsPro article is from before the deal was finalized (talks/negotiations stage, April 2026) and could be seen as slightly stale/contradictory versus the confirmed announcement, and neither B source specifies which banking categories (commercial, investment, retail, etc.) JPMorganChase covers, missing the 'commercial operational support' detail.",
+  "reasoning": "Both sets confirm the core partnership facts (Global Banking Partner, LA28, French Alps 2030, Official Bank of Team USA, Founding Partner). However, Content A uniquely provides the SportsBusinessJournal breakdown specifying that the TOP deal covers asset/wealth management, private banking, and commercial and investment banking globally, with retail banking reserved for the U.S. deal — directly relevant to the 'commercial operational support' phrasing in the query. Content B's SportsPro piece adds pre-deal negotiation context (potentially confusing/outdated relative to the announcement) and lacks the specific banking-category breakdown, making A more precise and directly useful for answering the question."
+}

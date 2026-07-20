@@ -1,0 +1,11 @@
+{
+  "id": 133,
+  "query": "BTS World Tour Arirang 2026 tour start date Goyang number of shows continents",
+  "topic": "BTS",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "One low-relevance source (Facebook post) gives a contradictory figure (65 shows, May-Dec) that conflicts with the more reliable Fandom/GMA figures (81 shows, 34 cities, Apr 9-12 Goyang start); overall the majority of sources are consistent and match the anchor's facts.",
+  "b_issues": "No source states the total number of shows or continents covered; scattered venue-specific details (Gillette Stadium, Goyang NOL ticketing, Live Nation) confirm the Apr 9, 2026 Goyang start but leave the overall tour scale (shows/continents) unanswered.",
+  "reasoning": "The question asks for start date, Goyang details, total number of shows, and continents. Content A explicitly gives April 9-12, 2026 Goyang three-night start, 81 shows across 34 cities, and continents (Asia, North America, Europe, Oceania) via the Fandom and Ubigi summaries, closely matching the anchor. Content B confirms the Goyang start date via ibighit and NOL but never states the total show count or continent count, forcing the model to guess or leave the question partially unanswered. Despite a minor contradictory outlier in A, the bulk of A's results converge on accurate, complete figures, making A more useful for fully answering the question."
+}

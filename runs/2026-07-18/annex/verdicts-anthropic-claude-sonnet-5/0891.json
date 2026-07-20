@@ -1,0 +1,11 @@
+{
+  "id": 891,
+  "query": "Alien: Romulus 2 filming start date October 2025 schedule",
+  "topic": "Alien: Romulus",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "All sources consistently and correctly state Fede Alvarez planned to begin shooting Alien: Romulus 2 in October 2025, matching the anchor. No contradictory or extraneous claims.",
+  "b_issues": "Includes a fan-wiki source (weylanduplink.com) that adds unverified, speculative claims (Alvarez's departure on Sept 4, 2025, and a new director shortlist in March 2026) that are not corroborated by other reputable outlets and may be inaccurate or premature, potentially confusing the model about the current status of production. The Wikipedia excerpt also refers to the original film's 2023 filming dates, which could be mistaken for the sequel's schedule if not read carefully.",
+  "reasoning": "Both sets contain the key fact—filming set to start October 2025—sourced from the same avpgalaxy.net report. However, Content A's sources are uniformly consistent and directly relevant, closely mirroring the anchor's reliable reporting. Content B introduces a less reliable, speculative source with additional claims about director departure and future casting decisions that are unverified and could mislead an LLM into stating inaccurate downstream facts, even though the core October 2025 date is still present. Thus Content A provides a cleaner, more reliable basis for answering the question correctly."
+}

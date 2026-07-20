@@ -1,0 +1,11 @@
+{
+  "id": 187,
+  "query": "IOC Vladyslav Heraskevych helmet ban February 2026 Milano Cortina rule violation official statement",
+  "topic": "International Olympic Committee",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A's snippets are shallow and lack the detailed timeline (letter date, IBSF notification date, meeting with Coventry). It relies on lower-quality/less reliable sources such as a raw X/Twitter post, a YouTube video, and eutoday.net (which contains a garbled name 'gfrom'), reducing reliability and detail.",
+  "b_issues": "No significant factual errors; content is accurate and consistent with the anchor, though it includes a somewhat biased advocacy source (Global Rights Compliance) making an unrelated claim about Russian athletes, which is tangential but not contradictory to the core facts.",
+  "reasoning": "Content B provides the fullest and most accurate rendition of the official IOC statement, including exact dates (9 Feb IBSF notification, 10 Feb IOC letter), the meeting with IOC President Coventry, and corroborating reputable sources (NBC, NPR) confirming the same facts. Content A's results are thinner, repeat similar facts with less detail, and include lower-reliability sources (X post, YouTube, a poorly copy-edited EU Today article), making it less useful for a precise, well-sourced answer."
+}

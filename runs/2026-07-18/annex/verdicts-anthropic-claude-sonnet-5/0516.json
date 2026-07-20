@@ -1,0 +1,11 @@
+{
+  "id": 516,
+  "query": "Javier Milei China visit 2026 scheduled date agenda trade relations",
+  "topic": "Javier Milei",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "The AS/COA snippet describes a January 2025 CELAC-related trip, which is a different event from the 2026 visit being asked about; including it without clarification could cause a minor date confusion, though it doesn't misstate facts about that earlier trip.",
+  "b_issues": "The results are largely duplicative (embassy spokesperson, Global Times, SCMP, and a Twitter post) that all repeat the same 'Milei plans to visit in 2026' line without adding new detail on agenda or trade specifics. The ThinkChina snippet is truncated to 'until July 2026' without context, which is ambiguous and doesn't clearly establish a scheduled date.",
+  "reasoning": "Both sets confirm the core fact that Milei stated intent to visit China in 2026 with no confirmed exact date, sourced from the China embassy spokesperson and SCMP. Content A adds more substantive detail relevant to the 'trade relations' part of the query via the Buenos Aires Times article on Chinese business interests, the Santa Cruz hydro-dam financing, and the currency swap deal, giving a fuller picture of the trade dynamics driving the visit. Content B's extra sources (Global Times, X/Twitter) are largely redundant restatements of the same headline fact and add little new substantive information, while its ThinkChina snippet is fragmented and unclear. Thus Content A provides a slightly richer, more accurate basis for answering the full question, especially the agenda/trade-relations aspect."
+}

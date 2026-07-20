@@ -1,0 +1,11 @@
+{
+  "id": 508,
+  "query": "Intel Foundry CHIPS Act $3B funding Secure Enclave program government manufacturing contract award date 2026",
+  "topic": "Intel Foundry",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A is entirely irrelevant to the query; it consists of unrelated AI/tech news snippets (Apple Intelligence, SpaceX, Baseten, etc.) with no mention of Intel, CHIPS Act, Secure Enclave, or the $3B award. It provides no facts to answer the question.",
+  "b_issues": "Minor: does not explicitly restate the September 16, 2024 announcement date in every snippet, and includes some tangential detail (AWS collaboration, Panther Lake iGPU review date) that could slightly distract, but the core facts (award amount, program name, date context via 'Monday' announcement, DoD/Commerce roles) are accurate and consistent across multiple reputable sources.",
+  "reasoning": "Content B provides multiple consistent, detailed, and accurate sources (TechPowerUp, Semiconductor Digest, Silicon UK, GovCon Wire, Manufacturing Dive) confirming Intel's up to $3B CHIPS Act Secure Enclave award, its purpose, DoD/Commerce roles, and related context (RAMP-C, SHIP programs), matching the anchor's facts. Content A contains no relevant information whatsoever, making it useless for answering the question."
+}

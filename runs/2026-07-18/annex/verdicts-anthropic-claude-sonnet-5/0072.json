@@ -1,0 +1,11 @@
+{
+  "id": 72,
+  "query": "101st Academy Awards 2029 venue location",
+  "topic": "Academy Awards Oscars",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "None significant; content is accurate and consistent with the anchor.",
+  "b_issues": "None significant; content is accurate and consistent with the anchor.",
+  "reasoning": "Both content sets clearly and consistently state that the 101st Academy Awards (2029) will move from the Dolby Theatre to the Peacock Theater at L.A. Live in downtown Los Angeles, as part of a 10-year AEG partnership. Both cite reliable sources (Deadline, Hollywood Reporter, AEG, BBC, NBC LA, ABC7, Awards Daily, Gold Knight) that corroborate each other without contradiction. Content A includes a featured snippet giving a direct answer, while Content B relies on multiple corroborating full articles with slightly more venue detail (7,100 seats, distance from Dolby). Both equally enable a correct answer with no factual errors or internal inconsistencies."
+}

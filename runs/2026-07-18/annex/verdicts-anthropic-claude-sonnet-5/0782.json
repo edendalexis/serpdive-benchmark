@@ -1,0 +1,11 @@
+{
+  "id": 782,
+  "query": "Benjamin Netanyahu testimony delay corruption trial June 2026 reason",
+  "topic": "Benjamin Netanyahu",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; content is relevant and consistent with the anchor, providing multiple reasons for delays (security/diplomatic concerns, health, schedule shortening) across the trial timeline.",
+  "b_issues": "Completely irrelevant results about a cash rewards app named 'Benjamin', the biblical figure Benjamin, and a 2018 film called 'Benjamin' - none relate to Netanyahu's corruption trial at all.",
+  "reasoning": "Content A provides multiple relevant, on-topic search results directly addressing Netanyahu's corruption trial testimony delays, including specific reasons (security/diplomatic concerns, health issues, schedule disputes) that align with and supplement the anchor's information about Case 2000 proceedings in June 2026. Content B is entirely irrelevant, returning results about an unrelated cash-rewards app called 'Benjamin', the biblical figure, an IMDb film, and a YouTube channel - none of which mention Netanyahu, his trial, or any corruption case. An LLM using Content B would have zero ability to answer the question, while Content A provides substantive, accurate context."
+}

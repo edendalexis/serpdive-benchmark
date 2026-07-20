@@ -1,0 +1,11 @@
+{
+  "id": 491,
+  "query": "2026 Wimbledon qualifying matches on-site schedule expansion 8000 seat stadium progress",
+  "topic": "Wimbledon",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Includes several results (Wikipedia qualifying draw, PDF match scores, Green&Purple ticket guide) that describe the 2026 qualifying event at Roehampton but do not address the expansion/8,000-seat stadium progress at all, diluting relevance. The YouTube transcript and cut-off cbs17 snippet do cover expansion basics but give less detail on legal timeline or current qualifying location status.",
+  "b_issues": "Minor irrelevant tail result (ZooTennis junior blog) not related to the query, but does not introduce factual errors.",
+  "reasoning": "Content B's results (NYT/Athletic, Yahoo Sports, Forbes) directly and coherently address both halves of the query: they confirm qualifying is still held off-site at Roehampton, explain the March 2026 High Court ruling clearing the AELTC's biggest legal hurdle, detail the planned 38 new grass courts and 8,000-seat retractable-roof 'Parkland Show Court,' and explicitly state that once built, qualifying will move on-site. This gives a clear, accurate picture of both the current on-site schedule situation and the expansion progress. Content A's top results are less focused—two entries (Wikipedia draw, PDF scoresheet) are about qualifying results, not expansion progress, and while the YouTube transcript and cbs17 snippet mention the stadium and courts, they provide less context on legal status and the qualifying relocation plan. Overall B offers a more complete and directly relevant answer with reliable sources."
+}

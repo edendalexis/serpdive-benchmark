@@ -1,0 +1,11 @@
+{
+  "id": 993,
+  "query": "Nicolas Cage True Detective Season 5 Henry Logan casting confirmed",
+  "topic": "True Detective",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Includes a low-reliability source (an X/Twitter post attributed to 'grok', an AI chatbot output rather than a journalistic source) as a top result; otherwise facts are accurate and consistent with the anchor (Cage 'in talks', not confirmed, role of Henry Logan, Jamaica Bay setting).",
+  "b_issues": "No major factual issues; all sources (Deadline, Military.com, Yahoo, Fandom wiki) are consistent with the anchor and clearly state casting is not yet confirmed, only in talks.",
+  "reasoning": "Both content sets convey the same core fact accurately: Cage is in talks (not confirmed) for the Henry Logan role in True Detective Season 5, set in Jamaica Bay, NY, with production starting 2026 and premiere in 2027. However, Content B relies exclusively on more credible, traditional journalistic/wiki sources, while Content A includes a social media post from an AI account (grok on X) as a search result, which is a less reliable source type despite conveying accurate information. This makes B marginally more trustworthy for sourcing while both are factually correct."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 783,
+  "query": "Netanyahu Iran uranium removal demand date 2026",
+  "topic": "Benjamin Netanyahu",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Does not include the Feb 16, 2026 BBC statement where Netanyahu explicitly laid out the demand (Iran must abandon all enriched uranium and be barred from further enrichment), which is the clearest date-stamped demand in the anchor. The Wikipedia entry gives useful negotiation context but not a direct date for the demand itself.",
+  "b_issues": "Also lacks the Feb 16, 2026 BBC demand statement. Includes lower-quality/irrelevant sources such as a prediction-market site (cryptobriefing.com, citing a Dec 31, 2026 market date unrelated to the actual demand) and a LinkedIn post with vague, unsourced date references ('the 24th', 'the 25th' without year), which could mislead a model about the correct date.",
+  "reasoning": "Both sets converge on the May 10, 2026 '60 Minutes' interview as the most clearly dated instance of Netanyahu's uranium-removal demand, supported by multiple reputable outlets (Al-Monitor, AA) in both A and B. However, Content A's remaining results (CNBC March 19, 2026 article, Wikipedia negotiation timeline) are from credible, verifiable sources that add legitimate context without introducing noise. Content B's additional sources (cryptobriefing prediction market and an ambiguous LinkedIn post) are less reliable and could confuse a model trying to pin down an accurate date. Neither set contains the Feb 16, 2026 BBC statement that most precisely matches 'date of demand,' but A's supporting sources are more trustworthy and less likely to mislead."
+}

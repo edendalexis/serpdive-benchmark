@@ -1,0 +1,11 @@
+{
+  "id": 869,
+  "query": "oral Wegovy semaglutide pill US price monthly cost 2026 dosage strengths coverage insurance",
+  "topic": "Ozempic and Wegovy",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Sources are largely SEO/content-farm sites (glp1clinics.org, findhonestcare, sunnypharma.info) and one entry (itjfs.com) appears to be a compromised/hijacked academic journal site being used for spam, which undermines source reliability, and its content is vague/generic rather than Wegovy-specific. Some figures (e.g., 'Medicare $50/mo') are asserted without strong sourcing.",
+  "b_issues": "Much of the content mixes injectable-pen pricing/intro offers (from wegovy.com, goodrx.com, weightwatchers.com, jumpstartmd.com) with the oral pill question, which can confuse an agent trying to isolate oral-specific pricing. The goodrx.com/wegovy snippet is internally contradictory, stating both '$149 for each month... 1.5mg and 4mg' and then '$199/month for 4 mg' for the same dose. Medicare-specific pricing for the oral pill is not clearly stated.",
+  "reasoning": "Both sets contain the core correct facts (cash price $149 for 1.5mg/4mg, $299 for 9mg/25mg, $25/month with commercial insurance, $1,349 list price, oral dosage strengths 1.5/4/9/25mg). However, Content A presents these facts more directly and consistently in the context of the oral pill specifically, including Medicare coverage details ($50/month) that fully address the 'coverage insurance' part of the query. Content B, despite drawing from some more traditionally reputable domains, dilutes the oral-pill answer with substantial injectable-pen pricing data (especially from the top-ranked wegovy.com and goodrx.com results) and contains an internal price contradiction for the 4mg dose. This makes B's content less coherent and slightly less reliable for answering the specific oral-pill question, despite A's inclusion of one lower-quality/spammy source."
+}

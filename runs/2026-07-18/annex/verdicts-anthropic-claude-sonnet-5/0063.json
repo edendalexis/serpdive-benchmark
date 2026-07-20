@@ -1,0 +1,11 @@
+{
+  "id": 63,
+  "query": "xz utils core components license change replaced public domain current license",
+  "topic": "XZ Utils",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "The only source in A that addresses the license change is the GitHub issue, which is merely a proposal/discussion (opened by the maintainer) to switch to 0BSD, not confirmation that the switch happened or is the current status. The other results (SPEC, sstinc) state outdated 'public domain' licensing without clarifying that this was superseded, potentially misleading an LLM into thinking public domain is still current. Wikipedia result contains no licensing info at all. No result clearly states the current license is 0BSD.",
+  "b_issues": "The SPEC and Wikipedia results are largely irrelevant/outdated (SPEC still says public domain, Wikipedia has no license info), but they don't contradict the authoritative first result.",
+  "reasoning": "Content B includes a direct quote from the official tukaani.org project page: 'From the version 5.5.2beta onwards, the core components of XZ Utils are under the BSD Zero Clause License (0BSD).' This is an authoritative, explicit, unambiguous statement answering the exact question (what license replaced public domain, and what the current license is). Content A lacks any equally clear and authoritative statement confirming the change was made and is current — its most relevant source is a GitHub issue proposing the change, and other sources are outdated or lack license details, making it harder for an LLM to confidently and correctly answer."
+}

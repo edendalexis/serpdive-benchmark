@@ -1,0 +1,11 @@
+{
+  "id": 811,
+  "query": "Copilot Studio computer-using agents general availability official announcement desktop applications websites UI automation 2025",
+  "topic": "Microsoft Copilot",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "The digitalapplied.com blog is a third-party source with some specific claims (models, Key Vault, Purview logging) that are not verifiable from official Microsoft sources; the whats-new page snippet is cluttered with many unrelated release-note dates that could dilute the focused answer.",
+  "b_issues": "Includes a low-value LinkedIn post that adds little factual content ('AgentKit lets you visually design...'), and repeats the same digitalapplied.com third-party claims found in A with the same reliability concerns.",
+  "reasoning": "Both content sets converge on the same core facts consistent with the anchor: computer use was announced as an early-access/public preview on April 15, 2025 (official Microsoft blog), and general availability came later (May 2026, per the official May 2026 Copilot Studio blog and the digitalapplied.com secondary source). Neither set contradicts the anchor's key data point that GA was targeted/occurred in 2026 rather than 2025. Content A adds a reputable secondary source (Visual Studio Magazine) confirming the April 2025 preview, and an official whats-new timeline, while Content B adds the official computer-use docs page with feature details and a redundant, low-value LinkedIn snippet. The net informational value and accuracy are roughly equivalent between the two, with no significant factual errors or contradictions in either that would change the correctness of an answer."
+}

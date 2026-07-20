@@ -1,0 +1,11 @@
+{
+  "id": 462,
+  "query": "Palworld 1.0 update capture requirement changes experience rebalance",
+  "topic": "Palworld",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; IGN and SteamDB sources directly confirm the capture bonus reduction (12→5) and easier leveling for lower-level Pals, matching the anchor's facts.",
+  "b_issues": "Only provides a fragment mentioning experience table adjustment for low-level Pals; lacks specific capture requirement change details (12→5 captures) that are central to the query. Most results are vague summaries or link previews without concrete facts.",
+  "reasoning": "Content A directly quotes specific, verifiable patch note details from IGN and SteamDB that confirm both the capture requirement change (Capture Bonus reduced from 12 to 5 captures) and the experience rebalance (lower-level Pals gain experience more easily), which align precisely with the anchor's facts. Content B only has one brief snippet from VGTimes mentioning the experience table adjustment, but no direct confirmation of the capture requirement change—the query's two key elements. B's other results are generic overviews without extracting the specific facts needed."
+}

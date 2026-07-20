@@ -1,0 +1,11 @@
+{
+  "id": 543,
+  "query": "ECB T2 operating hours extension public consultation outcome 2025",
+  "topic": "European Central Bank",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "The outcome PDF snippet in A is a garbled amalgamation of section headers and fragments (e.g., 'operating hours is the need to improve liquidity management for instant payments,. service's operating hours, starting with liquidity management improvements before.') that doesn't form coherent, extractable facts about the actual outcome. Several other results (bankenverband, eachccp) are individual stakeholder consultation responses, not the outcome/results, adding noise rather than answering the question. No clear statement of final findings, dates, or next steps is derivable.",
+  "b_issues": "Content B does not include the actual outcome PDF (pubconpm202605.en.pdf) directly, relying instead on the mipnews260528 summary article, so some granular details (e.g., 125 respondents from 19 countries) are less prominent, though the consultation timeline and key findings are still covered.",
+  "reasoning": "Content B provides a coherent, readable summary of the outcome via the mipnews260528.en.html article, clearly stating the key finding (liquidity management for instant payments as primary driver), the phased approach preference, concrete measures (TIPS remuneration, rule-based liquidity transfers), and the plan for another consultation by 2027 — directly answering the question. Content A's inclusion of the actual outcome PDF is valuable in principle but the snippet retrieved is fragmented and difficult to parse into a clear answer, and much of A's content consists of pre-outcome stakeholder responses (bankenverband, eachccp) rather than the consultation's outcome, diluting relevance. Overall B better enables a correct, clear answer."
+}

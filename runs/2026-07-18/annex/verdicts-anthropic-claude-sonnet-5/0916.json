@@ -1,0 +1,11 @@
+{
+  "id": 916,
+  "query": "FAA FBI drone detection security Super Bowl LX unauthorized UAV",
+  "topic": "Super Bowl",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "No major factual flaws; content is consistent with the anchor and provides specific, useful details (TFR zone coordinates/radii, penalty amounts, mitigation authority, enforcement timeline).",
+  "b_issues": "Several result snippets are extremely thin (e.g., hype.aero and Reuters entries are one-line fragments with little substantive detail), reducing the amount of usable factual content despite decent source diversity. The Reuters snippet mentions '30 miles' which is imprecise compared to the nautical-mile figures elsewhere, though not a clear contradiction.",
+  "reasoning": "Both sets rely on the same core facts (FAA/FBI collaboration, TFRs, detection/tracking, penalties) and no content contradicts the anchor. However, Content A's results contain more complete and specific factual detail across multiple sources (specific NM/altitude restrictions for various venues, mitigation procedures, contact info for pre-approval, penalty specifics), giving an LLM more substantive material to construct a correct and detailed answer. Content B repeats similar high-level facts but several of its snippets are too truncated to add real informational value beyond what's in the anchor."
+}

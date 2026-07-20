@@ -1,0 +1,11 @@
+{
+  "id": 992,
+  "query": "True Detective Season 5 premiere date 2027 HBO official announcement",
+  "topic": "True Detective",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Includes a speculative military.com article that treats rumored casting (Nicolas Cage) as near-fact and cites an unverified future date (March 28, 2026) for its snippet, which could confuse an LLM about current knowledge. The hbomax.com result is irrelevant (Season 4 info).",
+  "b_issues": "Relies on lesser-known/less authoritative sources (readers.id) whose reliability is unclear, and some headlines slightly overstate certainty (e.g., 'HBO confirms...2027 premiere') without the same explicit caveat about the exact date being unannounced that appears in content A's tvinsider snippet.",
+  "reasoning": "Both sets converge on the same core facts: True Detective Season 5 is set in New York (Jamaica Bay), showrunner Issa Lopez returns, Nicolas Cage is rumored (not confirmed) for a lead role, filming was expected in 2026, and HBO's Francesca Orsi indicated a 2027 launch without a specific date. Neither set contradicts the anchor's facts (setting, showrunner, renewal). A includes a more explicit quote confirming '2027, with an exact premiere date and month yet to be announced,' which precisely answers the query's implicit need (no official date exists yet), while B's sources convey the same conclusion using slightly less authoritative outlets. The overall factual accuracy and usefulness for answering the question are comparable between the two."
+}

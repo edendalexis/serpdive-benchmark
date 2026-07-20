@@ -1,0 +1,11 @@
+{
+  "id": 976,
+  "query": "JD Vance Russia Ukraine talks August 2025 concessions sanctions Kremlin outcome",
+  "topic": "JD Vance",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "None significant; content is accurate and consistent across sources (ABC, NBC, Axios, Moscow Times) covering Vance's 'significant concessions' claim, possible sanctions, and Lavrov's pushback.",
+  "b_issues": "Includes a low-value Facebook repost that adds no new information, and the ABC Australia snippet is very thin, but the core facts (concessions claim, sanctions not ruled out, Lavrov pushback, no summit meeting) are still present via NBC, Axios, and ABC News.",
+  "reasoning": "Both sets provide the essential facts needed to answer the query: Vance's claim of 'significant concessions,' the specifics (no puppet regime, security guarantees), the contradiction from Lavrov's remarks, and the mention that sanctions remain possible. Content A's sources (NBC, ABC, Axios, Moscow Times) are all substantive and non-redundant, while Content B includes a redundant/low-quality Facebook link and a thinner ABC Australia entry, but its NBC excerpt is slightly more detailed. Overall the factual coverage and reliability are roughly equivalent, with no contradictions in either set."
+}

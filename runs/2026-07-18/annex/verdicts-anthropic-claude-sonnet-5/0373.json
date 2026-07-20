@@ -1,0 +1,11 @@
+{
+  "id": 373,
+  "query": "OpenAI ChatGPT video generation features status after Sora shutdown",
+  "topic": "Sora OpenAI",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A's sources contradict each other on the central question: androidauthority.com and hngn.com suggest Sora's tech will live on inside ChatGPT (with rumors of an upcoming ChatGPT video feature), while biggo.com explicitly states the shutdown also killed video generation features within ChatGPT, and thepulsegazette says Sora is being 'folded into ChatGPT' with 'still-limited ChatGPT API video capabilities' — directly contradicting biggo's claim. This leaves the actual status of ChatGPT's video features ambiguous and internally inconsistent. Also cites an incorrect March 31, 2026 shutdown date, differing from the anchor's April 26/Sept 24, 2026 dates.",
+  "b_issues": "The mindstudio.ai source is stale/contradictory, describing Sora as 'currently accessible to ChatGPT Plus and Pro subscribers' as if not yet shut down, conflicting with the featured snippet's claim of permanent removal. The featured snippet also conflates the March 24-25 announcement date with actual full removal, which is slightly imprecise relative to the anchor's staged discontinuation dates.",
+  "reasoning": "Both sets have some internal inconsistency, but Content B converges on a clear, consistent answer to the specific question (Sora/video generation features were permanently removed from ChatGPT, DALL-E remains, Sora 2 API models are marked deprecated with a Sept 24, 2026 shutdown date matching the anchor). Content A's sources present conflicting narratives — some claiming Sora tech will live on in ChatGPT, others claiming ChatGPT's video features were also killed — making it harder for an LLM to give a coherent, correct answer about the actual status."
+}

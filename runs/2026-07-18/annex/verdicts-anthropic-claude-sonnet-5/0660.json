@@ -1,0 +1,11 @@
+{
+  "id": 660,
+  "query": "Ilya Sutskever Safe Superintelligence CEO June 2025 Daniel Gross left Meta buyout rejected source",
+  "topic": "Ilya Sutskever",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; all five results are on-topic, consistent, and factually aligned with the anchor (Sutskever becomes CEO, Gross departs for Meta June 29, Meta's buyout offer was rejected).",
+  "b_issues": "One of the five results (LinkedIn post) is essentially unusable garbage—mostly navigation/comment-count text with no substantive content, wasting a results slot. The remaining four (Observer, CNBC, Wikipedia, Techzine) are accurate and useful, but the LinkedIn entry adds noise without value.",
+  "reasoning": "Both sets contain the core facts needed to answer the question: Sutskever became CEO in July 2025 after Meta poached SSI CEO Daniel Gross (who left June 29), and Meta's earlier attempt to acquire/buy SSI was rejected by Sutskever, per CNBC sourcing. Content A delivers this cleanly across five relevant, substantive sources (CNBC, Observer, TechCrunch, Calcalist, MLQ) with no wasted content. Content B covers similar ground with Observer, CNBC, Wikipedia, and Techzine (which explicitly confirms the rejection), but includes one entirely non-substantive LinkedIn result that contributes nothing and could distract or confuse an agent. Since content quality/utility (not quantity) matters, A's uniformly useful results give it a slight edge."
+}

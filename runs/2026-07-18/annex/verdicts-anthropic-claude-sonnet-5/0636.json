@@ -1,0 +1,11 @@
+{
+  "id": 636,
+  "query": "Perplexity Deep Research in Computer private company research website publishing structured outputs presentation feature release",
+  "topic": "Perplexity AI",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Lacks direct detail on 'Search as Code' feature and its specifics; the substack and LinkedIn sources are lower quality/unofficial and one LinkedIn result has no real content (just cookie policy text). Doesn't explicitly mention 'Search as Code' by name in the main blog excerpt, missing key structured output detail found in B.",
+  "b_issues": "One result has a placeholder/garbled title '{{IW4QaZoc2}}' instead of the real title, though the content itself is accurate and matches the anchor closely.",
+  "reasoning": "Content B provides more precise, directly relevant details matching the anchor's facts: it explicitly names 'Search as Code' and 'Agent Search SDK', describes the sandbox execution model, mentions the YouTube announcement video with specific release date (21 Jun 2026) and subscriber tier availability (Pro and Max), and includes a detailed third-party summary (MarkTechPost) confirming the 20+ frontier models routing and benchmark comparisons. Content A's sources are more diluted with older Feb 2025 announcement details and lower-quality/irrelevant LinkedIn posts, and lacks the specific 'Search as Code' terminology tied to structured outputs (reports, decks, dashboards) that directly answers the query. B's minor title garbling issue is cosmetic and doesn't affect factual accuracy of the content itself."
+}

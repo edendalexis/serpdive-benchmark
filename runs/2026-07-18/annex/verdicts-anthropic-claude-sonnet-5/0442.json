@@ -1,0 +1,11 @@
+{
+  "id": 442,
+  "query": "Notre-Dame Paris Claire Tabouret stained glass windows installation status 2026 opposition",
+  "topic": "Notre-Dame de Paris",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A's results describe the controversy and the exhibition/production status but never mention the resolution of the legal opposition (the Paris court ruling rejecting the injunction to halt window replacement), which is the key 2026 development highlighted in the anchor. Without this, an LLM using only A would not know the current legal status of the opposition.",
+  "b_issues": "The Facebook post source is low-quality/unreliable as a citation, though the fact it states (court ruled the windows can proceed) aligns with the anchor's key finding. Minor redundancy with A on other points (installation timeline, controversy).",
+  "reasoning": "The anchor's central newsworthy fact is that a Paris judge rejected the effort to halt the windows' installation, resolving the 'opposition' angle of the query as of 2026. Content B includes a source (despite being a weak Facebook citation) that states this court ruling clearly, plus other sources (RFI, Guardian, tribune de l'art) covering the debate and installation timeline. Content A, despite having more reputable sources, never surfaces the court ruling outcome, leaving a significant gap in answering the 'opposition status in 2026' part of the question. Thus B provides more complete and accurate coverage relevant to the specific query, despite one source being lower quality."
+}

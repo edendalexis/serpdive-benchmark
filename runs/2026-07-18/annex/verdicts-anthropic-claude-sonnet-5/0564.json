@@ -1,0 +1,11 @@
+{
+  "id": 564,
+  "query": "Hades II Unseen Update June 2025 Umbral Flames rework combat changes patch notes",
+  "topic": "Hades II",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "The fextralife excerpt in A appears to blend text from multiple patches (including the v1.0 launch announcement) and shows the Umbral Flames Eos rework which matches later patch (patch 10) wording, not the original June 17 Unseen Update text. This could lead an LLM to give the wrong (later) description of the Umbral Flames rework instead of the actual 'smoother, snappier fighting style' change announced in June 2025. The IGN snippet also focuses on patch 10, further diluting the correct answer for the original June update.",
+  "b_issues": "Includes multiple sources spanning different patches (Unseen initial release, patch 10, v1.0 launch) which could cause minor confusion about timeline, but each snippet is clearly attributable to its source/date, and the hades.fandom and reddit snippets directly match the anchor's description of the June 17 Unseen Update's Umbral Flames rework.",
+  "reasoning": "Content B contains the hades.fandom snippet ('smoother, snappier fighting style') and the reddit snippet ('adjusted properties of Attacks and Specials for improved flow and feel'), both of which align with the anchor's actual June 17, 2025 Unseen Update description of the Umbral Flames rework. Content A's fextralife excerpt mixes in text from the v1.0 launch and a later patch (patch 10), presenting a different, later version of the Umbral Flames rework as if it were the June update, which risks giving an inaccurate answer to the specific question asked."
+}

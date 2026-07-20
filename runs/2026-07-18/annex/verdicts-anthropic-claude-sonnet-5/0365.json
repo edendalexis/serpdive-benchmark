@@ -1,0 +1,11 @@
+{
+  "id": 365,
+  "query": "Take-Two Fiscal 2027 net bookings GTA VI Zelnick projection",
+  "topic": "Grand Theft Auto VI",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "None significant; all results consistently report the $8.0-$8.2B FY27 net bookings guidance, GTA VI Nov 19 launch, and Zelnick's comments, matching the anchor.",
+  "b_issues": "Contains several confusing/contradictory snippets: one result title reads 'Take-Two eyes $7B in fiscal 2027 bookings' which conflicts with the $8.0-8.2B figure elsewhere; another older press release mentions GTA VI being 'expected to launch in Fall of 2025' then 'now planned for release on May 26, 2026', conflicting with the Nov 19, 2026 date cited in other results; these inconsistencies could mislead an LLM about the correct launch date and bookings figure.",
+  "reasoning": "Both sets contain the core correct fact ($8.0-$8.2B FY27 net bookings guidance driven by GTA VI, per Zelnick). However, Content A presents this consistently across all results with no contradictory dates or figures, closely matching the anchor. Content B, while including the correct figure in most results, also includes a title claiming '$7B' and an older release citing conflicting GTA VI launch dates (Fall 2025, May 26 2026, vs Nov 19 2026), introducing confusion that could cause an LLM to give an inconsistent or incorrect answer."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 506,
+  "query": "Intel Foundry 18A-P risk production entry date 2026 performance thermal characteristics customer timeline",
+  "topic": "Intel Foundry",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Includes a low-quality/less-authoritative source (gulfsqas.com) with a vague, possibly speculative claim about a 2025-2026 external customer goal, and the InsiderFinance result contains irrelevant off-topic content (Apple/Nvidia market cap) that dilutes relevance, though the core facts (date, 9%/18% PPA gains, thermal/via resistance improvements) are accurate and consistent across sources.",
+  "b_issues": "Includes a LinkedIn post as a source, which is less authoritative, though it doesn't introduce factual errors. The Futurum snippet is truncated before the Oregon/Arizona fab detail that appears in Content A's version, slightly reducing specificity on customer/site timeline.",
+  "reasoning": "Both content sets accurately convey the key facts: Intel 18A-P entered risk production on June 16, 2026, at the VLSI Symposium, meeting the timeline promised to customers a year prior, with ~9% performance/18% power improvement, 20-40% better thermal resistance, 10-30% better via resistance, and full design-rule compatibility with 18A. Content A adds the Oregon/Arizona fab detail via Futurum but includes a lower-quality source (gulfsqas) and off-topic noise. Content B adds useful context via TechTimes explaining what 'risk production' means for customer timelines, but includes a LinkedIn post as a source. Neither set contains factual contradictions with the anchor, and both would allow an LLM to answer the question correctly with similar completeness and accuracy."
+}

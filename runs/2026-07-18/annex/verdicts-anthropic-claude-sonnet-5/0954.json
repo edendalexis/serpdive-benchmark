@@ -1,0 +1,11 @@
+{
+  "id": 954,
+  "query": "TikTok Shop US sales growth percentage year over year 2025 total product listings count",
+  "topic": "TikTok Shop",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A contains multiple mutually inconsistent and largely unverifiable growth percentages (201% YoY 'growth', 218% and 200% YoY for 2026, 48% YoY to $23.41B) that do not match the anchor's 68% figure or any known TikTok Shop growth data, and it never actually reports a total product‑listing count (only shop/seller counts). Some figures (e.g., 201% growth, 5,000% increase in shop count) look like exaggerated or fabricated statistics from low‑authority blogs.",
+  "b_issues": "Content B also fails to give an actual product‑listing count (only shop/seller counts such as 475,000 US shops), and includes some inconsistent or likely inflated growth figures (108% YoY, 120% annual growth) that conflict with the anchor's 68% figure. However, it also includes a well‑corroborated 66% small‑business sales growth statistic that matches an independently verifiable figure (also cited in the anchor's companion article), giving it a partially reliable anchor point.",
+  "reasoning": "Neither result set provides an actual 'total product listings count' for TikTok Shop US in 2025 — both substitute seller/shop counts instead, so this part of the question is unanswered in both. For the growth percentage, Content B includes at least one figure (66% YoY small‑business sales growth) that aligns with an independently corroborated statistic also referenced in the anchor context, giving it a slightly more reliable anchor to ground an answer. Content A's growth figures (201%, 218%, 200%, 48%) are more numerous, more scattered, and none match the anchor's 68% GMV growth, making it harder to derive a coherent, accurate answer. Thus B offers marginally better grounding despite both being imperfect."
+}

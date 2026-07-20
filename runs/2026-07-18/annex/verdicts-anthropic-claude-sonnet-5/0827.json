@@ -1,0 +1,11 @@
+{
+  "id": 827,
+  "query": "Port of Baltimore 2024 annual cargo tonnage value ranking US ports",
+  "topic": "Port of Baltimore",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Does not explicitly restate the $62.2 billion cargo value figure, but this is a minor omission since it provides the tonnage, year-rank, and a national tonnage rank (8th) directly relevant to the question.",
+  "b_issues": "None of the results directly address 2024 tonnage/value ranking; content mixes 2023 record data, 2025 data (50 million tons, 10th/11th foreign cargo rank), and an oddly dated 2026 BTS report, creating confusion and failing to answer the specific 2024 ranking/value question.",
+  "reasoning": "Content A includes the AJOT article which explicitly states the 45.9 million tons figure, confirms it as the second-best year, and adds an 8th place national tonnage ranking for 2024, consistent with the anchor's tonnage and value data. Content B's results are largely about other years (2023, 2025) or contain irrelevant/outdated info, and never clearly answer the 2024 ranking or value question, making it far less useful for accurately answering the query."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 361,
+  "query": "GTA 6 pre-orders opened date editions pricing Rockstar official news June 2026",
+  "topic": "Grand Theft Auto VI",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Contains an internal contradiction: the games.gg result (dated June 17) claims pricing and editions are 'unannounced,' while other results in the same set (Forbes, gizmochina) state pricing was confirmed on June 24. Also states Ultimate Edition price as $99.99, which conflicts with the anchor's Forbes source stating the Ultimate Edition costs $100 (a factual discrepancy with the reference). Overall reliability is mixed, blending speculative/outdated info with confirmed facts without clear resolution.",
+  "b_issues": "Does not explicitly state the Ultimate Edition price ($100), only the standard edition price ($79.99), leaving that detail incomplete. Includes one older/irrelevant result (Wikipedia list of Rockstar games) and one hedging blog post (orangehardwares) with pre-official speculation, though these don't contradict the confirmed facts.",
+  "reasoning": "Both sets confirm the core facts: pre-orders begin June 25, 2026 (midnight local time), release November 19, 2026, standard price $79.99. However, Content B sources this from highly authoritative outlets (official Take-Two IR press release, PlayStation Blog, Rockstar's own site) that align perfectly with the anchor's official Rockstar/Take-Two sources, with no internal contradictions. Content A includes a source (games.gg) that contradicts the rest of its own set by claiming pricing was unannounced, and also states an Ultimate Edition price ($99.99) that conflicts with the anchor's stated $100 figure. This makes Content B more internally consistent, accurate, and aligned with the anchor's official facts, despite lacking the Ultimate Edition price explicitly."
+}

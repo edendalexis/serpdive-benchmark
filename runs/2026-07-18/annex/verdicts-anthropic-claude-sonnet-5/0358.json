@@ -1,0 +1,11 @@
+{
+  "id": 358,
+  "query": "Pope Leo XIV Borgo Laudato si' lunch July 11 2026 attendees quotes",
+  "topic": "Pope Leo XIV",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Provides the official Vatican transcript with quotes but lacks explicit attendee details (e.g., Diocese of Rome origin) and doesn't reference the ~200 attendee count directly in the main result; includes an odd duplicate 'polyfact' source that is essentially a reposting of the same content.",
+  "b_issues": "Slightly redundant across multiple sources (Vatican News, YouTube, relforcon, NCR) but all consistent with the anchor; no factual errors.",
+  "reasoning": "Both sets confirm the key quotes ('hunger for justice, hunger for genuine charity') and the bridge-building quote, matching the anchor. However, Content B provides more corroborating detail, including the specific attendee origin ('vulnerable people from the Diocese of Rome') and a closer match to the anchor's title and quotes, making it slightly more complete and accurate for answering attendee and quote details."
+}

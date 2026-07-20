@@ -1,0 +1,11 @@
+{
+  "id": 714,
+  "query": "Emmanuel Macron Fontainebleau forest wildfires arson visit statement hectares 2026",
+  "topic": "Emmanuel Macron",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor inconsistency between '35,000 hectares' (nationwide) and '32,000 hectares already burned this year' cited in different snippets, but these are attributable to different reporting dates/sources rather than internal contradiction; otherwise facts are consistent and well-sourced (Reuters, Le Monde, France24, RFI, Straits Times, EFE).",
+  "b_issues": "Includes a low-quality YouTube video result (DRM News) that adds little substantive factual content and is a less reliable source; otherwise overlaps with A on core facts (zero tolerance, replanting pledge, hectare figures, quotes).",
+  "reasoning": "Both sets share the core reliable sources (France24, RFI, Reuters, Straits Times) with consistent facts about Macron's visit, the 'zero tolerance' statement, the replanting pledge, and hectare figures (2,000+ hectares in Fontainebleau, 35,000 nationwide, 10% of 20,000-hectare domain). Content A adds a Le Monde article with extra verified details (charges against workers, funding drive, UNESCO biosphere reserve) and an EFE piece giving earlier context (800 hectares, arson suspicion), enriching the factual base without introducing errors. Content B substitutes some of that depth with a YouTube video result that is a marginal, less authoritative source and adds redundant information already covered elsewhere. Thus Content A provides a more complete and equally accurate foundation for answering the question."
+}

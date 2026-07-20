@@ -1,0 +1,11 @@
+{
+  "id": 727,
+  "query": "US small package tariff reduction 90-day period Chinese imports current rate",
+  "topic": "Temu",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "None of A's snippets explicitly address the 'de minimis'/small-package tariff (30% commercial, 54%/$100 postal) that the anchor highlights; they only give the general reciprocal-tariff numbers (125%→34%→10%). The CNBC snippet is truncated right before mentioning the 20% fentanyl tariff, so the full 30% combined figure isn't clearly stated. The China-Briefing entry pulls in unrelated, speculative 2026 content (Section 301, IEEPA Supreme Court ruling) that could distract from the actual question.",
+  "b_issues": "B also lacks the specific de minimis figures (30%/54%/$100) from the anchor; its avalara result is titled about 'the end of de minimis' but the shown snippet only repeats the general 10%+20% figures, not package-specific rates. B introduces multiple later-dated updates (Aug 2025, Nov 2025, Feb 2026 SCOTUS ruling, 2026 Section 301 tariffs) that are unverified/speculative and could confuse a model trying to state the 'current' rate for the original 90-day period, creating a risk of temporal conflation.",
+  "reasoning": "Both content sets correctly convey the core mechanism of the 90-day deal (reciprocal tariff cut from 125%/34% to 10%, with a 20% fentanyl tariff remaining, yielding an effective ~30% rate), matching the anchor's overall narrative. However, neither set explicitly surfaces the specific 'de minimis' small-package rates (30% commercial / 54% or $100 postal) that the anchor and the question's phrasing ('small package') most directly ask about. B has a slight edge with an avalara link explicitly tied to de minimis and a clearer restatement of the 10%+20% combination via china-briefing, but it also carries more speculative future-dated claims that could mislead on 'current' rate. A is more focused but omits any de minimis-specific link and has a truncated fentanyl detail. The two sets are roughly equivalent in their ability to correctly answer the question, each with comparable gaps and risks."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 267,
+  "query": "2026 NBA Finals average margin of victory four points every game within five points final five minutes series stats",
+  "topic": "NBA Finals",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A lacks the key fact about every game being within five points in the final five minutes; the only related stat is a Reddit post claiming 'average of 4 points' but only for the first 4 games, not the full series, and it's a non-authoritative source (Reddit) rather than the primary NBA.com/Wikipedia articles. No direct confirmation of the 'four points average margin' for the full 5-game series or the clutch stat.",
+  "b_issues": "None significant; content directly quotes Wikipedia stating 'average margin of victory was just four points' and NBA.com confirming 'the only Finals series where every game was within five points in the last five minutes,' both matching the question precisely.",
+  "reasoning": "The question asks specifically about the average margin of victory being four points and every game being within five points in the final five minutes. Content B directly and explicitly provides both facts from reliable primary sources (Wikipedia and NBA.com), matching the anchor's own top hits. Content A only offers a Reddit-sourced approximation about the first four games' margin and does not mention the 'within five points in final five minutes' clutch stat at all, making it insufficient to fully and accurately answer the question."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 99,
+  "query": "Humane AI Pin residue inventory sale leftover units fate after HP deal 2025",
+  "topic": "Humane AI Pin",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A thoroughly covers the HP acquisition deal, refund policy, and AI Pin shutdown/bricking, but never actually addresses the specific question of what happened to leftover/unsold inventory units — the core of the query. No mention of unsold stock, e-waste, or inventory disposition.",
+  "b_issues": "Content B relies on a single source (complexdiscovery.com, a blog aggregator rather than a primary tech news outlet), which reduces reliability. The '10,000 unsold or returned units' e-waste claim is not corroborated by other sources in either set and could be an unverified estimate. The refund cutoff date (Nov 15, 2024) also isn't corroborated elsewhere and slightly conflicts with other reporting's '90 days' framing, though not necessarily contradictory.",
+  "reasoning": "The question specifically asks about the fate of leftover/unsold AI Pin inventory after the HP deal. Content A, despite drawing on multiple reputable outlets (TechCrunch, PYMNTS, Gizmodo, dig.watch), never mentions unsold inventory or leftover units — it focuses on the acquisition price, refund eligibility, and device deactivation, leaving the core question unanswered. Content B, despite coming from a single less authoritative source, directly addresses the query by stating an estimated 10,000 unsold/returned units became e-waste due to the glued-in battery design, which is precisely the kind of fact needed to answer the question. Even with the reliability caveat, B provides substantive, on-point content that A lacks entirely for this specific query angle."
+}

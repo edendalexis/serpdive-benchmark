@@ -1,0 +1,11 @@
+{
+  "id": 111,
+  "query": "site:lvmh.com July 2026 Les Journees Particulieres 2026 65 venues 11 countries program announcement",
+  "topic": "LVMH",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "None of the results explicitly state the '65 venues, 11 countries' figure or the July 1, 2026 press release title, but they do confirm the event name, dates (16-18 October 2026), and theme, which is consistent with and corroborates the anchor's core facts.",
+  "b_issues": "Only returns a generic 'Special events' page with no mention of 2026 dates, 65 venues, 11 countries, or the July 2026 announcement at all — essentially no relevant factual content to answer the specific question.",
+  "reasoning": "The question asks about the July 2026 LVMH press release announcing Les Journées Particulières 2026 with 65 venues in 11 countries. Content A provides multiple LVMH.com pages (FR, EN, IT) confirming the event's 2026 dates (16-18 October) and theme, giving a real, verifiable link to the actual event described in the anchor, even though it lacks the exact '65 venues/11 countries' figure. Content B contains only one generic, evergreen page about LVMH special events with no date-specific or numeric details, providing essentially no useful information to answer the question. A is clearly more helpful and accurate relative to the anchor."
+}

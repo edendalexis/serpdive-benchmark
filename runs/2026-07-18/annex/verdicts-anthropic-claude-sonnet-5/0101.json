@@ -1,0 +1,11 @@
+{
+  "id": 101,
+  "query": "Boeing MUOS Space Force contract value satellite delivery timeline 2031",
+  "topic": "Boeing",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Contains a snippet from mynorthwest.com that seems garbled/incomplete ('delivering multiple 702MP satellites since quarter four of 2025') which could confuse the model; lacks the direct Boeing.com source with the explicit $2B and 2031 delivery statement, relying on secondary summaries.",
+  "b_issues": "The airandspaceforces.com snippet has a garbled fragment ('delivered by 2031, contracts worth $1.75 billion to build 36 satellites') mixing in unrelated Golden Dome info, which could mildly confuse the model if not careful, but the core facts are still clearly stated elsewhere in the same result and corroborated by other sources.",
+  "reasoning": "Both sets converge on the same core facts: $2B contract, two MUOS satellites, first delivery/launch no earlier than 2031 (second in 2032), constellation extended to 2035. Content B directly includes the Boeing.com source (the anchor's primary source) explicitly stating 'valued at up to $2B... first delivery in 2031,' plus a featured snippet reinforcing '$2 billion contract... Space Vehicles 6 & 7... launching no earlier than 2031 & 2032.' This gives clearer, more authoritative sourcing matching the anchor. Content A omits the Boeing.com source entirely and includes a confusing, seemingly unrelated fragment about 702MP satellites since 2025, which could mislead an LLM about delivery timeline context. Both have minor noise, but B's direct inclusion of the primary Boeing source and clearer snippet make it more reliable for answering the question."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 274,
+  "query": "Bukele MS-13 extraditions blocked ProPublica report 2025 U.S. investigation",
+  "topic": "Nayib Bukele",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; content is accurate and consistent with the anchor, covering the Vulcan task force, extradition blocking, USAID money-laundering angle, and the ambassador's role.",
+  "b_issues": "Core facts are accurate, but several results (YouTube video, Threads post, Reddit link) are lower-reliability social/video sources with minimal substantive detail, reducing the overall evidentiary value of the set compared to A's all-journalism sources.",
+  "reasoning": "Both sets include the same key ProPublica article and convey the central facts (Bukele aides blocked MS-13 extraditions, USAID money-laundering inquiry, task force impeded). However, Content A's four results are all professional journalism outlets (ProPublica x2, Latin America Reports, World Politics Review) offering additional specific, accurate details—e.g., the Vulcan task force, the first MS-13 leader whose extradition was blocked, the March deportation of an MS-13 leader, and the ambassador's role in softening extradition pressure. Content B's core ProPublica snippet is similarly detailed, but its remaining results (YouTube, Threads, Reddit) add little unique factual value and are less authoritative. This makes Content A marginally stronger for enabling a correct, well-supported answer."
+}

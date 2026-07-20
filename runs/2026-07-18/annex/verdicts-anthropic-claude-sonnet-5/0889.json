@@ -1,0 +1,11 @@
+{
+  "id": 889,
+  "query": "Skydance Mission Impossible The Final Reckoning theatrical release date",
+  "topic": "Skydance Media",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "None significant; multiple sources consistently confirm May 23, 2025 as the theatrical release date, matching the anchor.",
+  "b_issues": "Wikipedia snippet contains explicit release date (May 23, 2025) but it's buried within a long block of unrelated production/box office trivia, making it harder to isolate; other results (Paramount+, Rotten Tomatoes) don't explicitly state the date in the given content, relying on the reader to infer from context clues like 'spring of next year' or title change timing.",
+  "reasoning": "Content A directly and repeatedly states 'May 23, 2025' as the theatrical release date across three separate sources (Paramount+, IMDb, Reddit), making the answer unambiguous and easy to extract. Content B has the correct date only in the Wikipedia entry, but it's embedded in a dense paragraph of unrelated details (budget, filming locations, strike delays, streaming date), requiring more effort to parse, and the other two results in B lack an explicit date in the provided content. Both ultimately contain the correct fact, but A presents it more clearly and redundantly, reducing risk of extraction error."
+}

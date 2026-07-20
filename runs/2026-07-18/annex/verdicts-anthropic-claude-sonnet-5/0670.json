@@ -1,0 +1,11 @@
+{
+  "id": 670,
+  "query": "Kamala Harris memoir title published September 23 2025",
+  "topic": "Kamala Harris",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "All results confirm the title '107 Days' and Sept 23 publication date via Wikipedia, KCRA, NBC News, and National Desk articles; no factual errors, but slightly less direct confirmation of the exact Sept 23 release date from an authoritative primary source (NPR/AP confirming publication day itself is missing).",
+  "b_issues": "No significant factual flaws; NPR article confirms book 'out Tuesday' (Sept 23, 2025 was a Tuesday), AP News and Wikipedia confirm title and publisher/date, and the official book site confirms title and bestseller status.",
+  "reasoning": "Both sets correctly and consistently identify the memoir as '107 Days' by Kamala Harris, published by Simon & Schuster on September 23, 2025. Content B has a slight edge because it includes the NPR article explicitly stating the book is 'out Tuesday' (matching Sept 23, 2025, a Tuesday) and the official 107daysbook.com site, providing more direct, corroborating confirmation of the exact release date alongside AP News and Wikipedia. Content A is also accurate and sufficient, but B's sourcing is marginally more robust and directly tied to the publication date."
+}

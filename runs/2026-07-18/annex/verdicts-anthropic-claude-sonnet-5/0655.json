@@ -1,0 +1,11 @@
+{
+  "id": 655,
+  "query": "UNRWA staff casualties total number killed attacks since 2023 official statistics",
+  "topic": "United Nations Relief and Works Agency for Palestine Refugees in the Near East",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "The figures in A conflate several different measures (all aid workers killed vs. UNRWA staff, persons sheltering in UNRWA premises, total humanitarians killed via AWSD, general aid-worker attack statistics) rather than giving a clear, consistent official UNRWA staff death toll. Sources like a Facebook/Anadolu post, The New Humanitarian, Wikipedia, and AWSD are secondary/aggregated and don't align cleanly with UNRWA's own reporting, making it hard to derive one authoritative number.",
+  "b_issues": "The dates on the UNRWA situation reports (Feb, Apr, May 2026) are unusually far in the future relative to the anchor's most recent Aug 2025 report, raising some doubt about whether these are genuine future reports or artifacts of date mislabeling; the yenisafak piece mixes broader UN/aid-worker totals (562) with UN staff (376) rather than UNRWA specifically, which could cause minor confusion if read alongside the UNRWA-specific figures.",
+  "reasoning": "Content B directly cites multiple official UNRWA Situation Reports giving a consistent, specific figure (390-391 colleagues killed, broken into UNRWA personnel and support staff), which is exactly the kind of official statistic the question asks for, and the numbers are internally consistent across several reports. Content A instead provides a scattered mix of non-comparable metrics (all aid workers, all humanitarians, people sheltering in UNRWA buildings, general attack counts) without a clear authoritative UNRWA staff death toll, making it harder for an LLM to give a precise, correct answer. Despite some uncertainty about the future-dated UNRWA reports in B, the figures are coherent and sourced from UNRWA's own official channel, giving B the edge for answering the specific question accurately."
+}

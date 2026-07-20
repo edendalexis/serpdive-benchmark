@@ -1,0 +1,11 @@
+{
+  "id": 404,
+  "query": "European Commission final Code of Practice marking labelling AI-generated content publication June 2026 document",
+  "topic": "EU AI Act",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "A's first result is self-contradictory: it says the Commission and AI Board 'have confirmed' the code is adequate, but then states the code 'is currently undergoing an adequacy assessment' — these two statements conflict. Most of the remaining results (second draft from March 2026, an article noting 'final version expected by June 2026') suggest the code was still a draft, not yet final, which contradicts the anchor's claim that the final Code was published 10 June 2026. The LinkedIn snippet is vague, mentioning 'today' without giving a firm date matching the anchor. Overall, an LLM using this content might conclude the Code was still in draft form rather than finalized.",
+  "b_issues": "Minor inconsistency: one source (licentium.io) states the Code was published on 9 June 2026, while another (aiethicsassessor.com) and the anchor say 10 June 2026 — a small factual conflict on the exact date, though not substantial enough to derail the overall answer.",
+  "reasoning": "Both sets include the same key official EC source confirming publication of the final Code of Practice with an August 2026 deadline. However, Content A undermines this with confusing/contradictory statements about whether the code is finalized or still under 'adequacy assessment,' and includes draft-stage sources that could mislead an LLM into thinking the Code wasn't finalized by June 2026. Content B is more consistent, directly stating the Code was finalized in June 2026 across multiple sources, with only a trivial one-day discrepancy (9th vs 10th) that does not meaningfully harm the answer's correctness. Thus B better enables a correct, confident answer."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 62,
+  "query": "CVE-2026-34743 xz utils lzma_index_append affected versions discoverer report",
+  "topic": "XZ Utils",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A never identifies who discovered/reported the bug (the GitHub commit's 'Reported-by' info is absent), so it cannot answer the 'discoverer' part of the question. It does correctly give affected versions (<5.8.3) via NVD, and its tukaani.org excerpt is accurate but truncated before any discoverer info.",
+  "b_issues": "Content B's tukaani.org snippet states the bug was reported and discovered by 'Cantina using their AppSec agent, Apex', which is not corroborated by the anchor (whose commit message says 'Reported-by: GitHub user christos-spearbit'); this could be a partial/alternate framing rather than a full contradiction (Spearbit and Cantina are related security firms), but it's not independently verifiable from the provided anchor text. Affected version info is present but less explicit/structured than A's NVD entry (relies on Ubuntu per-release fixed versions and feedly's 'prior to 5.8.3').",
+  "reasoning": "The question explicitly asks for the discoverer of the bug in addition to affected versions. Content A completely omits any mention of who reported/discovered the vulnerability, making it incomplete for that part of the question. Content B directly supplies a discoverer claim (Cantina/Apex) sourced from the official tukaani.org advisory, and also conveys affected-version information (prior to 5.8.3, with Ubuntu fixed-version specifics). While B's discoverer claim isn't fully verified against the anchor's commit-message reporter name, it at least attempts to answer that part of the question with a plausible, sourced claim, whereas A provides no information at all on this point. Therefore B better enables a complete and correct answer to the full multi-part question."
+}

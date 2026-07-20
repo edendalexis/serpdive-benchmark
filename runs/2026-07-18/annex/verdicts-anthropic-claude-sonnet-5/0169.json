@@ -1,0 +1,11 @@
+{
+  "id": 169,
+  "query": "Rivian 2026 delivery guidance 62000 67000 vehicles percentage increase R2 launch second quarter",
+  "topic": "Rivian",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Relies on lower-authority sources (qz.com, cbtnews.com, a Facebook repost) for percentage-increase figures; these figures pertain to the original (unraised) 62k-67k guidance versus 2025 actuals, which could be confused with the raised 65k-70k guidance if not carefully parsed. No high-tier wire/financial outlet (Reuters, CNBC direct article) is included beyond the featured snippet-style content.",
+  "b_issues": "Does not explicitly restate a percentage-increase figure for the original 62,000-67,000 guidance itself (only for the raised 65k-70k range via electric-vehicles.com), so a model would need to calculate the percentage increase for the 62k-67k figure rather than read it directly.",
+  "reasoning": "Both sets contain the core anchor facts: original guidance of 62,000-67,000 raised to 65,000-70,000 after Q2 2026 deliveries of 12,194 units, driven partly by R2 launch. Content B includes more authoritative, directly corroborating sources (Reuters, CNBC, Seeking Alpha, electrive.com) that closely mirror the anchor's wording and even tie the 62k-67k figure explicitly to the R2 launch timing in Q2 ('Rivian targets 62,000–67,000 vehicle deliveries for 2026 as R2 launch approaches... initial smaller volumes in Q2'), which directly addresses the 'R2 launch second quarter' part of the query. Content A supplies extra percentage-increase figures (47-59%, 53%) via less authoritative sources (Facebook repost, cbtnews.com, qz.com), which are accurate but not as strongly sourced and could create ambiguity about which guidance range they reference. Overall, B's sourcing is more reliable and directly aligned with the anchor's content while still enabling calculation of percentage increases via the shared eletric-vehicles.com source."
+}

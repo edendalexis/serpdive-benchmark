@@ -1,0 +1,11 @@
+{
+  "id": 881,
+  "query": "Paramount Skydance CEO David Ellison role",
+  "topic": "Skydance Media",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Minor inconsistency: one source (webpronews) says merger closed August 7, 2025, while the anchor/other sources indicate closing around August 4-7, 2025; this is a small discrepancy but doesn't affect the core answer. Otherwise content is accurate and consistent with the anchor regarding Ellison becoming Chairman and CEO.",
+  "b_issues": "Content B returned zero results, providing no information whatsoever to answer the question.",
+  "reasoning": "Content A provides multiple consistent, reliable sources (Variety, Britannica, Stocktwits, Bloomberg transcript summary, webpronews) confirming David Ellison's role as Chairman and CEO of the newly formed Paramount Skydance Corporation following the merger, matching the anchor's facts. Content B is entirely empty, offering no facts at all, making it impossible to answer the question. Content A clearly enables a correct answer while Content B does not."
+}

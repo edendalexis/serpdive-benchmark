@@ -1,0 +1,11 @@
+{
+  "id": 487,
+  "query": "2026 WGA Minimum Basic Agreement streaming residuals pension enhancements unpaid labor details site:wga.org",
+  "topic": "The WGA",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A does not explicitly mention 'unpaid labor' or pension enhancements, but all results are correctly restricted to wga.org as the query specifies, and the facts (health fund contribution increases, MBA minimum increases, ratification vote percentages) match the anchor reference closely and appear accurate.",
+  "b_issues": "None of the four results in Content B come from wga.org, directly violating the site:wga.org restriction in the query. Sources are third-party (greenslate.com, wgacontract.org, deadline.com, wgaeast.org) rather than the official WGA site, making them less verifiable/reliable for this specific query, even though some details (residual tiers, success bonus) may be accurate.",
+  "reasoning": "The query explicitly restricts results to site:wga.org. Content A fully complies, returning only wga.org URLs with facts (health fund contribution increases, ratification vote, MBA minimum schedule) that align with the anchor reference. Content B, despite offering more granular streaming residual details, returns zero wga.org results, instead relying on unofficial third-party sites, which fails the query's explicit sourcing requirement and reduces reliability for an agent expected to cite wga.org-sourced information."
+}

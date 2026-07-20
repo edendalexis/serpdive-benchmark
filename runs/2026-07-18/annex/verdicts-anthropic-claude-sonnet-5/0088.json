@@ -1,0 +1,11 @@
+{
+  "id": 88,
+  "query": "Blue Origin New Shepard flight 38 January 22 2026 passenger list Kármán Line wheelchair user identity",
+  "topic": "Blue Origin",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "The snippet from blueorigin.com/missions/by/human-flight is stitched together in a way that directly juxtaposes 'Blue Origin successfully completed the 38th flight...on January 22' with 'This mission marked the first time a wheelchair user has flown above the Kármán Line,' strongly implying the wheelchair user flew on NS-38. This is misleading/incorrect, since the actual first wheelchair user (Michaela Benthaus) flew on NS-37 in December, not NS-38. Content A provides no correction or clarification, risking an incorrect answer.",
+  "b_issues": "No significant factual issues; it correctly separates the NS-38 crew list from the NS-37 wheelchair-user story, providing an explicit dedicated result (spacenews.com/blue-origin-flies-first-wheelchair-user-to-space) clarifying that the first wheelchair user flew on NS-37, not NS-38.",
+  "reasoning": "Both sets contain the same NS-38 crew list, but Content B additionally includes a clear, dedicated source confirming that the 'first wheelchair user to space' milestone belongs to NS-37 (Michaela Benthaus), correctly disambiguating it from NS-38. Content A's excerpt from the same Blue Origin page conflates the two events by placing the wheelchair-user sentence immediately after the NS-38 announcement, which could easily lead an LLM to incorrectly state that the wheelchair user flew on NS-38. This makes B more reliable and less likely to produce a factual error."
+}

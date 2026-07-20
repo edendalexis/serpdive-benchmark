@@ -1,0 +1,11 @@
+{
+  "id": 752,
+  "query": "George Holding resignation July 2026 Trump Media board member SEC filing DJT reason effective date",
+  "topic": "Truth Social DJT stock",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; content is consistent and directly answers the question with effective date (July 6, 2026), filing date (July 10, 2026), and reason (not related to a dispute with management or the board).",
+  "b_issues": "Provides effective date and confirms no dispute, but lacks the explicit 'not related to a dispute with management or the board' phrasing as clearly (only in webull snippet), and includes less direct SEC filing snippet content; overall thinner on the specific SEC filing text confirming reason and effective date in one place.",
+  "reasoning": "Both sets identify July 6, 2026 as the effective resignation date and July 10, 2026 as the filing date, sourced from stocktitan and webull. However, Content A includes a direct excerpt from the stocktitan snippet stating explicitly 'effective immediately on July 6, 2026' and 'his resignation from its Board of Directors...effective immediately,' plus multiple corroborating sources (marketscreener, simplywall.st) all consistently stating the same date and reason ('not related to any dispute with management or the board'). Content B's snippets are shorter and slightly less explicit about the reason in the primary stocktitan snippet, and the moomoo result is vague ('effective immediately, according to a filing with...' cut off). Content A's redundancy and clarity better support a correct, well-sourced answer."
+}

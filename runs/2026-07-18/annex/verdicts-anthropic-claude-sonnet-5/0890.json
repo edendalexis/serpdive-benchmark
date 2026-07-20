@@ -1,0 +1,11 @@
+{
+  "id": 890,
+  "query": "Alien: Romulus sequel director 2025 replacement search",
+  "topic": "Alien: Romulus",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; content is consistent with anchor and provides additional relevant detail (Michael Sarnoski being considered as replacement director) from Nexus Point News and Yahoo, which are less authoritative but corroborate each other.",
+  "b_issues": "Completely irrelevant results about the general Alien franchise, the 1979 original film, and Wikipedia/Britannica pages with no mention of the Romulus sequel director search or Fede Alvarez's replacement at all.",
+  "reasoning": "Content A directly addresses the query with accurate, on-topic information confirming Fede Alvarez's departure and the search for a new director, plus a lead on Michael Sarnoski as a potential replacement. Content B contains no information about the 2025 sequel director search whatsoever, focusing instead on general franchise history and the 1979 film, making it useless for answering the question."
+}

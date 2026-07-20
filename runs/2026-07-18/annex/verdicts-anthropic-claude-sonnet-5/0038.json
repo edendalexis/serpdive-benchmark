@@ -1,0 +1,11 @@
+{
+  "id": 38,
+  "query": "Google Antigravity CLI Agent Platform integration enterprise capabilities 2026",
+  "topic": "Google",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A lacks any direct information about Gemini Enterprise Agent Platform integration, Managed Agents API, or ADK 2.0 — the core 'enterprise capabilities' aspect of the question. Its third result (Medium/SecOps) only tangentially touches enterprise use via a niche MCP/SecOps setup, not the broader enterprise platform integration story. No mention of Antigravity being brought to Google Cloud customers via Gemini Enterprise Agent Platform.",
+  "b_issues": "Minor: relies partly on secondary reporting (Virtualization Review, Apidog) rather than only primary Google sources, though content is consistent with the anchor and other primary sources included.",
+  "reasoning": "The question specifically asks about Antigravity CLI's integration with the Agent Platform and enterprise capabilities in 2026. Content B directly surfaces this via antigravity.google/blog/google-io-2026 (explicitly stating Antigravity 2.0 and CLI are 'available to Google Cloud customers through the Gemini Enterprise Agent Platform'), the Virtualization Review article detailing Managed Agents API and ADK 2.0 as part of the enterprise agent stack, and Apidog confirming the Gemini Enterprise tier — all matching and expanding on the anchor's facts. Content A's three results focus mostly on the Gemini CLI-to-Antigravity CLI transition and a narrow SecOps/MCP integration guide, missing the core enterprise-platform integration narrative entirely. Thus B better enables a correct, complete answer."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 132,
+  "query": "Netflix documentary BTS: The Return release date 2026",
+  "topic": "BTS",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Contains a minor internal inconsistency in the Wikipedia excerpt (mentions Arirang release date as both March 20 and March 21 in different sources within same content), but the core answer (March 27, 2026) is clear, consistent, and corroborated by multiple reliable sources (Wikipedia, Netflix, TV Guide, Economic Times).",
+  "b_issues": "Relies more heavily on social media (Reddit, Facebook, Instagram) as sources, which are less authoritative, though the factual answer (March 27, 2026) is consistent across all sources including YouTube's official Netflix trailer description and Decider.",
+  "reasoning": "Both content sets converge on the same accurate answer: BTS: The Return premiered on Netflix on March 27, 2026. Content A includes more authoritative journalistic sources (Wikipedia, TV Guide, Economic Times) and a direct featured snippet stating the date clearly. Content B also arrives at the same correct date via multiple corroborating sources, including the official Netflix YouTube trailer description confirming 'March 27' and Decider.com confirming the same. Despite B's reliance on social media snippets, the answer is unambiguous and matches the anchor exactly. Both sets are equally sufficient for correctly answering the question, making this a tie in terms of factual enablement."
+}

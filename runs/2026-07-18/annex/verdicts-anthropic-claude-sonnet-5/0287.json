@@ -1,0 +1,11 @@
+{
+  "id": 287,
+  "query": "Devin AI Android Virtual Device AVD support autonomous Android development launch May 2026",
+  "topic": "Devin AI software engineer",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "All results are just short snippets/headlines without much detail; lacks the official documentation content that explains technical details (x86_64 system image, adb, Computer Use integration, Skill creation workflow). Does not include the docs.devin.ai page content at all, which is the primary authoritative source referenced in the anchor.",
+  "b_issues": "Includes an unrelated Medium article about Android AI in 2026 (on-device AI features like Gemini Nano) that is not directly relevant to the AVD/Devin launch, which could slightly dilute focus, though it doesn't introduce contradictory facts.",
+  "reasoning": "Content B includes the actual docs.devin.ai page content with specific technical details (x86_64 system image, adb usage, Computer Use, Skill creation via PR) that matches and expands on the anchor's reference to the documentation page. It also includes the LinkedIn and Cognition blog snippets confirming the core facts (AVD support, autonomous build/launch/test capability, availability now for teams). Content A only provides short duplicate snippets across multiple sources without the deeper technical documentation, making it less complete for answering questions about how the feature works. Both correctly convey the core fact (AVD support enables autonomous Android app building/testing), but B provides richer, more accurate supporting detail from the authoritative docs source, better enabling a thorough and correct answer."
+}

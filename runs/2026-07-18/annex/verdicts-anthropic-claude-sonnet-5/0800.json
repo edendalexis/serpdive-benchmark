@@ -1,0 +1,11 @@
+{
+  "id": 800,
+  "query": "Microsoft Build 2026 Scout Autopilot Copilot features announcement date",
+  "topic": "Satya Nadella",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; date is embedded in the official Microsoft 365 blog URL (2026/06/02) and confirmed by the blogs.microsoft.com post also dated 2026/06/02, aligning with the anchor. Content directly describes Scout as the first Autopilot agent.",
+  "b_issues": "Relies mainly on secondary/tertiary sources (YouTube video descriptions, blog roundups) rather than the primary Microsoft announcement text. The exact announcement date (June 2, 2026) is only inferable from a YouTube video's upload date and an embedded link, not stated explicitly in any snippet's content.",
+  "reasoning": "Content A includes a direct excerpt from the official Microsoft 365 blog post whose URL and publication date (2026/06/02) explicitly confirm when Scout and the Autopilot category were announced, matching the anchor's date. It also includes confirming text from blogs.microsoft.com dated the same day. Content B's results are largely third-party commentary and a YouTube video; while one video is dated '2 Jun 2026' and links to the same official blog, the date is not stated within the visible content text as clearly as in A, making A more directly useful and reliable for answering the date question."
+}

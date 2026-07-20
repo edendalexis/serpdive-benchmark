@@ -1,0 +1,11 @@
+{
+  "id": 594,
+  "query": "COP30 Belém November 2025 final agreement just transition mechanism labor rights text workers communities clean energy",
+  "topic": "COP climate summit",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "No major factual errors identified; content is consistent with the anchor and other reporting on the Just Transition mechanism, its labor/human rights language, and deferral of operationalization to COP31.",
+  "b_issues": "No major factual errors, but the included sources (biodiversity press release, UK Parliament briefing) are more tangential to labor rights/workers/communities specifics and do not explicitly address the labor-rights language in the mechanism text, making the set less directly responsive to the query.",
+  "reasoning": "Both sets share several sources (jetknowledge, climatenetwork, un.org) that correctly describe the COP30 Just Transition Mechanism, its rights-based framing, and deferral of operationalization to COP31. Content A additionally includes the CESR piece, which explicitly states the mechanism 'must protect human and labor rights' and addresses gender, Indigenous rights, and marginalized communities — directly matching the query's focus on labor rights, workers, and communities. Content B substitutes this with a biodiversity press release focused mainly on fossil fuel phaseout failure and a UK Parliament briefing that is more about overall COP30 outcomes than the just transition mechanism's rights language. Thus Content A provides more directly relevant and accurate material for answering the specific question."
+}

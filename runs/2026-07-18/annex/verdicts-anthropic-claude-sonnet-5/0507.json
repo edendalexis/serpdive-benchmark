@@ -1,0 +1,11 @@
+{
+  "id": 507,
+  "query": "Intel Foundry Secure Enclave CHIPS Act funding amount announcement trusted U.S. semiconductor manufacturing",
+  "topic": "Intel Foundry",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "None significant; all results consistently confirm the $3B Secure Enclave award and the separate $7.86B CHIPS Act commercial manufacturing award, matching the anchor.",
+  "b_issues": "The first result does correctly mention the $3B Secure Enclave award and $7.86B CHIPS funding, but it's buried in a longer article. The second result is largely irrelevant (general supply chain investment list, not Intel-specific). The third result cites a conflicting and seemingly unreliable figure of '$5.7 Billion CHIPS Act Funding' for Intel, which contradicts the accurate $7.86B and $3B figures found elsewhere, introducing confusion/inaccuracy.",
+  "reasoning": "Content A provides multiple consistent, reliable sources (Tom's Hardware, Manufacturing Dive, ENR, Investing.com, Intel Newsroom) that clearly and accurately state both the $3 billion Secure Enclave CHIPS Act award for trusted government chip manufacturing and the separate $7.86 billion CHIPS Act award for commercial fabs, matching the anchor exactly. Content B's relevant result is accurate but harder to extract, and it also includes an off-topic result and a contradictory/low-quality source citing an incorrect $5.7 billion figure, which could mislead an LLM into giving an inaccurate answer."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 379,
+  "query": "OpenAI ends video generation development Sora closure statement robotics real-world tasks agentic AI April 2026",
+  "topic": "Sora OpenAI",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Sources include a general-audience Instagram caption and a Facebook/CNET repost, which are less authoritative than traditional outlets, though the content itself is accurate and consistent with other reporting.",
+  "b_issues": "Lacks any explicit mention of 'agentic AI' in its excerpts (the TheNationalDesk excerpt only mentions robotics/real-world tasks, omitting the AGI/agentic AI roadmap line that the full article contains), and includes a promotional/blog source (MindStudio) with speculative commentary rather than primary reporting.",
+  "reasoning": "The query specifically asks about OpenAI's statement referencing robotics for real-world tasks AND agentic AI. Content A's TheNationalDesk excerpt explicitly quotes OpenAI's statement mentioning both 'robotics that will help people solve real-world, physical tasks' and the company's 'roadmap to artificial general intelligence and agentic AI,' directly satisfying the full scope of the question. Content B's parallel excerpt from the same TheNationalDesk article omits the agentic AI/AGI roadmap portion, and its additional source (MindStudio) is a marketing blog with speculative analysis rather than a primary/reliable news source. Both sets agree on the core facts (Sora shutdown, Disney deal cancellation, robotics focus), but A provides the more complete quote matching the specific query terms."
+}

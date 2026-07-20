@@ -1,0 +1,11 @@
+{
+  "id": 444,
+  "query": "Notre-Dame de Paris towers reopening September 2025 Heritage Days booking official",
+  "topic": "Notre-Dame de Paris",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "The finestresullarte.info result contains contradictory/nonsensical publication dates (08/07/2026, 30/06/2026, etc.) despite describing a September 2025 event, undermining reliability. The cometoparis.com result has a title mismatch ('Heritage Days 2026') while the content describes 2025 dates, creating confusing signals. Neither of these two secondary sources adds reliable booking details beyond what the official tours-notre-dame-de-paris.fr result already states, and their inconsistencies could mislead an agent about the correct year.",
+  "b_issues": "No significant factual issues; sources (Euronews, RFI, Zenit, finestresullarte, official tours site) are consistent on the 20 September 2025 reopening date and Heritage Days context. Minor redundancy but no contradictions.",
+  "reasoning": "Both sets include the same authoritative official source confirming the 20 September 2025 reopening tied to Heritage Days and the e-ticketing requirement. However, Content A includes secondary sources with clear date inconsistencies (2026 publication dates and a 2026 heritage days title mismatch) that could confuse an LLM about the correct year or timeline. Content B's additional sources (Euronews, RFI, Zenit) are reputable, mutually consistent, and reinforce the same 20 September 2025 date without contradiction, while also adding credible context (e.g., reservations filling up, Macron's visit) that supports rather than muddies the answer. Thus B provides a cleaner, more reliable set of facts for answering the question correctly."
+}

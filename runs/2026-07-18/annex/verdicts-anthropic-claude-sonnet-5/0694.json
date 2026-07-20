@@ -1,0 +1,11 @@
+{
+  "id": 694,
+  "query": "NATO summit 2026 5% GDP defense spending target by 2035 declaration text member commitments",
+  "topic": "NATO",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "The Ankara declaration snippet only covers Ukraine funding, not the 5% target itself, so the direct declaration text on GDP spending isn't fully quoted; relies partly on secondary sources for the specifics.",
+  "b_issues": "Relies heavily on a Wikipedia article that carries an explicit maintenance warning stating it 'may incorporate text from a large language model, which is prohibited in Wikipedia articles,' raising reliability concerns; Reuters and CSIS pieces mention the 3.5% core defense figure but do not clearly break down the full 5% (3.5%+1.5%) structure or mention the Spain exemption/2029 review as clearly as needed.",
+  "reasoning": "Content A provides a more complete and reliable picture: the CRS congressional report explicitly breaks down the 5% target into 3.5% core defense + 1.5% infrastructure/security spending, ties it to the historical Wales 2%/2024 pledge, and includes NATO's own official page confirming the 5% commitment language. It also includes Washington Post reporting on 2026 progress. Content B's key source (Wikipedia) carries a explicit reliability warning about possible LLM-generated content, and while it and CNBC/Semafor confirm the 5%-by-2035 headline figure, they lack the detailed breakdown and exemption/review specifics that A supplies via the authoritative CRS report and NATO's own page. Both sets agree on core facts (5% by 2035, Hague origin), but A's sourcing is more authoritative and detailed, giving it an edge for accurately answering the specific query about declaration text and member commitments."
+}

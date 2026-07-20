@@ -1,0 +1,11 @@
+{
+  "id": 2,
+  "query": "Venezuela January 2026 Absolute Resolve Maduro arraignment New York narco-terrorism charges DOJ indictment details",
+  "topic": "Venezuela election crisis",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Relies on secondary sources (CRS summary, ABC7, Courthouse News, Wikipedia) rather than the primary DOJ document, but the facts align with the anchor: correctly identifies 'Operation Absolute Resolve' as the military operation name, gives the four-count indictment, the January 3 2026 capture, arraignment on Monday, and Cilia Flores also pleading not guilty. No internal contradictions.",
+  "b_issues": "Does not mention 'Operation Absolute Resolve' by name anywhere, despite it being explicitly in the query. The DOJ press release included is the WRONG one — it is the original 2020 indictment press release (naming Berman as US Attorney and defendants like Carvajal, Alcalá, Marín Arango, Hernández Solarte, El Aissami) rather than the 2026 superseding indictment charging Maduro, Cabello, Chacín, Flores, Maduro Guerra, and Guerrero Flores. This creates a factual mismatch/confusion with the anchor's actual defendant list and charge details. The Guardian result is about a later March 2026 hearing, not the January arraignment, and doesn't add the specific charge/count details.",
+  "reasoning": "Content A more directly and consistently supports answering the question: it names the operation (Absolute Resolve), gives specific arraignment and indictment details (four-count indictment, Monday court appearance, wife's plea), and matches the anchor's defendant list. Content B omits the operation name entirely and includes an outdated/mismatched DOJ press release referencing a different set of defendants from the original 2020 indictment, which could mislead an LLM about who is actually charged in the 2026 case."
+}

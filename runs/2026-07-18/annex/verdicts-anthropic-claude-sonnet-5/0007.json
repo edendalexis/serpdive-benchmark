@@ -1,0 +1,11 @@
+{
+  "id": 7,
+  "query": "US Maduro bounty increase $50 million announcement date September 2025 State Department",
+  "topic": "Venezuela election crisis",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "All sources agree that the reward increase was announced on August 7, 2025, not September 2025, which correctly contradicts the premise embedded in the query; no other factual errors, but content is somewhat repetitive across similar outlets.",
+  "b_issues": "Also correctly shows August 7, 2025 as the announcement date (including a highly authoritative DOJ.gov citation confirming this), but includes an odd Wikipedia entry ('2026 United States intervention in Venezuela') that narrates hypothetical/future events (a January 2026 capture of Maduro) as if they were established fact, which could confuse or mislead a model relying on this snippet, even though it doesn't alter the core August 2025 bounty date.",
+  "reasoning": "Both sets of results converge on the same correct fact: the $50 million bounty increase was announced on August 7, 2025 (not September 2025), attributed to AG Bondi and the DOJ/State Department. Content A is more consistent and free of extraneous or speculative content, drawing from mainstream outlets (Reuters, CNN, BBC, DW, NBC) that all agree. Content B includes an authoritative DOJ.gov source confirming the same date, which is a plus, but it also includes a Wikipedia snippet describing unverified future events as fact, introducing some noise/risk of confusion. Since the core factual answer (date, amount, and departments) is equally clear and correct in both, this is a tie."
+}

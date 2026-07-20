@@ -1,0 +1,11 @@
+{
+  "id": 57,
+  "query": "Nintendo Switch 2 Jurassic World Evolution 2 Complete Edition release date July 2026",
+  "topic": "Nintendo Switch 2",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Sources are lower-quality/less authoritative (cdkeyprices, Facebook post, Instagram caption clutter, Softonic) though they still state the July 30, 2026 date correctly. No major factual contradictions, but the Instagram result is noisy and adds little reliable confirmation.",
+  "b_issues": "No significant factual errors; all sources (Gematsu, GoNintendo, Nintendo Wire, vgchartz, ixbt.games) consistently confirm the July 30, 2026 release date, price ($59.99/£49.99/€59.99), and DLC inclusion.",
+  "reasoning": "Both sets converge on the same correct fact: Jurassic World Evolution 2: Complete Edition releases on Switch 2 on July 30, 2026. However, Content B draws from more reliable, dedicated gaming news outlets (Gematsu, GoNintendo, Nintendo Wire, vgchartz) with consistent supporting details (price, DLC content, campaign info), making it easier for an LLM to extract a clean, well-supported answer. Content A includes lower-quality sources (Facebook, Instagram, cdkeyprices) that add noise without additional verification value, slightly weakening the evidentiary quality despite reaching the same correct date."
+}

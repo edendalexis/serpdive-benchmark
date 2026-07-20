@@ -1,0 +1,11 @@
+{
+  "id": 434,
+  "query": "Megalopolis Unbound streaming platforms release date January 2026 availability",
+  "topic": "Megalopolis",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A's IGN snippet omits any streaming-platform destination (e.g. Peacock) and includes an irrelevant Bingebase result about July 2026 unrelated movies, which adds noise. It confirms the Jan 1, 2026 Alamo Drafthouse re-release but gives no other January 2026 detail and no explicit streaming platform info.",
+  "b_issues": "Content B's IGN snippet is truncated ('Megalopolis will eventually be released on Peacock, rather') so the full context/accuracy of the Peacock claim is unclear, but it still supplies more specific and relevant data points.",
+  "reasoning": "Neither set explicitly addresses a title called 'Megalopolis Unbound' (likely a nonexistent or extended-cut title), so both are working from the same base film info. However, Content B provides more January 2026-specific data (the Jan 1 Alamo Drafthouse theatrical re-release AND the Jan 29 IU Cinema screening) and directly names a streaming platform (Peacock) that the film may eventually appear on, which is directly relevant to the 'streaming platforms' part of the query. Content A lacks any streaming platform mention and includes an off-topic Bingebase snippet about unrelated July 2026 releases, diluting its usefulness. Thus B better equips an LLM to answer the question accurately and specifically."
+}

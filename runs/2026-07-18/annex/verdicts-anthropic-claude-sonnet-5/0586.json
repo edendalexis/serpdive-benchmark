@@ -1,0 +1,11 @@
+{
+  "id": 586,
+  "query": "FTX Chapter 11 plan confirmation date effective date plan of reorganization court filing January 2025 October 2024",
+  "topic": "FTX",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; the Kroll result explicitly states the confirmation hearing (Oct 7, 2024), confirmation order date (Oct 8, 2024), and Effective Date (Jan 3, 2025), consistent with the anchor. Some tangential/less relevant results included (S&C article, unrelated PWC order).",
+  "b_issues": "Provides the Effective Date (Jan 3, 2025) and confirmation-related date (signed 10/8/2024, hearing 10/7/2024) via the Kroll docket snippet, but this key fact is buried in a less prominent, terser snippet compared to A's more explicit and complete Kroll summary; otherwise mostly duplicates PR Newswire content without adding the full confirmation order context.",
+  "reasoning": "Both sets contain the essential facts (confirmation order Oct 8, 2024; Effective Date Jan 3, 2025), matching the anchor. However, Content A's Kroll snippet directly and clearly lays out all three key dates (hearing, confirmation order, effective date) in one coherent narrative, closely mirroring the anchor's official notice language. Content B has the same core facts scattered across multiple sources (PRNewswire, Kroll docket, crypto news sites), with the Kroll snippet being less detailed and requiring inference. Both are accurate and non-contradictory, but A presents the information more clearly and completely for direct extraction, giving it a slight edge for reliably answering the question."
+}

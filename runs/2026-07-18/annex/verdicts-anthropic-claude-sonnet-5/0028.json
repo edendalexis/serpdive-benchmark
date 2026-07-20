@@ -1,0 +1,11 @@
+{
+  "id": 28,
+  "query": "SpaceXAI Grok 4 availability Premium+ SuperGrok API real-time search native tool use announcement",
+  "topic": "xAI",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Contains speculative/future-dated content (SpaceXAI rebrand Feb 2026, Grok 4.5, Grok 4.3 docs with 2026 dates) that is unverified and potentially fabricated, but this doesn't corrupt the core Grok 4 answer since the x.ai/news/grok-4 excerpt is quoted accurately and completely.",
+  "b_issues": "The x.ai/news/grok-4 excerpt omits the key sentence stating Grok 4 'is available now to SuperGrok and Premium+ subscribers, as well as through the xAI API' — the central fact the question asks about. Other results (builtin.com, generativeai.pub) only partially and indirectly corroborate availability without the precise Premium+/SuperGrok/API phrasing.",
+  "reasoning": "Content A directly reproduces the anchor's key sentence verbatim from x.ai/news/grok-4: native tool use, real-time search, and availability to SuperGrok and Premium+ subscribers plus xAI API — exactly answering the question. Content B's excerpt from the same URL curiously omits this critical availability sentence, focusing instead on Colossus training and benchmark details, forcing the model to infer availability from less authoritative secondary sources (builtin.com) that don't explicitly name Premium+/SuperGrok/API together as clearly. Despite Content A including some unverified future-dated speculative material, the core factual answer is more complete and precise in A than in B."
+}

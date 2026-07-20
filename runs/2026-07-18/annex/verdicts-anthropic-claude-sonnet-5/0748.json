@@ -1,0 +1,11 @@
+{
+  "id": 748,
+  "query": "Supreme Court Biden voter registration ease Republican challenge rejection ruling 2024",
+  "topic": "U.S. Supreme Court",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "None of the results relate to the query at all; they cover Trump administration regulatory tracking, 340B drug program, and CNN sitemap listings with no mention of the specific Supreme Court case on Biden's voter registration executive order.",
+  "b_issues": "None of the results directly address the specific case; they cover unrelated topics like a NH voter database lawsuit, an ACE Act report, an Arizona RNC v. MFV docket, a Texas Civil Rights Project Facebook post, and a North Carolina election case—none discuss the Biden executive order voter registration case rejected by SCOTUS in October 2024.",
+  "reasoning": "Both Content A and Content B fail to surface any results that mention the actual case (Keefer v. Biden), the Pennsylvania Republican lawmakers, the executive order on voter registration, or the Supreme Court's October 2024 rejection. Neither dataset contains the facts needed to answer the question; an LLM relying on either set would be unable to correctly answer the query and would need to fall back on outside knowledge or guesswork. Since both are equally unhelpful and equally irrelevant to the specific query, this is a tie in terms of failure to enable a correct answer."
+}

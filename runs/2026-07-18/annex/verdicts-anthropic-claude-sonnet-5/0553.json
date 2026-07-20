@@ -1,0 +1,11 @@
+{
+  "id": 553,
+  "query": "Jerome Powell March 2026 grand jury subpoenas quashed Judge James Boasberg harassment pressure resign Federal Reserve news",
+  "topic": "Jerome Powell",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Includes a Facebook group post and a partisan blog (WLT Report) as sources, which are lower-reliability but their factual content matches the more reliable outlets; duplicate CNBC entries add little new info.",
+  "b_issues": "Some entries (Spectrum, DW) give less detailed coverage of the actual ruling's content/quotes, relying more on background/context than the specific harassment/resign quote, though DW and CNN do include it.",
+  "reasoning": "Both sets contain the core, accurate facts needed to answer the question: Judge Boasberg quashed two DOJ grand jury subpoenas issued to the Fed regarding Powell, ruling dated March 11 and unsealed March 13, 2026, with the key quote about the subpoenas' purpose being to 'harass and pressure Powell either to yield to the President or to resign.' Content A adds extra context via a March 26 follow-up (Fed urging the ruling stay in place) and quotes from Pirro's and Tillis's reactions, though it draws from a Facebook post and a partisan blog for some of that detail. Content B relies on more consistently reputable outlets (AP, CNN, The Hill, DW, Spectrum) and includes the same core quote and ruling details, plus useful background on Boasberg's prior clashes with Trump. Both sets are internally consistent and would allow an LLM to answer the question correctly, with neither having decisive factual errors or omissions that would meaningfully disadvantage one over the other."
+}

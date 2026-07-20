@@ -1,0 +1,11 @@
+{
+  "id": 512,
+  "query": "Karina Milei ANDIS pharmaceutical contracts kickbacks corruption scandal August 2025",
+  "topic": "Javier Milei",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Contains a minor inconsistency in the alleged kickback percentage (3% per Batimes/Spagnuolo audio vs 8% per Guardian and RioTimesOnline), but this reflects genuine variance in early reporting rather than a factual error; otherwise sources are reliable (Buenos Aires Times, Guardian, Forbes, RioTimesOnline) and detailed.",
+  "b_issues": "Content is thinner overall—several snippets are just headline fragments; includes a Facebook post as a source, which is a less authoritative/reliable citation for factual claims; less procurement/contextual detail than A.",
+  "reasoning": "Both sets identify the core facts (Karina Milei, ANDIS, Suizo Argentina, Spagnuolo audios, kickback percentages, election timing) accurately and consistently with the anchor. However, Content A provides richer, more substantive detail — specific dollar figures ($500k-800k monthly), named individuals (Kovalivker brothers, Lule Menem), raid details, and procurement contract growth statistics — all from reputable outlets. Content B's excerpts are shorter and more fragmentary, and it includes a Facebook repost as a source, which is a weaker citation compared to A's all-media-outlet lineup. Content A better equips an LLM to answer the question in full and accurately."
+}

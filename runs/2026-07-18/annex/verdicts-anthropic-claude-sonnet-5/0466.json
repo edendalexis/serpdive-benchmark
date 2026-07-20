@@ -1,0 +1,11 @@
+{
+  "id": 466,
+  "query": "Palworld 1.0 auto-run functionality fast travel resettable missions new partner skills",
+  "topic": "Palworld",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; content directly confirms auto-run, fast travel from map, resettable missions context (200+ partner skills reworked, new sub-missions), consistent across multiple sources.",
+  "b_issues": "Results are mostly YouTube videos about partner skills only, with no mention of auto-run functionality, fast travel changes, or resettable missions. Lacks direct textual evidence for most parts of the query.",
+  "reasoning": "Content A directly addresses all elements of the query: auto-run function (GameSpot, TheSixthAxis, IGN all confirm), fast travel directly from map (GameSpot, TheSixthAxis), reworked/resettable partner skills and missions (G2A mentions 200+ Partner Skills adjusted, new continuous sub-missions). Content B provides mostly YouTube video snippets focused narrowly on partner skills, with no explicit mention of auto-run, fast travel, or resettable missions, making it insufficient to answer the full query. Content A's sources (GameSpot, IGN, TheSixthAxis) are also more reliable and detailed than YouTube video descriptions."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 614,
+  "query": "Suno AI Warner Music Group licensing partnership settlement date artists control terms",
+  "topic": "Suno AI",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor: doesn't explicitly restate settlement date (Nov 25, 2025), but this can be inferred from MBW/Music Week timestamps; otherwise accurate and well-sourced with official WMG quote on artist control and Rolling Stone details on download terms.",
+  "b_issues": "The WMG press release result is essentially empty/broken (only navigation/language links, no actual article text on control terms). Includes low-reliability sources (a Reddit opinion post making unverified claims that WMG owns 100% of outputs and artists get 1-10% royalties, which contradicts the official press release's 'full control' language, and a vague Facebook post) without the authoritative WMG or Rolling Stone quotes on artist control terms, making the control-terms answer weaker and potentially contradictory/misleading.",
+  "reasoning": "Content A gives concrete, sourced facts: the WMG press release quote stating artists/songwriters have full control over use of their names, images, likenesses, voices and compositions; Rolling Stone's detail on download limits and comparison to Udio deal; and clear settlement/partnership announcement dates via MBW and Music Week. Content B's WMG entry is non-substantive (just language toggle links), and it substitutes reliable reporting with a speculative, unverified Reddit rant that contradicts the official terms, weakening reliability and creating a confusing mixed picture for the LLM to answer from."
+}

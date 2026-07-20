@@ -1,0 +1,11 @@
+{
+  "id": 180,
+  "query": "IOC Russia suspension status July 2026",
+  "topic": "International Olympic Committee",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; details are consistent with the anchor and provide additional precise dates (e.g., effective 28 July 2026) from a secondary source.",
+  "b_issues": "The first result (Houston Public Media/NPR) conflates the 2026 suspension lift with the earlier 2024 Paris exclusion decision, which could confuse a model about the current status; no official IOC source is included to clarify context.",
+  "reasoning": "Both sets correctly convey that the IOC provisionally lifted Russia's Olympic suspension on 7 July 2026 ahead of the 2028 LA Games, matching the anchor. However, Content A includes a clear, accurate featured snippet directly answering the question, plus the official IOC.com announcement with precise procedural details (dates, Belarus-related actions, effective date of 28 July 2026), making it more complete and less ambiguous. Content B's lead result mixes timelines (2024 Paris ban vs 2026 lift) without clear separation, which could mislead an LLM about the sequence of events, even though later results (NYT, NPR, Reuters) are accurate and reliable."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 352,
+  "query": "Pope Leo XIV Castel Gandolfo concert July 16 2026 official announcement performers program",
+  "topic": "Pope Leo XIV",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor: doesn't name the conducting orchestra explicitly, though conductor Pier Carlo Orizio is mentioned.",
+  "b_issues": "Several key snippets are truncated mid-sentence (e.g., 'performed by the orchestra I', 'The program will continue with pianist Rossana Tomassi Golkar'), cutting off program/performer details. Includes a low-reliability blogspot source rather than a more authoritative outlet in that slot.",
+  "reasoning": "Both sets converge on the same core facts (Diocese of Albano concert, July 18 at 9pm, Apostolic Palace courtyard, Paganini and Bellini works, performers Marco Rogliano and Rossana Tomassi Golkar, Bishop Vincenzo Viva). However, Content A's snippets are more complete and self-contained, adding the conductor's name (Pier Carlo Orizio), the Bacalov arrangement detail, and the pope's stay dates (July 5–27), all from reliable sources (Vatican News, Catholic World Report, Aleteia). Content B's excerpts are frequently cut off mid-sentence, losing key details (e.g., orchestra name, continuation of program), and includes a less authoritative blogspot mirror. This makes A more directly usable for accurately answering the full question about performers and program."
+}

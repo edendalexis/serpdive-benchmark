@@ -1,0 +1,11 @@
+{
+  "id": 318,
+  "query": "von der Leyen Nathalie Loiseau criticism Kaja Kallas foreign policy authority Gulf Iran MEP statement 2026",
+  "topic": "Ursula von der Leyen",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Both A and B contain the same core Guardian excerpt with the key fact (Loiseau chided von der Leyen for usurping Kallas's role via Gulf telephone diplomacy). A's additional results (RFE/RL, Euronews) are relevant but don't add much extra on Loiseau specifically; the RFE/RL piece is a reliable but tangential source.",
+  "b_issues": "B includes the same core Guardian excerpt plus additional POLITICO and Guardian articles confirming tensions with Kallas, and a caliber.az piece and an X/Twitter post that, while less authoritative, corroborate the same facts without contradicting them.",
+  "reasoning": "Both Content A and Content B include the identical, most crucial passage from The Guardian that directly answers the query: Nathalie Loiseau criticized von der Leyen for overstepping into Gulf/Iran diplomacy that should belong to Kaja Kallas as EU foreign policy chief. This is the specific factual nugget the question asks about, and both sets present it accurately and identically. The surrounding supporting articles in both sets (POLITICO's overreach piece, Euronews, RFE/RL in A; POLITICO, Guardian follow-up, caliber.az, X post in B) reinforce the same narrative of tension between von der Leyen and Kallas over Iran/Gulf diplomacy without contradiction. Neither set contains factual errors relative to the anchor, and both provide sufficient context for an LLM to correctly answer the question. B has slightly more corroborating sources but A's set is equally sufficient and reliable, so the two are essentially equivalent in enabling a correct answer."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 829,
+  "query": "Port of Baltimore U.S. Coast Guard security assessment consecutive top rating 2025 state-owned marine terminals",
+  "topic": "Port of Baltimore",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Contains several historical announcements (11th, 12th, 15th, 16th, 17th consecutive years) which could create some clutter, but each snippet is internally consistent and dredgewire's article is explicitly dated March 21, 2025, matching the query's '2025' timeframe and confirming the '16th consecutive year' figure with the correct six state-owned terminal detail.",
+  "b_issues": "Relies mainly on the 17th-consecutive-year bulletin, which is dated 05/26/2026 (an apparent dataset quirk) rather than 2025, and the Fox Baltimore snippet about the 16th year lacks an explicit publication date, making it harder to unambiguously tie the '16th consecutive year' rating to 2025 as the query specifies; an LLM could be misled into reporting the 17th-year figure as the 2025 result.",
+  "reasoning": "Both sets contain the core fact pattern (state-owned marine terminals, consecutive-year top Coast Guard rating), but Content A provides a dated (March 2025) source (dredgewire) that explicitly ties the '16th consecutive year' claim to the 2025 timeframe requested in the query, along with corroborating outlets (Fox Baltimore, Dundalk Eagle, Cruise Industry News) that consistently describe six state-owned public marine terminals. Content B's primary detailed source is dated 2026, which could cause an LLM to report the wrong (17th) consecutive-year figure for a query specifically about 2025, even though it also includes a brief 16th-year snippet. Because A offers clearer, dated evidence aligning with the '2025' query, it better enables a correct answer."
+}

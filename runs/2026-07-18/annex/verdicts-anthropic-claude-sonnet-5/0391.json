@@ -1,0 +1,8 @@
+{
+  "id": 391,
+  "query": "AUDENZ H5N1 vaccine Seqirus national stockpile quantity doses 2025",
+  "topic": "H5N1 bird flu",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "error": "Error: empty response from anthropic/claude-sonnet-5"
+}

@@ -1,0 +1,11 @@
+{
+  "id": 961,
+  "query": "Narendra Modi Qatar Amir condolence call July 16 2026 Father Amir Sheikh Hamad bin Khalifa Al Thani official statement",
+  "topic": "Narendra Modi",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Relies mainly on secondary news aggregators (Facebook post, webindia123, uniindia, asianetnews) rather than primary/official sources; no direct link to India's MEA/PIB/PMO official readout or Qatar's own Amiri Diwan statement, making it harder to verify the exact official wording.",
+  "b_issues": "None significant; content is consistent and sourced from official channels (Qatar's Diwan, India's MEA, PIB, and PMIndia.gov.in) plus corroborating news report.",
+  "reasoning": "Content B provides direct access to the official statements from both sides: Qatar's Amiri Diwan (with the Amir's own reciprocal remarks) and India's MEA/PIB/PMO press releases, which are the most authoritative sources for an 'official statement' query. Content A only offers secondary journalistic summaries and a Facebook post, which are less reliable and do not include the primary official government text. Both agree on core facts (date, names, condolence content), but B's sourcing is stronger and more directly answers the question's request for the official statement."
+}

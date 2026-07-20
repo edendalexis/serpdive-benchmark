@@ -1,0 +1,11 @@
+{
+  "id": 370,
+  "query": "OpenAI Sora API shutdown date text-to-video discontinuation",
+  "topic": "Sora OpenAI",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "The apiyi.com blog is a lesser-known source but its stated date (September 24, 2026) matches the anchor's authoritative OpenAI Help Center date, and April 26 app shutdown date also matches. Minor redundancy/inconsistency between sources (community post about 'Sora 1 sunset March 13' is a different, earlier event) but doesn't contradict the core API shutdown date.",
+  "b_issues": "None of the results contain any specific date for the Sora API shutdown or discontinuation; results are generic OpenAI overview pages (Wikipedia, Instagram, LinkedIn, homepage) with no relevant content about Sora's discontinuation timeline at all.",
+  "reasoning": "Content A directly provides the key fact needed: the Sora API shutdown date of September 24, 2026, corroborated by multiple sources (apiyi.com blog explicitly states this, matching the anchor's Help Center date), plus context on the app discontinuation (April 26) and background from NBC News and CNN on the broader shutdown announcement. Content B contains no results that mention Sora's discontinuation or API shutdown date at all—it only returns generic OpenAI corporate pages (Wikipedia, Instagram, LinkedIn, homepage) that are irrelevant to the specific question. Therefore Content A clearly enables a correct answer while Content B does not enable any answer to the specific question asked."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 29,
+  "query": "SpaceXAI Department of Defense contract amount date military AI July 2025",
+  "topic": "xAI",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "None significant; content consistently confirms the $200 million contract to xAI (and Google, OpenAI, Anthropic) awarded July 14, 2025 by DoD's CDAO, matching the anchor facts.",
+  "b_issues": "Contains irrelevant and contradictory/confusing results: an $80M drone contract dated 2026, a $500M Scale AI contract, a vague 'Potentially $919 million' figure, and a 2026 article about 7 tech companies including SpaceX (not xAI) getting deals for classified systems. These muddy the answer about the specific $200M xAI DoD contract from July 2025, and some dates (2026) appear to be errors or unrelated events that could mislead the model.",
+  "reasoning": "Content A directly and consistently supports the anchor's facts: xAI received a contract worth up to $200 million from the DoD's CDAO, announced July 14, 2025, alongside Google, OpenAI, and Anthropic. All sources in A align without contradiction. Content B includes some correct info (the defensenews.com result) but surrounds it with unrelated, contradictory, and confusingly dated results (2026 dates, different dollar amounts, SpaceX instead of xAI in one result) that could cause an LLM to give an incorrect or muddled answer about the specific contract in question."
+}

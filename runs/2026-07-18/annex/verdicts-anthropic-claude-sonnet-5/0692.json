@@ -1,0 +1,11 @@
+{
+  "id": 692,
+  "query": "NATO Forward Land Forces Finland mission France troop deployment numbers Sweden 2026",
+  "topic": "NATO",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Does not give the specific French troop number (≈200), and includes a lower-reliability source (mezha.net) with vague operational start-date info; NATO.int passage about 'up to 5,000 troops by 2027' pertains to a different context (Latvia/eastern flank growth) and could be misread as relevant to FLF Finland.",
+  "b_issues": "None of the sources in B state any concrete troop numbers for France or Sweden — every source (Janes, Le Monde, Elysee, Regeringen, X post) merely says France will contribute 'a battle unit' without quantification, so the question's core 'numbers' component is unanswered.",
+  "reasoning": "The question specifically asks for troop deployment numbers. Content A, via defence24.com and Le Monde, supplies a concrete figure (~600 Swedish soldiers forming the core of FLF Finland stationed in Boden) plus NATO.int's authoritative background on FLF Finland's establishment (June 2026, Sweden as framework nation), giving the LLM at least some quantitative grounding. Content B's five sources are essentially duplicate official statements and news pieces that consistently avoid specifying any numbers, leaving an LLM answering from B with no numeric data at all for either France or Sweden. Neither set contains the specific French figure (~200) found in the anchor's swedeninenglish.com source, but A's additional quantitative detail (600 Swedish troops) makes it marginally more useful for a numbers-focused question."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 679,
+  "query": "Kamala Harris reached out to Zohran Mamdani pro-Palestinian activists 2025 report",
+  "topic": "Kamala Harris",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A's snippets are mostly superficial - the Axios result content is largely privacy policy boilerplate with only a fragment of substantive info, and other results (YouTube, Facebook posts) are low-reliability secondary sources that just restate the headline without adding detail like Zogby, Alawieh, Uncommitted Movement details, or the 'Uncommitted Movement' specifics.",
+  "b_issues": "None significant; content is consistent with the anchor and provides substantial detail.",
+  "reasoning": "Content B provides much richer, more substantive detail directly from the Axios scoop (mentions of James Zogby, Rania Batrice, Patrick Gaspard, the Uncommitted Movement, the 107 Days book quote, texting history, Abbas Alawieh's response) and corroborating detail from Times of Israel and VINnews. Content A's Axios excerpt is mostly cookie/privacy boilerplate, and its other sources (YouTube, Facebook) are lower-quality secondary sources with minimal added information. Both are consistent with the anchor, but B gives an LLM far more accurate, detailed, and well-sourced material to answer the question thoroughly."
+}

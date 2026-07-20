@@ -1,0 +1,11 @@
+{
+  "id": 816,
+  "query": "Copilot PowerPoint MAI Image 2 Efficient model faster image generation presentation feature 2025",
+  "topic": "Microsoft Copilot",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Dates are fictional/futuristic (Apr 2026), but internally consistent; no major contradictions. Content is otherwise topically accurate and directly ties MAI-Image-2-Efficient to PowerPoint image generation.",
+  "b_issues": "The Microsoft Learn release-notes result is just navigation/anchor links with no substantive text about MAI-Image-2-Efficient in PowerPoint. The YouTube video is generic Copilot-in-PowerPoint content unrelated to the specific MAI-Image-2-Efficient model. A Q&A snippet states Copilot in PowerPoint uses DALL·E 3, which contradicts the premise of the question and could mislead an answer.",
+  "reasoning": "Content A includes a direct, explicit excerpt from Microsoft's release notes stating 'Copilot in PowerPoint now includes the MAI-Image-2-Efficient model for image generation' and 'MAI-Image-2-Efficient enables users to generate high-quality visuals directly in PowerPoint,' which precisely answers the question. It also provides consistent performance stats (22% faster, 4x efficiency, 41% cost reduction) across multiple reputable sources (VentureBeat, SiliconANGLE, Yahoo, Microsoft Community Hub). Content B's release-notes entry is stripped of substantive content, and its Q&A source contradicts the premise by claiming PowerPoint uses DALL·E 3, creating confusion. Content A better enables a correct, well-supported answer."
+}

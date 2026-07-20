@@ -1,0 +1,11 @@
+{
+  "id": 321,
+  "query": "Scottie Scheffler baby birth date Houston Open withdrawal 2026",
+  "topic": "Scottie Scheffler",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Includes a low-reliability Facebook source and a somewhat irrelevant Golf Digest quote about a 'third round Saturday' that doesn't clearly relate to the withdrawal news. Neither the exact birth date nor name of the second child (Remy) is provided.",
+  "b_issues": "Does not provide the exact birth date or name of the second child (Remy) either. Some minor unsupported detail ('seventh WD since Sunday') without further context, though not necessarily inaccurate.",
+  "reasoning": "Both content sets correctly identify the withdrawal date (March 24, 2026) and reason (imminent birth of Scheffler's second child), and both correctly reference the first child's birth (Bennett, May 8, 2024) via reputable sources like ESPN, PGA Tour, and Golf Channel/Sky Sports. Neither set includes the actual birth date or name of the second child (Remy), which is the key missing fact relative to the anchor (the April 5, 2026 PGA Tour article). Since both are equally incomplete on that specific point and otherwise consistent and accurate, they are roughly equivalent in enabling a correct answer."
+}

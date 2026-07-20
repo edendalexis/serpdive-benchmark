@@ -1,0 +1,11 @@
+{
+  "id": 626,
+  "query": "Novak Djokovic French Open 2026 Joao Fonseca match result score",
+  "topic": "Novak Djokovic",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "None significant; all five sources (NYT, BBC, Olympics, NBC, CBS) consistently report the correct score 4-6, 4-6, 6-3, 7-5, 7-5 with Fonseca winning.",
+  "b_issues": "None significant; the four fully-detailed sources (NYT, BBC, Yahoo, ESPN) consistently report the same correct score, and the Flashscore snippet, while sparse, does not contradict it.",
+  "reasoning": "Both content sets converge on the same accurate score (4-6, 4-6, 6-3, 7-5, 7-5, Fonseca def. Djokovic) from multiple reliable sources (BBC, NYT, ESPN, etc.), matching the anchor's official Roland Garros and BBC data. Neither set contains contradictions or factual errors, and both would let an LLM answer the question correctly and with equal confidence."
+}

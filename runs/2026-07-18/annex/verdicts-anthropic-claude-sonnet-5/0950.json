@@ -1,0 +1,11 @@
+{
+  "id": 950,
+  "query": "TikTok Shop US mandatory logistics fulfillment policy rollout dates 2026",
+  "topic": "TikTok Shop",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "The top featured snippet still presents the original Feb 25, 2026 mandatory rollout as current fact, and several of the listed results (betterworldproducts, channelx, stacksync) also describe the mandate as fully in effect without acknowledging the reversal, creating an internal contradiction with the easyship result. Still, it does include the easyship article explicitly noting the reversal/pause of the mandate, giving the LLM a chance to surface the correct, more recent state of affairs.",
+  "b_issues": "None of the five results mention the mid-February 2026 reversal/postponement of the mandate (confirmed by the anchor via adweek, cedcommerce, and sellerops sources). Content B presents only the original Jan 2026 announcement (Feb 25–Mar 31, 2026 rollout, Feb 9 new-seller cutoff) as if it were still valid, which is outdated and would lead to an incorrect answer about the current status of the policy.",
+  "reasoning": "The anchor makes clear that TikTok announced a mandatory logistics policy in January 2026 but then reversed/paused it in mid-to-late February 2026, so an accurate answer needs to reflect both the original rollout dates and the subsequent reversal. Content A, despite some internal inconsistency, includes the easyship source acknowledging the reversal, giving an LLM material to produce a more complete and accurate answer. Content B contains only sources describing the original mandate with no mention of the reversal, making it more likely to produce a factually outdated/incorrect answer."
+}

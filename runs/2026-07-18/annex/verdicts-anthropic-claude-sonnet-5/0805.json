@@ -1,0 +1,11 @@
+{
+  "id": 805,
+  "query": "Microsoft Ignite opening keynote speaker replacement Satya Nadella absence",
+  "topic": "Satya Nadella",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "One result (Winaero) is truncated but confirms the core fact. No major factual flaws; content is consistent across results.",
+  "b_issues": "Includes a low-value/irrelevant result (news.microsoft.com/source/speeches page with generic nav content, no useful info). No factual flaws in the substantive results.",
+  "reasoning": "Both sets clearly and accurately establish the key facts: Satya Nadella will not deliver the Ignite 2025 opening keynote for the first time, and Judson Althoff (Microsoft's newly appointed CEO of commercial business) will replace him. Content A provides this via Windows Central, Winaero, Reddit, and LinkedIn/Fortune excerpt, all consistent. Content B provides it via Fortune, Yahoo Finance (fullest account, including Nadella's stated reason for stepping back), LinkedIn, and Petri, with one irrelevant/low-value result (Microsoft speeches page). Content B's Yahoo Finance excerpt adds slightly more context (Nadella's internal focus reasoning), while Content A's Windows Central result gives a clean direct confirmation. Both are equally sufficient and accurate for answering the question, with no contradictions in either set."
+}

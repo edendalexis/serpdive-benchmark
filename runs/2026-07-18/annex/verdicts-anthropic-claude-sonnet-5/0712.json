@@ -1,0 +1,11 @@
+{
+  "id": 712,
+  "query": "Emmanuel Macron France prime minister reappointment following resignation political deadlock",
+  "topic": "Emmanuel Macron",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A's results are mostly indirect or tangential (CNBC piece about 'what happens next' before the reappointment, France24 piece focused on budget challenge, Le Monde piece about hints at snap elections before resignation) and only the DW snippet directly confirms the reappointment with clear facts. It lacks direct quotes from Lecornu or reactions from opposition figures, and doesn't clearly establish the timeline (resignation Monday, reappointment Friday) with corroborating detail beyond DW.",
+  "b_issues": "Minor: does not include a dedicated primary AP/BBC-style article beyond PBS (AP syndication) and BBC, but this is not a factual flaw.",
+  "reasoning": "Content B directly and consistently confirms the key facts: Macron reappointed Lecornu as PM on Friday, days after his Monday resignation, to end political deadlock and produce a budget, with multiple corroborating sources (PBS/AP, CNN, BBC, DW video) all aligning on dates, quotes from Lecornu ('out of duty'), and opposition reactions (Bardella's criticism). Content A includes several tangential articles that don't directly address the reappointment (CNBC before resignation, Le Monde before resignation, France24 focused on budget aftermath) and only one source (DW) clearly confirms the core reappointment facts. B provides more direct, redundant, and mutually reinforcing confirmation of the exact facts needed to answer the question accurately."
+}

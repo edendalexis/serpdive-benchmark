@@ -1,0 +1,11 @@
+{
+  "id": 440,
+  "query": "Notre-Dame de Paris spire copper statues returned date",
+  "topic": "Notre-Dame de Paris",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Includes a confusing/likely erroneous claim from parisjetaime.com stating the statues will return on '9 May 2026' or 'May 20, 2026', which contradicts all other reliable sources (and the anchor) that place the statues' return in June-July 2025. This introduces a serious date discrepancy that could mislead an LLM into giving the wrong year. The Wikipedia entry about the spire's 'Restored date' (1859, 2023) refers to the rooster/spire structure, not the apostle statues, and could be misapplied.",
+  "b_issues": "The Wikipedia entry (same as in A) about the spire's restored date (1859, 2023) is not directly about the statues and could be misapplied, but this is a minor issue since other results clearly date the statue return to June-July 2025.",
+  "reasoning": "Both sets include a somewhat irrelevant Wikipedia snippet about the spire's rooster restoration date, but Content B's remaining results (Guardian, artnet, Facebook, friendsofnotredame) consistently converge on June 23, 2025 as the start of the statues' return, with completion expected by end of July 2025 — matching the anchor's July 24, 2025 completion date. Content A, however, includes a parisjetaime result claiming the statues will return in 2026 (either May 9 or May 20), which directly contradicts the anchor and the other reliable sources in both A and B. This internal contradiction in Content A could easily cause an LLM to state an incorrect year for the statues' return, making Content B more reliable for accurately answering the question."
+}

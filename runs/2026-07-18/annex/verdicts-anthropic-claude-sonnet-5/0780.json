@@ -1,0 +1,11 @@
+{
+  "id": 780,
+  "query": "Netanyahu corruption trial Case 4000 Case 2000 2026 status",
+  "topic": "Benjamin Netanyahu",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A lacks any information about the judges' repeated recommendation to drop the bribery charge in Case 4000 (the key 2026 development highlighted in the anchor), and its most 2026-specific article (JPost about resuming after war pause) is less directly relevant to the current status of Cases 2000/4000. It does correctly note testimony completion and hearing counts, but misses the pivot from Case 4000 to Case 2000 and the bribery-charge controversy.",
+  "b_issues": "No major factual errors; content is accurate and consistent with the anchor, though it repeats some of the same background info found in A (conflict-of-interest arrangement) that isn't directly about case status.",
+  "reasoning": "Both sets share overlapping background sources (Wikipedia, Israel Policy Forum, AA.com.tr), but Content B includes two additional results—one on the shift from Case 4000 cross-examination to Case 2000, and one on judges again urging prosecutors to drop the bribery charge—that directly match the anchor's core 2026 status update. Content A omits these, leaving a gap on the most current and specific development (the bribery charge controversy) that the question and anchor emphasize. Thus B provides a more complete and accurate basis for answering the question."
+}

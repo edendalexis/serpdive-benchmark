@@ -1,0 +1,11 @@
+{
+  "id": 139,
+  "query": "BTS full group reunion 2026 year of last collective activity before military service",
+  "topic": "BTS",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Relies partly on informal/low-reliability sources (two Facebook posts and a YouTube video) for key facts; while the core years (2022 hiatus, 2026 reunion) are consistent, sourcing is weaker and some details (e.g., 'first joint livestream in nearly three years') are vague about exact dates.",
+  "b_issues": "The Pollstar excerpt awkwardly juxtaposes different tours' dates (wrap-up April 15-16 vs. kickoff June 28-29) without clear labeling, which could be confusing though not necessarily contradictory; minor uncertainty about exact hiatus announcement month (March vs June 2022).",
+  "reasoning": "Both content sets correctly convey that BTS's last collective activity before enlistment was in 2022 and that the full-group reunion/comeback is set for 2026, matching the anchor's context. However, Content B draws from more reputable journalistic sources (Rolling Stone, Pollstar, Biography.com) and provides more granular, internally consistent chronological detail (Jin's Dec 2022 enlistment, June 2024 discharge, RM/V and Jungkook/Jimin June 2025 discharges, July 2025 reunion livestream, 2026 album/tour), which better substantiates the timeline. Content A includes the same core facts but leans on less reliable sources (Facebook posts, YouTube) that add clutter without improving factual reliability."
+}

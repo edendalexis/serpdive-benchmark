@@ -1,0 +1,11 @@
+{
+  "id": 807,
+  "query": "Satya Nadella Microsoft 15000 layoffs job cuts unlearning learning AI era statement year",
+  "topic": "Satya Nadella",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "The Times of India result's title references 'unlearning and …' but is truncated and the actual snippet never explains or quotes the 'learning' half of the phrase, so the key statement is incomplete. No result in A explicitly states the 'unlearning and learning' concept in full context.",
+  "b_issues": "Includes a tangential/irrelevant ABC News result about a separate 4,800-worker Xbox layoff from a different time period, which could cause slight confusion about timeline, though it doesn't contradict the main facts.",
+  "reasoning": "The question centers on Nadella's specific phrase about the 'difficult process of unlearning and learning' in the AI era. Content B's GeekWire excerpt explicitly quotes and explains this exact concept ('a difficult process of \"unlearning\" and \"learning\" — maintaining its current successful businesses while simultaneously creating new categories and business models'), directly answering the core of the question. Content A only shows this phrase truncated in a title without the full quote or explanation anywhere in the snippets, leaving the model unable to complete the key statement. Both sets correctly establish the 15,000 layoffs figure and general context, but B provides the more complete and accurate answer to the specific phrasing asked about."
+}

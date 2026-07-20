@@ -1,0 +1,11 @@
+{
+  "id": 96,
+  "query": "Humane AI Pin total units sold lifetime sales figures discontinuation 2025",
+  "topic": "Humane AI Pin",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Contains a minor future-dated/odd source (digitalapplied.com dated Mar 2026) but otherwise consistent, sourced figures (10,000 shipped, 8,000/7,000 retained, $9M sales, $1M returns) from reputable outlets (Verge, Mashable, Silicon Republic, LinkedIn).",
+  "b_issues": "Relies heavily on low-quality/unreliable sources (Instagram posts, Reddit) with odd future dates (2026) suggesting fabricated or unreliable timestamps; lacks concrete lifetime sales/units figures; only mentions the HP acquisition price and vague 'flopped' framing without unit sales data.",
+  "reasoning": "The question asks for total units sold and lifetime sales figures plus discontinuation details. Content A provides concrete, consistent figures (10,000 units shipped, 8,000/7,000 retained, $9M in sales, $1M in returns, $116M HP deal) from credible tech journalism sources. Content B lacks specific sales/unit figures beyond repeating the $116M HP deal and discontinuation date, and relies on low-credibility sources like Instagram and Reddit, some with confusing future dates. Content A is more complete and reliable for answering the question."
+}

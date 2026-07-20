@@ -1,0 +1,11 @@
+{
+  "id": 799,
+  "query": "New Caledonia 2024 state of emergency lift date curfew end confirmation official timelines",
+  "topic": "New Caledonia",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Only covers the May 2024 lifting of the state of emergency and initial curfew retention; lacks any information on the actual full curfew lifting (Dec 2, 2024) referenced in the anchor, and does not mention when the state of emergency began, limiting the timeline context.",
+  "b_issues": "Also lacks the December 2024 curfew‑lift confirmation that the anchor highlights, so the full timeline (state of emergency start → curfew end) is incomplete. However, it adds the Al Jazeera source detailing the state of emergency's start date (May 16, 2024, 5am) and duration, plus more curfew‑hour specifics (6pm‑6am) which enrich the timeline.",
+  "reasoning": "Neither content set includes the crucial December 2, 2024 curfew‑lift announcement that the anchor uses as the definitive 'curfew end' event, so both are incomplete on that front. However, Content B provides a more complete chronological picture by including the state‑of‑emergency's start date and duration (Al Jazeera) alongside the May 27‑28 lift details, giving a fuller timeline than Content A, which only covers the end of the state of emergency without the initial declaration date. This makes B marginally more useful for constructing an accurate timeline, even though both miss the final curfew lift date."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 383,
+  "query": "Meta Instagram AI deepfake public accounts feature turned off reason date",
+  "topic": "Meta",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "None of the results in A give an explicit date for when the feature was turned off; they only say \"this week\" or imply timing without stating July 10, 2026. The core reason (backlash, lack of consent) is accurate and consistent across all A sources.",
+  "b_issues": "The blog.mauveverse.com result introduces an unsupported/likely fabricated reason (EU AI Act consent requirements) that isn't corroborated by any other source or the anchor, which could mislead an LLM about the true cause. Otherwise, the CNET and AI Chat Daily results are accurate and give precise, corroborated dates (feature launched Tuesday, disabled Friday July 10, 2026) matching the anchor.",
+  "reasoning": "The question asks specifically for the reason AND the date. Content B's AI Chat Daily result explicitly states the precise date (July 10, 2026) and timeline (launched Tuesday, disabled Friday) matching the anchor exactly, along with the same 'missed the mark' backlash reason. Content A's results, while accurate about the reason, never state an explicit date, only vague references like 'this week.' Although B includes one questionable extra claim about the EU AI Act, it does not overwrite or contradict the correct, well-supported reason and date found in its other results, making B slightly more useful for answering the date component of the question."
+}

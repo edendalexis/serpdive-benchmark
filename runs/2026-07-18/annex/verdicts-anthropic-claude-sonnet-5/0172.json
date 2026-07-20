@@ -1,0 +1,11 @@
+{
+  "id": 172,
+  "query": "SpaceX Starship Flight 12 Version 3 launch date outcome splashdown",
+  "topic": "SpaceX Starship",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "The fandom wiki result introduces confusing, outdated NET date speculation (May 1, May 12, May 19) that could mislead the model about the actual launch date, and the nextspaceflight.com snippet is thin/uninformative. The space.com snippet also mixes an earlier 'May 20' NET date with the actual May 22 outcome, adding some ambiguity, though the correct facts (Indian Ocean splashdown, Gulf of America hard splashdown for booster) are still present.",
+  "b_issues": "No significant factual issues; all sources (space.com, CNN, official SpaceX page, X/Twitter, YouTube) consistently confirm the May 22, 2026 launch date, the Ship's controlled splashdown in the Indian Ocean, and the booster's hard splashdown in the Gulf of America.",
+  "reasoning": "Both sets contain the core correct facts: Flight 12 launched May 22, 2026, Starship V3 splashed down (controlled) in the Indian Ocean, and Super Heavy had a hard splashdown in the Gulf of America after boostback issues. However, Content B presents this consistently across multiple independent, reliable sources (space.com, CNN, official SpaceX, X post) with no extraneous or confusing pre-launch scheduling noise. Content A includes a fandom wiki entry filled with outdated, speculative NET launch date information that could confuse an LLM about the actual launch date, making B the cleaner and more reliable set for answering the question."
+}

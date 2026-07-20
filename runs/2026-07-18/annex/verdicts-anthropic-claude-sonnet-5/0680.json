@@ -1,0 +1,11 @@
+{
+  "id": 680,
+  "query": "Shein Everlane acquisition deal value date",
+  "topic": "Shein",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Relies partly on a lesser-known source (novadata.io) for explicit dates, but the dates and $100M figure are corroborated by Yahoo/Forbes/just-style/thenextweb and align with the anchor (board approved Saturday May 16, 2026; Puck report May 17, 2026).",
+  "b_issues": "The Forbes snippet contains an internal contradiction: the title/first line says Shein is acquiring a 'majority stake' while later text says 'Shein is acquiring a minority stake in Everlane is very telling' — a self-contradictory statement that could mislead the agent about deal structure. The Instagram result also asserts the deal was 'officially acquired' on May 16, 2026, which overstates certainty relative to the other (reported, unconfirmed) sources.",
+  "reasoning": "Both content sets agree on the core facts: ~$100M valuation, L Catterton as seller, Puck News as originating source, and board approval on a Saturday (May 16, 2026), consistent with the anchor. Content A presents these facts consistently across multiple corroborating outlets without contradiction, and even includes an explicit timeline (board approval May 16, Puck report May 17). Content B includes a similar level of detail but the Forbes excerpt contains a direct self-contradiction (majority vs. minority stake), which could confuse an LLM trying to state deal terms accurately. This makes Content A marginally more reliable for correctly answering the question."
+}

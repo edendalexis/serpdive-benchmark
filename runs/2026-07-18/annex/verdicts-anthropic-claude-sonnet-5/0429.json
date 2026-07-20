@@ -1,0 +1,11 @@
+{
+  "id": 429,
+  "query": "Rafah crossing closure history May 2024 early 2025 brief medical evacuation reopening latest February 2026 timeline",
+  "topic": "Rafah",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "The Wikipedia entry in A claims the crossing was 'closed again' after the 'beginning of the Iran war' - this claim appears to be a hallucination/error, as no such event is corroborated by the anchor or any other source in either set. Additionally, most of A's snippets are truncated (e.g., 'The crossing was briefly opened for the evacuation of medical patients during...') without specifying the early 2025 ceasefire context, making it harder to confirm the specific 'brief medical evacuation' opening mentioned in the question.",
+  "b_issues": "The AP News snippet mentions a somewhat confusing 'two-day closure' reopening event that isn't clearly contextualized, potentially creating minor confusion about the timeline, though it doesn't necessarily contradict the main narrative.",
+  "reasoning": "Both sets confirm the core facts (May 2024 seizure, near-total closure, Feb 2026 reopening with limited patients). However, B's Guardian excerpt explicitly and clearly states the crossing 'briefly opening during a ceasefire in early 2025 for the evacuation of medical patients,' directly matching the question's specific phrasing and aligning with the anchor's Gisha source (Feb 1, 2025 reopening). A's Wikipedia entry introduces an unsubstantiated and likely inaccurate claim about closure due to an 'Iran war,' which could mislead an LLM into fabricating an incorrect fact. A's other snippets are also more fragmented/truncated regarding the early 2025 detail. Therefore B provides more complete, accurate, and specific information for correctly answering the question's timeline requirements."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 375,
+  "query": "Sora 2 model iOS app release date features 2025 2026",
+  "topic": "Sora OpenAI",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A lacks specific dates for Android app launch (just says 'confirmed for 2025' without exact date), omits key 2026 details like the Sora 1 retirement date, subscription monetization change, and engagement decline stats. Relies more heavily on lower-authority sources (Reddit thread, Medium blog, skywork.ai blog) and does not mention the April 26, 2026 discontinuation clearly beyond a Reddit post referencing it obliquely.",
+  "b_issues": "Some minor sourcing from LinkedIn and a secondary aggregator (IntuitionLabs) whose figures (e.g., download/revenue stats) are not independently verifiable, but these are presented as supplementary detail rather than core facts and don't contradict the anchor.",
+  "reasoning": "Both sets agree with the anchor on core facts (Sept 30, 2025 launch, iOS app same day, product discontinued April 26, 2026). However, Content B goes further with accurate, specific, and well-sourced details: exact Android launch timing (November 2025, confirmed via Wikipedia and IntuitionLabs), the Sora 1 retirement date (March 13, 2026), the shift to paid-only subscription (January 10, 2026), and expansion to multiple countries. Content A is thinner, relies on less authoritative sources, and lacks these specific 2026 details, making Content B more complete and useful for accurately answering the question about release date, features, and the 2025-2026 timeline."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 17,
+  "query": "TSMC capital expenditure capex 2026 forecast $60B $64B revised AI chip demand date",
+  "topic": "Taiwan Semiconductor Manufacturing Company",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A relies mostly on X (Twitter) search result snippets with minimal context - no dates, no mention of the prior $52B-$56B guidance being revised, and includes an irrelevant AMD earnings snippet. It only confirms the $60B-$64B figure without any revision context or date.",
+  "b_issues": "Content B's sources are less authoritative (photoncap.net, intellectia.ai are secondary/aggregator sites rather than primary financial news), and the date reference relies on inferred 'day' timestamps rather than an explicit calendar date, though it does state July 16 explicitly in one snippet.",
+  "reasoning": "Both contain the core $60B-$64B capex figure, but Content B additionally provides the crucial context that this is a revision UP from a prior $52B-$56B guidance, ties it to AI/HPC demand growth, and explicitly dates the announcement to July 16 alongside Q2 earnings and Q3 guidance details. Content A's results are largely low-information social media search snippets lacking revision context or explicit dating, plus one irrelevant result about AMD. This makes B substantially more useful for correctly and completely answering the question about the capex forecast revision, its cause, and timing."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 930,
+  "query": "Klarna US bank charter application Utah Klarna Bank USA",
+  "topic": "Klarna",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; content is consistent with the anchor facts (Utah-chartered industrial bank, FDIC, wholly owned subsidiary, Gary Harding as CEO).",
+  "b_issues": "Yahoo Finance result contains irrelevant clutter (ads for credit cards) diluting the useful content; relies on a LinkedIn news snippet as a source, which is less authoritative and gives less detail (no mention of CEO Gary Harding or subsidiary structure) than other results in A.",
+  "reasoning": "Both sets confirm the core facts: Klarna applied to the Utah Department of Financial Institutions and FDIC to form Klarna Bank USA, a Utah-chartered industrial bank, wholly owned by Klarna Inc. However, Content A provides this plus additional accurate detail—naming Gary Harding as the proposed CEO with his banking background—across multiple reliable sources (CNBC, Businesswire, Klarna, Yahoo, fintech.global), giving a fuller and cleaner answer. Content B covers the same basics but includes noisy, irrelevant content in its Yahoo excerpt and a less authoritative LinkedIn snippet, offering less detail overall."
+}

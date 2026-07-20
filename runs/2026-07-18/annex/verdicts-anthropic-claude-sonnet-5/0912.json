@@ -1,0 +1,11 @@
+{
+  "id": 912,
+  "query": "Super Bowl LX Jason Myers kicking stats field goals made career points milestone",
+  "topic": "Super Bowl",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; minor redundancy between snippet and Yahoo excerpt, but facts (189 pre-game points, 206 season total, 17 SB points, 5 FGs at 33/39/41/41/26 yards, comparison to Tomlinson's 198) are consistent and detailed.",
+  "b_issues": "The NFL.com excerpt is truncated before it states the actual point totals (189, 206, comparison to Tomlinson), so the key career/season milestone numbers are not explicitly present in any result. Other sources (LA Times, NBC San Diego, SI, Sportsnet) only reiterate the 5-FG record and 17 points but omit the season-total/career milestone figures.",
+  "reasoning": "Both sets confirm the 5 field goals, 17 points, and Super Bowl records, but Content A additionally provides the precise season-long point totals (189 before, 206 after) and the explicit comparison to LaDainian Tomlinson's 198-point record, which is central to the 'career points milestone' part of the query. Content B's sources reference the milestone only in titles/headlines without giving the supporting numbers, making it less complete for fully answering the question."
+}

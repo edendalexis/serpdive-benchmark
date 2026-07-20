@@ -1,0 +1,11 @@
+{
+  "id": 667,
+  "query": "Ilya Sutskever 2025 Age of Scaling over AI progress scientific ideas compute data comment",
+  "topic": "Ilya Sutskever",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Includes a low-value Reddit result with no actual content ('None'), and the byteiota piece introduces tangential/unverified financial figures ($7.8 trillion, $20B revenue) that, while plausibly accurate, aren't essential and could distract from the core facts.",
+  "b_issues": "The bismarckanalysis snippet is mostly background/context on Sutskever's career rather than substantive content on the 'age of scaling' claim itself, adding less direct value.",
+  "reasoning": "Both sets accurately convey the core facts: Sutskever's Dwarkesh podcast claim that AI is shifting from an 'age of scaling' (2020-2025) to an 'age of research', driven by diminishing returns from pre-training, finite data, and poor model generalization compared to humans, while compute remains necessary but insufficient. Both include the reliable Business Insider source. B contains a direct verbatim quote ('back to the age of research again, just with big computers') which is slightly more precise, while A provides a clear timeline breakdown (2012-2020 research, 2020-2025 scaling) matching the anchor's framing. Neither set contradicts itself or the anchor, and both are sufficient for an LLM to answer correctly. Overall parity in usefulness and accuracy."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 787,
+  "query": "Netanyahu CNBC interview June 2026 digital information warfare western media social platforms GDP growth 3.8%",
+  "topic": "Benjamin Netanyahu",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Does not contain the specific facts needed: no mention of 'digital information battle,' Western media/social platforms criticism, or the 3.8% GDP growth figure tied to the central bank forecast. One result (Instagram) mentions '3.8%' but ties it to GDP per capita ($70,000) rather than GDP growth rate, which is misleading/inaccurate. Also includes irrelevant/low-quality sources like Spotify and Instagram.",
+  "b_issues": "Minor: does not explicitly quote Netanyahu's exact words on 'digital information warfare' but paraphrases it as 'digital information battle,' which is close but not verbatim.",
+  "reasoning": "Content B directly addresses all key elements of the query: it explicitly states Netanyahu criticized Western TV stations and social media outlets, said Israel must 'get better' at the 'digital information battle,' and confirms the 3.8% GDP growth forecast from the central bank for 2026. Content A lacks these specific details entirely in its reliable sources, and its one mention of '3.8%' (from an Instagram post) refers to GDP per capita, not GDP growth, which could mislead an LLM. B's information is accurate, consistent with the anchor, and sourced from CNBC's own reporting, making it clearly better for answering the question."
+}

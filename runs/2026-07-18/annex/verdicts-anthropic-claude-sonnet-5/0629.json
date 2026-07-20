@@ -1,0 +1,11 @@
+{
+  "id": 629,
+  "query": "Novak Djokovic Wimbledon 2026 quarterfinal Roman Safiullin result score 17th quarterfinal",
+  "topic": "Novak Djokovic",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "None significant; all sources consistently report the score 7-6(6), 6-3, 3-6, 6-3, the 17th quarterfinal, and the 106th win record, matching the anchor.",
+  "b_issues": "Includes a contradictory/inaccurate score from Vavel ('7-6, 6-6, 3-6, 6-3', 3-1 sets) which conflicts with the correct score given elsewhere, and an unfinished live-score snippet from Outlook India, potentially confusing the model despite the correct featured snippet.",
+  "reasoning": "Both contain the correct core facts (score, 17th quarterfinal, Federer record) via the featured snippet and reputable sources like BBC and Guardian. However, Content A's results are uniformly consistent with the anchor and free of contradictions, while Content B includes an erroneous score from Vavel and a mid-match live score snippet, introducing potential confusion or inaccuracy for an LLM relying on the full result set."
+}

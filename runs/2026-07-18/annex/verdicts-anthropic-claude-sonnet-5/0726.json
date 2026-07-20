@@ -1,0 +1,11 @@
+{
+  "id": 726,
+  "query": "EU proposal €2 flat fee small parcels Temu Shein status vote 2025",
+  "topic": "Temu",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Only one truly relevant result (Consilium press release on a later €3 customs duty measure); the second result is a completely irrelevant Reuters sitemap snippet about Japanese business sentiment and football, adding noise. The relevant result never mentions Temu or Shein by name, and does not address the July 2025 EU Parliament vote on the €2 handling fee, leaving the 'vote 2025' part of the question unanswered.",
+  "b_issues": "Includes a Guardian article dated 2026 describing a €3 customs charge, which could be confusing if not carefully distinguished from the original €2 handling fee proposal; also lacks explicit mention of the July 2025 European Parliament vote (found only in the anchor's Bluewin source). Facebook post is a lower-quality source.",
+  "reasoning": "Content B closely mirrors the anchor's core Reuters article (same €2 fee proposal, explicit mention of Temu and Shein, Sefcovic/Lange quotes) and supplements it with additional relevant sources (DW, Reddit, Guardian) that discuss the fee's rationale, China's reaction, and later developments toward a €3 duty—giving a fuller, mostly consistent picture of the proposal's status. Content A offers only one substantive result, which, while accurate about a later €3 customs duty measure, omits any mention of Temu/Shein and the specific 2025 parliamentary vote, and its second result is entirely irrelevant. Thus B provides a more complete and directly relevant basis for answering the question."
+}

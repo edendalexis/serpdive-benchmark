@@ -1,0 +1,11 @@
+{
+  "id": 905,
+  "query": "Oppenheimer Project San Francisco Climate Week April 2026 events hosted",
+  "topic": "Oppenheimer",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A's Oppenheimer-specific result is only a short LinkedIn snippet naming Karen Pak Oppenheimer and Theo Kalionzes without detailing the specific events they hosted; the rest of the results are generic SF Climate Week 2026 info not tied to Oppenheimer Project.",
+  "b_issues": "None of Content B's five results mention the Oppenheimer Project at all — they are entirely generic SF Climate Week 2026 event listings (Eventbrite, Vendelux, ClimaTwin, changeclimate.org), providing no basis to answer what Oppenheimer Project specifically hosted.",
+  "reasoning": "The question asks specifically about Oppenheimer Project's hosted events during SF Climate Week 2026. Content A at least surfaces the Oppenheimer Project LinkedIn post naming the people involved (Karen Pak Oppenheimer, Theo Kalionzes) in 2026, aligning with the anchor's confirmed facts. Content B contains no reference to Oppenheimer Project whatsoever, making it impossible for an LLM to answer the question from B alone. Thus A is meaningfully better, even though it doesn't fully replicate the anchor's detail."
+}

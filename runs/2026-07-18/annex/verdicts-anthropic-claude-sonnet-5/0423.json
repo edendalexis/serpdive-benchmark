@@ -1,0 +1,11 @@
+{
+  "id": 423,
+  "query": "number Gaza patients awaiting medical treatment abroad 2026 last Rafah evacuation date",
+  "topic": "Rafah",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Numbers are scattered and inconsistent across snapshots (20,000, 16,000, 17,000, 29, 7,417) without a clear indication of which is current for mid-2026, and no explicit 'last evacuation date' is given — the Xinhua snippet mentions a cancellation but cuts off before providing a specific date, leaving the date part of the question unanswered.",
+  "b_issues": "The DWB and Al Jazeera figures (18,500) are consistent but from slightly different months, and the arabcenterdc piece mixes older 2023/2024 pre-ceasefire statistics with 2026 data, which could cause minor confusion about timeframe.",
+  "reasoning": "Both sets give plausible patient-count figures in the 16,000–20,000 range consistent with the anchor's own varying numbers (16,500–20,000), so neither is clearly more 'correct' on that count. However, Content B directly and explicitly answers the second half of the question — the last Rafah evacuation date — stating 'On February 28, Israel closed the Rafah crossing again, and all medical evacuations have been suspended since,' giving a concrete, unambiguous date. Content A only hints at a cancellation (via a truncated Xinhua snippet dated June 28) without ever stating an actual date or clarity on when evacuations last occurred, and its patient-count figures are more scattered and harder to reconcile. Thus B better equips an LLM to answer both parts of the compound question."
+}

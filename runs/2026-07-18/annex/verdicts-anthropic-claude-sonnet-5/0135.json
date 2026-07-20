@@ -1,0 +1,11 @@
+{
+  "id": 135,
+  "query": "BTS OREO limited edition collaboration 2026 details",
+  "topic": "BTS",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Facts are spread thinly across five short snippets, but nothing appears factually inaccurate or contradictory relative to the anchor (hotteok flavor, purple wafers, 13 embossments, June 1 presale, June 8 global launch across 80+ markets).",
+  "b_issues": "Only two sources, but the second (DesignRush) is comprehensive and consistent with the anchor, covering flavor, purple wafers, ARMY color meaning, 13 embossments, fan-letter activation, and both June 1 preorder and June 8 retail dates; no factual errors noted.",
+  "reasoning": "Both content sets converge on the same core facts as the anchor: OREO x BTS limited-edition hotteok/brown-sugar pancake flavor, first-ever purple wafers symbolizing ARMY, 13 unique embossments for BTS's 13th anniversary, presale starting June 1 2026, and global rollout across 80+ markets beginning June 8 2026. Content A spreads this across more sources (Forbes, PRNewswire, RTTNews, Cleveland.com, YouTube) while Content B condenses it into two sources (Forbes and DesignRush) that together contain nearly identical details, including the fan-letter activation also mentioned in the anchor. Neither set contains contradictions or factual errors, and both would allow an LLM to answer the question accurately and with similar completeness."
+}

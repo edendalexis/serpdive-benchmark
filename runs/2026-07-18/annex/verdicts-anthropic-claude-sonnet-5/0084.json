@@ -1,0 +1,11 @@
+{
+  "id": 84,
+  "query": "Blue Origin New Glenn return to flight date redesigned launchpad investigation findings aft section first stage",
+  "topic": "Blue Origin",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "No significant factual errors; content is consistent with the anchor across the aft section finding, pad damage details, and return-to-flight timeline (though one source's 'early 2027' note conflicts slightly with the year-end 2026 target, this discrepancy is presented as differing viewpoints, not a factual contradiction).",
+  "b_issues": "Includes an unreliable and inaccurate Facebook post claiming New Glenn 'has been cleared to return to flight' after a 'failed April mission' — this directly contradicts the anchor's facts (explosion was May 28, not April, and the investigation is still ongoing, not cleared). This introduces a false narrative that could mislead the LLM.",
+  "reasoning": "Both sets contain the core accurate facts about the May 28, 2026 anomaly, aft section of the first stage, pad damage (lightning tower, transporter-erector, hydraulic cylinders lost), and the redesigned horizontal/vertical hybrid launchpad plan aiming for return to flight by end of 2026. However, Content B includes a Facebook snippet with clearly false information (wrong month, false claim of clearance to fly) that contradicts the rest of the sources and the anchor. This factual contamination makes Content B less reliable, whereas Content A's sources are consistent and align well with the anchor's facts."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 134,
+  "query": "BTS Gwanghwamun Square concert March 2026 Netflix livestream viewer count",
+  "topic": "BTS",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "No factual errors; both sources (Billboard, Chosun) agree with anchor's 18.4 million figure and add correct context (24 countries #1, 80 countries top 10, 13.1 million weekly views).",
+  "b_issues": "No factual errors in the core figure; includes a Facebook post as a source which is less authoritative than mainstream outlets, though its content still aligns with the correct 18.4 million figure and doesn't introduce contradictions.",
+  "reasoning": "Both content sets present the same core fact—18.4 million global viewers (Live+1)—matching the anchor exactly, with no contradictions. Content A draws from Billboard and Chosun, both reliable and detailed, adding chart rankings (24 countries #1, 80 countries top 10) and the 13.1 million weekly figure. Content B draws from more outlets (BBC, Forbes, Chosun, What's on Netflix, Facebook), also confirming 18.4 million and providing similar chart context, though it includes a less authoritative Facebook source. Both sets equally and accurately enable an LLM to answer the question correctly."
+}

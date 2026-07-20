@@ -1,0 +1,11 @@
+{
+  "id": 515,
+  "query": "Manuel Adorni Buenos Aires city election May 2025 results vote percentage La Libertad Avanza",
+  "topic": "Javier Milei",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A mostly gives rounded figures (30%, 30.1%) rather than the precise 30.13% found in the anchor; it lacks detail on other candidates' percentages (Santoro, Lospennato, etc.), seat counts, or turnout, making the answer less complete.",
+  "b_issues": "Minor rounding inconsistencies between sources (27.35% vs 27.34% for Santoro, 15.92% vs 15.93% for Lospennato), but these are trivial and don't contradict the core facts.",
+  "reasoning": "Both sets confirm Adorni's La Libertad Avanza list won CABA's 2025 election with about 30.13% of votes, matching the anchor. However, Content B provides more precise and comprehensive data (exact 30.13% figure, seat counts, Santoro's 27.35%, Lospennato's 15.92%, Larreta's 8.07%, turnout of 53%), all closely aligning with the anchor's figures. Content A mostly rounds to 30% or 30.1% and omits comparative percentages for other candidates, giving a less complete and slightly less precise picture. Thus B better enables a fully correct and detailed answer."
+}

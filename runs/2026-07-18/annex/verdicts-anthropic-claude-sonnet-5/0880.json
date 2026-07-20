@@ -1,0 +1,11 @@
+{
+  "id": 880,
+  "query": "Skydance Media Paramount Global merger completion date",
+  "topic": "Skydance Media",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Both results in A only report the *expected/anticipated* closing date (July 25 and July reveal articles), using language like 'expected to close' and 'anticipate the merger will close.' Neither confirms that the merger actually completed on that date, so an LLM relying solely on A could not be certain the deal actually closed on Aug 7 rather than being delayed.",
+  "b_issues": "No significant factual flaws; all sources (Paramount press release, Variety, Deadline, Wikipedia, Hollywood Reporter) are consistent and one (Paramount's official release, plus Hollywood Reporter) explicitly confirms the merger was completed/closed, matching the anchor's Aug 7, 2025 date.",
+  "reasoning": "The anchor confirms the merger actually completed on August 7, 2025. Content B includes Paramount's own press release stating the merger was completed on that date, as well as Hollywood Reporter confirming the close happened, giving direct, confirmed evidence. Content A only contains pre-completion articles describing the *anticipated* closing date, which, while correct, lacks explicit confirmation that the deal actually closed then. B provides more reliable, confirmed information matching the anchor."
+}

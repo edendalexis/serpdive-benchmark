@@ -1,0 +1,11 @@
+{
+  "id": 933,
+  "query": "Klarna Germany capital efficiency platform €900 million facility €5 billion financing",
+  "topic": "Klarna",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "None significant; all five results are consistent, on-topic, and align with the anchor facts (€900m facility, €5bn financing cap, two-year forward flow/warehouse agreement, off-balance-sheet funding, retained underwriting/servicing).",
+  "b_issues": "One result mixes in unrelated content (Rio Tinto, NZAS, AmeriTrust snippets) unrelated to Klarna, adding noise. Another result (AOL) states 'The facility size is $900mn' using dollar sign instead of euro, creating a currency inconsistency that contradicts the €900m figure elsewhere. These issues could confuse an LLM answering the question.",
+  "reasoning": "Content A cleanly and consistently reinforces the same core facts across five reliable sources without contradiction or irrelevant content, closely mirroring the anchor's details on the €900m facility, the two-year forward flow/warehouse structure, and the €5bn financing cap. Content B contains the same core facts but is undermined by an erroneous currency reference ($900mn vs €900m) and off-topic content spliced into one result, which could mislead or confuse answer generation."
+}

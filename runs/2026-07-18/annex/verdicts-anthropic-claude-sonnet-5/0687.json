@@ -1,0 +1,11 @@
+{
+  "id": 687,
+  "query": "Public Eye May 2025 Shein supplier factories Guangzhou overtime 75-hour weeks investigation",
+  "topic": "Shein",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Mixes details from the 2021 original investigation (17 factories, six sites, 10 workers) with the 2024 follow-up without clear differentiation, and introduces an unrelated 2025 IPO news item that could be mistaken for the investigation date, adding confusion about which report is being discussed.",
+  "b_issues": "Includes a CNBC snippet with a somewhat oddly presented statistic (13,341 samples across 999 factories) attributed to Shein's own audit, which could be misread as part of Public Eye's findings if not carefully parsed; otherwise mostly accurate and well-sourced.",
+  "reasoning": "Both sets lack any actual 'May 2025' investigation (the real event was May 2024, as confirmed by the anchor), so neither perfectly matches the query's date, but both still let an LLM correctly describe the substantive facts about 75-hour weeks in Shein's Guangzhou supplier factories. Content B provides more directly relevant, well-sourced details (BBC quotes, wage figures vs. living wage, Shein's response, reason for not revisiting Nancun) and includes Public Eye's own site as a source, giving a clearer, more coherent picture of the 2024 follow-up investigation. Content A blends 2021 and 2024 details less clearly and introduces a tangential 2025 IPO reference that could mislead about timing."
+}

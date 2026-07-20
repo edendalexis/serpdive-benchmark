@@ -1,0 +1,11 @@
+{
+  "id": 282,
+  "query": "Devin AI v3 API release date 2026 endpoints",
+  "topic": "Devin AI software engineer",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "The top result's specific claim of 'February 20, 2026 Devin v3 API Officially Released' coming out of beta is not corroborated by the anchor (which shows v3 API updates being added incrementally, not a single 'official release' announcement) and appears possibly fabricated/hallucinated. The endpoint list given (GET /v3beta1/organizations/{org_id}/members, GET /messages) is disjointed and doesn't match the anchor's actual 2026 v3 API update list (IP access list, git-provider permission endpoints). Other results are generic blog/marketing content with no concrete API details.",
+  "b_issues": "No significant factual flaws; content closely mirrors the anchor's API release-notes page almost verbatim, including the same 2026 v3 endpoint additions (IP access list POST endpoint, git-provider permission PATCH endpoint) plus additional dated entries (Jan 5, Jan 19, May 21) that add useful detail without contradicting the anchor.",
+  "reasoning": "Content B's key result is nearly identical to the anchor's api-reference/release-notes snippet, giving accurate, dated, endpoint-specific information that directly answers the query about 2026 v3 API endpoints and their release timing. Content A introduces an unverified and likely hallucinated 'official release date' claim not supported by the anchor, and its endpoint details are less aligned with the anchor's actual content, making it less trustworthy for a correct answer."
+}

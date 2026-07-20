@@ -1,0 +1,11 @@
+{
+  "id": 34,
+  "query": "Gemini 3.5 Flash Omni Google I/O 2026 specifications benchmarks",
+  "topic": "Google",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Mashable snippet says 'The first model, Gemini Omni Flash, rolls out today' which slightly conflicts with the blog's framing of 3.5 Flash as the flagship launch, but this is a minor inconsistency in a secondary source rather than the main benchmark data.",
+  "b_issues": "The official Google blog result in B is dominated by navigation/table-of-contents boilerplate rather than actual benchmark content, so it doesn't supply the numeric benchmark data. The llm-stats.com result only surfaces one benchmark (Terminal-Bench 2.1, 76.2%) plus pricing, missing GDPval-AA, MCP Atlas, and CharXiv Reasoning figures that are needed for a full benchmark answer.",
+  "reasoning": "Content A's first result directly quotes the Google blog with concrete, verifiable benchmark figures (Terminal-Bench 2.1 76.2%, GDPval-AA 1656 Elo, MCP Atlas 83.6%, CharXiv Reasoning 84.2%, 4x faster output tokens/sec) that match the anchor's data closely, plus cost context from a secondary source. Content B, despite including a pricing detail ($1.50/$9 per 1M tokens) not in A, only surfaces one matching benchmark (Terminal-Bench 2.1) and its Google blog entry is mostly irrelevant navigation text, making it less useful for answering the specifications/benchmarks question comprehensively."
+}

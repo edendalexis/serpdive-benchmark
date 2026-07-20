@@ -1,0 +1,11 @@
+{
+  "id": 272,
+  "query": "El Salvador Bukele constitutional reforms presidential term limits reelection",
+  "topic": "Nayib Bukele",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Focuses mostly on later 2026-2027 events (Bukele's candidacy registration, primary win) rather than detailing the constitutional reform itself. Only the first result briefly mentions the reform, but lacks specifics like vote count, term length change, or effective date. Includes an off-topic academic citation list (Cambridge Elements) with little direct relevance. Some dates (2026) suggest speculative/future framing that could confuse the reform's actual 2025 passage timeline.",
+  "b_issues": "No major factual issues; content is consistent across sources (BBC, Le Monde, ConstitutionNet, AP, Al Jazeera) and matches the anchor's facts (57-3 vote, term extension to six years, 2027 election, indefinite reelection).",
+  "reasoning": "Content B provides multiple reputable, directly relevant sources that thoroughly and consistently detail the constitutional reform: the 57-3 vote, extension of terms from five to six years, elimination of term limits and runoffs, and the 2027 election timing—matching the anchor closely. Content A's results are mostly about later developments (Bukele's 2027 candidacy, party nomination) and provide only cursory mention of the original reform's mechanics, making it less useful for directly answering the question about the constitutional reform itself."
+}

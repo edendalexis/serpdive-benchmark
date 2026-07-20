@@ -1,0 +1,11 @@
+{
+  "id": 191,
+  "query": "iPhone iPad macOS visionOS Apple Intelligence system requirements compatibility list 2026",
+  "topic": "Apple Intelligence",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "No mention of visionOS at all, despite it being explicitly asked about in the query. Relies heavily on secondary/less authoritative sources (geeky-gadgets, theshortcut) and repeats felloai content. No official Apple source beyond the anchor-duplicated support.apple.com snippet.",
+  "b_issues": "Some redundancy (felloai duplicate), and the apple.com/apple-intelligence snippet is truncated/sparse, but overall content is consistent and sourced from official Apple pages.",
+  "reasoning": "Content B includes multiple official Apple sources (apple.com/apple-intelligence, apple.com/newsroom, apple.com/os/ios) that directly address iPhone, iPad, macOS, and crucially visionOS system requirements (explicitly listing visionOS 27 and visionOS 2.4 in the requirements snippet), which is one of the platforms named in the query. Content A omits visionOS entirely across all its results, making it incomplete for the question asked, and leans more on speculative third-party blogs (geeky-gadgets, theshortcut) rather than Apple's own compatibility pages. Both sets are internally consistent, but B's inclusion of visionOS and stronger sourcing gives it a clear edge for answering the full multi-platform question."
+}

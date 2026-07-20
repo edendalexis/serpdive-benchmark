@@ -1,0 +1,11 @@
+{
+  "id": 761,
+  "query": "FAA proposed rule supersonic overland flight July 2026 duty rest requirements transport category airplane certification streamlining emergency airworthiness directive MD-10 DC-10 2026",
+  "topic": "FAA",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A covers the supersonic overland flight NPRM (several redundant sources) and the DC-10/MD-10 airworthiness directive, but its crowell.com snippet only mentions the supersonic rule and omits any mention of the duty/rest preemption rule. Neither certification-modernization streamlining NPRM nor duty/rest details are present in A's results, leaving two of the four sub-topics in the query unaddressed.",
+  "b_issues": "Content B also lacks any explicit coverage of the Transport Airplane and Propulsion Certification Modernization NPRM (the certification-streamlining topic), so that sub-topic is missing just as in A. Otherwise the facts presented (supersonic NPRM details, EO 14304 origin, AD for Boeing/DC-10/MD-10/MD-11 fleet, duty/rest preemption) are accurate and consistent with the anchor.",
+  "reasoning": "Both sets miss the certification-modernization streamlining rule, but Content B additionally surfaces the duty-and-rest preemption rule (via the crowell.com snippet explicitly describing flightcrew/flight attendant duty and rest preemption) and provides a more detailed, directly sourced AD summary (transportation.gov listing MD-10/DC-10/MD-11 models) plus a direct Federal Register link for the supersonic NPRM. This gives an LLM broader and more accurate coverage of the multi-part question than Content A, which redundantly repeats supersonic-flight sources without addressing the duty/rest topic at all."
+}

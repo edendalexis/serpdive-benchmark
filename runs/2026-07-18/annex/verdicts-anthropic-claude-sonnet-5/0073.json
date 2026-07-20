@@ -1,0 +1,11 @@
+{
+  "id": 73,
+  "query": "AMPAS AI actors scripts eligibility rules 99th Oscars 2026",
+  "topic": "Academy Awards Oscars",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "No major factual flaws; all sources (LA Times, Variety, IGN, Tempo, Boston Herald) are secondary but consistent with the anchor's facts about human-authored screenplays and human-performed acting roles requiring consent.",
+  "b_issues": "No major factual flaws; the official AMPAS press office excerpt included doesn't explicitly restate the AI script/actor language in its shown snippet, but this is compensated by Variety, DW, and Deadline results which do state it clearly.",
+  "reasoning": "Both content sets accurately convey the two core facts needed to answer the question: screenplays must be human-authored, and acting performances must be demonstrably performed by humans with their consent (and credited). Content A backs this with LA Times, Variety, and IGN quotes that align with the anchor's AP News framing. Content B backs it with Variety, DW, and Deadline quotes, and additionally includes the official press.oscars.org source (more authoritative), though the shown excerpt from that source focuses more on acting billing/casting and festival details rather than the AI language specifically — that specific language is nonetheless well-covered by the other three results in B. Neither set contains internal contradictions or factual errors relative to the anchor. Overall, both equally enable a correct answer, with A relying on slightly more redundant secondary coverage and B benefiting from one official primary source plus equally strong secondary confirmation."
+}

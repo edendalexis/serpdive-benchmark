@@ -1,0 +1,11 @@
+{
+  "id": 156,
+  "query": "Yulia Svyrydenko Ukraine PM resignation Zelenskyy government shakeup successor name date 2026",
+  "topic": "Volodymyr Zelenskyy",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None of A's results explicitly confirm the actual appointment of Koretskyi as PM (all sources are from before July 16 and describe him only as a 'frontrunner' or rumored candidate, per Kyiv Independent's unnamed sources). No result gives the exact appointment date (July 16, 2026) or vote count.",
+  "b_issues": "Same core limitation as A — no confirmed appointment of a successor is given; Koretskyi is mentioned only as a rumored/frontrunner name via DW's report of 'Ukrainian media speculation' about an ambassador role, not PM. B also includes a low-quality/irrelevant Facebook post result that adds no real information.",
+  "reasoning": "The anchor confirms Svyrydenko resigned July 14, 2026 and Koretskyi was appointed PM on July 16, 2026, which is the full expected answer. Neither Content A nor B contains a source directly confirming this final appointment — both stop at the point of resignation and speculation about a successor. However, Content A provides slightly more converging speculation naming Koretskyi as the leading candidate across three separate sources (DW, Le Monde, NBC via France24), plus named alternative candidates (Shmyhal, Fedorov) for context, giving an LLM stronger grounds to infer the correct answer. Content B's equivalent speculation is thinner and includes a non-substantive Facebook result, offering less converging signal toward the correct successor."
+}

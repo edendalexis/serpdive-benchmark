@@ -1,0 +1,11 @@
+{
+  "id": 536,
+  "query": "Mattel Barbie 2026 Miley Cyrus Whitney Houston Mariah Carey dolls release schedule",
+  "topic": "Barbie",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "A gives a firm date for the Miley Cyrus doll (Jun 30–Jul 1) but only a vague, uncorroborated forum rumor for Whitney Houston ('August') and provides no information at all about a Mariah Carey doll release date, leaving the schedule incomplete for two of the three requested dolls.",
+  "b_issues": "Sources are informal (Instagram posts, reddit, fan forums) and some details (e.g., 'Mariah Carey Doll 2 (JBJ37) - 19 November') are ambiguous as to whether it's the same doll referenced in the question, and Whitney Houston's date is only vaguely stated as 'later this year' without a specific date.",
+  "reasoning": "Both rely heavily on unofficial/fan sources, but Content B covers all three dolls (Miley Cyrus with concrete dates, Whitney Houston noted as coming later in 2026, and a Mariah Carey doll with a specific November date), giving a more complete picture for the multi-doll release schedule asked about. Content A only substantiates the Miley Cyrus date well and leaves Whitney Houston as unverified rumor and omits Mariah Carey entirely, making it less useful for answering the full question."
+}

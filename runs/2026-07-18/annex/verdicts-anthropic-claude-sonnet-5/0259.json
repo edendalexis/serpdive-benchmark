@@ -1,0 +1,11 @@
+{
+  "id": 259,
+  "query": "SYS6016 RSV vaccine China clinical trial results 2024 2025 Phase 3 approval status",
+  "topic": "RSV vaccines",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "The Reuters article is accurate and matches the anchor (Phase 1 clinical trial approval, July 2024), but content A also includes results about GSK's Arexvy Phase 3 trial in China, which does not concern SYS6016 and could mislead an LLM into conflating that vaccine's Phase 3 status with SYS6016's. The MDPI and NCT07220109 items are unrelated to SYS6016 as well, adding noise without clarifying that SYS6016 has no Phase 3 or approval yet.",
+  "b_issues": "The BioWorld snippet matches the anchor accurately (NMPA clearance for clinical trials, Phase 1). However, most of the other results (PMC general stats article, empty ClinicalTrials.gov record NCT04886596, LYB005 trial) are irrelevant to SYS6016 specifically and provide no additional clinical trial results or Phase 3/approval information, offering little beyond confirming the Phase 1 status already known from the anchor.",
+  "reasoning": "Both content sets provide exactly one directly relevant and accurate source (Reuters in A, BioWorld in B) confirming that SYS6016 only received NMPA clearance for a Phase 1 clinical trial in July 2024, consistent with the anchor—there is no Phase 3 trial or approval for SYS6016. Neither set contains false information about SYS6016 itself, though both include tangential distractors about other RSV vaccines (GSK's Arexvy in A, LYB005 in B) that are not directly relevant. Overall, both equally support the correct conclusion (Phase 1 stage, no Phase 3/approval yet) with similar reliability and completeness, making them roughly equivalent in usefulness."
+}

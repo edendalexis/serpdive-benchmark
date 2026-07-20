@@ -1,0 +1,11 @@
+{
+  "id": 584,
+  "query": "FTT token price Bankman-Fried Trump pardon petition rally percentage June 2026",
+  "topic": "FTX",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Contains some inconsistency in percentages across sources (30%, 33%, 50-60%), but this reflects genuine variation across different reporting sources rather than internal contradiction within a single source; overall it directly addresses the query with relevant, dated, sourced information from reputable outlets (CNBC, BBC, KuCoin, The Hill) about the pardon petition and FTT price rally.",
+  "b_issues": "Does not address the actual news event at all—no mention of Bankman-Fried's pardon petition, Trump, or the price rally/spike percentage. Results are generic FTT price pages, historical data tables, and even an unrelated 'financial transaction tax' definition, which is a completely different meaning of 'FTT' and irrelevant noise.",
+  "reasoning": "Content A provides multiple sources directly confirming the core facts: SBF filed for a pardon on June 8, 2026, FTT price surged (with reported percentages ranging 30-60% across sources), and even includes a follow-up development (Senate resolution against pardon). This allows an LLM to construct an accurate, well-sourced answer despite some percentage variance. Content B fails to surface any information about the pardon petition or the price rally—it only returns generic FTT pricing/reference pages and an irrelevant result about financial transaction taxes, making it essentially useless for answering the specific question asked."
+}

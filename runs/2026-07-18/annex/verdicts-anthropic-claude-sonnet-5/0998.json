@@ -1,0 +1,11 @@
+{
+  "id": 998,
+  "query": "True Detective Night Country filming production schedule start end dates HBO Max",
+  "topic": "True Detective",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Contains a claim from Collider/Wikipedia that filming began in November 2022 and wrapped in April 2023, which aligns with the anchor's own November 2022 press release; no explicit end date is given elsewhere, but the Wikipedia snippet supplies both start and end dates clearly.",
+  "b_issues": "The ResetEra snippet gives a 'Start date Sep 14, 2022' which is actually the forum post date, not necessarily the shoot start date, and conflicts with the anchor's November 2022 production start. No end date for filming is provided anywhere in the results, leaving the question only partially answered and with a potentially misleading start date.",
+  "reasoning": "Content A includes a direct statement (via the Wikipedia excerpt) that filming began in November 2022 and wrapped in April 2023, giving a clear start and end date consistent with the anchor's November 2022 production-start announcement. Content B's Wikipedia excerpt omits filming dates entirely, and its ResetEra excerpt gives a September 2022 date that is ambiguous (could be the forum post date) and lacks any wrap date, making it less reliable and less complete for answering the specific start/end date question."
+}

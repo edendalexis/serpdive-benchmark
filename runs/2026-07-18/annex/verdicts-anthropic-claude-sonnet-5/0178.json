@@ -1,0 +1,11 @@
+{
+  "id": 178,
+  "query": "SpaceX Starship Flight 13 scrub cause Super Heavy booster hold signal engine ignition replace two Raptor engines July 16 2026",
+  "topic": "SpaceX Starship",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor inconsistency in engine counts across sources (four engines failed per Spaceflight Now vs 'multiple engines' per FloridaToday), but this reflects reporting variance in the real event, not a contradiction introduced by the search tool. Otherwise content is consistent and accurate.",
+  "b_issues": "None of the results explicitly state that two Raptor engines will be replaced, which is a specific detail asked about in the query. Ars Technica gives good detail on the ignition sequence and abort mechanics but omits the 'two engines to be replaced' fact entirely, and no other result in B supplies it.",
+  "reasoning": "The question specifically asks about the cause of the scrub AND the detail that two Raptor engines would be replaced. Content A includes a FloridaToday snippet explicitly stating 'two of the booster's 33 engines will be replaced,' which matches the anchor's USA Today reporting. Content A also has the correct causal chain (four engines failed to ignite, triggering abort) from Spaceflight Now and India Today. Content B, while providing good technical context on the ignition sequence via Ars Technica, never mentions the specific 'two engines replaced' fact, making it less complete for fully answering the query as posed."
+}

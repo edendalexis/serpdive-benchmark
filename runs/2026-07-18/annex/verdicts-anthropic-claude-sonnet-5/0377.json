@@ -1,0 +1,11 @@
+{
+  "id": 377,
+  "query": "OpenAI strategic pivot robotics agentic AI video generation exit 2026",
+  "topic": "Sora OpenAI",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "No major factual errors; content is consistent with the anchor's narrative about Sora shutdown, robotics pivot, and Disney deal collapse. Some results (YouTube video) are less authoritative but still directly relevant.",
+  "b_issues": "Includes two results (LinkedIn generic agentic-AI opinion piece and tarka.ai monthly funding roundup) that are largely tangential to the specific OpenAI Sora/robotics pivot story, diluting relevance. No mention of Altman's specific quotes or the compute-tradeoff rationale.",
+  "reasoning": "Content A supplies more directly on-topic and detailed facts: the Computerworld piece explains the AGI/agentic-compute tradeoff rationale, the Yahoo Finance piece gives a direct Altman quote about pivoting to AI agents and cost comparisons for video generation, and it even surfaces a follow-up story about the robotics chief's exit—adding useful, accurate context for the 'robotics' and '2026' elements of the query. Content B's unique additions (Dawn.com, LinkedIn, tarka.ai) are either duplicative of A's coverage or largely irrelevant to the specific OpenAI robotics/video pivot, providing less substantive help in answering the question. Both share overlapping sources (streamlinefeed, pivot-to-ai) with consistent, non-contradictory facts matching the anchor, but A's unique results are more directly useful."
+}

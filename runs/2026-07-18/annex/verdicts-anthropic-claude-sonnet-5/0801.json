@@ -1,0 +1,11 @@
+{
+  "id": 801,
+  "query": "Judson Althoff CEO commercial business Microsoft promotion date official announcement",
+  "topic": "Satya Nadella",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Includes largely unusable results (LinkedIn post is mostly navigation/login boilerplate with no real content, Facebook snippet is thin and redundant) that add no factual value; lacks any official Microsoft source in the actual result set (the primary announcement text is only in the anchor, not in Content A itself).",
+  "b_issues": "Two entries (Microsoft 'Source' exec page and Windows Store menu clutter within the blog excerpt) contain mostly navigation boilerplate rather than substantive text, slightly diluting content, but the CNBC and official blog excerpts still supply the core facts.",
+  "reasoning": "Both sets contain the CNBC article confirming the key facts (Oct 1, 2025 promotion, EVP/chief commercial officer to CEO of commercial business, marketing/operations moving under Althoff). However, Content B additionally includes an excerpt from the official Microsoft blog post itself (the primary announcement source) and a Microsoft newsroom exec bio page, giving stronger, more authoritative confirmation of the date and details. Content A's non-CNBC/Verge/BusinessInsider results (LinkedIn, Facebook) are largely low-value filler with no substantive facts, offering little beyond what CNBC already provides. Thus B better supports a correct, well-sourced answer."
+}

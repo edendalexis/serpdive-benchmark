@@ -1,0 +1,11 @@
+{
+  "id": 366,
+  "query": "GTA VI Grand Theft Auto 6 Leonida map size comparison GTA V detailed",
+  "topic": "Grand Theft Auto VI",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A provides only vague qualitative claims ('significantly larger than GTA 5 and RDR2') without any specific size figures, ratios, or square mileage/km² numbers. This makes it hard for an LLM to give a detailed, quantified comparison as the question demands. The box.co.uk result also lacks concrete size data.",
+  "b_issues": "Content B's sources are lower authority (Facebook post, Reddit comment, Instagram caption) and figures are speculative/unofficial, but they do provide concrete comparative ratios (2.7x bigger than GTA 5, 2.4x without panhandle, 'over twice the size of Los Santos') which align with the anchor's implied scale (100-150 km² vs 75 km², i.e., ~1.3-2x, though B's 2.7x is somewhat higher). Some redundant/low-value results (map site with no data).",
+  "reasoning": "The question asks for a detailed size comparison between Leonida and GTA V. Content B actually supplies specific numeric ratios (2.7x, 2.4x, 'over twice the size') across multiple sources, giving an LLM concrete data points to construct a comparison, even though sourced from social media. Content A's results are almost entirely qualitative ('significantly larger', 'staggering scale') with no actual size ratios or figures, making it much weaker for a 'detailed' comparison. Despite B's less authoritative sourcing, it better satisfies the informational need with usable data."
+}

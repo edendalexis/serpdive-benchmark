@@ -1,0 +1,11 @@
+{
+  "id": 246,
+  "query": "Voyager 1 trajectory correction maneuver TCM thrusters status April 2025",
+  "topic": "Voyager 1",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "All results in Content A describe the 2017 revival of the TCM thrusters after 37 years dormant; none mention any 2025 status, the 2004 heater failure, or the April/May 2025 revival of the primary thrusters described in the anchor. This makes A essentially irrelevant to the query's specific timeframe (April 2025) and could mislead a model into answering with outdated 2017 information as if it were current.",
+  "b_issues": "The spacedaily result mixes some sensationalized framing, and technically discusses the primary 'roll' thrusters (inoperative since 2004) rather than the TCM thrusters specifically, but this is the same overarching story as the anchor (thruster revival ahead of the DSN command pause). Minor imprecision in equating roll thrusters with TCM thrusters, but the core 2025 timeline and facts align with the anchor.",
+  "reasoning": "The anchor describes an April/May 2025 event: NASA revived long-dead primary thrusters (out since 2004) as a backup ahead of a DSN antenna upgrade pause. Content B contains a result (spacedaily) that directly covers this 2025 event with matching details (2004 heater failure, risk of explosion, backup thrusters, command pause), plus a Facebook post explicitly about 'Voyager 1 spacecraft thrusters fixed after 2 decades' tied to the antenna upgrade pause—both consistent with the anchor's 2025 status. Content A contains no information from 2025 at all; every result concerns the unrelated 2017 TCM thruster revival, which would cause an LLM to answer the question with the wrong event and timeframe entirely. Therefore B far better enables a correct answer about the April 2025 status."
+}

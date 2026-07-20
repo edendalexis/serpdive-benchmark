@@ -1,0 +1,11 @@
+{
+  "id": 219,
+  "query": "Lil Tay OnlyFans total earnings latest figure 2025 subscriber count update",
+  "topic": "Lil Tay",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Does not explicitly state an OnlyFans subscriber count (none of the sources report a subscriber number), and relies on unverified self-reported earnings claims ($1,024,298.09 and later $15M in two weeks) which are consistent across multiple outlets but not independently confirmed by OnlyFans.",
+  "b_issues": "Includes the same unverified $1,024,298.09 and $15M claims, but also introduces a hafi.pro estimate of $300,378–$411,022 total annual income based on Instagram/TikTok/YouTube audience size, which directly contradicts the $15M OnlyFans claim and could confuse the model into presenting inconsistent earnings figures. Also no explicit OnlyFans subscriber count is given.",
+  "reasoning": "Both sets of results lack a concrete OnlyFans subscriber count, so neither fully satisfies that part of the query. However, Content A presents a more coherent and mutually consistent set of earnings figures ($1M initial launch, later $15M in two weeks) drawn from multiple reputable entertainment outlets, without contradictory data. Content B includes the same core claims but also injects a low, unrelated 'net worth' estimate from a non-authoritative site (hafi.pro) that conflicts with the $15M OnlyFans claim, creating an internal contradiction that could mislead the answering model. Thus Content A better supports a correct, non-contradictory answer."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 41,
+  "query": "UEFA fine Benfica racist abuse fans Real Madrid match Gianluca Prestianni Vinícius Júnior investigation",
+  "topic": "UEFA Champions League",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "All results are mutually consistent and match the anchor facts (€40,000/$46,000 fine, ongoing Prestianni investigation, 'monkey' allegation, provisional one-match ban). No major factual errors, though it doesn't include the final six-match ban outcome from ESPN/BBC coverage, but that's just incompleteness, not inaccuracy.",
+  "b_issues": "Contains an internal contradiction: the Al Jazeera snippet claims Prestianni 'faces a 10-game ban from UEFA competition games,' while the ESPN result in the same set states he received a six-match ban (three suspended) for anti-gay conduct — these two figures conflict, which would confuse an LLM trying to state the actual punishment. It also mixes in unrelated/confusing results (Real Madrid fined for fan racism, a fan's Nazi salute during a mislabeled 'Premier League' match) that are tangential and could lead to conflating separate fines and incidents.",
+  "reasoning": "Content A presents a coherent, mutually consistent set of sources aligning closely with the anchor's established facts (fine amount, allegation details, investigation status). Content B introduces a contradictory ban length (10-game vs. 6-game) within its own results and adds several off-topic or confusingly labeled articles about different fines (Real Madrid, Nazi salute incident), increasing the risk of an LLM producing an inaccurate or muddled answer. Therefore, Content A better supports a correct answer."
+}

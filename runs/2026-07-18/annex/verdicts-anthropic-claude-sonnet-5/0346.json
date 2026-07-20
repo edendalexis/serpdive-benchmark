@@ -1,0 +1,11 @@
+{
+  "id": 346,
+  "query": "Arthur Hayes Worldcoin WLD position exit June 2026",
+  "topic": "Worldcoin",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "The coinmarketcap.com aggregator entry mixes multiple unrelated dated updates (including a July 16 reversal) into one page, which could confuse the timeline if not read carefully, though it does not directly contradict the June 6 exit facts.",
+  "b_issues": "No significant factual issues; all sources are consistent with the June 6 exit narrative, though it lacks the later 'reversal' context that A includes.",
+  "reasoning": "Both content sets correctly and consistently establish that Arthur Hayes sold his entire WLD position on June 6, 2026, following a Maelstrom AI-IPO bullish pitch, as part of a broader liquidation sequence including HYPE, NEAR, and ZEC (the 'Holy Trinity'). Both include the SpaceX pre-IPO futures chart rationale, the price drop percentages, and Hayes's 'sold to a willing buyer' defense, drawn from multiple reputable outlets (CoinDesk, TradingView, Yahoo Finance, crypto.news, The Defiant, CryptoRank). Neither set contains internal contradictions on the core facts. Content A includes a bit of extra context (a later reversal in July), which is tangential but not incorrect. Overall, both equally enable a correct answer to the question."
+}

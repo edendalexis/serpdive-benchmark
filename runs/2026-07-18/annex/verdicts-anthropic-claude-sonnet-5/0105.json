@@ -1,0 +1,11 @@
+{
+  "id": 105,
+  "query": "Riyadh Air Boeing 787 Dreamliner first delivery date configuration details",
+  "topic": "Boeing",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Configuration details are split across snippets (business elite specifics in one result, total 290-seat/four-class layout only fully stated in the LinkedIn snippet), requiring the LLM to piece together numbers rather than getting them from one authoritative source, but the figures it does give (290 seats, four cabin classes, business elite 1-2-1) are consistent with the anchor.",
+  "b_issues": "Contains some date/quantity inconsistencies that could confuse an answer: AirInsight says delivery was on June 4 but Boeing's own press release (also included) says June 5; it also states a third jet was delivered June 6 and references a seemingly out-of-sequence 'October 26' start of Oman-leased service, plus a differing total order figure (72 vs 39) from the simpleflying snippet, which could mislead the model on order size and exact delivery date. Configuration detail is thinner, only citing the 28-seat business class layout without the full economy/premium breakdown.",
+  "reasoning": "Both sets confirm the core facts: first two Boeing 787-9s (HZ-RXAA, HZ-RXAB) delivered around June 4-5, 2026, via Boeing press release. Content A's aggregate snippets (aerospaceglobalnews, LinkedIn, Boeing press release) align tightly with the anchor's delivery date and cabin configuration (290 seats, 28 business, 39 premium economy, 223 economy), giving a clean, consistent picture. Content B adds extra operational details (ceremony attendees, later deliveries) but introduces conflicting dates (June 4 vs June 5 vs June 6) and a differing total order number (72 vs 39), which could lead to inaccurate or confusing answers about the delivery timeline and fleet size. Thus Content A better supports an accurate, non-contradictory answer to the question."
+}

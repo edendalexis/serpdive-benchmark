@@ -1,0 +1,11 @@
+{
+  "id": 299,
+  "query": "X video reaction selfie overlay feature release date posts",
+  "topic": "Twitter",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Includes a Facebook snippet suggesting the feature is 'coming' and set to beta test this summer, which could contradict the actual launch date and cause confusion; no explicit release date is given in any snippet.",
+  "b_issues": "Includes a later dated TechCrunch article (July 7, 2026) about a different follow-up feature (video editor), which could be mistaken for the original React with Video launch date, creating potential date confusion; no explicit release date for the original feature is stated in the visible content.",
+  "reasoning": "Both sets contain the core factual snippet from Social Media Today describing the 'React with video' reply option with a filmed selfie overlay for iOS, which matches the anchor's description. Neither set explicitly states the June 2, 2026 release date in the visible text, though URLs offer some clues. Content A introduces a slight risk of confusion via a Facebook post implying a future beta, while Content B risks conflating a later, distinct feature (video editor for creators) with the original React with Video launch. Overall, both provide equivalent core factual accuracy with similar minor risks, making them roughly equal in enabling a correct answer."
+}

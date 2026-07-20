@@ -1,0 +1,11 @@
+{
+  "id": 792,
+  "query": "New Caledonia provincial elections rescheduled new date 2026",
+  "topic": "New Caledonia",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A is entirely irrelevant to the query - it contains results about a school website, traffic construction, an arena design, and linguistic data files, none of which relate to New Caledonia's provincial elections at all. It provides no usable facts to answer the question.",
+  "b_issues": "Minor redundancy across results (multiple sources repeating the June 28, 2026 date), but no factual inaccuracies; all results are consistent and reliable (RNZ, Wikipedia, France24, Reuters/WHTC).",
+  "reasoning": "Content B directly and consistently confirms that New Caledonia's provincial elections were rescheduled to June 28, 2026, corroborated by multiple reliable sources (RNZ, Wikipedia, France24, Reuters), matching the anchor's information. Content A contains no relevant information whatsoever about New Caledonia's elections, making it useless for answering the question."
+}

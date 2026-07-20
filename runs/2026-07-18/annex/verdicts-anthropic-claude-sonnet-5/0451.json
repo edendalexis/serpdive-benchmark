@@ -1,0 +1,11 @@
+{
+  "id": 451,
+  "query": "Nobel Prize ceremony December 10 2024 Stockholm attendees speeches banquet details",
+  "topic": "Nobel Prize 2024",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Relies partly on a low-reliability Facebook post (typos, spam-like text) for specific 2024 details; general Wikipedia/VisitSweden content is not 2024-specific and includes historical/general banquet facts (up to 88 guests, ~1300 total) not verified for 2024 specifically.",
+  "b_issues": "Includes a 2016 Time.com article about Bob Dylan not attending the banquet, which is irrelevant to the 2024 ceremony and could mislead the model into conflating years; the nobelprize.org result cited is for the 2025 ceremony, not 2024, risking confusion; overall content provides fewer concrete 2024-specific attendee/speech details.",
+  "reasoning": "Both sets rely heavily on generic Wikipedia/general-site descriptions of the Nobel Banquet rather than 2024-specific attendee or speech details, matching the anchor's higher level of specificity only partially. Content A at least includes a source (Swedish Embassy Facebook) explicitly tied to the 2024 event confirming King and Queen attendance and timing, and a nobelprize.org page confirming the 2024 opening speech by Astrid Söderbergh Widding, aligning with the anchor. Content B's video page confirms date/location for 2024 accurately, but it also introduces an outdated and irrelevant 2016 article and a 2025 ceremony page that could cause the model to misattribute facts to 2024. On balance, A provides slightly more accurate and specific 2024-tied information despite its low-reliability source, while B risks temporal confusion from mixing 2016 and 2025 content into a 2024 query."
+}

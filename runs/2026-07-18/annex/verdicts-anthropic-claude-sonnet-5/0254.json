@@ -1,0 +1,11 @@
+{
+  "id": 254,
+  "query": "name second FDA approved RSV monoclonal antibody infants 2025",
+  "topic": "RSV vaccines",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "None significant; content clearly identifies clesrovimab (Enflonsia, Merck) as the second FDA-approved RSV mAb, with nirsevimab (Beyfortus) as the first, consistent across sources.",
+  "b_issues": "None significant; content clearly identifies clesrovimab (Enflonsia, Merck) as the second FDA-approved RSV mAb, with nirsevimab (Beyfortus) as the first, consistent across sources.",
+  "reasoning": "Both Content A and Content B contain clear, accurate, and mutually consistent statements that clesrovimab (brand name Enflonsia, made by Merck) is the second FDA-approved monoclonal antibody for RSV prevention in infants, approved June 9, 2025, following nirsevimab (Beyfortus) approved in 2023. Both sets cite reliable sources (CDC MMWR, FDA, Healio, CIDRAP, drugs.com) and provide corroborating details without contradiction. Neither set has factual errors relevant to answering the question. Therefore, both equally enable a correct answer."
+}

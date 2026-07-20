@@ -1,0 +1,11 @@
+{
+  "id": 340,
+  "query": "Eightco Worldcoin WLD token holdings institutional stake July 2026",
+  "topic": "Worldcoin",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A is consistent with the anchor (July 15, 2026 filing: $406M total, 283M WLD, $90M OpenAI, $18M Beast Industries, 16,278 ETH, $148M cash). It adds context (8% of circulating supply, 29% of treasury, issuance decline on July 24) that is plausible and reinforces the anchor data. Minor imprecision in one secondary source (BiGGo) citing a lower WLD price and valuation than others, but the primary sourced/official filings are accurate and directly on point for July 2026.",
+  "b_issues": "None of Content B's results actually cover July 2026 — they cover April 2026 (277M WLD), June 2026 ($437M as of June 3, $436M as of June 24), and September 2025 (initial $270M raise). This leaves a gap for the specific July 2026 data point requested in the question, forcing an LLM to extrapolate or guess rather than cite the correct July figures ($406M total, 283M WLD as of July 15).",
+  "reasoning": "The question specifically asks about July 2026 holdings. Content A includes the exact SEC/PRNewswire-sourced figures for July 15, 2026, matching the anchor precisely, plus useful additional details (percentage of circulating supply, treasury composition, issuance schedule change). Content B, despite being from reputable sources, only covers April, June 2026, and September 2025 — no July 2026 data at all — making it unable to correctly answer the specific July 2026 query. Content A is clearly better suited to answering the question accurately."
+}

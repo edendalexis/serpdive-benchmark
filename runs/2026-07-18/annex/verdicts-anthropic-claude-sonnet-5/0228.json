@@ -1,0 +1,11 @@
+{
+  "id": 228,
+  "query": "Tesla Robotaxi Austin San Francisco employee testing summer rollout date service launch 2026",
+  "topic": "Tesla",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "All results are from June 2025 (pre-launch predictions, first Austin rollout announcement) despite being presented for a 2026 query; none address 2026 developments like Cybercab testing, employee rides, FSD v15 gating, or the SF expansion status in 2026. This makes Content A essentially outdated and irrelevant to the actual 2026 timeframe the question asks about, and could mislead an LLM into treating 2025 launch dates as current.",
+  "b_issues": "Relies partly on a low-authority, non-mainstream source (robotaxi-safety-tracker.com) whose city-expansion claims (Dallas, Houston, Phoenix, Miami, Orlando, Tampa, Las Vegas) are unverified and could be speculative; the YouTube and Reddit entries are informal and lightly sourced; the Business Insider memo article is from July 2025, not 2026, so some content is also stale.",
+  "reasoning": "The question specifically asks about 2026 Robotaxi/Cybercab developments (employee testing, summer rollout, service launch). Content A is entirely composed of June 2025 articles about the original Austin launch, providing no 2026-specific facts and risking confusion about timeline. Content B, while including a questionable tracker site and some 2025 material, still surfaces genuinely 2026-relevant details (Austin unsupervised rides, Bay Area safety-driver operations, planned 2026 city expansions, Q4 2025 earnings-call announcements affecting 2026) that are broadly consistent with the anchor's description of 2026 events (Cybercab employee rides, FSD v15 gating, Austin robotaxi status). This makes B meaningfully more useful for answering the actual question, despite its source-quality concerns."
+}

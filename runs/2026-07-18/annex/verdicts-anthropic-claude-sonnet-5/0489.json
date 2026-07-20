@@ -1,0 +1,11 @@
+{
+  "id": 489,
+  "query": "WGA antitrust lawsuit Paramount Skydance Warner Bros court docket number jurisdiction",
+  "topic": "The WGA",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "The case number found (4:26-cv-7116) is from the State AGs' complaint, not the WGA's own complaint; the WGA docket number itself is not given. Still, it is a primary source with a verified case number and confirms jurisdiction (N.D. Cal.).",
+  "b_issues": "No case/docket number is provided anywhere in the results; jurisdiction is mentioned only generally (Northern District of California) without any specific docket reference. Relies on secondary news sources (Variety, Hypebeast, MSN) rather than primary legal filings.",
+  "reasoning": "The question specifically seeks a court docket number and jurisdiction. Content A includes a primary source (California AG's filed PDF) that contains an actual case number (4:26-cv-7116) and identifies the jurisdiction (N.D. Cal.), giving the LLM concrete, verifiable data to work with, even though it pertains to the related State AG suit rather than the WGA suit itself. Content B, while confirming the same jurisdiction via secondary reporting, never supplies any docket number, leaving the query only partially answered. Thus, Content A better enables a factually complete and sourced answer."
+}

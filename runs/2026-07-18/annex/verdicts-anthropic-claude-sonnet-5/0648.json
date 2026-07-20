@@ -1,0 +1,11 @@
+{
+  "id": 648,
+  "query": "Berkshire Hathaway PacifiCorp Oregon wildfires 2020 appeals court ruling outcome 2026",
+  "topic": "Berkshire Hathaway",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "The pacificorp.com result is stale background info (predates the 2026 ruling) and could introduce noise, but the Reuters/claimsjournal and statesmanjournal results clearly and accurately convey the outcome (reversal, class action instruction error, remand to Multnomah County).",
+  "b_issues": "The klcc.org result is from 2025 and only describes PacifiCorp filing the appeal, not the outcome, which is slightly outdated/redundant, but the nationaltoday, sahmcapital, and marketscreener results (Reuters-sourced) accurately and clearly describe the same outcome (reversal of $1B+ verdict, jury instruction error, remand, potential retrial).",
+  "reasoning": "Both content sets contain multiple sources that accurately state the core outcome: on April 8, 2026, the Oregon Court of Appeals ruled in favor of PacifiCorp, finding the trial judge erred in allowing the wildfire litigation to proceed as a class action (specifically the jury instruction that evidence applied to all class members), reversing/remanding the case and potentially undoing over $1 billion in awarded damages. This matches the anchor's Reuters/Bloomberg/Oregon Capital Chronicle/Statesman Journal reporting. Neither set contains contradictory or materially incorrect information about the ruling itself; minor inclusions of tangential/older background material (pacificorp.com in A, klcc.org in B) do not harm the core answer. Both provide sufficient, accurate, and mutually consistent detail for an LLM to correctly answer the question equally well."
+}

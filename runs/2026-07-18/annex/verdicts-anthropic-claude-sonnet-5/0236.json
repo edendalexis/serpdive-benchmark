@@ -1,0 +1,11 @@
+{
+  "id": 236,
+  "query": "Delhi High Court Wikipedia block local laws defamation Supreme Court ruling media takedown real harm India 2025 2026",
+  "topic": "Wikipedia",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None substantial; the JURIST snippet's dates/attribution (Friday) are consistent with other reporting, and the twin-test quote closely matches the actual judgment's language.",
+  "b_issues": "Most snippets are very short (headlines/teasers) and don't convey the Supreme Court's actual legal reasoning (e.g., the 'necessity and proportionality' / 'real and substantial risk of prejudice' test). The SCC Online result focuses mainly on the original Delhi HC order rather than the SC's reversal rationale, so the set as a whole underexplains the 'real harm' standard central to the question.",
+  "reasoning": "The question specifically asks about the Supreme Court's reasoning on 'real harm' as a basis for takedown orders. Content A's JURIST result directly quotes the Court's actual standard—'twin test of necessity and proportionality... real and substantial risk of prejudice to the proper administration of justice'—which aligns with the anchor's underlying judgment and directly answers the query. Content B's results, while covering the same case (Delhi HC order, SC reversal), are mostly headline-level snippets lacking this specific legal reasoning, and one source (SCC Online) emphasizes the original takedown order rather than the Supreme Court's rationale for overturning it. Thus Content A provides more accurate, on-point substantive detail for correctly answering the question."
+}

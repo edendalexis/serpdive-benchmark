@@ -1,0 +1,11 @@
+{
+  "id": 983,
+  "query": "Sundar Pichai AI Impact Summit 2026 New Delhi India-America Connect Initiative launch",
+  "topic": "Sundar Pichai",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Relies mostly on secondary/social sources (YouTube video titles, Facebook video caption, X/Twitter snippet) which are less authoritative and offer little detail beyond the WION article; lacks any primary Google source confirming details, naming, or context of the initiative.",
+  "b_issues": "Minor: does not explicitly clarify the exact date of the subsea cable announcement vs. the summit's official Feb 19-20 dates, which could cause slight date confusion, though this is a minor ambiguity present in the source ecosystem itself.",
+  "reasoning": "Both sets contain the WION article giving the core facts (subsea cable project, name of the initiative, related AI skilling and research partnerships). However, Content B additionally includes Google's own official blog post about the AI Impact Summit and Sundar Pichai's own LinkedIn post explicitly confirming the 'America-India Connect' initiative and its purpose, plus the official India AI Impact Summit site confirming the event's dates and location. These primary, highly reliable sources allow a model to confidently and accurately answer the question about who launched the initiative, what it is, and where/when it was announced. Content A's supplementary sources (YouTube video titles, Facebook, X) are much weaker and largely redundant, offering no additional verifiable detail beyond what's in the shared WION article. Thus B provides stronger, more authoritative grounding for a correct answer."
+}

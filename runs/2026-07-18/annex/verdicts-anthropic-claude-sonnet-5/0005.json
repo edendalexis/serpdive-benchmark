@@ -1,0 +1,11 @@
+{
+  "id": 5,
+  "query": "Venezuela May 2025 regional elections non-PSUV winning state governor name",
+  "topic": "Venezuela election crisis",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "None of the snippets in Content A actually name the non-PSUV governor or even the state (Cojedes) that the opposition won; the Orinoco Tribune snippet is truncated before the relevant name appears, and other sources only give the 23/24 split.",
+  "b_issues": "Content B similarly never mentions the state (Cojedes) or the opposition governor's name; it focuses on the Essequibo governor appointment and overall election statistics, giving no lead to the specific answer.",
+  "reasoning": "Both result sets confirm that PSUV/GPP won 23 of 24 governorships, implying one state went to a non-PSUV candidate, but neither set contains the actual name of that state (Cojedes) or the winning governor (Alberto/José Galíndez per the anchor). Since neither corpus supplies the fact needed to answer the question correctly, they are equally deficient, making this a tie."
+}

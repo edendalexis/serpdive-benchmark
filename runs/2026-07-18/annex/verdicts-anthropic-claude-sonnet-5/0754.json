@@ -1,0 +1,11 @@
+{
+  "id": 754,
+  "query": "Trump Media DJT Q3 2024 earnings report net loss revenue decline SEC filing",
+  "topic": "Truth Social DJT stock",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A's results are almost entirely about later periods (Q1 2026, full-year 2024 10-K, nine months ended Sept 30 2025) rather than Q3 2024 specifically. None of the snippets provide the actual Q3 2024 net loss or revenue decline figures. An LLM using this content would struggle to find the specific Q3 2024 numbers (net loss $19.2M, revenue $1.0M) and could easily conflate them with unrelated periods like Q1 2026 or full-year 2024.",
+  "b_issues": "Includes some tangential/irrelevant results (Facebook post, SEC filings page for 2025/2026 filings, general IR filings list) that don't directly address Q3 2024, but these don't contradict the correct answer and the key result is accurate and clear.",
+  "reasoning": "Content B includes a StockTitan result directly titled 'TMTG Reports Third Quarter 2024 Results' with precise figures matching the anchor: operating loss of $23.7 million, net loss of $19.2 million, revenue of $1.0 million, and legal expenses of $12.1 million. This directly answers the question with figures consistent with the anchor's TipRanks reference ($19.25M loss, $1.01M revenue, 5.6% decline). Content A, despite having SEC.gov URLs, returns snippets almost entirely from other periods (2025, 2026, full-year 2024 10-K) and never surfaces the actual Q3 2024 net loss/revenue figures, making it far less useful for correctly answering this specific question."
+}

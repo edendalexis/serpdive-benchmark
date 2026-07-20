@@ -1,0 +1,11 @@
+{
+  "id": 46,
+  "query": "Noa Lang thumb surgery recovery time Galatasaray Liverpool Champions League round of 16",
+  "topic": "UEFA Champions League",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None of the sources give a precise recovery timeline in days/weeks except the vague 'several weeks' from World Soccer Talk, which is an unverified/less authoritative source, but it's the only concrete recovery-time indication provided.",
+  "b_issues": "None of the sources in Content B mention any recovery timeline at all - they only confirm the surgery occurred and was successful, but provide no information addressing the 'recovery time' part of the question.",
+  "reasoning": "The question specifically asks about recovery time. Content A includes a source (World Soccer Talk) stating the injury is 'expected to keep him sidelined for several weeks,' which directly addresses the recovery time aspect of the query, alongside solid corroborating details from BBC, Reuters, and Mirror. Content B's five sources (Yahoo, Facebook, The Sun, BBC, Liverpool.com) all confirm the surgery and injury details but contain no mention of expected recovery duration, leaving that part of the question unanswerable from Content B alone."
+}

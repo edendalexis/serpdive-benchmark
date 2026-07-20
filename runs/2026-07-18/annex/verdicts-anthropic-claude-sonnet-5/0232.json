@@ -1,0 +1,11 @@
+{
+  "id": 232,
+  "query": "Wikipedia traffic decline human vs bot October 2025 percentage",
+  "topic": "Wikipedia",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Includes some lower-quality/speculative secondary sources (wikibusines.net with odd 2026 dating, and a GitHub repo projecting hypothetical 2025-2026 trends) that could introduce noise, but the core 8% YoY human pageview decline figure is consistent and the primary Wikimedia Foundation source (diff.wikimedia.org) is directly included with accurate detail on bot detection and Brazil traffic anomaly.",
+  "b_issues": "Consistently reports the 8% YoY decline across observer.com, dataconomy.com, aiflowreview.com, and nypost.com, but lacks the primary Wikimedia Foundation/Diff source. It also includes a Reddit post claiming wildly different and unverified figures (49% bot traffic, 36% human decline in December 2025) that contradicts the official 8% figure and could mislead an LLM into citing unreliable crowd-sourced data as fact.",
+  "reasoning": "Both sets converge on the key fact—an 8% year-over-year decline in human pageviews reported by the Wikimedia Foundation in October 2025. Content A is stronger because it directly includes the primary source (diff.wikimedia.org) with authoritative quoted detail matching the anchor, giving the LLM grounded, accurate context. Content B relies entirely on secondary reporting and includes a Reddit comment with unsubstantiated, contradictory statistics (36% human decline, 49% bot traffic) that could confuse or mislead an LLM answering the question, whereas A's questionable sources are less central and less directly contradictory to the core 8% figure."
+}

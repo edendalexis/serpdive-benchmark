@@ -1,0 +1,11 @@
+{
+  "id": 982,
+  "query": "Sundar Pichai contempt of court Mumbai YouTube video details charges 2026",
+  "topic": "Sundar Pichai",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content includes a stray/unrelated line about WinZO complaint that seems mismatched to the topic, and has minor date inconsistencies (referring to 2023 vs 2022 for the original takedown order) consistent with the source articles' own inconsistencies. No 2026 information is present, but neither does the anchor.",
+  "b_issues": "Only provides short snippet summaries without the detailed content (e.g., specific dates, court name, IT Act arguments, video title spelled out in detail) that Content A provides. Lacks the deeper factual details like the specific court name (Ballard Pier), the March 2023 order specifics, and YouTube's IT Act defense that are present in Content A.",
+  "reasoning": "Content A provides substantially more detailed factual content in the actual result snippets, including the specific court name (Additional Chief Judicial Magistrate's Court, Ballard Pier), the exact order date (November 21), the original takedown order date, YouTube's legal defense (IT Act Section 69-A immunity), and details about the video being accessible outside India. Content B only provides brief one-line summaries for each result without these specifics, making it less useful for an LLM to construct a detailed, accurate answer about the charges and details of the case. Both lack any 2026-specific information, but Content A's greater factual density makes it more useful for answering the substantive parts of the question (charges, details, case specifics) that are answerable from the available anchor context."
+}

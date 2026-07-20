@@ -1,0 +1,11 @@
+{
+  "id": 616,
+  "query": "Suno AI v4.5 release date maximum song length eight minutes Pro Premium features changelog",
+  "topic": "Suno AI",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Lacks an explicit stated release date within the snippets themselves (only inferable from the MBW article's publish date of May 8, 2025); one result (general release-notes page) mixes in unrelated v5.5/audio-input info that isn't clearly separated from v4.5.",
+  "b_issues": "The primary date source (NexaLuna) contains a self-contradictory statement, first claiming v4.5 launched 'at the end of May 2024' before an inserted editor's note corrects it to May 1, 2025 — this contradiction could confuse an LLM. Feature/changelog detail is thinner (no mention of mashups, prompt-enhancement helper, or the full vocal/genre feature list found in the official blog). Reliance on Reddit/Facebook/YouTube snippets is less authoritative than official Suno sources.",
+  "reasoning": "Content A draws directly from Suno's own blog and a reputable trade publication (Music Business Worldwide), giving accurate, detailed, and internally consistent information on the 8-minute max length increase, Pro/Premier access, and a rich list of v4.5 features (vocals, mashups, Covers/Personas, mix improvements). Its only weakness is not stating an explicit release date in the snippet text, though the MBW article's dateline (May 8, 2025) provides a close proxy. Content B does surface an explicit 'May 1, 2025' date, but its main source for this is internally contradictory (first saying 'end of May 2024' then correcting itself), which is a more serious reliability problem, and its feature/changelog coverage is comparatively sparse and drawn from less authoritative sources (Reddit, Facebook, a YouTube tutorial). On balance, Content A provides more reliable, accurate, and complete information for the feature/changelog portions of the question, while both are similarly weak on stating the exact date outright; B's date info, though present, is undermined by contradiction. A is therefore the stronger set for correctly answering the full question."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 708,
+  "query": "$1.72 per ticket overcharge treble damages total amount Live Nation Ticketmaster Clayton Act jury verdict 2026",
+  "topic": "Ticketmaster DOJ lawsuit",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Contains some speculative/estimated figures (e.g., Thompson Coburn's $688M/$2B class action projections) that are separate calculations from the actual jury verdict, which could be confused with the states' case treble damages; the exact total treble damages figure for the states' case is not definitively stated (only estimated at 'could reach $450 million').",
+  "b_issues": "None of the results provide a total treble damages dollar figure for the states' verdict; sources confirm the $1.72 per ticket overcharge and note treble damages will be determined in a later remedies phase, but no estimated total (like the $450 million figure in A) is given, leaving the question about 'total amount' unanswered.",
+  "reasoning": "Both sets confirm the core fact: a federal jury found Live Nation/Ticketmaster liable and determined a $1.72 per ticket overcharge under the Clayton Act framework. However, Content A goes further by providing specific estimated total treble damages figures (Live Nation's own estimate of ~$450 million for the states' case, and separate class action projections), which directly addresses the 'total amount' portion of the question. Content B's sources (Winston & Strawn, TradingView, Yahoo Finance, allaboutlawyer.com) confirm the $1.72 figure and liability but explicitly state the treble damages amount is still to be determined in the remedies phase, without offering any estimated total. This makes Content A more complete in answering the full question, despite some of its figures being projections/estimates rather than finalized court awards. Content A's sources (Crowell & Moring, Thompson Coburn) are also reliable legal analysis firms directly discussing the case's damages implications."
+}

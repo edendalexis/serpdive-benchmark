@@ -1,0 +1,11 @@
+{
+  "id": 737,
+  "query": "Al Aqsa Mosque access restrictions 12 consecutive days Israel Jerusalem 2025 latest report",
+  "topic": "Israel-Hamas conflict",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Relies partly on Instagram reels as corroborating sources, which are less authoritative, though they align with the core fact.",
+  "b_issues": "Does not contain any result mentioning the specific '12 consecutive days' closure; results reference 10-day and 40-day closures instead, failing to directly answer the query.",
+  "reasoning": "Content A includes the exact Al Jazeera article matching the anchor, explicitly stating Israel closed Al-Aqsa Mosque for 12 consecutive days, directly answering the query. Content B lacks any source confirming the 12-day figure, instead providing tangential data about 10-day and 40-day closures, which would lead to an inaccurate or incomplete answer."
+}

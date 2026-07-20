@@ -1,0 +1,11 @@
+{
+  "id": 79,
+  "query": "99th Academy Awards same actor multiple nominations same acting category AMPAS rule 2026",
+  "topic": "Academy Awards Oscars",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Includes a raw PDF table-of-contents excerpt that doesn't actually state the multiple-nomination rule, and a Wikipedia article that is tangential (about historical multi-noms) rather than the new rule itself, adding little value; relies mainly on secondary reporting for the actual rule text.",
+  "b_issues": "The official Academy press-office excerpt included doesn't directly quote the specific acting-rule text (it focuses on AI/eligibility details), so confirmation of the exact wording still relies on secondary sources, but this is a minor gap.",
+  "reasoning": "Both sets contain the core answer (actors can now receive multiple nominations in the same acting category if their performances rank in the top five votes, effective for the 99th Oscars) via Variety, IGN, and Deadline excerpts, and neither contradicts itself. Content B, however, also includes an excerpt directly from the official Academy press release (press.oscars.org), lending stronger primary-source credibility, and its four results are all directly on-topic. Content A pads its results with a Wikipedia page about historical multi-nominations and a PDF table of contents that doesn't mention the rule, which adds noise without adding accuracy or reliability. Thus B slightly better supports a correct, well-sourced answer."
+}

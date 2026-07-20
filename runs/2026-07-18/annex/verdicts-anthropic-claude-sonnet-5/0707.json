@@ -1,0 +1,11 @@
+{
+  "id": 707,
+  "query": "Live Nation retain Ticketmaster ownership SeatGeek StubHub platform access DOJ settlement terms 2026",
+  "topic": "Ticketmaster DOJ lawsuit",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Does not explicitly name SeatGeek or StubHub, and never explicitly states that Live Nation retains ownership of Ticketmaster (only implies it via 'at risk of being separated' and no breakup mentioned). Details are more general (fee caps, damages) without the specific platform-access wording the query asks about.",
+  "b_issues": "Minor: doesn't mention StubHub by name (only SeatGeek and Eventbrite), and Wikipedia source is less authoritative, though facts align with other results.",
+  "reasoning": "The query specifically asks about Live Nation retaining Ticketmaster ownership and SeatGeek/StubHub platform access terms. Content B explicitly states via Thompson Coburn that 'Live Nation retains Ticketmaster but must open its venues to rival ticketing services,' and via Politico that 'third-party sellers such as SeatGeek or Eventbrite' can list tickets through Ticketmaster's technology—directly answering the query's core asks with specific named platforms. Content A only vaguely references 'competitors' and 'rival ticket sellers' without naming SeatGeek or StubHub, and never explicitly confirms retained ownership. Both sets are reasonably reliable (mainstream outlets), but B's content is more precisely responsive to the specific facts requested in the query."
+}

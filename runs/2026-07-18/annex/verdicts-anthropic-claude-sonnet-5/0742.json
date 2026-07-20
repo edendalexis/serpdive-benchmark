@@ -1,0 +1,11 @@
+{
+  "id": 742,
+  "query": "Supreme Court ruling Mexico $10 billion lawsuit gun manufacturers decision outcome",
+  "topic": "U.S. Supreme Court",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "None significant; both results (PBS/AP and SCOTUSblog) accurately and consistently describe the unanimous ruling, the $10 billion figure, the PLCAA basis, and Kagan's opinion. Slightly less redundancy/confirmation than B but still sufficient and accurate.",
+  "b_issues": "None significant; multiple sources (Forbes, PBS/YouTube, NY Post, AP) consistently confirm the unanimous 9-0 ruling, the $10 billion figure, and the outcome that the lawsuit was blocked/dismissed under PLCAA. Slightly more redundant with less detail on legal reasoning than A's SCOTUSblog excerpt.",
+  "reasoning": "Both content sets correctly and consistently convey the core facts: the Supreme Court unanimously (9-0) ruled against Mexico, dismissing its $10 billion lawsuit against U.S. gun manufacturers under the PLCAA, with Justice Kagan writing the opinion. Content A includes the SCOTUSblog excerpt which adds legal detail (Kagan quote, Thomas concurrence, procedural history) giving deeper substantive backing. Content B has more source diversity and repeated confirmation of the outcome (Forbes, NY Post, AP, PBS) but is more repetitive without added legal nuance. Both are accurate and non-contradictory, drawing from reliable sources (AP, SCOTUSblog, Forbes, NY Post, PBS). Given equivalent accuracy and reliability, this is a tie, with A having slightly more legal depth and B having slightly more corroborating breadth — roughly offsetting advantages."
+}

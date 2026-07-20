@@ -1,0 +1,11 @@
+{
+  "id": 409,
+  "query": "EU AI Act maximum fines prohibited AI violations Article 71 35 million 7 percent turnover official text 2026",
+  "topic": "EU AI Act",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "All five sources in A consistently state the correct figure (€35 million or 7% of global turnover, whichever is higher) for prohibited AI practices, aligning with Article 99(3) of the final Regulation. No internal contradictions were found; sources are reasonably reliable compliance/legal blogs.",
+  "b_issues": "Content B is mostly accurate (DLA Piper, RAIL, SSRN all cite €35M/7%), but it includes a source (euaiact.com) stating 'Art 71(3) ... €40 million — 7%', which is an outdated/incorrect draft figure that contradicts the correct final €35M figure cited elsewhere in the same result set. This internal inconsistency could mislead an LLM into citing the wrong monetary cap.",
+  "reasoning": "Both content sets largely agree on the core fact that prohibited AI practice violations carry a maximum fine of €35 million or 7% of global turnover, matching the anchor's reference to Article 99. However, Content B contains a contradictory data point (€40 million from euaiact.com) that conflicts with its own other sources and the correct legal text, introducing risk of an incorrect answer. Content A has no such contradiction and consistently reinforces the correct €35M/7% figure across all results, making it the more reliable and internally consistent source set."
+}

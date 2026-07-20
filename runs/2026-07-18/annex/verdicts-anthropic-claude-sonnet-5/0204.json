@@ -1,0 +1,11 @@
+{
+  "id": 204,
+  "query": "Shohei Ohtani 2026 ESPY Awards specific categories won list",
+  "topic": "Shohei Ohtani",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "One embedded Yahoo snippet ambiguously mentions 'Wins Best Athlete In Men's Sports At ESPYs' which could be seen as an additional/possibly conflicting category, but the dominant, repeated, and most reliable sources (ESPN Press Room official release, Billboard, Threads, USA Today) consistently and explicitly confirm Ohtani won Best Single-Game Performance and Best MLB Player, matching the anchor closely.",
+  "b_issues": "Sources are fragmented and less conclusive: the Yahoo article only covers nominations, not wins; dodgerblue.com/yardbarker only vaguely state 'won two of three' without naming which two; Hindustan Times explicitly lists Ohtani as WINNER of 'Best Athlete, Men's Sports' (not mentioned in the anchor) while leaving Best MLB Player/Best Single-Game Performance fields blank in the shown snippet; hollywoodlife.com's snippet is garbled/hard to parse, only clearly confirming Best MLB Player. No source in B directly and clearly states Ohtani won Best Single-Game Performance, which is one of the two categories confirmed by the anchor.",
+  "reasoning": "The anchor confirms Ohtani won exactly two ESPYs: Best Single-Game Performance and Best MLB Player. Content A provides multiple consistent, reliable sources (including the official ESPN Press Room release) that explicitly name both categories, closely mirroring the anchor. Content B's results are more scattered and ambiguous, lacking a clear, direct statement that Ohtani won Best Single-Game Performance, and introduces a different/additional category (Best Athlete, Men's Sports) as a 'WINNER' without reconciling it with the other claims, making it harder for an LLM to give a fully accurate, consistent answer."
+}

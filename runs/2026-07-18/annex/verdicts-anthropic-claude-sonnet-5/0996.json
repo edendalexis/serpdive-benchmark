@@ -1,0 +1,11 @@
+{
+  "id": 996,
+  "query": "True Detective Night Country total viewership numbers HBO statistics",
+  "topic": "True Detective",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; all figures (12.7M season average, 3.2M finale, 2.6M episode 2, 5M episode 5, 7.5M premiere cumulative) align with the anchor's reported numbers.",
+  "b_issues": "Provides the same core figures (12.7M average, 3.2M finale) but with less granularity — no episode-by-episode breakdown, no premiere growth data, no comparison to other HBO shows, and relies partly on a Reddit thread as a source, which is less authoritative.",
+  "reasoning": "Both sets are factually consistent with the anchor and each other, citing the 12.7M season average and 3.2M finale figures. However, Content A offers substantially more detail: episode 2 viewership (2.6M), premiere growth to 7.5M, episode 5's 5M, HBO linear-only breakdown (0.6-0.7M), and comparative context with other HBO shows (White Lotus, Succession, Euphoria). This gives a more complete and nuanced picture of 'total viewership numbers' as asked, whereas Content B is more repetitive across sources with less unique statistical detail and includes a lower-reliability Reddit source."
+}

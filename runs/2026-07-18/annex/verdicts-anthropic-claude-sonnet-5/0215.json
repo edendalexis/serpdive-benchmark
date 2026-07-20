@@ -1,0 +1,11 @@
+{
+  "id": 215,
+  "query": "Lil Tay Sophie Rain OnlyFans earnings dispute total amount claimed since launch verification",
+  "topic": "Lil Tay",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Completely irrelevant results about Lil Wayne, spelling of 'Lil', and unrelated YouTube channel - contains no information about Lil Tay, Sophie Rain, or OnlyFans earnings dispute at all.",
+  "b_issues": "Minor inconsistency in tip amounts between sources ($27,405 vs $26,000) but otherwise provides relevant, consistent facts about the $15 million claim, $1 million in three hours claim, Sophie Rain's skepticism, and detailed breakdown of earnings.",
+  "reasoning": "Content A is entirely off-topic, returning results about Lil Wayne and generic 'Lil' spelling discussions with no connection to the actual query about Lil Tay/Sophie Rain OnlyFans dispute. Content B directly addresses the query with specific, relevant details: the $15 million claim over two weeks, the $1 million in three hours claim, Sophie Rain's public doubt and TikTok response, and a detailed breakdown of the earnings screenshot (subscriptions, tips, private messages). This aligns well with the anchor reference. Content B is clearly superior for answering this question."
+}

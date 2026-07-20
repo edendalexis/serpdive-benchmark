@@ -1,0 +1,11 @@
+{
+  "id": 747,
+  "query": "Supreme Court Oklahoma $4.5 million federal family planning funds abortion referral mandate ruling",
+  "topic": "U.S. Supreme Court",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A's results are only short snippets/titles from search results without substantive detail - no mention of the vote breakdown, the underlying legal dispute details, the 10th Circuit ruling, or other specifics needed to fully answer the question. It relies on the requester to infer facts from truncated 1-2 sentence blurbs.",
+  "b_issues": "Contains one irrelevant result (KGOU article about mifepristone, unrelated to the Oklahoma family planning funds case), which could mildly confuse the answer, but the other four results are highly relevant and detailed.",
+  "reasoning": "Content B provides richer, more substantive excerpts from AP News, SCOTUSblog, Courthouse News, and NBC News that include the key facts needed to answer accurately: the $4.5 million figure, the 3-justice dissent (Thomas, Alito, Gorsuch), the Title X/abortion referral hotline dispute, the 10th Circuit's prior ruling, and background on the Biden administration's policy reversal. Content A's snippets are much thinner, mostly just repeating the headline facts (date, $4.5 million, rejection) without the deeper context found in the anchor's own AP News article. Despite one irrelevant result in B, its overall content is more complete, accurate, and better sourced for correctly answering the question."
+}

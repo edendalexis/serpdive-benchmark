@@ -1,0 +1,11 @@
+{
+  "id": 598,
+  "query": "COP30 Global Implementation Accelerator COP Presidencies establishment national climate actions",
+  "topic": "COP climate summit",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A never surfaces the core UNFCCC Global Implementation Accelerator page itself; results are tangential (Executive Report announcement, Action Agenda, WGBC commentary, tralac resource page) and only mention GIA in passing without detailing its mandate or the joint COP30/COP31 Presidency governance structure. An LLM using only this content would struggle to state the specific mandate and establishment details.",
+  "b_issues": "Content B's snippet from the key UNFCCC GIA page is brief and doesn't include the full mandate text, but it does confirm the decision (Global Mutirão), the establishment under COP30/COP31 Presidencies, and its role relative to the Action Agenda. Some tangential results (YouTube video, WRI outcomes piece) add less value but don't detract from accuracy.",
+  "reasoning": "Content B includes the exact anchor URL (unfccc.int GIA page) plus the Executive Report announcement, giving direct confirmation of the GIA's launch, its facilitative/voluntary nature, and joint Presidency guidance—closely matching the anchor's authoritative facts. Content A lacks this direct source entirely, forcing reliance on secondary/tangential pages that don't clearly establish the specific mandate or Presidency governance details, making it less reliable for correctly answering the question."
+}

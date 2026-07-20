@@ -1,0 +1,11 @@
+{
+  "id": 877,
+  "query": "Andy Burnham vs candidates Labour leadership contest 2026 latest polling MP endorsements",
+  "topic": "Keir Starmer",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Relies heavily on low-reliability sources (Instagram posts, Facebook posts) for the key MP endorsement figures (322, then unspecified 'hundreds more'); lacks any concrete polling percentages comparing Burnham to other figures; Wikipedia entry is useful context but doesn't give current endorsement/polling numbers itself.",
+  "b_issues": "Does not include the more recent 322/349 MP tally distinction clearly contextualized versus the anchor's 322 figure (uses 349 from a slightly different context), and lacks a dedicated 'latest polling' source with membership polling (e.g. YouGov/Ashcroft), though it does include a head-to-head poll figure.",
+  "reasoning": "Content B draws from ITV News, a reliable mainstream outlet, and provides concrete, directly relevant facts: the number of MPs needed to block a challenger (81), an updated nomination count (349), and actual head-to-head polling data (59% Burnham vs 37% Starmer) with named pollster Luke Tryl/More in Common. This directly addresses both 'polling' and 'MP endorsements' aspects of the question with attributable, credible sourcing. Content A's core endorsement number (322) comes from an Instagram post and a vague Facebook post ('hundreds of new endorsements'), which are less reliable and less precise; it lacks any real polling percentages for the Burnham vs candidates comparison, relying only on background Wikipedia context about the crisis. Thus B better enables an accurate answer to the specific query about polling and endorsements, despite both sets lacking a comprehensive polling breakdown of Burnham's Labour leadership standing among other named candidates (since Burnham ran unopposed)."
+}

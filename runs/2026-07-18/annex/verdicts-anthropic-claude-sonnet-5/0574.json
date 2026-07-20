@@ -1,0 +1,11 @@
+{
+  "id": 574,
+  "query": "Claudia Sheinbaum \"América Mexicana\" name proposal 2026 global map briefing",
+  "topic": "Claudia Sheinbaum",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Only one source, from a less authoritative entertainment/pop-culture site (We Got This Covered) that itself cites another outlet (Sydney Morning Herald) rather than being a primary report; lacks corroborating detail like the exact map date or full quote.",
+  "b_issues": "Minor inconsistency: one result cites a '1661 world map' while other reporting (and the anchor) mentions a '17th-century map' generally and the 1607 naming date; otherwise facts align with the anchor and are corroborated by reliable outlets (AP, NBC).",
+  "reasoning": "Both sets capture the core fact that Sheinbaum, standing before a map, jokingly proposed renaming North America 'América Mexicana' citing the 1814 Apatzingán Constitution, in response to Trump's Gulf of America proposal. However, Content B draws from multiple higher-reliability sources (AP News, NBC News, YouTube/France24, Facebook) that corroborate and add detail (specific quotes, map date, constitutional reference), reducing risk of error and providing redundancy. Content A relies on a single lower-tier entertainment site that itself sources another outlet, offering less reliability and cross-verification despite still being factually consistent with the anchor. Thus B better enables a correct, well-supported answer."
+}

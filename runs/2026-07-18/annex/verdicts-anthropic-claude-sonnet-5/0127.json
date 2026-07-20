@@ -1,0 +1,11 @@
+{
+  "id": 127,
+  "query": "Japan male-only imperial succession Takaichi policy proposal 2026 status",
+  "topic": "Japan Prime Minister",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Relies partly on social media posts (Instagram, Facebook) as sources, which are less reliable and provide fragmented, decontextualized information. Lacks detailed explanation of the final law's provisions and passage; content is thin on the actual current status of the policy in mid-2026 (just headline snippets from Feb 2026).",
+  "b_issues": "No major factual issues; sources are consistent and reputable news outlets (BBC, France24, Mainichi, Courthouse News, CNN, KOSU) giving a coherent timeline from Takaichi's February 2026 remarks through the July 2026 passage of the law.",
+  "reasoning": "Content B provides multiple reliable, mainstream news sources with detailed, consistent information on the current status of the male-only succession policy: Takaichi's public stance, the specific provisions of the revised Imperial House Law (adoption of male-line descendants aged 15+, princesses retaining status after marriage), the current line of succession, and even direct commentary on the irony of a female PM backing male-only succession. Content A instead includes unreliable sources (Instagram, Facebook screenshots) and provides less substantive detail on the final legislative outcome, making it a weaker basis for answering the question accurately and completely."
+}

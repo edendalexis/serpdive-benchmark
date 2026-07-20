@@ -1,0 +1,11 @@
+{
+  "id": 858,
+  "query": "SAG-AFTRA Sean Astin president Michelle Hurd secretary-treasurer 2025 election term length start date",
+  "topic": "SAG-AFTRA",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A's Deadline result does include the key facts (two-year term, percentages, 'begin terms immediately'), but the second result is just a pre-election article about Astin running, which doesn't confirm results or dates. A lacks an explicit start date beyond 'immediately' and has fewer corroborating sources.",
+  "b_issues": "Slightly redundant duplicate Yahoo entries, but no factual inaccuracies; content is consistent across sources.",
+  "reasoning": "Both sets contain the core facts: two-year term length, vote percentages, and that terms began immediately upon election (September 12, 2025). However, Content B provides multiple corroborating sources (Deadline, InsideRadio, Yahoo x2, BleedingCool) that consistently state the two-year term and explicitly note 'beginning their two-year terms today,' reinforcing the start date. Content A's second source is outdated (pre-election) and doesn't add confirming information about the election outcome or start date, making B's set stronger and more redundant/reliable for answering the specific question about term length and start date."
+}

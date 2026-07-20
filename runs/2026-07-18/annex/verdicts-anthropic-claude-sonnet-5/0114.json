@@ -1,0 +1,11 @@
+{
+  "id": 114,
+  "query": "Chaumet new High Jewelry collection nature inspired unveil July 2026 LVMH",
+  "topic": "LVMH",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; content is consistent and includes an explicit date match (July 16, 2026) confirming the query's timeframe, alongside details on the 46-piece collection, its three chapters, and the bee brooches motif.",
+  "b_issues": "Includes a confusing, mostly irrelevant Instagram snippet about an unrelated enamel collection and other LVMH brands (Bulgari, Loewe) that could mislead an LLM. Lacks an explicit July 2026 date confirmation, making it harder to verify the timing specified in the query.",
+  "reasoning": "Both sets identify 'A Journey Through Nature' as the new 46-piece, three-chapter, nature-inspired Chaumet High Jewelry collection unveiled at the Abbaye des Vaux-de-Cernay, backed by LVMH.com sources. However, Content A additionally includes a marketscreener.com result explicitly dated 'Published on 07/16/2026,' directly confirming the July 2026 timeframe from the query. Content B lacks this explicit date confirmation and instead includes a noisy, tangential Instagram result about a different enamel-based collection and unrelated LVMH brands, which could confuse an LLM attempting to answer precisely. Thus, Content A more reliably and clearly supports a correct answer."
+}

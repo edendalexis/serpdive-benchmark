@@ -1,0 +1,11 @@
+{
+  "id": 863,
+  "query": "FDA official resolution semaglutide Wegovy Ozempic drug shortage February 2025 compounding pharmacy exemptions",
+  "topic": "Ozempic and Wegovy",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "None of the snippets are inaccurate, but Content A relies entirely on secondary sources (law firm blogs, USA Today, Optimantra) and never surfaces the official FDA.gov page itself, so an agent must infer compounding exemption details (503A/503B dates, tirzepatide status) indirectly through the Alston & Bird summary rather than from FDA's own wording.",
+  "b_issues": "No factual errors; content is accurate and well-aligned with the anchor, though it also relies on secondary interpretation for some details (e.g., Alston & Bird) rather than the original Declaratory Order PDF.",
+  "reasoning": "Content B includes the actual FDA.gov page ('FDA clarifies policies for compounders as national GLP-1 supply begins to stabilize'), which directly addresses the compounding pharmacy exemptions under 503A/503B, the April 22/May 22, 2025 deadlines, and even notes tirzepatide's shortage resolution — all directly relevant and authoritative. Content A lacks any direct FDA source, relying solely on secondary legal/news commentary, which, while accurate, is less authoritative and requires more inference. Both agree on core facts (Feb 21, 2025 resolution, 503A/503B deadlines), but B's inclusion of the primary FDA source gives it an edge for accuracy and completeness on compounding exemptions."
+}

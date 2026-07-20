@@ -1,0 +1,11 @@
+{
+  "id": 4,
+  "query": "General Electric Venezuela electricity grid contract terms value Delcy Rodriguez 2026",
+  "topic": "Venezuela election crisis",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "No source explicitly gives a monetary contract value; relies on MW capacity targets. Includes some inconsequential detail (ministers) but overall consistent with anchor facts.",
+  "b_issues": "No source explicitly gives a monetary contract value; includes lower-quality/social media sources (Instagram, Facebook) that add little verifiable detail, but their content is consistent with the higher-quality sources.",
+  "reasoning": "Both content sets present the same core facts: Delcy Rodríguez signed an MOU with GE Vernova to add 1,000 MW within 24 months and 5,000+ MW over four years, involving Corpoelec/US backing, matching the BBC anchor. Neither set contains an actual monetary contract value, which the question seeks, so both are equally incomplete on that specific point. Content A draws from slightly more authoritative outlets (Le Monde, BBC, Hurriyet, teleSUR) while Content B includes some social media posts of lower reliability but also adds a bit more context (7,000 MW five-year goal). Neither introduces factual contradictions, and both are roughly equal in usefulness for answering the question."
+}

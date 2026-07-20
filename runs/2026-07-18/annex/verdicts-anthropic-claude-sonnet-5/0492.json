@@ -1,0 +1,11 @@
+{
+  "id": 492,
+  "query": "Save Wimbledon Park Court of Appeal challenge status date hearing 2026",
+  "topic": "Wimbledon",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "The BBC snippet's reference to a 'hearing... due to take place in January 2026' is ambiguous and could be misread as referring to the Court of Appeal hearing when it actually concerns the separate trust/covenant case, but this is only a minor ambiguity; the core facts (permission granted 18 Nov 2025, two-day appeal hearing to be held in 2026 with date not yet confirmed) are accurate and consistent across sources.",
+  "b_issues": "Contains an internal contradiction: savewimbledonpark.org gives '16th January 2026' as the date permission was granted to appeal to the Court of Appeal, while Russell-Cooke (same result set) and the anchor confirm the actual grant date was 18 November 2025. Most of the remaining results (cjag, NYT, Putney Jan 25 2026 article) actually discuss a different, separate High Court trial in January 2026, not the Court of Appeal hearing, but nothing in the content clarifies this distinction, risking conflation of the two proceedings and reporting a wrong or unconfirmed CoA hearing date.",
+  "reasoning": "Content A presents a consistent, accurate picture matching the anchor: permission granted 18 Nov 2025, appeal to be heard in 2026 over two days, exact date still unconfirmed. Content B introduces a conflicting date (16 Jan 2026) for the permission grant itself, contradicting the well-established 18 Nov 2025 date, and its other results largely pertain to an unrelated January 2026 High Court trial rather than the Court of Appeal hearing, creating potential for a materially incorrect answer. Therefore Content A better supports a correct answer."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 643,
+  "query": "Berkshire Hathaway Tokio Marine Holdings stake acquisition percentage cost 2026",
+  "topic": "Berkshire Hathaway",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Some results round the stake to 2.5% instead of the precise 2.49% (though one result, investing.com, correctly states 2.49%). None of A's snippets mention the potential 9.9% growth cap, but this is not essential to answering the core question about the initial stake percentage and cost.",
+  "b_issues": "One result (Yahoo/Edge Malaysia) contains a contradictory cost figure, stating the investment is '$1.8 billion or $2.3 billion,' which introduces confusion about the actual cost. Another result mixes in unrelated figures ($35.4 billion trading-house stake value) that could be mistaken as relevant to the Tokio Marine deal.",
+  "reasoning": "Both sets correctly identify the core facts: a 2.49% (rounded to 2.5% in some A sources) stake for approximately $1.8 billion (¥287.4 billion). B provides additional accurate context (9.9% cap, deal mechanics) that matches the anchor closely, but it also contains an internal contradiction with a second dollar figure ($2.3 billion) that could mislead an LLM about the cost—the exact figure the question asks for. A's sources are consistent on the $1.8 billion cost across all results, with only minor rounding differences in the percentage (2.5% vs 2.49%), which is not a substantive error. Since cost accuracy is central to the question and B introduces a contradictory figure there, A is more reliable for a correct answer."
+}

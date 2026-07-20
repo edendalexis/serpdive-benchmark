@@ -1,0 +1,11 @@
+{
+  "id": 467,
+  "query": "Palworld 1.0 fishing spots difficulty location new islands settlements Sun Reach region",
+  "topic": "Palworld",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A relies heavily on a YouTube video description (SpookyFairy) which, while listing Sunreach as a fishing location, gives no concrete difficulty tiers, level ranges, or specific spot names for Sunreach itself—just timestamps. The pindrop.gg snippet included talks about Master Lv50-60 spots at Isle of Glacial Core and Rayne Oil Rig, not Sunreach, so it doesn't directly address the Sunreach-specific part of the query. No source explicitly ties difficulty/new fishing spots to Sunreach.",
+  "b_issues": "The pindrop.gg snippet in B focuses on Intermediate Lv22-37 spots in Forest region/Volcano Island rather than Sunreach, so it doesn't add Sunreach-specific difficulty data either. Game8 and GameSpot entries are mostly about reaching Sunreach and general patch notes rather than fishing specifics.",
+  "reasoning": "Content B contains a direct, explicit statement from the Fandom Version 1.0 page: 'New high-difficulty fishing spots have been added to Sunreach and the World Tree. Bring Pals that can assist with fishing and take on the highest-tier fishing challenges,' which directly answers the query about fishing spot difficulty and location in the Sunreach region. It also mentions settlement overhauls across the map (new NPCs, sub-missions), tying into the 'new islands settlements' part of the query. Content A's most relevant source is a YouTube video description that mentions Sunreach as a fishing location but provides no concrete difficulty or level data for it, and the other sources in A are about reaching Sunreach or general fishing spot lists unrelated to Sunreach specifically. Thus B provides more directly relevant and specific facts for answering the question."
+}

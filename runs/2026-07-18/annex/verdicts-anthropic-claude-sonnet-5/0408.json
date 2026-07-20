@@ -1,0 +1,11 @@
+{
+  "id": 408,
+  "query": "EU AI Act AI Omnibus provisional agreement adoption date European Parliament Council final vote 2026",
+  "topic": "EU AI Act",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Does not explicitly state the Council's final adoption date (29 June 2026, per anchor's nicfab source); focuses mainly on Parliament's 16 June vote and notes Council approval only as 'expected before 2 August 2026.' Featured snippet's date '(Jun 22, 2026)' is just the article publish date, not an adoption date, which could mildly confuse a reader.",
+  "b_issues": "All sources only report the 7 May 2026 provisional agreement and state the Parliament vote is merely 'scheduled'/'due' for the June session, without confirming the actual EP vote occurred on 16 June 2026 or providing the vote tally. No mention of the Council's final adoption date at all, leaving the query only partially answered.",
+  "reasoning": "The question asks about the provisional agreement and the final EP/Council votes/adoption dates. Content A supplies concrete, confirmed facts: provisional agreement on 7 May 2026, EP final vote on 16 June 2026 with a specific tally (423-57), and notes Council approval expected before 2 August 2026 — closely aligning with the anchor's confirmed EP approval date. Content B only reaches the point of a 'scheduled' Parliament vote without confirming it took place, and omits any vote count or Council-related adoption info, making it less complete and more likely to leave an LLM answering with outdated/uncertain information. Neither includes the exact 29 June 2026 Council final adoption date, but A is closer to fully and correctly answering the question."
+}

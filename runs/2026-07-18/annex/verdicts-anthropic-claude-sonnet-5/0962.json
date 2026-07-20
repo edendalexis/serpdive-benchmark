@@ -1,0 +1,11 @@
+{
+  "id": 962,
+  "query": "Narendra Modi cabinet July 15 2026 semiconductor electronics manufacturing policy approvals",
+  "topic": "Narendra Modi",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor: date-relative phrasing ('3 days ago') requires inference of actual date, but content itself is accurate and directly relevant to the July 15 2026 cabinet approvals (Semicon 2.0 and MPMS), matching the anchor's core facts.",
+  "b_issues": "Includes an outdated/irrelevant YouTube result dated 2 April 2026 that predates the actual cabinet approval, and a PIB link about an earlier, unrelated approval of two semiconductor units, which could mislead the model about the timeline. Lacks direct details on the Mobile Phone Manufacturing Scheme (MPMS) that accompanied the Semicon 2.0 approval on July 15, 2026.",
+  "reasoning": "Both sets confirm the Rs 1.27 lakh crore Semicon 2.0 approval matching the anchor, but Content A provides a more complete and internally consistent picture: it includes the PMO's own announcement of the Mobile Phone Manufacturing Scheme (MPMS) with specific incentive rates, job creation figures, and scheme tenure, plus PIB and Telegraph corroboration of Semicon 2.0 details (design pillar, ISM 1.0 progress). Content B's results are more Semicon 2.0-focused but include an outdated April 2026 video and an unrelated earlier PIB approval, which could confuse the timeline and omit the MPMS specifics that are part of the same cabinet meeting's broader electronics manufacturing policy approvals."
+}

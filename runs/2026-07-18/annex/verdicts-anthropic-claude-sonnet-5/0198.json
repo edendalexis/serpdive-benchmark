@@ -1,0 +1,11 @@
+{
+  "id": 198,
+  "query": "Apple Google Gemini multi-year partnership announcement date 2026",
+  "topic": "Apple Intelligence",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor: some sources (introl, tech-insider, camphouse) are lesser-known blogs, but all consistently state the announcement date as January 12, 2026, matching the reliable Google blog and CNBC sources. No internal contradictions.",
+  "b_issues": "Relies partly on low-reliability social media posts (Instagram, Facebook) for the core date confirmation. Also includes a gadgethacks article that introduces a different date (Jan 14, 2026) for a related Gemini feature, which could confuse an LLM into misattributing the partnership announcement date. This creates a mild internal contradiction within the result set.",
+  "reasoning": "Both content sets ultimately support the correct answer (January 12, 2026) via the same official Google/Apple joint statement. However, Content A sources are more consistent and journalistically reliable (CNBC, TechCrunch-style reporting via Reuters anchor context), while Content B mixes in unreliable social media posts and a confusing secondary date reference that could mislead an LLM about the exact announcement date. Thus Content A better enables a correct, unambiguous answer."
+}

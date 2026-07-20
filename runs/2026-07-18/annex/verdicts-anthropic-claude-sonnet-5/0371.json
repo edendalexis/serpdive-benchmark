@@ -1,0 +1,11 @@
+{
+  "id": 371,
+  "query": "OpenAI Disney 1 billion content collaboration status cancellation",
+  "topic": "Sora OpenAI",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Includes lower-quality social media sources (X post, Facebook post) that add little substantive detail, though they don't introduce factual errors.",
+  "b_issues": "Hollywood Reporter snippet is thin and doesn't provide details about the Disney deal cancellation specifically; overall less detail on the mechanics/status of the deal collapse (e.g., no mention of no money changing hands, no definitive agreements executed, or OpenAI's stated strategic reasons).",
+  "reasoning": "Both sets confirm the core fact: OpenAI shut down Sora and consequently cancelled/scuttled the $1B Disney investment/licensing deal. However, Content A provides richer, more specific detail relevant to 'status' of the deal via the Ropes Gray legal analysis (deal was in infancy, no money changed hands, no definitive agreements executed, 30-minute notice to Disney, OpenAI's stated pivot to coding/enterprise/AGI) plus BBC and Ars Technica corroboration. Content B covers the same core event but with less depth on deal status specifics — the Hollywood Reporter entry is essentially just a headline restating the Sora shutdown without Disney deal details, making B's set slightly less comprehensive for answering the 'status/cancellation' nuance of the question."
+}

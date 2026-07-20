@@ -1,0 +1,11 @@
+{
+  "id": 724,
+  "query": "Temu US direct sales cease date May 2025 de minimis exemption Trump",
+  "topic": "Temu",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "ChinaTalk source states Temu suspended marketing investment on May 1, which is a slightly different fact from halting direct shipments, potentially causing minor date confusion; otherwise sources are accurate.",
+  "b_issues": "Includes a low-quality Facebook post as a source, though its content aligns with the other reliable sources; otherwise accurate.",
+  "reasoning": "Both sets contain the core answer (Temu halted direct-from-China shipments on May 2, 2025, due to the end of the de minimis exemption) via the BBC article and CNN/Forbes coverage of the later August suspension. However, Content B adds a dedicated Axios article directly confirming the May 2 event with clear detail and a spokesperson quote, reinforcing the date without introducing any conflicting timeline. Content A includes a ChinaTalk piece that cites May 1 for a related but distinct action (marketing investment suspension), which could create minor timeline ambiguity. Both are largely equivalent in reliability, but B's sourcing is slightly more directly aligned and consistent with the anchor's date and facts."
+}

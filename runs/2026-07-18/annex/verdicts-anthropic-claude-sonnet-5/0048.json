@@ -1,0 +1,11 @@
+{
+  "id": 48,
+  "query": "Bayern München PSG 2025/26 UEFA Champions League semi-finals aggregate score result",
+  "topic": "UEFA Champions League",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Includes an irrelevant Wikipedia entry about the 2026-27 season that could be mildly confusing (mentions future semi-final dates), but core facts (5-4 first leg to PSG, 1-1 second leg, 6-5 aggregate, PSG to face Arsenal in Budapest) are accurate and consistent with the anchor.",
+  "b_issues": "Includes a messy/garbled Facebook post as a source, which is less authoritative and hard to parse, but its content (5-4 first leg, 1-1 second leg, 6-5 aggregate) still matches the anchor. Other sources (Al Jazeera, UEFA.com) confirm the same facts without contradiction.",
+  "reasoning": "Both sets independently corroborate the same correct facts as the anchor: PSG won 5-4 in the first leg in Paris, the second leg in Munich ended 1-1, and PSG advanced 6-5 on aggregate to face Arsenal in the final. Content A provides this via a clean featured snippet plus Yahoo, ESPN, and Bundesliga sources, with one irrelevant but non-contradictory Wikipedia result. Content B provides the same facts via Al Jazeera, UEFA.com match pages, and a messy Facebook post, all consistent with each other and the anchor. Neither set contains factual contradictions relative to the anchor, and both would allow an LLM to correctly answer the question equally well."
+}

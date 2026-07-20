@@ -1,0 +1,11 @@
+{
+  "id": 486,
+  "query": "WGAW Los Angeles Awards Show canceled picket line strike announcement date reason",
+  "topic": "The WGA",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "The wga.org excerpt in A focuses mainly on award honorees and logistics, omitting the actual stated reason for cancellation (the staff strike) from the official press release. The announcement date is inferable only indirectly via other sources.",
+  "b_issues": "No major factual errors; slightly less detail on the 82% strike authorization percentage, but this is a minor omission not affecting core answer.",
+  "reasoning": "Both sets converge on the same core facts (LA ceremony canceled, scheduled for March 8, 2026; reason being the WGAW staff union strike that began Feb 17, 2026; announcement made Sunday, March 1, 2026). However, Content B's wga.org excerpt directly states the official reason ('as the WGAW staff union's strike continues') and includes a clear letter quote citing 'would not ask... to cross a picket line,' plus the staff union's own statement, giving a fuller, more authoritative picture of the cancellation's cause and context. Content A's wga.org excerpt, in contrast, is largely about award honorees and logistics, missing the explicit cancellation rationale from the primary source, making B slightly more complete and accurate for answering the question."
+}

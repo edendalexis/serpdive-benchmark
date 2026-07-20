@@ -1,0 +1,11 @@
+{
+  "id": 182,
+  "query": "IOC Fit for the Future initiative May 2026 athlete input details",
+  "topic": "International Olympic Committee",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A's articles mostly describe the June 24-25 Extraordinary IOC Session (grant announcement, 2,200 athletes engaged) rather than specifically 'May 2026' events, so it doesn't perfectly match the question's date framing, but it captures the broader Fit for the Future athlete-related developments (grant, athlete engagement numbers, consolidation stage) accurately.",
+  "b_issues": "Content B is heavily redundant, consisting of multiple sources (Instagram, Facebook, sports blogs) that all repeat the same $10,000 grant announcement from June 2026. It contains no unique details about athlete input processes, consultation, or the May 2026 EB meeting/working groups, making it largely uninformative for the specific query about athlete input details.",
+  "reasoning": "Content A provides a wider range of relevant facts tied to the Fit for the Future initiative, including the athlete grant, the 146th Session's engagement of over 2,200 athletes, and the June Session's role in the F4F consolidation process, which aligns with the anchor's Xinhua (May 9) and OCA (May 4) context about consultation and working groups. Content B's results are essentially duplicate reports of the same grant announcement from various low-authority social media reposts, offering no additional insight into athlete input or the May 2026 timeframe. Thus Content A better equips an LLM to answer the question, even though neither source perfectly isolates 'May 2026' athlete input specifics."
+}

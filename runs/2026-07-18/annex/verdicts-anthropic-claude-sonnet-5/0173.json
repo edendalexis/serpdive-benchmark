@@ -1,0 +1,11 @@
+{
+  "id": 173,
+  "query": "SpaceX Starbase Pad 2 deluge tests Ship 40 Booster 20 static fire Flight 13",
+  "topic": "SpaceX Starship",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Relies partly on Instagram/YouTube captions which are less formal sources, but they directly address deluge testing, Booster 20 rollout, Ship 40 cryo test, and static fire timing consistently with the anchor and space.com article.",
+  "b_issues": "The spaceflightnow.com result is garbled/contradictory, mixing unrelated content about NASA, Orion, and Blue Moon lander with Starship Flight 13 details, and does not mention Pad 2 deluge testing at all, which is a key part of the question. Only two sources provided, missing deluge-test specifics.",
+  "reasoning": "The question asks specifically about Pad 2 deluge tests along with Ship 40/Booster 20 static fire and Flight 13. Content A includes multiple sources (Instagram reels, YouTube videos) that explicitly describe deluge testing at Pad 2, Booster 20's cryo test and rollout, and the record-duration static fire, giving a fuller and more directly relevant picture. Content B lacks any mention of deluge testing and instead includes a confusing, seemingly mismatched spaceflightnow article that conflates the Starship Flight 13 static fire coverage with unrelated NASA Orion/Blue Moon Lander content, reducing reliability and coherence. Both share the same space.com source, but A's additional sources better cover the full scope of the question."
+}

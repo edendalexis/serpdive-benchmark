@@ -1,0 +1,11 @@
+{
+  "id": 599,
+  "query": "COP30 Belém final text mandatory fossil fuel deforestation roadmaps exclusion Brazilian Presidency voluntary plans",
+  "topic": "COP climate summit",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "The Guardian result cites a coalition of '90 nations' while other reliable sources (including B's Health Policy Watch snippet) say 'more than 80', a minor inconsistency in numbers but not core-fact-altering. No major factual errors otherwise; all five results are directly on-topic and reinforce the core narrative (fossil fuel roadmap excluded from formal text, Brazil's voluntary/parallel initiative, alternative route with Colombia/Netherlands).",
+  "b_issues": "One result (C2ES) is largely irrelevant to the specific question, covering Article 6.2 and UAE-Belem indicators rather than the fossil fuel/deforestation roadmap exclusion, diluting focus. However, the Carbon Brief snippet usefully adds detail on the draft text evolution (21 Nov draft removing roadmap mentions), which is a valuable addition not present in A.",
+  "reasoning": "Both content sets accurately convey the core facts needed to answer the question: that the fossil fuel and deforestation roadmaps were excluded from the formal COP30 decision text, and that the Brazilian Presidency announced them as voluntary/parallel initiatives outside the UN process (with Colombia and the Netherlands involved for the fossil fuel roadmap). Content A is slightly more uniformly relevant across all five results, while Content B includes one less relevant result but compensates with additional detail on the draft text's evolution from Carbon Brief. Neither set contains major factual errors or self-contradictions, and both draw from reliable sources (Guardian, Health Policy Watch, Earth.org, Carbon Brief, Mongabay). The minor differences balance out, making this a tie in terms of enabling a correct answer."
+}

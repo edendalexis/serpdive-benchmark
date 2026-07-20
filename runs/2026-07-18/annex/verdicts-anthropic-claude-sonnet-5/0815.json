@@ -1,0 +1,11 @@
+{
+  "id": 815,
+  "query": "Microsoft Purview DLP Copilot Chat worldwide rollout sensitive data protection web searches 2025",
+  "topic": "Microsoft Copilot",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Lacks the MC1263277 message (which the anchor centers on) entirely, substituting MC1181998, a related but distinct DLP feature (blocking sensitive prompts generally, not specifically web search) with different rollout dates (Nov-Dec 2025), which could mislead the model about the actual web-search feature's timeline. The LinkedIn result is mostly UI chrome/noise with no substantive rollout facts. The gbhackers article is about a different feature (sensitivity-label based email blocking, Jan 2025) tangential to the specific web-search DLP capability asked about.",
+  "b_issues": "The whats-new page and LinkedIn result are tangential/low-value and don't add much, though they don't contradict other facts. No major inaccuracies found relative to the anchor.",
+  "reasoning": "The question specifically concerns the DLP-for-web-search feature and its rollout, which is exactly what the anchor (RM565870/MC1263277) describes. Content B includes the MC1263277 message directly, matching the anchor's core facts and even providing explicit 'General Availability (Worldwide)' rollout dates, plus the official Microsoft Learn documentation describing the mechanism (blocking external web search when sensitive SITs are in prompts). Content A omits MC1263277 entirely and instead includes MC1181998, a related but different DLP capability (blocking sensitive prompts broadly, not web search specifically) with a different timeline, which risks the model conflating or answering with the wrong feature/dates. Content A's other sources (LinkedIn, gbhackers, YouTube) are less relevant or noisy. Content B's sources are more directly on-topic and authoritative (official Learn docs, the exact matching Message Center post), making it better suited to correctly answer the question."
+}

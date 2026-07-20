@@ -1,0 +1,11 @@
+{
+  "id": 307,
+  "query": "NASA Human Lander Challenge 2026 winners announcement next generation systems",
+  "topic": "NASA Artemis program",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A only provides a snippet confirming Cal Poly as winner via title text but lacks detail on the second/third place winners, prize amounts, or context about next-generation Artemis landers within the visible content. The full winner list (Purdue, Embry-Riddle, etc.) is not present in the actual retrieved content, only in the truncated NASA title.",
+  "b_issues": "Minimal issues; content is consistent with the anchor and provides accurate, detailed information including the $10,000 prize, Cal Poly's win, the ECLSS theme, and explicit mention that solutions could be incorporated into next-generation Artemis landers, directly answering the 'next generation systems' part of the query.",
+  "reasoning": "Content B directly includes the featured snippet and NASA article content confirming Cal Poly as the winner, the $10,000 prize, and explicitly states that student solutions could be incorporated into next-generation Artemis landers, which directly addresses the query's 'next generation systems' angle. It also includes corroborating information from Cal Poly's own announcement. Content A only has fragmentary snippets that mention Cal Poly as the winner but do not elaborate on the full context, next-generation systems, or provide corroborating details, making B more complete and directly useful for answering the question accurately."
+}

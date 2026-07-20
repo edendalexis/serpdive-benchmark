@@ -1,0 +1,11 @@
+{
+  "id": 98,
+  "query": "Humane AI Pin first consumer shipping date initial delivery start 2024",
+  "topic": "Humane AI Pin",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "A does not explicitly state the final actual shipping start date (April 11, 2024) that the pin was actually delivered on; it only covers the March announcement and the mid‑April delay, which is an incomplete but internally consistent narrative.",
+  "b_issues": "B suffers from the same omission of the actual April 11 shipping confirmation, and additionally includes a source (neatprompts) that erroneously states the delivery began in \"March 2023\" instead of March 2024, introducing a factual inaccuracy that could mislead the answering model.",
+  "reasoning": "Both content sets capture the original March 2024 shipping announcement and the subsequent delay to mid-April, but neither includes the actual April 11, 2024 shipping start confirmed in the anchor. However, B contains an erroneous date reference (March 2023) that could cause confusion, while A's sources remain accurate and consistent, making A slightly more reliable for the question."
+}

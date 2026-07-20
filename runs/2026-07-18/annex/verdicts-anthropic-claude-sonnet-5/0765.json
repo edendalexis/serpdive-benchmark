@@ -1,0 +1,11 @@
+{
+  "id": 765,
+  "query": "FAA eVTOL electric vertical takeoff landing major milestone advanced air mobility",
+  "topic": "FAA",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "None significant; content directly quotes the official FAA press release with accurate specifics (BETA Technologies, United Therapeutics, Pennsylvania DOT, Virginia-to-Maryland organ transport flight, FAA Administrator Bryan Bedford quote) matching the anchor's facts.",
+  "b_issues": "The FAA source snippet is less detailed - it mentions organ delivery testing but omits the key specifics (company names, route, administrator quote) that identify the actual milestone. Most of B's content focuses on the earlier eIPP selection announcement (8 projects, March 2026) rather than the specific 'major milestone' flight itself, making it less directly responsive to the question.",
+  "reasoning": "Both sources include the correct FAA press release URL, but Content A's excerpt contains the substantive details needed to answer the question accurately and completely (who did the flight, what was transported, route, and quote from the FAA Administrator confirming it as a 'major milestone'). Content B's excerpt from the same FAA page is thinner on these specifics, and the majority of B's other results describe the earlier program selection rather than the milestone flight itself, making A more directly useful for answering the specific question asked."
+}

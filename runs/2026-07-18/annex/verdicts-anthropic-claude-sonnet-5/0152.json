@@ -1,0 +1,11 @@
+{
+  "id": 152,
+  "query": "Zelenskyy July 16 2026 protests Kyiv other cities defense minister dismissal crowd size demands cabinet reshuffle",
+  "topic": "Volodymyr Zelenskyy",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "One result (streamlinefeed) mislabels Fedorov as an 'anti-corruption Defense Minister,' which is factually wrong (he was known for digital transformation/drone innovation, not anti-corruption work). Crowd-size reporting in A is skewed entirely toward 'hundreds' (Al Jazeera, the-star.co.ke, streamlinefeed) with no mention of the 'thousands' figure that the anchor's AP article and Kyiv Post headline explicitly use, giving an incomplete/inaccurate picture of turnout.",
+  "b_issues": "Omits the detail (present in the anchor's BBC excerpt and in Content A) that Ihor Klymenko, the interior minister, was the proposed replacement for Fedorov as defense minister. Crowd-size figures are mixed—some outlets say 'hundreds,' Kyiv Independent says 'thousands'—which could read as internally inconsistent, though it mirrors the real spread of reporting.",
+  "reasoning": "Both sets cover the core facts (Fedorov's dismissal, protests in Kyiv and other cities, new PM Koretskyi, general demands to reinstate Fedorov). However, Content B better reflects the anchor's stated crowd size ('thousands,' as in AP and Kyiv Post) by including the Kyiv Independent piece explicitly citing 'thousands' and stating the protesters' demand to reappoint Fedorov, whereas Content A's sources consistently understate the turnout as merely 'hundreds' and contain an outright factual error mislabeling Fedorov's portfolio. Content A does add some richer color (Klymenko candidacy, Yelizarov resignation, specific chants), but the crowd-size inaccuracy and Fedorov mislabeling are more directly relevant to the question asked, making B marginally more reliable overall."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 195,
+  "query": "Apple Intelligence China availability regulatory requirements Siri AI not available in China 2026 Apple official statement",
+  "topic": "Apple Intelligence",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Relies on lower-reliability sources (Threads post, YouTube video, Sportskeeda) to convey Apple's official statement rather than an actual Apple source; lacks a direct Apple.com citation; the resolution/approval news is present but via a less authoritative source.",
+  "b_issues": "Includes some redundant/tangential results (Apple Community forum question), and does not name the specific China partners (Baidu/Alibaba) as explicitly as the anchor, though it references them indirectly via AppleInsider.",
+  "reasoning": "Content B includes the actual Apple Newsroom statement verbatim ('Siri AI and the other new Apple Intelligence features will not be available in China while Apple works through regulatory requirements'), directly satisfying the 'Apple official statement' part of the query. It also includes Reuters, MacRumors, and MacDailyNews coverage of the subsequent July 2026 regulatory approval, giving a complete and accurate timeline consistent with the anchor. Content A covers similar facts but sources the Apple quote only through a Threads repost and includes weaker sources (YouTube, Sportskeeda), making it less authoritative and slightly less reliable for sourcing the official statement."
+}

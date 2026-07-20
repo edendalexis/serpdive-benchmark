@@ -1,0 +1,11 @@
+{
+  "id": 323,
+  "query": "Scottie Scheffler 2026 Genesis Scottish Open cut status",
+  "topic": "Scottie Scheffler",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Includes a low-reliability Facebook post as a top source; the Golf Channel result title uses future tense ('to miss cut') which is slightly inconsistent with the body text confirming he already missed the cut, creating minor internal tension, though the overall answer is still correct.",
+  "b_issues": "One snippet (Sky Sports) contains a garbled fragment ('Jude Championship, four years and 78 tournament appearances ago') that is confusing but does not contradict the core fact; otherwise all sources consistently and clearly state Scheffler missed the cut.",
+  "reasoning": "Both sets of results correctly convey that Scottie Scheffler missed the cut at the 2026 Genesis Scottish Open, ending his 78-tournament streak, and both cite reputable outlets (PGA Tour, Sky Sports, Golf Channel, Golfweek). Content B provides a direct featured snippet confirming the fact plus multiple corroborating high-quality sources (PGA Tour, Sky Sports, Golf Channel, Golfweek, Palm Beach Post, Yahoo) with consistent phrasing ('missed the cut'), while Content A includes a less reliable Facebook post as a top result and has a minor title/body tense inconsistency in the Golf Channel entry. Both are usable, but B's sourcing is slightly more consistent and reliable."
+}

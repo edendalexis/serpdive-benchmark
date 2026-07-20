@@ -1,0 +1,11 @@
+{
+  "id": 207,
+  "query": "Shohei Ohtani activated National League All-Stars July 2026 date after knee",
+  "topic": "Shohei Ohtani",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "None significant; all results consistently confirm Ohtani was scratched from his last first-half start and will miss the 2026 All-Star Game due to left knee irritation, matching the anchor facts (knee drained, injection, return for Yankees series).",
+  "b_issues": "Results are contradictory: one item lists Ohtani as an NL All-Star starter/DH selected for the game, while another (Yahoo) says he won't travel to Philadelphia due to knee issue, and a third (NYT) vaguely says he 'was dealing with a knee issue' during the game without clarifying he was absent. The Harper activation detail is unrelated to Ohtani but appears adjacent, adding confusion. This inconsistency could lead an LLM to wrongly conclude Ohtani played or was later activated.",
+  "reasoning": "Content A presents a clear, internally consistent narrative matching the anchor: Ohtani scratched from pitching, DH for weekend, knee drained, will miss All-Star Game, expected back for second half. Content B mixes selection announcements (implying he would play) with missing-game reports, without resolving the contradiction, making it harder for an LLM to give an accurate, coherent answer."
+}

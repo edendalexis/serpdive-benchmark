@@ -1,0 +1,11 @@
+{
+  "id": 210,
+  "query": "Lil Tay OnlyFans launch earnings claim first 3 hours August 2025 source interview amount",
+  "topic": "Lil Tay",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Contains the same core numbers as B, but the third result (Complex) is about a later $15M/two-week claim, not directly the $1M/3-hours launch claim, diluting focus on the specific question. Only two sources directly confirm the $1M/3hr figure.",
+  "b_issues": "None significant; all five sources directly corroborate the same $1,024,298.09 in ~3 hours claim with consistent breakdown figures, though minor numeric variance exists between AOL and thetab (typical of secondary reporting).",
+  "reasoning": "Both sets share the AOL and Power105.1 results with matching earnings figures ($1,024,298.09) that align with the anchor. However, Content B provides more directly relevant, corroborating sources (san.com, thetab, Yahoo) all confirming the same core claim about the $1M-in-3-hours OnlyFans launch, reinforcing accuracy and reliability. Content A's third result shifts focus to a later, different claim ($15M in two weeks), which is tangential to the specific question about the initial 3-hour earnings claim, making B slightly more focused and consistent for answering the exact query."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 573,
+  "query": "Sheinbaum universal healthcare service first phase launch April 2026 details",
+  "topic": "Claudia Sheinbaum",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Sources are lower-tier (Instagram, Facebook, Novara Media, Peoples Dispatch) but the facts they provide (first phase begins April 13, 2026; targets citizens 85+; registration for a health ID/credential; full coverage targeted for 2027) are consistent with each other and match the anchor's confirmed details (April 13-30 registration window, age 85+, decree issued April 7).",
+  "b_issues": "Contains internally inconsistent and partly inaccurate claims: NCD Alliance frames the first phase as covering mammograms/biopsies/cancer treatment rather than age-based registration; Borgen Project says universal coverage starts 'January 2027' (contradicting the 2027/2028 phased timeline given elsewhere) and describes first-phase coverage (emergency, high-risk pregnancy, heart attack, stroke, cancer) that conflicts with NCD's list; Peoples Dispatch adds a 2027/2028 specialized-care timeline not clearly reconciled with the April 13 registration date. Only latinnews.com clearly states the April 13-30, 85+ registration detail, but it's undercut by contradictory framing elsewhere in the set.",
+  "reasoning": "Both sets mention the April 13, 2026 start and age-85-and-older focus, matching the anchor's core facts. However, Content A presents this information consistently across all its results without contradiction, closely mirroring the anchor's confirmed details on dates and eligibility. Content B, despite including one accurate reference (latinnews) matching the anchor, also includes several results (NCD Alliance, Borgen Project) that describe the 'first phase' differently (in terms of covered services or start date), creating confusion and factual inconsistency for an LLM trying to synthesize a clear, accurate answer. This makes Content A more reliable for answering the question correctly."
+}

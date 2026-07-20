@@ -1,0 +1,11 @@
+{
+  "id": 209,
+  "query": "Shohei Ohtani 2026 ESPY Awards ceremony date venue presentation details",
+  "topic": "Shohei Ohtani",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A gives nominations info and general date/venue/host details but stops short of confirming the actual ceremony outcome (i.e., that Ohtani won Best Single-Game Performance) within the provided snippets, and includes a generic evergreen page (chiff.com) that lacks specificity for 2026.",
+  "b_issues": "Minor redundancy across sources, but no factual errors; all details (date, venue, host, network, Ohtani's nominations and win) are consistent and corroborated.",
+  "reasoning": "Both sets agree on the core facts: July 15, 2026, David H. Koch Theater at Lincoln Center in NYC, hosted by Marcello Hernández, aired on ABC/streamed on ESPN App, and Ohtani nominated in three categories. However, Content B adds confirmed presentation details beyond nominations — USA Today's live-coverage snippet confirms Ohtani actually won Best Single-Game Performance, and gives red carpet timing (5:30 p.m. ET) and show start (8 p.m.), which are useful 'presentation details' the question asks about. Content A's sources focus more on nominations and general info without confirming results, making B marginally more complete and directly responsive to the query without introducing any inaccuracies."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 251,
+  "query": "Sanofi mRNA RSV vaccine Phase I/II trial results April 2025 lipid nanoparticle",
+  "topic": "RSV vaccines",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "None of the sources give actual quantitative trial results from April 2025; the MDPI article is about an unrelated mRNA-LNP vaccine (STR-V003) not Sanofi's, which could be confused as relevant; the Sanofi pipeline PDF is a generic year-end review, not results-specific.",
+  "b_issues": "No source gives explicit results dated April 2025 either; includes an irrelevant PubMed article about a live-attenuated intranasal RSV vaccine (not mRNA/LNP) which is unrelated to Sanofi's mRNA candidate and could mislead; the centerwatch excerpt is less detailed about study design than the equivalent info in Content A, providing less context to answer the trial's specifics.",
+  "reasoning": "Neither content set contains the specific 'April 2025 results' data, so both fall short of a full answer. However, Content A provides multiple consistent, on-topic sources (centerwatch, sanofistudies.com, larvol) that closely mirror the anchor's description of the trial's design, doses, and LNP formulations, giving a more accurate and coherent basis for an answer. Content B's centerwatch excerpt is thinner, and it includes an unrelated live-attenuated RSV vaccine trial that could introduce confusion. Thus Content A better supports a correct answer despite the missing explicit results data."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 649,
+  "query": "Berkshire Hathaway largest equity holdings ranking Alphabet Google position value Greg Abel 2026",
+  "topic": "Berkshire Hathaway",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "The Globe and Mail snippet in A claims Alphabet moved into the 'No. 3' position, ahead of Coca-Cola - this directly contradicts the anchor's clear ranking (Coca-Cola at 11.6%/$30.4B outranks Alphabet at 5.9%/$15.6B). The Motley Fool snippet gives a value of ~$23B for the Alphabet stake, which is far higher than the $15.6-16.6B figure corroborated by the anchor and by MLQ's own figure within A, creating an internal contradiction. The acquirersmultiple.com result is mostly a category-tag list with no substantive content.",
+  "b_issues": "The value figures for Alphabet vary across sources ($17B IndexBox, $21.3B CNBC, ranking 4th vs 5th between Yahoo and CNBC), but these differences are plausibly explained by different snapshot dates (Q1 13F filing vs. later June price appreciation plus a new $10B investment announced separately), rather than being a direct contradiction of ranking order relative to other named holdings.",
+  "reasoning": "Both sets convey the core narrative (Abel's first 13F, Alphabet stake tripling, Apple/AmEx/Coca-Cola at top) consistent with the anchor. However, Content A contains a clear-cut contradiction: the Globe and Mail piece asserts Alphabet is the No. 3 holding ahead of Coca-Cola, which conflicts with the anchor's explicit ranking (Coca-Cola 11.6% > Alphabet 5.9%), and the Motley Fool's $23B valuation clashes with the more authoritative $15.6-16.6B figure found elsewhere in A and in the anchor. Content B's numeric variance is more defensible since it stems from CNBC noting a later date and an additional $10B investment, and the IndexBox figure (~$17B) aligns closely with the anchor. Thus B provides a slightly more internally consistent and anchor-aligned picture, despite some ambiguity in exact ranking (4th vs 5th)."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 332,
+  "query": "Longlegs 2028 film Nicolas Cage role character",
+  "topic": "Longlegs",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A doesn't name a specific new character for Cage in the 2028 film, but this is because it accurately reflects that his role/character for the new film has not been revealed (per Film Stories: 'whether he'll play the same freaky role hasn't yet been revealed'). It correctly identifies Cage's original 2024 role as the titular serial killer and doesn't introduce any factual errors about role attribution.",
+  "b_issues": "The Yahoo Entertainment snippet is garbled and misleading: it states 'Nicolas Cage returning to his role as the deranged titular serial killer. FBI Agent Lee Harker.' which conflates Cage's character with Lee Harker, the FBI agent character actually played by Maika Monroe. This could cause an LLM to incorrectly state Cage plays 'FBI Agent Lee Harker,' a clear factual error, even though another snippet (bloody-disgusting) in the same result set correctly clarifies the roles.",
+  "reasoning": "Both sets confirm the same core facts (2028 release date, Cage and Perkins returning, Cage's original role as the serial killer 'Longlegs'). However, Content B contains an internally contradictory and confusing snippet that misattributes the 'Lee Harker' FBI agent role to Cage, creating a risk of factual error if an LLM relies on it. Content A, while not naming a new specific character for the 2028 film, accurately and consistently conveys that Cage is returning and that details about his exact role in the new film remain unconfirmed, without introducing any misleading claims. This makes Content A more reliable for answering the question correctly."
+}

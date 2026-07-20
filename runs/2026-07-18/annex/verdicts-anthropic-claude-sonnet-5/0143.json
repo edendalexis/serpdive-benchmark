@@ -1,0 +1,11 @@
+{
+  "id": 143,
+  "query": "Red Lobster fiscal 2026 net income adjusted EBITDA financial results",
+  "topic": "Red Lobster",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Contains some irrelevant results (BJ's Restaurants) but retains the core Red Lobster facts (net income $2.1M FY2026, adjusted EBITDA up 43% FY2025-FY2027, and via LinkedIn snippet the $92.1M adjusted EBITDA figure).",
+  "b_issues": "Contains more irrelevant/noisy results (Red Robin, Wray Search compilation, Darden reports) that could distract, but still includes the same key Red Lobster facts (net income $2.1M, $92.1M adjusted EBITDA, 43% growth) via RestaurantDive, LinkedIn, and Yahoo Finance sources.",
+  "reasoning": "Both content sets surface the same core factual answer via the RestaurantDive article and the LinkedIn post: Red Lobster projects $2.1 million net income and $92.1 million adjusted EBITDA in fiscal 2026, with adjusted EBITDA growing 43% from fiscal 2025 to fiscal 2027. Neither set contains contradictory information regarding these figures. B has more extraneous unrelated results (Red Robin, Wray Search, Darden) which add noise but don't corrupt the correct answer, similar to A's extraneous BJ's Restaurants result. The essential facts needed to answer the question are present and equally accessible in both."
+}

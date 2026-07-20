@@ -1,0 +1,11 @@
+{
+  "id": 874,
+  "query": "Peter Mandelson security investigation US details 2026 Keir Starmer government",
+  "topic": "Keir Starmer",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "The CNN snippet in A is confusing/out of context: it quotes a letter saying clearance was 'confirmed... valid until 29 January 2030' and states Mandelson is under police investigation for leaking documents to Epstein — these details are not explained or reconciled with the failed-vetting narrative, and could mislead an agent into thinking clearance was ultimately granted without caveat or conflate unrelated investigations. A lacks the later Guardian (May 31) piece detailing the published files showing no mitigation was recorded, which is directly relevant to 'details' of the investigation.",
+  "b_issues": "Slightly thinner on the parliamentary aftermath (e.g., does not include the BBC piece noting MPs voted against a Privileges Committee referral), but this is a minor omission rather than an inaccuracy.",
+  "reasoning": "Both sets share core accurate facts (UKSV recommended denial on 28 Jan 2025, Foreign Office overruled it the next day, Starmer said he was unaware, Mandelson was later sacked over Epstein links). However, B includes an additional, highly relevant and accurate article (Guardian, 31 May 2026) detailing the published Mandelson files and the finding of no mitigation measures — directly answering 'details' about the investigation. A instead includes a CNN excerpt that introduces confusing, seemingly contradictory information (clearance valid until 2030; police probe over leaking documents) without context, which risks misleading an LLM. This makes B's set more coherent, accurate, and directly useful for answering the question."
+}

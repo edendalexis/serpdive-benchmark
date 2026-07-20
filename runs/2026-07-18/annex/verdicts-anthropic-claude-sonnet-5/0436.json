@@ -1,0 +1,11 @@
+{
+  "id": 436,
+  "query": "Megalopolis graphic novel release date Abrams ComicArts October 2025 delayed Image Comics Syzygy Publishing",
+  "topic": "Megalopolis",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Doesn't explicitly address the Image Comics/Syzygy Publishing angle or delay history; the imagecomics.com October 2025 release list snippet doesn't clearly confirm inclusion of Megalopolis, which could be seen as tangential.",
+  "b_issues": "All sources only reflect the pre-release announcement stage (April 2025), repeatedly stating 'coming October 2025' without any post-release confirmation; doesn't address whether the book actually shipped on time or was delayed, nor the Image Comics/Syzygy connection.",
+  "reasoning": "Both sets consistently confirm the Abrams ComicArts publication date of October 7, 2025, so neither contradicts itself. However, Content A includes a source dated October 7, 2025 (comicbookclublive.com) referencing the book as already released, and a comicsbeat.com review of the finished graphic novel, providing evidence that the book actually shipped on schedule rather than being delayed—directly relevant to the 'delayed' aspect of the question. Content B's sources are all pre-release announcements from April 2025, offering repeated but not verified confirmation of the October date, and no evidence about whether the release was delayed or completed. Neither set explicitly discusses the Image Comics/Syzygy Publishing transition, but Content A's inclusion of post-release confirmation gives it a slight edge in fully answering the question."
+}

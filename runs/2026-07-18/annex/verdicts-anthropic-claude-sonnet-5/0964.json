@@ -1,0 +1,11 @@
+{
+  "id": 964,
+  "query": "Narendra Modi India first hydrogen train operational announcement July 2026 Chandigarh visit",
+  "topic": "Narendra Modi",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor: first result's title uses future tense ('to flag off') though content clarifies date; otherwise consistent with anchor, includes PIB and Reuters confirming the event happened and includes Chandigarh visit details.",
+  "b_issues": "All results are pre-event announcements (dated July 13-14) describing the planned visit; none confirm the event actually occurred, so an LLM using only this content could not confirm the operational launch took place, only that it was planned.",
+  "reasoning": "Content A provides both the pre-event PIB announcement (with Chandigarh visit details) and a Reuters article confirming the train was actually launched on July 17, 2026, aligning with the anchor's confirmation that the event occurred. Content B only contains anticipatory articles about the planned visit, lacking confirmation that the hydrogen train launch and Chandigarh visit actually took place, making it less complete and less certain for answering the question accurately."
+}

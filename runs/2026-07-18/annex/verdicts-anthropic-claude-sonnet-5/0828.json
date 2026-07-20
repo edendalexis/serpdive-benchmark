@@ -1,0 +1,11 @@
+{
+  "id": 828,
+  "query": "Port of Baltimore full reopening main federal shipping channel date 50-foot depth debris removed Francis Scott Key Bridge collapse",
+  "topic": "Port of Baltimore",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "No result explicitly states the June 10, 2024 reopening date; the AASHTO Journal snippet erroneously claims the channel fully reopened on June 12, which conflicts with the anchor's June 10 date. The Wikipedia entry is about the bridge replacement project, not the channel reopening, adding irrelevant/no useful info.",
+  "b_issues": "Same AASHTO Journal source with the same erroneous June 12 date claim, conflicting with the June 10 date given in the anchor. The USACE.mil result is about the Limited Access Channel clearance on April 23, a different, earlier milestone, which could be confused with the full channel reopening. No result explicitly states June 10 either.",
+  "reasoning": "Both sets contain the same core facts (700-foot-wide, 50-foot-deep Fort McHenry Federal Channel, ~50,000 tons of debris removed, ~11 weeks after the March 26 collapse) via nearly identical sources (Maryland Matters, ABC News, AASHTO Journal). Both share the same flaw of including an AASHTO Journal claim that the channel reopened on June 12, which contradicts the June 10 date from the anchor's more authoritative sources (Reuters, NYT, AP, NBC, Army.mil), and neither set explicitly surfaces the June 10 date in its snippets. The extra sources in each (Wikipedia in A, USACE.mil LAC clearance in B) are tangential and don't meaningfully help or contradict the main answer. Overall, the two result sets are roughly equivalent in enabling a correct answer."
+}

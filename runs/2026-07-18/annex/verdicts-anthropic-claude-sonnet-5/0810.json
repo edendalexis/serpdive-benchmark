@@ -1,0 +1,11 @@
+{
+  "id": 810,
+  "query": "Microsoft Copilot Apple CarPlay availability announcement Microsoft 365 Copilot app CarPlay official blog 2025",
+  "topic": "Microsoft Copilot",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "The dated blog post title says 'May 2026' which is odd for a query about 2025, but the content itself (mentioning Apple CarPlay for the Microsoft 365 Copilot app with voice conversation via car display) directly answers the question and aligns with the support.microsoft.com CarPlay page. The exact publication date/context is slightly ambiguous.",
+  "b_issues": "The Microsoft 365 Roadmap result is almost entirely unreadable image alt-text/CDN links with no substantive information about CarPlay. Other results (Copilot app April 2025 update, GA announcement, March 2025 release notes) don't mention CarPlay at all, leaving only the single support.microsoft.com snippet (duplicated) as the actual useful source, with no blog-style announcement details.",
+  "reasoning": "Content A includes a specific blog-style result explicitly naming 'Apple CarPlay for the Microsoft 365 Copilot app' with descriptive detail (voice start/continue conversations via car display/audio), reinforced by the same support.microsoft.com CarPlay confirmation page. This gives a clear, consistent answer. Content B relies on the same support page but its roadmap result is mostly garbled non-text (image links), and its other results are irrelevant to CarPlay, making it much weaker for actually answering the question."
+}

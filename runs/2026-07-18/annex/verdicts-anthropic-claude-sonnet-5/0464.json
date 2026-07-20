@@ -1,0 +1,11 @@
+{
+  "id": 464,
+  "query": "Palworld 1.0 raid events waves bribe mechanics adjustments",
+  "topic": "Palworld",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; content is consistent and detailed, directly addressing wave-based raids, bribe/negotiator mechanic, and reward adjustments.",
+  "b_issues": "Lacks any explicit mention of the 'bribe' mechanic (paying gold coins to cancel raids) or negotiator NPC; several results are low-quality YouTube videos irrelevant to the specific mechanics asked about; no detail on reward adjustments or raid triggers like Gold Coin Assembly Line.",
+  "reasoning": "The question specifically asks about bribe mechanics in raids. Content A directly answers this via the GameSpot snippet ('a negotiator may visit your base... pay them gold coins to cancel raids') and the Fandom wiki excerpt ('By paying gold coins, you can prevent an upcoming raid from occurring'), plus IGN's note on Gold Coin Assembly Line triggering raid events. Content B's sources describe the wave-based system but never mention bribery, negotiators, or gold coins, and its extra results are unrelated YouTube videos about raid strategy rather than official mechanic descriptions. Thus A provides the accurate, specific facts needed while B falls short on the bribe mechanic portion of the query."
+}

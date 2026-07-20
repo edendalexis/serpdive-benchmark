@@ -1,0 +1,11 @@
+{
+  "id": 657,
+  "query": "UNRWA West Bank facilities Israeli allegations terrorism independent investigation findings 2025 official response",
+  "topic": "United Nations Relief and Works Agency for Palestine Refugees in the Near East",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "The Times of Israel snippet is truncated and doesn't fully detail the findings, and most other results are just situation reports about humanitarian conditions rather than the investigation itself, so context is thin but still touches the actual topic (Israeli allegations, UN review of neutrality).",
+  "b_issues": "Contains only a single result, which is entirely about humanitarian operations and displacement in the West Bank during 2025 (Operation Iron Wall, blockade, personnel numbers) and never mentions the Israeli terrorism allegations, the independent investigation into UNRWA neutrality, its findings, or UNRWA's official response to those allegations — i.e., it does not address the actual question at all.",
+  "reasoning": "The question asks specifically about Israeli allegations that UNRWA facilities/staff were tied to terrorism, the independent investigation into these claims, and UNRWA's official response. Content A includes a direct reference to the independent review's finding that UNRWA has neutrality mechanisms but critical areas need improvement, plus links to the official Question of Palestine UN pages and UNRWA's own 'Claims vs Facts' framing (via anchor context), which are directly relevant. Content B's single result discusses only the humanitarian crisis and operational constraints in the West Bank/Gaza in 2025, with no mention of the terrorism allegations, investigation, or findings—making it largely non-responsive to the query. Thus A provides better material to construct a correct answer."
+}

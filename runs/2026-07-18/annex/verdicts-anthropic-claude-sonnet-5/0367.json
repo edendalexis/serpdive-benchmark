@@ -1,0 +1,11 @@
+{
+  "id": 367,
+  "query": "Grand Theft Auto 6 PS5 Pro Xbox Series X enhanced edition specific features 2026",
+  "topic": "Grand Theft Auto VI",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Some entries are lower-quality/messy (e.g., Insider Gaming boilerplate menu text), but the factual content across results is consistent and specific: DualSense haptics, adaptive triggers, Tempest 3D audio, integrated speaker, fast SSD load times as PS5-exclusive features, plus PS5 Pro enhancements like improved ray tracing, higher resolution/framerate targets. Slight vagueness remains on exact PS5 Pro FPS specifics, but this is inherent to real reporting at the time.",
+  "b_issues": "The primary source (PlayStation Blog) is authoritative but the snippet only confirms SSD-based fast loading and pre-order bonuses, omitting other PS5-specific features like haptics, 3D audio, and speaker support. The Digital Foundry piece is useful for fps speculation but doesn't detail 'enhanced edition' features. The third source (standesk.eu) is vague, hedging, and explicitly states specifics haven't been confirmed, adding uncertainty rather than concrete facts. No comparison to Xbox Series X's lack of these features is included.",
+  "reasoning": "Content A provides a fuller, more specific, and consistent set of facts answering the question: exact PS5-exclusive features (haptics, 3D audio, adaptive triggers, speaker, fast loading) and PS5 Pro enhancements (ray tracing, resolution/framerate improvements), explicitly contrasted with Xbox Series X's lack of these bonuses. Content B's most reliable source lacks feature specifics beyond SSD loading, and its supplementary sources are either speculative (Digital Foundry) or vague/uncertain (standesk.eu), making it less useful for a confident, accurate answer to the specific question asked."
+}

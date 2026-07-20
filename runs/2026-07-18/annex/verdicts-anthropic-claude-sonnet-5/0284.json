@@ -1,0 +1,11 @@
+{
+  "id": 284,
+  "query": "Cognition Devin AI productivity guarantee enterprise $10M refund terms",
+  "topic": "Devin AI software engineer",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A results are entirely irrelevant to the query - none of the three results discuss Cognition, Devin, or the AI Productivity Guarantee at all. They are unrelated news aggregator pages about various AI industry topics. No facts about the guarantee, its terms, or $10M refund conditions are present.",
+  "b_issues": "Content B does not explicitly use the word 'refund' and doesn't detail specific eligibility criteria beyond mentioning 'existing customers who meet eligibility criteria,' but it does accurately describe the core mechanism (value credits, not cash refunds) and cap amount.",
+  "reasoning": "Content B directly includes the actual devin.ai/guarantee page content explaining the mechanism (value estimator, engineering hours converted to dollars, credits issued up to $10M, eligibility for existing customers), plus corroborating snippets from cognition.com blog and secondary sources confirming the $10M figure and guarantee concept. Content A's results are completely off-topic and contain no information whatsoever about Cognition, Devin, or the guarantee - an LLM given only Content A could not answer the question at all. Content B, despite being snippet-based, provides sufficient accurate detail to construct a correct answer about how the guarantee works (credits, not literal refunds) and the $10M cap."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 503,
+  "query": "Intel Foundry Fab 52 Arizona first wafer processed 18A Oregon Arizona ramp press release 2026",
+  "topic": "Intel Foundry",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "The Counterpoint Research result (same URL as the anchor) is truncated to only author-bio boilerplate with no actual facts about Fab52 ramp, wafer counts, or Oregon connection. Two of the five results (an X/Twitter post and a Facebook group post) are low-reliability, unverified social-media sources with limited concrete data. No specific ramp numbers or timeline details are present.",
+  "b_issues": "Does not explicitly mention Oregon's D1X fab or wafer-start figures tying Arizona and Oregon together (a gap shared with A), and the calcalistech piece is somewhat tangential (focused on chip performance claims rather than ramp/press-release specifics).",
+  "reasoning": "Content B provides more substantive, specific, and verifiable facts relevant to the query: Fab 52's status as Intel's fifth high-volume fab, CEO Lip-Bu Tan's visit, and crucially, concrete wafer-ramp trajectory numbers (1,000-5,000 wafers/month by end of 2025, ramping to 15,000 in 2026, eventually 30,000) which align closely with the anchor's BlueFin-sourced figures. Content A's parallel Counterpoint Research result is stripped of any real facts (just author bio), and two of its five sources are low-quality social media posts, weakening its evidentiary value despite covering the same topic. Overall, B offers more accurate, useful, and corroborated detail for answering the question."
+}

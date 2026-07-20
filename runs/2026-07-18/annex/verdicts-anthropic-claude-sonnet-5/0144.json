@@ -1,0 +1,11 @@
+{
+  "id": 144,
+  "query": "Red Lobster bankruptcy exit date Chapter 11 restructuring debt reduction RL Investor Holdings September 2024 court approved plan",
+  "topic": "Red Lobster",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Contains a minor internal inconsistency: one snippet states 545 restaurants while a CNBC excerpt says 544, but this doesn't affect the core facts about exit and approval dates. No explicit debt-reduction figures are given.",
+  "b_issues": "Also lacks explicit debt-reduction figures; relies on similar sources (CNBC, PR Newswire) plus secondary summaries (bizjournals, verdictfoodservice) that reiterate the same facts without adding new verified data.",
+  "reasoning": "Both content sets accurately convey the key facts: Red Lobster's Chapter 11 plan was court-approved on Sept. 5, 2024, and the company completed its exit and acquisition by RL Investor Holdings LLC (backed by Fortress Investment Group, TCW Private Credit, and Blue Torch) on Sept. 16, 2024, with Damola Adamolekun installed as CEO and a $60 million investment commitment. Neither set explicitly details the debt reduction structure, but both otherwise provide consistent, well-sourced, and mutually corroborating information from reliable outlets (CNBC, PR Newswire, Restaurant Dive, Fortress, bizjournals). The minor restaurant count discrepancy in A is trivial and doesn't affect the bankruptcy/exit facts. Overall, both are equally sufficient to answer the question correctly."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 294,
+  "query": "X topic snooze global rollout For You timeline recent update availability",
+  "topic": "Twitter",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A's SocialBee entry is a bit generic/list-style and lacks specific dates for the global expansion claim, but it does directly address the 'global rollout' aspect of the question, and the Mashable article confirms iOS/web Premium availability and Android 'coming soon.' No major contradictions.",
+  "b_issues": "Content B's results are fragmented (short tweet excerpts and snippets) and never mention a global rollout; the roboin.io snippet notes the feature is 'only available to some users,' which addresses limited availability but does not answer the 'global rollout' part of the query at all, leaving that aspect unanswered.",
+  "reasoning": "The question specifically asks about the global rollout status of the topic snooze feature on X's For You timeline. Content A includes a SocialBee entry explicitly stating that 'X has expanded globally the ability to snooze specific topics in the For You timeline,' directly answering the query, along with corroborating details (iOS/web Premium rollout, Android coming soon) from Mashable. Content B, while providing primary-source tweets and confirming initial Premium/iOS/web availability, never states or implies a global rollout, leaving that key part of the question unanswered. Thus Content A better enables a correct, complete answer."
+}

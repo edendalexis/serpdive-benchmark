@@ -1,0 +1,11 @@
+{
+  "id": 313,
+  "query": "Ursula von der Leyen October 2025 critical raw materials rare earth elements strategy target country",
+  "topic": "Ursula von der Leyen",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A never names the 'RESourceEU' plan explicitly and does not mention any specific target countries for critical raw materials partnerships, leaving the 'target country' part of the question unanswered.",
+  "b_issues": "Minor: one source (Chemistry World) appears to reference an older 2023 speech with different figures, but it does not contradict the core October 2025 facts and adds plausible context.",
+  "reasoning": "Both sets confirm the RESourceEU plan and von der Leyen's Oct 25, 2025 Berlin speech about reducing reliance on Chinese rare earths. However, Content B explicitly names the plan 'RESourceEU' and lists concrete target countries (Ukraine, Australia, Canada, Kazakhstan, Uzbekistan, Chile, Greenland, plus Mexico, New Zealand, India) for critical raw materials partnerships, directly answering the 'target country' element of the question. Content A lacks this specificity, only describing general intentions without naming the plan or any partner countries, making it less complete for fully answering the query."
+}

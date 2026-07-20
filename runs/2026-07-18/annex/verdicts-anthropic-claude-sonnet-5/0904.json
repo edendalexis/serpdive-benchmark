@@ -1,0 +1,11 @@
+{
+  "id": 904,
+  "query": "Oppenheimer Holdings investment banking leadership announcements March 2026 Co-Heads Equity Capital Markets",
+  "topic": "Oppenheimer",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Includes an irrelevant SEC filing snippet (opy-20240331) as noise, but no factual errors; core facts (DeFalco/Hyland as Co-Heads of ECM, effective March 24, 2026, backgrounds, SPAC practice, offering counts) are accurate and consistent with the anchor.",
+  "b_issues": "Contains the correct core facts in the Yahoo Finance snippet (DeFalco/Hyland as Co-Heads, Peter Bennett's move, Lowenthal quote), but buries them under a massive, largely irrelevant sitemap.xml dump and unrelated leadership-transition articles (Ed Harrington, David Fleming) that add noise and could distract from the answer, though they don't contradict the facts.",
+  "reasoning": "Both sets contain the essential facts needed to answer the question correctly: Chris DeFalco and John Hyland were named Co-Heads of Equity Capital Markets at Oppenheimer, announced around March 23-24, 2026, with Peter Bennett moving to lead Corporate Executive Services. Content A presents this information more cleanly across fewer, more relevant results (Yahoo Finance, StockTitan) that include specific accurate details (DeFalco's 285+ offerings, SPAC practice; Hyland's 200+ offerings, joined 2021) matching the anchor closely. Content B has the same core facts in its top result but drowns them in an enormous, mostly irrelevant sitemap dump and includes tangential articles about unrelated leadership changes, which could dilute an LLM's ability to focus on the correct answer despite the facts being technically present. Given the higher signal-to-noise ratio and closer alignment with the anchor's specific details, Content A is marginally better."
+}

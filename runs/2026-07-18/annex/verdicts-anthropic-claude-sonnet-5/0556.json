@@ -1,0 +1,11 @@
+{
+  "id": 556,
+  "query": "Jerome Powell remain Fed Board of Governors April 2026 announcement investigation",
+  "topic": "Jerome Powell",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "No major factual flaws; ABA Banking Journal snippet is thin but consistent with anchor. Slight redundancy with Fortune/CNBC pieces that mostly restate earlier stance rather than final decision.",
+  "b_issues": "No major factual flaws; NYT and Barron's pieces are background/context (investigation origin, DOJ dropping case) rather than direct confirmation of the April 29 decision, but still useful supporting context and consistent with anchor.",
+  "reasoning": "Both content sets include the LA Times article and CNBC 'will he stay or go' article, which together with the shared context clearly establish that Powell announced on April 29, 2026 he would remain on the Fed Board of Governors after his chairmanship ends, citing Trump administration legal actions/investigation pressure — matching the anchor. Content A adds a direct confirmatory snippet (ABA Banking Journal) plus earlier Reuters/Fortune quotes reinforcing Powell's pledge, while Content B adds useful background (NYT on investigation origin, Barron's on DOJ closing the probe) that helps explain the investigation context. Neither set contains contradictions, and both are sufficient for a correct, accurate answer to the question, making this a tie in terms of enabling correct answering."
+}

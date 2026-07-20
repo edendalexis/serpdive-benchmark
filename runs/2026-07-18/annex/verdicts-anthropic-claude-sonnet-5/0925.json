@@ -1,0 +1,11 @@
+{
+  "id": 925,
+  "query": "Wicked For Good 2025 sequel new songs composer Stephen Schwartz November 2022",
+  "topic": "Wicked",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Does not mention the November 2022 announcement at all; several results are tangential (film release dates, a score review, social media posts) that don't clarify what the two new songs are or their context, and the only substantive detail about the songs is a brief mention buried in a Golden Globes article.",
+  "b_issues": "States the specific song titles were 'revealed' in September 2025 (referring to the soundtrack reveal, not the original November 2022 announcement that two new songs would be written), which could be seen as slightly inconsistent with the anchor's November 2022 reference, though it doesn't outright contradict it since these are different reveal events (concept vs. actual titles).",
+  "reasoning": "Both sets omit an explicit citation of the November 2022 announcement, but Content B provides clearer, more detailed, and directly relevant information about the two new songs ('No Place Like Home' and 'The Girl in the Bubble'), their performers, and additional confirmed facts (composer Stephen Schwartz, Hollywood Reporter confirmation of him writing them for Erivo/Grande, and further context about a related Oz project). Content A's results are more scattered, redundant, and less focused on the actual new songs, making Content B more useful for accurately answering the question."
+}

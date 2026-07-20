@@ -1,0 +1,11 @@
+{
+  "id": 632,
+  "query": "Perplexity Computer Brain persistent memory system research preview launch date",
+  "topic": "Perplexity AI",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "The primary blog snippet does not explicitly restate the Jun 18, 2026 date, and the changelog result (July 13, 2026) refers to a later update, which could cause minor confusion about which date is the initial launch, though the core 'Research Preview' rollout statement is accurate and matches the anchor's information.",
+  "b_issues": "Content B conflates the Brain memory system with the earlier 'Perplexity Computer' launch (Feb 25/26, 2026), which is a different product/date. None of B's results give a clear, corroborated launch date or explicit 'research preview' confirmation for Brain specifically; the CEO quote and explainx.ai piece describe features but omit the launch date, leaving the question effectively unanswered or answerable only with the wrong date.",
+  "reasoning": "Content A includes the official Perplexity blog and LinkedIn announcement explicitly stating Brain is 'rolling out today ... in Research Preview,' consistent with the anchor's Jun 18, 2026 date, plus corroborating coverage (Yahoo/Decrypt). Content B lacks a clear, accurate date for Brain's research preview launch and instead surfaces sources about the separate Computer product launch (Feb 2026), which could mislead an LLM into giving the wrong date. Thus A better supports a correct answer."
+}

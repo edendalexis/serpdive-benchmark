@@ -1,0 +1,11 @@
+{
+  "id": 231,
+  "query": "Russian court Wikimedia Foundation fine Ukraine article late 2025 amount",
+  "topic": "Wikipedia",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Neither result set contains any information about a late-2025 fine; all results are from 2022-2023 (fines ranging from 1.5M to 5M rubles). None address the specific 'late 2025' timeframe asked about, so an LLM cannot correctly answer the actual question from this content.",
+  "b_issues": "Same core problem as A - no late-2025 fine information present. All results are from 2022-2023 (the 5M ruble June 2022 fine, 2M ruble November 2022 fine, etc.). None address the 'late 2025' timeframe in the question.",
+  "reasoning": "Both content sets are entirely composed of 2022-2023 news about Wikimedia fines in Russia, with no mention of any late-2025 fine or amount. Neither enables the LLM to correctly answer the specific question asked, which explicitly requests information about a 'late 2025' fine. Both would require the LLM to either fabricate an answer or incorrectly extrapolate from outdated 2022-2023 data. The anchor reference itself shows the actual answer would be about an April 2023 fine of 2 million rubles for the 'Russian occupation of the Zaporizhzhia region' article, but even this doesn't match 'late 2025' - suggesting the question itself may be based on a false premise or the true late-2025 event is not covered by any of the provided sources. Since neither A nor B contains the specific late-2025 information needed, and both have equivalent quality/reliability issues (same outdated timeframe, similar source quality with Reuters, DW, VOA, Jurist, Wikimedia Foundation official statements), this is a tie in terms of failing to enable a correct answer to the specific question posed."
+}

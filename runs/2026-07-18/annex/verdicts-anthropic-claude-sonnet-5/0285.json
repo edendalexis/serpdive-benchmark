@@ -1,0 +1,11 @@
+{
+  "id": 285,
+  "query": "Devin AI supported models GPT-5.6 Claude Sonnet 5 Kimi K2.7 GLM 5.2 pricing comparison",
+  "topic": "Devin AI software engineer",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "None of Content A's results mention Devin AI at all - they are generic third-party model comparison pages (docsbot.ai, Reddit, YouTube, morphllm.com, llmbase.ai). While they contain some Claude Sonnet 5 / GLM-5.2 pricing figures, they never confirm which models Devin actually supports, contain contradictory pricing claims (Reddit post says GLM is '9x cheaper now, 14x cheaper later' with inconsistent $15 vs $138 figures), and give no info on GPT-5.6 or Kimi K2.7 at all in the Devin context.",
+  "b_issues": "Only the first result is Devin-specific; the rest are general third-party pricing roundups (teamday.ai, divkix.me, fireworks.ai, morphllm.com) with some outdated/older model references (Kimi K2.6, GPT-5.4) mixed in, and some pricing figures are approximate or dated differently, which could confuse a strict comparison.",
+  "reasoning": "The question is specifically about Devin AI's supported models and their pricing. Content B includes an actual Devin blog post confirming Kimi K2.7 and GLM 5.2 support with benchmark scores, matching the anchor, and its other sources supply pricing figures for GPT-5.6 (Terra $2.50/$15) that align with the anchor's own devtk.ai pricing figures. Content A contains zero Devin-specific sources and instead pulls in unrelated, sometimes self-contradictory generic pricing comparisons, making it far less useful for answering a question anchored on Devin's model support."
+}

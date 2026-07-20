@@ -1,0 +1,11 @@
+{
+  "id": 603,
+  "query": "BOJ June 2026 JGB purchase reduction halt details balance sheet policy announcement complementary deposit facility basic loan rate effective June 17 2026",
+  "topic": "Bank of Japan",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "The Nikkei articles describe a BOJ meeting that kept the overnight call rate at 0.5% and merely 'slowed' tapering, which directly contradicts the anchor's official documents showing that in the actual June 2026 meeting the guideline rate and complementary deposit facility rate were raised to 1.0% (from 0.75%) effective June 17, 2026. This is a substantive factual conflict with the true announcement, and none of the results give the correct 1.0% rate, the 0.75→1.0% amendment, or the June 17 effective date.",
+  "b_issues": "Content B does not explicitly state the new complementary deposit facility rate (1.0%), the basic loan rate change, or the June 17, 2026 effective date—key details requested. It also cites a 2025 figure of ¥400 billion quarterly reduction pace (later moderated to ~¥200 billion, consistent with the anchor), but doesn't spell out the final 200 billion yen figure clearly. Overall it is incomplete but not contradictory.",
+  "reasoning": "Content A actively misstates the outcome of the meeting, claiming the policy rate was held at 0.5%, which conflicts with the anchor's official BOJ documents showing a hike to 1.0% effective June 17, 2026. This is a serious factual error that would mislead an LLM answering the question. Content B, while less detailed and not explicitly quoting the exact new rates or effective date, does not contain contradictory information and links to genuine BOJ pages (e.g., the June 16, 2026 Outline of Outright Purchases) and figures (200 billion yen reduction pace) that align with the anchor. Given the requirement for factual accuracy over completeness, B is the safer, more reliable source set."
+}

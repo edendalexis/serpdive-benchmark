@@ -1,0 +1,11 @@
+{
+  "id": 975,
+  "query": "JD Vice President Trump delegation 2026 Winter Olympics Milan statement February 2026",
+  "topic": "JD Vance",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Includes two low-quality Facebook post excerpts as sources, which are redundant and not authoritative; the White House press release excerpt is truncated, cutting off full delegation list; some content (Guardian) is solid but overall the mix leans on social media rather than deep excerpts from primary reporting.",
+  "b_issues": "The White House press release entry only shows the title with minimal content, providing less detail than in Content A's version; otherwise the sources are reliable and consistent.",
+  "reasoning": "Both sets contain the core facts: Vance leads the delegation, Trump is not attending, the opening ceremony is Feb 6, 2026, and delegation members include Rubio, Usha Vance, Ambassador Fertitta, and Olympic gold medalists. However, Content B draws from more authoritative and detailed sources (AP News, PBS, Politico) that explicitly list delegation members (including Ohno and Lysacek) and add contextual reporting from Politico about the geopolitical stakes of the trip, without relying on low-quality secondary sources like Facebook posts. Content A includes two Facebook post snippets that add little value and are less reliable than direct news reporting. Both are largely consistent with the anchor, but B's source mix is stronger and more comprehensive for answering the question accurately."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 948,
+  "query": "Tesla Cybercab Plaid Mode production ramp April 2026 Gigafactory Texas",
+  "topic": "Cybercab",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Some entries (TMC thread) mix in later May 2026 dates, which is slightly beyond the April 2026 window, but the information is accurate and consistent with the ramp narrative. No major factual errors relative to the anchor.",
+  "b_issues": "The greendrive-accessories source claims Cybercab production began in February 2026 with a 'first unit rolling off the line,' which contradicts other sources (including its own insideevs result) that describe April 2026 as the target/deadline for production start, and contradicts the anchor's framing that production was confirmed as starting around the April 2026 Q1 earnings call. B also relies on lower-quality/speculative sources (Reddit comment, Instagram reel) for key ramp timing claims (e.g., 'one Cybercab every 10 seconds'), which are unverified and not corroborated by any reputable outlet.",
+  "reasoning": "Both sets confirm Cybercab production started around April 2026 at Giga Texas, consistent with the anchor. However, Content B contains an internal contradiction about when production actually began (February vs. April deadline) and leans on weaker sources (Reddit, Instagram) for aggressive production-rate claims. Content A's sources (Teslarati, Forbes, Yahoo, TeslaMotorsClub) are more reliable and internally consistent, providing a clearer, more accurate picture of the ramp timeline and volume targets without contradicting each other."
+}

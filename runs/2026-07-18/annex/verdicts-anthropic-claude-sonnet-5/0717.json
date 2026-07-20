@@ -1,0 +1,11 @@
+{
+  "id": 717,
+  "query": "Coalition of the Willing Summit Paris 2026 joint declaration participants Ukraine",
+  "topic": "Emmanuel Macron",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "The Yale PDF result refers to an earlier January 2026 meeting, not the July 13 summit, which could cause minor confusion if not read carefully; otherwise the Ukrainska Pravda snippet and Élysée pages give a fairly complete and accurate participant list and declaration titles.",
+  "b_issues": "The Pravda result's content field only shows a byline/teaser without the actual participant list, so the key participant details are missing. The diplomatie.gouv.fr and Wikipedia results describe different, earlier meetings (Nov 2026 15th meeting, and an October 2025 meeting) that could be mistaken for the July 13 2026 summit, creating potential confusion about dates/participants. The Élysée snippet also mentions a distinct 'Joint declaration by the President of the French Republic and the President of Ukraine' which is a bilateral document, not the full coalition joint declaration, potentially misleading about which document is 'the' joint declaration.",
+  "reasoning": "Content A includes the actual detailed list of attending leaders (presidents of Moldova, Finland, Romania, and numerous PMs) directly from the Ukrainska Pravda article, plus confirms the co-chairs (Macron, Starmer-equivalent UK PM, German Chancellor) and Zelensky's attendance, along with the specific declarations issued (Anti-Ballistic Missile Coalition declaration and co-chairs statement). Content B's search results, while touching similar sources, fail to surface the actual participant list text (the Pravda snippet is just a teaser) and instead surface content from unrelated/earlier meetings (Nov 2026, Oct 2025) that could mislead an agent about which summit's participants are being described. Thus Content A better equips an LLM to correctly answer the specific question about participants and the joint declaration for the July 2026 Paris summit."
+}

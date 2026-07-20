@@ -1,0 +1,11 @@
+{
+  "id": 342,
+  "query": "Thailand SEC Worldcoin iris scanning raid unlicensed WLD token enforcement outcome",
+  "topic": "Worldcoin",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Two of three results focus on the separate PDPC data-deletion order (a privacy-related action, not the SEC's licensing enforcement), diluting focus on the raid's legal/enforcement outcome. The CoinJournal piece on the raid itself lacks specifics on penalties or legal provisions violated.",
+  "b_issues": "None of the B results mention the later (Jan 2026) criminal complaints against five named individuals, so the ultimate enforcement outcome noted in the anchor is missing, but this is also absent from A.",
+  "reasoning": "Both sets miss the final Jan 2026 criminal complaint filing described in the anchor, but B's results are more tightly focused on the SEC/CCIB raid and its concrete enforcement details—citing the Emergency Decree on Digital Asset Businesses, Section 26 violations, and specific penalties (2-5 years imprisonment, fines)—giving a clearer picture of the enforcement outcome. A mixes in unrelated PDPC iris-scan deletion order results that, while factually accurate, are tangential to the SEC's WLD licensing enforcement action, making it less directly useful for answering the specific question about enforcement outcome."
+}

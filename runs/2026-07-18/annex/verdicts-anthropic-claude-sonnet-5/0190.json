@@ -1,0 +1,11 @@
+{
+  "id": 190,
+  "query": "Apple Intelligence Siri AI WWDC26 public beta release date 2026",
+  "topic": "Apple Intelligence",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A gives Apple's official statement that the public beta will be available 'next month' after the June 8 WWDC26 keynote (i.e., July 2026) and a secondary source (Times Now) specifying the public beta timing as July with final release in the second week of September 2026. It does not give the exact July 13/14 date confirmed by the anchor, but the July timeframe is consistent with the anchor's actual date.",
+  "b_issues": "Content B's sources are vaguer: one snippet says the public beta is 'due later this year' without specifying a month, and the Mashable excerpt says the betas were released 'on Monday' without stating which date or month that refers to, leaving the actual release timing ambiguous unless the reader already knows the context. No source in B gives a specific month or date for the public beta release.",
+  "reasoning": "Both content sets lack the exact July 13/14, 2026 date given in the anchor, but Content A provides a clearer, more specific answer (July 2026, with an official Apple Newsroom statement and a corroborating article giving July as the public beta month and September as final release), whereas Content B's information is more scattered and vague, relying on ambiguous phrasing like 'due later this year' and an unanchored 'Monday' reference. Content A therefore better enables a correct answer to the question."
+}

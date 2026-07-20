@@ -1,0 +1,11 @@
+{
+  "id": 521,
+  "query": "US Commerce Department export controls status Claude Fable 5 Mythos 5 global release date",
+  "topic": "Anthropic",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A contains no relevant results at all - returns generic pages about the State Department, USA.gov, Wikipedia's United States article, and even the movie 'Us (2019)'. None of these mention Claude Fable 5, Mythos 5, export controls, or Anthropic. It completely fails to answer the question.",
+  "b_issues": "Minor inconsistency: the CNBC snippet mentions Lutnick giving permission to release Mythos 5 'to a select group of companies and federal agencies' which seems to conflict with the anchor's framing of a full global lift, but this could reflect an intermediate step; otherwise the core facts (June 12 suspension, June 30 lift, July 1 redeployment) are consistent and corroborated across multiple sources (CNBC, codersera, LinkedIn, Forbes, digitalapplied).",
+  "reasoning": "Content B provides multiple relevant, mutually corroborating sources directly addressing the export control timeline and redeployment date (June 12 suspension, June 30 lift announcement, July 1 global restoration), matching the anchor's facts closely. Content A returns entirely irrelevant results with no mention of the query subject whatsoever, making it impossible for an LLM to answer the question from it."
+}

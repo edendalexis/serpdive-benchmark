@@ -1,0 +1,11 @@
+{
+  "id": 106,
+  "query": "Boeing Farnborough International Airshow 2026 MQ-28 Ghost Bat 777X cabin CH-47 Chinook exhibits details",
+  "topic": "Boeing",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; content is consistent with the anchor and provides complete details on all four exhibits (MQ-28, 777X cabin, CH-47 Chinook, T-7 simulator) within a single reliable source (investors.boeing.com).",
+  "b_issues": "The investors.boeing.com excerpt in B omits mention of the 777X cabin and CH-47 Chinook (only MQ-28 and T-7 simulator), so the full set of exhibit details is scattered across multiple snippets rather than confirmed in one authoritative source.",
+  "reasoning": "Both sets draw from the same original press release and secondary articles, and neither contains factual contradictions. However, Content A's first result (from the official Boeing investor press release) explicitly lists all four key exhibits—MQ-28 Ghost Bat, 777X cabin, CH-47 Chinook, and T-7 simulator—in one place, making it easier for an LLM to give a complete, accurate answer. Content B's corresponding official source omits the 777X cabin and CH-47 Chinook, requiring the model to piece together facts from lower-authority secondary sources (aerospaceglobalnews, airmedia24) to get the full picture. This makes A slightly more reliable and self-sufficient for answering the question."
+}

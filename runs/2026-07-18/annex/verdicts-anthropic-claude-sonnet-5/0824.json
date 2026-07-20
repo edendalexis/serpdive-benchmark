@@ -1,0 +1,11 @@
+{
+  "id": 824,
+  "query": "Port of Baltimore Carnival Cruise Line contract extension 2025 year-round service through 2030",
+  "topic": "Port of Baltimore",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Includes an off-topic result about JaxPort (Jacksonville, not Baltimore) whose contract 'extends through 2030,' which risks conflating unrelated port/cruise line data with Baltimore's actual agreement. While one result usefully notes year-round Carnival Pride service, the JaxPort content could mislead an LLM into applying Jacksonville's 2030 date to Baltimore's contract.",
+  "b_issues": "Does not explicitly restate the 'year-round' service detail, though this is implied by the anchor context (Carnival Pride has sailed year-round since 2009) and not critical to answering the core question about the 5-year contract terms.",
+  "reasoning": "Both content sets confirm the core facts matching the anchor: a five-year Carnival-Port of Baltimore agreement effective January 1, 2025, with a five-year renewal option. Content B's results are all Baltimore-specific and consistent with the anchor, posing no risk of factual contamination. Content A includes an irrelevant JaxPort (Jacksonville) result mentioning a 2030 extension, which could cause an LLM to conflate Jacksonville's contract terms with Baltimore's, introducing a factual error given the question's explicit '2030' phrasing. This makes B more reliable for accurately answering the question."
+}

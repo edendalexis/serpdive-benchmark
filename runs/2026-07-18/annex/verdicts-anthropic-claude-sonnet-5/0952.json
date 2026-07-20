@@ -1,0 +1,11 @@
+{
+  "id": 952,
+  "query": "TikTok Shop June 2026 expansion Austria Belgium Netherlands Poland official announcement markets launch date",
+  "topic": "TikTok Shop",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "The featured snippet and its source (houseofmarketers) omit the UK from the list of existing TikTok Shop markets ('adding to its existing presence in France, Germany, Italy, Spain, and Ireland'), which is factually incomplete/inaccurate per the anchor. It also relies on secondary/aggregator sources (LinkedIn post, novadata.io) rather than the official TikTok newsroom, and novadata.io cites a possibly fabricated eMarketer article with unclear verification ('verified from official Amazon sources' text seems mismatched/templated, raising reliability concerns).",
+  "b_issues": "No significant factual issues; results are consistent with the anchor and include the official TikTok newsroom source with correct market list and launch date.",
+  "reasoning": "Both content sets correctly identify the June 15, 2026 launch date and the four new markets (Austria, Belgium, Netherlands, Poland). However, Content B directly includes the official TikTok Newsroom announcement as a source, which correctly lists all six existing markets (France, Germany, Ireland, Italy, Spain, UK) matching the anchor exactly. Content A's top featured snippet omits the UK from the existing markets, introducing a factual inaccuracy, and relies more heavily on less authoritative secondary sources with some questionable content (e.g., novadata.io's oddly templated verification note). This makes B more reliable and accurate for answering the question."
+}

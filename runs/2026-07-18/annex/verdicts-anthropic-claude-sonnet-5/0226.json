@@ -1,0 +1,11 @@
+{
+  "id": 226,
+  "query": "Tesla Q2 2026 vehicle production delivery energy storage deployment figures",
+  "topic": "Tesla",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; all figures (451,758 produced, 480,126 delivered, 13.5 GWh deployed) are consistent and accurate, with additional corroborating detail (Model 3/Y breakdown, prior-year comparison, analyst estimates).",
+  "b_issues": "Core figures are accurate and consistent, but two of the five sources are Facebook posts (lower reliability), and the ir.tesla.com content is truncated/empty of concrete numbers, adding less unique value than A's diverse reputable outlets.",
+  "reasoning": "Both sets contain the same correct headline figures (451,758 produced, 480,126 delivered, 13.5 GWh energy storage deployed) and no contradictions. Content A draws from more authoritative, detail-rich sources (CNBC, Electrek, StockTitan, Yahoo Finance) that add useful context like the Model 3/Y vs Other Models breakdown, YoY comparison (9.6 GWh in 2025), and delivery estimates beaten. Content B repeats similar figures but relies partly on Facebook posts, which are less reliable and add no additional verified detail beyond what's already stated, making A marginally stronger for answering the question thoroughly and reliably."
+}

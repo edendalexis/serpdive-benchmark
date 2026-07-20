@@ -1,0 +1,11 @@
+{
+  "id": 18,
+  "query": "TSMC A14 process node volume production timeline specifications performance improvement N2 comparison",
+  "topic": "Taiwan Semiconductor Manufacturing Company",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Internally inconsistent on the A14 volume production date: pr.tsmc.com snippet says 2027, while the l_A14 page, semiwiki, and mlq.ai all say 2028. Performance figures also vary slightly between sources (15%/30%/20% vs 10-15%/25-30%/20-23%), though these are minor variance ranges rather than outright contradictions.",
+  "b_issues": "The first result (tsmc.com l_A14 page) is mostly scraped navigation/menu boilerplate with no substantive A14 timeline or spec content. No source in B gives an explicit A14 volume-production year; the pr.tsmc.com snippet only states N2's 2025 timeline and performance deltas, and Tom's Hardware only vaguely says 'about 2.5 years away.' The mosgyan.com result is largely irrelevant/outdated 2nm speculation.",
+  "reasoning": "Content A supplies concrete, though slightly conflicting, figures for A14 vs N2 performance (speed/power/density gains) and explicit volume-production timeline claims (2027/2028) from multiple credible sources (TSMC official page, press release, semiwiki, mlq.ai), giving an LLM enough material to construct a reasonably accurate answer with the caveat of a minor date discrepancy. Content B's top result is mostly unusable navigation text, and none of its results clearly states when A14 volume production will occur, making it harder to answer the timeline portion of the question. Thus Content A better enables a correct, more complete answer."
+}

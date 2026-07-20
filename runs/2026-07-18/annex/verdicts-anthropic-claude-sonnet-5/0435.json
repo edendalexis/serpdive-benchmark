@@ -1,0 +1,11 @@
+{
+  "id": 435,
+  "query": "Coppola Variety libel lawsuit ruling outcome 2025",
+  "topic": "Megalopolis",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Correct but relatively thin: confirms the anti-SLAPP motion was denied and Variety is appealing, but lacks specifics (date, judge's reasoning, case timeline) that would let a model give a well-grounded answer.",
+  "b_issues": "No factual errors; content is consistent with the anchor. Slightly redundant but covers date (Feb 2025), judge's rationale (videos not 'conclusive evidence', witness statements needed), and the appeal, giving a fuller picture.",
+  "reasoning": "Both sets agree on the core fact (Superior Court denied Variety's anti-SLAPP motion; Variety appealed), matching the anchor. However, Content B provides additional accurate detail from SFGate: the ruling date (February 2025), the judge's reasoning for denying dismissal, and the case's procedural history, which more thoroughly and correctly answers the specific question about the 2025 ruling outcome. Content A's results are accurate but less detailed, mostly repeating headline-level information without the reasoning or precise timing found in B."
+}

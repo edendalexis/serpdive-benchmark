@@ -1,0 +1,11 @@
+{
+  "id": 163,
+  "query": "Rivian Q4 2025 earnings report gross profit full year revenue 2026 vehicle delivery guidance",
+  "topic": "Rivian",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Uses electrek's FY2025 revenue figure ($5.29B) which is inconsistent with the widely-cited 8% YoY growth figure (which implies ~$5.37-5.39B, matching more detailed segment breakdowns); crucially includes an irrelevant/outdated LinkedIn post from Feb 19, 2025 discussing Q4 2024 earnings expectations, which could mislead a model into conflating fiscal periods; does not include the official Rivian newsroom press release as a source.",
+  "b_issues": "Contains an internal inconsistency: the CNBC snippet states Q4 2025 revenue was '$1.7 billion' while electrek (also in B) and other sources state Q4 2025 revenue was $1.29 billion (the $1.7B figure appears to be a mixed-up reference to Q4 2024 revenue), which could confuse a model if not cross-checked against the more detailed, internally consistent mlq.ai breakdown.",
+  "reasoning": "Both sets agree on the core, verifiable facts matching the anchor: $120M Q4 gross profit, $144M FY gross profit, and 2026 delivery guidance of 62,000-67,000 units. For full-year revenue, B's mlq.ai result provides a detailed, internally consistent breakdown ($5.387B total = $3.83B automotive + $1.557B software/services) that reconciles with the widely-reported 8% YoY growth and quarterly figures, making it more reliable than A's electrek figure of $5.29B, which appears to be a slight inaccuracy/typo relative to the growth rate. B also includes the official Rivian newsroom source (matching the anchor exactly) and stays tightly focused on the correct Feb 2026 earnings release, whereas A includes a distractor article from Feb 2025 about a different (Q4 2024) earnings report, risking timeline confusion. While B has one contradictory Q4 revenue figure from CNBC, the correct figure is also present via electrek in the same result set, allowing reconciliation, whereas A's inaccuracy is less flagged and A includes a more damaging out-of-context historical article."
+}

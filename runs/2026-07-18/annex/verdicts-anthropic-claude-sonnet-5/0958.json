@@ -1,0 +1,11 @@
+{
+  "id": 958,
+  "query": "TikTok Shop Smart Promotion Program requirements SPS 3.5 automation details 2026 seller tools",
+  "topic": "TikTok Shop",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "The ppc.land source is solid and matches the anchor's fee/timeline details closely (SPS 3.5, 3.5%/4.5% fee, April 2026 campaign mandate, June 2026 brand campaign mandate). Two secondary results (smartscout blog and socialmediatoday) are lower quality/tangential but not materially inaccurate; they don't contradict the primary facts.",
+  "b_issues": "Includes an unreliable, non-authoritative Facebook post claiming a 'Jan 20, 2026' launch date and a '5x ROI' target that are not corroborated by any official source and could be inaccurate or misleading. While the two official TikTok Seller University snippets (SPS ≥3.5, 4.5%/3.5% fee split, April 2026 campaign prerequisite) are accurate and match the anchor well, the presence of the Facebook post as a top result introduces unverified/contradictory claims that could mislead an LLM answering the question.",
+  "reasoning": "Both sets contain accurate, anchor-consistent core facts (SPS 3.5 threshold, 3.5%/4.5% fee structure, April 2026 campaign requirement). However, Content A's results are more internally consistent and traceable to a single well-sourced explainer (ppc.land) that closely mirrors the anchor's specific dates and program mechanics (AHR, CFP transition timeline, campaign mandates), with only mildly irrelevant secondary results. Content B, despite having strong official TikTok source snippets, elevates a Facebook post with unverified and inconsistent details (launch date, ROI target) to a high relevance score, which risks introducing inaccurate information into an LLM's answer. This makes Content A marginally more reliable overall for correctly answering the question."
+}

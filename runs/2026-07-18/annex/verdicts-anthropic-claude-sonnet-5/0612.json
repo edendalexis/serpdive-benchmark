@@ -1,0 +1,11 @@
+{
+  "id": 612,
+  "query": "Suno AI v5.5 release new features March 26 2026 official changelog",
+  "topic": "Suno AI",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "The featured snippet in Content A claims Suno released v5.5 on 'Friday (March 27)', which contradicts the actual release date of March 26, 2026 confirmed by the anchor and by A's own source (digitalmusicnews.com, dated 2026/03/26). This internal date inconsistency could mislead an LLM into giving the wrong release date.",
+  "b_issues": "No significant factual inaccuracies; minor redundancy across sources but all consistently confirm the March 26, 2026 date and describe the three features (Voices, Custom Models, My Taste) accurately, matching the anchor.",
+  "reasoning": "Both sets contain the correct core facts (v5.5 features: Voices, Custom Models, My Taste, and their descriptions) sourced from official Suno blog/help pages. However, Content A introduces a contradictory release date ('Friday, March 27') in its featured snippet, which conflicts with the query's specified date and with the anchor's official March 26, 2026 date. Content B consistently and correctly states March 26, 2026 across multiple independent sources (YouTube official channel, kingy.ai, suno.bi), reducing risk of date confusion. This makes B more reliable for accurately answering the question."
+}

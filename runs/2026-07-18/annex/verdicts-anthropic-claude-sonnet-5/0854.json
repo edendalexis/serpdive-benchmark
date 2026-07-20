@@ -1,0 +1,11 @@
+{
+  "id": 854,
+  "query": "SAG-AFTRA Nickelodeon agreement May 2025 ratification vote results voice actor contract terms",
+  "topic": "SAG-AFTRA",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A is entirely about the Interactive Media (video game) Agreement, not the Nickelodeon Animation Agreement. It contains no information about Nickelodeon, its terms, or its ratification vote — it is off-topic and would lead to an incorrect or unrelated answer.",
+  "b_issues": "None of the results give the actual final ratification vote percentage for the Nickelodeon agreement specifically (the Variety ratification article included is about the video game contract, not Nickelodeon). However, it does correctly cover the Nickelodeon tentative agreement, its terms (AI protections, $3.25M pay raises, dub residuals, interstitial rate increases), and the National Board review step, which are directly relevant and accurate per the anchor.",
+  "reasoning": "The question centers on the Nickelodeon agreement's terms and ratification. Content A only discusses an unrelated video game contract, making it useless for answering the Nickelodeon-specific question. Content B, despite lacking Nickelodeon-specific vote percentages, provides multiple accurate, relevant sources (Kidscreen, SAG-AFTRA official pages) detailing the actual Nickelodeon agreement terms and process, aligning with the anchor's content. Thus B is substantially more useful and accurate for this query."
+}

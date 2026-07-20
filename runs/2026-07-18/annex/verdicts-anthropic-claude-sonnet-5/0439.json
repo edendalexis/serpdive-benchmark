@@ -1,0 +1,11 @@
+{
+  "id": 439,
+  "query": "Megadoc Mike Figgis documentary Megalopolis table read rehearsal actors",
+  "topic": "Megalopolis",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A lacks specific details about the table read and rehearsal footage with early cast members. It mentions an Instagram reel referencing Paul Newman, Uma Thurman, Robert De Niro at a table read, but this is a low-reliability source and the info is presented as fragmentary. No mention of Ryan Gosling's 2003 rehearsal footage is included at all, making the answer to the specific query incomplete.",
+  "b_issues": "No significant factual flaws; content is consistent with the anchor Wikipedia excerpt and expands on it accurately.",
+  "reasoning": "The question specifically asks about the table read and rehearsal footage with actors in Megadoc. Content B directly quotes Wikipedia stating the documentary includes footage of a 2001 table read with Uma Thurman and Robert De Niro, and 2003 rehearsals with Ryan Gosling, plus a Letterboxd review corroborating this ('table reads and test footage with DeNiro and Gosling'). This directly and reliably answers the question. Content A only has a vague, low-reliability Instagram post mentioning a table read with Paul Newman, Uma Thurman, and Robert De Niro, but omits Ryan Gosling and the rehearsal detail entirely, making it less complete and reliant on a weaker source for the key fact."
+}

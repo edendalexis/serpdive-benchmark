@@ -1,0 +1,11 @@
+{
+  "id": 300,
+  "query": "Artemis III crew members names commander pilot mission specialists official announcement",
+  "topic": "NASA Artemis program",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; all sources (NASA, CBS, NPR, Wikipedia, CNN) consistently list Bresnik (commander), Parmitano (pilot), Rubio and Douglas (mission specialists), with Hines as backup. No contradictions.",
+  "b_issues": "The last result (Facebook post) contradicts the rest of the set by listing 'Commander Reid Wiseman, Pilot Victor Glover, Mission Specialist Christina Koch, and Mission Specialist Jeremy Hansen' as the Artemis III crew — this is actually the Artemis II crew, mislabeled, creating an internal contradiction that could mislead an LLM.",
+  "reasoning": "Both sets otherwise agree on the correct Artemis III crew (Bresnik, Parmitano, Rubio, Douglas), but Content B includes a clearly contradictory and inaccurate snippet naming a different crew, undermining reliability. Content A is internally consistent across all five sources with no conflicting information, making it more trustworthy for producing a correct answer."
+}

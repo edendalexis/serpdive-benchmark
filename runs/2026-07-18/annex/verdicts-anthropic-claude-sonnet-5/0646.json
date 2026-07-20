@@ -1,0 +1,11 @@
+{
+  "id": 646,
+  "query": "Berkshire Hathaway stock buybacks 2026 resumption amount spent",
+  "topic": "Berkshire Hathaway",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "None major; Yahoo/Motley Fool figure of $234M for Q1 is a secondary source but consistent with other reporting.",
+  "b_issues": "Includes YouTube video and Reddit thread as sources, which are less authoritative, though the core facts (225M initial, 235M quarter via YCharts) are consistent with other reporting.",
+  "reasoning": "Both sets contain the CNBC/Barron's-derived fact that Berkshire repurchased about $225-226 million on March 4, 2026 when it resumed buybacks. Both also provide a quarterly total (A: ~$234M via Motley Fool/Yahoo Finance; B: $235M via YCharts), which are essentially consistent with each other and with the anchor. A's sources (CNBC, Yahoo Finance/Motley Fool, StockTitan/SEC 8-K, Investing.com, Barron's) are all reputable financial outlets. B's core CNBC and YCharts sources are also reliable, though it supplements with a YouTube video and a Reddit comment thread that add less rigor but still corroborate the same $225M figure. Neither set contradicts itself, and both would allow an LLM to correctly answer the question with the same key figures."
+}

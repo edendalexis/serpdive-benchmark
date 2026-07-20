@@ -1,0 +1,11 @@
+{
+  "id": 488,
+  "query": "2026 WGA MBA ratification final vote tally member turnout percentage",
+  "topic": "The WGA",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A gives the core vote tally correctly (90.38% yes/4,282; 9.62% no/456) and includes the Deadline article's note that the guild has more than 11,000 members, which allows an LLM to infer/calculate an approximate turnout percentage (about 43%). It does not explicitly state a turnout percentage figure, so the LLM would still need to compute it.",
+  "b_issues": "Content B repeats the same core tally figures accurately, but introduces confusing/unreliable additional data: a Facebook snippet that describes '99% of WGA members voted... 8,525 valid votes... 8,435 yes' under a title referencing the 2026 ratification, which actually describes the 2023 vote and could be mistaken for 2026 turnout data, creating a contradiction. It also includes an Instagram comment claiming '19.25%' turnout, an unverified, low-quality source that could mislead the model into citing an incorrect turnout percentage.",
+  "reasoning": "Both sets provide the same accurate core vote tally (90.38% yes, 9.62% no, 4,282/456). Content A supplies a reliable path to estimate turnout via the Deadline article's mention of the guild's membership size (11,000+), without introducing conflicting data. Content B includes questionable, low-authority sources (Facebook post about a different year's vote, and an Instagram comment with a dubious turnout percentage) that risk causing the LLM to report an inaccurate or contradictory turnout figure. Thus Content A better enables a correct answer with less risk of factual confusion."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 234,
+  "query": "Wikimedia Foundation Brooke Vibber dismissal Community Tech team layoffs editor strike 2026",
+  "topic": "Wikipedia",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A introduces a discrepancy on the petition size (Times of India claims 'more than 700' signatories) that conflicts with the ~600 figure reported in the anchor's Heise article; it also relies heavily on a personal LinkedIn post as a source for the Vibber-firing/timeline claims, and duplicates The Register article already present in the anchor without adding new corroboration.",
+  "b_issues": "Some secondary blog sources (metaintro, medium) are of uncertain reliability, and the exact chronological relationship between Vibber's departure and the Community Tech disbanding (stated as 'a week before') is not perfectly verifiable against the anchor's mailing-list dates, but this ambiguity is minor and shared across both sets.",
+  "reasoning": "Both sets cover the core facts (Community Tech disbanding, Vibber's departure, union formation, editor petition/strike threat), but Content B is more internally consistent and better corroborated: its metaintro snippet cites the same ~600-signature petition figure found in the anchor's Heise article, and it adds a genuine Wikipedia meta-namespace page (Wiki Workers United solidarity) plus a Gigazine news piece that directly confirm the causal narrative (Vibber terminated shortly before the Community Tech layoffs, most laid-off staff being union members). Content A, by contrast, introduces a conflicting statistic (700 vs. 600 signatories) and leans on a lower-reliability LinkedIn post for key claims, reducing its overall factual coherence relative to the anchor."
+}

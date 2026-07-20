@@ -1,0 +1,11 @@
+{
+  "id": 485,
+  "query": "WGA 2026 strike duration seven weeks start end dates timeline",
+  "topic": "The WGA",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Does not explicitly state a 'seven weeks' duration (because the actual strike lasted longer, ~11-12 weeks), but provides enough dated snippets (Feb 17 start via Variety, 'no clear end in sight' as of April 7 via OnLabor, and 'ending strike after nearly three months' with a May 8 date via LA Times) to let a model correctly compute the actual duration and correct the false premise in the question.",
+  "b_issues": "Lacks any explicit end date or ratification date for the WGSU strike; the WGA MOA PDF result is about the separate WGA-AMPTP Minimum Basic Agreement (term May 2026-May 2030), which could be conflated with the staff strike end date, leading to confusion. Deadline article only mentions 'a full month' of marching as of March, giving no clear end-date signal.",
+  "reasoning": "Both sets contain the correct start date (Feb 17, 2026) via the Variety article. The key differentiator is the end date and overall duration: Content A includes an LA Times snippet explicitly stating the strike ended 'after nearly three months' around May 8, and an OnLabor piece confirming the strike was ongoing as of April 7, together allowing a model to derive an accurate (~11-12 week) duration and correctly push back on the 'seven weeks' premise. Content B provides no explicit strike end date and instead surfaces MBA-related documents that describe a different agreement's term (2026-2030), which could mislead a model into misattributing those dates to the strike. Thus Content A better supports a correct answer."
+}

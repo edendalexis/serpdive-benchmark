@@ -1,0 +1,11 @@
+{
+  "id": 348,
+  "query": "Worldcoin WLD price surge percentage following Eightco stake OpenAI IPO July 2026",
+  "topic": "Worldcoin",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Includes an extra stocktwits snippet showing only ~7% gain from a seemingly different, later event, which could create minor confusion about which percentage is the 'main' surge, but the core 20-23% figures matching the anchor are present and consistent.",
+  "b_issues": "Includes a stocktwits snippet showing ~19% gain, close to the anchor's 20-21% figure, and otherwise mirrors the same core sources (TradingView 22-23%, crypto.news 62%, cryptonews.net 20%, stocktitan July 2026 filing) as Content A, so it carries the same overall consistency and no unique factual errors.",
+  "reasoning": "Both content sets draw from the same underlying source set as the anchor (TradingView/Invezz 22-23%, crypto.news 20-62% variants, cryptonews.net 20%, stocktitan's July 2026 8-K filing with unlock-cut details, and additional stake/OpenAI context). Both accurately reflect the ~20-23% single-day surge tied to Eightco's WLD stake disclosure and OpenAI IPO buzz, and both include the July 2026 8-K filing relevant to the question's timeframe. Neither contains materially incorrect figures relative to the anchor; the minor variance in additional peripheral articles (7% vs 19% in unrelated later snippets) does not meaningfully affect the ability to answer the core question about the surge percentage following the Eightco stake/OpenAI IPO news."
+}

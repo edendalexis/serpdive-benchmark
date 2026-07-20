@@ -1,0 +1,11 @@
+{
+  "id": 808,
+  "query": "Satya Nadella Build 2026 keynote details Scout Autopilot release",
+  "topic": "Satya Nadella",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A provides some relevant snippets (Mashable quote about Scout being first Autopilot, jannikreinhard noting Scout is an experimental Frontier program release) but lacks detailed keynote chapter/timestamp context and doesn't clearly tie Scout's release status to the keynote narrative. The Verge and news.microsoft.com results are mostly generic/navigation text with little substantive detail on Scout or Autopilots.",
+  "b_issues": "Much of the YouTube result content is cluttered with image/link markup noise, reducing readability, though the substantive text (chapters, descriptions) is still present and useful.",
+  "reasoning": "Content B includes the full keynote chapter list showing 'Introducing Copilot Autopilots' timing, the Mashable quote confirming Scout is the first Autopilot, The Verge's description of Scout as an OpenClaw-based AI assistant, and crucially a third-party YouTube video description (Lisa Crosbie's 'Top Announcements') that explicitly details Scout as 'the first Autopilot, a personal agent living across Teams, Outlook, OneDrive and SharePoint' with a direct link to the official Microsoft blog post announcing Scout. This gives much richer, more specific, and consistent detail about Scout's release and its Autopilot categorization, despite formatting noise. Content A's results are thinner and more fragmented on the specific Scout/Autopilot relationship and release details."
+}

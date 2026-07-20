@@ -1,0 +1,11 @@
+{
+  "id": 859,
+  "query": "SAG-AFTRA Interactive Media Agreement 2025 compensation increase 15.17% November 2025 3% effective date implementation",
+  "topic": "SAG-AFTRA",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Contains a factual inconsistency: the fkks.com source states wages increased by 15.7% (rather than 15.17%), contradicting other results in the same set. A lacks any official document (like the ratification summary or wage table) that explicitly ties the 3% increase to a November 1, 2025 effective date, leaving the 'effective date implementation' part of the query less directly supported.",
+  "b_issues": "Also includes the same fkks.com 15.7% discrepancy as A, which is a minor internal inconsistency, but this is outweighed by the presence of authoritative corroborating sources.",
+  "reasoning": "Both sets share the same fkks.com typo (15.7% vs 15.17%), so neither is perfectly clean, but Content B provides stronger, more precise, and more authoritative confirmation of the exact figures in the query. Specifically, B includes the official SAG-AFTRA Interactive Media Agreement Summary PDF stating 'a. 15.17% effective upon ratification b. 3% effective November 1, 2025' and the official Wage Table PDF showing the 15.17%, 3%, 3% breakdown—directly and precisely answering the compensation increase and effective date aspects of the question. B also has additional corroborating sources (Deadline, Comics Beat) confirming the 15.17% figure and the November 2025/2026/2027 3% increases. Content A lacks these official summary/wage table sources and relies on shorter snippets, making it comparatively less precise for the specific effective-date implementation details asked about."
+}

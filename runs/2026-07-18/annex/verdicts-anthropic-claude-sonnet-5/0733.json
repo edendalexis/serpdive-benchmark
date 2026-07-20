@@ -1,0 +1,11 @@
+{
+  "id": 733,
+  "query": "Israeli settlement expansion West Bank 2025 land size location announcement",
+  "topic": "Israel-Hamas conflict",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Lacks the core May 29, 2025 announcement details (22 new settlements approved by Katz/Smotrich) that are central to the question; results focus on later/adjacent reports (Dec 2025 outposts, 2024 EU report, Jan 2026 video) without giving the specific size/location facts needed to answer the query about the 2025 announcement.",
+  "b_issues": "Includes some oddly future-dated items (OHCHR March 2026, Al Jazeera July 2026 about a different 13-settlement plan) that are tangential to the 2025 announcement and could confuse the timeline, though they don't directly contradict the core facts.",
+  "reasoning": "Content B directly reproduces the BBC article (matching the anchor) with the key facts: 22 new settlements approved, Katz/Smotrich announcement, Peace Now's characterization as the largest expansion in decades, plus CNN's corroborating details and reactions. This gives a clear, accurate, well-sourced answer to the question. Content A's results largely miss these specific 2025 announcement details, instead covering adjacent/later developments (outposts legalization in December, a 2024 EU report, and a 2026 video), making it less useful for directly answering the question about the 2025 land expansion announcement, size, and location."
+}

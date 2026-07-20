@@ -1,0 +1,11 @@
+{
+  "id": 878,
+  "query": "Keir Starmer BBC interview deeply personal extremely difficult decision step down quote June 2026",
+  "topic": "Keir Starmer",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; matches the anchor content closely with direct quotes from the BBC article.",
+  "b_issues": "Provides only video descriptions/snippets rather than full article text with direct quotes; lacks the actual detailed quotes ('really, really tough', 'intensely personal decision... at Chequers with wife and children', etc.) that fully answer the question. Relies on secondary sources (YouTube, Modern Ghana) rather than the primary BBC article text.",
+  "reasoning": "Content A directly reproduces the BBC News article text, including the specific quotes needed to answer the question (e.g., 'intensely personal decision', the Chequers weekend with wife Victoria and children, 'really, really tough' decision). This matches the anchor's substance precisely and is a reliable primary source. Content B only offers video titles/descriptions and secondary aggregator snippets, which mention the same general facts (intensely personal, Chequers, wife and children) but with less depth and detail, and rely on non-primary sources like YouTube and Modern Ghana. While B is not factually wrong, A provides more complete and directly quotable material for answering the question, making it the stronger source for accurate response construction."
+}

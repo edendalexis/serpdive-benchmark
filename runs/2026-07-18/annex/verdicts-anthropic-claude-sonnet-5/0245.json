@@ -1,0 +1,11 @@
+{
+  "id": 245,
+  "query": "Voyager 1 February 25 2025 cosmic ray subsystem shutdown power conservation NASA update",
+  "topic": "Voyager 1",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "None significant; all snippets consistent with the anchor and each other, correctly stating the Feb 25, 2025 CRS shutdown on Voyager 1 and the March 24 LECP shutdown on Voyager 2.",
+  "b_issues": "Introduces a 2026-dated article about a later Voyager 1 LECP shutdown ('Big Bang' plan) that, while internally consistent, adds extraneous future-dated content that could confuse the model about the specific Feb 25, 2025 event being asked about; also blends CRS shutdown timing for Voyager 2 (2026) with Voyager 1's Feb 2025 shutdown in a way that requires careful parsing to avoid conflating the two.",
+  "reasoning": "Both sets contain the core fact needed—Voyager 1's cosmic ray subsystem was shut off Feb 25, 2025 for power conservation—sourced from reliable outlets (JPL, CNN, ScienceAlert) that match the anchor. Content A presents this cleanly and consistently across all five results without extraneous timeline complications. Content B, while also accurate, mixes in details about a 2026 shutdown event and future 'Big Bang' energy plan that are not part of the question and could introduce confusion about which shutdown (Feb 2025 CRS vs. 2026 LECP) is being referenced. This makes A slightly more reliable and focused for directly answering the specific question asked."
+}

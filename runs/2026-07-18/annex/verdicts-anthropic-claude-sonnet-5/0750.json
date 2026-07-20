@@ -1,0 +1,11 @@
+{
+  "id": 750,
+  "query": "DJT stock closing price July 2026 Trump Media",
+  "topic": "Truth Social DJT stock",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Digrin's monthly summary listing July 2026 as $8.54 is likely a mid-month snapshot (matches macrotrends' July 10 value) rather than the month's final close, which could mildly confuse a reader, but the multiple other sources (macrotrends, CNBC, Business Insider, Investing.com) consistently confirm $9.66 as the July 17, 2026 close, matching the anchor exactly.",
+  "b_issues": "Sources give inconsistent, non-corroborating snapshots from different dates (macrotrends July 15 = 9.57, Robinhood July 1 = 7.98, Intelligent Investor undated ~8.55) with no clear consensus on a specific 'closing price' for July 2026, making it hard to derive one confident, accurate answer matching the anchor's $9.66 figure.",
+  "reasoning": "The anchor states the July 17, 2026 close was $9.66. Content A has four independent sources (macrotrends, CNBC, Business Insider, Investing.com) all converging on exactly $9.66 for July 17, 2026, providing a clear, well-corroborated, accurate answer. Content B's results are scattered across different dates and prices with no strong convergence, making it much harder for an LLM to give a correct, confident answer matching the reference."
+}

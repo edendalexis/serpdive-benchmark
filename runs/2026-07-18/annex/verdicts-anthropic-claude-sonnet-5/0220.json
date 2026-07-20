@@ -1,0 +1,11 @@
+{
+  "id": 220,
+  "query": "Tesla Corpus Christi lithium refinery annual production capacity",
+  "topic": "Tesla",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "The key capacity figures (50 GWh/50,000 tonnes LCE) come from low-reliability sources (greendrive-accessories.com and evcube.net, the latter appearing to be a speculative/AI-generated 2026 buildout piece), and these numbers are not corroborated elsewhere; the electrek result confirms production start but gives no capacity figure.",
+  "b_issues": "The metal.com content is cut off mid-sentence ('approximately 40,000' without units), leaving the figure ambiguous/incomplete, though it is likely tonnes of LCE and roughly consistent with industry reporting.",
+  "reasoning": "Both sets agree on the core, well-supported fact (matching the anchor) that the refinery's designed capacity supports about 1 million EVs' worth of batteries per year. Content B sources this claim from more reputable outlets (metal.com, fastmarkets, Reddit citing 'designed capacity', evmagazine) and adds corroborating tonnage detail (17,000 tonnes current, ~40,000 tonnes designed) from a well-known commodities data provider (Fastmarkets), giving a more nuanced and credible picture of phased capacity. Content A's additional specific numeric claims (50 GWh, 50,000 tonnes) originate from lower-quality, less authoritative sources, introducing less-verified figures. Overall, Content B provides comparable core information with better-sourced supporting detail."
+}

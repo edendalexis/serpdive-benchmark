@@ -1,0 +1,11 @@
+{
+  "id": 159,
+  "query": "Zelenskyy G7 summit 2026 meeting Trump Turkey NATO Ukraine peace talks details",
+  "topic": "Volodymyr Zelenskyy",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A's results largely repeat headline/intro content without deeper substantive details on the Trump-Zelenskyy meeting outcomes; NBC result content is truncated/unhelpful, and no content elaborates on the peace talks specifics or Ukraine's shifting negotiating strategy in depth.",
+  "b_issues": "Slightly less coverage of NATO defense-spending context is somewhat tangential to the core question about the Trump-Zelenskyy peace talks, but this is not a factual error, just a minor relevance issue.",
+  "reasoning": "Both sets include the same core NPR, ABC News, and NY Post articles confirming the Trump-Zelenskyy meeting occurred July 8, 2026 at the NATO summit in Ankara, Turkey, with Trump announcing a Patriot missile production license for Ukraine. However, Content B includes additional substantive quotes not in A, such as Zelenskyy's comment about a 'real prospect' for peace after a 'very good call' with Trump, and more detail from the NY Post piece about Ukraine's shifting strategy, Stefanishyna's comments on G7 pressure and Russia's lack of serious negotiation intent. This gives Content B more of the specific peace-talks details the question asks about. Content A's NY Post snippet is similar but Content B's is slightly more detailed with direct quotes. Both are accurate and consistent with the anchor, but B provides more substantive detail relevant to 'peace talks details,' making it marginally more useful for answering the question comprehensively."
+}

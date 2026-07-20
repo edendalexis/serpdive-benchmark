@@ -1,0 +1,11 @@
+{
+  "id": 605,
+  "query": "Bank of Japan inflation projections Iran war energy shock June 2026 statements",
+  "topic": "Bank of Japan",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Includes duplicate coverage of the same Reuters article (via USNews and Reuters mirror) and relies partly on an obscure local radio station (wxerfm) for a March pre‑event 'warning' piece; lacks concrete numeric inflation‑forecast figures beyond the Yahoo/Reuters snippet.",
+  "b_issues": "Relies on several lesser‑known or unverified outlets (delfineo.com, investinglive.com, biggo.com) for specific figures (e.g., 2.8% vs 1.9% forecast, 0.75% rate hold), which, while plausible and not contradicting the anchor, come from less authoritative sources than Reuters/Axios.",
+  "reasoning": "Both sets share the core Yahoo/Reuters article covering the BOJ's inflation forecast trim, the Iran war's impact on oil prices, and the June rate hike to 1%, which aligns with the anchor's facts about the June 15‑16 meeting and rate increase. Content A adds context via Axios (directly using the term 'energy shock') and a lesser radio-station piece, while Content B adds more concrete forecast figures via lower‑tier sites. Neither set explicitly cites the anchor's primary BOJ documents (Summary of Opinions, Ueda's speech, Tamura's speech), but both provide consistent, non‑contradictory secondary reporting that would let an LLM answer the question with similar accuracy and completeness. The differences in source reliability roughly offset each other, resulting in comparable overall utility."
+}

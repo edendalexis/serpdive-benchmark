@@ -1,0 +1,11 @@
+{
+  "id": 50,
+  "query": "Nintendo Switch 2 The Duskbloods network test dates registration details",
+  "topic": "Nintendo Switch 2",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor inconsistency across sources on exact registration close time/date (some say July 28 at 2:59pm BST, others 6:59am/9:59am PT which are roughly consistent when converted, but one Verge-style source in anchor implies applications open July 22 10AM ET which aligns; overall dates are consistent: registration July 22-28, test Aug 21-24). No major factual errors, just multiple slightly varying time citations across different outlets.",
+  "b_issues": "Results are almost entirely irrelevant generic Nintendo pages (homepage, Wikipedia, Play Nintendo, Nintendo Everything front page) with no specific information about The Duskbloods network test dates or registration details at all.",
+  "reasoning": "Content A provides multiple sources with specific, consistent, and detailed information directly answering the query: registration opens July 22 (with specific times like 7am PDT/10am ET), registration closes July 28, network test runs August 21-24 (some say 21-23), selection announced August 7, and links to the official registration site. This matches well with the anchor's facts. Content B contains no relevant information whatsoever—its results are generic Nintendo Everything/homepage/Wikipedia pages that do not mention The Duskbloods network test dates or registration details at all, making it useless for answering the question."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 563,
+  "query": "Hades II new Hidden Aspects Nocturnal Arms names Vow of Rivals Oath of the Unseen effects",
+  "topic": "Hades II",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Does not provide the specific names of each Hidden Aspect for the six Nocturnal Arms, but the Oath_of_the_Unseen snippet does give a concrete description of the Vow of Rivals effect (equivalent to Extreme Measures, adding new moves, extra phases, or a new arena), which is useful factual detail.",
+  "b_issues": "Also lacks explicit names of the Hidden Aspects, and its snippets are more generic (e.g., 'secret, final form to discover...', 'new hidden aspects for all Nocturnal Arms') without elaborating on what the Vow of Rivals or Oath of the Unseen actually changes mechanically.",
+  "reasoning": "Both result sets fail to list the specific names of the six Hidden Aspects, which is a core part of the question. However, Content A includes the hades.fandom.com/wiki/Oath_of_the_Unseen snippet that explains the Vow of Rivals' effect in more concrete terms (comparing it to Extreme Measures and describing new moves, phases, and arenas), giving the LLM more substantive material to answer the 'effects' portion of the question. Content B's results are more generic and repeat surface-level statements without adding comparable specificity on effects."
+}

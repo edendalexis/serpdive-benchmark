@@ -1,0 +1,11 @@
+{
+  "id": 977,
+  "query": "JD Vance selling Trump tax spending bill 2026 midterms September 2025 legislative status",
+  "topic": "JD Vance",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Results are mostly low-quality social media posts (Facebook) rather than authoritative news sources, and lack detailed specifics on Vance's September 2025 tour or messaging strategy; NPR piece is dated June, not directly about Vance's selling effort. However, some snippets (tiebreaking vote, bill passage context) are factually consistent with the anchor.",
+  "b_issues": "Results are largely irrelevant to the query (UBS market commentary, litigation tracker, academic journal article on Trump's reelection). None substantively address Vance's role in promoting the bill, the 2026 midterms messaging effort, or the September 2025 legislative status in a way that matches the anchor's topic.",
+  "reasoning": "Content A, despite weak sourcing quality, contains material at least topically relevant to Vance, the 'Big Beautiful Bill', and its passage/political context, which could help an LLM construct a partial but relevant answer. Content B's results are almost entirely off-topic (tariffs, litigation tracker, academic article) and provide essentially no usable facts about Vance's tour or the bill's midterm messaging, making it far less useful for answering the specific question."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 704,
+  "query": "Live Nation Ticketmaster DOJ settlement list 13 amphitheaters divestment",
+  "topic": "Ticketmaster DOJ lawsuit",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Does not include the DigitalMusicNews article (the anchor source) that reportedly contains the actual list of 13 amphitheaters. Complex.com's claim of 'at least 13, a number that could increase' introduces ambiguity/inconsistency with the fixed number of 13 cited elsewhere. No named venues appear anywhere in the results.",
+  "b_issues": "Includes the anchor DigitalMusicNews article but the snippet only shows one named venue (American Family Insurance Amphitheater) rather than the full list of 13, so the complete venue list is still not fully retrievable from the snippet alone.",
+  "reasoning": "Both sets confirm the core facts (13 amphitheaters, divestment of exclusive booking/ownership agreements, 15% fee cap), but Content B is superior because it includes the actual anchor source (DigitalMusicNews) that purports to contain the complete list of divested amphitheaters, plus an AP News confirmation of the 13-venue divestment of 'ownership or control.' Content A omits this key source entirely, relying instead on general mentions of '13' or 'at least 13' without any venue specifics or link to the authoritative list, making it less useful for answering a question specifically about the list of amphitheaters."
+}

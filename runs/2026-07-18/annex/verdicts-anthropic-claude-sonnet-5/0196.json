@@ -1,0 +1,11 @@
+{
+  "id": 196,
+  "query": "iOS 27 Foundation Models framework unified Language Model protocol API documentation Claude Gemini",
+  "topic": "Apple Intelligence",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Introduces a less authoritative blog (ecorpit.com) that uses a different type name 'TextModelProvider' instead of the officially documented 'LanguageModel' protocol, creating a naming inconsistency with the rest of the evidence. Also relies on speculative blog posts (vibecoder.me, ecorpit.com) with unverified claims (e.g., exact September 2026 release date, specific parameter counts) rather than primary Apple documentation. Does not include the official Apple Developer Foundation Models documentation page.",
+  "b_issues": "No major factual issues; content is consistent across sources (LanguageModel protocol, LanguageModelSession, respond(to:), streaming, tool calling) and includes the official Apple Developer Foundation Models documentation page plus the official Anthropic GitHub repo, both authoritative and directly relevant.",
+  "reasoning": "Both sets confirm the core facts: iOS 27's Foundation Models framework exposes a public LanguageModel protocol that Claude and Gemini conform to, driven through the same LanguageModelSession API. However, Content B includes the official Apple Developer documentation page for Foundation Models and the official Anthropic GitHub repository, giving more authoritative and consistent sourcing directly tied to the API documentation aspect of the query. Content A relies more on secondary/speculative blogs (e.g., ecorpit.com) that introduce inconsistent terminology (TextModelProvider vs LanguageModel) and unverified specifics, which could mislead an LLM answering the question. Thus B better enables a correct, well-sourced answer."
+}

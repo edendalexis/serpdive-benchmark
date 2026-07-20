@@ -1,0 +1,11 @@
+{
+  "id": 238,
+  "query": "Pakistan Telecommunication Authority restore Wikipedia access directive Prime Minister 2025 exact date",
+  "topic": "Wikipedia",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Includes an irrelevant Wikipedia article snippet mentioning 2025/2026 PTA matters (5G auction, Digital Nation Pakistan Act) that are unrelated to the Wikipedia restoration event, which could confuse the 'exact date' answer but doesn't state a false restoration date.",
+  "b_issues": "No factual flaws; correctly identifies Feb 3, 2023 as block date and Feb 6-7, 2023 as restoration directive date via reliable sources including official radio.gov.pk.",
+  "reasoning": "Both result sets accurately show the Wikipedia ban/restoration occurred in February 2023 (banned Feb 3, restored Feb 6, announced Feb 7), correctly clarifying that no such 2025 event exists as implied by the query. Neither fabricates a 2025 date for the restoration. Both include the same key sources (Dawn, DW, Nation, Wikimedia Foundation) confirming the same facts. A adds an extra, mostly irrelevant Wikipedia article snippet with unrelated 2025/2026 PTA info, but this doesn't create a factual error about the restoration date itself. Overall, both equally enable a correct answer."
+}

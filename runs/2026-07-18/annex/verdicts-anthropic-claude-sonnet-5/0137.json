@@ -1,0 +1,11 @@
+{
+  "id": 137,
+  "query": "BTS THE CITY Arirang Seoul June 2026 13th anniversary event dates programs",
+  "topic": "BTS",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Includes an unreliable Facebook post with internally inconsistent dates (says June 13, 2026 in title but June 13-14, 2025 in event details) and mentions 'Busan Pampanga', which is nonsensical/likely spam. Focuses heavily on Busan (drone show, Gwangan Bridge) rather than Seoul, and doesn't give the specific Seoul dates/programs from the official Weverse notice (only a truncated snippet mentioning March 20). Overall less aligned with the anchor's Seoul-specific details.",
+  "b_issues": "Also focuses partly on Busan (NOL, Live Nation, ibighit tour) rather than purely Seoul, but this is reasonable since the query conflates Seoul with the 13th anniversary (which anchor shows is actually a Busan event). The Seoul details given (Shinsegae Square, City Hall Station, Love Song Lounge, POP-UP) accurately mirror the anchor's notice 34162 content, including exact dates and locations.",
+  "reasoning": "Content B closely mirrors the anchor's actual Weverse notice text for Seoul, providing specific verified dates, times, and locations (Shinsegae Square Media Facade, Love Song Lounge, POP-UP, etc.) that match the anchor's official source. It also correctly notes Busan is where the 13th anniversary concert (June 13, 2026) occurs, consistent with ibighit.com tour dates. Content A contains a low-quality, self-contradictory Facebook source (wrong year, irrelevant location 'Pampanga') that undermines reliability, and lacks the detailed accurate Seoul program information found in the anchor. Thus B better supports a correct, well-grounded answer."
+}

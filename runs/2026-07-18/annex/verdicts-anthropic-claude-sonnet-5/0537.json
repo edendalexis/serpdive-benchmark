@@ -1,0 +1,11 @@
+{
+  "id": 537,
+  "query": "Mattel 2026 Barbie playsets folding house pizza playset three dolls reveal",
+  "topic": "Barbie",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Neither result set directly identifies a specific 2026 Barbie playset featuring three dolls with a folding house or pizza playset reveal combined. Content A's youloveit link mentions only Barbie doll included, not three dolls, and doesn't mention pizza playset. The Toy Fair and other video results are vague and don't give concrete product details tying folding house + pizza playset + three dolls together.",
+  "b_issues": "Content B's collection page results are generic summaries about Barbie dollhouses/playsets overall, not specific to the folding house or pizza playset with three dolls. The youloveit snippet is identical to A's and also only confirms one doll, not three. No direct link to a three-doll pizza playset reveal is provided.",
+  "reasoning": "Both content sets fail to surface the actual product (Barbie Pizza Playset with Malibu, Brooklyn, and Chelsea dolls, JNB43) that matches the query's 'three dolls' and 'pizza playset' criteria - that key fact only appears in the anchor's Toy Sisters result, not in either A or B. Both A and B provide only tangential or generic information: A has slightly more specific video titles (Weekend Escape House unboxing, Toy Fair coverage) but no explicit mention of three dolls or pizza playset reveal; B has generic dollhouse collection summaries that don't address the specific three-doll pizza playset either. Neither set enables a confident, accurate answer to the specific question about a three-doll pizza playset reveal, making this a tie in terms of enabling correct answers - both are equally insufficient for the core query intent."
+}

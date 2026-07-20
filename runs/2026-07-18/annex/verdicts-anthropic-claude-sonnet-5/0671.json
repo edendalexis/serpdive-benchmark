@@ -1,0 +1,11 @@
+{
+  "id": 671,
+  "query": "Kamala Harris new political organization name founded 2025",
+  "topic": "Kamala Harris",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Includes largely irrelevant/confusing results (Emerge America, a 2003-era org unrelated to a 2025 founding; Britannica and Wikipedia bio snippets with no organization name; an Instagram fact-check reel that says Harris has 'not announced' anything, directly contradicting the Variety piece). Only one result (Variesty) actually references the 2026 Headquarters rebrand, and it doesn't mention the 'Fight for the People' PAC or give a clear 2025 founding date, making the set thin and partly contradictory.",
+  "b_issues": "Does not explicitly name the 'Fight for the People' PAC from the anchor, and the Politico Jan 2025 article's headline/URL (pioneer49) is ambiguous about the exact org name. Wikipedia excerpt is bio-focused and not directly useful for the organization question.",
+  "reasoning": "Both sets miss the specific 'Fight for the People' PAC name found in the anchor. However, Content B provides more coherent, mutually reinforcing information: a Jan 2025 Politico piece about a new post-VP organization, and detailed, consistent MSNBC/Fox News coverage of the KamalaHQ->Headquarters rebrand and its partnership with People For the American Way, timeline, and purpose. Content A introduces confusing, irrelevant, and even contradictory material (an Instagram post denying any announcement, and an unrelated older organization, Emerge), which could mislead an LLM into an incorrect or garbled answer. B's content is more accurate, consistent, and directly relevant to answering the question."
+}

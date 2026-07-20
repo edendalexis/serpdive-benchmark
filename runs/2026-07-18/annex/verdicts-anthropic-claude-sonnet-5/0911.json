@@ -1,0 +1,11 @@
+{
+  "id": 911,
+  "query": "2026 Super Bowl halftime show performer surprise guests Trump reaction Bad Bunny Super Bowl LX",
+  "topic": "Super Bowl",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Includes a Facebook post as a source (less authoritative), but content is accurate and consistent with other sources; no major factual errors.",
+  "b_issues": "First result (CNN) has a mismatched snippet about a Taco Bell/cyclospora outbreak, providing no useful information despite correct title/URL, which wastes a result slot and could confuse the model; overall guest-list detail is thinner than in A's BBC snippet (missing Pedro Pascal, Cardi B, Karol G, Jessica Alba).",
+  "reasoning": "Both sets accurately capture Trump's 'one of the worst, EVER' and 'disgusting'/'slap in the face' reactions to Bad Bunny's Super Bowl LX halftime show. However, Content A includes a BBC article that explicitly lists the surprise guests (Lady Gaga, Ricky Martin, plus cameos from Pedro Pascal, Cardi B, Karol G, Jessica Alba), giving a fuller answer to the 'surprise guests' part of the query, and a People article noting Trump also criticized Green Day. Content B's ABC News snippet also lists Lady Gaga and Ricky Martin but omits the other cameos, and its first result (CNN) contains an irrelevant snippet about a Taco Bell foodborne illness outbreak, which adds noise without useful content. This makes Content A slightly more complete and reliable for fully answering the question."
+}

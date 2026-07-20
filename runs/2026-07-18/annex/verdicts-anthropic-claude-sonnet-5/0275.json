@@ -1,0 +1,11 @@
+{
+  "id": 275,
+  "query": "El Salvador life imprisonment constitutional amendment March 2026 crimes eligible murder rape terrorism",
+  "topic": "Nayib Bukele",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A's snippets are very short and truncated, offering minimal detail beyond crime categories; the Reuters entry lacks the vote count and other specifics found in the anchor. No direct quotes or context about the state of emergency or the crimes-against-humanity report are included.",
+  "b_issues": "Minor: content includes some later-dated articles (April 2026) about minors as young as 12, which go beyond the March 2026 amendment itself, but this is supplementary rather than incorrect, and it correctly notes the March amendment as the basis for the later reform.",
+  "reasoning": "Content B provides fuller excerpts from reliable sources (Reuters, Al Jazeera, Daily Sabah, El Salvador in English) that directly state the crimes eligible for life imprisonment (murder/homicide, rape, terrorism), the vote count (59-1), and contextual details such as the state-of-emergency background and the crimes-against-humanity report that prompted the reform. Content A's snippets are much shorter and less informative, lacking the vote count and contextual quotes, making it harder for an LLM to construct a complete, accurate answer."
+}

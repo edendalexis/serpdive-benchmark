@@ -1,0 +1,11 @@
+{
+  "id": 683,
+  "query": "Shein carbon neutral Weilong Zhaoqing logistics park FY2024",
+  "topic": "Shein",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "None significant; includes the direct SHEIN press release and LinkedIn confirmation of the Weilong Zhaoqing carbon neutrality claim for FY2024, matching the anchor closely.",
+  "b_issues": "None of the top results directly address the specific Weilong Zhaoqing logistics park carbon neutrality announcement; most focus on overall emissions increases, with only a brief indirect mention in a LinkedIn post about 32,000 tonnes reduced, lacking the specific facility name or FY2024 context clearly tied to the anchor.",
+  "reasoning": "Content A directly surfaces the SHEIN press release and a LinkedIn post explicitly confirming the Weilong Zhaoqing High-Tech Logistics Park's FY2024 carbon neutrality achievement, matching the anchor's core facts precisely. Content B's results are dominated by broader emissions criticism articles and only tangentially reference the 32,000 tonnes reduction without clearly identifying the specific logistics park or its carbon neutrality certification, making it harder to construct an accurate, on-topic answer."
+}

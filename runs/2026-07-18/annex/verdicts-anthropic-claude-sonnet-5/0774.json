@@ -1,0 +1,11 @@
+{
+  "id": 774,
+  "query": "Netanyahu formal confirmation halt fighting US-brokered Gaza deal first phase status",
+  "topic": "Gaza ceasefire negotiations",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Mixes in outdated January 2025 articles (Guardian, Al Jazeera Jan 16) describing an earlier, separate ceasefire negotiation attempt that collapsed, which could mislead the LLM into conflating it with the October 2025 first-phase deal. The PBS/France24 entries focus on Netanyahu calling the *second*-phase announcement a 'declarative move,' not directly confirming the first-phase halt of fighting, so the core fact (formal confirmation of first-phase ceasefire) is only indirectly covered via the CBS snippet.",
+  "b_issues": "No major factual issues; all results are from October 2025 and directly relevant, though it lacks the PBS/France24 'declarative move' nuance about the second phase, which is a minor omission relative to the anchor’s scope.",
+  "reasoning": "The question centers on Netanyahu's formal confirmation of the ceasefire/halt of fighting and the first-phase status of the US-brokered Gaza deal. Content B directly answers this with consistent, dated (October 2025) sources: Al Jazeera confirming cabinet ratification, CNBC quoting Netanyahu's direct statement about first-phase approval, NPR/wyso and Haaretz corroborating the same event. Content A includes relevant CBS and PBS/France24 pieces but also injects unrelated January 2025 articles about an earlier, distinct ceasefire negotiation that could confuse the timeline and lead to inaccurate conflation of events. B's set is more focused, accurate, and directly supports answering the specific question."
+}

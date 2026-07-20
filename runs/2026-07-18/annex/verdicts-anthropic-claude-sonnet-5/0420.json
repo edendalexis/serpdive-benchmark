@@ -1,0 +1,11 @@
+{
+  "id": 420,
+  "query": "Rafah crossing reopening February 2026 daily passenger limits medical evacuees",
+  "topic": "Rafah",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Numbers vary slightly across sources (50, 150, 200) reflecting real-world reporting discrepancies about initial vs. planned daily limits, but all are sourced from reputable outlets and are internally plausible as different stages/reports of the same evolving situation.",
+  "b_issues": "Provides fewer explicit numeric details across its result set; only two sources (LA Times, Guardian) give concrete daily limit figures, and the ABC Net Australia entry adds a divergent 'fewer than 30' figure without context, which could confuse rather than clarify.",
+  "reasoning": "Both sets are built from reliable news outlets and are consistent with the anchor's core facts (50 patients/relatives departing, 50 returning, later expanded to ~150-200 in early reporting). However, Content A offers a broader and more detailed spread of numeric specifics from six different, credible outlets (UN News, Al Jazeera, ABC30, Guardian, Le Monde, ReliefWeb), directly addressing the question's focus on daily passenger limits and medical evacuees, including exact figures for patients needing evacuation (18,500–20,000) and children affected. Content B's results are thinner on quantitative specifics and include one entry (ABC Net Australia) with a discrepant, unexplained lower figure that could mislead an LLM without additional context. Thus, Content A better equips an LLM to give a comprehensive, accurate answer."
+}

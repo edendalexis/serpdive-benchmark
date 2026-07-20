@@ -1,0 +1,11 @@
+{
+  "id": 407,
+  "query": "EU AI Act AI Omnibus small mid-cap enterprises SMCs SME exemptions extension extender scopes 2026",
+  "topic": "EU AI Act",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "The Consilium result in A is dominated by navigation links and metadata, containing no actual substantive text about the SMC exemption extension. Other sources (BEUC, LinkedIn pulse, Grant Thornton) give only fragmentary or vague statements (e.g., 'exempt from heaviest AI' obligations) without concrete thresholds or confirmation of the final political agreement, and Cooley's content is about deadlines, not SMC scope. No source gives precise SMC definition thresholds.",
+  "b_issues": "Minor: some sources describe the Digital Omnibus as still a Commission proposal rather than emphasizing the 7 May 2026 political agreement, but this is consistent with the timeline and not contradictory.",
+  "reasoning": "Content B directly answers the question with a specific quote from the Consilium press release confirming that SME exemptions are extended to small mid-caps (SMCs), and reinforces this with Loyens & Loeff confirming the extension and Gerrish Legal providing precise numeric thresholds (<750 employees, ≤€150M turnover or ≤€129M balance sheet) that match the independently verified anchor content. Content A's parallel Consilium result is essentially empty of substantive text (mostly site navigation), and its other sources are vaguer and less precise, making B clearly more useful for accurately answering the query."
+}

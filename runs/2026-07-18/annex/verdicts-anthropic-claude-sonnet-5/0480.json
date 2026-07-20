@@ -1,0 +1,11 @@
+{
+  "id": 480,
+  "query": "WGA 2026 MBA ratification AMPTP AI residual terms",
+  "topic": "The WGA",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A provides good general ratification and residual details (health fund, HBSVOD residuals, streaming bonus) but contains no mention of AI-specific terms at all, despite the query explicitly asking about AI residual terms. This leaves a key part of the question unanswerable.",
+  "b_issues": "Content B's AI-related snippets are brief and somewhat vague (e.g., 'moved the needle forward in a minor capacity on the residual and AI front' and 'adds requirements if the studios seek to license writers...' is truncated), so it doesn't give full detail on AI provisions, but it at least surfaces the topic directly from two sources (Deadline and Broadcast Now).",
+  "reasoning": "The query specifically asks about AI residual terms in the 2026 MBA. Content B includes two results (Deadline, Broadcast Now) that explicitly reference AI protections and their interaction with residuals, giving the agent something concrete to work with, even if brief. Content A, despite being detailed on ratification numbers and general residual/health fund gains, never mentions AI at all, making it impossible to answer the AI-specific portion of the question. Both sets agree on ratification facts (90.38% approval, contract term, health fund gains), so neither contradicts the anchor on those points. But because the question centers on AI residual terms, B's inclusion of that topic makes it more useful despite its brevity, while A's omission is a significant gap relative to the question asked."
+}

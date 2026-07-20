@@ -1,0 +1,11 @@
+{
+  "id": 568,
+  "query": "Hades II v1.0 official release date announcement Supergiant Games 2026",
+  "topic": "Hades II",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; all sources consistently state the correct September 25, 2025 release date, matching the anchor. Minor irrelevant details (concert, sales) don't affect accuracy.",
+  "b_issues": "Contains a contradictory and factually incorrect source (dbltap.com) stating the release date as September 26, 2025, which conflicts with the correct September 25, 2025 date given by other sources within the same result set and the anchor. This internal contradiction could mislead an LLM into citing the wrong date.",
+  "reasoning": "Both sets correctly avoid inventing a 2026 date and confirm the actual v1.0 release was September 25, 2025, consistent with the anchor. However, Content A is internally consistent across all six sources, uniformly stating September 25, 2025. Content B includes a conflicting claim (September 26, 2025) from a seemingly reputable source, creating a factual inconsistency within the result set that could cause an LLM to report the wrong date or express unwarranted uncertainty. This makes Content A more reliable for correctly answering the question."
+}

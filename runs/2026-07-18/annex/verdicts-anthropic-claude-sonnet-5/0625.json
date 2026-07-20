@@ -1,0 +1,11 @@
+{
+  "id": 625,
+  "query": "Novak Djokovic official warning Wimbledon July 5 2026 language",
+  "topic": "Novak Djokovic",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Snippets are truncated ('Read more') and lack detail on the actual incident/outcome; includes an irrelevant result (essentiallysports.com, June 28) about a different 'warning' (rivals warning, not a code violation), which could confuse the LLM about the actual event; no mention of match outcome or broader context.",
+  "b_issues": "None significant; all three results are relevant and consistent, providing details on the code violation, the language confusion (McEnroe/Henman commentary), and the match outcome (Djokovic losing the third set but winning the match).",
+  "reasoning": "Both sets confirm the core fact: Djokovic received an official code violation warning for audible obscenity (swearing in Serbian) during the third set of his Wimbledon fourth-round match against Safiullin on July 5, 2026, with umpire Timo Janzen intervening. However, Content B provides fuller, more coherent context (BBC commentary, language confusion, match progression, and outcome) without any irrelevant distractions. Content A includes an off-topic result about a different 'warning' from June 28, which could mislead the model, and its snippets are more truncated, offering less substantive detail overall."
+}

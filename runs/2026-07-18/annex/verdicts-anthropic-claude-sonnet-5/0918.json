@@ -1,0 +1,11 @@
+{
+  "id": 918,
+  "query": "Seahawks defense Super Bowl LX sacks turnovers total Patriots offense stats box score",
+  "topic": "Super Bowl",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor: some snippets are truncated (ESPN turnover line garbled), but core facts (6 sacks, 2 interceptions, individual sack breakdown) align with the anchor's official box score.",
+  "b_issues": "Lacks explicit sack/turnover totals; Pats Pulpit mentions 'trio of turnovers' without breakdown, and other results (Wikipedia on Super Bowl XLIX, betting odds page) are irrelevant or off-topic, diluting the answer.",
+  "reasoning": "Content A directly supplies the key statistics needed to answer the question: Yahoo Sports states the Seahawks defense had six sacks and two interceptions, and NFL.com breaks down which defenders got sacks, matching the anchor's official box score (Sacks-Yards Lost 6-43, INT 2). Content B's sources are mostly narrative or tangential (a podcast transcript, an unrelated Wikipedia page about Super Bowl XLIX, a betting odds page) and never explicitly state the sack or turnover totals, making it harder for an LLM to extract accurate numeric answers."
+}

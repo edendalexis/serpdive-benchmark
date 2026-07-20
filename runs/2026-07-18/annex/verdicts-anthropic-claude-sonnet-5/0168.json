@@ -1,0 +1,11 @@
+{
+  "id": 168,
+  "query": "Rivian R2 base trim price under $60000 horsepower specs all trim levels March 2026 lineup",
+  "topic": "Rivian",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Contains minor cross-source inconsistencies in the exact base price (rivian.com/edmunds say ~$44,990-$45,000, KBB/motortrend say $46,495, automotiveworld/theevreport say $48,490), but each individual source's numbers are internally consistent and together they give a coherent multi-trim price/hp table (Standard 350hp ~$46,495-48,490; Premium 450hp ~$55,485; Performance 656hp $57,990-$59,485), all under $60k.",
+  "b_issues": "Edmunds snippet is internally contradictory ('R2 MSRP starts at $57990... Performance trim launches this spring at $59,485') without clarifying which is the base price. Motortrend excerpt is cut off before covering the top Performance trim's price/hp, and Car and Driver claims initial launch is Premium+Performance only (omitting Standard), creating confusion about trim availability. Overall B provides a less complete, more contradictory picture of the full trim lineup.",
+  "reasoning": "Both sets have some numeric variance typical of real reporting, but Content A supplies a fuller, clearer breakdown across all three trims (Standard/Premium/Performance) with consistent horsepower and pricing data (via KBB and MotorTrend tables), directly answering the base price under $60k and horsepower-per-trim question. Content B lacks the KBB source and instead includes a self-contradictory Edmunds excerpt and an incomplete MotorTrend excerpt missing the top trim's specs, plus a Car and Driver excerpt that conflicts on which trims launch first, making it harder to derive an accurate, non-contradictory answer."
+}

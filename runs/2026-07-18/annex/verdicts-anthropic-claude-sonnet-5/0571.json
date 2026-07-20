@@ -1,0 +1,11 @@
+{
+  "id": 571,
+  "query": "Mexico constitutional amendment foreign interference election annulment 2026 text",
+  "topic": "Claudia Sheinbaum",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Results are mostly low-quality social media/aggregator sources (Instagram, Facebook, Quora) with fragmentary snippets; none provide the actual constitutional text or detailed accurate explanation of the amendment's substance. Some content is vague or potentially inaccurate (e.g., 'delaying judicial election to 2028' conflated with the interference amendment, and Facebook snippet mischaracterizes the mechanism as 'highest electoral court' invalidating results deemed... without specifics).",
+  "b_issues": "Contains several irrelevant results (Cambridge Core article on feminism, Iowa dissertation on ecclesiastical property, Japanese electoral law article, and a garbled Czech PDF) that do not pertain to the query at all, cluttering the results with noise.",
+  "reasoning": "Content B's first result (CIVICUS interview) directly and accurately describes the substance of the amendment: it explains that on 29 May the Mexican Congress amended Article 41 to add a new ground for annulling elections based on proven foreign interference, notes the lack of precision inherent to constitutional text, and adds valuable context that the ruling party withdrew the implementing legislation and that rules won't apply until 2030 elections. This aligns well with the anchor's decree text and Al Jazeera/UPI reporting, giving an LLM enough accurate substantive detail to answer the question. Content A, despite matching the anchor's timeline (dates, vote counts implied), relies on low-authority sources (Instagram, Facebook, Quora) with only fragmentary snippets that lack the actual legal substance or precise text of the amendment, making it harder to answer the question with confidence and detail. While B has some irrelevant clutter, the one highly relevant and accurate result outweighs A's uniformly weak and imprecise sourcing."
+}

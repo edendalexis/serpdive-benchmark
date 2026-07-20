@@ -1,0 +1,11 @@
+{
+  "id": 698,
+  "query": "Mark Rutte NATO Secretary General Coalition Willing Paris meeting July 2026 Ukraine statements",
+  "topic": "NATO",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor: mixes in some content from unrelated dates (Jan 2026, Nov 2026 meetings) which could cause confusion about which meeting is being referenced, though clearly dated.",
+  "b_issues": "The key NATO.int result in B is dominated by image captions/alt-text rather than substantive article text, so it fails to convey what Rutte actually said or did at the meeting. Other results are largely tangential (YouTube video list, Reuters Connect photo caption) with little actual statement content.",
+  "reasoning": "Content A's NATO News excerpt contains actual substantive quotes/paraphrases of Rutte's statements at the Paris Coalition of the Willing meeting (urging continued air defence donations, attending the Anti-Ballistic Missile Coalition meeting with Zelenskyy and Macron, referencing the Ankara Summit pledges). It also includes corroborating statements from Elysee, gov.uk, and Reuters snippets giving context (dates, attendees, meeting agenda). Content B's parallel NATO.int entry is almost entirely image captions with no real textual statements, and its other sources are mostly video/photo caption listings that add little substantive information about what was said. Therefore A better supports answering the question."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 126,
+  "query": "Takaichi Taiwan China military statement backlash economic sanctions 2026 latest",
+  "topic": "Japan Prime Minister",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Some articles lack explicit publication dates, requiring inference of recency (e.g., theprint.in and DW articles), but content is consistent with the anchor's narrative of escalating export curbs, EEZ incidents, and Beijing's Taiwan-related retaliation continuing into 2026.",
+  "b_issues": "Nearly all results are dated November–December 2025 (NYT, YouTube, Al Jazeera, Reddit), predating the '2026 latest' scope of the query; no results capture 2026 developments like the February election, expanded export control lists, or the 'zombie sanctions' backfire narrative that the anchor highlights.",
+  "reasoning": "The query specifically asks for the 'latest' 2026 developments regarding Takaichi's Taiwan remarks, China's military/economic retaliation, and backlash. Content A includes a January 2026 Asian Military Review piece and a theprint.in article referencing escalating export curbs on defense contractors (IHI, NEC) and EEZ incursions, which aligns with the anchor's February 2026 reporting on continued sanctions and tensions. Content B's sources are almost entirely from November-December 2025, capturing only the initial diplomatic crisis without the 2026 escalation, election outcome, or sanctions details that the anchor emphasizes. Thus Content A better equips an LLM to answer the 'latest 2026' aspect of the question."
+}

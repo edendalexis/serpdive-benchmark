@@ -1,0 +1,11 @@
+{
+  "id": 965,
+  "query": "Narendra Modi Ashadhi Bij Kutchi New Year greetings July 17 2026 message",
+  "topic": "Narendra Modi",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A's snippets are mostly thin (single sentence teasers) and one result (Facebook/PIB) is polluted with garbled SVG/CSS code instead of usable text, providing no real message content. It lacks the actual quoted wording of Modi's greeting, making it hard to answer the question with specific message details.",
+  "b_issues": "Minor: dates are relative ('2 days ago', '1 day ago') rather than absolute, requiring inference of exact date, and it includes tangential info about Rath Yatra mixed in with the Kutchi New Year message, but this doesn't contradict the core facts.",
+  "reasoning": "Both sets confirm the core fact (PM Modi extended Ashadhi Bij/Kutchi New Year greetings), but Content B provides substantially richer, verbatim quotes from Modi's actual message (the 'fish in the ocean' Kutchi saying, 'Ram Ram and heartfelt congratulations...', mentions of Jagannath Rath Yatra greetings) from reliable sources (DD News, PM India official site, mid-day). Content A's results are largely single-line teasers with no real message text, and one result is corrupted with icon/SVG markup, reducing usable information. Thus B better enables a correct, detailed answer."
+}

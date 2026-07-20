@@ -1,0 +1,11 @@
+{
+  "id": 942,
+  "query": "Cybercab trademark suspension status Unibev USPTO dispute resolution",
+  "topic": "Cybercab",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "The secureyourtrademark.com snippet contains a confusing/contradictory claim (suggesting Unibev's application, not Tesla's, faced suspension), which conflicts with the consistent 'Tesla's application was suspended' narrative found elsewhere in the same result set and in the anchor. Otherwise the set is largely consistent and includes up-to-date info (Tesla Oracle article) matching the anchor's most recent status (notice sent 2/24/2026, 60-day response window, opposition trial date).",
+  "b_issues": "Provides accurate but comparatively stale information focused mainly on the initial suspension event (citing a specific Nov 14, 2025 date not corroborated by the anchor) and lacks any coverage of the more recent opposition proceeding status (formal notice, trial date, 60-day response period) that the anchor shows as the current state of the dispute.",
+  "reasoning": "Both sets correctly convey the core story: Tesla's Cybercab trademark application was suspended because Unibev filed first, and Tesla later filed a 5-count opposition. However, Content A includes a source (Tesla Oracle) that closely mirrors the anchor's latest status details—USPTO notice sent Feb 24, 2026, trial date set, and a 60-day response window for Unibev—which directly matches the anchor's 'Status Date: 02/24/2026' and 'Opposition Pending' fields. Content B, while factually sound on the earlier suspension and opposition filing, does not capture this more current resolution-stage detail, making it less complete for answering a question specifically about 'dispute resolution' status. A's minor internal inconsistency (from the secureyourtrademark blog) is a smaller flaw than B's overall lack of current resolution-stage information."
+}

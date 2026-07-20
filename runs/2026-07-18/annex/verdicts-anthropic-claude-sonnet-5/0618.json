@@ -1,0 +1,11 @@
+{
+  "id": 618,
+  "query": "Suno AI Chat Beta interactive dialogue refine songs credits release date features",
+  "topic": "Suno AI",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Release notes snippet doesn't explicitly mention Chat feature; details on release date are vague and mostly inferred from Tunesona blog content. Doesn't give precise credits/cost info for Chat itself.",
+  "b_issues": "All results are just titles/snippets from YouTube videos and forum posts without substantive content bodies; no actual descriptive text explaining features, workflow, credits, or release date is provided - just video titles and timestamps that don't give concrete facts an LLM could extract.",
+  "reasoning": "Content A includes actual descriptive text from the Tunesona blog explaining that Suno Chat is a beta feature, describes the conversation interface, toggle for auto-generation, and notes it was temporarily closed after launch - giving concrete facts about features and status. Content B only provides video titles and score metadata without any substantive content (no raw_content, just short titles/snippets), making it far less useful for extracting factual details about how Chat works, credits, or release timing. A has actual usable descriptive content while B is essentially a list of video titles with no real information depth."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 593,
+  "query": "Belém Mission 1.5 initiative participating countries implementation details",
+  "topic": "COP climate summit",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "A's primary UNFCCC snippet is truncated, cutting off mid-sentence ('Türkiye, Australia, Brazil and'), leaving the list of participating countries incomplete and omitting almost all implementation details (timeline, activities, report, submission deadline). The C2ES excerpt about the 2024-2025 UAE-Azerbaijan-Brazil troika refers to an earlier, distinct 'Mission 1.5' initiative, which could be conflated with the current Belém Mission to 1.5, causing confusion about which countries are actually involved.",
+  "b_issues": "Includes a Tropical Forests Forever Fund detail (53 participating countries) that is unrelated to the Belém Mission to 1.5 and could be mistakenly attributed to it if not read carefully. Also carries the same ambiguous C2ES excerpt about the 2024-2025 UAE-Azerbaijan-Brazil troika, which could similarly confuse the timeline of participating countries.",
+  "reasoning": "Both sets identify the core stewarding Presidencies (Türkiye, Australia, Brazil, Azerbaijan / COP29-31 troika) and reference the same background sources. However, Content B's excerpt of the primary UNFCCC page is far more complete, explicitly detailing the 2026 activity timeline, the culminating report before COP31, and the 30 June 2026 submission deadline—key implementation details the question asks about. Content A's corresponding snippet is truncated and omits this substantive implementation information, making B more useful and complete for answering the question, despite both containing a minor tangential/confusing reference to the earlier 2024-2025 Mission 1.5 troika."
+}

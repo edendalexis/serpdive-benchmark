@@ -1,0 +1,11 @@
+{
+  "id": 596,
+  "query": "COP30 119 countries new NDCs submitted UNFCCC official registry list",
+  "topic": "COP climate summit",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Does not contain any source explicitly stating '119 countries' or listing the countries; the NDCREG snippet is just a scrape of some file names/dates with no count; contains an irrelevant COP26 result that adds noise; the 21-countries figure (IIED) is from six months before COP30 and does not match the question's 119 figure.",
+  "b_issues": "Also lacks any explicit '119 countries' figure or a curated list of the countries; the NDCREG snippet only shows a handful of country filings without a total count; the CAT 2035 tracker result is just a long list of country links with no explanit total, and the Fastmarkets '29 NDCs' and NDC Partnership '13 countries' figures add extra, potentially confusing numbers that don't match 119 either.",
+  "reasoning": "Neither content set provides the specific figure of 119 countries or an actual UNFCCC registry list matching that number. Both instead surface the same authoritative counter-fact (the official UNFCCC synthesis report citing 64 new NDCs recorded between Jan 2024 and Sept 2025 via the SDG/IISD article), which is useful for correcting or contextualizing the premise, but neither set supplies a definitive 119-country list or breakdown. Content A adds a slightly outdated 21-country figure and an irrelevant COP26 link; Content B adds extra, non-matching numbers (29, 13, 100+) and a long but uninformative country-link list from Climate Action Tracker. Both are equally incomplete and equally likely to leave an LLM unable to confirm the 119-country claim, so the two results are roughly equivalent in usefulness."
+}

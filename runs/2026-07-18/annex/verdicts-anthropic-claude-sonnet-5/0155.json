@@ -1,0 +1,11 @@
+{
+  "id": 155,
+  "query": "Russia largest attack Kyiv 2026 21 killed casualty updates Zelenskyy accelerated weapon systems requested",
+  "topic": "Volodymyr Zelenskyy",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A mixes several different Russian strikes (July 2, July 6, July 8) with varying casualty figures (21, 30, 18, 13, 4), which can be confusing, but the numbers are attributed to distinct dates/events and one source (France24) directly matches the anchor’s account of the July 2 attack (21-30 killed, ballistic/cruise missiles, drones, Zelensky urging air-defense help).",
+  "b_issues": "Content B includes the Forcesnews article that cites the identical weapon totals as the anchor’s main event (496 drones, 74 missiles) but reports only 13 killed and calls it merely the ‘second-deadliest’ strike of 2026 — directly contradicting the 21+ killed figure the anchor and americanpress.com attach to the same missile/drone numbers. This creates an internal factual conflict that could mislead an LLM about the actual death toll of the 'largest attack'.",
+  "reasoning": "Both sets share the americanpress.com and Boston Herald articles, giving similar baseline facts (21 killed, NATO summit, Patriot systems, Zelenskyy’s requests). However, Content A also includes the France24 article that is identical to the anchor’s corroborating source, reinforcing the correct 21+ (up to 30) killed toll for the largest attack. Content B instead introduces a direct contradiction via the Forcesnews article, which uses the same drone/missile figures but reports a much lower death toll (13), undermining accuracy on the core casualty question. This makes Content A more internally consistent and better aligned with the anchor’s facts."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 433,
+  "query": "Francis Ford Coppola Variety lawsuit $15 million libel September 2024 status",
+  "topic": "Megalopolis",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "All five results only cover the initial filing of the lawsuit in September 2024; none provide any information about the lawsuit's subsequent status (e.g., motions, rulings, appeals), which is what the question specifically asks about.",
+  "b_issues": "Slightly redundant with A on the initial filing details, but no major factual inaccuracies noted.",
+  "reasoning": "The question explicitly asks for the 'status' of the lawsuit, implying developments beyond the initial September 2024 filing. Content B includes the Courthouse News article describing that Variety asked the California Courts of Appeal to overrule the trial court's denial of its motion to dismiss — a concrete status update showing the case's procedural progress. Content A's results are limited entirely to initial filing coverage from September 2024 and provide no indication of what happened afterward, making it insufficient to answer the 'status' portion of the query."
+}

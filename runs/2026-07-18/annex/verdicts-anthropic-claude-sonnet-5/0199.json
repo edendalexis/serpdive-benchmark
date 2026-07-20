@@ -1,0 +1,11 @@
+{
+  "id": 199,
+  "query": "Siri AI developer testing availability start date OS platforms 2026",
+  "topic": "Apple Intelligence",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Information about developer testing start date and platforms comes only from secondary/tertiary sources (ain.ua, macsources, macrumors, quasa.io) rather than Apple's own statement; macsources vaguely says public beta 'next month' which conflicts with other sources saying 'later this year', introducing minor inconsistency; no result quotes Apple's official newsroom language directly.",
+  "b_issues": "Minor speculative/unverifiable additions from secondary sources (e.g., windowsforum's claims about regional restrictions in China/EU, or Stuff.tv's 'you can now try' framing) that aren't corroborated by Apple's own text, though these don't contradict the core facts.",
+  "reasoning": "Content B includes a direct quote from Apple's official newsroom page confirming the developer testing start date (June 8, 2026) and platforms (iOS 27, iPadOS 27, macOS 27, visionOS 27), plus the detail that watchOS 27 developer testing comes in a future beta — closely matching the anchor's authoritative source. Content A relies entirely on secondary outlets paraphrasing the same facts, with one source (macsources) giving a vague/slightly inconsistent beta timeline. B's inclusion of the primary Apple source makes it more reliable and precise for answering the question."
+}

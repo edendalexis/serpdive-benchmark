@@ -1,0 +1,11 @@
+{
+  "id": 786,
+  "query": "Netanyahu Trump tactical disagreements core issues communicate every couple of days interview 2026",
+  "topic": "Benjamin Netanyahu",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Does not explicitly include the phrase 'core issues' (though JNS-style content about full agreement on core issues is missing), but overall content is accurate and detailed, including the key 'every two days' communication detail directly from the i24news article.",
+  "b_issues": "Truncated/snippet-only content for the i24news article omits the crucial 'every two days' communication detail; relies heavily on social media snippets (Instagram, Facebook) and short YouTube transcript fragments that don't fully convey the 'tactical disagreements' and 'core issues' context needed to answer the query.",
+  "reasoning": "Content A includes the full i24news passage explicitly stating Netanyahu said he and Trump 'speak every two days' and have occasional disagreements while remaining allies, directly matching the query's 'communicate every couple of days' and 'tactical disagreements' elements. It also provides broader context (Axios, Chatham House, Al Jazeera) about the relationship. Content B's i24news result is truncated and lacks the key 'every two days' quote, and its other results are largely social media snippets or short video transcripts that don't add the specific detail needed, making it less complete for accurately answering the question."
+}

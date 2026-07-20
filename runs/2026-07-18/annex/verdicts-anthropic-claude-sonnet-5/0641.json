@@ -1,0 +1,11 @@
+{
+  "id": 641,
+  "query": "Berkshire Hathaway Greg Abel CEO compensation 2025 2026 amount",
+  "topic": "Berkshire Hathaway",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "None significant; provides both the $22 million 2025 compensation figure and $25 million 2026 salary, consistent with the anchor. Some snippets are lower-quality (LinkedIn, Instagram, Reddit) but the core facts are accurate.",
+  "b_issues": "Lacks the $22 million 2025 compensation figure entirely; the featured snippet explicitly states '(Abel's 2025 salary has not yet been publicly disclosed)', which is outdated/incorrect once the March 13 Reuters report (reflected in the anchor) confirmed $22 million for 2025. This omission could lead the LLM to answer incompletely or incorrectly about 2025 pay.",
+  "reasoning": "Both sets agree on the $25 million 2026 salary figure. However, Content A additionally surfaces the wkzo/Reuters-sourced fact that Abel was awarded $22 million for 2025, matching the anchor exactly. Content B's featured snippet asserts the 2025 figure was undisclosed, which is stale/inaccurate relative to the anchor's later reporting, and no other B result supplies the correct 2025 number. This makes A more complete and accurate for the full question (2025 and 2026 amounts), giving it the edge."
+}

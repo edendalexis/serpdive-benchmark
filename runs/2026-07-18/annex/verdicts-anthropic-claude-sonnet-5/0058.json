@@ -1,0 +1,11 @@
+{
+  "id": 58,
+  "query": "Nintendo Switch 2 Once Upon a Katamari release date October 2026 official details",
+  "topic": "Nintendo Switch 2",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "No major factual flaws; date (Oct 8, 2026) and DLC details are consistent and corroborated by official sources (bandainamcoent.com, gamespress.com) and Nintendo Life/Wikipedia.",
+  "b_issues": "No major factual flaws; date and details match the anchor exactly, corroborated by multiple secondary outlets.",
+  "reasoning": "Both sets of results correctly and consistently state that Once Upon a Katamari releases on Nintendo Switch 2 on October 8, 2026, alongside the paid Rolling LIVE Highlights DLC, with no contradictions. Content A cites official Bandai Namco Entertainment America press materials and reputable outlets (GamesPress, Nintendo Life, Wikipedia), while Content B directly includes the anchor source (Bandai Namco Europe) plus several corroborating secondary sites. Both provide sufficient, accurate, and mutually reinforcing information to answer the question correctly, so neither has a meaningful advantage over the other."
+}

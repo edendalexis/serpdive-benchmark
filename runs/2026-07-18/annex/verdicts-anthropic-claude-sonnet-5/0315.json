@@ -1,0 +1,11 @@
+{
+  "id": 315,
+  "query": "Ursula von der Leyen early 2026 Mercosur trade deal EU application despite legal review announcement",
+  "topic": "Ursula von der Leyen",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "No major factual errors; content is accurate but includes a YouTube video (thin content) and does not explicitly quote the legal-review language as clearly as B's White & Case source, though the Guardian blog does mention the ECJ referral.",
+  "b_issues": "No major factual errors; TIBA source is a lesser-known site and adds little value, but doesn't contradict other sources.",
+  "reasoning": "Both content sets accurately reflect the anchor's facts: von der Leyen announced provisional application of the EU-Mercosur deal on 27 Feb 2026 despite the European Parliament sending it for CJEU legal review, following Argentina and Uruguay's ratifications, with Macron's objection. Content B includes a highly relevant, authoritative legal-analysis source (White & Case) that explicitly frames the announcement as being made 'notwithstanding the European Parliament's request for a prior opinion from the CJEU on the agreement's compatibility with EU law,' directly matching the 'despite legal review' phrasing in the query, and adds precise dates and ratification details. Content A's sources are also accurate but rely more on live-blog and general news framing, with a redundant YouTube video providing no substantive text. Both are consistent internally with no contradictions, but B's legal-specific source gives a slightly more precise and directly relevant answer to the query's emphasis on 'despite legal review.'"
+}

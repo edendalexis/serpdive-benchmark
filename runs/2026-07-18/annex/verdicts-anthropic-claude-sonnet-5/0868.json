@@ -1,0 +1,11 @@
+{
+  "id": 868,
+  "query": "Wegovy heart disease FDA approval date 2025 2026 cardiovascular indication label expansion Novo Nordisk",
+  "topic": "Ozempic and Wegovy",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Does not include the actual FDA.gov press release as a source, though the facts are corroborated by multiple secondary sources (HCPLive, Pharmacy Times, STAT News, PR Newswire) all consistent with the anchor's date and details.",
+  "b_issues": "None significant; includes the same FDA.gov press release as the anchor, plus corroborating secondary sources (Pharmacy Times, HCPLive, multivu/PR Newswire, Lexology), all consistent with March 8, 2024 approval date.",
+  "reasoning": "Both content sets consistently and accurately identify March 8, 2024 as the FDA approval date for Wegovy's cardiovascular risk reduction label expansion, based on the SELECT trial, matching the anchor. Content B includes the primary FDA.gov source directly (matching the anchor exactly), which is a slight edge, but Content A's sources (HCPLive, Pharmacy Times, STAT, PR Newswire) are equally reliable and convey the same accurate facts without contradiction. Neither set contains any 2025/2026 approval (correctly, since no such expansion occurred), and neither hallucinates false information. The core facts needed to answer the question are present and accurate in both, making this a tie despite B's inclusion of the primary source."
+}

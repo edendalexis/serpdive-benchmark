@@ -1,0 +1,11 @@
+{
+  "id": 887,
+  "query": "Skydance Sports Jason Kelce documentary Prime Video Skydance Sports launch details",
+  "topic": "Skydance Media",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A lacks any information about when/how Skydance Sports itself was launched, which is explicitly part of the query. It covers the Kelce documentary premiere details well but omits the 'Skydance Sports launch details' portion entirely.",
+  "b_issues": "No significant factual flaws; content is consistent with the anchor and includes additional accurate details (executive producers, Skydance Sports founding in 2021, Emmy nominations) not contradicted elsewhere.",
+  "reasoning": "The query has two parts: documentary premiere details and Skydance Sports launch details. Content B directly answers both — it includes the Kelce premiere date, producers, and critically the line 'Launched in 2021, Skydance Sports has quickly become the preeminent studio...' which directly satisfies the 'launch details' part of the query. Content A provides strong coverage of the documentary details (matching the anchor closely) but contains no information whatsoever about when or how Skydance Sports was launched, leaving that part of the query unanswered. Both sets are accurate and non-contradictory, but B is more complete for the full question asked."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 926,
+  "query": "Wicked For Good 2025 total worldwide box office final gross current",
+  "topic": "Wicked",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "The Numbers snippet lacks the actual worldwide total (only shows opening weekend/legs/budget), but this is compensated by IMDb and Box Office Mojo entries, both giving a consistent worldwide gross of $540,807,925, which matches the anchor's Box Office Mojo figure exactly.",
+  "b_issues": "The Numbers snippet gives a worldwide total of $540,060,870, which differs from the anchor's The Numbers figure ($539,573,679) and from Box Office Mojo's figure ($540,807,925), creating inconsistency. No Box Office Mojo or IMDb result with a clear final worldwide total is included, and the koimoi.com result only vaguely states 'over $500 million,' which is less precise and slightly stale relative to other sources.",
+  "reasoning": "Content A provides multiple corroborating, precise sources (IMDb and Box Office Mojo) that agree with each other and with the anchor's Box Office Mojo figure of $540,807,925, giving a clear, consistent, and accurate answer. Content B's key financial figures are inconsistent across sources (The Numbers shows a different total than the anchor, and no other source pins down an exact worldwide gross), making it less reliable for a precise final answer."
+}

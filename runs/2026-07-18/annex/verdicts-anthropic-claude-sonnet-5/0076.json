@@ -1,0 +1,11 @@
+{
+  "id": 76,
+  "query": "Academy Awards Board of Governors 2026-2027 elected members list branches",
+  "topic": "Academy Awards Oscars",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; content is detailed, consistent with the anchor reference, and provides specific branch-by-branch names for new, returning, and incumbent governors.",
+  "b_issues": "Most result snippets are truncated before delivering the actual list of names/branches, repeating the same generic opening sentence ('As of the 2026-2027 Board year...') without substantive content. Only a few names (Ellen Kuras, Ruth Elaine Carter, Donna Gigliotti, Lou Diamond Phillips, Jinko Gotoh) are given, and even those are incomplete or cut off (e.g., 'Daniel' with no surname). This leaves major gaps in coverage of branches and members.",
+  "reasoning": "Content A supplies a much more complete and specific breakdown of the 2026-2027 Board of Governors, naming both first-time and returning members along with their specific branches (e.g., del Toro-Directors, Bowers-Music, Berger-Producers, Goi-Cinematographers, Goursaud-Film Editors, Dehaney-Makeup/Hair, Armstrong & Leitch-Production and Technology, Magnusson-Short Films, plus returning governors like Arnold, Telsey, Williams, Rogers, Debevec). This directly and accurately answers the question and aligns with details found in the anchor. Content B, while citing similar sources, mostly provides truncated snippets that fail to deliver the actual list of names and branches, offering far less usable information for a complete and accurate answer."
+}

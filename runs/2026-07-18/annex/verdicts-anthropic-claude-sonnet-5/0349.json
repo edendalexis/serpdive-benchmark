@@ -1,0 +1,11 @@
+{
+  "id": 349,
+  "query": "Worldcoin WLD daily emission tokens amount after unlock reduction July 24 2026",
+  "topic": "Worldcoin",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "No major factual issues; all sources consistently report daily unlock dropping from ~5.1M to ~2.9M WLD, matching the anchor's 43% figure. Includes a couple of low-authority sources (X post) but they don't contradict the core figures.",
+  "b_issues": "No major factual issues; all sources consistently report the same 5.1M to 2.9M WLD figure, community 3.2M to 1.6M, team/investor 1.9M to 1.3M, matching the anchor. Featured snippet reinforces the key numbers.",
+  "reasoning": "Both content sets present the identical, consistent, and accurate core fact: the daily WLD unlock rate falls from ~5.1 million to ~2.9 million tokens per day starting July 24, 2026, with community allocation halving (3.2M→1.6M) and team/investor allocation dropping ~32% (1.9M→1.3M). Both draw from multiple reputable crypto news outlets (Yahoo, BeInCrypto, TECHi, crypto.news, Bitcoin.com, Bitget) with no internal contradictions. Neither set has factual errors relative to the anchor. The presence of a featured snippet in B or extra minor low-quality sources in A does not materially change the ability to answer correctly, so the two are equally effective."
+}

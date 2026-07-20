@@ -1,0 +1,11 @@
+{
+  "id": 356,
+  "query": "Pope Leo XIV Ukraine peace prayers July 12 2026 official statement",
+  "topic": "Pope Leo XIV",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "The World Day of Peace message and July prayer intention items are tangential/from different dates, but they don't contradict the July 12 event. The Gallagher letter is about a separate July 19 anniversary event, correctly represented.",
+  "b_issues": "Includes a Facebook post referencing a Jan. 26 general audience, which is unrelated to the July 12, 2026 date and could mislead about timing. The July 12 Angelus content itself is only represented by a bare YouTube title and a short Facebook caption, lacking the substantive 'winds of war/return to dialogue' quote that matches the anchor's actual Angelus statement. The America Magazine piece is dated July 15, after the query date, and concerns envoys rather than the July 12 address itself.",
+  "reasoning": "The anchor establishes that the key July 12, 2026 event was the Angelus address in which Pope Leo XIV spoke of 'winds of war' regarding Ukraine and the Middle East, urging dialogue, plus a separate Gallagher letter on Ukraine. Content A's Middle East Monitor result directly quotes and closely mirrors this exact Angelus statement ('winds of war,' 'flame of hope,' call for dialogue), giving an LLM accurate, substantive text matching the anchor's core fact. Content B provides only a bare YouTube video title (no substantive quote) and a short Facebook caption for the Angelus, plus an irrelevant Jan. 26 reference that could confuse the timeline. Both share the same Gallagher letter result. Overall, Content A supplies more accurate, on-topic textual content aligning with the anchor, making it more reliable for answering the question correctly."
+}

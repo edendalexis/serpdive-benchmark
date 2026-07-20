@@ -1,0 +1,11 @@
+{
+  "id": 809,
+  "query": "Satya Nadella 2026 leadership reorganization executive team structure AI",
+  "topic": "Satya Nadella",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Does not include the primary Business Insider source directly, so it lacks specific named details (the five-person corporate leadership group, Arun Ulag's promotion, Pavan Davuluri, Asha Sharma replacing Phil Spencer, etc.). Relies on secondary/aggregator sites (pulse2, ciobulletin, biz.chosun) that are less authoritative and partly redundant, and includes an October 2025 YouTube video about Judson Althoff's promotion that is a separate, earlier event, potentially confusing the timeline.",
+  "b_issues": "Includes a LinkedIn 'pulse' post that is vague and adds little factual value; otherwise largely consistent with the anchor and reliable sources.",
+  "reasoning": "B directly includes the anchor's own Business Insider article plus the Times of India piece that quotes it in detail, giving specific, corroborated facts: the five-person corporate leadership group (Nadella, Brad Smith, Amy Hood, Amy Coleman, Judson Althoff), the retirement of the SLT, and named rising executives (Arun Ulag, Pavan Davuluri, Asha Sharma replacing Phil Spencer). This matches and expands on the anchor's factual basis with high fidelity. Content A, while covering the same general theme (SLT dismantling, Copilot restructuring), pulls from less authoritative secondary sources and does not include the primary BI article, resulting in less specific and slightly less reliable coverage, plus an unrelated/older leadership event (Judson Althoff's Oct 2025 promotion) that could mislead about the 2026 timeline."
+}

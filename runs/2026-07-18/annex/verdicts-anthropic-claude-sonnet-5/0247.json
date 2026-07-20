@@ -1,0 +1,11 @@
+{
+  "id": 247,
+  "query": "Voyager 1 RTG power depletion engineering data transmission end year estimate",
+  "topic": "Voyager 1",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "The electropages snippet is truncated ('the late 2020s or early 2030s... Voyager 1 will lose the ability to transmit usable') giving only a vague, cut-off range with no clear sourcing. The Facebook group post is a low-reliability, non-authoritative source. The Tandfonline and Wikipedia snippets give no specific end-year figure, and the NASA blog snippet is cut off before any date estimate. No source clearly states a definitive engineering-data end-year estimate.",
+  "b_issues": "The Spacedaily article's 'sometime around 2030' claim (referring to end of transmissions) is not perfectly reconciled with Wikipedia's 2036 RTG engineering-data estimate, creating minor tension between sources, though these can be read as different milestones (instrument shutdown vs. full silence).",
+  "reasoning": "Content B includes an explicit, specific, and well-sourced figure from Wikipedia: 'Its radioisotope thermoelectric generators (RTGs) may supply enough electric power to return engineering data until 2036,' which directly answers the question with a concrete year from a generally reliable reference source. Content A's most relevant result (electropages) is truncated and only vaguely mentions 'late 2020s or early 2030s' without RTG-specific engineering data framing, and its other sources either lack a specific year or are unreliable (Facebook group). Thus B provides a clearer, more directly usable answer to the query."
+}

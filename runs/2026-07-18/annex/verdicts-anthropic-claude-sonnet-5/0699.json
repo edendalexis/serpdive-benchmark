@@ -1,0 +1,11 @@
+{
+  "id": 699,
+  "query": "NATO Defence Industry Forum 2026 procurement deals total value contracts announced",
+  "topic": "NATO",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Provides the $50bn/€43.7bn total figure from Euractiv but lacks additional breakdown details on how the total is composed (e.g., counter-drone investment figures, air/missile defense share). No independent corroboration of the $50bn figure from another source.",
+  "b_issues": "None significant; figures are consistent across sources (Euractiv and Le Monde both confirm ~$50bn/€43bn total), and additional breakdowns (e.g., $40bn counter-drone investment, $1.6bn for a specific allied group, air/missile defense being over half of the total) are provided without contradiction.",
+  "reasoning": "Both contents include the core $50 billion (€43.7 billion) total figure from Euractiv, matching the anchor's 'tens of billions' framing. However, Content B goes further by including a Le Monde article that independently corroborates the $50 billion figure ('at least $50 billion... according to a NATO official'), adding a second source for verification. Content B also provides more granular breakdowns of the total value, such as the $40 billion counter-drone investment pledge and the $1.6 billion multinational agreement among specific allies, plus context that air and missile defense investments constitute more than half of the €43 billion. This additional detail and cross-source corroboration make Content B more robust and complete for answering a question specifically about total value and breakdown of contracts announced."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 456,
+  "query": "2024 Nobel Prize Physiology or Medicine laureates names official motivation citation",
+  "topic": "Nobel Prize 2024",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "None of the shown snippets in Content A actually reproduce the official citation text ('for the discovery of microRNA and its role in post-transcriptional gene regulation'). The press-release snippet only shows biographical trivia, and other results (Wikipedia, PMC, APS) mention the laureates but not the exact motivation wording, making it harder for an LLM to state the precise official citation confidently.",
+  "b_issues": "No significant factual issues; the KI news snippet is slightly redundant but consistent with the official Nobel wording.",
+  "reasoning": "Content B's first result (nobelprize.org summary) explicitly quotes the full official motivation: 'awarded jointly to Victor Ambros and Gary Ruvkun \"for the discovery of microRNA and its role in post-transcriptional gene regulation\"', directly matching the anchor's official citation. Content A lacks this exact quoted citation in any of its snippets, only providing tangential details about the laureates without the precise motivation text, which would make it harder for an LLM to answer the question accurately and completely."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 767,
+  "query": "FAA Advanced Aviation Technologies office drone eVTOL integration rulemaking 2026",
+  "topic": "FAA",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "The Fox Rothschild PDF content is somewhat truncated/garbled (cut off mid-sentence), and some snippets are thin, but the core facts (new Advanced Aviation Technologies-related reorg, Airspace Modernization office, eVTOL integration pilot program, safety oversight office) are accurate and directly relevant.",
+  "b_issues": "Results are largely tangential to the specific query: a 2021 remote ID final rule, a generic 2026 drone-regulations marketing blog, and an unrelated Federal Register airspace notice. None of the results explicitly discuss the 'Advanced Aviation Technologies' office by name, so the LLM would struggle to confirm the office's existence/role from this content alone.",
+  "reasoning": "Content A's results (Fox Rothschild summary, Unmanned Airspace, DroneLife, Inside Unmanned Systems) consistently and specifically reference the FAA's new Advanced Aviation Technologies office, its role in AAM/UAS/eVTOL integration, and related rulemaking/pilot programs (EVTOL integration pilot program), matching the query closely and corroborating the anchor. Content B's top two results are relevant to AAM pilot programs but never name the Advanced Aviation Technologies office, and the remaining three results are largely irrelevant (old 2021 rule, generic blog, unrelated Federal Register notice), making it harder for an LLM to correctly and specifically answer the question about the office's rulemaking role."
+}

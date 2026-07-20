@@ -1,0 +1,11 @@
+{
+  "id": 270,
+  "query": "El Salvador Bukele IMF loan amount Bitcoin policy shift 2024",
+  "topic": "Nayib Bukele",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "No major factual flaws; confirms $1.4bn loan figure and Bitcoin policy scale-back via BBC and Baker McKenzie sources. CFR piece adds context but is tangential/dated details about reserves.",
+  "b_issues": "Contains a minor inconsistency: Coindesk snippet cites $1.3 billion loan figure while other sources (CryptoSlate, BBC) cite $1.4 billion, which could confuse the amount; otherwise accurate and provides good detail on the voluntary acceptance law change and timeline (Jan 2025 congressional approval).",
+  "reasoning": "Both sets correctly identify the core facts: a $1.4bn IMF loan deal struck in December 2024, contingent on El Salvador scaling back its Bitcoin legal tender policy to make acceptance voluntary. Content A includes the BBC article verbatim confirming $1.4bn and policy shift, plus Baker McKenzie's detailed background piece. Content B also confirms $1.4bn via BBC and CryptoSlate, and adds valuable follow-up (Reuters Jan 2025 on the law change being enacted), but introduces a slight inconsistency with the Coindesk snippet mentioning $1.3 billion, which could mislead if not cross-referenced. Both sets are sufficient for an LLM to answer correctly, with A being marginally cleaner on the loan amount and B offering more context on the legislative process. Overall, roughly equivalent in enabling a correct answer."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 345,
+  "query": "World Chain native USDC integration June 2025 developer activity stablecoin transfers official release",
+  "topic": "Worldcoin",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "None significant; results are directly on-topic, consistent with the anchor, and from reliable sources (CoinDesk, Circle, World.org, CryptoRank, crypto.news). Some redundancy but no factual errors.",
+  "b_issues": "Only one relevant result (CryptoRank) actually addresses the query; the rest are off-topic or irrelevant (Across integration from Nov 2024, speculative 2026 blockchain hype articles, unrelated stablecoin reports/regulatory news dated 2026). This dilutes and could mislead an LLM trying to answer the June 2025 USDC/World Chain question, as most content does not pertain to the actual event.",
+  "reasoning": "Content A provides multiple directly relevant, accurate sources confirming the native USDC and CCTP V2 integration on World Chain in June 2025, matching the anchor's facts (2 million users upgraded, Circle Mint on/off-ramps, CCTP V2 cross-chain support). Content B includes only one truly relevant result, while the majority of its results are unrelated to the query (an old Across integration announcement, and future-dated 2026 articles about unrelated blockchain projects and stablecoin regulations). This makes Content A far more useful and reliable for answering the specific question."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 522,
+  "query": "Anthropic Claude for Teachers release date July 2026",
+  "topic": "Anthropic",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "No major factual flaws; all sources consistently confirm July 14, 2026 release date and details align with the anchor. Minor redundancy but no contradictions.",
+  "b_issues": "No major factual flaws; all sources consistently confirm July 14, 2026 release date and details align with the anchor. Includes a lower-quality Instagram source but content is consistent with other results.",
+  "reasoning": "Both Content A and Content B clearly and consistently state that Claude for Teachers was launched/introduced on July 14, 2026, matching the anchor's date. Both provide corroborating details (free access for verified US K-12 educators, curriculum partnerships with OpenSciEd/Illustrative Mathematics, sign-up deadline of June 30, 2027 for a full year of access, Gates Foundation partnership). Neither set contains contradictory or inaccurate information relative to the anchor. Content A has slightly more authoritative sources (Anthropic official page, Forbes, explainx.ai) while Content B includes The Hill, Appwrite blog, LinkedIn, and an Instagram post (lower reliability) alongside Forbes. Both sets equally enable a correct answer to the question about the release date, with consistent supporting facts."
+}

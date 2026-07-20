@@ -1,0 +1,11 @@
+{
+  "id": 883,
+  "query": "Paramount Games Studio launch date Skydance Interactive New Media",
+  "topic": "Skydance Media",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Some minor noise (Instagram posts with slightly differing dates June 7/9, and an irrelevant Yahoo NY release note) but the core, corroborated fact—that Paramount Games Studio was announced June 5, 2026, merging Skydance Interactive and Skydance New Media—is clearly and repeatedly stated (lamag.com, Wookieepedia), matching the anchor's date.",
+  "b_issues": "None of the snippets give an explicit launch date; gamespress only vaguely says 'Established in 2026,' and the vgchartz article's date (06 June 2026) is only inferable from a comment timestamp, not stated as the launch date. Deadline snippet omits date entirely. This makes pinpointing the exact launch date harder from Content B alone.",
+  "reasoning": "Content A directly and repeatedly supplies the specific launch date (June 5, 2026) consistent with the anchor reference, despite minor extraneous noise. Content B provides good supporting detail on the studio's structure and later activities but lacks a clear, explicit statement of the launch date, making it less directly useful for answering the date-focused question."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 424,
+  "query": "Israeli security check procedures Rafah border crossing February 2026 trial reopening",
+  "topic": "Rafah",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor: does not include Reuters' explicit 'strict Israeli security checks slowed the process' framing, but DW/Al Jazeera/Guardian sources cover the same security procedure details (joint Israeli-Egyptian screening, EU monitoring, name-list submission, trial basis) accurately and with reliable sourcing.",
+  "b_issues": "Relies partly on low-quality/unreliable sources (two Facebook posts), one of which contains dubious/unverified claims about a checkpoint named 'Regavim Inspection Nekez' and framing about 'land grabs' that reads as unverified editorializing rather than sourced fact. The Reuters and UN News entries mention security checks only vaguely ('strict security checks slowed the process') without the specific procedural details (EU monitors, list submission, security clearance process) found in Content A.",
+  "reasoning": "Both sets share the Al Jazeera article, but Content A supplements it with OSAC (official U.S. Embassy alert with precise clearance language), The Guardian (specific numbers and security screening details), and DW (trial basis, COGAT statement, EU border patrol supervision) — all reliable outlets giving concrete security check procedures. Content B pads its list with two Facebook posts, one of which contains unverified/inflammatory claims, diluting reliability, while its unique reliable sources (Reuters, UN News) offer only vague mentions of 'strict security checks' without procedural specifics. Content A therefore better and more reliably equips an LLM to answer the specific question about security check procedures."
+}

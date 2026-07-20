@@ -1,0 +1,11 @@
+{
+  "id": 413,
+  "query": "The Bear season 5 filming Chicago production code name working title",
+  "topic": "The Bear",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Provides correct code name 'The Fugitive' but includes no additional historical context (e.g., past code names), and the Instagram source, while accurate, is less authoritative journalistically.",
+  "b_issues": "Provides correct code name 'The Fugitive' but also states previous code names were 'Windy City Law' and 'Kubelik', which conflicts with the anchor's mention of 'Kubelik' and 'Four Seasons' as past pseudonyms — a minor factual inconsistency regarding historical (not season 5) code names.",
+  "reasoning": "Both content sets correctly and consistently identify 'The Fugitive' as the production code name/working title used while filming Season 5 in Chicago, sourced from reliable outlets (Sun-Times, Block Club Chicago, Secret Chicago) that match the anchor. The core factual answer to the question is present and accurate in both. B introduces a discrepancy about past code names (Windy City Law vs Four Seasons) that doesn't match the anchor, but this is tangential to the actual question about Season 5's code name, so it does not meaningfully harm B's ability to answer correctly. Given the central fact is equally well-supported in both, this is a tie."
+}

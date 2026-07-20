@@ -1,0 +1,11 @@
+{
+  "id": 601,
+  "query": "Kazuo Ueda BOJ Governor health status return schedule July 2026",
+  "topic": "Bank of Japan",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "No major factual errors; provides hospitalization date, expected two-week hospital stay, and July 30-31 meeting attendance via multiple consistent sources (Reuters, Japan Times, Yahoo). Slightly less detail on exact discharge date and immediate return day (Tuesday) since it lacks the discharge-day Japan Times/Bloomberg article, but Yahoo Finance covers discharge and return.",
+  "b_issues": "No major factual errors; provides hospitalization, discharge, return-to-work (Tuesday) and outpatient treatment details, plus July 30-31 meeting expectation via BusinessTimes. Does not explicitly state the '23rd' date text, though it's inferable from 'Friday...Tuesday' context.",
+  "reasoning": "Both result sets converge on the same core facts: Ueda hospitalized June 9-10 for an infected liver cyst, expected to stay about two weeks, discharged June 19, set to return to work the following Tuesday (June 23) while continuing outpatient treatment for ~2 weeks, and expected to attend the July 30-31 policy meeting. Both sets pull from reliable, consistent outlets (Reuters, Bloomberg, Japan Times, Business Times, Yahoo Finance) with no contradictions. Neither set is missing critical facts needed to answer the question about health status and July 2026 return schedule, so they are equally capable of enabling a correct answer."
+}

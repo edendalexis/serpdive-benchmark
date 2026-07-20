@@ -1,0 +1,11 @@
+{
+  "id": 388,
+  "query": "Meta AI Instagram teen self-harm suicide parental guardian alerts feature rollout",
+  "topic": "Meta",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A's facts align accurately with the anchor: alerts live in US/UK/Australia/Canada, expanding globally by end of year, feedback from 75+ clinicians, Limited Content setting now applies to AI. No major factual issues; sourcing is reliable (Meta newsroom, ABC News, Mashable, Fairplay).",
+  "b_issues": "Content B relies partly on low-quality/unreliable sources (two Instagram social media posts with meme-style descriptions) rather than established journalism. One of these posts introduces an unverified/uncorroborated claim ('flags the conversation for manual review before notifying parent') not present in any other source, which could mislead the model. It also duplicates ABC News and Meta's official post (as AMP versions), reducing unique value, though CBC News adds a solid corroborating source.",
+  "reasoning": "Both sets ultimately contain the core accurate facts (rollout regions, mechanism, timeline, clinician involvement). However, Content A draws from more consistently reliable and reputable sources (official Meta blog, ABC News, Mashable, Fairplay critique) without introducing any unverified specifics. Content B includes two Instagram post excerpts as primary sources, which are less authoritative and include an unsubstantiated detail about manual review not confirmed elsewhere, slightly reducing reliability. Thus Content A better enables a fully accurate answer with more trustworthy sourcing overall."
+}

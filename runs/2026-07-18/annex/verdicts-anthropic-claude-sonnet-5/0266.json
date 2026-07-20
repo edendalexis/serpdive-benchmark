@@ -1,0 +1,11 @@
+{
+  "id": 266,
+  "query": "2026 NBA Finals Game 4 halftime lead Spurs visiting team largest in Finals second half points total",
+  "topic": "NBA Finals",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "One ESPN Takeaways snippet says the Knicks erased a '29-point halftime deficit,' which conflicts with the correctly stated 27-point halftime lead reported elsewhere in the same result set (Wikipedia and NBA.com both give 27, matching the box score). This minor internal inconsistency could confuse a reader, but the correct 27-point figure and the accurate second-half point totals (30 for Spurs, 58 for Knicks) are clearly present and sourced from reliable outlets (Wikipedia, NBA.com, ESPN recap), matching the anchor box score exactly.",
+  "b_issues": "The only reliable numeric confirmation of the 27-point halftime lead comes from a low-credibility Facebook post; the NBA.com and YouTube snippets are truncated/vague and don't state the halftime margin or the second-half point totals explicitly. An ESPN snippet also says '29-point halftime deficit,' contradicting the 27-point figure, and no source in B gives the actual second-half scoring split (30-58) needed to fully answer the question.",
+  "reasoning": "Both sets contain a contradiction between 27 and 29 for the halftime lead, reflecting genuine ambiguity in secondary reporting, but Content A provides more authoritative and complete corroboration of the correct 27-point road-team record halftime lead (Wikipedia, NBA.com) plus the explicit second-half point totals (58-30) that match the anchor box score. Content B's supporting evidence for the correct number rests on a non-authoritative Facebook post and lacks the second-half point breakdown entirely, making it less reliable and less complete for fully answering the question."
+}

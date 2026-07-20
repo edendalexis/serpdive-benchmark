@@ -1,0 +1,11 @@
+{
+  "id": 468,
+  "query": "Palworld 1.0 Genetic Recombination breeding system skill inheritance passives mechanics guide",
+  "topic": "Palworld",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A's sources are largely generic breeding/combo guides that mention passives only in passing (e.g., 'Special Cake lets a Pal have multiple Tier 4 skills' or 'passive inheritance' as a phrase without explaining the actual inheritance mechanics/probabilities). No source dedicated specifically to how skill inheritance/passives mechanics work.",
+  "b_issues": "Content also relies on general breeding guides for some entries, and the palworldbreedingcalc.com excerpt is truncated before explaining actual inheritance probability mechanics, though it does list real passive skills accurately.",
+  "reasoning": "The query specifically asks about skill inheritance/passives mechanics. Content B includes two sources directly focused on this sub-topic: palworldbreedingcalc.com's 'Passive Skills Breeding Guide' (detailing real passive skills like Musclehead, Aggressive, Thick Skin, Runner, Work Slave, Workaholic) and Game8's 'How to Chain Breed Passive Skills' guide, which explains the actual inheritance mechanism (e.g., Legend passive is inherited by breeding a Legendary Pal with another parent, chain breeding to stack passives). These are accurate and directly relevant to the mechanics of the question. Content A's unique sources (supercraft, lagofast, sportskeeda) are more focused on breeding combos, recipes, and cakes, only tangentially touching passive inheritance without explaining the underlying mechanic. Both sets share nexttier.pro and keengamer.com results with similar general info, but B's two extra specialized sources give it a stronger, more accurate basis for answering the specific question about skill inheritance/passives mechanics."
+}

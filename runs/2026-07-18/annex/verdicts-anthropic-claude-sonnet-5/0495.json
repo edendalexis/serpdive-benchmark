@@ -1,0 +1,11 @@
+{
+  "id": 495,
+  "query": "Wimbledon 2026 protest Save Wimbledon Park June 2026 residents open space demonstration tournament start coverage",
+  "topic": "Wimbledon",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Only provides the same short BBC snippet (duplicated via a fan-site repost) confirming the protest occurred, but then fills remaining results with an unrelated topic — the players' prize-money media protest — which risks being conflated with the Save Wimbledon Park expansion protest, potentially confusing the answer about which protest occurred and why.",
+  "b_issues": "Includes one irrelevant LTA entry-tournament-format result, and the CJAG excerpt is a bit disjointed/truncated, but the core facts (protest at start of tournament, SWP claims, court ruling against SWP, AELTC's justification) are accurate and relevant.",
+  "reasoning": "Both include the key BBC article confirming the anti-expansion protest at the start of Wimbledon 2026. However, Content B additionally provides the CJAG article with substantive, accurate, on-topic detail about the Save Wimbledon Park protest, residents' grievances, and the AELTC's rebuttal/legal ruling — directly answering the query. Content A wastes most of its space on an unrelated player prize-money protest story, which could mislead an LLM into merging two distinct 'protest' narratives or diluting focus on the actual Save Wimbledon Park demonstration. Thus B better supports a correct, focused answer."
+}

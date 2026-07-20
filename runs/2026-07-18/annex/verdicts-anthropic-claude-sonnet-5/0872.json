@@ -1,0 +1,11 @@
+{
+  "id": 872,
+  "query": "Keir Starmer resignation announcement date Labour leader 2026",
+  "topic": "Keir Starmer",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Includes an obscure/unreliable site (kureansiklopedi.com) that adds unverified extra claims (NATO summit reference, Healey resignation) not corroborated by mainstream sources, which could introduce inaccurate tangential details.",
+  "b_issues": "Includes a Facebook post as a source, which is not a reliable primary source, and there's a minor inconsistency between CNN ('sixth PM in seven years') and NYT ('seventh prime minister in a decade') phrasing, though both are just framing, not contradicting the core date.",
+  "reasoning": "Both content sets correctly and consistently establish that Starmer announced his resignation as PM and Labour leader on 22 June 2026 (Monday), matching the anchor. Both include reputable outlets (BBC/Guardian/Al Jazeera in A; NYT/CNN/Al Jazeera in B) confirming this date and the Burnham succession narrative. Each also includes one weaker source (an obscure encyclopedia site in A with unverified extra details, a Facebook post in B), but neither weak source contradicts the core factual answer to the question. Overall, both sets equally enable a correct answer regarding the date and context of Starmer's resignation."
+}

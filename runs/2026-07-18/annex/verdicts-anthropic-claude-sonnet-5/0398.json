@@ -1,0 +1,11 @@
+{
+  "id": 398,
+  "query": "H5N1 confirmed human infections deaths January-August 2025 global total by country",
+  "topic": "H5N1 bird flu",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A's top and most relevant-looking source is a CDC page covering August 2025 to June 2026, which is outside the requested January-August 2025 timeframe and includes clearly out-of-scope/future-dated data (2026 case counts, 'as of June 10, 2026, 1,022 cases'). It never surfaces the actual CDC Aug 4, 2025 summary that answers the question. Other results (FAO, WHO overview page, epi-curve chart) are generic or reference 2026 data as well, so no source in A actually states the Jan-Aug 2025 totals (26 cases, 23 outside US, 11 deaths in Cambodia/India/Mexico). This makes A largely unusable for answering the specific question and risks the agent citing irrelevant/future numbers.",
+  "b_issues": "Minor: does not include the WHO cumulative table with full country breakdown (2025 cases only), but the CDC Aug 4, 2025 summary and Cambodia DON provide enough country-level detail (Cambodia, India, Mexico deaths) to answer accurately.",
+  "reasoning": "The question asks specifically about Jan-Aug 2025 global H5N1 human cases/deaths by country. Content B directly includes the CDC 'h5n1-summary-08042025.html' page stating 26 cases (23 outside US), 11 deaths (Cambodia 8, India 2, Mexico 1) — matching the anchor's authoritative figures exactly — plus a WHO DON with Cambodia-specific case/death counts for corroboration. Content A instead surfaces a CDC page for a *different, later* period (Aug 2025-June 2026) as its lead result, never presenting the correct Jan-Aug 2025 CDC summary, and its other sources are generic (WHO team page) or discuss unrelated animal outbreak counts (FAO) or future 2026 data. Thus B directly and correctly answers the question while A does not."
+}

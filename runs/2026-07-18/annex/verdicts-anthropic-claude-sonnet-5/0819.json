@@ -1,0 +1,11 @@
+{
+  "id": 819,
+  "query": "Copilot Organizational Messages usage-based targeting dynamic behaviors admin feature 2025",
+  "topic": "Microsoft Copilot",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "The Microsoft roadmap result in A is almost entirely alt-text/image metadata with no usable factual content. The handsontek article snippet is truncated before giving preview/GA dates, so A lacks the specific timeline details. The Learn page snippet only vaguely says 'Usage: Admins can now target...' without using the 'usage-based targeting' terminology from the question, making it a weaker match.",
+  "b_issues": "The Dynamics 365 and cloudcapsule.io results are irrelevant to the query and add noise, though they don't contradict the core facts. The roadmap result is a generic overview lacking specific dates for this feature.",
+  "reasoning": "Both sets surface the same core handsontek article on Action Segments, but B additionally includes the official Microsoft Learn release notes page explicitly stating 'Admins can now target Organizational Messages using dynamic usage behaviors through Usage-based targeting,' which directly matches the question's phrasing and confirms the feature name and behavior. B's version of the handsontek snippet also retains the Public Preview/GA date details (mid-Nov 2025–late Jan 2026 preview, late March 2026 GA), giving a more complete and accurate answer. A's roadmap result is mostly unusable image alt-text clutter, and its handsontek snippet is cut off before providing timeline specifics, making B more useful for correctly answering the question."
+}

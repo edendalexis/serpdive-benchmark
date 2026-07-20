@@ -1,0 +1,11 @@
+{
+  "id": 39,
+  "query": "Google Pics image generation tool Workspace voice features Gmail Docs rollout",
+  "topic": "Google",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Facebook/Lifehacker source is low-quality and adds little beyond restating known facts; pulse2 snippet is truncated. Minor overlap/redundancy with edtechinnovationhub source, but no major factual errors.",
+  "b_issues": "Includes animaapp source which is generic and adds little concrete rollout detail; pulse2 snippet states AI Inbox is available only to Ultra subscribers and Enterprise Plus preview, which is inconsistent with edtechinnovationhub's claim of Plus/Pro rollout (a tangential but present contradiction). Core Pics/voice rollout facts are otherwise accurate.",
+  "reasoning": "Both sets share the key sources (blog.google and edtechinnovationhub) that give consistent, accurate rollout details for Google Pics (Trusted Testers -> summer rollout to AI Pro/Ultra, Workspace business preview) and voice features (Gmail Live, Docs Live, Keep voice - summer rollout to AI Pro/Ultra, Workspace preview). Content A's additional Mashable source adds concrete functional detail about what Gmail Live and Docs Live actually do (voice dictation, quick-answer queries), which directly supports the 'voice features' part of the question without introducing contradictions. Content B's additional sources (pulse2, animaapp) are either redundant, vaguer, or introduce a minor inconsistency about AI Inbox tiering. Overall, A provides slightly more complete and internally consistent coverage of the specific facts needed to answer the question."
+}

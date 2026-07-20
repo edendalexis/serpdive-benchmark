@@ -1,0 +1,11 @@
+{
+  "id": 703,
+  "query": "DOJ Live Nation Ticketmaster March 2026 settlement terms divest amphitheater booking agreements service fee cap 15% exclusivity contract four years states object",
+  "topic": "Ticketmaster DOJ lawsuit",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A lacks any explicit mention of a four-year cap on exclusivity contracts, and provides little detail on state objections beyond a fine amount and general divestiture/fee figures. The DOJ term sheet excerpt is truncated and doesn't clarify duration terms.",
+  "b_issues": "Minor inconsistency: TicketNews says 'more than 10' amphitheaters divested while other sources say 13; also one source ($200M) differs slightly from Deseret's $280M figure in A, but that's not present in B itself.",
+  "reasoning": "Content B explicitly includes the four-year exclusivity contract cap (Rolling Stone, TicketNews), the 15% service fee cap, the 13-amphitheater divestiture, and the states' objections/negotiation process (Rolling Stone details holdout states and Judge Subramanian's order), directly matching all elements of the query. Content A covers the fee cap and amphitheater divestiture but omits the four-year exclusivity term and gives only vague reference to states' disagreement, making it less complete for fully answering the question."
+}

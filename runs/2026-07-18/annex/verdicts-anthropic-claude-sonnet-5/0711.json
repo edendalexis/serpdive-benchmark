@@ -1,0 +1,11 @@
+{
+  "id": 711,
+  "query": "Emmanuel Macron Ukraine letter of intent Rafale warplanes up to 100 drones air defense systems France 10 years Reuters July 2026",
+  "topic": "Emmanuel Macron",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "The Union24 media claim of a future fleet of up to 250 combat aircraft (F-16, Gripen, Rafale) is an extra detail not corroborated by the anchor and could be seen as an embellishment, but it doesn't contradict the core facts.",
+  "b_issues": "Lacks the actual Reuters article/link that matches the anchor; relies only on France24, Guardian, and Defense News, so it never directly cites Reuters despite the query explicitly requesting Reuters as the source. Also lacks a dedicated Reuters snippet confirming the 10-year, 100-Rafale figure.",
+  "reasoning": "Content A includes the exact Reuters URL and snippet that matches the anchor (confirming the 100 Rafale/10-year deal), plus corroborating sources (France24, Euronews, United24, Defense News) covering both the November 2025 letter of intent and the July 2026 16-Rafale acquisition plan, giving a fuller and more verifiable picture consistent with the anchor. Content B, while accurate in its own snippets, never surfaces the Reuters source itself and relies on secondary outlets, making it slightly less aligned with the specific Reuters-sourced question and less robust in cross-source confirmation."
+}

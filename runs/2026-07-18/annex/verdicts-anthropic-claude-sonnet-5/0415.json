@@ -1,0 +1,11 @@
+{
+  "id": 415,
+  "query": "The Bear Christopher Storer original plan end after season 4 FX renewal season 5 July 2025",
+  "topic": "The Bear",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Does not explicitly state that Storer's original plan was to end the show after Season 4; the closest reference is an opinion-based statement ('It was obvious... this was meant to be a 4 season series') rather than a direct sourced claim tied to Storer/White.",
+  "b_issues": "No significant factual flaws; content is consistent with the anchor and directly supports the key claim.",
+  "reasoning": "The question specifically asks about Storer's original plan to end the show after Season 4 and the July 2025 renewal. Content B's Deadline excerpt explicitly states: 'White has previously said that Storer's original idea was to end the show after Season 4,' which directly and unambiguously answers the core of the question. It also confirms the July 2025 Season 5 renewal. Content A's Deadline excerpt covers the renewal and ending news but only implies the original 4-season plan through an editorializing comment about story quality, without directly attributing this to Storer or White. Both sets are accurate and non-contradictory, but B provides a clearer, more direct factual basis for answering the question correctly."
+}

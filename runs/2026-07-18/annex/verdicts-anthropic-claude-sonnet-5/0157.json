@@ -1,0 +1,11 @@
+{
+  "id": 157,
+  "query": "5th Ukraine Southeast Europe Summit Kyiv Zelenskyy bilateral meetings Moldova Romania Serbia Albania Croatia Slovenia outcomes",
+  "topic": "Volodymyr Zelenskyy",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "One result (Facebook post) contains bizarre, irrelevant text about a 'police line-up/identification parade' that has nothing to do with the summit, which could confuse or mislead the answering model. Content A also lacks concrete details about the Kyiv Declaration's substantive commitments (sanctions, air defense, reconstruction, next host) and provides less specificity on bilateral outcomes beyond Serbia's statement.",
+  "b_issues": "Content B is generally accurate and consistent with the anchor, though it repeats snippets across sources; no major factual errors identified.",
+  "reasoning": "Content B provides more substantive, verifiable details relevant to the question: the Kyiv Declaration's content (reconstruction, demining, EU membership as strategic investment), the list of prior summit host cities (Athens, Tirana, Dubrovnik, Odesa), the next host (Slovenia, 2027), and specific outcome themes like sanctions and security cooperation. Content A includes an anomalous, irrelevant, and confusing snippet (the 'identification parade' text) that has no connection to the summit and could degrade answer quality, while offering fewer concrete facts about the summit's declared outcomes."
+}

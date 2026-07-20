@@ -1,0 +1,11 @@
+{
+  "id": 136,
+  "query": "BTS Hooligan music video July 2026 Korean version Normal announcement source",
+  "topic": "BTS",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Only one weak source (a Threads reshare of a fan account, not an official news outlet), lacks corroboration with the official announcement details (e.g., Big Hit Music's Thursday statement, the Busan concert reveal), and doesn't match the anchor's key facts, making it less reliable.",
+  "b_issues": "Includes some less authoritative items (Facebook post, IMDb entry for 'Hooligan' which is a different song/video) that could cause minor confusion, but the core facts are consistent with the anchor.",
+  "reasoning": "The anchor confirms the Korea Herald article as the authoritative source for the 'Normal' MV announcement (Big Hit Music, Friday, Spotify exclusive, Korean-language version from Busan concert). Content B directly includes this exact Korea Herald article verbatim, plus corroborating official sources (Korea Times, official YouTube teaser with exact release date/time), giving a full, accurate, well-sourced answer. Content A only provides a single fan-aggregator (Threads/popbase) result, which, while roughly accurate on timing, lacks the official announcement source and detail (Big Hit Music, Busan concert origin of Korean version) that the question specifically asks for. Thus B far better enables a correct, well-sourced answer."
+}

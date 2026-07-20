@@ -1,0 +1,11 @@
+{
+  "id": 623,
+  "query": "Novak Djokovic ATP ranking after Wimbledon 2026",
+  "topic": "Novak Djokovic",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "None of the snippets in Content A explicitly state Djokovic's numeric ranking after Wimbledon 2026; the Tennishead and Puntodebreak snippets are qualitative (mention exit, career-high threats) without giving the actual number, and Sofascore's snippet doesn't include Djokovic's line at all, leaving the agent to infer rather than read the fact directly.",
+  "b_issues": "The atptour.com snippets are somewhat garbled/ambiguous (e.g., 'rankings-history' text mixes numbers confusingly), and the 'rankings-breakdown' page's points figure (3760) isn't clearly labeled as post-Wimbledon, but the ESPN snippet explicitly states 'ATP Rank #7' for Djokovic, matching the anchor's reported rank and points (3760), giving a clear, correct answer.",
+  "reasoning": "Content B contains an explicit, unambiguous statement ('ATP Rank #7') that matches the anchor's factual answer, plus a points figure (3760) consistent with the anchor. Content A's results discuss Djokovic's Wimbledon exit and its ranking implications but never state the resulting numeric rank, making it harder for an LLM to answer precisely from that content alone."
+}

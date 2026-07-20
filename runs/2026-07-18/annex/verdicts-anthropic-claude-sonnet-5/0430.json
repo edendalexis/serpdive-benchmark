@@ -1,0 +1,11 @@
+{
+  "id": 430,
+  "query": "Megalopolis Unbound director cut New Year screening plans",
+  "topic": "Megalopolis",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; sources are reputable and consistent (SF Chronicle, ScreenRant, Playlist, Toy-People, Wikipedia) and clearly cover both the New Year's Day 2026 Alamo Drafthouse re-release and the 'Megalopolis Unbound' director's cut details (Kathryn Hunter footage, 'really wild' quote).",
+  "b_issues": "The Instagram result snippet is messy and contains confusing/likely fabricated future dates (e.g., 'Photo by American Zoetrope on July 14, 2026,' 'Photo by Lionsgate At Home on May 18, 2026') interspersed with unrelated comments, which could mislead a model. Reliance on Reddit and Instagram as primary sources is less reliable than direct news reporting, though the core facts are still present.",
+  "reasoning": "Both content sets contain the essential facts: Coppola's director's cut titled 'Megalopolis Unbound' with added footage (Kathryn Hunter scenes), and the New Year's Day 2026 re-release at select Alamo Drafthouse theaters. However, Content A presents this information through more reliable, professionally edited news sources (SF Chronicle, ScreenRant, The Playlist, Toy-People) without contradictory or confusing extraneous text. Content B's Instagram result, while containing the useful Coppola quote, is cluttered with seemingly fabricated or irrelevant future-dated content that could confuse an LLM's synthesis. Content A is cleaner and equally comprehensive, making it the safer choice for accurate answering."
+}

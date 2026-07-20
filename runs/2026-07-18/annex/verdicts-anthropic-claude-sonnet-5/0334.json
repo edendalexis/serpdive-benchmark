@@ -1,0 +1,11 @@
+{
+  "id": 334,
+  "query": "Longlegs new film 2026 announcement cast additions confirmed",
+  "topic": "Longlegs",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Includes lower-reliability/irrelevant sources (Hypebeast article veers into unrelated Spider-Noir series info; filmstories.co.uk snippet contains stray unrelated content about the Oscars moving to YouTube). No explicit cast names are given for the new film beyond Cage, and the release-date confirmation (Jan 2028) is buried in a less authoritative outlet rather than a top-tier trade.",
+  "b_issues": "The Deadline excerpt lists cast names (Monroe, Witt, Shipka, Underwood) that pertain to the original 2024 film, not confirmed additions to the new project, which could be misread as new-film casting; a YouTube and Instagram result add little factual value beyond confirming the announcement date.",
+  "reasoning": "Both sets confirm the same core facts (Paramount acquiring rights, Cage returning, Perkins writing/directing, 2028 release date, film set in the Longlegs universe rather than a direct sequel) and neither definitively lists new cast additions, since none appear to have been announced. However, Content B pulls from more consistently reliable, on-topic trade sources (Deadline, Variety, IndieWire) without extraneous or distracting content, and its Variety result explicitly states the 2028 Paramount release date in the title, aligning cleanly with the anchor. Content A includes noisier, less reliable sources (Hypebeast, filmstories.co.uk) with irrelevant tangents that could confuse an LLM answering the question. Thus B provides a slightly cleaner, more reliable basis for answering the question."
+}

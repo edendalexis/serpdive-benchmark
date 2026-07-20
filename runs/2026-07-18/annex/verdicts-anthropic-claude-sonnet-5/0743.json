@@ -1,0 +1,11 @@
+{
+  "id": 743,
+  "query": "Senate committee cameras Supreme Court federal courtrooms bill status vote",
+  "topic": "U.S. Supreme Court",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A's top result (TBA Law Blog) only briefly mentions the advancement but lacks specifics on bill names, vote type, or status detail. Other results are outdated/historical (2007, 2012, older CRS report) and don't reflect the current bill status. No direct confirmation of vote type (voice vote) or specific bill names/numbers, and no mention of committee markup date or next steps.",
+  "b_issues": "Minor: some results are opinion/advocacy sites (Fix the Court, bestlawfirms.com) rather than pure news, but they still provide accurate, consistent factual details matching the anchor.",
+  "reasoning": "Content B directly includes the anchor's primary source (judiciary.senate.gov press release) with matching details: voice vote, bill names (Sunshine in the Courtroom Act and Cameras in the Courtroom Act), sponsors (Grassley, Durbin, Klobuchar), and specifics of what each bill does. It also includes bill numbers (S.1133, S.1146) and confirms the June 18, 2026 committee advancement, plus context on next steps (Senate floor vote pending) and historical context. Content A's results are largely outdated (2007-2012) or too vague, lacking the specific bill names, vote mechanism, and status details needed to accurately answer the question. B provides a more complete, accurate, and internally consistent set of facts directly relevant to the query."
+}

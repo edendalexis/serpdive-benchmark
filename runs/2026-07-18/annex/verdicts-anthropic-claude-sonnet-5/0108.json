@@ -1,0 +1,11 @@
+{
+  "id": 108,
+  "query": "Boeing Q4S mission entanglement swapping lab test payload compact satellite specification technical details",
+  "topic": "Boeing",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; content is consistent with anchor and provides substantive details (high-fidelity entanglement swapping, environmental qualification testing, compact space-qualified payload, final spacecraft integration, 2027 launch, one-year on-orbit demo, peer-reviewed publication plan).",
+  "b_issues": "Mostly short snippet fragments with little technical detail; most results only contain a single truncated sentence per source, offering far less substantive content to answer the question. Also includes an unverified claim from aeromorning.com about 'four-photon' entanglement swapping, which is not corroborated by the anchor or other sources and could be inaccurate.",
+  "reasoning": "Content A provides fuller, more detailed excerpts across multiple reputable sources (Boeing, The Quantum Insider, Quantum Computing Report, SpaceNews) that consistently describe the key facts: high-fidelity entanglement swapping demonstrated in ground testing, compact space-qualified payload, environmental qualification testing completed, final spacecraft integration, 2027 launch, one-year on-orbit demo, and future peer-reviewed publication. This aligns well with the anchor. Content B's snippets are much shorter and less informative, and introduces a specific technical claim ('four-photon quantum entanglement swapping') from a less authoritative source that is not corroborated elsewhere, creating a risk of factual inaccuracy. Thus Content A better enables a correct, detailed answer."
+}

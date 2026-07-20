@@ -1,0 +1,11 @@
+{
+  "id": 760,
+  "query": "FAA reorganization new safety oversight office airspace modernization advanced aviation technologies office headquarters relocation DOT Washington 2026",
+  "topic": "FAA",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A's fedscoop and aopa snippets are truncated and don't explicitly name the 'Advanced Aviation Technologies' office by its full title, though nata.aero mentions drones/air taxis oversight functionally. No major factual errors present.",
+  "b_issues": "Content B, despite giving fuller detail on the three new offices (SMS, Airspace Modernization, Advanced Aviation Technologies), contains no mention whatsoever of the headquarters relocation to DOT's Navy Yard building — a key element explicitly asked about in the query — leaving that part of the question unanswerable from B alone.",
+  "reasoning": "The question asks about four elements: the new safety oversight office, airspace modernization office, advanced aviation technologies office, and the headquarters relocation to DOT Washington. Content A, via its nata.aero result, explicitly states that the reorganization 'coincides with the relocation of Washington-area FAA employees to the Department of Transportation's headquarters at Navy Yard,' directly matching the anchor's implied fact. Content B's five results cover the three new offices in more granular detail (e.g., flyingmag names all three explicitly) but completely omit any mention of the DOT headquarters relocation, leaving a gap on a component the question specifically asks about. Since headquarters relocation is an explicit, non-trivial part of the query, A's inclusion of that fact gives it an edge in fully and accurately answering the question, even though B is somewhat more detailed on the office names."
+}

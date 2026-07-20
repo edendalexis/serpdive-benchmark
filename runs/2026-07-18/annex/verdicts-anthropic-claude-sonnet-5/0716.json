@@ -1,0 +1,11 @@
+{
+  "id": 716,
+  "query": "9th World Congress Against Death Penalty Macron attendance July 2026",
+  "topic": "Emmanuel Macron",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "The ECPM excerpt in Content A frames Macron's role as merely coming 'on the fringes of the Congress... to greet the participants,' which is a much lower-key characterization than what independent sources (Euronews, SCMP, BFMTV) describe — a formal keynote address warning against the resurgence of pro-death-penalty sentiment. This could mislead an LLM into understating Macron's actual role. It also introduces extra claims (Lebanon's commitment, Morocco hosting the 10th Congress) that, while plausible, are not corroborated by the anchor and add unverified specificity.",
+  "b_issues": "Relies on a short snippet from Le Monde rather than a full quote, so it lacks some of the richer detail (e.g., specific quotes) that Content A provides, though the core fact (attendance and purpose) is accurate and matches the anchor closely.",
+  "reasoning": "Both sets confirm the dates and location of the 9th World Congress and that Macron was involved. However, Content B's Le Monde excerpt directly and accurately states that Macron 'attended' the Congress on June 30 'to warn against calls to restore capital punishment,' which aligns closely with the anchor's portrayal (Macron addressing the Congress with a substantive speech per Euronews/SCMP). Content A's key source (ECPM) instead describes Macron as visiting 'on the fringes' just to 'greet' participants, understating his actual role as a keynote speaker, creating a discrepancy with the anchor's more authoritative reporting. Thus Content B better supports a correct answer to the question about Macron's attendance and role at the Congress."
+}

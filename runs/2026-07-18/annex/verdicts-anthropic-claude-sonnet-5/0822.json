@@ -1,0 +1,11 @@
+{
+  "id": 822,
+  "query": "Port of Baltimore 2025 total cargo vessel visits record number",
+  "topic": "Port of Baltimore",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "None substantial; all sources consistently report 2,223 cargo vessel visits in 2025 vs previous record of 2,137 in 2023, matching the anchor.",
+  "b_issues": "None substantial; all sources consistently report 2,223 cargo vessel visits in 2025 vs previous record of 2,137 in 2023, matching the anchor.",
+  "reasoning": "Both Content A and Content B provide the same accurate, consistent, and well-sourced answer: the Port of Baltimore handled 2,223 cargo vessel visits in 2025, surpassing the previous record of 2,137 set in 2023. This matches the anchor reference exactly. Both include multiple corroborating sources (Professional Mariner, Maritime Magazine, gCaptain) with no contradictions. Content A includes a featured snippet that directly states the answer, while Content B includes an additional corroborating source (Port Technology) but relies on shorter snippets. Both sets equally enable a correct answer with no factual discrepancies."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 848,
+  "query": "Taylor Swift Travis Kelce JuJu Smith-Schuster wedding July 2026 location",
+  "topic": "Taylor Swift",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Includes minor date inconsistency (E! Online cites July 11 instead of July 10) and an unrelated factual aside about a 2024 Super Bowl outcome, but the wedding location (Ritz-Carlton, Laguna Niguel, Orange County, CA) is stated consistently and accurately.",
+  "b_issues": "Includes an Instagram post referencing a photo dated July 14, which could cause minor date confusion, but this does not affect the location answer, which is stated consistently as Ritz-Carlton, Laguna Niguel, Orange County, CA.",
+  "reasoning": "Both sets of results consistently and accurately identify the wedding location as the Ritz-Carlton in Laguna Niguel, Orange County, California, matching the anchor's Dana Point/Laguna Niguel detail. Minor date-related inconsistencies exist in both sets but do not affect the core location answer, making the two equally reliable and correct for this specific query."
+}

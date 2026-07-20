@@ -1,0 +1,11 @@
+{
+  "id": 336,
+  "query": "April 2026 Longlegs universe film announcement Osgood Perkins Nicolas Cage official statement trade report",
+  "topic": "Longlegs",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "The Hypebeast result introduces an apparently hallucinated/contradictory claim ('The series premieres this May on MGM+ and Prime Video with a unique dual-format release') that is unrelated to the Longlegs film news and not supported by any other source, which could mislead an LLM. A also relies on lower-tier or off-topic sources (AVForums, Hypebeast) rather than the core trade reports.",
+  "b_issues": "The Variety result's title claims Paramount set a '2028 Release Date,' which is not corroborated by the anchor or other sources and could be an unverified or inaccurate addition, though it doesn't contradict the rest of the content.",
+  "reasoning": "Both sets cover the core story (Paramount acquiring a new Longlegs-universe film, Perkins writing/directing, Cage starring/producing) consistently with the anchor. However, Content B pulls from more of the same reliable trade sources as the anchor (IndieWire, Hollywood Reporter, Variety, plus Empire) with accurate, non-contradictory details, closely mirroring the anchor's narrative. Content A includes a clearly extraneous and likely hallucinated detail from Hypebeast about a May premiere on MGM+/Prime Video with a 'dual-format release,' which is unrelated to the Longlegs story and could confuse or mislead an answering model. This makes B more reliable and accurate overall."
+}

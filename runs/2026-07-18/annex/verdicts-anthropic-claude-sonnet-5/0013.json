@@ -1,0 +1,11 @@
+{
+  "id": 13,
+  "query": "TSMC North America Technology Symposium 2026 next-generation process node technology announced",
+  "topic": "Taiwan Semiconductor Manufacturing Company",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A contains no information about the TSMC North America Technology Symposium 2026 or any next-generation process node announcements (A13, A12, N2U, etc.). Results are generic TSMC corporate pages, Wikipedia, stock info, and Arizona fab info that do not address the query at all.",
+  "b_issues": "Content B is accurate and directly sourced from TSMC's own press release and LinkedIn post, matching the anchor. It could have included more detail on A12 and N2U (mentioned in other anchor sources) but covers A13, N2U, N2A, N16HV, and roadmap context (3nm, 2nm, A16, A14) directly relevant to the question.",
+  "reasoning": "Content B directly answers the question with specific, accurate details about the technologies announced at the 2026 symposium (A13, N2U, N2A, N16HV) sourced from TSMC's official press release and LinkedIn post, aligning closely with the anchor. Content A contains no relevant information about the symposium or any process node announcements, making it entirely unhelpful for answering the question."
+}

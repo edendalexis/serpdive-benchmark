@@ -1,0 +1,11 @@
+{
+  "id": 312,
+  "query": "Ursula von der Leyen April 2025 EU defence investment plan official name budget amount",
+  "topic": "Ursula von der Leyen",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A does not contain the official name of the plan (ReArm Europe Plan/Readiness 2030) nor the specific budget amounts (€800 billion mobilized, €150 billion loan instrument) in a clear, direct way. It mentions defence budgets generally and references the plan only briefly in one result without key figures tied directly to the plan's official announcement.",
+  "b_issues": "Content B does not explicitly mention the 'Readiness 2030' portion of the official name, only 'ReArm Europe Plan,' though this is still a widely used and accurate short-form name. Otherwise, figures and details are accurate and well-sourced.",
+  "reasoning": "Content B directly and repeatedly provides the official name ('ReArm Europe Plan') and the two key budget figures (€800 billion in mobilized defence spending and €150 billion in loans) from multiple reliable, corroborating sources (European Commission, Reuters, DW, Euronews, FT). Content A lacks a clear statement of the plan's official name and only tangentially references the budget figures through a secondary EU Parliament source, without stating the €800 billion or €150 billion figures directly tied to the announcement. Thus B provides a more complete and accurate basis for answering the question."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 759,
+  "query": "Trump Media DJT Q1 2025 earnings report revenue net loss 10-Q",
+  "topic": "Truth Social DJT stock",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Most results in A are about Q1 2026, not Q1 2025, and could confuse an agent about which period is being asked about. Also, no explicit Q1 2025 revenue figure is given in the snippets—only EPS loss comparison and a passing mention of $759.0M in financial assets as a prior-year comparison figure.",
+  "b_issues": "All results in B are exclusively about Q1 2026, with no dedicated article about Q1 2025. The only Q1 2025 data (net loss $31,726.6K and financial assets $759.0M) appears buried inside a Q1 2026 earnings table/comparison, requiring the reader to correctly parse which column corresponds to 2025 vs 2026. No explicit Q1 2025 revenue figure is given either.",
+  "reasoning": "Content A includes a dedicated, clearly-labeled Yahoo Finance article titled 'Trump Media & Technology Group First Quarter 2025 Earnings' that directly compares Q1 2025 EPS loss to Q1 2024, making it easier for an LLM to correctly identify and extract Q1 2025-specific information despite most other results being about Q1 2026. Content B lacks any result explicitly framed around Q1 2025; the only relevant data (net loss ~$31.7M, financial assets $759.0M) is embedded as a secondary comparison column within Q1 2026-focused articles, making correct extraction more error-prone and less directly supportive of the query. Neither set gives an explicit Q1 2025 revenue figure, but A's dedicated Q1 2025 article gives it a slight edge in directly answering the question."
+}

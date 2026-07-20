@@ -1,0 +1,11 @@
+{
+  "id": 637,
+  "query": "Perplexity mid-task model switching Claude Fable 5 orchestration Perplexity Computer custom skills announcement",
+  "topic": "Perplexity AI",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "The Model Council changelog snippet in A oddly doesn't mention Fable 5 directly in the changelog excerpt itself, but the LinkedIn, Threads, and Reddit results directly confirm Fable 5 as orchestrator model, filling the gap. No major contradictions.",
+  "b_issues": "None of B's results explicitly mention 'Claude Fable 5' as the orchestrator model in Computer — the key fact the question asks about is missing entirely. The changelog excerpt in B only covers Custom Skills, GPT-5.3-Codex, and GPT-5.4, omitting the Fable 5 orchestrator announcement. The Shakudo snippet is confusing/garbled and doesn't clarify Fable 5's role.",
+  "reasoning": "The question specifically asks about Claude Fable 5 as an orchestrator model in Perplexity Computer alongside custom skills. Content A directly supplies this fact via the LinkedIn post ('Claude Fable 5 is now available in Computer as an orchestrator model...for long, complex tasks'), corroborated by Threads and Reddit results, plus the Custom Skills changelog content. Content B lacks any explicit mention of Fable 5's orchestrator role — its results discuss Custom Skills, Model Council, GPT-5.3-Codex, and general Computer orchestration of 19 models, but never explicitly state Fable 5 is the orchestrator, leaving a critical gap for answering the question accurately."
+}

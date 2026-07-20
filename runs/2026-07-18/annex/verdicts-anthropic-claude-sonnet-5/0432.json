@@ -1,0 +1,11 @@
+{
+  "id": 432,
+  "query": "Megalopolis box office global gross revenue 2024",
+  "topic": "Megalopolis",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor formatting glitch in the Mojo snippet (mislabels 'International $4,007,797' due to truncation), and includes an outdated interim milestone figure ($10M) alongside the final $14.4M figure, but the final Wikipedia-sourced figure ($14.4M) matches the anchor exactly and is clearly presented as the definitive total.",
+  "b_issues": "Contains multiple conflicting worldwide totals ($12,303,292 from The Numbers, $9.2M from SF Chronicle, and an unlabeled $10M milestone from ScreenRant), none of which match the anchor's authoritative $14,447,666 figure. No source in B correctly states the final $14.4M worldwide total, making it likely to mislead the answering LLM.",
+  "reasoning": "Content A consistently converges on the correct final worldwide gross of $14.4 million (domestic $7.6M + international $6.8M), matching the anchor Box Office Mojo figures almost exactly. Content B's sources give three different and lower worldwide totals ($9.2M, $10M, $12.3M), none matching the anchor, creating contradiction and a high risk of an incorrect final answer. Thus A better enables a correct answer."
+}

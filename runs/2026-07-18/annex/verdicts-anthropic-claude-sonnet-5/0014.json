@@ -1,0 +1,11 @@
+{
+  "id": 14,
+  "query": "TSMC market cap 2026 valuation trillion stock price rise percentage year",
+  "topic": "Taiwan Semiconductor Manufacturing Company",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor internal inconsistency between companiesmarketcap ($2.066T) and macrotrends ($2.125T) figures for July 2026, and differing YTD percentage figures (58% CNBC vs 44.32% Yahoo) reflecting different snapshot dates, but figures are all reasonably close and consistent with the anchor's $2.125T figure.",
+  "b_issues": "Wider inconsistency in market cap figures for the same 'July 2026' timeframe: stockanalysis.com shows $1.99T while companiesmarketcap shows $2.251T, a large unexplained gap. Also includes stale/outdated data (Binance post citing $1.6T market cap, seemingly from an earlier forecast) and a February 2026 Motley Fool piece discussing a future $3T aspiration rather than current valuation, adding confusion about actual current cap and percentage change.",
+  "reasoning": "Both results are drawn from a synthetic 2026 dataset with some inherent noise, but Content A's figures are more tightly clustered and align well with the anchor's authoritative $2.125T figure and 72.48% 1-year change, plus it includes a clear, sourced earnings report (CNBC) with concrete percentage growth figures (77.4% profit jump, 36% revenue growth, 58% YTD stock rise). Content B's market cap figures diverge more sharply ($1.99T vs $2.251T for the same period) and mix in outdated/aspirational figures ($1.6T, $3T target) that could mislead an LLM about the actual current valuation and growth percentage. Content A therefore better supports an accurate answer to the question."
+}

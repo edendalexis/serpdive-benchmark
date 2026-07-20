@@ -1,0 +1,11 @@
+{
+  "id": 308,
+  "query": "SpaceX Blue Origin commercial landers Artemis III 2027 low Earth orbit demonstration mission specifics",
+  "topic": "NASA Artemis program",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "The satnews article introduces a specific but unverified/likely fabricated detail (\"nose-to-nose docking with a Starlink-linked Starship Version 3 HLS test article\") from a lesser-known source, which could mislead the model. A's payloadspace snippet is thin, giving little concrete detail (no dock order, duration, or hatch-test info) beyond confirming both companies will provide landers.",
+  "b_issues": "Relies on some lower-authority sources (Facebook reposting Scientific American, a fan wiki, artemisfiles) that, while consistent with the facts, are not primary sources. No major factual contradictions found.",
+  "reasoning": "Both sets agree on the core facts (2027 LEO demo, Orion docking with SpaceX Starship and Blue Origin landers, Blue Origin first). However, Content B's payloadspace excerpt supplies more concrete, directly relevant mission specifics — order of dockings (Blue Origin's lander first, then SpaceX's Starship V3), a roughly two-week mission duration, and a hatch-opening test — which directly answers the query's request for 'demonstration mission specifics.' Content A repeats mostly generic information already covered by the anchor and introduces an unverified, oddly specific docking detail from a fringe source (satnews) that risks injecting inaccurate information. Thus B better equips an LLM to answer the question correctly and with more substantive detail."
+}

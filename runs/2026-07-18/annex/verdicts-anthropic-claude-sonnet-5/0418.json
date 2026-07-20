@@ -1,0 +1,11 @@
+{
+  "id": 418,
+  "query": "The Bear season 5 rotten tomatoes metacritic critic reviews score",
+  "topic": "The Bear",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A never explicitly states a Metacritic critic score (Metascore); it only shows a Metacritic user-score snippet (8.0/25 ratings) which doesn't match the anchor's actual metascore (81) or user score (7.9/16). Its only explicit Rotten Tomatoes number comes from a Screenrant article claiming 100% based on 20 reviews, which contradicts the anchor's 97%/73 reviews, and no source reconciles this discrepancy.",
+  "b_issues": "Content B contains internal inconsistency on the Rotten Tomatoes score (Yahoo and IMDb say 100%, Instagram says 97% in body text but 100% in title), so the exact RT percentage is unclear, but it does correctly surface the Metacritic score of 81 (matching the anchor) via the Yahoo article, and one source (Instagram) states 97%, aligning with the anchor.",
+  "reasoning": "The anchor establishes the correct facts as RT 97% (73 reviews) and Metacritic 81 (26 critic reviews). Content B explicitly reproduces the Metacritic 81 score correctly (via Yahoo) and also includes a source citing 97% RT (Instagram), giving an LLM the means to state both correct figures despite some conflicting reports. Content A never surfaces the correct Metacritic critic score at all and only offers an incorrect RT score (100%/20 reviews) as its explicit data point, making it less useful for answering accurately."
+}

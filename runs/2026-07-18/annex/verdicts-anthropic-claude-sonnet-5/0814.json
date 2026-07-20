@@ -1,0 +1,11 @@
+{
+  "id": 814,
+  "query": "Microsoft Copilot federated connectors general availability MCP Model Context Protocol LSEG HubSpot Notion partners official 2025",
+  "topic": "Microsoft Copilot",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "A's official Microsoft Learn snippets describe MCP/federated connector mechanics but never explicitly state 'general availability' or list the partner set (LSEG, HubSpot, Notion, etc.); the only place these facts appear is a third-party LinkedIn post, which is not an authoritative Microsoft source, weakening confidence in accuracy.",
+  "b_issues": "Several secondary results (handsontek, topedia, facebook) contain implausible future dates (April/May 2026) for what is a 2025 announcement, which could mislead a model about timing; these appear to be date-scraping errors from the source sites.",
+  "reasoning": "B's top result is the actual official Microsoft Tech Community blog post (also cited in the anchor) that explicitly states 'we are announcing general availability of federated Copilot connectors' and names the exact partner list requested in the query (Canva, HubSpot, Intercom, Linear, LSEG, Moody's, Notion), directly and accurately answering the question from an authoritative source. Content A lacks this explicit GA statement and partner list from an official Microsoft source, relying instead on a non-official LinkedIn blog for the key facts. Despite some date anomalies in B's lower-ranked results, its primary source is more directly useful and authoritative for answering the question correctly."
+}

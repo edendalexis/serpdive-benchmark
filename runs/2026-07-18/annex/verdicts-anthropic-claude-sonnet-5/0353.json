@@ -1,0 +1,11 @@
+{
+  "id": 353,
+  "query": "Pope Leo XIV Peru visit November 2026 Vatican official announcement schedule confirmation",
+  "topic": "Pope Leo XIV",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "All sources are limited to June 2026 statements from Peru's president; none address the actual Vatican official announcement or confirmation status, leaving the core of the question (Vatican's official confirmation/schedule) unanswered.",
+  "b_issues": "Mostly consistent with anchor, though some speculative details (e.g., combined trip with Uruguay/Argentina) remain unconfirmed; no direct link to a Vatican-issued statement, but it does report Cardinal Sturla's statement that the Vatican would confirm the schedule in late July, which is closer to an official confirmation timeline.",
+  "reasoning": "Both sets agree on the basic facts (Peru's president announcing a likely November 2026 visit to five cities). However, Content B includes a more recent July 2026 America Magazine article indicating that the Vatican was expected to confirm the official schedule in late July, directly addressing the 'Vatican official announcement/confirmation' part of the query. Content A only includes June 2026 sources, none of which discuss any subsequent Vatican confirmation, making it less complete for answering the full question about official Vatican confirmation and schedule status."
+}

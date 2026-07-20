@@ -1,0 +1,11 @@
+{
+  "id": 755,
+  "query": "DJT stock short seller losses November 2024 borrow fee rates short interest Trump Media",
+  "topic": "Truth Social DJT stock",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Does not explicitly state the $420 million November 2024 loss figure from S3 Partners; most content is from March-April 2024 (outdated data on borrow fees and short interest), and the November-dated S3 Partners article snippet (Oct 29, 2024) is thin on hard numbers.",
+  "b_issues": "Contains no November 2024-dated content at all; all substantive results (CNBC, Barrons, NBC Bay Area) are from March-April 2024, discussing much older borrow fee rates (750-900%) and mark-to-market losses (~$80-126M) that predate the election-driven surge and the $420M loss reported by Reuters/S3 in November. The Robinhood result is a 2026 price quote, irrelevant to the query.",
+  "reasoning": "Neither content set explicitly surfaces the exact $420 million November 2024 loss figure highlighted in the anchor, but Content A includes the S3 Partners article dated October 29, 2024 ('DJT Squeeze Risk Rises Ahead of Election'), which is temporally much closer to the target event and directly discusses short interest and squeeze risk tied to the election, aligning with the anchor's third and fourth sources. Content B's entire result set is anchored in March-April 2024 data (borrow fees of 750-900%, losses of ~$80-126M), which predates the November election rally entirely and would mislead an LLM into using stale figures rather than the November 2024 short interest/borrow fee/loss data the question asks about. Thus Content A is modestly more useful and temporally relevant despite lacking the precise $420M figure."
+}

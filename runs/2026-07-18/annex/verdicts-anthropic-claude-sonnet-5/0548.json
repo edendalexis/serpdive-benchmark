@@ -1,0 +1,11 @@
+{
+  "id": 548,
+  "query": "ECB economic modelling upgrade uncertainty war energy shocks progress 2025 2026",
+  "topic": "European Central Bank",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor: relies on snippets from secondary sources (BIS speech, Bancaditalia, MUFG) that are plausible but not independently verified beyond consistency with the anchor; no major factual contradictions apparent.",
+  "b_issues": "Includes a low-reliability kucoin.com (crypto exchange) article making a specific inflation claim not clearly corroborated; includes a YouTube video result with a large amount of irrelevant/unrelated content (hashtags about Israel/Gaza hostage situation) that adds noise and could confuse the model; overall content is more generic and less specific to the actual mechanics of the ECB modelling upgrade.",
+  "reasoning": "Both sets surface the correct anchor blog post, but Content A provides richer, more specific and topic-relevant excerpts (mentioning tariff shocks, Strait of Hormuz, BVAR model upgrades, pandemic policy response) plus corroborating context from credible sources (BIS/Lagarde speech, Banca d'Italia bulletin) that directly discuss war/energy shock uncertainty and 2025-2026 growth/inflation figures. Content B's snippet on the anchor blog is vaguer, and it includes a low-quality crypto news site and an off-topic, noisy YouTube transcript that could mislead or distract an LLM. Thus Content A better enables a correct, well-supported answer."
+}

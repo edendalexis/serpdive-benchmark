@@ -1,0 +1,11 @@
+{
+  "id": 678,
+  "query": "Kamala Harris security clearance revoked by Trump 2025 former officials list executive action",
+  "topic": "Kamala Harris",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Includes a somewhat off-topic result about Harris' Secret Service detail (different action, not security clearance) and a low-value Stack Exchange opinion piece, which could slightly dilute focus, but does not contradict the core facts.",
+  "b_issues": "Lacks the primary source (White House memo) text; relies entirely on secondary news snippets, several of which are truncated headlines/leads without the full list of names or the exact quoted action language.",
+  "reasoning": "Content A directly includes the White House memorandum's own text (the operative language revoking clearances and facility access), which is the authoritative primary source, plus BBC's detailed quote about the scope of the revocation (PDB briefings, IC access) and confirmation from ABC7 naming Harris, Clinton, and Biden officials. This gives a fuller, more accurate picture of the action taken. Content B, while including reputable outlets (BBC, Politico, NY Post, CBS, SF Chronicle), consists mostly of short truncated snippets that confirm Harris was on the list but provide less detail on the full scope and exact list beyond what's in the anchor. Both are factually consistent with the anchor, but A provides more substantive, directly quoted primary-source content enabling a more complete and confident answer."
+}

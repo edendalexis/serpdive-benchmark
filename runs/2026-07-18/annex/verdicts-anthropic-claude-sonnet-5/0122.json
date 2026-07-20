@@ -1,0 +1,11 @@
+{
+  "id": 122,
+  "query": "Sanae Takaichi LDP snap election 2026 results two-thirds majority Cabinet",
+  "topic": "Japan Prime Minister",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "No explicit mention of new Cabinet lineup details, though it covers seat counts (LDP 316, coalition 351/352) consistently and accurately matching the anchor's AP/BBC/Guardian figures.",
+  "b_issues": "Includes a Facebook post as a source (less authoritative, promotional in tone with Trump quote) and a YouTube video containing stale exit-poll figures (274 LDP seats) that contradict the final confirmed 316-seat result, creating potential confusion. Wikipedia entry is accurate but dense/table-heavy and not narrative-friendly.",
+  "reasoning": "Both sets convey the core fact that LDP alone reached a two-thirds supermajority (316 seats) with confirmation from reliable outlets. Content A's sources (CSIS, BBC, Lowy Institute, France24, Japan Times) are uniformly high-quality journalistic/analytical outlets with consistent, corroborating numbers (316 LDP seats, 351-352 coalition seats), closely matching the anchor's AP/BBC/Guardian reporting. Content B, while including a strong Kyodo News source and an accurate Wikipedia entry, undermines reliability by including a Facebook post and a YouTube video with outdated exit-poll numbers that could mislead an LLM into citing preliminary rather than final results. This makes Content A more consistent and trustworthy for accurately answering the question."
+}

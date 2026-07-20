@@ -1,0 +1,11 @@
+{
+  "id": 233,
+  "query": "Larry Sanger Nine Theses Wikipedia reform proposal 2025",
+  "topic": "Wikipedia",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A's snippets are quite fragmentary (e.g., Facebook post cut off mid-sentence, X post is just a teaser) and don't give much substantive detail about what the Nine Theses actually propose beyond thesis 9. It confirms the reform proposal exists and gives a brief mention of some reforms (competing articles, ending indefinite blocking, abolishing IAR) but overall context is thinner.",
+  "b_issues": "Content B also includes the same oddly future-dated (2026) iheart article about Wikipedia blocking Sanger, which is likely a inconsistency/dating error carried over from search index, but this doesn't materially harm the answer since it's consistent across both sets.",
+  "reasoning": "Both sets surface the same core sources (Signpost, LarrySanger.org thesis 9, The Free Press essay, and the iheart blocking article), but Content B provides richer, more substantive excerpts: the Substack 'Ranked' article explains specific theses (e.g., 'Enable competing articles') and Sanger's background/political reception, and the excerpt from thesis 9 gives concrete detail on the proposed 'legislative process' and constitutional convention idea. This gives an LLM more concrete facts to describe the reform proposal's content and context. Content A's parallel results are more fragmentary and less informative for actually explaining what the Nine Theses reform proposal entails."
+}

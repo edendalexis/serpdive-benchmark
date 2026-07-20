@@ -1,0 +1,11 @@
+{
+  "id": 16,
+  "query": "TSMC 2026 full-year revenue growth percentage projection U.S. dollar terms slightly more than 40% source",
+  "topic": "Taiwan Semiconductor Manufacturing Company",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "None significant; all sources consistently confirm the 'slightly more than 40%' figure with corroborating detail from TSMC's own SEC filing.",
+  "b_issues": "Includes some older, now-superseded results (April guidance of 'more than 30%') which could cause confusion about timing, though the top results still clearly state the correct 'slightly more than 40%' figure matching the question.",
+  "reasoning": "Both Content A and Content B contain the exact phrase 'TSMC also expects U.S.-dollar revenue to grow slightly more than 40% in 2026, substantially higher than its earlier forecast of more than 30%' from reliable sources (GuruFocus/Yahoo Finance), directly answering the question. Content A further corroborates this via TSMC's own SEC 6-K filing and other outlets, while Content B corroborates via BigNewsNetwork and Focus Taiwan, though it also mixes in earlier (30%) forecasts from prior quarters that could slightly muddy the timeline. Overall, both provide the correct, sourced answer clearly enough for an LLM to respond accurately."
+}

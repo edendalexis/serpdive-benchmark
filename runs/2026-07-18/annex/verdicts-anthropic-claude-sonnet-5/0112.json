@@ -1,0 +1,11 @@
+{
+  "id": 112,
+  "query": "LVMH Hennessy new product category launch July 2026 wines and spirits division",
+  "topic": "LVMH",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "All of Content A's sources (LVMH excerpt, Luxury Tribune, Spirits Business, Global Drinks Intel) describe the Hennessy RTS launch as happening in June 2026 (June 1 launch date, June 8 coverage), with no mention of a July 2026 launch. This does not match the specific 'July 2026' framing of the question, potentially leading the model to give an inconsistent date.",
+  "b_issues": "The LVMH.com excerpt states the range is 'introduced exclusively in the United States starting July,' which conflicts with other widely corroborated sources (PRNewswire, Just-drinks, Spirits Business, Food Business ME) that report a June 1, 2026 launch date. This creates a minor internal inconsistency about the exact month, though it is sourced from the official LVMH page.",
+  "reasoning": "Content B directly matches the question's specific framing of a 'July 2026' launch via a quote from the official LVMH.com press release ('Introduced exclusively in the United States starting July'), which appears to be the authoritative source the question is based on. It also adds relevant context about the Wines and Spirits division (the Guiony/Arnault/Delapalme leadership restructuring), directly addressing the 'wines and spirits division' part of the query. Content A, while consistent across multiple sources, uniformly states a June 2026 launch and does not address the division leadership angle, making it less aligned with the specific question wording and less complete on the 'division' aspect."
+}

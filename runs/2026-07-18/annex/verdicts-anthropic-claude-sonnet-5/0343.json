@@ -1,0 +1,11 @@
+{
+  "id": 343,
+  "query": "Worldcoin WLD price current value market cap after OpenAI IPO filing",
+  "topic": "Worldcoin",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A gives multiple partially inconsistent price points ($0.41, $0.52, $0.61) without a clear current market cap figure aside from the $1.75B mention buried in one snippet; no direct, precise market cap number is surfaced, making it harder to state a concrete current market cap.",
+  "b_issues": "Content B also contains multiple price snapshots (from different dates/sources) which could cause minor confusion about which is the 'current' price, and includes an older Yahoo Finance historical data table that isn't directly relevant to the IPO event.",
+  "reasoning": "Both sets contain the key qualitative fact (WLD price surged due to OpenAI's IPO filing) and cite similar sources (TradingView, Finbold/cryptonews, CoinMarketCap). However, Content B includes an explicit, precise current market cap figure ($1,372,366,877) alongside price ($0.3875) from CoinGecko, closely matching the anchor's CoinGecko and Kraken data. This gives a clearer, verifiable answer to 'current market cap' than Content A, which only vaguely references a $1.75B cap in one snippet without an explicit reconciled current figure. Thus B better supports a correct, well-grounded answer to the question."
+}

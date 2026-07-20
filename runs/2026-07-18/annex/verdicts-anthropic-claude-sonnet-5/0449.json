@@ -1,0 +1,11 @@
+{
+  "id": 449,
+  "query": "Notre-Dame Paris South Tower restoration completed belfry beams roof 2025 status",
+  "topic": "Notre-Dame de Paris",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A is entirely irrelevant - all results are about a sneaker/clothing boutique called 'Notre' in Chicago, with no connection to Notre-Dame Cathedral in Paris whatsoever. It provides zero useful information to answer the question.",
+  "b_issues": "Minor: some content is slightly redundant across sources, and the exact 'South Tower' terminology isn't explicitly separated from general tower restoration, but the belfry, bells, and roof/spire completion details are accurately covered with reliable sources (RFI, Friends of Notre-Dame, GMA, OSV News).",
+  "reasoning": "Content B provides directly relevant, accurate, and detailed information from reliable sources about the Notre-Dame towers' restoration completion in September 2025, including belfry bell restoration (Emmanuel and Marie bourdons), roof/spire statue reinstallation, and the official reopening by Macron. Content A returned completely unrelated results about a sneaker store in Chicago, providing no usable information for the query about Notre-Dame Cathedral's South Tower restoration."
+}

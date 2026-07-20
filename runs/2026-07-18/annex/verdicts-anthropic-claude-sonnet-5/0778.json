@@ -1,0 +1,11 @@
+{
+  "id": 778,
+  "query": "Israel Hamas ceasefire talks stage 1 hostage detainee exchange latest White House good progress Egypt indirect talks",
+  "topic": "Gaza ceasefire negotiations",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None major; content is consistent with the anchor and provides direct quotes about White House statements (Karoline Leavitt) and progress in Egypt talks, covering the query's specific elements well.",
+  "b_issues": "Lacks direct White House commentary or explicit 'good progress' framing from indirect talks in Egypt; relies more on later-stage developments (prisoner swap, summit) and video sources rather than detailed textual reporting on the stage 1 negotiation progress itself.",
+  "reasoning": "Content A directly addresses the query's specific elements: indirect talks in Egypt, stage 1 hostage/prisoner exchange details, and explicit White House (Karoline Leavitt) commentary on progress, closely matching the anchor's narrative about 'positive' talks and Trump's optimism. Content B focuses more on the aftermath (actual hostage release, phase 2) and includes video-based sources with less detailed textual context about the White House's specific statements on progress during the Egypt talks. While both are factually consistent with the ceasefire's eventual outcome, Content A provides more precise, textual coverage of the exact 'good progress' and 'White House' angle requested in the query."
+}

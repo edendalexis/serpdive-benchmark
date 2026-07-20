@@ -1,0 +1,11 @@
+{
+  "id": 718,
+  "query": "France social media ban under 15 teenagers legislation timeline Macron fast-track 2026 status",
+  "topic": "Emmanuel Macron",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A's most recent article (Le Monde, March 31) leaves the Senate vote outcome unresolved, saying 'questions remain over whether it could be enforced' without confirming the Senate actually voted on the bill. It lacks any article confirming the Senate's approval, which is a key part of the 2026 status timeline (matching the anchor's April 1 Senate vote).",
+  "b_issues": "Minor redundancy in article coverage (multiple near-duplicate Jan 24-25 articles), but no major factual flaws; CGTN piece introduces the crucial April 1 Senate approval detail that aligns with the anchor.",
+  "reasoning": "Both content sets cover Macron's fast-track push (Jan 2026) and the September 2026 target well, but the question also asks about 'status,' meaning the most current state of the legislation. Content B includes the CGTN article dated April 1, 2026, confirming the French Senate approved the draft law — directly matching the anchor's key event (Senate vote reported by Euronews on the same date). Content A's timeline stops at March 31, 2026, before the Senate vote, leaving the legislative status ambiguous and less aligned with the anchor's confirmed outcome. This makes B more complete and accurate for answering the full timeline/status question."
+}

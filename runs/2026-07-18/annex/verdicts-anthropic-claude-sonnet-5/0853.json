@@ -1,0 +1,11 @@
+{
+  "id": 853,
+  "query": "SAG-AFTRA studios streamers 2025 contract pension plan merger ratification vote January 1 2028 four-year agreement",
+  "topic": "SAG-AFTRA",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "The sagaftra.org snippet is truncated ('Read more'), and a later result mentions a 1% contribution increase 'effective July 1, 2028' which could be confused with the Jan 1, 2028 merger target date, though it's likely a distinct detail (contribution timing vs. merger date) rather than an outright contradiction.",
+  "b_issues": "The Yahoo snippet is truncated mid-sentence for the pension merger date, though the ground.news result explicitly states 'January 1, 2028' making the date clear; a mention of 'increases the figure to 35%' is vague/unexplained without context.",
+  "reasoning": "Both content sets deliver the core facts needed to answer the question accurately and consistently: the four-year deal, 91.42% ratification with 19.25% turnout, the 89% board approval, the pension merger (SAG-Producers Pension Plan and AFTRA Retirement Fund) targeted for January 1, 2028, and the 1% studio contribution increase. Sources in both (Variety, Hollywood Reporter, SAG-AFTRA official site, Yahoo, ground.news) are reliable and align well with the anchor. Neither set has clear factual errors that would mislead the answer, and any minor ambiguities (truncated snippets, secondary contribution dates) are not significant enough to differentiate quality. Both equally enable a correct answer."
+}

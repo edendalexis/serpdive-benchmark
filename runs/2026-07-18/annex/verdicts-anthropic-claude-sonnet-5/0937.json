@@ -1,0 +1,11 @@
+{
+  "id": 937,
+  "query": "Klarna partnership Lufthansa Group Qatar Airways Quay Article announcement 2026",
+  "topic": "Klarna",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Contains no explicit information about the Quay/Klarna partnership, so that part of the question is unanswered. Otherwise accurate and consistent with the anchor.",
+  "b_issues": "Also lacks any dedicated Quay/Klarna content, and its coverage of the Qatar Airways/Klarna deal is only a brief mention embedded in a table within another article rather than a dedicated source, giving less detail (e.g., no mention of the 17 European markets explicitly as a separate article).",
+  "reasoning": "Neither result set includes information about the Klarna-Quay partnership, which is a notable gap for both given the question's explicit mention of Quay. However, Content A provides a dedicated, clearly sourced article on the Klarna-Qatar Airways partnership (thepaypers.com) with specific details (17 markets), in addition to solid Lufthansa coverage (Yahoo Finance, Lufthansa newsroom, worldaviationfestival, aerospaceglobalnews). Content B's Qatar Airways information is only a fragment inside a comparison table in an aerospace news article, offering less standalone verification. Both sets are equally strong on Lufthansa details, so Content A's superior Qatar Airways sourcing gives it a slight edge in overall factual completeness and reliability."
+}

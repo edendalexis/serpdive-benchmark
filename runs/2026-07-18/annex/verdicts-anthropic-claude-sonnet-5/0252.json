@@ -1,0 +1,11 @@
+{
+  "id": 252,
+  "query": "CDC RSV vaccine recommendations 2025 adults 75 older 50 74 high risk single dose repeat dosing",
+  "topic": "RSV vaccines",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Includes an older 2024 AHA article about 'RSV vaccine recommendations for older adults 60 and older' which is now outdated context, though it doesn't directly contradict the current 50-74 guidance; overall facts remain consistent with CDC's current single-dose recommendation.",
+  "b_issues": "The vaccineadvisor.com article contains an internal inconsistency, first stating the recommendation extends to age 50 but then referring to 'people 60 and older' as the risk-based threshold, which could mislead the model about the correct age cutoff (50 vs 60). Also relies on a manufacturer promotional page (arexvyhcp.com) as a source, which is less authoritative than CDC pages.",
+  "reasoning": "Both sets include the core CDC page confirming the key facts: single dose for adults 75+ and 50-74 at increased risk, no current repeat/annual dosing. Content A supplements this with additional CDC-sourced details (efficacy data, ACIP vote dates for 50-59 expansion) that are consistent and reinforce the main answer without contradiction. Content B includes a third-party news article that introduces a mild internal contradiction regarding the age threshold (50 vs 60), which could confuse an LLM's understanding of the exact risk-based age cutoff. Content A's sources are more uniformly authoritative and consistent, giving a slight edge for correctness."
+}

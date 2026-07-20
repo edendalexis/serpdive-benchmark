@@ -1,0 +1,11 @@
+{
+  "id": 145,
+  "query": "Red Lobster 2025 Happy Hour Crabfest Endless Shrimp return menu changes tariff seafood vendor renegotiation corporate staff layoffs",
+  "topic": "Red Lobster",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Includes two oddly future-dated (2026) articles (New York Post, Business Insider) about an Endless Shrimp revival that contradict the ABC News piece in the same result set stating the promotion 'will not be returning.' No mention of vendor renegotiation or corporate layoffs.",
+  "b_issues": "Contains three sources (CNBC, Red Lobster press release, Fortune) all dated 2026 claiming Endless Shrimp actually returned in April 2026, directly contradicting the ABC News article included in the same set (and the anchor's implication) that the CEO said it would not return. Entirely omits Happy Hour and Crabfest details, and does not address vendor renegotiation or staff layoffs.",
+  "reasoning": "Both sets share the ABC News article matching the anchor's core facts about tariffs and the CEO's stance. Content A additionally surfaces directly relevant 2025 material (Crabfest menu items, $5 Happy Hour, post-bankruptcy strategy) that aligns with the question's specific terms and the anchor's timeframe. Content B provides a useful tariff detail (90% North America sourcing) but is dominated by three separate sources asserting Endless Shrimp returned in 2026, creating a stronger and more prominent internal contradiction with the anchor's stated fact that it would not return, which is more likely to mislead an answering model. Neither set covers seafood vendor renegotiation or corporate staff layoffs, but A's overall content is more topically aligned and less internally contradictory than B."
+}

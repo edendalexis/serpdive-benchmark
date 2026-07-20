@@ -1,0 +1,11 @@
+{
+  "id": 945,
+  "query": "Tesla Cybercab stored outside Gigafactory Texas hundreds units EPA Certificate of Conformity street legal April 2026 drone footage",
+  "topic": "Cybercab",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "The greendrive-accessories.com and eletric-vehicles.com results are low-value blog content, but the top result (Teslarati) directly confirms the 'hundreds of units stored' claim from the question and matches the anchor almost exactly. The Electrek result adds accurate context on production start and NHTSA cap.",
+  "b_issues": "Several results are off-topic or contradictory: two results (hotcars.com, autos.yahoo.com) are about Cybertruck stockpiles/deliveries, not Cybercab, and could mislead the model. The eletric-vehicles.com result cites only ~25 units and six vehicles, which undercuts the 'hundreds' claim in the question. batmangarage.com is an obscure, non-authoritative source making claims of a full 'driverless fleet in Austin, Dallas and Houston' and '150+ Cybercabs' that are unverified and inconsistent with other reporting. supercarblondie.com is outdated (April 2025) and describes only a single test vehicle, not mass storage.",
+  "reasoning": "Content A's top result directly and accurately confirms the specific factual claim in the question (hundreds of Cybercab units stored outside Giga Texas), closely mirroring the anchor. It also includes relevant, reliable context (Electrek on production start/NHTSA). Content B mixes in irrelevant Cybertruck stories, cites conflicting and much smaller unit counts, and relies on a non-credible source for its most relevant claim, making it less useful and more likely to produce an inaccurate or confused answer."
+}

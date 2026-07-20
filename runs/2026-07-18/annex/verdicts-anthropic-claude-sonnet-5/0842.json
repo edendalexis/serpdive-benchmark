@@ -1,0 +1,11 @@
+{
+  "id": 842,
+  "query": "Taylor Swift Toy Story 5 original song title release date 2026",
+  "topic": "Taylor Swift",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Includes speculative/unverified future chart statistics from a Wikipedia entry (e.g., '15th number-one single', 'most-streamed country song') that are not corroborated elsewhere and could be inaccurate, though they don't contradict the core title/date facts.",
+  "b_issues": "No significant factual issues; all sources are consistent and match the anchor.",
+  "reasoning": "Both sets correctly identify the song title 'I Knew It, I Knew You', the digital release date June 5, 2026, and the soundtrack/film release date June 19, 2026, matching the anchor. Content A adds extraneous, unverifiable chart claims that slightly increase risk of misinformation but don't conflict with the core answer. Content B is more tightly aligned with the anchor's core facts without extra speculative claims. Since the essential facts needed to answer the question are present and accurate in both, they are effectively equally usable."
+}

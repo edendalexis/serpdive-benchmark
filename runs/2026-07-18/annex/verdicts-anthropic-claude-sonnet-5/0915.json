@@ -1,0 +1,11 @@
+{
+  "id": 915,
+  "query": "Super Bowl LX total amount bet wagered record billions prediction markets",
+  "topic": "Super Bowl",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Does not include the final combined prediction market volume ($1.63B) or the exact Kalshi final total ($865.2M) matching the anchor's best data; mostly repeats the $1.76B sportsbook figure and only vaguely references $500M/$630M prediction market volume via Yahoo excerpt.",
+  "b_issues": "Contains an internal contradiction: the Yahoo excerpt reports Polymarket volume at $55 million while the Forbes excerpt (dated before the game) states Polymarket had already drawn $695 million as of Thursday — these figures are inconsistent and could mislead an LLM about actual prediction market totals. Like A, it also lacks the final $1.63B combined figure or Kalshi's $865.2M final total from the anchor.",
+  "reasoning": "Both sets fail to surface the definitive $1.63B combined prediction-market figure or the $865.2M Kalshi total found in the anchor, but Content A's data is internally consistent (all figures align chronologically: $27M last year, $167M pre-game Thursday, $500M by game time, $630M H2 estimate), giving a coherent narrative. Content B includes a direct numerical contradiction between two of its own sources regarding Polymarket volume ($695M vs $55M), which would likely confuse or mislead an LLM trying to state a clear, accurate figure. This makes A more reliable for answering the question despite neither being fully complete."
+}

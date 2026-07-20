@@ -1,0 +1,11 @@
+{
+  "id": 181,
+  "query": "IOC Policy Protection Female Category genetic screening LA28",
+  "topic": "International Olympic Committee",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "No major factual errors; consistent across sources (NYT, Reuters, BBC) about SRY gene screening, effective date LA28, exceptions for CAIS/DSD. Minor omission: doesn't mention the FAQ's nuance about grassroots exemptions.",
+  "b_issues": "Contains an internal contradiction: the FAQ snippet explicitly states 'Transgender athletes are not excluded from IOC events, including the Olympic Games,' which directly conflicts with other results in the same set (Reuters, YIP Institute, LinkedIn) that describe the policy as banning transgender athletes via SRY screening. This contradictory statement could mislead an LLM into giving an inconsistent or incorrect answer about whether transgender athletes are excluded. Also includes an odd 'May 22, 2026' date in the featured snippet that doesn't match the announcement date (March 26, 2026) given elsewhere.",
+  "reasoning": "Both sets contain the core facts (SRY gene screening, one-time test, LA28 onward, not retroactive, CAIS exception). However, Content B's FAQ excerpt introduces a direct contradiction about whether transgender athletes are excluded, which is a critical point of the query and could cause an LLM to give an inaccurate or self-contradictory answer. Content A's sources are consistent with each other and with the anchor's framing, making it more reliable for correctly answering the question."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 158,
+  "query": "Zelenskyy Ukraine Statehood Day 2026 decree award recipients culture science education sports list",
+  "topic": "Volodymyr Zelenskyy",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "A's sources focus heavily on military awards, foreign officials, and general ceremony coverage but lack a concrete list of named recipients specifically tied to culture, science, education, and sports categories (aside from the Kherson governor and a single teacher, which aren't strong matches to the query's categories).",
+  "b_issues": "B's results are similarly fragmentary and don't give a single comprehensive list, and some snippets are truncated (e.g., president.gov.ua entries), but it does include the unn.ua result naming specific culture/sports/science recipients (Serge Lifar, Anatoliy Kryvolap, Vasyl Zinkevych, James Temerty, Lyudmyla Monastyrska, Volodymyr Horbulin) under the 'National Legend of Ukraine' award, which directly addresses the question.",
+  "reasoning": "Both sets share several identical sources (ukrinform, interfax, president.gov.ua), but B uniquely includes the unn.ua article listing named honorees across culture, sports, and science categories, plus a nas.gov.ua source confirming decree No. 604/2026 details. This gives an LLM more concrete, directly relevant names to answer the specific query about recipients by category, whereas A's unique sources (mezha.net, intent.press, nv.ua) mostly cover military/government awards and ceremony attendees rather than the culture/science/education/sports breakdown requested."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 981,
+  "query": "Sundar Pichai Alphabet proposed pay package amount 2026",
+  "topic": "Sundar Pichai",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "None significant; all sources consistently report the $692 million figure with correct breakdown (two $63M PSU tranches, $84M RSUs, $130M Waymo BPU, $45M Wing BPU), matching the anchor.",
+  "b_issues": "The featured snippet claims Pichai's 2026 compensation was approved at '₹63,000 crore (approximately $7.5 billion)', which is factually wrong and directly contradicts the other three results in the same set (TechCrunch, France24, MLQ) that all state $692 million. This internal contradiction and erroneous figure could mislead the LLM into citing the wrong number.",
+  "reasoning": "Both sets contain the accurate $692 million figure with correct component breakdown from reliable sources (TechCrunch, StockTitan/SEC filing, MLQ, France24, Daily Star), consistent with the anchor. However, Content B includes a prominently placed 'featured_snippet' with a fabricated $7.5 billion figure that contradicts its own other results, creating confusion and risk of an incorrect answer. Content A has no such contradiction and uniformly supports the correct $692 million figure with detailed accurate breakdown."
+}

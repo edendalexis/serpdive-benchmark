@@ -1,0 +1,11 @@
+{
+  "id": 177,
+  "query": "NASA Starship V3 lunar docking trial Earth orbit 2027 schedule Artemis",
+  "topic": "SpaceX Starship",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Relies mostly on secondary sources (Payload, Facebook posts, Fandom wiki, Reddit) without any direct NASA.gov confirmation; lacks official NASA context like altitude details, lander loiter capability, or crew names; some results (Facebook posts) are low-authority and thin on detail.",
+  "b_issues": "Also includes a Fandom wiki as a source, which is less authoritative, though the specific facts it contains (altitude, three-launch architecture) align with other NASA-sourced content.",
+  "reasoning": "Content B includes multiple official NASA.gov pages (news release naming crew, the lander test article, and the Artemis III mission page) alongside Payload and the Fandom wiki, giving a more authoritative and detailed picture: 2027 Earth-orbit docking demonstration, Blue Origin Mark 1 and SpaceX Starship V3 as the two landers, three-launch architecture, ~460 km altitude, and links to Artemis IV/2028 landing. Content A relies heavily on non-NASA sources (Payload, Facebook, Fandom, Reddit) and, while it captures the same core facts (Starship V3, Blue Origin Mark 1, 2027 Earth orbit docking), it lacks the official NASA corroboration and additional schedule/altitude context that B provides. Both sets are consistent with the anchor's facts, but B offers stronger sourcing and more comprehensive detail for answering the question accurately."
+}

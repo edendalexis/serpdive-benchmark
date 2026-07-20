@@ -1,0 +1,11 @@
+{
+  "id": 265,
+  "query": "2026 NBA Finals schedule adjustment FIFA World Cup no Sunday games first time since 1970",
+  "topic": "NBA Finals",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "None significant; all snippets consistently corroborate the core facts (Finals start Wed June 3, run to June 19, no Sunday games for first time since 1970, schedule shifted to avoid the US-Paraguay World Cup match on June 12), matching the anchor closely.",
+  "b_issues": "Includes tangential/speculative content (e.g., NBA.com snippet 'How the Knicks won 2026 championship' and a Wikipedia excerpt describing a Knicks-Spurs Finals outcome, MVP details, etc.) that is unrelated to the schedule-adjustment question and potentially fabricated or confusing, since the schedule announcement predates any Finals results. This could mislead an LLM into conflating unrelated 'result' claims with the schedule facts.",
+  "reasoning": "Both sets contain the key fact—2026 NBA Finals schedule changed to avoid Sunday games (first time since 1970) due to World Cup conflicts—clearly and consistently. However, Content A's sources stay tightly focused on the schedule story, providing consistent, verifiable details (dates, game shifts, reasoning) without extraneous or speculative claims. Content B, while also containing the core fact, introduces unrelated and unverified 'future result' content (Knicks winning the 2026 title, MVP details) that isn't relevant to the schedule question and could confuse or mislead the answering model. This makes A the more reliable and focused source set."
+}

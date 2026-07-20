@@ -1,0 +1,11 @@
+{
+  "id": 445,
+  "query": "Notre-Dame de Paris Emmanuel Marie bells July 2025 first flight test official press release",
+  "topic": "Notre-Dame de Paris",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Most results (ABC12, NBC, soundlandscapes, YouTube) refer to the December 2024/November 2024 bell tests and Olympic bell installation, not the July 17, 2025 Emmanuel/Marie flight test. Only one result (friendsofnotredamedeparis.org) actually addresses the query correctly; the rest could lead the model to conflate or misdate the event.",
+  "b_issues": "Contains some irrelevant/unrelated results (Bastille Day flyover, Assumption program, Grand Re-Opening teaser) that add noise, but they do not contradict the correct facts. The zenit.org result is tangential but not inaccurate.",
+  "reasoning": "Both sets include the same accurate friendsofnotredamedeparis.org excerpt confirming the July 17, 2025 first flight of Emmanuel and Marie. However, Content A's other results overwhelmingly describe a different, earlier event (December 2024 bell test before reopening), risking confusion about the date and nature of the event in question. Content B's extraneous results are simply irrelevant/off-topic rather than misleading about the specific event, making it easier for a model to isolate the correct, relevant fact without contamination from a similar but distinct prior event."
+}

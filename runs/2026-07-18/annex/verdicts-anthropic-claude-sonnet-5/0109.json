@@ -1,0 +1,11 @@
+{
+  "id": 109,
+  "query": "Boeing Riyadh Air 787 Dreamliner delivery second quarter 2026 order book status remaining aircraft schedule",
+  "topic": "Boeing",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Relies heavily on lower-reliability sources (Facebook, Instagram, YouTube) for order-book and schedule details rather than established news outlets; lacks explicit quantification of how exercising options would change the firm order total (e.g., 64-69 aircraft), and does not mention the broader 787 production-rate context relevant to 'remaining aircraft schedule'.",
+  "b_issues": "Does not include the specific day-by-day delivery cadence figures (e.g., 3 delivered, 3 more by month-end, 2 in July) that Content A's Instagram source provides, though this info is not essential since AeroTime's 'eight aircraft by end of July' figure conveys the same schedule outcome; also omits Boeing's official Q2 2026 total delivery report (25 787s delivered, 40 YTD) though this is a minor company-wide detail not central to the Riyadh Air-specific question.",
+  "reasoning": "Both sets converge on the same core facts (39 firm orders, up to 72 total with options, first two 787-9s delivered June 4-5, 2026, order-book review at Farnborough). However, Content B sources this information from more reliable outlets (Reuters, AeroTime) and adds concrete order-book quantification (firm commitment rising to 64-69 aircraft) and forward schedule specifics (8 aircraft by end of July, 22 destinations by March 2027), which more directly and reliably address the 'order book status' and 'remaining aircraft schedule' parts of the question. Content A's schedule details come from a less authoritative Instagram post, and its order-book figures are less precise. Overall, Content B provides a more accurate, better-sourced answer to the full question."
+}

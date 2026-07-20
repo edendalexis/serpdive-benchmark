@@ -1,0 +1,11 @@
+{
+  "id": 277,
+  "query": "El Salvador gang crackdown total detentions count latest figure 2025",
+  "topic": "Nayib Bukele",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Contains multiple slightly differing figures (92,480 as of 24 June 2026 from Wikipedia, 91,628 as of 25 March 2026 from El País, and an outdated 65,795 from 2023) which could confuse an LLM about which is 'latest,' and dates are inconsistent/futuristic, but the numbers are in the right ballpark and directionally consistent with the anchor's 90,844/91,954 figures.",
+  "b_issues": "None of the results provide any concrete total detention count for the gang crackdown; the content focuses on human rights abuses, mass trials, and general policy commentary without ever stating a specific arrest/detention figure, making it impossible to directly answer the numeric question.",
+  "reasoning": "The question asks for the latest total detentions figure. Content A provides several concrete, roughly consistent numeric figures (91,628 and 92,480) that closely match the anchor's reported 90,844–91,954 range, allowing an LLM to give a reasonably accurate numeric answer. Content B contains no numeric detention total at all, only qualitative human rights and policy context, so it fails to enable a correct answer to the specific quantitative question."
+}

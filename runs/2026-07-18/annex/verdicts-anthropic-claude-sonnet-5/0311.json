@@ -1,0 +1,11 @@
+{
+  "id": 311,
+  "query": "Ursula von der Leyen July 2025 EU US trade agreement 15% tariffs European exports details official",
+  "topic": "Ursula von der Leyen",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "The Spectrum Local News result (dated 2026/05/20) contains confusing and likely inaccurate details, referencing a 'July 4 deadline' and describing the deal as being 'approved' in 2026 in a way that conflicts with the actual July 27, 2025 agreement date, potentially introducing contradictory or misleading timeline information. Other sources (DW video, Euronews, official factsheet) are accurate but the mix includes this problematic outlier.",
+  "b_issues": "The IW Köln institute article references future dates (September 2025–February 2026, March 2026 data) that, while plausibly legitimate analysis, could seem confusing without clear context, though it doesn't directly contradict the core 15% tariff facts.",
+  "reasoning": "Both content sets correctly convey the core facts: a 15% all-inclusive tariff ceiling on most EU exports (including cars, semiconductors, pharmaceuticals), reached by von der Leyen and Trump on 27 July 2025, with EU commitments to $750B energy purchases and $600B in US investments. Content B draws from clearly official and reputable sources (European Commission's own trade deal page, White House fact sheet, LinkedIn repost of the official EC statement, and a legal analysis firm's notes referencing the official Joint Statement), and adds accurate nuance about sector-specific carve-outs (cork, aircraft parts, generic pharmaceuticals) that align with the anchor's official documentation. Content A includes a Spectrum Local News article with a confusing and seemingly inaccurate reference to a 'July 4 deadline' and 2026 approval timeline that could mislead an LLM about the actual sequence and date of the agreement. This makes Content B marginally more reliable and internally consistent for answering the question accurately."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 405,
+  "query": "EU AI Act AI Omnibus machinery scope exemption sectoral regulations overlap agreement details",
+  "topic": "EU AI Act",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "The IAPP snippet in A only vaguely mentions overlap with sectoral laws (medical devices, cars, toys) via implementing acts and does not clearly state the machinery exemption mechanism. The top result (foxxelabs.ie) is a low-quality, seemingly unreliable source with vague, filler-like language ('critical but underreported clarification') rather than concrete legal detail. Other results (CMS, LinkedIn) add only brief corroboration without much added detail on the exemption mechanism or overlap with other sectoral regs.",
+  "b_issues": "Minor: some snippets (LinkedIn, globalpolicywatch) are truncated and less detailed, but they don't contradict other sources.",
+  "reasoning": "B's IAPP excerpt explicitly states the key fact: machinery is exempted from direct AI Act applicability where overlap exists, with AI-specific health/safety handled through the Machinery Regulation—directly answering the question. This is corroborated by Gibson Dunn ('AI systems embedded in products covered by the Machinery Regulation will be largely exempted from the AI Act obligations') and Slaughter and May ('exempts the Machinery Regulation from direct applicability of the Act... limits application where sectoral law has similar AI-specific requirements'), giving a consistent, detailed, multi-source confirmation from reputable outlets (IAPP, Gibson Dunn, Slaughter & May, EU official page). Content A's equivalent IAPP excerpt is less specific about the machinery mechanism, and its top-ranked result is from an unreliable, vague source. Thus B provides more accurate, detailed, and well-corroborated facts to answer the question correctly."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 344,
+  "query": "Worldcoin World ID 3.0 launch April 2026 account-based identity key recovery official announcement",
+  "topic": "Worldcoin",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Does not explicitly detail the account-based architecture, key rotation, or recovery mechanics in the snippet text (only implies via a secondary page mentioning encrypted backups), but the sources it returns are the correct April 2026 announcement pages and directly corroborate the event date, partnerships, and general theme matching the anchor.",
+  "b_issues": "All results describe World ID 3.0 from October 2024 (credentials, deep-fake prevention, NFC passports) — an entirely different, earlier release. None of the results mention the April 2026 event, the account-based architecture, key rotation, or recovery features that the question is actually asking about, making the set factually irrelevant to the query's real target despite the '3.0' label match.",
+  "reasoning": "The anchor establishes that the April 2026 announcement is about a new account-based World ID architecture with key rotation/recovery (actually a 4.0-level upgrade per the GitHub spec, despite the confusingly worded query). Content A returns the actual April 2026 blog announcement URL, plus corroborating 2026-dated sources (Tinder/Zoom/Docusign partnerships, WLD price analysis referencing the April 2026 update, and the world.org/world-id page mentioning account security/backups), giving an LLM the material needed to correctly describe the event. Content B exclusively surfaces October 2024 sources about the actual World ID 3.0 launch (credentials, deep fake prevention), which contains no information about the account-based identity, key recovery, or the April 2026 timeframe the question is asking about. Content A is therefore substantially more useful and accurate for answering the question as intended."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 695,
+  "query": "NATO 2026 fuel infrastructure investment €27 billion pipelines eastern flank announcement details",
+  "topic": "NATO",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Relies on secondary aggregators (ground.news, Facebook video, Economic Times, MarketScreener) with only short snippets; lacks any primary/official NATO source; some entries (Facebook video) are of dubious reliability and add no verifiable detail; provides little specific breakdown of what the €27B covers or country-specific plans.",
+  "b_issues": "Minor: some figures are given in USD equivalents (e.g. $30B over 20 years) alongside €27B, which could seem inconsistent if not read carefully, though it's explained as different sourcing/estimates.",
+  "reasoning": "Content B includes the official NATO Ankara Summit Declaration and Summit Overview pages, which directly and authoritatively confirm the €27 billion figure, its purpose (modernizing fuel storage/distribution infrastructure and new pipelines to the eastern flank), and the context (July 2026 Ankara Summit). It also adds concrete specifics from Defence24 (Poland's PERN pipeline extension, ~300km, ~20 billion zloty cost) and cross-references from Pipeline Technology Journal, NATO Watch briefing paper, and Athena Lab analysis, giving a well-rounded, source-diverse, and verifiable answer. Content A's sources are largely secondary aggregators and social media reposts without official confirmation, making it less reliable and less detailed for answering the question accurately."
+}

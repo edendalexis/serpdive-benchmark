@@ -1,0 +1,11 @@
+{
+  "id": 302,
+  "query": "NASA Artemis program February March 2026 restructure Artemis IV first lunar landing 2028 Artemis III new 2027 low Earth orbit demonstration Gateway sidelined official announcement",
+  "topic": "NASA Artemis program",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor: none major; content is consistent and accurate, matches anchor. CSIS snippet correctly notes Gateway pause and new lunar base plan.",
+  "b_issues": "No source in Content B mentions Gateway being sidelined or the new lunar base plan, leaving a key part of the query (Gateway sidelined) unanswered. Otherwise facts about Artemis III/IV timeline are accurate.",
+  "reasoning": "Both sets correctly establish the core restructuring facts (Artemis III redefined as a 2027 LEO demo mission, Artemis IV as the first lunar landing in 2028, SLS/Orion configuration unchanged). However, the question explicitly asks about Gateway being 'sidelined,' and only Content A (via the CSIS excerpt) addresses this, stating NASA paused Gateway and is redirecting funds to a lunar base. Content B contains no mention of Gateway at all, leaving that part of the query unanswerable from its results. Thus Content A provides a more complete and accurate basis for answering the full question."
+}

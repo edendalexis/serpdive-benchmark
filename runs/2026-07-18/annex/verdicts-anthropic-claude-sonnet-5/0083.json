@@ -1,0 +1,11 @@
+{
+  "id": 83,
+  "query": "Blue Origin 10% workforce reduction plan announced by CEO Dave Limp 2026",
+  "topic": "Blue Origin",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Contains a Facebook/CNN reposting and a LinkedIn pulse article which are lower-quality secondary sources; the specific employee counts across its results are inconsistent (\"more than 1,000\" vs \"about 1,000\") and never state the more precise 1,400 figure that matches the anchor.",
+  "b_issues": "Includes one irrelevant result (Payload Space article about a later rocket explosion, unrelated to the layoffs), but this doesn't contradict or confuse the core facts.",
+  "reasoning": "Both sets correctly identify the Feb 13, 2025 announcement by CEO Dave Limp of a ~10% workforce reduction, citing bureaucracy and refocusing on manufacturing/launch cadence, from reliable sources (GeekWire, SpaceNews, The Hill). However, Content B's GeekWire excerpt explicitly states the layoffs affect 'roughly 1,400 of the company's nearly 14,000 employees,' matching the anchor's precise figures exactly, whereas Content A's sources only vaguely reference '1,000 employees' figures and include weaker secondary sources (Facebook repost, LinkedIn pulse). This makes B slightly more accurate and aligned with the anchor reference."
+}

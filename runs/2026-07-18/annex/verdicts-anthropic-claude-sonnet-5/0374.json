@@ -1,0 +1,11 @@
+{
+  "id": 374,
+  "query": "OpenAI Sora data deletion policy user activity after shutdown",
+  "topic": "Sora OpenAI",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "No major factual flaws; the core deletion-policy quote from OpenAI Help Center is accurate and prominent, but other results (CNBC, TechInformed, thehill) add largely background context, not directly about the deletion policy for user activity, which is minor filler.",
+  "b_issues": "No factual flaws in the official Help Center excerpt (identical accurate quote to A's), but several other results conflate a different topic — user-initiated account deletion wiping ChatGPT/API access (from Sora 2 TOS, Oct 2025) — with the company's shutdown-driven data deletion policy. This could risk confusing an LLM into merging two distinct policies (voluntary account deletion vs. platform discontinuation deletion).",
+  "reasoning": "Both Content A and Content B include the same authoritative OpenAI Help Center excerpt stating that after Sora is discontinued and any final export window passes, OpenAI will permanently delete all data associated with a user's use of Sora — the core fact needed to answer the question accurately. A presents this fact first and cleanly, with supplementary but tangential news coverage. B presents the same fact (with slightly more detail, including export steps) but buried as the fourth result, surrounded by other results discussing a related but distinct issue (voluntary account deletion cascading to ChatGPT/API loss), which could introduce some risk of conflating two different mechanisms. Since the essential correct fact is present and accurate in both, and the extra content in B is misleading only in a minor way (different topic, not directly contradictory), the two sets are roughly equally capable of supporting a correct answer."
+}

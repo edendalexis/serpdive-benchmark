@@ -1,0 +1,11 @@
+{
+  "id": 739,
+  "query": "Spain block US sanctions ICC compliance EU response Israel Hamas conflict",
+  "topic": "Israel-Hamas conflict",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Snippets are extremely thin (mostly just titles or one-line summaries), lacking key details like the specific executive order timing, names of sanctioned individuals (Netanyahu, Gallant), number of ICC officials sanctioned, or any EU member state response beyond Spain. This makes it harder to construct a complete, accurate answer about the EU response.",
+  "b_issues": "Times of Israel snippet is irrelevant/unhelpful ('The war with Iran has been draining for all of us in Israel'), and content is redundant in places, but this does not introduce factual errors.",
+  "reasoning": "Both sets draw from the same core reliable sources (Reuters, Times of Israel, CommonDreams, Middle East Eye, Middle East Monitor) and neither contradicts the anchor. However, Content B's snippets contain substantially more usable factual detail: the CommonDreams excerpt gives the direct Sanchez quote and clarifies the timeline (Trump's February executive order, ICC warrants against Netanyahu and Gallant), the Middle East Eye excerpt explains the scope of the blocking statute and 11 sanctioned officials, and the Middle East Monitor excerpt adds that Slovenia joined Spain's call — directly relevant to the 'EU response' part of the question. Content A's results are mostly bare titles with minimal content, making it less useful despite covering similar sources."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 517,
+  "query": "Argentina Federal Police Departamento Federal de Investigaciones staffing budget structure June 2025 decree",
+  "topic": "Javier Milei",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Does not include the full decree text with granular staffing tables/budget line items, but provides accurate, on-topic details (decree number, DFI creation, financing via reduction in new non-commissioned officer intake, ministry oversight).",
+  "b_issues": "Mostly irrelevant results (US DOJ FY2026 budget, BTI country report on unrelated 2025 national budget decree 1131/2024, HRW human rights report) that could mislead the model into conflating unrelated budget figures with the PFA/DFI decree. Only one snippet (InsightCrime) is relevant and it lacks staffing/budget specifics.",
+  "reasoning": "Content A's results are directly on-topic: they identify Decree 383/2025, the creation of DFI, and even mention a staffing/budget mechanism (progressive reduction in new non-commissioned officer intake financing the reform) from the Buenos Aires Times article. Content B is dominated by unrelated documents (US DOJ budget summary, BTI Argentina macro report, HRW report) that do not address PFA/DFI staffing or budget structure, and could cause the model to incorrectly cite irrelevant budget figures (e.g., the ARS 96 billion national budget) as if related to the police reform. Thus Content A better enables a correct answer."
+}

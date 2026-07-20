@@ -1,0 +1,11 @@
+{
+  "id": 927,
+  "query": "Wicked For Good opening weekend domestic international box office ranking 2025",
+  "topic": "Wicked",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "The Rotten Tomatoes excerpt mislabels global (domestic+international) grosses for comparison films (Lilo & Stitch, Jurassic World Rebirth, Minecraft) as 'international launch' figures, creating confusing/inaccurate ranking language, and its numbers ($307.2M, $322.6M, $313.7M) diverge slightly from other reputable sources. The Numbers entry lists cumulative total box office figures, not opening-weekend figures, which could be mistaken for opening numbers if not read carefully.",
+  "b_issues": "No major factual errors; figures and rankings (domestic 2nd of 2025 behind Minecraft, global/international 4th-best debut behind Lilo & Stitch, Jurassic World Rebirth, Minecraft) are consistent across NBCUniversal, Variety, and Forbes and align with the anchor's IGN/Deadline data.",
+  "reasoning": "Both sets provide the core opening-weekend figures ($150M/$147M domestic, $76M international, $223-226M global) and note 2025 rankings. However, Content B's ranking claims are internally consistent and match the anchor reference (IGN's fourth-biggest global debut behind Lilo & Stitch $341M, Jurassic World Rebirth $322M, Minecraft $313M, ahead of Superman $220M), while Content A's Rotten Tomatoes excerpt conflates global grosses with 'international' figures and uses slightly different numbers, introducing a factual inconsistency that could mislead an LLM answering the ranking question. This makes Content B more reliable for accurately answering the query."
+}

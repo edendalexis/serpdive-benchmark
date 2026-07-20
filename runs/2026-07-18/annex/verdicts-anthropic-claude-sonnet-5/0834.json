@@ -1,0 +1,11 @@
+{
+  "id": 834,
+  "query": "Julian Assange presidential pardon status Stella Assange latest update 2025",
+  "topic": "Julian Assange",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "The Amnesty International result mentions '6 months on' from June 2024, which would put it around Dec 2024/Jan 2025, providing some closer-to-2025 context, but no explicit 2025 pardon status update is given. BBC result content is oddly mixed with unrelated World Cup content, reducing reliability of that snippet.",
+  "b_issues": "No results provide any update beyond June 2024. The NBC News article is about a 2017-era pardon offer unrelated to the 2024 plea deal or 2025 status, potentially misleading if taken as recent. No 2025-dated content at all.",
+  "reasoning": "Neither set contains a definitive 2025 pardon status update, but Content A includes the Amnesty International article referencing '6 months on' from the June 2024 release, which pushes the timeline closer to late 2024/early 2025 and confirms Assange remains a convicted felon awaiting a pardon, giving slightly more temporal relevance. Content B's additional unique result (NBC News) is about an older 2017 pardon offer tied to Russia allegations, which is irrelevant and could confuse the timeline. Both sets otherwise rely on the same June 2024 articles establishing the pardon-seeking intent, but A has a marginally more useful additional source for 2025 context."
+}

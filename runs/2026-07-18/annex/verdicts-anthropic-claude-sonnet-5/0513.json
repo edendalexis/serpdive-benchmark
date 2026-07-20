@@ -1,0 +1,11 @@
+{
+  "id": 513,
+  "query": "Argentina Decree 383/2025 Federal Police restructuring Departamento Federal de Investigaciones June 2025",
+  "topic": "Javier Milei",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A returned completely irrelevant generic results about Argentina as a country (geography, demographics, tourism) with no mention of Decree 383/2025, the Federal Police restructuring, or the DFI. It does not enable answering the question at all.",
+  "b_issues": "Content B is largely accurate and relevant, though it lacks some granular detail (e.g., exact date signed vs published, full statutory citations) that would require the primary decree text; minor redundancy across sources but no contradictions.",
+  "reasoning": "Content B directly addresses the query with multiple corroborating, reliable news sources (Buenos Aires Times, MercoPress, InSight Crime, Rio Times) that explain Decree 383/2025's purpose, the creation of the DFI, its FBI-inspired investigative focus, and the repeal of the 1958 decree-law. Content A contains no relevant information whatsoever, only generic facts about Argentina as a country, making it useless for answering the specific question about the decree and police restructuring."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 957,
+  "query": "TikTok Shop sellers creators joined ecosystem total counts US based percentage after official launch",
+  "topic": "TikTok Shop",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A's RedStag excerpt matches the anchor almost verbatim (4,450→475,000 shops, $33.2B GMV, $9B in 16 months, 200,000 UK sellers), giving accurate, launch-specific growth figures. It lacks explicit creator-specific percentages beyond the SEJ launch requirements snippet.",
+  "b_issues": "Content B's RedStag excerpt, despite citing the same URL as the anchor, presents different and partly unverifiable figures (15.3M influencers, 851,000 actively selling, 100,000 affiliate creators) that are not corroborated by the anchor and omit the key launch-growth trajectory (4,450→475,000 shops) that the anchor emphasizes. This inconsistency across sources claiming to be the same page raises reliability concerns, and it does not directly address 'after official launch' growth like Content A does.",
+  "reasoning": "The anchor's core narrative is the launch-to-2025 growth trajectory (4,450 shops → 475,000 shops, $9B in 16 months) plus global/US/UK seller counts. Content A reproduces this almost exactly via the same RedStag source, plus adds a dedicated launch-context article (SEJ) describing the official U.S. launch. Content B's version of the same RedStag URL diverges significantly, introducing different creator/seller statistics not found in the anchor, which is suspicious and reduces confidence in accuracy. While Content B offers more creator-specific numbers (affiliate creators, influencer counts), these aren't verified against the anchor and could be fabricated, whereas Content A's numbers are anchor-verified and directly relevant to the 'after official launch' framing of the question."
+}

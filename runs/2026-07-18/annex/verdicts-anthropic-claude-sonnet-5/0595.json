@@ -1,0 +1,11 @@
+{
+  "id": 595,
+  "query": "COP30 blue zone indigenous protesters forced entry clashes security November 2025 Reuters Belém summit",
+  "topic": "COP climate summit",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A's Reuters follow-up snippets (Nov 12 and Nov 14 articles) are truncated and don't give much added detail beyond the initial venue-breach story; the 'blue zone' aspect specifically named in the query is not explicitly mentioned in any of A's snippets.",
+  "b_issues": "No significant factual flaws; content is consistent with the anchor and adds detail (blue zone barricade with tables/chairs, injuries, Guardian/Le Monde/BBC corroboration), though it lacks the Reuters follow-up on the Munduruku Nov 14 blockade that A includes.",
+  "reasoning": "Both sets center on the same core Reuters story and are factually consistent with the anchor. However, Content B explicitly surfaces the 'blue zone' terminology from the query (via UN News and Le Monde), which A's snippets omit. B also draws from a broader, still-reliable set of outlets (Guardian, BBC, Le Monde, UN News, Reuters video) providing richer corroborating detail—injury counts, barricading tactics, doors being kicked in—giving a more complete and directly query-aligned picture. A's additional Reuters links are relevant but the snippets are too truncated to add much substantive detail beyond the main clash story."
+}

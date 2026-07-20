@@ -1,0 +1,11 @@
+{
+  "id": 146,
+  "query": "Red Lobster international franchise deals branded retail products Cheddar Bay Biscuit mixes 2025",
+  "topic": "Red Lobster",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None of the results actually address 'international franchise deals' — all focus on domestic retail availability of Cheddar Bay Biscuit Mix amid Red Lobster's 2024 bankruptcy. No franchise-specific or international-market information is present.",
+  "b_issues": "Results are almost entirely retail storefront listings (Kroger, Amazon, Walmart, Sam's Club) with prices and pack sizes; none address franchise deals, international expansion, or bankruptcy context. Provides even less substantive information relevant to the question than A.",
+  "reasoning": "Neither source set contains information about international franchise deals, which is the core of the question. However, Content A at least provides relevant, accurate context about the branded retail product line (Cheddar Bay Biscuit Mix) surviving the 2024 Chapter 11 bankruptcy, sourced from reputable outlets (TIME, USA Today, Food Business News) with direct company quotes, which is useful background for a partial answer. Content B's results are purely e-commerce listings with no analytical or corporate context, offering no help toward franchise or business strategy aspects of the question. Thus A is more useful despite neither fully satisfying the query."
+}

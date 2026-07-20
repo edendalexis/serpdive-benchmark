@@ -1,0 +1,11 @@
+{
+  "id": 230,
+  "query": "Wikimedia Foundation Board Trustees Wikinews closure May 2026",
+  "topic": "Wikipedia",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Includes an unrelated WIPO article that adds no value to the question; otherwise consistent with the core facts (approved closure, effective 2026-05-04, announced March 30).",
+  "b_issues": "Contains a minor internal inconsistency: the Wikipedia 'Wikinews' entry states 36 editions were made read-only, while other results in the same set state 31 language editions/700 editors; otherwise core facts (approval, May 4 2026 effective date, March 30 announcement) are consistent.",
+  "reasoning": "Both sets independently confirm the essential facts needed to answer the question: the WMF Board of Trustees approved the closure of Wikinews on March 30, 2026, with all editions transitioning to read-only mode on May 4, 2026, involving 31 language editions and ~700 active editors. Content A is clean but includes one irrelevant result (WIPO) that doesn't detract from the core answer. Content B provides a fuller timeline (public consultation, SPTF recommendation) but has a minor numeric inconsistency (36 vs 31 editions) across its own sources. Neither issue is severe enough to prevent a correct answer, making the two sets roughly equivalent in their ability to answer the question accurately."
+}

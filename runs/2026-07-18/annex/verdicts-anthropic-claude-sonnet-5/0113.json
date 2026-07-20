@@ -1,0 +1,11 @@
+{
+  "id": 113,
+  "query": "LVMH \"Sciences & Creation\" Chair partner academic institution announced July 2026",
+  "topic": "LVMH",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "None significant; includes official LVMH press release and WWD article confirming Institut Français de la Mode (IFM) as the partner institution, consistent across sources.",
+  "b_issues": "Only includes the ouispeakfashion.com source confirming IFM partnership; lacks corroboration from official LVMH or major news outlets, though the fact stated is accurate.",
+  "reasoning": "Both contents correctly identify Institut Français de la Mode (IFM) as the academic partner for LVMH's 'Sciences & Creation' Chair announced July 13, 2026. However, Content A provides stronger sourcing, including the official LVMH press release and a WWD exclusive article with additional detail (quotes from Sidney Toledano), giving more reliable and verifiable confirmation. Content B relies solely on one secondary source (ouispeakfashion.com) without corroboration from primary or major outlets, making it slightly less robust despite being factually accurate."
+}

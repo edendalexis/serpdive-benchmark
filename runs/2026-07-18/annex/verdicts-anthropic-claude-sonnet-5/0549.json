@@ -1,0 +1,11 @@
+{
+  "id": 549,
+  "query": "digital euro European Parliament vote first reading result status cash replacement confirmation 2025",
+  "topic": "European Central Bank",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A only reports the ECON committee vote (43-14-1) and does not include the actual plenary first-reading vote results (416-169-22) shown in the anchor. Its only cash-replacement reference is a truncated snippet ('never replace it... Read more') from a paywalled article, and it lacks any link to the howtheyvote.eu record of the real plenary vote, leaving the 'first reading result' portion of the question largely unanswered.",
+  "b_issues": "Content B also fails to surface the actual plenary first-reading vote numbers (416-169-22); it only reports the ECON committee vote (43-14-1) and treats that as the key milestone, and the howtheyvote.eu link included has no visible vote data in the snippet, so the 'result' part of the question is still incomplete.",
+  "reasoning": "Both sets are dominated by June 2026 committee-vote coverage and miss the actual July 2026 plenary first-reading result (416-169-22) that the anchor reveals as the true answer. However, Content B provides more explicit and repeated confirmation of the cash-replacement question ('will complement cash, never replace it' from the EP press release, and 'It wouldn't replace anything' from RFI), plus additional context on timeline (pilot 2027, issuance 2029) and includes a direct link to the howtheyvote.eu vote record that corresponds to the correct legislative vote. Content A's cash-replacement statement is truncated and less clear, and it omits any link to the actual vote page. Thus B is marginally better positioned to help an LLM answer the question, even though neither fully captures the final plenary vote tally."
+}

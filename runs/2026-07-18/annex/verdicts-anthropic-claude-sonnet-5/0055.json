@@ -1,0 +1,11 @@
+{
+  "id": 55,
+  "query": "Zelda Tears of the Kingdom Super Mario Odyssey Nintendo Switch 2 launch free update enhancements patch details",
+  "topic": "Nintendo Switch 2",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "A's Nintendo US snippet blends unattributed details from multiple different games (Mario Kart, Splatoon, etc.) without clarifying which apply to Zelda TOTK or Mario Odyssey, making it hard to extract accurate specifics for either title. It also raises a potentially confusing point (TOTK 'requiring purchase') without distinguishing the free update from the paid Switch 2 Edition upgrade pack. None of the sources give concrete TOTK free-update patch notes (e.g., amiibo support, frame rate) or clear Mario Odyssey specifics beyond generic visual improvement mentions.",
+  "b_issues": "The famiboards forum thread is low-quality/speculative and not authoritative, though it doesn't materially harm the answer since other sources compensate.",
+  "reasoning": "Content B includes an IGN article explicitly covering patch notes for Zelda and Mario titles together, listing concrete TOTK free-update details (amiibo support for Sidon, Tulin, Yunobo, Riju; frame rate improvements) and Mario Odyssey details (HDR, optimized frame rate, GameShare via Nintendo UK's official page). It also includes theshortcut.com and ResetEra/Digital Foundry sources confirming Mario Odyssey's resolution/frame-rate boosts as free updates, clearly distinguishing them from paid Switch 2 Editions. Content A's Nintendo source mixes unattributed details from unrelated games, and its IGN snippet is more about paid upgrade packs than free update specifics, making it less precise and more prone to misattribution for the exact games asked about (TOTK and Mario Odyssey)."
+}

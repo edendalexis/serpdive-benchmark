@@ -1,0 +1,11 @@
+{
+  "id": 540,
+  "query": "European Central Bank ECB 2026 interest rate decision deposit facility rate June",
+  "topic": "European Central Bank",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; official ECB press release and Banco de España source give exact deposit facility (2.25%), MRO (2.40%), and marginal lending (2.65%) rates effective 17 June 2026, consistent with the anchor and Euronews confirmation.",
+  "b_issues": "Lacks official ECB primary source; only mentions deposit facility rate (2.25%) without the full set of three key rates or effective date. Includes a contradictory/outdated result (equalsmoney) claiming the 'next' decision is 30 April 2026, which could mislead an agent about the June decision. Uses secondary/tertiary sources (TradingEconomics, Polymarket, FRED) rather than the ECB itself.",
+  "reasoning": "Content A directly cites the ECB's official press release and a national central bank source with precise, consistent, and complete rate figures (deposit, MRO, marginal lending) and the effective date, matching the anchor's ECB primary sources. Content B provides only the deposit rate reliably (via Euronews and TradingEconomics) but omits the other two key rates, and includes a stale/inconsistent page suggesting the decision date was April, which is confusing and inaccurate for a June 2026 query. Thus Content A better and more accurately supports answering the question."
+}

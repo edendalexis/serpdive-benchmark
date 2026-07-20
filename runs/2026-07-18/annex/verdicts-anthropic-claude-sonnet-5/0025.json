@@ -1,0 +1,11 @@
+{
+  "id": 25,
+  "query": "SpaceXAI May 2026 layoff employee count Grok team restructuring",
+  "topic": "xAI",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "None of the results actually address the specific SpaceXAI/xAI merger staff exodus, Grok team restructuring, or the 50+ researcher departure figure described in the anchor. The Business Insider result is about a 2025 data annotator layoff (500 workers), unrelated to the May 2026 SpaceXAI exodus. Other results are generic tech layoff roundups (Cloudflare, Intuit, Cisco, Snap) with no mention of xAI/SpaceXAI or Grok team departures.",
+  "b_issues": "Same core problem as A: no result mentions SpaceXAI, xAI, Grok, or the 50+ researcher exodus from the anchor story. Results cover unrelated layoffs (Meta, Dell, Oracle, Salesforce, Amazon, Wix, ClickUp, Epic Games, Block) and the same outdated Business Insider xAI data annotator layoff from 2025, which is irrelevant to the May 2026 merger-related departures.",
+  "reasoning": "Both Content A and Content B completely fail to surface the actual relevant story (the TechCrunch/The Information report on 50+ researchers leaving SpaceXAI since February 2026, departures to Meta and Thinking Machines Lab, pre-training team shrinking) that is present in the anchor. Both instead return generic tech layoff news unrelated to xAI/SpaceXAI's Grok team restructuring, with only a stale, mismatched xAI layoff story from 2025 in common. Neither dataset would allow an LLM to correctly answer the specific question about the May 2026 SpaceXAI exodus, employee counts, or Grok team restructuring. The two are equally inadequate and equally inaccurate for this specific query."
+}

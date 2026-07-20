@@ -1,0 +1,11 @@
+{
+  "id": 447,
+  "query": "Diocese of Paris priestly ordinations June 2026 Notre-Dame number of priests Archbishop Laurent Ulrich",
+  "topic": "Notre-Dame de Paris",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "The Facebook snippet in Content A conflates two different events without clear separation: it says 'Nine new priests were ordained by Archbishop Laurent Ulrich of Paris. Archbishop Laurent Ulrich, the Archbishop of Paris, ordained 16 men to...' This juxtaposition (9 vs 16) in the same snippet, without a clear date break, could easily confuse an LLM into questioning the correct number of 2026 ordinands or thinking the figures are inconsistent.",
+  "b_issues": "The Catholic Herald article about 16 priests refers to 2025, not 2026, so an LLM must read carefully to avoid conflating the two years; however, the date (28 June 2025) is explicitly stated, keeping the two events distinguishable.",
+  "reasoning": "Both content sets agree on the core fact: 9 priests ordained by Archbishop Laurent Ulrich at Notre-Dame on 27 June 2026. However, Content A includes a Facebook snippet that mixes the 2026 figure (9) with the 2025 figure (16) in a single ambiguous passage, creating a contradiction risk. Content B keeps the 2026 fact clean and separate (via the featured snippet and the notredamedeparis.fr result), while the mention of 16 priests is clearly attributed to '28 June 2025' in a distinct, well-sourced Catholic Herald article, avoiding confusion. This makes Content B more reliable and less prone to producing an incorrect answer."
+}

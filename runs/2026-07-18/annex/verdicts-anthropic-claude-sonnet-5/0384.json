@@ -1,0 +1,11 @@
+{
+  "id": 384,
+  "query": "Meta Louisiana data center total investment amount AI infrastructure expansion",
+  "topic": "Meta",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; all sources (CNBC, Fox Business, Fortune, WSJ, Reuters) consistently report the $50B investment, 5GW capacity, Richland Parish location, and related figures (e.g., $1B infrastructure spend) matching the anchor.",
+  "b_issues": "Includes a confusing/contradictory statement from opendatascience.com claiming 'Meta expects Hyperion to reach 2GW by 2030,' which conflicts with the same article's statement that Hyperion will reach 5GW capacity, creating internal inconsistency. Also relies more heavily on lower-authority sources (National CIO Review, klax-tv, opendatascience, YouTube) compared to A's mainstream financial/tech news outlets.",
+  "reasoning": "Both sets correctly convey the core fact that Meta's Louisiana Hyperion data center investment has grown to over $50 billion with a 5GW capacity expansion, matching the anchor. However, Content A draws from more authoritative, well-established outlets (CNBC, Fox Business, Fortune, WSJ, Reuters) with consistent, non-contradictory details. Content B includes a source with an internally contradictory claim (2GW by 2030 vs. 5GW expansion) that could confuse an LLM's understanding of the capacity figures, slightly reducing reliability despite still containing the correct $50B figure elsewhere."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 304,
+  "query": "NASA Artemis III Orion spacecraft high resolution imagery transmission provider selection",
+  "topic": "NASA Artemis program",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; the NASA.gov article directly confirms SpaceX/Starlink selection with clear details (laser terminals, 4K imagery, Mission Control Houston).",
+  "b_issues": "The key article is only mirrored via a third-party aggregator site (overlookhorizon.com) rather than the original NASA source, which is less authoritative/reliable. Other results are lower-quality (Facebook post, X/Twitter post) and mostly describe the earlier RFI stage rather than confirming the final selection, making the actual answer less clearly established.",
+  "reasoning": "Content A includes the original NASA.gov blog post directly stating that SpaceX was selected to provide Starlink laser communications for Artemis III imagery transmission, giving a clear, accurate, and well-sourced answer. Content B contains the same core fact but only through a reposted/aggregator site rather than an authoritative source, and pads out the rest of the results with a Facebook post and a tweet discussing the pre-selection RFI phase, which could confuse the model into thinking the selection was not yet finalized. Thus Content A provides a more reliable and unambiguous basis for answering the question correctly."
+}

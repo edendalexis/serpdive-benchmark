@@ -1,0 +1,11 @@
+{
+  "id": 919,
+  "query": "Super Bowl LX ticket scams fake betting sites counterfeit lawmakers consumer warning 2026",
+  "topic": "Super Bowl",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Completely irrelevant results - returns pages about Super.com (a travel/finance app), a dictionary definition of 'super', and the 2010 film 'Super' instead of any content about Super Bowl LX scams, ticket fraud, betting sites, or lawmaker warnings. Provides no usable facts to answer the question.",
+  "b_issues": "Content is accurate and relevant but slightly less comprehensive than the anchor (e.g., doesn't mention Senator Hassan's JEC alert by name or Attorney General Bonta's California-specific warning), though it does cover similar ground via CBS News and other sources.",
+  "reasoning": "Content B provides directly relevant, accurate results from reliable sources (CBS News, Maryland AG, WRAL, WBAY) that address Super Bowl LX scams, fake tickets, illegal betting sites, and consumer warnings from officials - closely matching the anchor's content. Content A returns entirely unrelated results (a travel app, a dictionary definition, a 2010 film) with zero relevance to the query, making it useless for answering the question."
+}

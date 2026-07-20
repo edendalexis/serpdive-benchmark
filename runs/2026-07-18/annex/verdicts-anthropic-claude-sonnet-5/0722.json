@@ -1,0 +1,11 @@
+{
+  "id": 722,
+  "query": "Temu Local Seller Program number of countries expansion date",
+  "topic": "Temu",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A lacks the digitalcommerce360 anchor source and does not include the Australia article citing '20 countries' as a data point, giving fewer concrete figures on program scale; relies mainly on Turkiye Today's '30 countries' figure and UAE January 2026 launch, plus tangential Temu statistics (users, sellers) that aren't specific to the Local Seller Program's country count.",
+  "b_issues": "Contains a mostly unusable LinkedIn results entry with no substantive content (just navigation/sign-in links), adding noise; also has some redundancy between two sources on UAE launch.",
+  "reasoning": "Both sets include the Turkiye Today source confirming 'more than 30 countries' for the Local Seller Program and reference the UAE expansion in January 2026. However, Content B additionally includes the Australia ecommercenews.com.au source stating 'more than 20 countries' had joined, and directly includes the anchor's digitalcommerce360 2026 update article confirming the program is expanding into regional markets. This gives B a more complete, corroborated picture of the program's country count (20-30+) and expansion timeline (ongoing through 2026), despite the LinkedIn clutter. Content A's Temu statistics source is tangential and not directly about the Local Seller Program's country expansion, offering less precise support for answering the specific question."
+}

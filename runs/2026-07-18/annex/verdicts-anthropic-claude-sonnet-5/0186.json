@@ -1,0 +1,11 @@
+{
+  "id": 186,
+  "query": "IOC physical virtual sports Olympic program consideration 2026 stationary cycling digital transformation source",
+  "topic": "International Olympic Committee",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "The cyclingmagazine.ca excerpt in A contains an internal inconsistency (heading says 'Brisbane 2023' while the text says 'Brisbane 2032'), which could confuse an LLM about the actual host year being considered. Otherwise the content is accurate and mirrors the anchor closely.",
+  "b_issues": "B's results are more indirect: the key academic source (Chappelet, Tandfonline) is only a brief abstract snippet without the specific McConnell quotes or details on 'full physical replication' and UCI/Zwift partnership that directly answer the query. It also includes some now-outdated or ambiguous claims (Olympic Esports Games 'set for 2025' vs. later 'at a standstill') without reconciling them, and lacks the original Daily Mail-sourced quote chain that the anchor centers on.",
+  "reasoning": "Content A includes the actual cyclingmagazine.ca article that the anchor also cites, reproducing the specific McConnell quotes about 'full physical replication of the sport,' the UCI-Zwift/MyWhoosh partnership, and the virtual sports medal consideration—directly matching the anchor's core facts. It also adds context from Olympics.com and N3XT Sports interviews about Paris 2024/LA 2028 planning, which are accurate and relevant. Content B provides a broader set of tangential sources (academic paper, Olympic Esports Games articles) but with much thinner detail, and its snippets alone would not let an LLM reconstruct the specific claims about stationary cycling's 'full physical replication' or the digital transformation narrative as clearly as A does. Despite a minor internal inconsistency in A's Brisbane year reference, A's content still enables a more accurate and complete answer overall."
+}

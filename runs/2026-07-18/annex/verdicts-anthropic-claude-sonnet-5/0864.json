@@ -1,0 +1,11 @@
+{
+  "id": 864,
+  "query": "Wegovy real-world study September 2025 cardiovascular outcomes vs tirzepatide risk reduction heart attack stroke death obesity",
+  "topic": "Ozempic and Wegovy",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; core facts (57% and 29% risk reductions) match the anchor. Minor redundancy across sources but no contradictions.",
+  "b_issues": "Core facts also correct (57% and 29%), but results are largely shallow/redundant snippets without the additional granular data (e.g., specific MI or heart failure hospitalization risk reductions) that could help answer more detailed follow-up questions.",
+  "reasoning": "Both content sets accurately convey the key STEER study findings (57% greater risk reduction on continuous treatment, 29% reduction overall) consistent with the anchor. However, Content A includes a PMC full-text excerpt with additional specific data points (62% lower MI risk, 66% lower HF hospitalization risk, study period details, propensity-score matching methodology) that provide deeper, more precise context for answering the question. Content B's sources are more repetitive summaries of the same press release without this added depth. Neither set contains factual errors or contradictions, but A offers more substantive detail to support a thorough answer."
+}

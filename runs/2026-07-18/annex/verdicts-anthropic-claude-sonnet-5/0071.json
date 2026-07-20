@@ -1,0 +1,11 @@
+{
+  "id": 71,
+  "query": "17th Governors Awards 2026 Honorary Oscars recipients",
+  "topic": "Academy Awards Oscars",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "None significant; all snippets are consistent with the anchor and correctly identify Glenn Close, Ridley Scott, Floyd Norman (Honorary Awards) and Christine Vachon & Pamela Koffler (Thalberg Award). Goldderby result is stale/uninformative but doesn't contradict other results.",
+  "b_issues": "None significant; the featured snippet and press.oscars.org excerpt directly confirm the same facts as the anchor, and deadline.com adds accurate detail (no Hersholt Award this year). Wikipedia results are tangential but not contradictory.",
+  "reasoning": "Both content sets contain the key facts needed to answer the question accurately: Glenn Close, Ridley Scott, and Floyd Norman receive Academy Honorary Awards, while Christine Vachon and Pamela Koffler receive the Irving G. Thalberg Memorial Award, all at the 17th Governors Awards on Nov. 15, 2026. Both draw from the same authoritative press.oscars.org source and reputable trade outlets (IndieWire, People, Deadline). Neither set contains contradictions or factual errors relative to the anchor. Content B's featured snippet is slightly more concise and directly quotes the official announcement, while Content A includes a less useful Goldderby result, but this doesn't materially affect answerability. Both allow an LLM to correctly and fully answer the question."
+}

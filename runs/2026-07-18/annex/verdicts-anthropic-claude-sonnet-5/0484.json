@@ -1,0 +1,11 @@
+{
+  "id": 484,
+  "query": "WGA health fund $321 million studio contribution premium increase 2026 details",
+  "topic": "The WGA",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "LA Times figure differs slightly ($320M vs $321M cited elsewhere) but this is an inherent source discrepancy, not an error introduced by the search results. Otherwise content is consistent and detailed.",
+  "b_issues": "Provides less specific detail on premium/deductible increases (Variety snippet only vaguely mentions 'increases in premiums, deductibles' without figures). The LA Times snippet is contaminated with unrelated DGA contract content, which could confuse the answer. Overall lacks the concrete premium/deductible numbers ($0/$50->new, $400->$500, $1200->$1500) and earnings threshold figures that directly address the query's 'premium increase' aspect.",
+  "reasoning": "Both sets contain the core fact of the $321M studio contribution and the 3.25%/0.5% health fund contribution rate increase (13%->16.25%->16.75%) from reliable sources (Variety, THR, WGA official pages, LA Times, Deadline). However, Content A provides more complete and directly relevant detail on premiums and deductibles (specific dollar figures), earnings caps, the Paid Parental Leave fund transfer, and earnings thresholds — all of which are explicitly requested in the query about 'premium increase 2026 details'. Content B's Variety snippet omits these specifics, and its LA Times entry mixes in unrelated DGA content, making it less clean and slightly less useful for a precise answer. Both have equally reliable sources, but A supplies more of the specific numeric details needed to fully answer the question."
+}

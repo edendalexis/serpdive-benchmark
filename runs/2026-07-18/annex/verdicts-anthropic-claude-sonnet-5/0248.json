@@ -1,0 +1,11 @@
+{
+  "id": 248,
+  "query": "Voyager 1 pre-agreed instrument shutdown sequence power conservation priority NASA",
+  "topic": "Voyager 1",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; content is consistent with the anchor and directly addresses the query, including the key fact about the pre-agreed shutdown sequence and priority order.",
+  "b_issues": "Results are mostly low-quality (Facebook posts, truncated/garbled JPL navigation menu content instead of article text) and do not contain the specific fact about the pre-agreed shutdown sequence or priority order. The electropages and facebook snippets provide no substantive detail answering the query.",
+  "reasoning": "Content A directly answers the query: the Fox News excerpt explicitly states 'NASA said mission science and engineering teams had years ago agreed on the order in which spacecraft systems would be shut down as available power declined,' which is exactly the 'pre-agreed instrument shutdown sequence power conservation priority' asked about. It also provides consistent supporting details (LECP shutdown, timing, Big Bang plan) from reliable sources (NASA, JPL, SatNews, Fox News). Content B lacks this key fact entirely - its results are either social media reposts, a mostly unrendered navigation menu from the JPL page (no article text about the shutdown priority), or unrelated technical detail about power loss rate, none of which mention the pre-agreed shutdown order/priority sequence. Thus A far better enables a correct, complete answer."
+}

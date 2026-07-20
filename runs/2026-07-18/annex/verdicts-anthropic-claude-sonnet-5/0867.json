@@ -1,0 +1,11 @@
+{
+  "id": 867,
+  "query": "Novo Nordisk semaglutide 1.3 million prescriptions Q1 2026 US fill rate weekly signup statistics",
+  "topic": "Ozempic and Wegovy",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "None of A's returned snippets explicitly state the 1.3 million Q1 prescription figure or the 200,000 weekly fill rate; only tangential data (18,410 first-week figure, unrelated pricing analysis, generic Novo press page, 3‑million cumulative figure by June, and a CNBC snippet giving sales in kroner but no prescription count) are present, requiring inference rather than direct confirmation of the exact query figures.",
+  "b_issues": "The Forbes GLP‑1 statistics snippet is irrelevant (Medicaid prescription growth, not Wegovy Q1 2026 figures) but does not contradict the core facts.",
+  "reasoning": "Content B directly supplies the exact facts needed: the SEC 6‑K filing explicitly states 'total prescriptions for Q1 2026 of around 1.3 million and now more than 2 million since launch,' and the biopharmaboardroom result confirms 'for the week ending 17 April, total weekly prescriptions exceeded 200,000.' These match the anchor precisely. Content A, while containing related and reputable sources, lacks any snippet that explicitly states the 1.3 million Q1 figure or the weekly 200,000 rate, making it harder for an LLM to answer the specific question accurately without inference or extrapolation."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 174,
+  "query": "SpaceX Raptor 3 engine McGregor test campaign July 2026 status",
+  "topic": "SpaceX Starship",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "The Fandom wiki entry mixes older data (2024-2025) with a single terse July 9, 2026 status line for engine R97, which is minimal context; the SpaceX Updates page is generic and not date-specific to July 2026.",
+  "b_issues": "The Facebook post about SN 60/62/64 engines departing has no date shown, so it cannot be confirmed as July 2026 relevant; the Fandom snippet is truncated before reaching the July 2026 status line; the SpaceX Updates and old Starship v3 schedule (2024) results are irrelevant to the July 2026 timeframe.",
+  "reasoning": "Content A includes two directly relevant, dated data points for July 2026: the Fandom wiki's status line noting Raptor 3 engine R97 installed on Booster 20 as of July 9, 2026, and a Spaceflight Now article dated July 16, 2026 describing a Starship Flight 13 abort due to an engine issue. These give an LLM concrete, dated facts to construct an answer about the McGregor/Raptor 3 status in July 2026. Content B's results either lack dates, are truncated before reaching the relevant July 2026 line, or are outdated (2024 schedule, generic SpaceX updates page), making it much harder to answer the specific query accurately."
+}

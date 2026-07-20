@@ -1,0 +1,11 @@
+{
+  "id": 857,
+  "query": "SAG-AFTRA Network Television Code Agreement ratification August 2025 AI terms 2026 TV theatrical provisions",
+  "topic": "SAG-AFTRA",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Some results are duplicative and one contains excessive irrelevant SVG/emoji markup from Facebook, but the core facts (ratification vote percentages, AI commitment linking Network TV Code to 2026 TV/Theatrical Agreement terms) are present and accurate, consistent with the anchor.",
+  "b_issues": "Content B is almost entirely irrelevant: it only returns a single result about SAG-AFTRA Plans residual contribution rates for pre-2011 productions, with no mention of the 2025 Network Television Code ratification, AI terms, or the 2026 TV/Theatrical Agreement. It does not address the question at all.",
+  "reasoning": "Content A directly addresses the query with multiple relevant, accurate sources confirming ratification details, vote percentages, and the AI provision linking the Network TV Code to future 2026 TV/Theatrical Agreement terms — matching the anchor's information. Content B contains only one tangential result about residual payment plans with no relevant facts about ratification, AI terms, or the 2026 agreement, making it essentially useless for answering the question."
+}

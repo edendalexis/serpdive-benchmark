@@ -1,0 +1,11 @@
+{
+  "id": 400,
+  "query": "AI Omnibus provisional agreement European Parliament Council formal adoption status date",
+  "topic": "EU AI Act",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A doesn't explicitly state the Council's formal adoption date within its own snippets as clearly as it could (the jdsupra snippet is truncated at 'European Parliament's end...'), but it does correctly reference the June 29 Council adoption date, aligning with the anchor's 'procedure completed' status.",
+  "b_issues": "Content B lacks any mention of the actual formal adoption by the Council (which occurred June 29, 2026 per the anchor's linked sources). It stops at the provisional agreement (7 May) and Parliament's vote (scheduled for June), leaving the question of 'formal adoption status/date' unanswered. Additionally, the Gibson Dunn source introduces conflicting dates (6 May initial agreement, 13 May Council confirmation) that differ from the other sources' consistent '7 May' date, creating an internal contradiction not resolved elsewhere in the set.",
+  "reasoning": "The question asks specifically about the formal adoption status/date, not just the provisional agreement. Content A includes a source (jdsupra) explicitly reporting the Council's final formal adoption on 29 June 2026, which matches the anchor's status of 'procedure completed, awaiting publication in Official Journal.' Content B's results are all dated before the final Council adoption and only cover the provisional agreement and Parliament's June vote, failing to answer the 'formal adoption' part of the question. Content B also contains an internal inconsistency regarding the agreement date (6 May vs 7 May sources), which could confuse an LLM. Content A's set of sources are more consistent and complete regarding the full timeline through formal adoption."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 104,
+  "query": "Boeing Q4S mission space-based quantum network entanglement swapping lab test details",
+  "topic": "Boeing",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Contains a mostly irrelevant LinkedIn snippet about a Tohoku University photonic router that has nothing to do with Q4S, diluting relevance; lacks the Jay Lowell quote and peer-reviewed publication detail; otherwise facts given (entanglement swapping, environmental qualification, 2027 launch) are accurate but less detailed than B.",
+  "b_issues": "One result (spacesecurity.wse.jhu.edu) mentions an outdated 2026 launch date rather than 2027, which is a minor inconsistency, though it's clearly from an older article and other B sources correctly state 2027.",
+  "reasoning": "Both sets contain the core accurate facts (high-fidelity entanglement swapping demonstrated in ground tests, environmental qualification testing completed, final spacecraft integration underway, 2027 launch, one-year on-orbit demonstration mission). However, Content B provides richer, more specific detail directly from Boeing's official press release language (e.g., 'leading entanglement swapping capability within power, weight and environmental constraints', 'peer-reviewed publications of comparable entanglement-swapping experiments') and adds a valuable quote from Jay Lowell, Boeing's Chief Scientist for Quantum Systems, plus mention of plans to submit results for peer-reviewed publication. Content B's inclusion of Boeing's own quantum technology page (boeing.com/space/quantum) also reinforces mission context (linking sensors in space to quantum computers on ground) with authoritative sourcing. Content A includes an off-topic LinkedIn snippet about an unrelated Tohoku University technology, which is noise rather than useful signal, slightly reducing its overall quality and focus. Thus B better and more reliably supports answering the question."
+}

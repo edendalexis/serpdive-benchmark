@@ -1,0 +1,11 @@
+{
+  "id": 920,
+  "query": "Wicked For Good 2025 worldwide box office total gross",
+  "topic": "Wicked",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A never provides a final/total worldwide gross figure. It only offers intermediate data points: an opening-weekend global figure ($223-226M), a mid-run milestone ($407M as of Dec 3), and fragmented per-country numbers, none of which represents the final worldwide total (~$540M per the anchor). An LLM relying on this would likely answer incorrectly with an outdated/incomplete figure.",
+  "b_issues": "Minor rounding discrepancy in the-numbers total ($540,060,870) vs the anchor's figure ($539,573,679), but this is a negligible difference reflecting slightly different snapshot times of an ongoing box office run; it still closely matches the domestic ($342,915,090) figure exactly.",
+  "reasoning": "Content B directly includes the-numbers.com's breakdown with the final domestic, international, and worldwide gross totals that closely align with the anchor (~$540M worldwide), enabling an accurate answer. Content A's results only surface intermediate milestones (opening weekend $223-226M, a $400M mark from early December) and never state a final worldwide total, so an LLM using only Content A would likely give an outdated or incomplete answer rather than the true total gross (~$540M)."
+}

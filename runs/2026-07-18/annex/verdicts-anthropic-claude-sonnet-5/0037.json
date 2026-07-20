@@ -1,0 +1,11 @@
+{
+  "id": 37,
+  "query": "Google Home Speaker built for Gemini launch 2026 specs pricing availability",
+  "topic": "Google",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Lacks the official Google source entirely; relies on secondary outlets (TechTimes, YouTube description, Mashable, Memeburn) for core facts. Introduces unverified technical claims (dedicated NPU running Gemini Nano, <100ms latency, $68M class-action settlement) that aren't corroborated by any primary source and could be inaccurate or fabricated. Omits color options and country availability details.",
+  "b_issues": "Minor inconsistency: 9to5google article cites 19 countries while the anchor's 9to5google snippet says 18 countries (likely from different dates in the rollout), a small discrepancy but not a major factual error. Otherwise price, launch date, and color details align closely with the anchor.",
+  "reasoning": "Content B includes the actual official Google blog post as a source, directly quoting price ($99.99), availability (pre-order now, shelves June 25), and colors (Hazel, Porcelain, Jade, Berry) — all of which match the anchor's ground-truth data closely. It also adds useful, consistent details on subscription tiers and country rollout. Content A never surfaces the primary Google source and instead builds its answer from tertiary reporting, introducing extra technical specifics (NPU, latency figures, legal settlement) that are unverified, not present in the anchor, and could be speculative additions that risk misinforming the user. Given B's stronger grounding in the authoritative source and closer alignment with confirmed facts, B better enables a correct answer."
+}

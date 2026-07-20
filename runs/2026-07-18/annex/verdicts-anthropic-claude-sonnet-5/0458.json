@@ -1,0 +1,11 @@
+{
+  "id": 458,
+  "query": "2024 Nobel Prize Chemistry laureates Demis Hassabis John Jumper DeepMind AlphaFold publication details",
+  "topic": "Nobel Prize 2024",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor: PubMed result appears to have a placeholder/unusual ID that may not be verifiable, but the core content is accurate.",
+  "b_issues": "Lacks the specific publication citation details (journal name, volume, page, year) for the AlphaFold paper that the question explicitly asks about; results are general news coverage without the actual paper citation.",
+  "reasoning": "The question specifically asks for 'publication details' of the AlphaFold work by Hassabis and Jumper. Content A includes the precise citation from the APS Physics article: 'Jumper et al., \"Highly accurate protein structure prediction with AlphaFold,\" Nature 596, 583 (2021)' — directly matching the anchor's Nature paper reference. Content B, while providing solid context on the Nobel Prize award itself (correct laureates, categories, prize amounts), never provides the specific journal/volume/page citation for the AlphaFold publication, leaving that part of the query unanswered. Both sets are factually accurate regarding the prize details themselves, but A more completely satisfies the 'publication details' requirement of the question."
+}

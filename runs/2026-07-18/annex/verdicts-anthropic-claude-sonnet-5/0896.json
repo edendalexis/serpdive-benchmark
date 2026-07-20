@@ -1,0 +1,11 @@
+{
+  "id": 896,
+  "query": "Alien Romulus sequel returning cast Cailee Spaeny David Jonsson confirmation",
+  "topic": "Alien: Romulus",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "The AVP Galaxy piece introduces some ambiguity by referencing unconfirmed 'rumors' that Jonsson might not return, which is not strictly a confirmation, but this reflects real reporting and doesn't contradict the core facts (Spaeny and Jonsson are expected/likely to return, sequel in development).",
+  "b_issues": "Relies heavily on lower-reliability sources (a Facebook post, an Instagram post, and a YouTube video) rather than primary journalistic outlets, though the factual content (Spaeny and Jonsson likely returning, sequel in development, ~2027 window) aligns with the anchor and Content A.",
+  "reasoning": "Both sets convey the same core facts: a sequel is in development, Fede Álvarez is attached, and Spaeny/Jonsson are expected or likely to return, consistent with the anchor. Content A draws from more established entertainment journalism (ScreenRant, Yahoo, Collider, Brobible, AVP Galaxy) which gives more detailed, verifiable confirmation (e.g., ScreenRant explicitly states '20th Century Boss Confirms 2 Character Returns'). Content B includes similar facts but sources them partly through social media reposts (Facebook, Instagram) and a YouTube video, which are less authoritative and mostly just restate the same claim without added detail or verification. Neither set contains major factual contradictions, but A's sourcing is more reliable for an LLM to confidently cite in an answer."
+}

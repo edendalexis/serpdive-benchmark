@@ -1,0 +1,11 @@
+{
+  "id": 262,
+  "query": "2026 NBA Finals television viewership average ratings margin of victory stats",
+  "topic": "NBA Finals",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Does not explicitly mention the Game 5 score (94-90) or margin of victory, though it does include qualitative context (Brunson's 45 points, comeback in Game 5). All numeric facts (20.6M series average, 24.5M Game 5 average, 33M peak, 1998 comparison) are consistent across its five sources (NBA.com, Hollywood Reporter, Wikipedia, Yahoo, Sportico).",
+  "b_issues": "Also lacks the explicit final score/margin of victory. Includes weaker, redundant sources (a YouTube Shorts clip and a Reddit thread about playoff-wide viewership, not Finals-specific), which add little analytical value and could mislead by mixing playoff-wide average (3.91M) with Finals-specific stats. Less historical/context depth (no Wikipedia-style historical ratings comparison).",
+  "reasoning": "Both sets agree on the core numbers (20.6M Finals average, 24.5M Game 5 average, 33M peak, most-watched since 1998), so neither is factually wrong. However, Content A offers a more robust and higher-quality set of sources (NBA.com, Hollywood Reporter, Wikipedia, Yahoo Sports, Sportico) that collectively provide richer context: historical 1998 ratings (18.7/33 share, 29.04M viewers), the 2025 Finals average (10.27M) for comparison, and details about Brunson's 45-point Game 5 performance. Content B repeats similar facts but pads results with less relevant sources (a Reddit thread about overall playoff viewership and a YouTube Shorts video), which do not add analytical depth and could cause confusion between playoff-wide and Finals-specific viewership figures. Neither source explicitly states the Game 5 margin of victory (94-90), but Content A's broader, more authoritative sourcing makes it slightly better suited to answering the question comprehensively and accurately."
+}

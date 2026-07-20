@@ -1,0 +1,11 @@
+{
+  "id": 656,
+  "query": "UNRWA Gaza relief beneficiaries number 2025 ceasefire food assistance emergency shelters",
+  "topic": "United Nations Relief and Works Agency for Palestine Refugees in the Near East",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Includes results with oddly future-dated documents (e.g., 'Jul 1, 2026' SitRep #227, and a March 2026 OCHA report), which is confusing but the core content (2 million people reached with food assistance during the Jan-Mar 2025 ceasefire, shelter figures for IDPs) is consistent with the anchor and reliable un.org sources.",
+  "b_issues": "Contains inconsistent/contradictory figures: the Flash Appeal cites a target of 1.1 million people for food rations (a funding goal, not actual reach), while a tweet cites 'food to 2 million, shelter to 120,000' which conflicts with the official SitRep figure of 'more than half a million people with shelter and non-food items' cited in the anchor. Also includes unrelated pre-ceasefire cumulative statistics (388,000 families/1.9 million people) from multiple sitreps that could be mistaken for ceasefire-period figures, and references a different (October 2025) ceasefire that could cause confusion about which ceasefire is being discussed.",
+  "reasoning": "Content A's key figures (2 million people reached with food assistance during the ceasefire, shelter numbers for IDPs) align directly and consistently with the anchor's stated facts, all sourced from official UNRWA/UN situation reports. Content B, while citing similarly authoritative sources, presents conflicting numbers (1.1 million appeal target vs. 2 million actual reach; 120,000 vs. half a million sheltered) and repeats pre-ceasefire statistics that could mislead an LLM into conflating different reporting periods. This makes Content A more reliable and internally consistent for answering the specific question."
+}

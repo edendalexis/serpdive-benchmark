@@ -1,0 +1,11 @@
+{
+  "id": 149,
+  "query": "Red Lobster December 2025 restaurant employee reductions number",
+  "topic": "Red Lobster",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "None significant; consistently reports ~200 restaurant-level employees laid off across multiple sources, matching the anchor.",
+  "b_issues": "None significant; consistently reports ~200 restaurant-level employees laid off across multiple sources, matching the anchor.",
+  "reasoning": "Both Content A and Content B provide multiple consistent, reliable sources (Restaurant Business, SeafoodSource, Cheapism) all confirming the same figure of approximately 200 restaurant-level employees laid off, representing less than 1% of Red Lobster's workforce. This matches the anchor's key fact precisely. Neither set contradicts itself or introduces inaccurate numbers. Content A includes a couple more sources (The Sun, Undercurrent News) reinforcing the same figure, while Content B includes slightly more contextual detail but the core answerable fact is equally present and accurate in both."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 255,
+  "query": "InnoRNA bivalent mRNA RSV vaccine clinical trial phase NCT number",
+  "topic": "RSV vaccines",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Does not explicitly list the NCT number itself within the snippets shown, though it references clinicaltrials.gov URLs (NCT05330975 is unrelated to IN006, only relevant background) and does not directly surface NCT07128121 or NCT06287450 in its text, requiring inference.",
+  "b_issues": "Provides no NCT number at all; the LinkedIn press release and PMC article discuss the vaccine and phase (Phase 1 dosing) but never mention a clinicaltrials.gov identifier, making it impossible to answer the NCT number portion of the question.",
+  "reasoning": "The question asks for the trial phase and NCT number of Innorna's bivalent mRNA RSV vaccine (IN006). Content A includes multiple sources confirming Phase II completion of enrollment for IN006 and includes a clinicaltrials.gov link for NCT05330975 (a different but related mRNA RSV vaccine trial), which does not directly answer the IN006 NCT number, but the phase information (Phase II) is clearly and consistently confirmed via reliable press releases and company site. Content B only discusses Phase I dosing and provides no clinicaltrials.gov reference or NCT number at all, making it strictly worse for answering the specific NCT number requested. Neither set explicitly states 'NCT07128121' in the visible text, but A at least establishes clear phase information and links to clinicaltrials.gov as a source type, giving a better foundation for an agent to locate or infer the correct NCT number than B, which lacks any NCT reference entirely."
+}

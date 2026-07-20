@@ -1,0 +1,11 @@
+{
+  "id": 380,
+  "query": "Meta Muse Spark 1.1 AI model unveiling performance claims",
+  "topic": "Meta",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Lacks specific benchmark comparison details (e.g., vs. Gemini) that would strengthen the 'performance claims' answer; omits the Artificial Analysis Intelligence Index data and Computerworld's specific benchmark names (SWE-bench, Terminal-bench, etc.) that give the most concrete performance evidence.",
+  "b_issues": "Includes a low-value/unreliable YouTube video and a nearly content-free ai.meta.com/research page (mostly image alt-text) that add noise without useful facts; also lacks the concrete benchmark numbers (Intelligence Index score, specific benchmark names) present in the anchor's Computerworld/ArtificialAnalysis sources.",
+  "reasoning": "Both sets draw from the same core sources (Meta's blog, TechCrunch, Fortune) and are internally consistent with each other and with the anchor's framing of Muse Spark 1.1 as an agentic/coding-focused multimodal model with claims of surpassing or matching rivals. Neither set surfaces the more quantitative performance claims found in the anchor (Computerworld's specific benchmark names like SWE-bench/Terminal-bench, or Artificial Analysis's Intelligence Index score of 51), which is the biggest gap in both. A provides useful direct Zuckerberg quotes about performance ('strongest at agentic performance, tool use, and computer use'), while B provides a slightly more detailed blog excerpt (performance-efficiency frontier, Meta Model API public preview) and a Fortune excerpt claiming Muse Spark 1.1 beats Gemini on coding/reasoning benchmarks. These are complementary strengths of similar value, and B's extra results (YouTube, research page) add clutter but no factual harm. Overall, both allow a reasonably accurate but incomplete answer to the question."
+}

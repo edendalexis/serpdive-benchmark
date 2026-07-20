@@ -1,0 +1,11 @@
+{
+  "id": 223,
+  "query": "NHTSA petition outcome Tesla 2017-2023 Model 3 Model Y headlight recall",
+  "topic": "Tesla",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A contains no information at all about the Tesla headlight recall petition; results are generic NHTSA overview pages, social media links, and unrelated agency info with no facts answering the question.",
+  "b_issues": "Minor tangential/possibly confusing mention of a separate 2022 NHTSA petition rejection regarding LED headlights on Model 3/Bronco/R1T, which could be conflated with the main 2026 petition denial, but the core facts (petition denied, ~19,900-19,917 2017-2023 Model 3/Model Y vehicles, FMVSS 108 noncompliance, Tesla's 'inconsequential' argument rejected) are clearly and accurately presented across multiple reliable sources (Teslarati, Reuters via sahmcapital, NHTSA PDF).",
+  "reasoning": "Content B directly provides the specific facts needed to answer the question: NHTSA denied Tesla's petition to avoid a recall covering ~19,900 2017-2023 Model 3 and Model Y vehicles due to headlights exceeding maximum lighting levels, with Tesla's inconsequentiality argument rejected. This is corroborated by multiple reliable sources including a Reuters report and an official NHTSA recall PDF. Content A returns entirely generic, unrelated NHTSA background information and social media pages, providing no usable facts to answer the specific query about the petition outcome."
+}

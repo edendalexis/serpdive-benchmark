@@ -1,0 +1,11 @@
+{
+  "id": 855,
+  "query": "Michelle Hurd SAG-AFTRA secretary-treasurer election September 2025 vote count margin",
+  "topic": "SAG-AFTRA",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "The snippets in Content A mostly just announce that Hurd was elected secretary-treasurer without providing the actual vote percentages or counts. None of the visible content includes the 64.77%/35.23% breakdown or the 13,135 vs 7,144 vote counts needed to determine the margin; the raw_content field is null for all results, so the LLM would only see the announcement, not the numbers.",
+  "b_issues": "None of significance — the content directly quotes the Deadline and Hollywood Reporter articles giving Hurd's 64.77% (~65%) vs Antico's 35.23% (~35%), matching the anchor's official tabulation exactly, allowing the margin to be calculated.",
+  "reasoning": "The question asks for vote count/margin details. Content B explicitly supplies the percentages (64.77% Hurd vs 35.23% Antico) matching the anchor's official PDF results, enabling a precise margin calculation (~29.5 points). Content A's snippets only confirm that Hurd won without giving any numeric breakdown, forcing the LLM to guess or omit the margin. Thus B is clearly more useful for answering the specific question."
+}

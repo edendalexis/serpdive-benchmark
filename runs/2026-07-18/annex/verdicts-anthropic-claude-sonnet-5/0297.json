@@ -1,0 +1,11 @@
+{
+  "id": 297,
+  "query": "X in-stream polls image support feature release date",
+  "topic": "Twitter",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "The threads.com snippet in A contains extraneous, confusing dates (July 8, 2026; June 19, 2026) that could mislead about the actual release date, though the primary source clearly states 'Published Feb. 3, 2026.'",
+  "b_issues": "The Social Media Today excerpt in B omits the explicit publication date ('Published Feb. 3, 2026') that appears in A, forcing reliance on secondary, less precise sources (Threads post dated Feb 4, 2026; skool.com Feb 9 note) to infer the release date, and includes irrelevant/off-topic results (image size guides, unrelated poll news) that add noise without clarifying the date.",
+  "reasoning": "Both sets reference the same core event (X adding images to in-stream polls in early Feb 2026), but Content A includes the explicit 'Published Feb. 3, 2026' date directly from the authoritative Social Media Today source, giving a clear, specific answer to the release date. Content B's version of the same article lacks this explicit date, and its supporting sources are less direct or add unrelated content (e.g., image dimension guides, unrelated polling news), making it harder to pinpoint the exact release date. Thus, A better enables a correct, specific answer."
+}

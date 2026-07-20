@@ -1,0 +1,11 @@
+{
+  "id": 738,
+  "query": "Al-Ansar refugee camp tent fire Israeli airstrike Gaza casualties latest report",
+  "topic": "Israel-Hamas conflict",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Includes a Detroit News article about a different, later Mawasi tent strike (July 2026) that is only tangentially related to the Al-Ansar incident, which could cause some temporal confusion, though it does provide useful broader Gaza casualty context. Also lacks a direct casualty figure for the Al-Ansar fire itself (relies on AA's 'no immediate reports of casualties').",
+  "b_issues": "Contains an internal contradiction: the Instagram source claims 'several casualties have been reported' from the Al-Ansar/tent strike, while the AA source in the same result set explicitly states 'there were no immediate reports of casualties' for the same event. This conflicting information from a low-reliability source (Instagram reel) versus a wire service creates ambiguity that could mislead the answering model on the key casualty question.",
+  "reasoning": "The core question hinges on casualties from the Al-Ansar tent fire. Content A's AA source clearly and unambiguously states there were no immediate reports of casualties, and supplements this with broader, reliable ceasefire-violation casualty statistics (650 killed, 1,732 injured) from the same reliable AA article. Content B includes the same AA statement but also surfaces an Instagram post directly contradicting it by claiming casualties occurred, without resolving which is accurate. This contradiction between a low-credibility social media source and a wire service reduces B's reliability for correctly answering the casualty question, whereas A's set is more internally consistent despite the tangential Detroit News piece."
+}

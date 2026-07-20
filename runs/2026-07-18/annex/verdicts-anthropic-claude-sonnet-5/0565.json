@@ -1,0 +1,11 @@
+{
+  "id": 565,
+  "query": "Hades II console release dates PlayStation 5 Xbox Series Switch 2 PC launch timeline",
+  "topic": "Hades II",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Contains an internal inconsistency: the Wikipedia and wccftech/gamespot entries say Switch2/Switch/PC launched Sept 25, 2025, while the vgchartz result title/content says 'September 26' for the same launch, creating a contradiction. Also relies on a Threads social post as a source, which is less reliable.",
+  "b_issues": "The tagged 'Jun 9, 2026' at the end of the featured snippet is an odd, unexplained artifact (likely a scrape date) that could confuse a model, though it doesn't materially conflict with the April 14, 2026 date given elsewhere.",
+  "reasoning": "Both sets contain the core facts: PC/Switch/Switch2 launch Sept 25, 2025 and PS5/Xbox Series X|S launch April 14, 2026. However, Content A includes a direct contradiction (Sept 25 vs Sept 26) across its own results, which could mislead an answer. Content B's results are consistent across multiple reputable sources (official Supergiant blog, IGN, techpowerup, games.gg) and reinforce the same dates without contradiction, aside from a minor date-stamp oddity that doesn't affect the actual facts. Thus B better supports a correct, consistent answer."
+}

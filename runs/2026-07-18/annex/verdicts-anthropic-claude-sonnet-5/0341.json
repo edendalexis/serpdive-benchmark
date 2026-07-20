@@ -1,0 +1,11 @@
+{
+  "id": 341,
+  "query": "Worldcoin WLD daily token unlock reduction schedule July 24 2026 confirmed",
+  "topic": "Worldcoin",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "No major factual flaws; all sources consistently confirm the 43% aggregate cut (5.1M to 2.9M WLD/day), the 50% cut to community allocation (3.2M to 1.6M) and ~32% cut to TFH investor/team allocation (1.9M to 1.3M), matching the anchor's figures.",
+  "b_issues": "Contains a contradictory/confusing TradingView snippet claiming Worldcoin will unlock '52.51% of its total token supply' on 23 July 2026 as a single 'cliff' event, which directly contradicts the anchor's statement that unlocks are linear with 'no unlock cliff.' Also includes an unrelated KuCoin snippet about vesting extended from 3 to 5 years and an old 2024 TFH lock-up article, none of which reinforce the core 43% figure and could mislead an LLM about the nature of the July 24, 2026 event.",
+  "reasoning": "Both contain the core accurate techi.com and Yahoo Finance-derived figures (43% cut, 5.1M→2.9M, community 3.2M→1.6M, TFH 1.9M→1.3M), matching the anchor closely. However, Content B introduces a contradictory claim about a massive single-day 52.51% supply unlock 'cliff,' which conflicts with the well-established linear, no-cliff nature of WLD unlocks described in the anchor and in Content A's sources. This contradiction could seriously mislead an answer. Content A's five sources are internally consistent and all reinforce the same accurate numbers without contradiction."
+}

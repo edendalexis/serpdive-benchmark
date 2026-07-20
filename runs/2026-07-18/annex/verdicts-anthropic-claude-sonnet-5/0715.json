@@ -1,0 +1,11 @@
+{
+  "id": 715,
+  "query": "Paris court verdict cyberbullying Brigitte Macron number people found guilty",
+  "topic": "Emmanuel Macron",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "All results consistently state 10 people found guilty, matching the anchor. No factual errors, though snippets are brief and don't include as much supporting detail (sentencing specifics, compensation amount).",
+  "b_issues": "One result gives ages as 41-60 while another (France24) says 41-65, a minor internal inconsistency, but the core fact (10 people guilty) is consistent and correct across all sources.",
+  "reasoning": "Both content sets clearly and consistently confirm the key fact answering the question: a Paris court found 10 people guilty of cyberbullying Brigitte Macron, matching the anchor. Content B provides additional corroborating detail (compensation amount, specific sentences, names of defendants) from reliable sources like PBS and Courthouse News, which could help a more complete answer, but Content A is equally sufficient and unambiguous for answering the core question of 'how many people were found guilty.' Neither set contains errors on the central fact, so this is a tie for the purposes of answering the question correctly."
+}

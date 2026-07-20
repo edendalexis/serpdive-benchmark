@@ -1,0 +1,11 @@
+{
+  "id": 796,
+  "query": "Louis Mapou government New Caledonia collapse reasons late 2024 January 2025",
+  "topic": "New Caledonia",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A is accurate and consistent with the anchor: it correctly identifies the trigger (Katidjo-Monnier/Calédonie Ensemble bloc resignation) via the Le Monde snippet and AA.com.tr article, and confirms Mapou's presidency ended 16 January 2025 via Wikipedia. It lacks some detail on the underlying riots/economic-crisis backdrop but is not inaccurate.",
+  "b_issues": "Content B's top result (Grokipedia) is an unreliable, AI-generated source and contains a factual error: it attributes the December 2024 collapse to 'internal no-confidence votes' within Mapou's pro-independence coalition, when in fact the collapse was caused by the loyalist Calédonie Ensemble party's block resignation (as confirmed by the anchor and even by B's own AA.com.tr result). This creates an internal contradiction within B's own results and could mislead an LLM about the actual cause of the collapse.",
+  "reasoning": "Both sets include the reliable AA.com.tr article describing the block resignation of Calédonie Ensemble as the proximate cause. However, Content B elevates a Grokipedia entry that mischaracterizes the collapse as stemming from internal dissent within the pro-independence bloc, contradicting the accurate account in its own second result and in the anchor. Content A avoids this contradiction and via the Le Monde snippet gives a correct, specific reason (resignation of non-independist minister Katidjo Monnier from Calédonie Ensemble), aligning well with the anchor. Thus Content A better enables a correct answer."
+}

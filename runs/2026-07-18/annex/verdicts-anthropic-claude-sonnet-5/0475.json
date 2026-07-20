@@ -1,0 +1,11 @@
+{
+  "id": 475,
+  "query": "Tesla Model Y long wheelbase six seater U.S. price release",
+  "topic": "Elon Musk",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A contains no relevant information about the Tesla Model Y L six-seater launch, price, or release date. Results are generic Tesla pages (Wikipedia, Car and Driver overview, stock quotes, Tesla homepage) with no mention of the Model Y L, its $61,990 price, or US launch details.",
+  "b_issues": "Minor: does not restate the exact wheelbase/length figures, but these are not essential to answering the core price/release question; content is otherwise accurate and consistent with the anchor.",
+  "reasoning": "Content B directly matches the anchor's key facts: Tesla launched the Model Y L in the US at $61,990 as a Launch Series trim, with 6 seats, 325 miles EPA range, and context on pricing versus rivals (Kia EV9, Hyundai Ioniq 9) and China pricing history. This is accurate, specific, and sufficient to answer the question. Content A has no relevant facts at all about the Model Y L's US price or release, making it useless for answering the question."
+}

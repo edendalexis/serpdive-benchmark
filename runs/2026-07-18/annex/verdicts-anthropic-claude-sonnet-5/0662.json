@@ -1,0 +1,11 @@
+{
+  "id": 662,
+  "query": "Safe Superintelligence SSI March 2025 valuation funding amount raised",
+  "topic": "Ilya Sutskever",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A's sources are dated April 2025 and discuss the $2B/$32B round without explicitly tying it to a March 2025 date; the timeline is a bit ambiguous, and it doesn't clarify the March 9, 2025 closing date of the round.",
+  "b_issues": "Cbinsights entry is a bit garbled/formatted oddly, and UpMarket source mixes current ($37B) and 2025 ($32B) valuations, which could cause minor confusion, but the core March 2025 date and amounts are still correctly stated.",
+  "reasoning": "Both sets agree on the core fact that SSI raised $2B at a $32B valuation (consistent with the anchor's Information/Crunchbase sourcing, though the WSJ anchor cites $30B). However, Content B explicitly pins the Series B raise to 'March 9, 2025' via the CB Insights entry, directly answering the 'March 2025' timing in the question, and also includes corroborating details (Series A valuation, investor list) and a Wikipedia entry for background. Content A's results are mostly framed around April 2025 reporting and Crunchbase's monthly roundup, making the March timing less explicit and slightly harder to directly confirm from the given snippets."
+}

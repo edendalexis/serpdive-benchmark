@@ -1,0 +1,11 @@
+{
+  "id": 459,
+  "query": "Han Kang 2024 Nobel Prize Literature prize motivation full text Swedish Academy citation",
+  "topic": "Nobel Prize 2024",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Does not directly quote the full official press release text with quotation marks in a primary source snippet, though the Purdue PDF and La Civiltà Cattolica sources both give the exact motivation quote accurately.",
+  "b_issues": "Does not directly show the exact quoted motivation in most snippets except diplomacybeyond.com, which does give the accurate full quote; other snippets paraphrase (e.g., creativesunite.eu quotes a related but different Nobel Committee statement, not the official motivation).",
+  "reasoning": "Both content sets contain at least one source that accurately reproduces the exact prize motivation text — 'for her intense poetic prose that confronts historical traumas and exposes the fragility of human life' — matching the anchor. Content A has this quote in two results (Purdue PDF and La Civiltà Cattolica), while Content B has it in one (diplomacybeyond.com). Neither set contains contradictory or inaccurate information about the motivation itself; both provide correct supplementary facts (birth date, nationality, first South Korean/Asian woman laureate, etc.). Given equivalent accuracy and reliability of the key quoted motivation, this is a tie."
+}

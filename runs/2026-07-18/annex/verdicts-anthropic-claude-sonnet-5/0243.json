@@ -1,0 +1,11 @@
+{
+  "id": 243,
+  "query": "Voyager 1 current distance AU speed miles per hour latest 2026",
+  "topic": "Voyager 1",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "The core current-distance figure (167 AU) comes only from an obscure/unverified blog (stellarnomads) and is noticeably lower than the anchor's authoritative March 2026 figure (172.59 AU), making it stale or inaccurate for the stated 'as of 2026' timeframe. Several other sources in A (Facebook post, Reddit, Instagram) are low-authority, though they do correctly and consistently repeat the ~38,000 mph / 16.1 billion mile light-day figures.",
+  "b_issues": "One source (earthsky) gives an erroneous speed figure (~79,960 mph), which is roughly double the well-established ~38,000 mph value and directly contradicts NASA's own official figure (38,026.79 mph) present elsewhere in the same result set — creating an internal contradiction on the speed metric that the question explicitly asks about.",
+  "reasoning": "Both sets contain some inaccuracy, but B includes the NASA official Voyager page with a precise, authoritative speed value (38,026.79 mph, 17.0 km/s) and multiple independently-sourced current AU figures (Wikipedia's 172.59 AU as of March 2026 referenced in title text, theskylive's 170.5 AU, earthsky's 173.14 AU) that closely track the anchor's true values. A's key distance figure (167 AU) is more clearly stale/inaccurate relative to the anchor, and its sourcing is weaker overall (facebook, reddit, instagram, an unverified blog). While B has one anomalous speed figure from earthsky, the presence of the authoritative NASA source with the correct, precise speed value gives a reasoning LLM the means to identify and prefer the correct figure, whereas A lacks any comparably authoritative, precise distance figure for 2026. Overall, B provides more accurate and verifiable data despite its internal inconsistency."
+}

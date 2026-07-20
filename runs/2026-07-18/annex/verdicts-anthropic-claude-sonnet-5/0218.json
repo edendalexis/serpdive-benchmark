@@ -1,0 +1,11 @@
+{
+  "id": 218,
+  "query": "Lil Tay Stuck in July streaming numbers chart performance first week sales",
+  "topic": "Lil Tay",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Contains no actual streaming numbers, chart performance data, or first-week sales figures for 'Stuck In July' - only general descriptive commentary about the song's themes without any quantitative metrics.",
+  "b_issues": "Minor internal inconsistency: viberate.com snippet says 'Stuck In July 1K streams last week' while chartmetric and Spotify sources show ~131K-134K total streams (likely referring to different time periods - weekly vs. total), which could cause slight confusion but doesn't invalidate the useful data provided.",
+  "reasoning": "Content B provides concrete, specific streaming numbers from multiple sources (Chartmetric: 133.1K streams, Spotify: 134,526 streams) along with release date context and additional details like YouTube views and Instagram engagement. This directly addresses the query about streaming numbers and performance. Content A only contains vague thematic descriptions of the songs without any actual numbers, chart data, or sales figures, making it far less useful for answering a question specifically asking about streaming numbers and chart performance."
+}

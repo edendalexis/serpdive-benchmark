@@ -1,0 +1,11 @@
+{
+  "id": 597,
+  "query": "COP30 utilities 150 billion annual energy transition investment pledge participating companies",
+  "topic": "COP climate summit",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Does not name any specific participating companies or utilities (only mentions UNEZA generically); includes an irrelevant, broken BloombergNEF page with no useful content, adding noise without substance; lacks breakdown of the $148B into renewables vs grids/storage.",
+  "b_issues": "None major; figures are consistent across sources ($148B total, $66B renewables + $82B grids/storage), and TAQA/SSE are named as co-chairs, giving concrete company references.",
+  "reasoning": "Both sets confirm the core figure (~$148B, up from $117B) as part of the UNEZA pledge tied to a $1 trillion mobilization plan. However, Content B provides more actionable detail for answering the question, including the split between renewables ($66B) and grids/storage ($82B), and explicitly names participating/leading companies (TAQA, SSE) via quotes and alliance leadership, plus corroboration from Reuters and UN News. Content A lacks any named companies and includes an irrelevant, junk-filled BloombergNEF result that reduces overall quality without adding value. Thus B better equips an LLM to answer the question fully and correctly."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 165,
+  "query": "Rivian Georgia plant initial production capacity target start year",
+  "topic": "Rivian",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Contains a Facebook post result claiming production was set to start in 2024 with an estimated capacity of 400,000 EVs annually, which is outdated/inaccurate and contradicts the other sources (300,000 capacity, 2028 start), potentially confusing the LLM. Reliability of the Facebook source is low.",
+  "b_issues": "None of the individual snippets combine the 300,000 capacity figure and the 2028 start date in one source, but the collection consistently supports 200k->300k capacity increase, 2026 construction start, and 2028 production start without contradiction.",
+  "reasoning": "Both sets contain the core facts (200,000 to 300,000 unit capacity increase, late 2028 production start), matching the anchor. However, Content A includes a Facebook post with clearly incorrect/outdated figures (2024 start, 400,000 capacity) that contradicts the rest of its own results and could mislead an LLM. Content B's results are internally consistent across Wards, Automotive Manufacturing Solutions, Rivian Forums, and Construction Equipment Guide, all pointing to the same 300k capacity figure, 2026 construction start, and 2028 production start, without contradictory information."
+}

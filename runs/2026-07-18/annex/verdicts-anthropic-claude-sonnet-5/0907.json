@@ -1,0 +1,11 @@
+{
+  "id": 907,
+  "query": "Oppenheimer Holdings assets under administration year-end 2025 total",
+  "topic": "Oppenheimer",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "The Yahoo Finance excerpt gives the AUA figures in a compressed table format ($143.3, $129.5) without a full sentence, requiring the model to correctly match the labels; no other issues, but it doesn't add extraneous conflicting figures.",
+  "b_issues": "Introduces an additional, differently-labeled figure ('Total client assets under custody reached $144.5 billion') alongside the correct $143.3B AUA figure, which could potentially confuse a model into conflating custody assets with assets under administration, even though the two metrics are technically distinct.",
+  "reasoning": "Both result sets contain the correct figure of $143.3 billion for year-end 2025 client assets under administration, matching the anchor. Content A shows it clearly in a table via Yahoo Finance and stockinsights snippets. Content B has an even more explicit sentence from Stocktitan ('client assets under administration of $143.3 billion') and confirmation from docs.publicnow.com, but also includes a separate $144.5B 'assets under custody' figure that could introduce minor confusion about which metric is being asked about. Overall, both provide sufficient accurate information to answer correctly, with roughly equal reliability and clarity, making this a tie."
+}

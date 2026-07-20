@@ -1,0 +1,11 @@
+{
+  "id": 851,
+  "query": "SAG-AFTRA Llama Fortnite ULP charge AI resolution outcome 2025",
+  "topic": "SAG-AFTRA",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "The sagaftra.org statement result in A contains almost no substantive content (just a date and truncated snippet 'SAG-'), providing no real information from the union's own statement. Like B, it does not contain any information about an actual resolution/outcome of the ULP charge, since none appears to exist as of the search date.",
+  "b_issues": "Also lacks any information about a resolution/outcome of the ULP charge, since the sources only describe the filing of the charge (May 19, 2025) and not any subsequent NLRB action or settlement. This is a limitation shared with A, likely because no resolution existed yet at the time of indexing.",
+  "reasoning": "Both content sets cover the same core facts: SAG-AFTRA filed a ULP charge against Llama Productions (Epic Games subsidiary) on May 19, 2025, alleging failure to bargain over AI-generated Darth Vader voice in Fortnite. Neither set provides any information about an actual resolution or outcome, which is the crux of the question — this appears to be a gap in available information rather than a flaw introduced by either search API. However, Content B is more informative because it includes actual substantive content from the SAG-AFTRA statement page (a direct quote about the company failing to provide notice and bargain), whereas Content A's entry for the same page is nearly empty, cut off after 'SAG-'. B also includes a helpful extra detail from Variety about the AI Vader's in-game function. Thus B slightly better equips an LLM to accurately answer the question, even though neither reveals a final resolution/outcome."
+}

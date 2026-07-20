@@ -1,0 +1,11 @@
+{
+  "id": 794,
+  "query": "New Caledonia July 2025 autonomy agreement text Bougival Agreement Elysée-Oudinot Accord key provisions French Parliament bill status 2026",
+  "topic": "New Caledonia",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor date ambiguity: the RFI article (dated ~April 3, 2026) describing the National Assembly's 190-107 rejection is not perfectly time-aligned with the Assemblée Nationale dossier's 'Première lecture' date of 25 February 2026, though both sources agree the Assembly ultimately rejected the bill, consistent with the anchor's dossier data. No other major factual errors detected.",
+  "b_issues": "Content B stops at the Senate's 'yes' vote (Feb 25, 2026) and never mentions the subsequent National Assembly rejection of the bill, which the anchor's official Assemblée Nationale dossier confirms occurred ('Texte rejeté'). This omission leaves an incomplete/misleading picture of the 'French Parliament bill status,' a key part of the query.",
+  "reasoning": "Both sets cover the Bougival Accord's July 2025 signing and the January 2026 Elysée-Oudinot Accord's key provisions reasonably well (B has slightly richer provision detail via the PINA and Jurist articles). However, the question explicitly asks about 'French Parliament bill status 2026.' The anchor's official Assemblée Nationale dossier shows the bill was adopted by the Senate but then rejected by the National Assembly (first reading), with a second Senate reading scheduled for April 2026. Content A captures this critical status update (Senate adoption followed by National Assembly rejection, 190-107, via RFI and Devpolicy), matching the anchor's trajectory. Content B only reports the Senate's approval and omits the subsequent rejection entirely, giving an outdated/incomplete picture of the bill's actual status. This makes Content A more accurate and complete for the status portion of the query, despite B's marginally more detailed content on Elysée-Oudinot provisions."
+}

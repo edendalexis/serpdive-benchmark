@@ -1,0 +1,11 @@
+{
+  "id": 110,
+  "query": "LVMH Q1 2026 revenue organic growth fashion leather goods sales analyst expectations Reuters April 2026",
+  "topic": "LVMH",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Relies partly on a LinkedIn post (an unverified, non-journalistic source) that mixes correct figures with dubious/unclear conversions (e.g., '€19.1bn (£16.6bn)') and vague claims ('below analysts' expectations' without a number). A does not include the Watches & Jewelry (+7%) or Wines & Spirits (+5%) breakdown that corroborates the overall organic growth mix, and no source explicitly labeled Reuters is present.",
+  "b_issues": "Also lacks a source explicitly labeled Reuters, and the specific Bloomberg-survey '2% expected growth' figure for the group (mentioned in the anchor) is not captured, though the FactSet 1.5% expectation from CNBC is present.",
+  "reasoning": "Both sets correctly report the core facts: €19.1bn revenue, +1% organic growth, -2% Fashion & Leather Goods, 1% negative Middle East impact, and the FactSet 1.5% expectation miss (via the same CNBC article). However, Content B draws exclusively from reputable financial/news outlets (LVMH official release via Yahoo Finance, investing.com, ilsole24ore, CNBC) and provides a consistent, fuller breakdown of all business segments (Wines & Spirits +5%, F&LG -2%, Watches & Jewelry +7%) plus currency impact details, closely matching the anchor's data. Content A includes an unreliable LinkedIn post with imprecise/potentially inaccurate figures and lacks the same segment breakdown, making B the more accurate and dependable source set for fully answering the question."
+}

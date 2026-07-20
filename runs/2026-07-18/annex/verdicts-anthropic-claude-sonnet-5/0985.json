@@ -1,0 +1,11 @@
+{
+  "id": 985,
+  "query": "Google I/O 2026 keynote announcements Gemini Android cloud May 19",
+  "topic": "Sundar Pichai",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Includes a Mashable live-blog piece that reads as pre-event coverage (announcing the keynote time/livestream rather than actual announcements) and a Facebook/Lifehacker post that explicitly frames details as 'Expected' (speculative, pre-show rumors like '2M-token context'), which could mislead an agent into treating rumors as confirmed announcements. The YouTube timestamp list is useful but only gives section names, not actual content of each announcement.",
+  "b_issues": "Slightly thinner on Android-specific and cloud-specific details (mostly focused on Gemini models, Antigravity, Pics, audio glasses); doesn't explicitly mention Android XR or cloud infrastructure specifics.",
+  "reasoning": "Both sets surface the same core themes (Gemini 3.5/Omni, Antigravity, agentic era, 100 announcements recap) via reliable sources like blog.google, developers.googleblog.com, and sheets.works. However, Content A includes two lower-quality, speculative/pre-event sources (Mashable live-blog teaser and a Facebook post using 'Expected' framing for rumored specs), which risk introducing unconfirmed or inaccurate claims into an answer. Content B's sources are all post-event, official or analytical (Google's own '100 things' blog, developer blog, substack analysis with concrete benchmarks), giving more consistently accurate and confirmed factual material for answering the question."
+}

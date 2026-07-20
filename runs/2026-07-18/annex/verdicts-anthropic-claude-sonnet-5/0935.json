@@ -1,0 +1,11 @@
+{
+  "id": 935,
+  "query": "Klarna P2P peer-to-peer payments European countries launch January 2026",
+  "topic": "Klarna",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A's country-list sources (finovate and Yahoo Finance) are truncated mid-list, cutting off after 'Netherlands,' so the full set of 13 countries is not actually visible to the model. The LinkedIn result is heavily cluttered with irrelevant UI text (likes, comments, reactions) that dilutes useful signal, though it does correctly state the launch is in 13 countries.",
+  "b_issues": "No major factual flaws; content is consistent with the anchor and additional context (Bizum dominance in Spain, EU banking license) is accurate and relevant, though not verified against anchor directly.",
+  "reasoning": "Both sets agree on the core facts: Klarna launched instant P2P payments in 13 European countries around January 14, 2026, as part of its digital bank expansion, initially limited to Klarna-to-Klarna transfers with plans to expand. However, Content B's Finovate excerpt provides the complete, explicit list of all 13 countries (Belgium, Denmark, Finland, France, Germany, Italy, Netherlands, Norway, Poland, Portugal, Spain, Sweden, UK), which directly and fully answers the country-specific part of the question. Content A's equivalent snippets from Finovate and Yahoo Finance are cut off mid-list, leaving the full country list incomplete/unusable for a precise answer. This makes Content B more reliable and complete for answering the specific question asked."
+}

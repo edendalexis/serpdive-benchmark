@@ -1,0 +1,11 @@
+{
+  "id": 861,
+  "query": "FDA Wegovy 7.2 mg semaglutide supplemental application approval status 2026 phase 3 trial average weight loss press release",
+  "topic": "Ozempic and Wegovy",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Minor: AJMC listing gives two different STEP UP T2D percentages (13.2% vs 14.1%) in the same content depending on source, but this reflects real trial nuance (weight loss vs. placebo vs. absolute) rather than an outright contradiction; otherwise details (20.7% mean, 21.3%/31.2% categorical thresholds, launch April 2026, 54-day review, NPV program) are consistent and well-sourced.",
+  "b_issues": "Includes two low-value/generic sources (privatedoc.com blog and drugs.com generic history page) that add little specific data on the STEP UP trial results or approval specifics, diluting the answer with vague or tangential content instead of concrete trial data.",
+  "reasoning": "Both sets contain the core FDA/Novo Nordisk press release facts (20.7% mean weight loss, STEP UP trial, April 2026 launch, National Priority Voucher approval). However, Content A supplements this with more detailed, consistent trial data from reliable clinical/industry sources (AJMC, PatientCareOnline, BioSpace) including STEP UP T2D results, categorical weight-loss percentages, and trial design details, all reinforcing each other. Content B duplicates much of this but substitutes some of the higher-quality trial detail sources with generic or vague pages (drugs.com approval history, privatedoc.com blog) that don't add specific data and could mislead an agent into citing non-specific or outdated-looking claims. Thus Content A provides a more complete and reliable basis for answering the question accurately."
+}

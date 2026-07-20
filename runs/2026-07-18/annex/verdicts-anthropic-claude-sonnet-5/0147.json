@@ -1,0 +1,11 @@
+{
+  "id": 147,
+  "query": "Red Lobster August 2024 sale 23 restaurants bankruptcy court buyers",
+  "topic": "Red Lobster",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "All results are only short snippet previews (Bing-style redirected URLs) rather than full article content, so the LLM only gets fragments about the sale approval and 23 closures without full context on buyer identity or financing details.",
+  "b_issues": "Reuters snippet is truncated before naming Fortress explicitly as the eventual buyer entity, but this is compensated by the ABC News article which fully names the buyer.",
+  "reasoning": "Both sets touch on the 23 restaurant closures (Aug 22 filing) and the bankruptcy sale process, but Content B provides fuller article excerpts, including the ABC News piece that explicitly names the buyer as RL Investor Holdings LLC (created by Fortress Investment Group affiliates, with TCW Private Credit and Blue Torch Capital as co-investors) and confirms the post-sale store count (544 locations). Content A only offers truncated snippet previews via redirect links, giving less substantive detail on the buyer and sale terms, even though the headlines gesture at the same events. This makes B more directly and reliably useful for answering the specific question about the sale, closures, and buyers."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 502,
+  "query": "Intel Foundry AWS framework agreement AI fabric chip 18A custom Xeon 6 Intel 3 announcement September 2024 details",
+  "topic": "Intel Foundry",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Kisaco Research result includes a vague/unverified claim about '20% performance improvements' that isn't in the primary sources and could be seen as speculative filler, but doesn't contradict core facts.",
+  "b_issues": "Does not directly include the primary Intel Newsroom or AWS press release text, relying instead on secondary summaries (though these are accurate); Network World adds a speculative 2026 timeline for additional designs that isn't confirmed in the original announcement.",
+  "reasoning": "Both content sets correctly convey the core facts: a multi-year, multi-billion-dollar Intel-AWS framework agreement announced Sept 16, 2024, involving an AI fabric chip on Intel 18A and a custom Xeon 6 chip on Intel 3, tied to Ohio fab expansion. Content A includes the actual Intel Newsroom excerpt matching the anchor almost verbatim, giving high-confidence primary-source grounding, plus a minor Kisaco Research overlay. Content B lacks the primary press release but compensates with multiple consistent secondary sources (Network World, TechPowerUp, AWSInsider, Technology Magazine) that corroborate the same facts accurately, including added context about Trainium/Graviton and Ohio's $28B investment. Neither set contains factual errors that would mislead an answer, and both fully cover the question's required details, so they are roughly equivalent in enabling a correct answer."
+}

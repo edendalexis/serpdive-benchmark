@@ -1,0 +1,11 @@
+{
+  "id": 80,
+  "query": "Blue Origin New Glenn hotfire test May 28 2026 anomaly damage launchpad",
+  "topic": "Blue Origin",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Includes an irrelevant/outdated result about a December 2024 hotfire test (unrelated to the May 28 2026 event), which could confuse the timeline. The Blue Origin result has a URL (ng-4-hotfire-updates) and title (GS1-3 Hotfire Updates) that don't match the actual page (new-glenn-return-to-flight) referenced in the anchor, raising provenance/reliability concerns, though the excerpted content itself is accurate. Otherwise the facts given (no injuries, FAA/NASA involvement, support tower damage, pad recovery plan) are correct and useful.",
+  "b_issues": "No significant factual flaws found; content is consistent with the anchor and adds specific verified details (lightning tower toppled, transporter-erector and hydraulic cylinders lost, hybrid launch pad redesign, N1-rocket comparison) from multiple reputable sources (Blue Origin official statement, CNN, Wikipedia, Spaceflight Now/YouTube, CNBC).",
+  "reasoning": "Both sets confirm the core facts: May 28, 2026 hotfire test anomaly at LC-36, no injuries, extensive pad damage, ongoing investigation, and recovery plans. However, Content B provides more precise, well-sourced damage details (loss of lightning tower, transporter-erector, hydraulic cylinders) directly from Blue Origin's own statement, corroborated by CNN, Wikipedia, and CNBC, with no contradictory or irrelevant content. Content A includes an off-topic result about a 2024 hotfire test that could mislead a model into conflating separate events, and its Blue Origin-sourced result has mismatched title/URL that weakens source reliability. Overall B offers a cleaner, more internally consistent, and more detailed basis for answering the question accurately."
+}

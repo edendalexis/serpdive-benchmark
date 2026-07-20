@@ -1,0 +1,11 @@
+{
+  "id": 547,
+  "query": "Eurosystem Distributed Ledger Technology DLT central bank money settlement tests completion",
+  "topic": "European Central Bank",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "None of the results in A include the key completion statistics (over 200 transactions, €1.59 billion total value, 64 participants, 40+ trials/experiments) that define the actual 'completion' announcement. The centralbanking.com snippet only refers to the first experiment (May 2024), not the completion. The BdE PDF and bankenverband.de results focus on the follow-up Pontes/Appia strategy rather than the completion details.",
+  "b_issues": "Includes an irrelevant Bank of England DLT Innovation Challenge result that doesn't pertain to the Eurosystem completion. Also lacks the full original Dec 4, 2024 ECB press release text, relying on secondary snippets for the exact figures.",
+  "reasoning": "The question asks about the completion of Eurosystem DLT tests for central bank money settlement. The anchor emphasizes specific completion metrics: 200+ transactions, €1.59 billion, 64 participants, 40+ trials/experiments, over May–November 2024. Content B's Finadium snippet explicitly states 'Eurosystem tests wrapup with €1.6bn transacted across 64 participants,' closely matching the anchor's figures, and also provides context on trials vs. experiments (real vs. mock settlement) via the ECB Feb 2025 press release. Content A's results, while relevant to the broader DLT initiative, do not surface these key completion statistics, focusing instead on the first experiment and follow-on Pontes/Appia strategy without confirming the actual completion metrics. Thus B provides more accurate and directly relevant facts to answer the question."
+}

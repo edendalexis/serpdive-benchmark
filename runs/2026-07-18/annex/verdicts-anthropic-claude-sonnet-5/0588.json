@@ -1,0 +1,11 @@
+{
+  "id": 588,
+  "query": "FTX independent board of directors members list John Ray III 2026",
+  "topic": "FTX",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Content A never lists the actual independent directors/trustees (e.g., Rishi Jain, Matt Rosenberg, Judge Farnan, Matt Doheny, Peter Greaves) that appear in the anchor's SEC filing; it only offers biographical background on Ray and vague references to 'a new slate of directors' without names.",
+  "b_issues": "Content B similarly omits the specific list of independent directors/trustees from the SEC filing; it offers biographical/background snippets (Wikipedia, LinkedIn, Yahoo, Gate.com) and a vague Banking Dive snippet that does not name any board members.",
+  "reasoning": "The anchor's key fact is the SEC Schedule I listing the FTX Recovery Trust trustees (Doheny, Farnan, Greaves, Jain, Ray, Rosenberg) as of the 2026 filing, which directly answers the query. Neither Content A nor Content B includes this document or any equivalent enumeration of the independent directors/trustees. Both sets instead provide general biographical or contextual information about John Ray III without naming the board members, making them equally insufficient to correctly answer the specific question."
+}

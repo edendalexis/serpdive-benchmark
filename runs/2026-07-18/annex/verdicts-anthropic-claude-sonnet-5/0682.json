@@ -1,0 +1,11 @@
+{
+  "id": 682,
+  "query": "Shein logistics hub Wrocław Poland jobs created December 2025",
+  "topic": "Shein",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Contains an irrelevant/off-topic LinkedIn snippet about unrelated logistics news (Da Nang, Amazon, tax rules), which is noise but doesn't undermine the core facts. All other results (SHEIN newsroom, sgieurope, Yahoo, iceclog) consistently confirm the 5,000 total jobs figure and 3,000 prior jobs figure.",
+  "b_issues": "The SHEIN newsroom snippet is garbled (title repeated many times with no substantive content, so it doesn't actually convey the 5,000 figure in readable form). The worldef.com result gives a conflicting date (Dec 15) for the opening versus the Dec 22 date confirmed elsewhere, creating a minor internal inconsistency. Only one result (sgieurope) clearly states the 5,000/3,000 job figures.",
+  "reasoning": "Both sets include the sgieurope.com result which clearly states the key facts: opening in Wrocław lifts total SHEIN jobs in Lower Silesia to at least 5,000, up from 3,000+ previously. Content A reinforces this with three additional sources (SHEIN newsroom, Yahoo, iceclog) that each clearly and consistently state the 5,000 figure, making the answer easy to extract and verify. Content B's SHEIN newsroom entry is corrupted (just repeated titles with no real content), and it introduces a conflicting date via worldef.com, slightly muddying the timeline. While B still allows a correct answer via sgieurope, A provides stronger, more redundant, and cleaner evidentiary support for the same facts."
+}

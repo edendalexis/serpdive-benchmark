@@ -1,0 +1,11 @@
+{
+  "id": 11,
+  "query": "TSMC Arizona additional investment 2026 total U.S. investment number of new plants announced March 2026",
+  "topic": "Taiwan Semiconductor Manufacturing Company",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A never states the key fact that the $100B brings the total number of U.S. facilities to 12 (it only mentions 'up to 12 fabrication plants and four advanced packaging facilities' in a confusing, seemingly separate count from tech-insider.org, which could be read as contradicting the '4 additional' framing). It lacks the official NIST/Commerce source, relying instead on secondary outlets (Tom's Hardware, 12News, tech-insider.org, IndustrialInfo) that give capex figures and background but don't clearly consolidate the plant-count total.",
+  "b_issues": "Minimal issues; content is consistent with the anchor. The Brownstone Research snippet is slightly off-topic/outdated (referencing an earlier $165B/3-fab figure) but doesn't contradict the main NIST-sourced facts.",
+  "reasoning": "Both sets correctly identify the additional $100B investment and the $265B total, but Content B includes the exact NIST and Commerce.gov sources (matching the anchor almost verbatim) which explicitly state '4 additional facilities' and 'bringing the total to 12 leading edge semiconductor and packaging facilities in the United States.' This directly answers the question's specific sub-parts (total investment, total U.S. investment, number of new plants). Content A has the core $100B/$265B/4-plant facts but its plant-total figure is muddled by a secondary source describing 'up to 12 fabrication plants and four advanced packaging facilities' which could be misread as a different total, and it lacks the authoritative government source for confirmation."
+}

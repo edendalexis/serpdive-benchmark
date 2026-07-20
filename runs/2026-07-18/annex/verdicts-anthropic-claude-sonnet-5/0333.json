@@ -1,0 +1,11 @@
+{
+  "id": 333,
+  "query": "Longlegs sequel box office gross budget 2024 vs 2028 production",
+  "topic": "Longlegs",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Includes a Reddit speculation result claiming a $3M budget, which contradicts the more reliable $10M budget figure and could confuse the model. Lacks specific info on the 2028 sequel's own production budget or details beyond release date; no mention of the $40-50M sequel budget context found in anchor's World of Reel result.",
+  "b_issues": "Also lacks explicit mention of the sequel's own production budget (the $40-50M figure from World of Reel is absent), relying only on the original film's budget/gross. Deadline result gives a very slightly different domestic figure ($74.3M) consistent with other sources, no real contradiction.",
+  "reasoning": "Both sets accurately convey the original Longlegs' 2024 box office (~$128M worldwide on <$10M budget) and the 2028 sequel's release date. However, Content A includes a low-quality, contradictory Reddit source suggesting a $3M budget, which could mislead an LLM into inconsistency. Content B's sources (Hollywood Reporter, Deadline, Variety, Wikipedia, The Numbers) are more authoritative and internally consistent, with Deadline and Wikipedia providing precise domestic/international breakdowns and additional context (e.g., Paramount announcement date, next Perkins project). Neither set explicitly gives the sequel's production budget, but B's overall factual consistency and source reliability are stronger."
+}

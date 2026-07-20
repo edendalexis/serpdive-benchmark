@@ -1,0 +1,11 @@
+{
+  "id": 934,
+  "query": "Klarna Significant Risk Transfer SRT Värde Partners consortium loan amount",
+  "topic": "Klarna",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "No major factual flaws; consistent with anchor. One result (fintechweekly) adds extra details about Värde's AUM ($17B) and deployment history ($13B since 2008) which are unverifiable against anchor but not contradictory. Yahoo result mentions a separate $516M deal, which is additional context not conflicting with the core $1.7B figure.",
+  "b_issues": "No major factual flaws; consistent with anchor. thenextweb result adds stock decline context (76% from IPO) which is tangential but not contradictory. All core facts ($1.7B, Värde Partners led consortium, $40B lending support, sixth SRT deal) are accurate and consistent.",
+  "reasoning": "Both Content A and Content B directly and accurately answer the query: a Värde Partners-led consortium entered a $1.7 billion SRT transaction with Klarna, supporting up to $40 billion in lending, as Klarna's sixth SRT deal. Both include the same core anchor sources (varde.com, connectmoney, investing.com) with identical accurate figures. Neither set contradicts itself or the anchor. Additional details in each (Yahoo's $516M mention in A, thenextweb's stock decline in B) are supplementary and don't detract from the core answer. Both are equally sufficient for a correct answer."
+}

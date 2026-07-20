@@ -1,0 +1,11 @@
+{
+  "id": 741,
+  "query": "Alaska man federal charges threats kill Supreme Court justices indictment status",
+  "topic": "U.S. Supreme Court",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Does not include the most recent update (26 charges, April 2026 guilty plea deal with possible no prison time) — stops at 'set to plead guilty' briefs, missing the final outcome. Otherwise consistent and accurate across indictment (22 counts) and subsequent guilty-plea development.",
+  "b_issues": "Includes an irrelevant, off-topic result (Alaska State Court Report about constitutional amendments) that adds no value. Like A, it lacks the most recent April 2026 plea agreement details (26 charges, potential no prison time), stopping at the 'set to plead guilty' stage.",
+  "reasoning": "Both sets provide the core facts: Panos Anastasiou, 76/77, indicted on 22 federal charges (threats against a federal judge and interstate threats) for sending 465+ violent/racist messages to six Supreme Court justices between March 2023 and mid-2024, later agreeing to plead guilty. Neither captures the very latest ADN detail (26 charges, April 2026 plea deal with possible no prison time), but Content A provides more topically relevant, reliable sources (PBS/AP, NBC, ABC7, Alaska Beacon, NYT) covering both the indictment and the guilty-plea status update, whereas Content B includes one irrelevant result (Alaska State Court Report on constitutional amendments) that wastes context space and adds no value. A's set is therefore more useful for accurately answering the question."
+}

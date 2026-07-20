@@ -1,0 +1,11 @@
+{
+  "id": 322,
+  "query": "Scottie Scheffler Travelers Championship 2026 final result",
+  "topic": "Scottie Scheffler",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "All snippets are narrative/wrap-up style; none give a single clean, structured 'final result' line (position, score, earnings) for Scheffler, requiring the model to piece together from multiple partial excerpts.",
+  "b_issues": "The ESPN table includes some odd/possibly fictional event names elsewhere in the season list (e.g., 'Cadillac Championship'), which could raise doubts about the page's overall accuracy, though the Travelers Championship line itself (T2, 259 -21, $2,160,000) is consistent with other sources.",
+  "reasoning": "Both sets correctly convey that Scottie Scheffler and Viktor Hovland tied at 21-under after 72 holes, went to a Monday sudden-death playoff, and Scheffler lost after missing a short birdie putt on the first playoff hole (matching the anchor). Content B additionally provides a concrete, structured stat line from ESPN giving Scheffler's exact finishing position (2-y), score (259, -21), and earnings ($2,160,000), which gives a clear, direct 'final result' answer. Content A conveys the same outcome but only through narrative snippets spread across several articles, making the final result slightly less directly stated. Both are accurate and non-contradictory, but B's explicit stat table makes it marginally more useful for directly answering the question."
+}

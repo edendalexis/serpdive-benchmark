@@ -1,0 +1,11 @@
+{
+  "id": 369,
+  "query": "GTA 6 special edition collector's edition contents price preorder bonus 2026",
+  "topic": "Grand Theft Auto VI",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Includes a leonidaverse.com/en/gta-6-preorder result claiming GTA 6 has 'Standard, Special, Ultimate and Collector's editions' with separate cover art descriptions, which is factually wrong and directly contradicts both the anchor (leonidaverse FAQ explicitly states 'There is no Special Edition and no Collector's Edition') and A's own gtabase result (which correctly says there is only one Ultimate Edition, no multiple special editions). A also includes a Facebook post claiming a 'COLLECTOR EDITION Pack $89.99' which is fabricated/unverified and inconsistent with official pricing ($79.99/$99.99). This creates internal contradictions that would mislead an LLM into inventing non-existent editions.",
+  "b_issues": "Minor: does not explicitly state the confirmed prices ($79.99/$99.99) in the leonidaverse snippet shown, though VGC source in the same set confirms these prices. No major factual errors; DraftKings source appropriately notes uncertainty about future special/collector editions rather than asserting false ones.",
+  "reasoning": "Both sets agree the game only has Standard and Ultimate editions per Rockstar's official confirmation. Content B stays consistent with this fact across all its sources (VGC confirms prices and Ultimate contents, DraftKings correctly notes no collector's edition confirmed yet, Rockstar official site listed). Content A, however, includes a result asserting nonexistent 'Special' and 'Collector's' editions and a Facebook post inventing a 'Collector Edition' price, directly contradicting its own gtabase source and the anchor's explicit clarification. This internal contradiction in A makes it more likely to produce an incorrect answer, so B better enables a correct response."
+}

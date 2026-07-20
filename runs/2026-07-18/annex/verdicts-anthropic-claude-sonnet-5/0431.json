@@ -1,0 +1,11 @@
+{
+  "id": 431,
+  "query": "Megadoc Mike Figgis documentary Megalopolis rental availability",
+  "topic": "Megalopolis",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A doesn't explicitly state rental pricing, but it does include the Criterion Channel streaming page, Apple TV listing, and a Deadline article about Studiocanal's acquisition, which are directly relevant to distribution/availability questions.",
+  "b_issues": "Content B focuses heavily on critical reviews (Letterboxd, IndieWire) and a theatrical listing (Frida Cinema) that, while informative about the film's content and theatrical run, provide little concrete information about streaming or rental availability beyond the Apple TV entry duplicated from A.",
+  "reasoning": "Both sets share the Wikipedia and Apple TV results, but Content A adds sources more directly tied to the film's distribution and availability (Criterion Channel streaming page, IMDb, and a Deadline article on Studiocanal's acquisition of the film), which better supports answering a question about where/how the documentary can be watched or rented. Content B's additional sources (Letterboxd, IndieWire, Frida Cinema) are review/critical or theatrical-only in nature and add little toward answering a rental-availability question, making Content A marginally more useful for this specific query."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 672,
+  "query": "Kamala Harris California governor 2026 bid announcement decision",
+  "topic": "Kamala Harris",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A's facts are accurate and consistent with the anchor, but it provides fewer independent confirmations and less detailed context (e.g., no mention of the full statement text, no context about the effect on the race like fundraising unfreezing or Kounalakis dropping out).",
+  "b_issues": "No factual flaws; content is accurate and consistent with the anchor, providing the full statement quote and additional context about the race dynamics.",
+  "reasoning": "Both sets of results confirm the core fact accurately: Harris announced on Wednesday, July 30, 2025, that she will not run for California governor in 2026, citing 'deep reflection' and leaving open the possibility of a 2028 presidential run. Content B provides the same accurate core answer as Content A, but includes more comprehensive supporting detail, including the full text of Harris's statement (via the LiveNOW/Fox transcript), additional context about the effect on the race (fundraising unfreezing per KQED, Kounalakis dropping out per Fox News), and matches the anchor's framing more closely with quotes and details. Content A is accurate but slightly thinner, though still fully sufficient for a correct answer. Neither contains contradictions or factual errors, but B offers a fuller, more detailed basis for a correct and nuanced answer."
+}

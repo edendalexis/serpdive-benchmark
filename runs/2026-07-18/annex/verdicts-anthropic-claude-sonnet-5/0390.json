@@ -1,0 +1,11 @@
+{
+  "id": 390,
+  "query": "H5N1 clade 2.3.4.4b human infection case fatality rate 2025",
+  "topic": "H5N1 bird flu",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Contains a result dated to 2026 ('global-summary-06262026.html') describing events after mid-2025, which is inconsistent with a 2025 query and could confuse the temporal context; also includes duplicate/near-duplicate WHO snippets (Jan 2025 and Oct 2024) without directly tying the ~50% CFR to clade 2.3.4.4b specifically, and doesn't explicitly quote a clean overall global CFR figure alongside the clade attribution.",
+  "b_issues": "No major factual flaws; all figures (global ~50% CFR, US 1.4% CFR, PAHO 48% CFR, Cambodia 2025 case/death counts) are consistent with known reporting and explicitly tied to clade 2.3.4.4b in the Frontiers source.",
+  "reasoning": "Both sets contain broadly accurate data, but Content B presents cleaner, internally consistent, clade-specific CFR figures (global ~50%, US ~1.4%, PAHO 48%) with reliable, clearly dated sources (WHO 2025, CDC Aug 2025, PAHO Mar 2025, NEJM, Frontiers, Science). Content A includes a suspicious result dated 2026 describing future events that don't align with the 2025 query timeframe, which risks misleading an LLM about current case counts and timeline, and its results are more redundant without as clear a clade-specific CFR statement."
+}

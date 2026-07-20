@@ -1,0 +1,11 @@
+{
+  "id": 709,
+  "query": "Judge approval deadline Tunney Act review DOJ $280 million Live Nation settlement terms",
+  "topic": "Ticketmaster DOJ lawsuit",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Lacks specific settlement terms (fee caps, ticket distribution rules, OVG termination); judge's name is garbled ('Subrmanian') due to truncated snippet; details of the $280M figure are vague (via Courthouse News, described as 'penalties to participating states' without further context).",
+  "b_issues": "Paul Weiss snippet is slightly outdated, stating the settlement 'has not yet been submitted' for Tunney Act review, which conflicts with the later-dated Pollstar/DigitalMusicNews info showing the review has begun; otherwise facts are consistent and accurate.",
+  "reasoning": "Both sets confirm the $280 million figure, the Tunney Act review requirement, and a September 4, 2026 comment deadline. However, Content B additionally supplies detailed and specific settlement terms (50% primary ticket distribution rule, 15% Ticketmaster fee cap, termination of Oak View Group agreement) and correctly names Judge Arun Subramanian, drawing from reputable legal analysis sources (Crowell & Moring, Paul Weiss, Kelley Drye). Content A gives a rough estimate of judicial decision timing (September/October) but omits concrete settlement terms and has a name typo, making it less complete for the multi-faceted question about deadlines, Tunney Act process, and settlement terms."
+}

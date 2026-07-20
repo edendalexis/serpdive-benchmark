@@ -1,0 +1,11 @@
+{
+  "id": 785,
+  "query": "Israel Lebanon Hezbollah strikes April 2026 ceasefire status Netanyahu",
+  "topic": "Benjamin Netanyahu",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A's results are heavily skewed toward June 4 2026 events (Hezbollah rejecting a later ceasefire deal) and its Wikipedia snippet is generic, giving no specific April 2026 dates or Netanyahu actions in that month. It lacks the direct April-specific details (e.g., the 16 April ceasefire, its extension, Netanyahu ordering intensified strikes) that the question asks about.",
+  "b_issues": "Content B also includes June 4 ceasefire material, which is beyond the April timeframe, but this doesn't contradict other facts; it's just extra context.",
+  "reasoning": "The question specifically asks about the April 2026 ceasefire status and Netanyahu's actions. Content B's Wikipedia excerpt explicitly cites the 16 April ceasefire, its extensions, and a week-by-week breakdown including 20-26 April, directly matching the anchor's timeline (ceasefire extended by three weeks around April 23-26, then Netanyahu ordering intensified strikes). B's BBC snippet also explicitly states Netanyahu ordered the military to intensify strikes 'last week' after the 16 April ceasefire failed, aligning with the anchor's BBC article about Netanyahu's order on 26 April. Content A's snippets are less anchored to April specifics, focusing mostly on a later June ceasefire deal and Hezbollah's rejection of it, offering less direct support for answering the April-specific question. Neither set contains outright factual contradictions, but B provides more relevant, dated evidence for the exact query timeframe."
+}

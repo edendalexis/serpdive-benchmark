@@ -1,0 +1,11 @@
+{
+  "id": 581,
+  "query": "Sam Bankman-Fried appeal ruling prison sentence June 2026",
+  "topic": "FTX",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Le Monde article mistakenly refers to the 'New York Court of Appeals' instead of the Second Circuit for the asset-forfeiture appeal, a minor factual slip; otherwise all sources (Forbes, Bloomberg, Washington Post) are consistent and directly address the June 12, 2026 ruling.",
+  "b_issues": "The Finance Magnates result is outdated content from the original 2024 appeal filing (mentions Ellison sentencing 'later this month,' Singh/Wang sentencing dates) and does not pertain to the June 2026 ruling, which could confuse the timeline. Washington Examiner and Yahoo pieces are accurate but some entries mix pre-ruling background with the ruling itself.",
+  "reasoning": "Both sets correctly convey that the Second Circuit upheld SBF's conviction and 25-year sentence on June 12, 2026, matching the anchor. Content A's five sources are all squarely about the ruling itself, from highly reliable outlets (Forbes, Bloomberg, Washington Post, Le Monde), with only a minor geographic/naming error in one article. Content B, while also correct on the core facts via Al Jazeera and Crowdfundinsider, includes a Finance Magnates article that is stale content from the original appeal filing period, which could mislead a model into conflating timelines or including outdated details (e.g., codefendant sentencing dates) when answering about the 2026 ruling. This makes Content A marginally more focused and reliable for answering the specific question."
+}

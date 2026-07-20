@@ -1,0 +1,11 @@
+{
+  "id": 328,
+  "query": "Scottie Scheffler 2026 U.S. Open Shinnecock Hills final position score final round pairing",
+  "topic": "Scottie Scheffler",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Content A does not explicitly give Scheffler's final position, score, or Round 4 stroke total for the final round, only background on his third-round comeback and confirmation that he was in the final pairing with Clark for Sunday's round.",
+  "b_issues": "Content B includes a snippet from usopen.com claiming Scheffler was 'E; F; +1. T7', which is inconsistent with other reporting (ESPN/AP articles cited in the anchor, and the FoxSports scorecard referenced in the question) that describe Scheffler finishing much closer to the lead (T2, -5) after a strong final round. This creates a factual contradiction that could mislead an LLM into reporting the wrong final position and score.",
+  "reasoning": "Neither result set contains the complete, verified final scorecard, but Content B introduces a specific, plausible-looking but likely incorrect statistic (T7, E) for Scheffler's final position, which directly contradicts other reliable sources indicating he finished much higher (T2, -5) after a strong final round comeback. Content A, while less specific about the final score, does not present any conflicting or false data—it accurately describes his placement in the final pairing and the six-shot deficit entering Sunday, which aligns with the anchor and other reputable sources (ESPN, AP). Since B's inclusion of an inaccurate stat could actively mislead an LLM into giving a wrong final position, Content A is the safer and more reliable set for accurate answering."
+}

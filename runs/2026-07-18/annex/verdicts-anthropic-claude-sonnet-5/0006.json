@@ -1,0 +1,11 @@
+{
+  "id": 6,
+  "query": "Venezuela 2024 election protests death toll confirmed casualties international reports",
+  "topic": "Venezuela election crisis",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A is almost entirely irrelevant to the query - it returns a generic Wikipedia portal on Venezuela, an ACLED homepage about Myanmar/Ukraine conflicts, and an Iran International article about Iran protests. None of these provide specific death toll or casualty figures for the 2024 Venezuela election protests. No usable facts to answer the question.",
+  "b_issues": "Contains slightly varying death toll figures across sources (22 from ACLED, 24 from The New Humanitarian, 12 from earlier anchor sources) reflecting different reporting dates/methodologies, but this is a minor inconsistency inherent to evolving casualty counts over time rather than a factual error, and is common in real reporting.",
+  "reasoning": "Content B provides multiple relevant, reliable sources (ACLED, Human Rights Watch, Wikipedia, The New Humanitarian, Congress.gov) with specific casualty figures (22 killed per ACLED, 24 killed per The New Humanitarian, HRW report on killings/disappearances) directly answering the query about death toll and international reports. Content A is almost completely off-topic, returning results about Myanmar civil war, Ukraine conflict data, and Iran protests instead of Venezuela-specific casualty information, making it essentially useless for answering the question."
+}

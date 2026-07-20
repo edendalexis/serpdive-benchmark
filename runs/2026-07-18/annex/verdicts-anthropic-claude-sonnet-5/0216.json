@@ -1,0 +1,11 @@
+{
+  "id": 216,
+  "query": "Lil Tay recent public appearance since death hoax Los Angeles airport September 2023 mother brother photos video",
+  "topic": "Lil Tay",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor: People.com snippet includes unrelated later-career details (2024 hospital, 2025 OnlyFin) that are not part of the death-hoax/airport event but are correctly attributed to Lil Tay's timeline; no factual errors about the mother/brother appearance.",
+  "b_issues": "Snippets are truncated and lack the concrete details (names of mother 'Angela Tian' and brother 'Jason Tian', description of the LAX outfit) that are needed to answer the question; the NY Post snippet is cut off before mentioning family members, and other entries are mostly link titles with minimal content.",
+  "reasoning": "Content A provides fuller, verifiable text from reliable outlets (NY Post, SCMP, LA Times, E! Online) that explicitly name Lil Tay's mother Angela Tian and brother Jason Tian, describe the LAX sighting, and give context on the death hoax timeline. Content B's results are largely thin snippets or link titles without the specific factual details needed (e.g., the NY Post entry cuts off before mentioning family), making it less useful for a direct answer despite including a YouTube video reference. Neither set contains outright contradictions, but A's content is richer and more directly answers the question."
+}

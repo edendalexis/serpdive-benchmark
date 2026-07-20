@@ -1,0 +1,11 @@
+{
+  "id": 611,
+  "query": "Suno AI June 2026 platform changes licensed models download policy free tier paid accounts official announcement",
+  "topic": "Suno AI",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A lacks a direct, explicit statement of the core policy facts (downloads require paid account; paid tier gets monthly caps with pay-for-more option). The DigitalMusicNews excerpt only mentions 'monthly download caps' vaguely and focuses on commercial-use/ownership language rather than the download policy itself. The YouTube video result is a third-party creator speculation piece, not an official source, and doesn't give concrete policy details in the snippet. The Reddit comment is anecdotal and vague ('things changing in 2026'). No result explicitly states free tier loses download ability or that paid tier has caps with paid extensions, forcing the LLM to infer rather than confirm.",
+  "b_issues": "The WMG official announcement excerpt is clear and directly answers the question with concrete policy facts. The Chartlex result adds mostly consistent supporting detail, though it introduces some extra context (Udio comparison) that isn't strictly needed but doesn't contradict the main facts. Minor redundancy but no real contradiction.",
+  "reasoning": "Content B includes a direct excerpt from the official WMG/Suno announcement stating the exact policy: downloading requires a paid account, and paid tiers have monthly caps with pay-for-more options. This directly and unambiguously answers the question. Content A's sources are more indirect—mostly third-party interpretations, vague mentions of 'monthly download caps,' and a YouTube video/Reddit thread that don't clearly state the core policy. B's inclusion of the primary source language gives a much stronger, more accurate basis for the LLM to answer correctly."
+}

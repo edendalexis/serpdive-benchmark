@@ -1,0 +1,11 @@
+{
+  "id": 329,
+  "query": "Scottie Scheffler 2026 Nicklaus Award fourth consecutive year announcement PGA Tour",
+  "topic": "Scottie Scheffler",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Sources are somewhat weaker (a promotional company blog 'thegolfwire.com' congratulating Scheffler, and a Facebook post) alongside solid ESPN/CBS confirmations; no direct pgatour.com official source is included.",
+  "b_issues": "Includes an older 2024 pgatour.com article about the second consecutive award, which could be confusing if misread, but it does not contradict the fourth-year facts and is clearly dated 2024.",
+  "reasoning": "Both sets confirm Scheffler won the Jack Nicklaus Award (PGA Tour Player of the Year) for a fourth consecutive season in 2025, matching Tiger Woods' feat. Content B includes official pgatour.com sources, including one from January 2026 explicitly referring to him as 'Reigning four-time PGA TOUR Player of the Year' as he begins his 2026 season, directly tying the fourth-year Nicklaus Award to the 2026 timeframe implied in the question. It also includes richer, accurate context (voting process, nominees, career stats) from ESPN. Content A relies more on secondary/promotional sources and a Facebook post, making it slightly less reliable and less directly connected to the 2026 season reference in the query."
+}

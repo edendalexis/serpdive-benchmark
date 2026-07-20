@@ -1,0 +1,11 @@
+{
+  "id": 845,
+  "query": "Taylor Swift Songwriters Hall of Fame induction June 2026 second-youngest inductee net worth 2026",
+  "topic": "Taylor Swift",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "The CNBC TV18 snippet is truncated right where it begins to state that Swift is the 'second-youngest' inductee, so the exact wording of that claim is cut off (though it does closely match the question's phrasing). It also mixes two different net-worth figures ($2B from March 2026 Iconoclast list and $1.6B from the earlier Jan 2026 Forbes piece) without clarifying the timeline, which could cause minor confusion but the more recent $2B figure aligns with the Forbes anchor.",
+  "b_issues": "None of B's results explicitly state or confirm that Swift is the 'second-youngest' inductee; the AP article only notes she is the youngest woman while Stevie Wonder was the youngest overall, leaving the 'second-youngest' claim unconfirmed. B's only net-worth figure ($1.6B from the Jan 2026 Forbes article) is outdated and contradicts the anchor's more current $2B figure (as of mid-2026), making the net-worth answer less accurate for 'net worth 2026'.",
+  "reasoning": "Content A provides a net-worth figure ($2B, dated March 2026) that closely matches the Forbes anchor's real-time $2B figure for 2026, giving a more accurate answer to the net-worth portion of the question. It also contains a direct (though truncated) reference to Swift being the 'second-youngest' inductee, closely mirroring the question's exact phrasing. Content B, while offering useful context about Stevie Wonder being the overall youngest inductee, never explicitly confirms the 'second-youngest' claim and relies on an outdated $1.6B net-worth figure that contradicts the anchor. Overall, A better supports a correct, well-sourced answer to both parts of the question."
+}

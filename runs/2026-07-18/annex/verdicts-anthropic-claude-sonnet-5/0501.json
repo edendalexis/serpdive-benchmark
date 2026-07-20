@@ -1,0 +1,11 @@
+{
+  "id": 501,
+  "query": "Intel Foundry independent subsidiary separation completion date board structure 2026",
+  "topic": "Intel Foundry",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "None of the results in A explicitly state a completion date for the subsidiary separation or describe a 2026 board structure; the intellionaire piece is about 2026 Foundry technology, not the legal separation, and none of the sources mention a target date or board composition beyond generic 'independent subsidiary' language.",
+  "b_issues": "B also lacks an explicit completion date for the separation and no source gives a precise 2026 timeline; the Intel financial framework article discusses margin targets through 2030, not the subsidiary completion date, which could be slightly misleading if conflated with the separation timeline.",
+  "reasoning": "Neither set contains an explicit statement of a specific completion date for the Intel Foundry subsidiary separation or a detailed 2026 board structure, so both are incomplete on the core question. However, Content B includes the CNBC snippet explicitly noting the foundry will have 'its own board' and the potential to raise outside capital, directly addressing the 'board structure' portion of the query, which Content A's result set does not include. This gives B a slight edge in relevance despite both lacking the precise date information requested."
+}

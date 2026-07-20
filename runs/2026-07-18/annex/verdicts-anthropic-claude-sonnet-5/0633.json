@@ -1,0 +1,11 @@
+{
+  "id": 633,
+  "query": "Samsung Korea partnership Perplexity AI pre-installed phones details",
+  "topic": "Perplexity AI",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "All five results in A are pre-announcement rumor/speculation pieces (Bloomberg, SCMP, ZDNet, Yahoo, LinkedIn) dated May-June 2025, describing talks 'nearing' a deal. None confirm the actual finalized partnership announced in Feb 2026, and none mention concrete implementation details (e.g., 'Hey Plex' activation, side-button trigger, system-level agent behavior) that the anchor confirms actually shipped with the Galaxy S26. This leaves the answer incomplete/outdated relative to the real facts.",
+  "b_issues": "Mostly reliable, but the Samsung Caribbean page lists Unpacked date as Feb 25, 2026, which conflicts slightly with other sources' Feb 21-22 dates (minor inconsistency, not central to the Perplexity partnership facts). The Bloomberg piece is also pre-deal, but it is supplemented by the more current Medianama piece confirming the actual announcement.",
+  "reasoning": "The anchor establishes that the Samsung-Perplexity partnership was officially announced around Feb 21-22, 2026, with specific integration details (system-level agent, 'Hey Plex' voice trigger, side-button activation, cross-app task execution). Content B includes the Medianama article that reports this actual confirmed announcement with specific quotes from Perplexity's CBO and concrete functional details closely matching the anchor. Content A only contains pre-announcement rumor coverage from mid-2025, which describes the deal as still 'nearing' completion and does not confirm it happened or provide the specific implementation details verified in the anchor. Thus B better enables a correct, up-to-date answer."
+}

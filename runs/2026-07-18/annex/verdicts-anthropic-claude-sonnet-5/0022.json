@@ -1,0 +1,11 @@
+{
+  "id": 22,
+  "query": "SpaceXAI Grok For Government US customers launch",
+  "topic": "xAI",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Does not include the original xAI announcement of Grok for Government; only covers later developments (Reuters report on struggles, TechCrunch on the $0.42 GSA deal, and a speculative/dubious 'SpaceX buys xAI for $250B' article from a low-quality blog that appears unreliable or satirical). Lacks core facts about the July 2025 launch, DoD contract, and what the suite of products actually includes.",
+  "b_issues": "Minimal issues; content is consistent with the anchor and provides accurate, well-sourced details about the launch date, DoD contract, GSA availability, and product capabilities.",
+  "reasoning": "Content B directly includes the xAI announcement page, govconwire, fedscoop, and x.ai/grok/government sources, all of which closely match the anchor's facts: the July 14, 2025 launch, the suite of products for federal/state/local/national security customers, the DoD contract, and GSA purchasing availability. Content A omits the actual launch announcement entirely and instead focuses on later, tangential, and even questionable content (including an unreliable claim about SpaceX acquiring xAI for $250B), making it far less useful for answering the specific question about the launch of Grok for Government."
+}

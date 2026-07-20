@@ -1,0 +1,11 @@
+{
+  "id": 836,
+  "query": "Julian Assange plea agreement court filing PDF case number Northern Mariana Islands June 2024",
+  "topic": "Julian Assange",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; the Washington Post PDF link is a mirror of the actual plea agreement and correctly shows case number CR-24-00014, matching the anchor. Minor duplication of nmid.uscourts.gov info.",
+  "b_issues": "The Wikimedia PDF is labeled 'Indictment' rather than the actual plea agreement, which could mislead about document type. No direct excerpt of the plea agreement's case number is shown; the case number 1:24-cr-00014 appears only in the CourtListener docket snippet, not with full plea-agreement text.",
+  "reasoning": "Content A provides a direct, verifiable snippet from the actual plea agreement PDF (via a Washington Post mirror) that explicitly states the case number 'CR-24-00014' and matches the anchor's content almost verbatim, giving the LLM everything needed to answer precisely. Content B, while containing relevant links, does not surface the plea agreement's text or case number directly and includes a mislabeled document (Indictment vs. Plea Agreement) that could cause confusion. Thus Content A more reliably supports a correct answer."
+}

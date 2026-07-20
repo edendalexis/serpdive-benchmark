@@ -1,0 +1,11 @@
+{
+  "id": 293,
+  "query": "X Grok AI Following feed ranking algorithm launch date",
+  "topic": "Twitter",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Dates are vague/inconsistent (Nov 29 via Magzter, 'Nov-Dec 2025' via a tweet, a LinkedIn post referring to a separate, earlier 'fully AI-driven feed by November' announcement that isn't clearly the same event), and includes speculative/unrelated content about a 2026 open-sourced algorithm, making it hard to pin down an exact launch date with confidence.",
+  "b_issues": "Minor: the exact date (Nov 27, 2025) is only explicit via the NDTV snippet's article date, not restated in body text, but this is still clear and consistent with other sources ('announced last week').",
+  "reasoning": "Content B includes the NDTV article (dated Nov 27, 2025) directly confirming Musk's announcement, plus corroborating details from Social Media Today, Gadgets360, and Social Samosa, all consistent with a late-November 2025 launch. Content A contains conflicting and vague date signals (Nov 29 magzter, 'Nov-Dec 2025' tweet, a LinkedIn post about a different November rollout announcement, and an unrelated 2026 algorithm overhaul), which could mislead an LLM into giving an incorrect or uncertain date. B provides clearer, more reliable, and consistent information to answer the question accurately."
+}

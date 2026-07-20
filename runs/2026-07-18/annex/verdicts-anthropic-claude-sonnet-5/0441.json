@@ -1,0 +1,11 @@
+{
+  "id": 441,
+  "query": "Notre-Dame summer 2026 Musique Sacrée concerts schedule ticket information",
+  "topic": "Notre-Dame de Paris",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A's summary snippets are fairly terse (e.g., 'tuesday 14 july', 'Tuesday 21 July 2026' for price info) and could be slightly ambiguous, but it does surface genuine ticket price (40€), booking phone number, and a page titled specifically 'Summer Concerts 2026', all consistent with the anchor.",
+  "b_issues": "Content B's top results focus on the 2025-2026 season page rather than summer-specific info, and includes irrelevant/confusing University of Notre Dame results (AC/DC concert at Notre Dame Stadium, SMND Faculty Showcase) that are a different 'Notre Dame' entirely, risking confusion for an LLM. It does include a useful mapado ticketing link with actual summer 2026 dates (Jul 21, 28, Aug 4, 11), but this is buried amid noise and lacks pricing/booking details.",
+  "reasoning": "Content A more directly and cleanly surfaces summer 2026-specific pages (title 'Summer Concerts 2026'), ticket pricing (Category 1: 40€), and a booking phone number, closely matching the anchor's schedule and ticket details. Content B mixes in irrelevant University of Notre Dame Stadium concert results that could mislead an LLM about which 'Notre Dame' is being discussed, and its most relevant results are framed around the full 2025-2026 season rather than the summer program specifically, making it slightly less focused and reliable for this exact query."
+}

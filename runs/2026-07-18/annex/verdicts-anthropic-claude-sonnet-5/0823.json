@@ -1,0 +1,11 @@
+{
+  "id": 823,
+  "query": "Sparrows Point Container Terminal Port of Baltimore groundbreaking year acres partners",
+  "topic": "Port of Baltimore",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "None of A's snippets explicitly state the groundbreaking year (2026); the only dates mentioned are October 2022 (JV announcement) and January 2025 (FAQ publication), which could mislead an agent into citing an incorrect groundbreaking year. Acreage (168) and partners (Tradepoint Atlantic, TiL) are correctly given, but the key 'year' fact is missing or ambiguous.",
+  "b_issues": "Minor: the worldcargonews snippet gives 'On 1 May' without the year in the text (though the year appears in the URL), but this is offset by the buildwcg.com result explicitly stating 'broke ground on May 1, 2026,' making the year clear and unambiguous elsewhere in the set.",
+  "reasoning": "Both sets correctly identify the 168-acre size, the Tradepoint Atlantic/Terminal Investment Limited partnership, and the $1.2B financing. However, the question specifically asks for the groundbreaking 'year,' and Content B explicitly and unambiguously provides 'May 1, 2026' (via buildwcg.com), while Content A only offers unrelated or misleading dates (2022, 2025) without ever stating 2026 in its visible content, risking an incorrect year in the final answer. B also adds useful details (state funding, job breakdown, CEO quote) that reinforce accuracy without contradiction."
+}

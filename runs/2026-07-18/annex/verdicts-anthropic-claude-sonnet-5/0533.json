@@ -1,0 +1,11 @@
+{
+  "id": 533,
+  "query": "Netflix Barbie in the Nutcracker animated special September 2026 release",
+  "topic": "Barbie",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Includes some tangential/unreliable Instagram sources, but multiple entries (Fandom wiki excerpt and an Instagram reel) explicitly confirm the September 8, 2026 Netflix premiere date, matching the anchor.",
+  "b_issues": "The excerpt from the Fandom wiki omits the specific September 8, 2026 date, and the Animation Magazine snippet only says the special 'will be on Netflix in 2026' without a specific date, conflating the September 8 date with the companion book release rather than the special itself, making it ambiguous whether Sept 8 applies to the Netflix special.",
+  "reasoning": "The question asks about the September 2026 release date of the Netflix special. Content A provides clear, repeated confirmation (from the Fandom wiki and an Instagram post referencing the announcement) that September 8, 2026 is the Netflix premiere date, consistent with the anchor. Content B's sources are vaguer, stating only 'in 2026' for the special and explicitly tying September 8 to the book release, which could mislead an LLM into either omitting the date or misattributing it. Thus A better supports a correct, specific answer."
+}

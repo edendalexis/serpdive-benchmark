@@ -1,0 +1,11 @@
+{
+  "id": 261,
+  "query": "2026 NBA Finals Game 4 comeback halftime deficit largest comeback in Finals history OG Anunoby tip-in 1.2 seconds recap",
+  "topic": "NBA Finals",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "None significant; multiple independent sources (revolt.tv, amNY, Facebook, YouTube, NBA.com) consistently confirm the 29-point deficit, 76-49 halftime score, OG Anunoby's 1.2-second tip-in, and the 'largest comeback in NBA Finals history' claim, matching the anchor.",
+  "b_issues": "The NBA.com 'Starting 5' snippet states it was merely the '3rd-largest halftime lead in Finals history,' which is confusing/potentially contradictory with the 29-point deficit and 'largest comeback' claim found elsewhere in the same result set (Wikipedia, ESPN). It doesn't clarify that the 29-point deficit occurred in the third quarter rather than at halftime, creating ambiguity that could mislead an answer.",
+  "reasoning": "Both sets contain accurate core facts (29-point comeback, Anunoby's 1.2-second tip-in, largest Finals comeback ever) from reliable sources. However, Content A's results are more directly aligned and unambiguous, explicitly stating the halftime score (76-49) and the point at which the 29-point deficit was reached, reinforcing the anchor's narrative. Content B includes a confusing statement about the '3rd-largest halftime lead' that could lead an LLM to conflate halftime deficit size with the overall largest-in-history claim, introducing potential inaccuracy or confusion."
+}

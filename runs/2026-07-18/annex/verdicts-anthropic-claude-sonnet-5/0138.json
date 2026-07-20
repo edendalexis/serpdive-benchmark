@@ -1,0 +1,11 @@
+{
+  "id": 138,
+  "query": "BTS The Return Netflix documentary HYBE agency internal tensions subject",
+  "topic": "BTS",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "No major factual errors; relies on brief snippets that only partially quote sources but content (Suga/RM wanting Korean lyrics, Big Hit's push for global appeal, Bang Si-hyuk agreeing with VP) is consistent with reliable reporting (Time, Rolling Stone, Salon).",
+  "b_issues": "Lacks concrete detail on the nature of internal tensions; the only explicit mention of 'tension' comes from a Reddit megathread post, which is a low-reliability, user-generated source and offers only a vague generalization ('art vs business vs fans vs public') rather than specifics. Wikipedia, Billboard, and Salon snippets included do not directly address the tension subject.",
+  "reasoning": "Both sets include reputable outlets (Rolling Stone, Salon, Wikipedia), but Content A provides more specific, sourced details relevant to 'internal tensions' with HYBE/Big Hit — e.g., Suga and RM pushing for more Korean lyrics against management's push for English/global appeal, and Bang Si-hyuk's alignment with the VP's global-market stance. This directly illustrates creative/business friction. Content B's only direct reference to 'tension' comes from an unreliable Reddit thread with vague language, while its other results (Wikipedia, Billboard, Salon) don't substantively address the tension theme. Thus Content A better equips an LLM to answer the specific question about internal tensions with HYBE."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 659,
+  "query": "UNRWA Lebanon flash appeal 2024 Israel-Lebanon conflict emergency shelters number displaced persons housed official figures",
+  "topic": "United Nations Relief and Works Agency for Palestine Refugees in the Near East",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Most results are dated 2026 (likely erroneous or mismatched to a later escalation), which do not match the 2024 conflict period asked about, and none of the figures (1,719 or 1,741 displaced) correspond to the 2024 IDP shelter registration numbers seen in the anchor (e.g., 3,281-3,757). However, A does include the 'Lebanon Crisis Flash Appeal' dated Oct 3, 2024, which is directly relevant to the 2024 crisis and gives a concrete appeal figure (US$27.3 million), providing at least some correct, on-topic 2024 data.",
+  "b_issues": "All results are dated 2026 (sitreps #6 and #7), which are unrelated to the 2024 Israel-Lebanon conflict the question asks about. There is no 2024 flash appeal or shelter/IDP figures for 2024 at all, making it impossible to answer the question about 2024 official figures.",
+  "reasoning": "Neither set exactly reproduces the anchor's 2024 IDP shelter numbers, but Content A at least surfaces a 2024-dated official UNRWA resource (the Lebanon Crisis Flash Appeal) with relevant figures for the 2024 crisis, whereas Content B is entirely composed of 2026-dated reports that are off-topic for the 2024 conflict, providing no usable information to answer the question as posed."
+}

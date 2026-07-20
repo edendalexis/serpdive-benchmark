@@ -1,0 +1,11 @@
+{
+  "id": 148,
+  "query": "Red Lobster 2025 July sales growth percentage year over year",
+  "topic": "Red Lobster",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Does not contain a direct, dated figure for July 2025 sales growth; includes an old Darden/NRN article about a July (year unspecified, likely from an earlier decade) comps report that could be mistaken for 2025 data, and a Feb 2026 12.5% figure that isn't July 2025.",
+  "b_issues": "Same old NRN July comps article as A, but also includes a low-quality Facebook post that self-contradicts (claims CEO said sales up 10% then also says 2025 sales up 40% from last year), introducing unreliable and conflicting figures with no clear source validation.",
+  "reasoning": "Neither source set contains an authoritative, clearly dated 'July 2025 sales growth %' figure. Both share the ambiguous NRN article. However, Content B adds a Facebook post with internally contradictory and unsourced percentages (10% vs 40%), which is a weaker, less reliable source likely to mislead an LLM into fabricating an answer. Content A avoids this specific contradiction, making it marginally safer despite still lacking a precise answer."
+}

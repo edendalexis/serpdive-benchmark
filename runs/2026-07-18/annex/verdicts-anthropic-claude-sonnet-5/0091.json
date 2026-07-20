@@ -1,0 +1,11 @@
+{
+  "id": 91,
+  "query": "Humane AI Pin server shutdown date bricked device hack status",
+  "topic": "Humane AI Pin",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "None significant; hackster.io result is somewhat thin (title truncated) but still points to the PenumbraOS jailbreak effort, giving hack-status info.",
+  "b_issues": "Does not mention any hacking/jailbreak/PenumbraOS effort at all, leaving the 'hack status' part of the query unanswered. Otherwise accurate on shutdown date and bricking/refund details.",
+  "reasoning": "Both sets correctly state the Feb 28, 2025, 12pm PT shutdown and bricking of the device, and both mention refund issues. However, the query specifically asks about 'hack status.' Content A includes a source (hackster.io) referencing PenumbraOS efforts to revive the Ai Pin, directly addressing that part of the question, consistent with the anchor's PenumbraOS/Wired/Liliputing results. Content B omits any mention of hacking or revival efforts, leaving that aspect of the question unanswerable from its content alone."
+}

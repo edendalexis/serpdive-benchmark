@@ -1,0 +1,11 @@
+{
+  "id": 32,
+  "query": "Gemini Spark Enterprise preview release date details",
+  "topic": "Google",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Some sources (mayhemcode blog) are lower authority/informal, but the specific dates given (trusted testers now, AI Ultra beta ~May 26, Workspace business users 'soon', no international date) are consistent with the anchor and provide concrete, directly relevant timeline details, including the enterprise/Workspace angle the query asks about.",
+  "b_issues": "The 'Gemini Enterprise release notes' result does not actually mention Gemini Spark at all, making it irrelevant to the query despite its promising title. The YouTube video is a low-reliability source with no transcript beyond a vague description. PCMag content is very thin and generic. None of the results specifically address 'Enterprise' rollout timing for Spark beyond the general AI Ultra subscriber beta mentioned in the Yahoo article (also present in the anchor).",
+  "reasoning": "Content A's mayhemcode result directly addresses the enterprise/business-user rollout angle implied by the query ('Workspace business users... soon') alongside specific dates for trusted testers and AI Ultra beta (~May 26), giving a fuller, more concrete timeline. Content B's unique result meant to address 'Enterprise' (the docs.cloud.google.com release notes) fails to actually mention Spark, and its other results largely duplicate the anchor without adding enterprise-specific detail. Thus Content A better enables a correct, detailed answer to the query."
+}

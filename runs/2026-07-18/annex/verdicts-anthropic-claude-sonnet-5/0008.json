@@ -1,0 +1,11 @@
+{
+  "id": 8,
+  "query": "July 27 2026 municipal elections Venezuela turnout results opposition boycott",
+  "topic": "Venezuela election crisis",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "All five results are entirely irrelevant to the query — they cover electoral assistance textbooks, non-citizen suffrage, Cameroon's presidential election, Colombia's peace process, and a Georgia public radio podcast. None mention Venezuela's July 27 municipal elections, turnout figures, or the opposition boycott. An LLM given only this content could not answer the question at all.",
+  "b_issues": "Content B has some noise (Mizzima/Facebook snippets are low-quality and one Facebook snippet is contradictory, suggesting broad opposition participation which conflicts with the boycott narrative), and the query's 'July 27 2026' framing is inconsistent with the actual 2025 date, but the core relevant facts are present.",
+  "reasoning": "Content B contains directly relevant material: the Venezuelanalysis piece explains the July 27 municipal vote, the PSUV candidate process, and explicitly notes Machado-led opposition calls for boycott; the Freedom House report corroborates opposition boycotts of Maduro-controlled elections; and Facebook snippets reference the ruling party's sweeping victory in municipal elections. This allows an LLM to construct a reasonably accurate answer about the boycott and outcome, even though turnout figures are not explicitly stated. Content A's results are completely off-topic and provide zero usable information for the question, making it useless for answering correctly."
+}

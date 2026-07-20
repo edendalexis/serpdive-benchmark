@@ -1,0 +1,11 @@
+{
+  "id": 803,
+  "query": "Satya Nadella Mustafa Suleyman Jacob Andreou Microsoft AI leadership reorganization Copilot products large language models 2026",
+  "topic": "Satya Nadella",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A never includes the primary Microsoft blog announcement, relying only on secondary press coverage (GeekWire, CNBC, SAMexpert, Bizjournals, CRN). While these are generally accurate and consistent (Andreou becomes EVP of Copilot reporting to Nadella, Suleyman shifts to frontier models/superintelligence), the lack of the primary source means the LLM must infer exact quotes/details second-hand.",
+  "b_issues": "Includes a low-reliability personal blog (robquickenden.blog) that adds unverified specifics (Perry Clarke, Charles Lamanna leading M365 apps) not corroborated elsewhere, and the SAMexpert excerpt introduces tangential/speculative market-share and stock data that isn't central to the leadership question and could distract or be inaccurate.",
+  "reasoning": "Both sets converge on the same core facts matching the anchor: Nadella announced the reorg on March 17, 2026; Jacob Andreou (former Snap exec) becomes EVP of Copilot overseeing unified consumer/commercial teams, reporting to Nadella; Mustafa Suleyman shifts focus to frontier AI models/superintelligence. B has an edge because it includes the actual Microsoft blog post (the anchor's top and most authoritative source) with direct quotes about Andreou's role and Suleyman's model focus, giving the LLM primary-source grounding. A compensates with additional secondary sources (CRN, Bizjournals) that add some extra organizational detail (e.g., four new pillars) but never surfaces the primary announcement itself. Neither set contains outright contradictions on the core facts, but B's inclusion of the primary source makes it marginally more reliable for accurately answering the question, despite some added noise from a lower-quality blog."
+}

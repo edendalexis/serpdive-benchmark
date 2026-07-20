@@ -1,0 +1,11 @@
+{
+  "id": 19,
+  "query": "TSMC Arizona fab construction progress 2026 3nm 2nm production start date employment number",
+  "topic": "Taiwan Semiconductor Manufacturing Company",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "A's results are thinner on the specific numeric answers: no explicit statement of the 3nm production date matching the anchor (2H27), and the Wikipedia snippet retrieved is generic (targets 2027/2029) rather than the more precise 2H27 figure. The SemiWiki result is largely about Samsung's competing Texas fab, which could confuse an LLM into attributing Samsung's 2026 3nm/2nm claims to TSMC. Employment figures are only the generic NIST CHIPS figures (6,000 direct, 20,000 construction), with no current headcount.",
+  "b_issues": "The tech-insider.org source is a low-authority blog with some speculative-sounding specifics (e.g., exact revenue figures, employee counts) that can't be fully verified, and one entry restates general TSMC.com boilerplate with no useful content. Minor redundancy across sources.",
+  "reasoning": "Content B directly supports the anchor's key fact: the Wikipedia excerpt explicitly states 'TSMC announced in January 2026 that volume production of 3nm chips at the second fab would start in the second half of 2027,' matching the anchor's 2H27 claim precisely. B also supplies employment figures (~3,000 current workers, thousands more planned), fab-by-fab node assignments (Fab2=3nm 2027, Fab3=2nm 2028-2029, A16 node), and construction status (Fab2 complete, Fab3 groundbreaking) from multiple consistent sources (Wikipedia, Arizona Tech Council, TSMC careers page, tech-insider). Content A covers similar ground but lacks the precise 2H27 date corroboration, and includes an off-topic Samsung result that risks conflating competitor timelines with TSMC's, making it less reliable for answering the specific question accurately."
+}

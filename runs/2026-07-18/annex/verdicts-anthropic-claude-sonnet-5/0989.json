@@ -1,0 +1,11 @@
+{
+  "id": 989,
+  "query": "Sundar Pichai AI Impact Summit 2026 AlphaFold emerging economies remarks",
+  "topic": "Sundar Pichai",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A's results are less focused on the specific AlphaFold + emerging economies linkage; the Mashable article is largely irrelevant (space data centers), and the LinkedIn/YouTube snippets are thin, offering only fragmentary confirmation of 'leapfrog' language without AlphaFold detail in the same result.",
+  "b_issues": "Minimal - the CNBC preview article is slightly less directly relevant (pre-summit context) but still useful background; no significant factual inaccuracies noted.",
+  "reasoning": "Content B provides a dedicated, on-topic article (ETEnterpriseai) that directly ties together Pichai's 'hyper progress' and 'leapfrog' remarks about emerging economies, plus the same singjupost transcript excerpt containing Demis Hassabis's specific AlphaFold quotes ('we're very proud of the impact that programs like AlphaFold have had... I hope will be the first of many advances'). This gives a more complete, accurate, and directly relevant set of facts for answering the compound query about AlphaFold and emerging economies remarks. Content A's results, while including the same singjupost transcript, otherwise lack a source that explicitly connects AlphaFold to emerging-economy leapfrogging, and includes a less relevant Mashable piece about space data centers, making it comparatively weaker for fully answering the question."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 602,
+  "query": "Bank of Japan June 2026 Monetary Policy Meeting vote breakdown dissenting board member short-term policy rate 1.0% statement",
+  "topic": "Bank of Japan",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Neither result directly confirms the June 2026 7-1 vote details; the second result is about a different, earlier meeting (0.25% rate, Tamura dissent) and is irrelevant/outdated, potentially confusing the agent. Does not itself contain the 1.0% rate or Asada dissent details.",
+  "b_issues": "All results are from low-quality, non-authoritative blog/content-farm domains (coloradoswingdance.org, shoptoastytoes.com, custommapposter.com, yfgcinternational.com) with duplicated content, no bylines, and fabricated-sounding details (three dissenters, 0.75% rate) that directly contradict the anchor's confirmed facts (7-1 vote, 1.0% rate, single dissenter Asada). This content is factually wrong and unreliable.",
+  "reasoning": "Content A, while not perfectly on-point, comes from a legitimate financial news source (Yahoo/Reuters) and the official BOJ meetings index page, neither of which contradicts the anchor facts—it's just incomplete/outdated. Content B consists entirely of dubious content-farm articles that assert a different, incorrect vote breakdown (3 dissenters, 0.75% rate) that directly conflicts with the verified anchor facts (7-1 vote, 1.0% rate, single dissenter Toichiro Asada). Using Content B would likely lead the agent to give a factually incorrect answer, whereas Content A, though weak, would not actively mislead."
+}

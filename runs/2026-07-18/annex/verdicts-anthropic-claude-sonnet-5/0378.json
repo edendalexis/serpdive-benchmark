@@ -1,0 +1,11 @@
+{
+  "id": 378,
+  "query": "OpenAI Sora support article export window existing videos sora.com library availability after shutdown 2026",
+  "topic": "Sora OpenAI",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "The official help.openai.com snippet in A omits the specific export mechanism (the sora.chatgpt.com/sunset export page), giving only the general data-deletion policy. This leaves out a key actionable fact directly relevant to the query about exporting the existing video library.",
+  "b_issues": "Includes a low-reliability Facebook post as a source, and the milvus.io article describes downloading via 'hovering over media and selecting Download' which is a slightly different (though not necessarily contradictory) description of export than the sora.chatgpt.com/sunset export page cited elsewhere.",
+  "reasoning": "Both sets agree on the core dates (April 26, 2026 app shutdown; September 24, 2026 API shutdown) and the fact that a final export window is undecided but will be emailed. However, Content B's help.openai.com excerpt uniquely includes the concrete, official instruction: 'You can export content you created in Sora by going to sora.chatgpt.com/sunset and clicking on Export,' which directly answers the query about accessing/exporting the existing video library. Content A's corresponding excerpt omits this crucial detail, focusing only on the data-deletion timeline. This makes B more complete and precise for answering the specific question, despite including one less-reliable source (Facebook)."
+}

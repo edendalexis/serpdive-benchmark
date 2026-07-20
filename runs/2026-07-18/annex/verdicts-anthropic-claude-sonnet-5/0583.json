@@ -1,0 +1,11 @@
+{
+  "id": 583,
+  "query": "DOJ investigation FTX hacking attempts missing assets recent status 2026",
+  "topic": "FTX",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "All results are from 2022 and none address the 2026 status; no mention of recent developments, recoveries, or asset movements in 2026, leaving the 'recent status 2026' part of the query completely unanswered.",
+  "b_issues": "Most results are also from 2022, and background context (Wikipedia, EBSCO) is generic; however it does include one 2026-dated source (Ropes Gray Crypto Quarterly, July 2026) noting a DOJ/FBI recovery of over $600,000 on April 1, 2026, providing at least a partial answer to the 'recent status 2026' part of the query.",
+  "reasoning": "Both sets are dominated by 2022-era reporting on the original $372–650M FTX hack investigation, but only Content B contains a 2026-dated source with concrete information about a 2026 DOJ recovery action, which is directly relevant to the 'recent status 2026' portion of the question. Content A provides no 2026 information at all, making it less useful for answering the full query."
+}

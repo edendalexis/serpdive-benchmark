@@ -1,0 +1,11 @@
+{
+  "id": 493,
+  "query": "Wimbledon 2026 champions dinner Noskova Sinner Guo Mladenovic doubles results",
+  "topic": "Wimbledon",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Does not include the actual champions' dinner/ball article (the anchor's primary source) at all; only covers doubles and singles results without addressing the 'champions dinner' aspect of the query directly.",
+  "b_issues": "Includes a stray, oddly dated 2029 WTA scores page snippet that is irrelevant/confusing, though it does not introduce factual errors to the main narrative.",
+  "reasoning": "The query explicitly asks about the 'champions dinner' along with results. Content B includes the wtatennis.com article about the champions' dinner/ball (matching the anchor's top result) with details on Noskova/Sinner's dance and brief mention of Mladenovic/Guo's doubles win, plus separate detailed sources for the doubles final score (6-3, 7-5 over Dabrowski/Stefani) and singles results (Sinner over Zverev, Noskova over Muchova). Content A omits the champions dinner article entirely, focusing only on match results, making it less complete for the specific query about the dinner event. Both sets agree on core factual results (scores, winners), so B better satisfies the full scope of the question."
+}

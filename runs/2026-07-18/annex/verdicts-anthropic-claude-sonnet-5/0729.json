@@ -1,0 +1,11 @@
+{
+  "id": 729,
+  "query": "Temu US local fulfillment model US-based sellers marketplace only transition details announced 2025",
+  "topic": "Temu",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Includes a low-quality Facebook post source with irrelevant embedded image code, reducing reliability; content is largely repetitive of the anchor articles without added specific detail about the marketplace mechanics or seller onboarding timeline.",
+  "b_issues": "The rethink.industries article discusses seller success one year later, which is useful context but not directly about the 2025 tariff-driven transition; marketplacepulse.com date (March 15) refers to an earlier marketplace expansion announcement, which could be confused with the May 2025 tariff-driven shift if not read carefully.",
+  "reasoning": "Both sets confirm the core facts (Temu shifted to local fulfillment via US-based sellers after the de minimis exemption ended, pricing unchanged, recruiting US sellers). However, Content B provides additional specific details that better answer the 'marketplace only transition' aspect of the question: marketplacepulse.com explains the mechanism (sellers use domestic warehouses, Temu doesn't manage pricing/marketing, mimicking Amazon/eBay/Walmart marketplaces) and gives a concrete date for the marketplace expansion to US sellers; rethink.industries adds real-world examples of US sellers scaling on Temu's Local Seller Program. Content A's sources are largely duplicative of the anchor and include a low-quality, cluttered Facebook post source. Overall, B offers more substantive and specific detail on the marketplace transition mechanics, making it the stronger set for fully answering the question."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 569,
+  "query": "Hades II Post-Launch Patch 3 patch notes latest changes",
+  "topic": "Hades II",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A contains no information about Hades II Post-Launch Patch 3 or any recent patch notes at all. Results are generic pages about Hades (the original game), Greek mythology, and Wikipedia articles unrelated to patch notes. Completely fails to answer the query.",
+  "b_issues": "Content B does not directly cover 'Patch 3' by that exact name (the anchor suggests the naming may actually be Post-Launch Patch 2 and its hotfixes rather than a distinct 'Patch 3'), and includes some content about the original Post-Launch Patch (not Patch 2) mixed in, which could cause some confusion about version numbering. It also lacks the specific hotfix 3/hotfix 4 details mentioned in the anchor.",
+  "reasoning": "Content B at least provides real, relevant information about Hades II patch notes, including specific details from Post-Launch Patch 2 and general patch note history, giving the LLM some usable material to construct an answer about recent Hades II updates, even if it doesn't perfectly match a 'Patch 3' naming convention. Content A is entirely irrelevant, discussing the original Hades game and Greek mythology with zero connection to Hades II patch notes, making it impossible to answer the question at all."
+}

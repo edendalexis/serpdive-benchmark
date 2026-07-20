@@ -1,0 +1,11 @@
+{
+  "id": 523,
+  "query": "Anthropic 10 million investment Canadian AI research announcement",
+  "topic": "Anthropic",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Does not include the primary Anthropic announcement source; relies on secondary sources like Odaily (a crypto/news aggregator with a slightly odd USD conversion) and a promotional YouTube video summary, which are less authoritative though not factually contradictory.",
+  "b_issues": "No major factual issues; content is consistent across sources and includes the official Anthropic announcement page directly.",
+  "reasoning": "Both sets converge on the same core facts ($10M CAD, eight institutions including Amii, Mila, Vector, CHEO, CAMH, Université Laval, U of Toronto, U of Saskatchewan, $5,000 USD startup credits, Canada's Claude usage ranking). However, Content B includes the primary source (anthropic.com) directly, giving the LLM access to the original announcement's exact wording, and supplements it with reputable secondary sources (EdTech Innovation Hub, TheNextWeb, Seeking Alpha, Yahoo Tech). Content A lacks the primary source and includes lower-quality sources (a promotional YouTube video and Odaily, which introduces a slightly confusing USD conversion), making B marginally more reliable and complete for accurately answering the question."
+}

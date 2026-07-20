@@ -1,0 +1,11 @@
+{
+  "id": 895,
+  "query": "Alien Romulus sequel Steve Asbell confirmed in development October 2024 20th Century Studios 2025 reaffirmed",
+  "topic": "Alien: Romulus",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Confirms the October 2024 Asbell/THR interview via Fangoria, filmstories, gamereactor, and Yahoo, which is solid. However, the 2025 'reaffirmed' angle relies on a low-reliability Facebook post claiming filming starts October 2025, which is not a credible or verifiable source and could mislead the LLM.",
+  "b_issues": "Provides good corroboration of the October 2024 Asbell confirmation and additional 2025 updates from more reliable outlets (Yahoo, IGN, Nexus Point News, The Playlist) about director search (Sarnoski) and Álvarez's involvement as producer, though it lacks an explicit standalone 2025 'reaffirmation' statement from Asbell himself.",
+  "reasoning": "Both sets confirm the core October 2024 Asbell/THR interview confirming a sequel is in development, matching the anchor. For the 2025 reaffirmation component, Content B offers more reliable and detailed sourcing (Yahoo noting Asbell's 'late last year' comments still being referenced in 2025, plus additional developments like director considerations), whereas Content A relies on an unreliable Facebook post for its 2025 information. This makes B's overall factual foundation stronger and more trustworthy for constructing an accurate answer to the full question."
+}

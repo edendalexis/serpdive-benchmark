@@ -1,0 +1,11 @@
+{
+  "id": 971,
+  "query": "JD Vance PM Narendra Modi Delhi visit April 2025 bilateral trade deal tariffs",
+  "topic": "JD Vance",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "None significant; all sources are consistent, dated April 21, 2025, and align factually with the anchor (Vance's four-day personal visit, talks with Modi, tariff avoidance, trade deal progress).",
+  "b_issues": "Includes a whitehouse.gov result dated 'Feb 6, 2026' referencing a 'United States-India Joint Statement' that discusses tariffs and Trump-Modi meeting dates in a confusing, likely anachronistic/fabricated way (mixing 2025 executive order dates with a 2026 publication date), which could mislead a model about the timeline or cause it to cite a nonexistent/inaccurate future document. This introduces potential confusion not present in Content A.",
+  "reasoning": "Both sets provide multiple reliable, contemporaneous sources (Reuters, AP, NPR, BBC, CNBC, LA Times, OPB, NBC) confirming the core facts: Vance's April 2025 four-day visit to India, talks with Modi on trade and tariffs, and reported 'significant progress' on a bilateral trade deal. Content A's five sources are all clean, consistent, and directly relevant with no anomalies. Content B has strong relevant content too, but it also includes a jarring, oddly-dated 'whitehouse.gov' result from 2026 that risks introducing confusion or inaccurate context into the timeline, making Content A the safer and cleaner set for answering the question correctly."
+}

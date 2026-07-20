@@ -1,0 +1,11 @@
+{
+  "id": 222,
+  "query": "Tesla 2025 EV sales year over year percentage change",
+  "topic": "Tesla",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Almost entirely about 2026 data (Q2 2026 deliveries up 25%, IEA 2026 outlook) rather than 2025 annual figures; contains no clear statement of Tesla's full-year 2025 YoY change, and could mislead a model into citing 2026 growth figures as if they answered the 2025 question.",
+  "b_issues": "No single result states the precise full-year 2025 global decline (9%, 1.63M vs 1.79M) matching the anchor; data is fragmented across quarters and regions (US-only 8.9% decline, Q1 2025 13% drop, H1 2025 'record' figure that seems inconssistent), requiring inference rather than a direct answer.",
+  "reasoning": "Neither source gives the exact anchor figure, but Content B at least contains multiple genuinely relevant 2025 Tesla sales decline data points (Cox Automotive US -8.9%, Q1 2025 -13%, roadgenius historical trend) that together support the correct narrative of a YoY sales decline in 2025. Content A is largely irrelevant to the 2025 question, focusing on 2026 quarterly increases and general EV market stats, which could lead to an incorrect or confused answer about Tesla's 2025 performance."
+}

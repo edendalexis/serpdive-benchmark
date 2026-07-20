@@ -1,0 +1,11 @@
+{
+  "id": 850,
+  "query": "SAG-AFTRA Sean Astin president first policy initiatives priorities 2025",
+  "topic": "SAG-AFTRA",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A only contains one result about Astin announcing his candidacy in July 2025 - it does not discuss his actual policy initiatives or priorities as president, since he hadn't been elected yet at the time of that article. It fails to address the question about his priorities as president in 2025.",
+  "b_issues": "Contains an Instagram result with clearly erroneous future dates (2026 photos referenced in a 2025 context), which is a minor internal inconsistency, but the core content (AI protections, health/pension plans, streaming residuals) is corroborated elsewhere in the results and aligns with the anchor.",
+  "reasoning": "Content B provides multiple relevant sources directly addressing Astin's priorities as SAG-AFTRA president, including a YouTube video titled 'Day-One Priorities' mentioning health/pension plans, AI, and modernizing member experience, his campaign announcement listing AI protections, health/pension fixes, streaming residuals, and bonus packages, and the LA Times article confirming his election and upcoming contract negotiations. This aligns well with the anchor's themes (AI protections, health/pension plans, casting issues). Content A only includes a single pre-election article about Astin announcing his candidacy, which does not address his actual priorities as president since he wasn't yet elected - it fails to answer the question about his post-election policy initiatives and priorities in 2025."
+}

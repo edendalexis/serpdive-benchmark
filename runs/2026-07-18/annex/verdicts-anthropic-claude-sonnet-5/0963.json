@@ -1,0 +1,11 @@
+{
+  "id": 963,
+  "query": "India Italy Special Strategic Partnership Narendra Modi Giorgia Meloni joint roadmap cooperation sectors",
+  "topic": "Narendra Modi",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Includes lower-reliability sources (YouTube video descriptions, a Facebook post) and the Facebook snippet cites a $22 billion trade target that contradicts the $20 billion figure given elsewhere (and in the anchor/Hindu article), creating an internal contradiction. Sector detail is narrower (mainly defence platforms and labor mobility).",
+  "b_issues": "Slightly less detail on specific defence platforms (helicopters, naval systems, electronic warfare) compared to the official PDF excerpt in A, though esteri.it does mention the Defence Cooperation Agreement and industrial roadmap generally.",
+  "reasoning": "Both sets include an official government source confirming the Special Strategic Partnership and roadmap. However, Content B's esteri.it interview provides a broader, consistent list of cooperation sectors (agri-food, infrastructure, transport, innovation, space, AI/robotics, defence) plus context on IMEC and the EU-India FTA, all from a reliable official Italian foreign ministry source, without contradiction. Content A includes a strong official PDF excerpt but pairs it with less authoritative YouTube and Facebook results, one of which states a conflicting €22 billion trade target versus the €20 billion figure elsewhere, introducing an internal inconsistency that could mislead an LLM."
+}

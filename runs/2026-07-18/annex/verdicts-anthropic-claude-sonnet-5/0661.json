@@ -1,0 +1,11 @@
+{
+  "id": 661,
+  "query": "Ilya Sutskever 2026 Musk v Altman trial OpenAI stake amount testimony source",
+  "topic": "Ilya Sutskever",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "No major factual flaws; consistent with anchor ($7 billion stake, Reuters/Forbes/Wired/Observer sources all align).",
+  "b_issues": "No major factual flaws; consistent with anchor. Adds detail that stake was ~$5 billion in November 2025 rising to ~$7 billion, which is additional context not contradicting the core fact.",
+  "reasoning": "Both content sets provide multiple reliable, mutually consistent sources (Forbes, Observer, Reuters via Forbes/Wired, Ctech) confirming the core fact that Ilya Sutskever testified on May 11, 2026 that his OpenAI stake is worth approximately $7 billion, matching the Bloomberg anchor. Both include the source attribution (testimony under questioning during the Musk v. Altman trial) and corroborating outlets. Neither set contains contradictory or inaccurate information relative to the anchor. Content B includes a slightly more detailed data point (stake value history from $5B to $7B) but this doesn't make it meaningfully better for answering the core question, and both are equally sufficient and reliable for a correct answer."
+}

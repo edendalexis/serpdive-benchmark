@@ -1,0 +1,11 @@
+{
+  "id": 454,
+  "query": "2024 Nobel Prize Chemistry laureates official institutional affiliations at time of announcement",
+  "topic": "Nobel Prize 2024",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A's search results do not contain the actual institutional affiliations of the laureates. The Nobel press-release page snippet returned is just a generic description without the affiliation details; other results (ACS, ChemistryViews, Chemistry World) are irrelevant or about the 2025 prize, and none state that Baker is at University of Washington/HHMI or that Hassabis and Jumper are at Google DeepMind. An LLM relying solely on this content could not accurately answer the question.",
+  "b_issues": "The Grokipedia result is a less authoritative/user-generated source and not specific to 2024 details beyond generic claims. The Cambridge and PubMed results add tangential/alumni context that could mildly confuse (Cambridge as alumni institution, not official affiliation at time of prize) but this is minor and doesn't contradict the core facts.",
+  "reasoning": "Content B's top result (Nobel press release snippet) explicitly states David Baker's affiliation as 'Professor at University of Washington, Seattle, WA, USA and Investigator, Howard Hughes Medical Institute, USA,' and the YouTube result confirms 'David Baker, University of Washington.' Although the snippet for Hassabis/Jumper's Google DeepMind affiliation is not fully spelled out in the visible snippet, it is strongly implied by context and can be cross-referenced with other results (e.g., Cambridge page mentioning them alongside Nobel Chemistry 2024). Content A, in contrast, provides no usable affiliation data at all across its five results, making it insufficient for correctly answering the question."
+}

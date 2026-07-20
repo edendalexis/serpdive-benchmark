@@ -1,0 +1,11 @@
+{
+  "id": 719,
+  "query": "26th Franco-German Ministerial Council July 2026 defence security council outcomes agreements",
+  "topic": "Emmanuel Macron",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A's snippets are somewhat fragmentary (focus heavily on economic/space topics rather than defence specifics), and doesn't include full defence outcomes text, but it does directly link to and quote from the actual 26th Ministerial Council conclusion documents (Bundesregierung and Elysee official PDFs) as well as the Franco-German Defence and Security Council conclusion page matching the anchor.",
+  "b_issues": "Content B mixes in irrelevant or mismatched results: a 2025 (not 2026) Franco-German Defence and Security Council conclusion, an EU Foreign Affairs Council result, an EU Defence Council from May 2026, and a Reuters piece describing pre-meeting tensions (July 16) rather than the actual outcomes/agreements reached on July 17. None of the B results provide the actual conclusions/agreements of the 26th Ministerial Council or the July 17 Defence and Security Council substantively.",
+  "reasoning": "Content A provides direct, primary-source material (official government PDFs and the Elysee page matching the anchor) specifically from the 26th Franco-German Ministerial Council and its Defence and Security Council conclusions, giving an LLM concrete text to draw from. Content B is largely off-target, citing outdated or unrelated councils and pre-summit analysis rather than the actual July 17, 2026 outcomes, making it far less useful for accurately answering the question."
+}

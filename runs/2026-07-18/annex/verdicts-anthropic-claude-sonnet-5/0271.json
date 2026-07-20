@@ -1,0 +1,11 @@
+{
+  "id": 271,
+  "query": "El Salvador Bukele new tax percentage foreign NGO donations",
+  "topic": "Nayib Bukele",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A's snippets are consistent and confirm the 30% tax figure across multiple sources, but includes a low-quality Facebook post as a source and lacks the actual content excerpts with full context (only short teaser snippets), providing less substantive detail beyond the headline figure.",
+  "b_issues": "No significant factual flaws; content is consistent with the anchor and provides the 30% figure with additional corroborating detail (penalties, registration requirements, use of revenue).",
+  "reasoning": "Both A and B confirm the core fact that El Salvador's Foreign Agents Law imposes a 30% tax on foreign donations to NGOs, matching the anchor. However, Content B includes more substantive and detailed excerpts (e.g., from Al Jazeera and Rio Times) that provide additional context such as registration requirements, penalties for non-compliance, and the law's stated purpose, all of which are accurate and consistent with the anchor reference. Content A includes a less reliable Facebook post as a source and provides thinner content excerpts overall, making B more comprehensive and reliable for fully answering the question with accurate supporting detail."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 396,
+  "query": "Cambodia H5N1 human fatal cases 2025 affected provinces exposure source epidemiological report",
+  "topic": "H5N1 bird flu",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Mixes data from clearly different time periods (2023, 2025, and a seemingly fabricated/future-dated 2026 CDC page and 2026 afludiary/globalriskatlas items), which could severely confuse an LLM about which figures apply specifically to 2025. The CIDRAP result about provinces (Svay Rieng, Prey Veng) actually describes 2023 cases, not 2025, mislabeling exposure/province data for the wrong year. Numbers for 2025 fatalities are scattered and inconsistent (6 fatalities as of July, later 9 deaths, 12 fatalities cumulative since 2023) without clear attribution, making it hard to extract a coherent 2025-specific answer.",
+  "b_issues": "Slightly thin on granular province-by-province exposure detail (e.g., specific chicken/duck exposure narratives) compared to what's in the anchor's WPRO update, and the WHO DON575 snippet's '27 cases/12 fatalities' figure is cumulative since 2023 re-emergence rather than solely 2025, which could be misread as a 2025-only figure if not carefully parsed.",
+  "reasoning": "Content B's sources (gov.uk week 43, WHO DON575, globalbiodefense, afludiary Nov 2025) are all clearly and consistently dated within or near 2025, giving a coherent, escalating case count (11 by July, 17 by Oct 21, 18 by Nov) that matches the anchor's trajectory, plus direct linkage to the WHO DON575 source used as the anchor. Content A, while containing some genuinely relevant 2025 data (e.g., the globalbiodefense and gov.uk week17 snippets), intermixes it with sources dated in 2026 (CDC global summary, afludiary 2026, globalriskatlas, beaconbio) and a CIDRAP article actually describing 2023 cases, creating substantial risk of temporal confusion and incorrect year-attribution when answering a question specifically about '2025' fatal cases, provinces, and exposure sources."
+}

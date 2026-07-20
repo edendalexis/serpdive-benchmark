@@ -1,0 +1,11 @@
+{
+  "id": 795,
+  "query": "New Caledonia 2025 2026 nickel industry economic recovery plan post-riots French aid package plants reopening latest",
+  "topic": "New Caledonia",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A does not include very recent 2026 specifics like SLN plant-by-plant reopening (Thio, Kouaoua, Poro, Doniambo, Poum) or the mining code reform for Prony Resources exports, but it does include the MFAT report explicitly stating the €2 billion five-year French package and reform conditions, plus 2025/2026-dated sources (IEOM Q2 2025, Credit Agricole 2025-2026), giving a reasonably current and accurate picture.",
+  "b_issues": "Content B is almost entirely composed of 2024-dated articles (May-Nov 2024) discussing the initial riots, nickel price spikes, and the still-unfinalized 'Nickel Pact' proposal. It contains no information about the actual 2025/2026 aid package (€2bn pact), no mention of plant reopenings (SLN, Prony Resources), no mention of the mining code reform, and thus fails to reflect the 'latest' 2025/2026 developments the query asks about.",
+  "reasoning": "The question specifically asks about 2025/2026 recovery status, the French aid package, and plant reopenings. Content A includes the MFAT source (matching the anchor) confirming the €2 billion package and reform conditions, plus other 2025/2026-dated sources indicating ongoing recovery. Content B is stuck in 2024, discussing the unrest and a still-tentative 'Nickel Pact' proposal, without any confirmation of the actual aid package size, reopening progress, or 2025/2026 status, making it substantially less useful and outdated relative to the query's timeframe."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 428,
+  "query": "Rafah crossing reopened exact date first day February 2026 who was allowed to cross returnees medical cases",
+  "topic": "Rafah",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "The prominent featured snippet in Content A states the date as 'Feb 7, 2026' and cites '135 waiting patients,' which conflates and misdates the event — the reopening actually happened Feb 2, 2026 (Monday), and the 135-patient figure comes from a Feb 2-5 cumulative count (per IMEMC in Content B), not the first day. This creates an internal contradiction with the article snippets right below it (Al Jazeera, Guardian, Reuters, CNN) which all correctly say Monday, Feb 2. An LLM relying on the snippet could report the wrong date.",
+  "b_issues": "No major factual contradictions; results are consistent across sources (CGTN, Al Jazeera, The Hindu, IMEMC) regarding the Feb 2, 2026 Monday reopening, with specific figures (12 returnees, 8 medical evacuees leaving) that align well with the AP anchor account. Slight variation in exact returnee gender breakdown (12 women/children vs 3 women+9 children) across sources but not materially misleading.",
+  "reasoning": "Both content sets correctly identify Feb 2, 2026 (Monday) as the reopening date, but Content A includes a featured snippet with an erroneous 'Feb 7, 2026' date and a conflated statistic that directly contradicts the accurate reporting in its own results, creating confusion for an answering model. Content B's results are internally consistent, detailed, and closely match the anchor's account of returnees and medical evacuees crossing on the first day, making it more reliable for answering the question correctly."
+}

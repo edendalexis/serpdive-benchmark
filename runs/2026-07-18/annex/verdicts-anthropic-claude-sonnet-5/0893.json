@@ -1,0 +1,11 @@
+{
+  "id": 893,
+  "query": "Alien Romulus sequel new director hired confirmed name",
+  "topic": "Alien: Romulus",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Includes a Facebook post claiming a director named 'Dorian Kettletoft' has been confirmed and filming begins in October — this name does not appear in the anchor or any other reliable source and appears to be fabricated/incorrect, creating a contradiction with the rest of the results (which say no director has been chosen yet, only Sarnoski is being considered).",
+  "b_issues": "No significant factual issues; all sources consistently report that Sarnoski is only being considered/eyed, not yet confirmed, matching the anchor's framing.",
+  "reasoning": "Both sets convey the core accurate fact (Fede Alvarez stepping down, Michael Sarnoski being eyed/considered as the top candidate, no confirmed hire yet), consistent with the anchor. However, Content A introduces a jarring, seemingly fabricated claim via a Facebook post naming 'Dorian Kettletoft' as the director and stating filming starts in October, which contradicts the rest of the evidence and could mislead an LLM into giving an incorrect answer. Content B has no such contradictory or fabricated information and consistently confirms that no director has been officially hired, with Sarnoski as the leading candidate — this is the more accurate and reliable answer set."
+}

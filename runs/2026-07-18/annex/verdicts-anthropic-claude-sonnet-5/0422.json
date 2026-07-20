@@ -1,0 +1,11 @@
+{
+  "id": 422,
+  "query": "Rafah satellite imagery May 2025 housing buildings destruction extent",
+  "topic": "Rafah",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Includes some suspiciously dated future articles (2026) which are likely date errors or unreliable sources; the Bellingcat piece is from Aug 2024 rather than May 2025, so it's not exactly the queried timeframe, though still relevant to Rafah destruction extent.",
+  "b_issues": "The only UNOSAT reference is dated 31 Oct 2025, well after May 2025, so it doesn't directly address the requested timeframe; the Facebook post about '1400 buildings...since May 4' lacks a year and is a low-reliability source; no Rafah-specific figures for May 2025 are given, and the NBC piece is Gaza-wide, not Rafah-specific.",
+  "reasoning": "Content A contains the UNOSAT product page (unosat.org/products/4130) reporting the 04 April 2025 imagery-based assessment with concrete numbers (70,436 destroyed structures, ~70% of total structures, 258,201 damaged housing units), which closely matches the anchor's UNOSAT PDF reference for the same period and is the most directly relevant, quantitative, and reliable data point for 'May 2025' Rafah/Gaza destruction. Content B's most authoritative source (UN document) reports later (Oct 2025) data, which is off-timeframe, and its Rafah-specific claims come from a low-reliability, ambiguously dated Facebook post. Thus Content A better supports an accurate answer to the question despite some odd extraneous 2026-dated links."
+}

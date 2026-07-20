@@ -1,0 +1,11 @@
+{
+  "id": 295,
+  "query": "X drafts sync across devices mobile web rollout recent update",
+  "topic": "Twitter",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A contains no information whatsoever about the synced drafts feature; results are generic App Store/Google Play/homepage listings and an unrelated NYT article about Twitter's 20th anniversary. It does not answer the question at all.",
+  "b_issues": "Includes one outdated/irrelevant Mashable article (about an old feature where drafts did NOT sync) which could confuse the timeline, but the majority of results correctly and consistently describe the October 2025 synced drafts rollout, Nikita Bier's announcement, iOS/web support, Android coming later, and text-only limitation.",
+  "reasoning": "Content B provides multiple consistent, relevant, and detailed sources (tech-ish, technext24, eastleighvoice, typefully) that directly answer the query with accurate specifics matching the anchor (Nikita Bier announcement, iOS/web sync, Android pending, text-only draft limitation). Content A returns no relevant information about the drafts sync feature at all, making it unusable for answering the question."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 990,
+  "query": "True Detective Season 5 official cast confirmed HBO 2025",
+  "topic": "True Detective",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; all four results are consistent with each other and with the anchor, correctly noting no official cast has been confirmed, Cage is only 'in talks/eyed' for the Henry Logan role, setting is Jamaica Bay/NY, Issa López showrunner, 2027 premiere target.",
+  "b_issues": "Contains a misleading/contradictory YouTube result titled 'True Detective Season 5 (2025) With Jodie Foster & Kali Reis' that lists 'starring Colin Farrell, Rachel McAdams, Taylor Kitsch' as if they were Season 5 cast, which conflates prior seasons' actors with Season 5 and could cause the LLM to hallucinate an incorrect official cast list. The rest of B's content is accurate and matches A.",
+  "reasoning": "Both sets convey the core, accurate fact that no official Season 5 cast has been confirmed by HBO, with Nicolas Cage merely in talks for the lead role, and provide consistent details on setting, showrunner, and premiere timeline. However, Content B includes a spurious YouTube search result that misrepresents prior-season actors (Farrell, McAdams, Kitsch, Foster, Reis) as being part of 'Season 5', introducing a factual contradiction that could mislead an LLM into fabricating a false cast list. Content A has no such contradictory or misleading result, making it the more reliable source set for accurately answering the question."
+}

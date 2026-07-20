@@ -1,0 +1,11 @@
+{
+  "id": 592,
+  "query": "COP30 adaptation finance tripling 2035 target amount USD baseline year",
+  "topic": "COP climate summit",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor: some snippets are truncated/list-like rather than fully coherent, but factual content is accurate and specific — mentions $120bn tripling target, 2035 target year, COP26 baseline ($18.8bn 2019 -> $40bn 2025), and ODI's note that baseline year lacked clarity in the COP30 text.",
+  "b_issues": "Results are almost entirely generic (UN, Wikipedia, Columbia, UNFCCC, health alliance overviews) and do not provide any specific dollar figures, baseline year, or details about the adaptation finance tripling goal beyond a one-line mention of 'tripling adaptation finance' with no numbers or baseline context.",
+  "reasoning": "The question asks for the amount, target year, and baseline year of the COP30 adaptation finance tripling goal. Content A supplies concrete figures ($120bn, 2035, and discussion of the ambiguous/COP26-linked baseline of $18.8bn 2019 -> $40bn 2025), directly enabling a substantive answer. Content B's results are generic COP30 overviews lacking any specific numbers or baseline year information, making it insufficient to answer the question accurately."
+}

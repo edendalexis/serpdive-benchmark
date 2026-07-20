@@ -1,0 +1,11 @@
+{
+  "id": 102,
+  "query": "Boeing Lufthansa Rolls-Royce July 2026 flight tests novel engine inlet fuel efficiency noise announcement details",
+  "topic": "Boeing",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "No major factual flaws; details align closely with the anchor (Glasgow, Montana location, mid-August testing window, CLEEN Phase III, Next Generation Inlet description, Trent 1000 engines, Intelligent Operations flight paths, and relevant quotes from Newby, Marks, Ballard, and Vittadini).",
+  "b_issues": "Sparser and more generic; several snippets (aviationnews.eu, indexbox.io, streetinsider) lack specific details like location (Glasgow, Montana) or exact test dates. The airwaysmag snippet oddly includes 'August 2026 — On This Issue', which could confuse the model about the actual announcement date versus a magazine issue reference. Overall less specific factual detail is present to fully answer the question.",
+  "reasoning": "Content A's set of results collectively provides more complete and specific factual details matching the anchor: exact location (Glasgow, Montana), test duration (through mid-August 2026), CLEEN Phase III designation, and multiple accurate quotes from key figures. Content B's results are thinner on these specifics, with some snippets being vague or potentially confusing (e.g., the 'August 2026 — On This Issue' framing). Both sets are consistent with the anchor's core facts, but A offers a richer, more precise basis for answering the question correctly."
+}

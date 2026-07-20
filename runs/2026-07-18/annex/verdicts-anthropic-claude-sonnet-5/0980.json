@@ -1,0 +1,11 @@
+{
+  "id": 980,
+  "query": "Sundar Pichai AI infrastructure investment India 2026 summit amount location",
+  "topic": "Sundar Pichai",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "The LinkedIn/AIM post mentioning a Google-Adani partnership is unverified and not confirmed elsewhere; overall the core facts ($15B investment, Vizag hub, New Delhi summit) are consistent across sources.",
+  "b_issues": "Some results (e.g., Facebook post, YouTube description) don't explicitly state the summit's exact venue (Bharat Mandapam), though New Delhi as the city is confirmed via the Google blog and Pichai's own LinkedIn post.",
+  "reasoning": "Both sets consistently and accurately report the same core facts: a $15 billion Google AI infrastructure investment in India, a full-stack AI hub in Visakhapatnam (Vizag) with gigawatt-scale compute and a subsea cable gateway, announced at the AI Impact Summit 2026 held in New Delhi. Content A adds slightly more contextual detail (exact venue Bharat Mandapam, summit dates, broader investment figures) but includes a possibly unverified detail about an Adani partnership. Content B includes a highly authoritative primary source—Sundar Pichai's own LinkedIn post—directly confirming the $15B figure and Vizag hub details, alongside Google's official blog. Both are equally reliable and complete for answering the question, with no direct contradictions."
+}

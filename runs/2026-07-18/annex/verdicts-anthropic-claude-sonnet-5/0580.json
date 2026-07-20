@@ -1,0 +1,11 @@
+{
+  "id": 580,
+  "query": "FTX final creditor payout amount completion date 2026",
+  "topic": "FTX",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Does not explicitly mention the Fifth Distribution of $900 million on July 31, 2026 (the most recent/relevant news matching the anchor), though it does include the May 26, 2026 announcement setting that date. Slightly cluttered with unrelated Finance Magnates ticker text.",
+  "b_issues": "All results are focused on the fourth distribution ($2.2 billion, March 31, 2026) and do not mention the fifth distribution ($900 million, July 31, 2026) at all, making it outdated relative to the anchor's most recent and relevant information. This omission could lead to an incomplete or incorrect answer about the most recent payout status in 2026.",
+  "reasoning": "Content A includes the May 26, 2026 announcement that directly ties to the anchor's key fact (July 31, 2026 distribution date), even though it doesn't explicitly state the $900 million figure. Content B is entirely focused on the earlier March 2026 $2.2 billion distribution and omits any mention of the more recent and directly relevant fifth distribution announced in July 2026, which is central to the anchor's answer. Thus, Content A provides more temporally relevant and accurate information aligned with the anchor's core facts."
+}

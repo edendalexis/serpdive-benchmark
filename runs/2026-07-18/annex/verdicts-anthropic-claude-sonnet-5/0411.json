@@ -1,0 +1,11 @@
+{
+  "id": 411,
+  "query": "The Bear surprise prequel episode Gary Jamie Lee Curtis FINISHED STRONG Instagram FX ending confirmation",
+  "topic": "The Bear",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "None of A's snippets actually contain the 'FINISHED STRONG' quote or details of Jamie Lee Curtis's Instagram post; the Facebook post title only alludes to her 'letting the cat out of the bag' without giving the actual wording, and the Instagram link snippet is truncated without the quote. So an agent relying on A could not confirm the specific 'FINISHED STRONG' phrasing or its context (photo with Abby Elliott, February post).",
+  "b_issues": "None significant; content is consistent and factually aligned with the anchor sources.",
+  "reasoning": "The question specifically asks about Jamie Lee Curtis's 'FINISHED STRONG' Instagram post as confirmation of the show's ending. Content B explicitly includes this quote and its context (photo with Abby Elliott, posted in February, saying the cast 'FINISHED STRONG' and completed 'the story of this extraordinary family'), directly answering the query. Content A only vaguely references Jamie Lee Curtis's Instagram confirmation via a Facebook post title, without the actual quote or details, making it insufficient to fully answer the question."
+}

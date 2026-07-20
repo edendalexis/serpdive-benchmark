@@ -1,0 +1,11 @@
+{
+  "id": 421,
+  "query": "Trump 20-point peace initiative Gaza ceasefire Rafah border control terms 2026",
+  "topic": "Rafah",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "No major factual errors; content mostly overlaps with B (BBC Rafah crossing mechanism, CFR guide) and adds PBS (direct 20-point text) and Egypt Today (Board of Peace announcement), giving good but not exhaustive coverage of Rafah border-control terms.",
+  "b_issues": "No major factual errors; overlaps with A (CFR, BBC) and adds Wikipedia timeline with additional dated events (Feb 2 Rafah reopening, later escalations, Hamas administration resignation) which provide context but are not verified beyond the plan's text itself.",
+  "reasoning": "Both sets contain the same core primary sources (CFR's guide and BBC's full 20-point text, including the specific Rafah crossing clause about following the January 19, 2025 mechanism), which is the key factual content needed to answer the question about Rafah border-control terms under Trump's 20-point plan. A adds PBS (direct plan text) and Egypt Today (Board of Peace formation), while B adds Wikipedia's timeline and an Al Jazeera policy brief giving broader chronological context. Neither set contains contradictions or clear factual errors, and both give roughly equivalent ability to answer the specific query about the Rafah border terms within the 20-point plan."
+}

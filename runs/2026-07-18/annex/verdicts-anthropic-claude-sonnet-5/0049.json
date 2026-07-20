@@ -1,0 +1,11 @@
+{
+  "id": 49,
+  "query": "2025/26 UEFA Champions League post-2024 format second season league phase clubs matches per team",
+  "topic": "UEFA Champions League",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "None significant; Man City article and UEFA post-2024 format article both clearly state 36 teams, 8 matches per team, top 8 auto-qualify, 9th-24th go to playoffs - directly answering the question with consistent, accurate details.",
+  "b_issues": "The key format-explaining source (UEFA post-2024 article) is truncated and only states '36 clubs' and 'eight matches' without elaborating on the top 8/9-24 playoff structure that fully explains the format per team. Wikipedia excerpt focuses on other details (pots, final venue, round of 16 dates) rather than the matches-per-team format explanation, offering less direct clarity on the specific format mechanics.",
+  "reasoning": "Both sets contain the core fact that each team plays 8 matches among 36 clubs in the league phase. However, Content A includes the Man City article with a fuller explanation of the format (top 8 auto-qualify, 9-24 playoff, matches from Sept-Jan, simultaneous final matchday) and the UEFA format article confirming 36 teams and 8 matches with Europa/Conference League comparisons for context. Content B's UEFA format snippet is truncated mid-explanation, and the Wikipedia excerpt shifts focus to knockout phase specifics rather than reinforcing the league-phase match count clearly. Content A provides more complete, directly relevant, and mutually reinforcing information to answer the specific question about clubs and matches per team in the second season of the new format."
+}

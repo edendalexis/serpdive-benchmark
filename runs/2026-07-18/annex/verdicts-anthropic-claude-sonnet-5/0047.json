@@ -1,0 +1,11 @@
+{
+  "id": 47,
+  "query": "PSG Lens Ligue 1 postponed match rescheduled date Champions League quarterfinal Liverpool",
+  "topic": "UEFA Champions League",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "None significant; the core facts (April 11 postponed to May 13, due to PSG's Champions League quarterfinal vs Liverpool) are clearly stated via the Reuters snippet and corroborated by Sky Sports, Reddit, and Yahoo results.",
+  "b_issues": "None significant; contains the same core facts via Reuters and Sky Sports snippets, plus additional context (Lens initially rejected the postponement) which is accurate as a preceding stage of the story and doesn't contradict the final resolution confirmed by other sources in the set.",
+  "reasoning": "Both content sets include the Reuters snippet stating the match was postponed from April 11 to May 13 to help PSG prepare for the Champions League quarterfinal against Liverpool, which directly and accurately answers the question. Both draw from reliable, reputable sources (Reuters, BBC, Sky Sports, AP/Newsday) with no internal contradictions regarding the final rescheduled date. Content B includes slightly more supporting detail (e.g., Lens' initial objection, later resolved) but this doesn't change the correctness or completeness of the answer already fully present in Content A."
+}

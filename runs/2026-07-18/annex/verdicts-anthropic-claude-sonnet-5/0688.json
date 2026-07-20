@@ -1,0 +1,11 @@
+{
+  "id": 688,
+  "query": "Shein sustainable aviation fuel DHL GoGreen Plus partnership agreement",
+  "topic": "Shein",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A's DHL press release snippet lacks the actual details of the agreement (it only includes SAF percentage stats and summit description, not the core agreement terms like SHEIN using DHL Express SAF for international air freight, or the quote from SHEIN's sustainability head). The core agreement mechanics are less directly stated compared to B.",
+  "b_issues": "No significant factual flaws; content is consistent with the anchor and provides accurate details about the agreement terms, quotes, and context.",
+  "reasoning": "Both sets contain the same core reliable sources (SHEIN newsroom, DHL press release, Air Cargo News, PRNewswire/Yahoo). However, Content B's DHL Indonesia press release excerpt explicitly states the key mechanics of the deal (SHEIN will utilize SAF provided by DHL Express for international express air freight, collaboration on SAF applications) and includes a direct quote from SHEIN's Head of Sustainability, Mustan Lalani, which directly answers the question with concrete substance. Content A's DHL excerpt instead focuses on SAF percentage statistics and the summit venue, omitting the core agreement details, though these are supplemented somewhat by other results (Air Cargo News, SHEIN newsroom) which give similar generic information. Both sets are largely consistent and non-contradictory, but B provides slightly more complete and specific agreement details directly relevant to the question, making it marginally better for answering correctly and thoroughly."
+}

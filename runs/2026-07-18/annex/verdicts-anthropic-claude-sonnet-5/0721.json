@@ -1,0 +1,11 @@
+{
+  "id": 721,
+  "query": "PDD Holdings Q1 earnings report profit decline percentage US tariffs impact",
+  "topic": "Temu",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "One source is a Facebook post (less authoritative) and one figure has a probable typo (US$115.4 billion instead of US$15.4 billion). Some entries mix Q1 2025 and Q1 2026 data without clear labeling, requiring the reader to disentangle years.",
+  "b_issues": "Contains no mention of tariffs or their impact on PDD's earnings at all—only a generic, unrelated Tax Foundation tariff tracker page. Also omits the 47% profit decline figure tied to tariffs that appears in the anchor's Reuters piece, leaving the tariff-impact part of the question unanswered.",
+  "reasoning": "The question specifically asks about the tariff impact on PDD's profit decline. Content A includes a source (the Facebook/IBD headline) explicitly linking the 47% Q1 profit drop to Trump tariffs, matching the anchor's Reuters article, and also covers the Q1 2026 15% decline figures. Content B provides accurate and well-sourced Q1 2026 financial figures but never connects any profit decline to US tariffs, leaving that key part of the query unaddressed. Despite minor sourcing/formatting flaws, A better satisfies the full question."
+}

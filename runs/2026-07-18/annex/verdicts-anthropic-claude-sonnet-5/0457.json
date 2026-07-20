@@ -1,0 +1,11 @@
+{
+  "id": 457,
+  "query": "2024 Sveriges Riksbank Prize Economic Sciences winners names contributions institutions",
+  "topic": "Nobel Prize 2024",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "The KVA snippet is truncated and cuts off before explicitly naming James A. Robinson's institution (University of Chicago), though it does clearly state MIT for both Acemoglu and Johnson. No other institution details are given, but the names, prize reason, and two of three institutions are explicitly and consistently confirmed across multiple official sources (Nobel Prize, KVA).",
+  "b_issues": "The press release snippet is truncated before listing any laureate's institution, so no explicit institutional affiliation is given for Acemoglu, Johnson, or Robinson in the official sources. The Lindau blog gives birth/PhD details and explicitly places Acemoglu at MIT, but Johnson's and Robinson's current institutional affiliations are not stated (only PhD-granting schools, which are not their institutions at the time of the prize), leaving institutional coverage incomplete for 2 of 3 laureates.",
+  "reasoning": "Both sets correctly name Acemoglu, Johnson, and Robinson and the prize rationale. However, Content A includes an explicit, reliable KVA statement confirming MIT as the institution for two of the three laureates, matching the anchor. Content B's official press-release snippet is cut off before any institutions are listed, and its supplementary Lindau blog conflates PhD schools with institutional affiliation, only clearly confirming MIT for Acemoglu. Thus Content A provides more complete and accurate institutional information matching the anchor."
+}

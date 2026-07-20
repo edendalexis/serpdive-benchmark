@@ -1,0 +1,11 @@
+{
+  "id": 701,
+  "query": "Tunney Act review DOJ Live Nation $280 million settlement judge approval status",
+  "topic": "Ticketmaster DOJ lawsuit",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "No major factual errors; slight redundancy but all sources consistently describe the Tunney Act review as underway/pending before Judge Subramanian, with the $280 million fund and states' rejection detailed via the Klobuchar letter to the judge.",
+  "b_issues": "Contains an apparent internal contradiction: the Paul Weiss snippet states the settlement 'has not yet been submitted' for Tunney Act review and the 60-day comment period 'will' begin, while the TechTimes snippet (also in B) confirms the Federal Register publication and 60-day comment period already opened July 13, 2026. This inconsistency (likely due to an outdated Paul Weiss article) could mislead a model about the actual current status. The DOJ case-page snippet is also unhelpfully thin (just case-open date), adding little value.",
+  "reasoning": "Both sets share the key techtimes and crowell articles that establish the core facts: the Tunney Act review is pending before Judge Subramanian, the $280 million settlement fund exists, states have largely rejected it, and a public comment period runs to Sept. 4, 2026. Content A supplements this with the Klobuchar Senate letter (a primary source directly addressing the $280M fund and states' rejection) and Courthouse News confirming Judge Subramanian will preside over the Tunney Act review, all consistent in describing the review as ongoing/underway. Content B includes an outdated Paul Weiss snippet claiming the settlement 'has not yet been submitted' for review, which contradicts the more current TechTimes information within the same result set, creating a confusing inconsistency about the approval status. This makes Content A marginally more reliable and internally consistent for answering the specific question."
+}

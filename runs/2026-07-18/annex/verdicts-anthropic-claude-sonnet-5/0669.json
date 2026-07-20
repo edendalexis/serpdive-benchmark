@@ -1,0 +1,11 @@
+{
+  "id": 669,
+  "query": "Ilya Sutskever recent interview 2026 statements superintelligence timeline research approach",
+  "topic": "Ilya Sutskever",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "The YouTube clickbait result ('Ilya Sutskever Just Revealed The Next BIG THINGS... Taking Over in 2026') is a low-quality, unreliable secondary source with no real informational content. The Instagram result contains garbled, unrelated snippets (e.g., mentions of Geoffrey Hinton, Mira Murati, random 'July 14, 2026' text) that add noise rather than facts. Content A lacks any concrete timeline statement for superintelligence, missing the specific 'age of research/scaling' year breakdown and any numeric timeline for human-level learning.",
+  "b_issues": "The 5-to-20-year timeline claim and the 2026-onward transition come from secondary sources (Substack, Effective Altruism forum) rather than the primary transcript, so their exact wording/accuracy cannot be fully verified against the anchor, though they are consistent with the anchor's stated theme.",
+  "reasoning": "Both sets surface the core Dwarkesh interview (Nov 25, 2025) as the primary source, matching the anchor. However, Content B additionally provides specific, directly query-relevant details: the age-of-research (2012-2020) vs age-of-scaling (2020-2025) vs 2026-onward breakdown, and a concrete superintelligence timeline estimate ('5 to 20 years for a system that learns as efficiently as a human'), which directly answers the 'timeline' portion of the question. Content A's extra results (YouTube clickbait, Instagram noise) are lower quality and do not add factual value, and A lacks any explicit timeline figures. This makes B more useful for correctly and specifically answering the query."
+}

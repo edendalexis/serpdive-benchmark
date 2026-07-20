@@ -1,0 +1,11 @@
+{
+  "id": 886,
+  "query": "Skydance New Media Marvel 1943 Rise of Hydra announcement partnership Marvel Entertainment release window",
+  "topic": "Skydance Media",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minimal issues; content is consistent with the anchor and provides accurate historical progression (2021 announcement, 2024 reveal, Plaion partnership, delays to 2026 and now 2027). Slight repetition across sources but no contradictions.",
+  "b_issues": "Focuses almost exclusively on delay news and omits the original 2021 announcement/partnership with Marvel Entertainment and the Plaion publishing deal, meaning the 'announcement partnership' part of the question is not well covered. Sources are lower quality (Instagram, Facebook, IMDb aggregator posts) rather than primary/trade press, reducing reliability.",
+  "reasoning": "The question asks about the announcement, partnership with Marvel Entertainment, and release window for Marvel 1943: Rise of Hydra. Content A includes the full timeline: the 2021 Skydance-Marvel partnership announcement, the 2024 GDC reveal, the Plaion publishing partnership, and the evolving release window (2025 → 2026 → 2027), all from reliable sources (IGN, Skydance.com, Marvel.com, GamesIndustry.biz). Content B only addresses the release window/delays and misses the original partnership/announcement details, relying on weaker sources like Instagram and Facebook posts. Thus Content A provides a more complete and accurate basis for answering the question."
+}

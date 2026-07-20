@@ -1,0 +1,11 @@
+{
+  "id": 504,
+  "query": "Intel Foundry 14A Process Design Kit PDK release status lead customers intent-to-build test chips",
+  "topic": "Intel Foundry",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "No major factual flaws; content is consistent with the anchor and other reporting. Minor redundancy across sources but no contradictions.",
+  "b_issues": "Lacks the specific EE Times statement that Intel 'has engaged with lead customers on the Intel 14A process technology... distributed an early version of the Intel 14A process design kit to lead customers, and... multiple customers have expressed their intent to build test chips.' This exact phrasing/fact is central to the question but missing from B's results, which instead focus mostly on PDK version timeline (0.5/0.9) and mass production dates.",
+  "reasoning": "The question specifically asks about 'lead customers' and their 'intent-to-build test chips' regarding Intel's 14A PDK. Content A includes the EE Times article that directly states Intel Foundry engaged lead customers, distributed an early 14A PDK to them, and reported that multiple customers expressed intent to build test chips — a near-verbatim match to the question. Content B, while providing accurate and relevant PDK timeline details (0.5 PDK, 0.9 PDK in October, 2029 mass production) and the two-prospective-customers narrative, does not include this specific 'lead customers... intent to build test chips' language, making it less directly responsive to the exact question asked. Both sets are factually consistent with the anchor and each other, but A provides the more precise, directly quotable answer."
+}

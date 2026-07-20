@@ -1,0 +1,11 @@
+{
+  "id": 140,
+  "query": "Red Lobster 2025 Q4 sales foot traffic performance data",
+  "topic": "Red Lobster",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Contains mostly generic industry-wide traffic data (NRA, QSR trends) rather than Red Lobster-specific figures; includes an outdated 2024 Restaurant Dive projection and a decade-old NRN article on Red Lobster comps without noting its age, which could mislead an LLM into treating it as 2025 data. None of the results supply the key 2025 systemwide sales decline (6.2% to $1.56B) or Red Lobster-specific foot traffic numbers for Q4 2025.",
+  "b_issues": "Also relies on the same outdated NRN comps article and a 2024 Restaurant Dive projection presented without clear dating. Includes an irrelevant Statista dataset from 2011-2017. The SeafoodSource snippet gives industry-wide traffic trends (Long John Silver's, overall restaurant traffic) but the visible snippet cuts off before any Red Lobster-specific figures, so the exact Red Lobster Q4 2025 traffic data is not actually present in the retrieved text.",
+  "reasoning": "Neither result set contains the specific fact from the anchor (Red Lobster's 2025 systemwide sales fell 6.2% to $1.56B) or concrete Red Lobster-specific foot traffic percentages for Q4 2025. Both mix relevant but dated or overly generic industry data with some Red Lobster context (NY Post promo article, old NRN comps piece). B marginally aligns better with the anchor by surfacing the SeafoodSource article (one of the anchor's own top hits), but its snippet doesn't reveal Red Lobster-specific numbers, so the practical benefit is limited. Overall, both are similarly insufficient for a fully correct, specific answer, making this a tie."
+}

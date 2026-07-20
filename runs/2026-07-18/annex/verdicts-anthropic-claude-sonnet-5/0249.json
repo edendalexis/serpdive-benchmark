@@ -1,0 +1,11 @@
+{
+  "id": 249,
+  "query": "Voyager 1 Gliese 445 closest approach estimated years trajectory",
+  "topic": "Voyager 1",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A lacks a direct authoritative source (e.g., Wikipedia) that clearly states both the time frame (~40,000 years) and the closest‑approach distance (1.6 light‑years); it relies mainly on secondary blog/news posts and includes low‑quality sources (Quora, Facebook) that add little factual value. The numeric distance figures given (1.7 ly, 1.6 ly) are inconsistent across sources without a clear authoritative anchor to resolve them.",
+  "b_issues": "Content B includes a mix of sources (mathscinotes, Centauri Dreams) that give a differing closest‑approach distance (3.485 ly) which may be conflated with the distance of Gliese 445 from the Sun rather than Voyager's approach distance, potentially causing minor confusion, but the presence of the direct Wikipedia excerpt clarifies the core figures (40,000 years, 1.6 light‑years) accurately.",
+  "reasoning": "Both sets converge on the same core fact—Voyager 1 will pass near Gliese 445 in about 40,000 years—but Content B provides a direct, authoritative Wikipedia excerpt explicitly stating the trajectory and the 1.6 light‑year closest‑approach distance, which matches the well-established scientific consensus (as also reflected in the anchor's IOPscience paper). Content A omits this authoritative Wikipedia data and instead relies on less reliable sources (Quora, Facebook) and slightly inconsistent secondary distance estimates (1.7 ly), making it weaker for producing a precise, well-sourced answer. Despite some numeric variance in B (from Centauri Dreams), the presence of the clear Wikipedia statement makes B more reliable and complete for answering the question accurately."
+}

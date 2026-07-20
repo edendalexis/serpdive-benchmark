@@ -1,0 +1,11 @@
+{
+  "id": 33,
+  "query": "SensorFM TabFM Google Research June 2026 paper",
+  "topic": "Google",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A provides less granular detail on SensorFM (e.g., no exact sensor modalities, dates, or quantitative accuracy metrics) but covers both SensorFM and TabFM accurately.",
+  "b_issues": "Content B contains rich detail on SensorFM (sensor modalities, dates, quantitative results, clinician study) but completely omits any mention of TabFM, leaving the TabFM part of the query unanswered.",
+  "reasoning": "The query explicitly asks about both SensorFM and TabFM. Content A includes a dedicated, accurate description of TabFM (zero-shot, hybrid TabPFN/TabICL-style architecture, availability on HF/GitHub) alongside solid coverage of SensorFM (trillion minutes of data, 5 million people, 35 tasks). Content B, while more detailed on SensorFM specifics, provides no information about TabFM at all, making it impossible to answer the TabFM portion of the question. Since the question requires knowledge of both models, Content A is more complete and enables a fuller, correct answer."
+}

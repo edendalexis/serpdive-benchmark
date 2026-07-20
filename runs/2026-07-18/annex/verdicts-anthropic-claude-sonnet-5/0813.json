@@ -1,0 +1,11 @@
+{
+  "id": 813,
+  "query": "Copilot in Excel new feature prevent unwanted edits shared workbooks prepare changes",
+  "topic": "Microsoft Copilot",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Includes a low-quality Reddit comment that inaccurately claims Copilot 'cannot actively create/update' data, contradicting other sources in the same result set (and reality) that describe direct editing capabilities. None of the results explicitly name the 'Plan Mode' feature from the anchor, though the top result (workbook rules/personalization) does address a related mechanism for constraining unwanted Copilot edits.",
+  "b_issues": "None of the results explicitly name or describe 'Plan Mode' either. The most relevant piece (Windows Forum article) is a third-party blog rather than an official Microsoft source, and it only vaguely gestures at 'not immediately throwing changes into the file' without clearly describing a feature that lets users preview/approve a plan before edits are applied to shared workbooks. Several results (Active Directory Pro, Flotek, release notes) are generic or unrelated to the specific 'prevent unwanted edits' angle.",
+  "reasoning": "Content A contains an official Microsoft Community Hub blog post (matching one of the anchor's own cited sources) that describes 'workbook rules' and 'personalization' as concrete mechanisms letting users set standing rules (e.g., 'don't merge cells') to prevent Copilot from making unwanted edits — directly relevant to the query's intent, even if it doesn't use the exact 'Plan Mode' terminology from the anchor. It also includes a Microsoft Q&A note about reviewing and applying changes before they take effect. Content B's results are more tangential (general April/June 2026 Copilot updates, release notes, local file editing) and lack any source that clearly ties to preventing unwanted edits or previewing/planning changes in shared workbooks. While Content A has an internal inconsistency (a misleading Reddit snippet), its top result is more directly useful and authoritative for answering the question than anything in Content B."
+}

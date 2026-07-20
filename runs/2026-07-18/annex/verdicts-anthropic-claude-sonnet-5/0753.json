@@ -1,0 +1,11 @@
+{
+  "id": 753,
+  "query": "Trump Media Truth Social spin-off February 2026 TAE Technologies Texas Ventures Acquisition III Corp merger talks SEC filing",
+  "topic": "Truth Social DJT stock",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A does not include the actual SEC filing text; it only covers the announcement via secondary news sources (Yahoo, MediaPost) and later abandonment news. It provides good context but misses the primary source content that directly matches the anchor's SEC filing.",
+  "b_issues": "Content B's excerpt from the SEC filing is truncated and doesn't fully spell out the deal structure (e.g., the SpinCo distribution mechanics), but it does include the actual primary source (the 425 filing) matching the anchor, plus corroborating secondary sources on both the initial talks and the later abandonment.",
+  "reasoning": "The question centers on the February 2026 SEC filing announcing the spin-off discussions. Content B directly includes text from the actual SEC EDGAR 425 filing (matching the anchor exactly), giving the LLM access to the primary source of truth. Content A, while providing useful secondary coverage (Yahoo Finance, MediaPost) and additional context about the later abandonment of the spin-off, never surfaces the SEC filing itself. Both sets agree the spin-off was later dropped in favor of completing the TAE merger, so there's no contradiction between them on that point. But for a question specifically invoking 'SEC filing,' Content B's direct inclusion of the filing text makes it more authoritative and directly responsive."
+}

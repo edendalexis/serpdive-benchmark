@@ -1,0 +1,11 @@
+{
+  "id": 789,
+  "query": "Netanyahu Gaza aid distribution July 2026 cabinet members reject US ceasefire proposal",
+  "topic": "Benjamin Netanyahu",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Includes some tangential material (Congress.gov overview, BBC article about a possibly earlier ceasefire breakdown) that isn't specifically about July 2026 aid-distribution cabinet decisions; still no article explicitly dated July 2026 matching the exact query.",
+  "b_issues": "Lacks the Guardian article (present in the anchor) directly detailing far-right ministers rejecting the US-backed postwar Gaza panel; the Al Jazeera piece uses biased language ('genocidal war') that could mislead an LLM about neutrality/accuracy; neither article is dated July 2026.",
+  "reasoning": "Content A reproduces the exact Guardian article found in the anchor describing Smotrich and far-right ministers rejecting the US-backed Gaza panel, directly matching the anchor's core fact. It also supplies broader context (CFR summary of the peace plan phases, Witkoff's phase-two announcement) that helps situate the cabinet's aid and ceasefire disputes. Content B's two articles (Al Jazeera and Spectrum) cover similar January 2026 events (phase two launch, Israel's objection to the Gaza committee) but do not include the specific Guardian-sourced rejection statement, and the Al Jazeera piece contains overtly biased phrasing that could reduce reliability. Overall, Content A aligns more closely with the anchor's verified facts and offers a more reliable, comprehensive basis for answering the question."
+}

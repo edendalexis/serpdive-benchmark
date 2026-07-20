@@ -1,0 +1,11 @@
+{
+  "id": 806,
+  "query": "Satya Nadella Microsoft software manufacturer intelligence engine declaration quote source date",
+  "topic": "Satya Nadella",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Contains some unrelated/future-dated articles (2026) that are irrelevant noise, but the core result (official Microsoft Blog post from July 24, 2025) is present, accurate, and contains the exact quote matching the anchor.",
+  "b_issues": "Does not include the official Microsoft Blog source at all. The primary evidence comes from an Instagram reel repost (Startups Talk India) that garbles/paraphrases the quote and quotation marks inconsistently, making it an unreliable secondary source without a clear date or verifiable origin. Other results (LinkedIn scraped junk, Wikipedia, CNBC on AI-written code, 2014 CEO email) are irrelevant to the specific 'intelligence engine' declaration.",
+  "reasoning": "Content A directly surfaces the official Microsoft Blog post (blogs.microsoft.com, July 24, 2025) containing the exact, accurate quote from Nadella about shifting 'from a software factory to an intelligence engine,' matching the anchor precisely and giving a reliable source and date. Content B lacks this primary source entirely, instead relying on an Instagram reel with a mangled, secondhand version of the quote and no verifiable Microsoft-sourced date, making it a weaker and less reliable basis for answering the question accurately."
+}

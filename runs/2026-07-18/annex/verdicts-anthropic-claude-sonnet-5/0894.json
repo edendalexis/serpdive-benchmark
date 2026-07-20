@@ -1,0 +1,11 @@
+{
+  "id": 894,
+  "query": "Fede Alvarez Alien Romulus sequel script completed producer not directing September 2025 interview",
+  "topic": "Alien: Romulus",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "No major factual errors; relies partly on forum sources (ResetEra) for extra detail but core facts (script done, Alvarez producing with Ridley Scott, searching for new director) are accurate and match the anchor.",
+  "b_issues": "No major factual errors; includes Variety (reliable) with accurate quotes, though some sources are low-value (Threads, Reddit) they don't contradict the core facts.",
+  "reasoning": "Both sets contain the essential facts needed to answer the question: the Alien: Romulus sequel script is complete, Fede Alvarez will not direct but will produce alongside Ridley Scott, and they are searching for a new director, as revealed in a TooFab interview around September 5, 2025. Content A relies on Hollywood Reporter, ResetEra, and AVPGalaxy, while Content B relies on Variety, AVPGalaxy, Hollywood Reporter, Threads, and Reddit—both include the same key HollywoodReporter and AVPGalaxy sources, and both provide the crucial direct quotes confirming the facts. Neither set contains factual errors or contradictions relative to the anchor, and both are equally sufficient for correctly answering the question."
+}

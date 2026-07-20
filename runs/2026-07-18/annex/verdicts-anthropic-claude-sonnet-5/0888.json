@@ -1,0 +1,11 @@
+{
+  "id": 888,
+  "query": "Skydance New Media Lucasfilm Games Star Wars interactive project official title",
+  "topic": "Skydance Media",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "None of the sources in A explicitly state that the project remains untitled; the Wookieepedia excerpt only describes the announcement and later merger into Paramount Games Studio, without noting that the game itself has no official title. An LLM relying on A would have to infer the lack of a title rather than see it stated directly, risking a fabricated or guessed title.",
+  "b_issues": "No major factual flaws; the Wookieepedia excerpt explicitly notes the game is 'untitled,' consistent with the anchor's implication (codename 'Project Walton', no official title revealed). Minor redundancy with a YouTube video source, but it doesn't introduce inaccuracies.",
+  "reasoning": "The correct answer to the question is that no official title has been given to the Skydance/Lucasfilm Star Wars project—it remains untitled (as corroborated by the anchor's Bespin Bulletin excerpt referencing 'the untitled Star Wars game' and codename 'Project Walton'). Content B's Wookieepedia excerpt directly states the studio 'is in charge of the development of a untitled video game,' giving the LLM an explicit, accurate fact to answer with. Content A's parallel Wookieepedia excerpt omits this explicit statement, providing only the announcement details and the later Paramount Games Studio merger, requiring inference rather than direct evidence. Both sets share the same core press-release content, but B contains the more decisive fact needed to correctly answer the question about the project's (lack of) official title."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 43,
+  "query": "Thibaut Courtois thigh injury return date Real Madrid Champions League 2026",
+  "topic": "UEFA Champions League",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "None significant - all five results (NYT/Athletic, three Goal.com mirrors, Bolavip) are internally consistent, giving a clear, well-sourced timeline: injury March 17 vs Man City, ~6-week recovery, targeting return for Champions League semi-finals (~April 28) if Madrid advance past Bayern, with availability for El Clasico May 10 as a bonus marker. No contradictions.",
+  "b_issues": "Includes an irrelevant/contradictory SI.com snippet about a 'World Cup injury' causing Courtois to miss the start of the 2026-27 season, which conflicts with the thigh-injury narrative and could confuse the model about which injury or timeline is being discussed. The core facts (six weeks, Bayern QF, El Clasico May 10) are present but muddied by this extraneous, seemingly mismatched result.",
+  "reasoning": "Both sets contain the key facts (six-week estimate, missing Bayern QF, targeting Champions League semi-finals/El Clasico return), sourced from reliable outlets (ESPN, CBS, Athletic/NYT, Yahoo, Goal.com). However, Content A's results are cleaner and fully consistent, reinforcing the same timeline across multiple credible sources without noise. Content B introduces an unrelated SI.com article referencing a different 'World Cup injury' and a much later, contradictory return timeline, which risks confusing an LLM trying to give a precise, accurate answer. This makes Content A more reliable for producing a correct, non-contradictory response."
+}

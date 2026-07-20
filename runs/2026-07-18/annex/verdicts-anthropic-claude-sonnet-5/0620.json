@@ -1,0 +1,11 @@
+{
+  "id": 620,
+  "query": "Novak Djokovic Wimbledon 2026 semifinal result opponent score",
+  "topic": "Novak Djokovic",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Content A is generally consistent with the anchor and provides the correct semifinal result (Sinner d. Djokovic 6-4, 6-4, 6-4) via the Yahoo Sports snippet, which explicitly names the opponent and score. No major factual errors.",
+  "b_issues": "Content B also correctly conveys the semifinal result (Sinner d. Djokovic 6-4, 6-4, 6-4) via The Athletic snippet, which names the opponent and score, though it's slightly less explicit/direct than the Yahoo snippet in A. No major factual errors.",
+  "reasoning": "Both content sets contain the essential fact needed to answer the question accurately: Novak Djokovic lost his Wimbledon 2026 semifinal to Jannik Sinner by the score 6-4, 6-4, 6-4, matching the anchor. Content A states this explicitly and cleanly via the Yahoo Sports article ('Jannik Sinner beats Novak Djokovic 6-4, 6-4, 6-4'), while Content B conveys the same score and opponent through The Athletic article, albeit embedded in more narrative prose. Both also correctly contextualize Djokovic's path to the semifinal (defeating Auger-Aliassime in five sets in the quarterfinal), and neither set contains contradictory or clearly false information relative to the anchor. Given the equivalent presence, accuracy, and source reliability of the key fact, this is a tie."
+}

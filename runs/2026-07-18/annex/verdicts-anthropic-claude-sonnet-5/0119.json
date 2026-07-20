@@ -1,0 +1,11 @@
+{
+  "id": 119,
+  "query": "LVMH Pride Month 2026 global employee engagement diversity inclusion initiatives July 8",
+  "topic": "LVMH",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Contains a nonsensical, unreliable inserted passage about 'his own family greedily exploiting others' and '75 other legacy families' within the Facebook result, which is spammy/incoherent and could mislead an LLM. The thepillaredit.com result is vague and offers no concrete facts. Overall lacks specific details like which countries/cities were involved or employee counts.",
+  "b_issues": "The LinkedIn result contains an unrelated, noisy tangent about 'fashion diplomacy' and a Manhattan real estate broker, which is irrelevant but does not corrupt the core facts. The Generali result is off-topic (different company) but clearly separable and not confused with LVMH facts.",
+  "reasoning": "Both contain some noisy/irrelevant text, but Content B provides more concrete, directly relevant facts matching the question: specific countries/regions (12), named cities where Pride marches occurred (Tokyo, Madrid, New York, LA, Amsterdam, Taiwan, Seoul, Barcelona), a named employee quote (Joseph Huang, All LVMH Pride Taiwan), and explicit mention of awareness-raising, training, and support initiatives—details that closely align with and expand on the anchor. Content A's noise is more severe (a bizarre conspiratorial insertion about family exploitation) which could actively mislead an LLM, and its second result offers no substantive facts. Thus B better enables a correct, detailed answer."
+}

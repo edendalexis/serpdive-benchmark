@@ -1,0 +1,11 @@
+{
+  "id": 735,
+  "query": "EU sanctions Hamas leaders Israeli settlers West Bank details list 2025",
+  "topic": "Israel-Hamas conflict",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "The europeaninterest.eu snippet is somewhat vague (uses 'may include') and doesn't confirm the final list, but it is the only source in the set that names specific settler groups (Amana, Nachala, Hashomer Yosh, Regavim) and an individual (Daniella, presumably Weiss), which directly addresses the 'details list' part of the query. Some low-value results (YouTube video, generic globalsanctions.com page) add little.",
+  "b_issues": "The Consilium timeline excerpt in B mixes the 2026 West Bank settler sanctions entry with an unrelated Crimea-related sanctions entry (Vadim Bulgakov and Aleksei Pikin), without clear separation—this creates a real risk that an LLM could mistakenly attribute those Crimea-related individuals to the West Bank settler sanctions list. B also never actually names the specific settlers/entities sanctioned in the 2026 round, only stating a count ('four entities and three individuals') without identifying them.",
+  "reasoning": "Both sets agree on the core narrative (EU sanctioned Hamas leaders and Israeli settlers, blocked previously by Hungary, unblocked after Orban's ouster) via the shared Al Jazeera article. B adds useful context (NPR casualty statistics, French FM quote, Orban ouster timing) but does not provide any named entities for the 2026 sanctions list and its Consilium excerpt risks conflating unrelated Crimea sanctions with West Bank settler sanctions. A, despite weaker sourcing quality on one result, uniquely supplies actual named settler organizations and an individual likely targeted, which is exactly the kind of 'details list' the query is asking for. This makes A marginally more useful and accurate for directly answering the question, while B carries a contamination risk from mixed sanction regimes in its Consilium content."
+}

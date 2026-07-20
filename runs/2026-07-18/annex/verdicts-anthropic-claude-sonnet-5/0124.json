@@ -1,0 +1,11 @@
+{
+  "id": 124,
+  "query": "Japan Prime Minister Sanae Takaichi Yasukuni Shrine visit 2026 date announcement",
+  "topic": "Japan Prime Minister",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Includes several irrelevant results (Okinawa memorial speech, PM's US visit) that don't address the Yasukuni question, though not factually wrong; slightly less contextual detail on why she skipped (no mention of China/Taiwan tension).",
+  "b_issues": "Includes Facebook posts with garbled Unicode/emoji artifacts cluttering the content, and one Facebook result is irrelevant (UK/France visit) with spammy comment text; these lower reliability/cleanliness despite still containing accurate core facts.",
+  "reasoning": "Both content sets convey the same essential accurate facts: Takaichi considered/decided to skip an in-person Yasukuni visit during the April 2026 spring festival and instead sent a ritual offering on April 21, 2026, consistent with her predecessors Ishiba and Kishida. Content A adds useful October 2025 fall-rites context from Japan Forward; Content B adds useful context from Straits Times about worsened China ties and her earlier Taiwan remarks. Neither set finds any dated 'visit' since she in fact skipped it. A has some irrelevant but harmless links; B has noisier, garbled Facebook content that could confuse but doesn't introduce factual errors. Overall, both sets equally support a correct answer to the question."
+}

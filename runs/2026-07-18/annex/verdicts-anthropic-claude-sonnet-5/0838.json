@@ -1,0 +1,11 @@
+{
+  "id": 838,
+  "query": "Julian Assange charter flight VJT199 cost crowdfunding campaign total raised Saipan Canberra",
+  "topic": "Julian Assange",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Does not give the final $525,520 crowdfunding total (only a snapshot 'almost $400,000' at time of landing), but it does correctly report the $781,480 flight cost per Senate documents, the $100,000 taxpayer liability, and contextual details on Canberra/Saipan travel that align with the anchor.",
+  "b_issues": "Provides only the $520,000 target figure repeated across multiple snippets, never the actual amount raised; lacks the $781,480 total cost figure from Senate documents; includes an irrelevant/low-value Facebook post; overall thinner on verifiable financial facts needed to answer the question.",
+  "reasoning": "The question asks about flight cost and total crowdfunding raised. Content A supplies the accurate $781,480 flight cost (matching the anchor's SBS source) plus a concrete, though partial, raised-amount figure and additional context (Rudd, Smith, Canberra landing). Content B only repeats the $520,000 debt/target figure across several sources without ever stating an actual amount raised, making it less useful for answering the 'total raised' part of the question, and includes a low-quality Facebook result."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 630,
+  "query": "Perplexity Comet agentic AI browser iOS global launch availability",
+  "topic": "Perplexity AI",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor: doesn't explicitly state iOS launch is global/worldwide (implied by joining other platforms), but all facts given (date, delay from March 11 to March 18, 2026, availability alongside Mac/Windows/Android) are consistent and accurate across multiple sources.",
+  "b_issues": "Contains contradictory signals: a Reddit post questioning 'when will Comet be on iOS' sits alongside a YouTube video and App Store review implying iOS is already live, without clarifying the actual iOS launch date. The CNBC article is about the desktop worldwide free rollout (Oct 2025), not iOS, and could be mistaken for the iOS launch answer, creating confusion about timeline and platform scope.",
+  "reasoning": "Content A provides a clear, consistent, and well-corroborated timeline: iOS launch delayed from March 11 to March 18, 2026, joining Mac/Windows/Android, directly answering the global iOS availability question with specific reliable sources (9to5mac, App Store, digitalapplied). Content B mixes an older desktop-focused CNBC story with a confusing Reddit thread and vague YouTube/App Store snippets that don't clearly establish the iOS launch date or global availability, making it harder for an LLM to derive an accurate, unambiguous answer."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 309,
+  "query": "Serbia Botswana Artemis Accords signing date 2026 official agreement text",
+  "topic": "NASA Artemis program",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A provides Botswana's signing date (June 25, 2026) clearly but lacks a distinct, clear source for Serbia's exact signing date - the Serbia-related result (Techtimes) confirms July 16, 2026 as 69th nation but is framed around a political controversy angle rather than straightforward confirmation, and lacks NASA/official government sourcing for Serbia specifically. No direct official U.S. State Dept or NASA press release for Serbia is included.",
+  "b_issues": "Content B is slightly better but still relies on a 'forth.news' aggregator for Serbia's date rather than a primary NASA source; however it does clearly state Serbia's signing date (July 16, 2026) and Botswana's (June 25, 2026) from multiple corroborating sources including a legal analysis (Freshfields) and NASA itself for Botswana.",
+  "reasoning": "Both sets confirm Botswana signed the Artemis Accords on June 25, 2026 as the 68th nation, sourced from NASA and multiple other outlets. For Serbia, Content B explicitly states the July 16, 2026 signing date via a dedicated result, and this aligns with the anchor's NASA article. Content A's Serbia-related result (Techtimes) confirms the date and 69th-nation status but embeds it in a more tangential, editorializing context about Serbia-China relations, making the core fact less directly retrievable. Content B provides clearer, more direct confirmation of both dates with corroborating multiple sources (NASA, SpaceNews, Freshfields, Business Insider Africa) that agree without contradiction. Neither set includes the official Artemis Accords agreement text itself, which the question also asks about, so both are incomplete on that point, but B provides a marginally more reliable and clearer set of facts for the signing dates."
+}

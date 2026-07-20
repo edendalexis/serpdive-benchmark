@@ -1,0 +1,11 @@
+{
+  "id": 862,
+  "query": "NIH study semaglutide weight loss plateau brain-cell mechanisms May 2026 publication findings",
+  "topic": "Ozempic and Wegovy",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A captures the core cAMP/area postrema mechanism and gives some paper details (authors, institutes) but never explains the actual proposed mechanism to overcome the plateau (PDE4 inhibition via roflumilast) or receptor internalization/desensitization details, leaving the 'how to extend effects' part of the question under-answered.",
+  "b_issues": "The most detailed source is a YouTube video transcript (a secondary/tertiary source, not the NIH release itself), and it lacks author names or explicit NIDDK/NIGMS institute framing that A includes; also cites journal as 'Nature Metabolism' which is unverifiable from anchor.",
+  "reasoning": "Both sets identify the cAMP signaling mechanism in area postrema neurons underlying semaglutide's weight-loss and plateau. However, B additionally supplies the specific mechanistic detail needed to fully answer the question: that PDE4 inhibition (via roflumilast) sustains cAMP signaling and could extend drug effects/overcome plateaus, plus detail on receptor internalization causing variable neuronal responses. This aligns with the anchor's mention of 'modulating intracellular signaling may extend drug effects.' Content A omits this key mechanistic finding entirely, making it less complete for answering the specific 'brain-cell mechanisms' and plateau-overcoming question, despite having slightly more bibliographic detail (author names, institutes)."
+}

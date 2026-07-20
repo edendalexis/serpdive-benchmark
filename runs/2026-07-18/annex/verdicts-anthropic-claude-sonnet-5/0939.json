@@ -1,0 +1,11 @@
+{
+  "id": 939,
+  "query": "Klarna Värde Partners SRT portfolio loan currency denomination",
+  "topic": "Klarna",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "All key facts (Euro-denominated loans, $1.7B, Värde Partners consortium) are consistent and accurate across sources; no contradictions found.",
+  "b_issues": "All key facts (Euro-denominated loans, $1.7B, Värde Partners consortium) are consistent and accurate across sources, including an additional confirming Bloomberg/Yahoo mention; no contradictions found.",
+  "reasoning": "Both Content A and Content B contain multiple sources (varde.com, Klarna investor relations, and others) that consistently state the SRT transaction is $1.7 billion covering Euro-denominated loans led by Värde Partners. Neither set contradicts itself, and both directly answer the currency denomination question (Euro) with reliable, matching sources. Content B includes a slightly broader context (Yahoo/Bloomberg article) confirming the same fact, but this does not meaningfully improve accuracy or completeness over A, which already has sufficient and consistent sourcing (including the official Klarna and Värde press releases) to answer the question correctly."
+}

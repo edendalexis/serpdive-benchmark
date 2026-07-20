@@ -1,0 +1,11 @@
+{
+  "id": 382,
+  "query": "Meta Business Agent AI tool features launch details 2024",
+  "topic": "Meta",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "All of Content A's sources clearly and consistently date the 'Meta Business Agent' launch to 2026 (about.fb.com/news/2026/06, CNBC 2026/06/03, wabetainfo, theaiagentindex), which matches the anchor's own 2026-dated primary sources. However, none of the results actually address a 2024 launch, so the content doesn't directly satisfy the query's '2024' framing—though this is because the premise of a 2024 'Meta Business Agent' launch appears factually incorrect.",
+  "b_issues": "Content B mixes two distinct products/timeframes without clear dating: an SMB-focused 'Business AI' agent (marketingdive, aibusiness—likely 2024/2025, aligning with the anchor's AdExchanger piece from March 2025) and a separate global 'Meta Business Agent' enterprise launch (Yahoo, Global Banking & Finance, Business Times) that clearly describes the same event as Content A's 2026 CNBC article (same London conference, same Gleit/Enterprise Solutions details) but omits the year entirely. This lack of explicit dating risks the LLM incorrectly attributing the 2026 enterprise launch to 2024, conflating two different products/timelines.",
+  "reasoning": "Content A is internally consistent and clearly dated, matching the anchor's most authoritative 2026-dated Meta sources (about.fb.com, developers.facebook.com) describing the actual Meta Business Agent launch and its features (Shopify/Zendesk/Shopee integrations, enterprise controls, personalization). Content B blends an earlier 'Business AI' SMB tool with the later enterprise 'Meta Business Agent' launch, but strips away the dates that would let an LLM distinguish them, increasing the risk of an inaccurate answer that misattributes 2026 features to 2024. A's explicit, consistent dating makes it more reliable for producing a factually correct answer, even if it means correcting the query's 2024 premise."
+}

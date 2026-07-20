@@ -1,0 +1,11 @@
+{
+  "id": 969,
+  "query": "President Droupadi Murmu article Jagannath devotion spiritual experiences childhood full text July 2026",
+  "topic": "Narendra Modi",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Only provides brief snippet descriptions/titles without substantive content from the article; lacks specific details like childhood village name, the barefoot walk incident, the Delhi Hauz Khas temple visit, or specific quotes from the article that would allow reconstruction of the actual content.",
+  "b_issues": "Also lacks the full text of the article itself (as does A), but provides significantly more substantive detail across multiple sources including specific childhood location (Uparbeda village, Mayurbhanj district), the barefoot walk on Bada Danda, the Hauz Khas temple prayer before nomination, and the Rath Yatra dates/context.",
+  "reasoning": "Neither source contains the full text of Murmu's article, but Content B provides much richer factual detail that would allow an LLM to answer the question more completely and accurately. B includes specific details like her childhood village (Uparbeda, Mayurbhanj), the 2022 visit to Puri where she stopped her motorcade and walked barefoot on Bada Danda, her prayers at the Hauz Khas Jagannath temple before filing nomination papers, and the deity's presence during her oath-taking. Content A's snippets are much thinner, mostly just headlines and one-line summaries without these specific narrative details. Both sets of sources appear consistent with each other and align with the anchor's excerpt, but B offers substantially more usable factual content for answering the question about her childhood devotion and spiritual experiences."
+}

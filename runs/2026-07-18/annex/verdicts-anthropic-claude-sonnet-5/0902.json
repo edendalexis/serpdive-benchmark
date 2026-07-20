@@ -1,0 +1,11 @@
+{
+  "id": 902,
+  "query": "Oppenheimer Holdings David Fleming Ron Guidi private client division San Francisco branch manager appointment 2026",
+  "topic": "Oppenheimer",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Contains an internal contradiction: pulse2 says Guidi has 'more than 30 years' experience at Stifel, Barclays, Deutsche Bank, Credit Suisse, and DLJ, while InvestmentNews says he has 'more than 26 years' experience at Rockefeller Capital Management, Deutsche Bank and Robertson Stephens — these are inconsistent facts about the same person. Also lacks the official Oppenheimer press release as a source.",
+  "b_issues": "Minor: the pulse2 and investmentnews snippets are truncated and don't include the conflicting experience-detail claims seen in Content A, so no real issues arise, though full experience details for Guidi are less fleshed out.",
+  "reasoning": "Both sets confirm the core facts: Fleming promoted to a New York-based Private Client Division leadership role, reporting to Ed Harrington, and Ron Guidi appointed as the new San Francisco Branch Manager succeeding Fleming. However, Content A includes two sources (pulse2 and InvestmentNews) that give contradictory details about Ron Guidi's professional background (30 years vs. 26 years, and different lists of prior employers), which could confuse or mislead an LLM answering follow-up questions about Guidi. Content B avoids this contradiction, includes the official Oppenheimer press release (matching the anchor exactly), and provides consistent, corroborating details across multiple reputable sources (official site, InvestmentNews, StockTitan, FamilyWealthReport) without conflicting claims. Thus Content B better and more reliably supports a correct answer."
+}

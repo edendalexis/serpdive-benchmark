@@ -1,0 +1,11 @@
+{
+  "id": 406,
+  "query": "EU AI Act AI Omnibus watermarking obligation Art. 50 AI synthetic content postpone grandfathering deadline December 2026",
+  "topic": "EU AI Act",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A includes a clearly erroneous snippet (LexisNexis) stating watermarking take effect from 2 August 2028 and providers have until 2 November 2026 to meet watermarking obligations — both figures are wrong per the anchor (correct date is 2 December 2026, tied to Art. 50(2), not the 2028 high-risk deadline). It also includes ISMS.online source that conflates the Aug 2026 high-risk deadline with Article 50 transparency obligations broadly being 'delayed', creating internal contradiction with the LW.com and Gibson Dunn snippets in the same set that correctly say Art. 50 scope is unchanged. This mix of correct and incorrect dates/claims could mislead an LLM into citing the wrong grandfathering date.",
+  "b_issues": "Minor: Winston Taylor snippet lists Annex I high-risk date as '2 August 2026' which seems like a possible transcription inconsistency (likely should be 2 August 2027 or similar), but this is tangential to the core Article 50 watermarking question and doesn't affect the accurate statement about the Dec 2026 grandfathering deadline for Art. 50(2).",
+  "reasoning": "Both sets contain the correct core fact (Art. 50(2) machine-readable marking grace period extends to 2 December 2026 for systems already on market before 2 August 2026, matching the anchor). However, Content A also contains a clearly wrong snippet (LexisNexis) with an incorrect '2 November 2026' date and conflates it with the 2028 high-risk deadline, plus an ISMS.online snippet that implies the general Article 50 deadline itself was delayed, contradicting other snippets in the same set (LW.com) that say the scope of Art. 50 was unchanged. This internal contradiction and factual error make Content A less reliable. Content B's results are more consistent and accurate on the specific question of the Art. 50(2) watermarking grandfathering deadline, closely mirroring the anchor's key facts without introducing a false date."
+}

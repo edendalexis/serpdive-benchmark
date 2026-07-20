@@ -1,0 +1,11 @@
+{
+  "id": 700,
+  "query": "Live Nation Ticketmaster antitrust remedy phase ruling Ticketmaster severance decision date",
+  "topic": "Ticketmaster DOJ lawsuit",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Does not include the Courthouse News article (the anchor's primary source), so it lacks the specific February 2027 date for the remedy phase hearing. Its Crowell excerpt also omits the explicit mention of severing Ticketmaster from Live Nation as the likely remedy proposal, leaving the 'severance decision date' unanswered.",
+  "b_issues": "No major factual flaws; content is consistent with the anchor. Minor: does not itself state an explicit final 'decision date' for severance (none exists yet), but it does surface the relevant remedy-phase timeline (Feb 2027 hearing, spring 2027 bench trial) and the Tunney Act review timing, which is the most complete available answer.",
+  "reasoning": "The anchor's key fact is the Courthouse News piece indicating the remedies/severance phase won't be heard until as early as February 2027 and could stretch into spring 2027. Content B includes this exact article verbatim, giving the LLM the specific date needed to answer the question. It also includes the Crowell article explicitly noting the remedy phase will consider severing Ticketmaster from Live Nation. Content A omits the Courthouse News source entirely and its Crowell excerpt lacks the severance detail, making it less complete and less aligned with the anchor's core fact (the 2027 timeline)."
+}

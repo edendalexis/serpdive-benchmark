@@ -1,0 +1,11 @@
+{
+  "id": 354,
+  "query": "Pope Leo XIV Liberty Medal July 4 2026 awarding institution ceremony location",
+  "topic": "Pope Leo XIV",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "No major factual errors; minor variation in phrasing on exact ceremony location (Independence Mall vs. inside the NCC building) but these are consistent since NCC sits on Independence Mall.",
+  "b_issues": "No major factual errors; similarly notes location as both 'at the National Constitution Center' and 'outside its location at Independence Mall,' which is consistent but slightly redundant.",
+  "reasoning": "Both content sets correctly identify the National Constitution Center as the awarding institution, the 38th annual Liberty Medal, Pope Leo XIV as honoree, the date (July 3, 2026, eve of the 250th anniversary), and the ceremony location in Philadelphia at/near Independence Mall/the National Constitution Center, matching the anchor's facts. Neither set contains contradictory or inaccurate information relative to the anchor. Content B provides more corroborating sources and richer ceremony detail, but this does not change the correctness of the core answer, which both sets support equally well."
+}

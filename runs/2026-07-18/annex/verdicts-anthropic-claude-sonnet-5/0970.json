@@ -1,0 +1,11 @@
+{
+  "id": 970,
+  "query": "JD Vance Minneapolis anti-ICE protests January 2026 local officials response",
+  "topic": "JD Vance",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; content is consistent with the anchor and other reliable sources (ABC, Guardian, NBC), providing accurate quotes and details about Vance's remarks and the response from Walz and other officials.",
+  "b_issues": "Snippets are mostly title restatements with minimal substantive content; lacks the concrete local-official response quote (e.g., Walz's rebuttal) that directly answers the 'local officials response' part of the question. The MPR snippet adds a factual detail about police 'stand down' but doesn't cover official reaction.",
+  "reasoning": "The question asks specifically about local officials' response to Vance's visit. Content A includes a direct quote from Governor Walz responding to Vance ('actions speak louder than words') and details about DOJ subpoenas against Walz and Frey, giving a fuller, more accurate picture of the officials' reaction. Content B's results, while from reputable sources, contain only brief, title-level content snippets that don't include the actual official responses, making it harder for an LLM to answer the specific question about local officials' reactions."
+}

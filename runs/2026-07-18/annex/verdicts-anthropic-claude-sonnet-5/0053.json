@@ -1,0 +1,11 @@
+{
+  "id": 53,
+  "query": "Nintendo Switch 2 Pokemon Pokopia Bundle July 23 2026 contents price retailer official Nintendo",
+  "topic": "Nintendo Switch 2",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Relies partly on unofficial/low-quality sources (Facebook post with garbled text, Instagram caption) for price info; the Facebook date (pre-orders July 23) may not correspond to the same regional bundle as the official SG page, and price ($499.99) is not explicitly tied to the July 23 SG/MY release described in the anchor.",
+  "b_issues": "Provides several official Nintendo sources but the price/date data for those sources (AU 5 June, Europe 2 July) contradicts the July 23 date from the SG article, and the US store link is for the base game, not the bundle, so it doesn't clarify price/retailer for the July 23 launch either. The games.gg source is speculative/low quality.",
+  "reasoning": "Both sets share the identical official Nintendo SG source that supplies the accurate bundle contents matching the anchor. Neither set supplies an authoritative price or retailer explicitly tied to the July 23, 2026 SG/MY date; instead both surface conflicting regional dates (Europe July 2, AU June 5) and prices, requiring the same caveats to answer correctly. A leans on less reliable social-media sources for price, while B leans on more official but date-mismatched sources plus an irrelevant DLC/base-game link. The net effect on answer quality is roughly equivalent, with each set having comparable strengths and weaknesses."
+}

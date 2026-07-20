@@ -1,0 +1,11 @@
+{
+  "id": 351,
+  "query": "SSPX six bishops excommunication 2026 Vatican schism decree official statement",
+  "topic": "Pope Leo XIV",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Snippets are short and none actually name the six bishops involved; details remain vague (just 'all bishops involved' or 'six bishops') without specifics on consecrators, canon law citation, or exact decree wording. This makes it harder for an LLM to give a precise, detailed answer matching the anchor's facts (names, canon 1364 §1, Fellay's prior 1988 excommunication, etc.).",
+  "b_issues": "Includes a stray, irrelevant sentence in the Catholic World Report snippet ('In the early 1960's Saint Padre Pio warned that Satan had entered the bosom of the church') that appears to be a scraping artifact, and repeats 'consecrated four bishops' phrasing that could be slightly confusing alongside 'six bishops' framing, but this doesn't materially harm the core facts.",
+  "reasoning": "Both sets confirm the basic event—Vatican decree of July 2, 2026 declaring SSPX schismatic and excommunicating bishops—but Content B provides substantially more detailed and specific information matching the anchor's factual core: it names all the bishops (Galarreta, Fellay, Schreiber, Goldade, Poinsinet de Sivry, Hanappier), cites the specific canon law (canon 1364 §1, CIC 2021), explains Fellay's distinct 1988/2009 excommunication history, and includes a direct quote from the decree. Content A's snippets are shorter and more repetitive, lacking these specifics, making B better equipped to help an LLM answer the question accurately and comprehensively."
+}

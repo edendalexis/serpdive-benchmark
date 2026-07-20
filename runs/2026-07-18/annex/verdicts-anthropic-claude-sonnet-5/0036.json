@@ -1,0 +1,11 @@
+{
+  "id": 36,
+  "query": "Google non-consensual explicit deepfakes search ranking update July 2026 official announcement",
+  "topic": "Google",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Includes a fabricated/inconsistent claim that a Mashable article states the deepfake ranking update was announced or presented at 'Google I/O 2026' by 'Suz Chambers, Director of Google Creative Lab' — this does not match the actual 2024 announcement (confirmed by the anchor) and appears to be a hallucinated detail that would mislead an LLM into fabricating a false 2026 event. Also includes an unrelated 2026 I/O search update article that adds noise without relevance to the deepfake ranking policy.",
+  "b_issues": "None of substance; all results are consistent with the anchor (July 31, 2024 announcement), though the specific 'July 2026' framing in the query isn't addressed, the content correctly and consistently describes the real 2024 update without fabrication.",
+  "reasoning": "The anchor confirms the actual official Google announcement on non-consensual explicit deepfake ranking changes occurred July 31, 2024, not July 2026. Content B's results (Mashable, NBC News, SearchEngineJournal, blog.google, Times of India) all consistently and accurately describe this 2024 update, matching the anchor's facts closely. Content A includes the same Mashable article but appends a fabricated detail about a 'Google I/O 2026' presentation by a fictional-sounding figure, which is inaccurate and could lead an LLM to hallucinate a false 2026 timeline or event. This fabrication undermines the reliability of Content A, making Content B the better source for a factually correct answer."
+}

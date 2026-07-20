@@ -1,0 +1,11 @@
+{
+  "id": 841,
+  "query": "Taylor Swift The Life of a Showgirl album 2025 first week sales figures",
+  "topic": "Taylor Swift",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Includes an interim (not final) figure of 3.5 million from Pitchfork, which could be mistaken for the final number if not read carefully, though it is clearly framed as a pre-final report. The silive article title mentions 'sales week' while content describes day-one sales, a minor mismatch inherited from the source itself.",
+  "b_issues": "Also includes interim, pre-final figures (2.7 million day-one, 3.5 million-adjacent mentions) that could be conflated with the final tally if skimmed, though the Digital Music News result clearly states the final 4.002 million figure with a sales/streaming breakdown.",
+  "reasoning": "Both content sets contain a reliable, direct source (Variety in A, Digital Music News in B) confirming the same final figure as the anchor: 4.002 million equivalent album units, breaking Adele's prior record. Both also include supplementary day-one/interim figures (2.7 million day-one sales, earlier 3.5 million interim tally) that are consistent with the historical rollout of reporting and not contradictory when read in context. Content B provides slightly more granular breakdown (3,479,500 pure sales vs 522,600 streaming-equivalent units), but this doesn't meaningfully change the ability to answer correctly. Neither set contains factual errors relative to the anchor, and both would allow an LLM to correctly state the 4.002 million first-week units figure."
+}

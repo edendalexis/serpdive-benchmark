@@ -1,0 +1,11 @@
+{
+  "id": 831,
+  "query": "Julian Assange Saipan district court guilty plea free release Australia return date",
+  "topic": "Julian Assange",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Snippets are more fragmented and less detailed on specifics like sentencing terms (time served, no supervision/fine) and exact departure/arrival timing; relies more on secondary sources like Facebook post; doesn't clearly state the plea deal terms or Canberra arrival time in detail.",
+  "b_issues": "No major factual issues; content is accurate and consistent with the anchor.",
+  "reasoning": "Content B provides more complete and specific factual details directly answering the question: it confirms the guilty plea to one count of conspiracy to obtain/disclose classified documents, sentencing to time served with no supervision or fine, and that Assange flew from Saipan to Canberra at lunchtime Wednesday, arriving Wednesday evening local time. It draws from highly reliable sources (Guardian, Al Jazeera, BBC) with consistent, non-contradictory details. Content A covers similar ground but includes a less reliable Facebook post citation and is comparatively vaguer on sentencing specifics and exact travel timing, making B slightly more precise and reliable for answering the question fully."
+}

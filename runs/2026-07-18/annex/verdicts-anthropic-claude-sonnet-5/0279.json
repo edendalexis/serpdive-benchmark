@@ -1,0 +1,11 @@
+{
+  "id": 279,
+  "query": "Bukele war against corruption white-collar prison proposal June 2023 latest status enforcement critics 2025 2026",
+  "topic": "Nayib Bukele",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Only the Reuters piece is truly on-topic; the rest (Al Jazeera US-convict deal, WLRN youth life-sentencing reform, WaPo Rubio/CECOT informant story, and a low-quality Instagram post) are tangential to the specific 'war on corruption/white-collar prison' initiative and its enforcement/critics, giving little direct material to answer the corruption-focused question.",
+  "b_issues": "Slightly less explicit on the original 2023 white-collar prison pledge details beyond the Reuters snippet, and the BTI/Freedom House content is dense/summary-style rather than narrative, requiring some synthesis.",
+  "reasoning": "Both include the same Reuters 2023 source. Beyond that, B's remaining results (BTI 2026 report, ABA anti-corruption mechanisms piece, LASA Forum, Freedom House 2025) directly address corruption enforcement status, deficiencies found by watchdog groups, Bukele family corruption allegations, and safeguards scores—material that squarely answers the 'status/enforcement/critics' parts of the question. A's supplementary results drift into general prison/incarceration and geopolitical topics (US convict deal, youth sentencing, CECOT/Rubio deal) that are only loosely related to the corruption-specific proposal, offering less substantive critique or status update on the anti-corruption effort itself."
+}

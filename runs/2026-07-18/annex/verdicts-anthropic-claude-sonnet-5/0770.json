@@ -1,0 +1,11 @@
+{
+  "id": 770,
+  "query": "Trump Gaza ceasefire international oversight body appointment update",
+  "topic": "Gaza ceasefire negotiations",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Does not mention the specific individuals (Rubio, Witkoff, Blair, Kushner) appointed to the Board of Peace, nor Israel's objection to the announcement. Axios piece is speculative ('expected to announce') rather than confirming actual appointments. Lacks details of the board's first meeting or concrete funding commitments beyond a mention.",
+  "b_issues": "Also does not explicitly list Rubio, Witkoff, Blair, Kushner as board members or mention Israel's objection, so the core 'appointment' controversy from the anchor is missing. Some redundancy with A on CFR and White House sources.",
+  "reasoning": "Both sets omit the specific fact central to the anchor (the four named appointees and Israel's objection), so neither perfectly answers the question. However, Content B provides more concrete, verifiable follow-through: NCAG leader Ali Sha'ath's appointment, the first Board of Peace meeting details (date, attendees including Rubio and Vance, funding pledges of $7B and $10B), and confirmation of more countries being invited. This gives a clearer, more coherent picture of the oversight body's formation and status than Content A, which relies more on speculative pre-announcement reporting (Axios) and general UN Security Council forecasts without concrete appointment or meeting details."
+}

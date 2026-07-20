@@ -1,0 +1,11 @@
+{
+  "id": 448,
+  "query": "Notre-Dame de Paris spire lower roofing completion date June July 2025",
+  "topic": "Notre-Dame de Paris",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "A does not include the actual 'spire is finished' article text confirming the lower roofing completion; it only has a snippet about statues returning by end of July via OSV News, and a stale/incorrect article about a Dec 2024 reopening announcement and a 2023 spire installation article, which could mislead about timing. The core factual confirmation of lower roofing completion is missing or indirect.",
+  "b_issues": "Minor redundancy (same article appears twice under different URLs), but no factual inaccuracies; content is consistent and directly on-topic.",
+  "reasoning": "B directly provides the full text of the 'The spire is finished!' article, explicitly stating the lower spire roofing (paused in 2024, resumed and completed) is finished, with supporting technical detail, plus the July 26 statue completion date from the 2025 progress updates page. This directly and accurately answers the question. A's results are more scattered, including outdated/irrelevant articles (Dec 2024 reopening announcement, 2023 spire installation) and only indirectly reference roofing completion via a statue-return snippet, making it harder for a model to confidently and accurately answer the specific question about the lower roofing completion timeframe."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 987,
+  "query": "Sundar Pichai Cloud Next 2026 Gemini Enterprise Agent Platform announcement cybersecurity enterprise agents April 2026",
+  "topic": "Sundar Pichai",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A never explicitly ties cybersecurity agents to Sundar Pichai's announcement; only one vague reference to 'AI-native security' in a general article, with no detail on the Wiz/Threat Intelligence security platform or Pichai's specific statements on cybersecurity agents.",
+  "b_issues": "Some secondary details (e.g., $240B backlog, 750M Gemini users, market share figures) come from a less authoritative source (thenextweb) and aren't corroborated elsewhere, but they don't contradict the core facts and aren't central to the cybersecurity question.",
+  "reasoning": "The question specifically asks about Pichai's cybersecurity/enterprise agents announcement. Content B includes the actual blog.google/Pichai source stating 'we are unveiling a range of new agentic solutions for threat detection, as part of an AI-powered cybersecurity platform that combines Google's Threat Intelligence and Security Operations with Wiz's Cloud and AI Security Platform,' directly answering the query, and even corroborates this via Pichai's LinkedIn post mentioning 'Agentic AI solutions for cybersecurity.' Content A's results focus almost entirely on the Gemini Enterprise Agent Platform and TPUs, with only a passing, non-specific mention of 'AI-native security,' lacking the direct cybersecurity announcement tied to Pichai. Thus B provides the precise facts needed to answer the question correctly, while A leaves a key part of the question unanswered."
+}

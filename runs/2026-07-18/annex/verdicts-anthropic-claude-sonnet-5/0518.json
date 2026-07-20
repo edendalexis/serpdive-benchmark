@@ -1,0 +1,11 @@
+{
+  "id": 518,
+  "query": "Argentina 2026 budget labor tax penal code reform bill Congress vote status latest",
+  "topic": "Javier Milei",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "The leglobal.law source contains an apparent date error ('27 February 2027' for approval, inconsistent with the March 2026 enactment date mentioned elsewhere), which could confuse the timeline. None of the sources explicitly confirm the final Senate vote tallies or the specific 'Inocencia Fiscal' law naming, though the EY and Buenos Aires Times articles cover the substantive reform content (labor, tax, penal code) reasonably well.",
+  "b_issues": "The vast majority of results are irrelevant to Argentina entirely (US Treasury appropriations bill, Nicaragua brief, US economic policy CRS reports, a law firm sitemap). Only the BTI Argentina country report is tangentially relevant but focuses on general political/economic context rather than the specific budget/labor/tax/penal reform bills or their Congressional vote status. This content set fails to surface any facts answering the actual question.",
+  "reasoning": "Content A directly addresses the query with sources covering the labor modernization law (with tax amendments), the government's 2026 legislative agenda (budget, labor law, penal code reform, presumption of innocence tax law), and Congressional timing—closely matching the anchor's subject matter. Content B is dominated by off-topic US legislative and generic country-report content that does not inform an LLM about Argentina's specific budget/labor/tax/penal code reform bill status. Despite a minor date typo in one Content A source, it is far more useful and accurate overall for answering the question."
+}

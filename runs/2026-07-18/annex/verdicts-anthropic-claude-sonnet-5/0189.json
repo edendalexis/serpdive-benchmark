@@ -1,0 +1,11 @@
+{
+  "id": 189,
+  "query": "IOC organizational reforms review sustainability standards geopolitical tensions athlete eligibility upcoming Games cycles 2026",
+  "topic": "International Olympic Committee",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A's results are more tangential (backlash articles, general sustainability page) and lack concrete specifics about the actual organizational reforms—e.g., the eligibility screening snippet is truncated and unclear, and there's no detail on host selection reform, funding figures, or specific athlete policies.",
+  "b_issues": "Minor: the Houston Law Review result is more about historical host-selection oversight than current 2026 reforms, slightly diluting focus, though still contextually relevant.",
+  "reasoning": "Content B directly surfaces the 146th IOC Session's 'Fit for the Future' reforms with concrete, verifiable specifics: the new Olympic programme/host selection methodology, the $140 million fund, the $10,000 athlete grant starting at Milano Cortina 2026, the Protection of the Female Category policy (athlete eligibility), and explicit language on geopolitical neutrality and sustainability commitments. It also includes the anchor source itself, ensuring alignment with the reference. Content A's results are more diffuse—covering general Winter Olympics political backlash and a generic sustainability strategy page—without the same level of concrete, cross-referenced detail on reforms, eligibility criteria, or funding specifics needed to fully answer the multi-part query."
+}

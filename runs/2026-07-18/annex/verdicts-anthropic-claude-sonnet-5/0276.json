@@ -1,0 +1,11 @@
+{
+  "id": 276,
+  "query": "Kilmar Abrego Garcia deportation case latest ruling court decision 2025",
+  "topic": "Nayib Bukele",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "The NYT article URL/date shows '2026/05/22' which is inconsistent with the case timeline (the case was actually dismissed in 2025, as corroborated by AP News and other sources) - this could confuse the model about the exact year, though the substantive content (case dismissed as vindictive prosecution) is accurate. Otherwise facts are consistent with the anchor.",
+  "b_issues": "Content B contains no information beyond the April 2025 Supreme Court ruling and background commentary (GW Law review, SCOTUSblog, a Facebook post). It completely omits the later 2025 developments - release from detention, the criminal smuggling case, and its eventual dismissal - which are highlighted as the 'latest' rulings in the anchor and represent the most current state of the case.",
+  "reasoning": "The question asks for the 'latest ruling/court decision' in the case. The anchor reference shows that by mid-to-late 2025, the case had progressed well beyond the April Supreme Court order to include a district court ruling allowing the civil suit to proceed, his release from immigration detention, and ultimately the dismissal of the criminal smuggling charges as vindictive prosecution. Content A captures this later stage via the BBC and NYT articles describing the dismissal of the criminal case, giving the model material to describe the most recent outcome, despite the incongruous date in the NYT URL. Content B is limited entirely to the April 2025 Supreme Court decision and analysis of it, with no material addressing what happened afterward, making it less useful for answering about the 'latest' status of the case in 2025."
+}

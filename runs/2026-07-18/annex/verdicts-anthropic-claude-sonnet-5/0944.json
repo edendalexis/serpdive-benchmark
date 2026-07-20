@@ -1,0 +1,11 @@
+{
+  "id": 944,
+  "query": "Tesla Cybercab public road testing Austin Bay Area Buffalo fleet size prototypes safety monitor no steering wheel pedals 2026",
+  "topic": "Cybercab",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Doesn't mention Bay Area or Buffalo testing explicitly; fleet size figure given (100+) refers to production units in factory lots, not the actual test fleet on public roads; no explicit fleet count of Cybercabs undergoing road testing.",
+  "b_issues": "Includes a Facebook post result that is almost entirely garbled SVG/icon code with only a one-line snippet of useful text, adding noise; doesn't mention Bay Area or Buffalo testing; the '34 robotaxis' figure from Planetizen is unsourced/unclear whether it refers to Cybercabs specifically or the broader Model Y robotaxi fleet, and reliability of briefs.co/planetizen as sources is uncertain.",
+  "reasoning": "Neither content set contains information about Buffalo testing or a clear Bay Area Cybercab test-fleet count matching the anchor's 'seven units across Austin and Bay Area' fact from ilovetesla.com. Both correctly convey the core facts: no steering wheel/pedals, safety monitor in passenger seat, testing in Austin, tied to production ramp-up. Content A provides cleaner, more reliable sourcing (TechCrunch, Electrek, teslaoracle, whatsuptesla) with concrete production numbers but lacks a road-test fleet size figure. Content B offers a fleet number (34) that partially addresses the 'fleet size' portion of the query but is undermined by an unreliable/garbled Facebook source and unclear sourcing for the 34 figure. Given the tradeoffs—A's cleaner reliable info vs. B's partial fleet-size data amid noisy content—the two are roughly equivalent in overall ability to answer the full question."
+}

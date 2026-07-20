@@ -1,0 +1,11 @@
+{
+  "id": 826,
+  "query": "Key Bridge reconstruction Baltimore winning bid contractor awarded cost timeline 2025",
+  "topic": "Port of Baltimore",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "A never actually surfaces the 2025 contract award (the $75M WSP‑led 'Bridging Maryland Partnership' construction‑management contract) that is the concrete 2025 event matching the query. It instead repeats the 2024 Kiewit $73M pre‑construction award and the 2026 cost/timeline updates and Kiewit split, leaving the '2025 winning bid' aspect unanswered or easily conflated with Kiewit's earlier award.",
+  "b_issues": "Results are fragmented across several short snippets (fabrication contract, WSP contract, re-bid article) and require piecing together; the equipmentworld and bridgeweb snippets are thin on detail, but the core facts (WSP-led team, $75M contract, Jan 2025 approval, spring 2025 start) are accurate and directly on point.",
+  "reasoning": "The question specifically asks about a 2025 winning bid, contractor, cost, and timeline. Content B directly supplies this via the Maryland Matters and ARTBA articles: the $75 million contract awarded Jan 8, 2025 to the WSP-led 'Bridging Maryland Partnership' for construction management, plus a subsequent Oct 2025 fabrication contract. Content A, while richer in overall project history (cost escalation to $4.3-5.2B, 2030 timeline, Kiewit's 2024 award and 2026 dismissal), never mentions the WSP contract or any 2025-specific contractor award, making it less useful for answering the specific 2025 'winning bid' question and potentially misleading if a model conflates Kiewit's 2024 award with a 2025 event. Both sets are factually consistent with the anchor, but B is more precisely responsive to the query's 2025 focus."
+}

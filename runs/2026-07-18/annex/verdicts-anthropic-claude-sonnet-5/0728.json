@@ -1,0 +1,11 @@
+{
+  "id": 728,
+  "query": "Temu illegal hazardous products EU investigation specific products defective chargers toxic baby toys enforcement statement 2025",
+  "topic": "Temu",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Some URLs contain dates in 2026 (euronews video and bostonherald links dated 2026/05/28), which appears to be a scraping/date error since the fine was reported in 2025; this could confuse the timeline slightly, but the content itself is accurate and consistent with the anchor's facts about the €200m fine, toxic toys, and faulty chargers.",
+  "b_issues": "Content B provides almost no relevant factual information about the specific EU investigation, fine, or enforcement action. Results are mostly generic Temu pages (Wikipedia, Instagram, Facebook, App Store reviews, Temu's own shopping site) that do not mention the €200m fine, the DSA investigation, toxic baby toys, or defective chargers with any specificity. The Wikipedia snippet vaguely mentions 'investigations' but gives no concrete details, dates, or outcomes.",
+  "reasoning": "Content A directly answers the question with specific, accurate facts: the €200m/$232m fine, the DSA violation findings, the mystery shopping exercise revealing chargers failing safety tests, toxic/hazardous baby toys, and quotes from EU officials (Virkkunen). This aligns closely with the anchor reference (AP News, BBC, DW). Content B fails to provide any specific information about the investigation, fine amount, or specific products found unsafe, instead returning irrelevant social media and app store pages that do not address the query's specific request for enforcement details and product types."
+}

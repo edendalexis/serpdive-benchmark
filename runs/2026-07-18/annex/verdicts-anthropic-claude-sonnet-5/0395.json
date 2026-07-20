@@ -1,0 +1,11 @@
+{
+  "id": 395,
+  "query": "Austria H5N1 wild birds November 2025 alert 21 infected birds official report",
+  "topic": "H5N1 bird flu",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Contains a mostly irrelevant snippet about 70 people (context unclear) and other results not directly about Austria's 21 birds, but the top result directly matches the anchor with the exact key fact (21 infected wild birds since late September, including swans and greylag geese) from the Innsbruck Virology Institute, a reliable source.",
+  "b_issues": "None of the results mention Austria, 21 infected wild birds, or the November 2025 Austrian alert at all. The results are about global FAO/CDC/USDA/EFSA summaries, Ireland, and future-dated (2026) reports unrelated to the specific Austria query, making it impossible to answer the question from this content.",
+  "reasoning": "Content A includes the exact source and fact confirmed by the anchor (Austria, 21 infected wild birds since late September, swans and greylag geese) via the Innsbruck Virology Institute link, directly answering the question. Content B contains no mention of Austria or the 21-bird figure at all, and instead surfaces unrelated global reports, Ireland-specific poultry outbreaks, and future-dated CDC/EFSA summaries, none of which allow an LLM to correctly answer the specific query about Austria's November 2025 wild bird alert."
+}

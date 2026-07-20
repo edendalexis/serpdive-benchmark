@@ -1,0 +1,11 @@
+{
+  "id": 394,
+  "query": "CDC H5N1 bird flu United States human cases latest update 2025 dairy cows poultry outbreaks",
+  "topic": "H5N1 bird flu",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Includes some results with future 2026 dates (AAO 2026 statement, global summary through June 2026) that go beyond the '2025' framing of the question, and one snippet (USDA data page) is truncated with little substantive content. However, the core facts (70 cases, dairy/poultry exposure breakdown) are accurate and sourced from a peer-reviewed PMC study attributed to CDC authors, which is highly reliable.",
+  "b_issues": "Relies on a lower-quality, non-authoritative blog (globalrph.com) for the key case-count statistics, and its CDC index.html snippet is very brief/truncated, giving less substantive detail. No 2026 data is included, so it may be slightly less current relative to the timeline implied by the anchor's own 2026-dated CDC pages.",
+  "reasoning": "Both content sets converge on the same core facts (about 70 human H5N1 cases in the US as of spring 2025, breakdown by dairy cow vs. poultry exposure, low general public risk, no person-to-person spread), and neither contains outright factual contradictions with the anchor. Content A, however, sources these figures from a peer-reviewed CDC-authored PMC article, which is more authoritative than Content B's key secondary source (a blog, globalrph.com). Content A also includes updated 2026 CDC pages that align with the anchor's own 2026-dated pages, suggesting it captures a more complete and current picture of the ongoing situation, whereas Content B's most recent CDC snippet only reaches September 2025. This gives Content A a slight edge in reliability and completeness for correctly answering the question."
+}

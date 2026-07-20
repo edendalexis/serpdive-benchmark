@@ -1,0 +1,11 @@
+{
+  "id": 991,
+  "query": "True Detective Season 5 filming start date Jamaica Bay New York",
+  "topic": "True Detective",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "The resetera snippet is truncated and confusingly presents 'Start date Feb 12, 2025' immediately before an incomplete sentence about filming beginning 'in the coming months' - this could easily be misread by an LLM as claiming filming started Feb 12, 2025, when that date is actually just the article's publication date (matching Deadline's Feb 2025 article). This creates a real risk of the LLM outputting an incorrect specific date. None of A's other sources mention a 2026 filming date, so this erroneous reading isn't corrected elsewhere.",
+  "b_issues": "None of B's snippets explicitly state 'February 2026' as the shoot date (the productionlist.com snippet is truncated before that detail), but tvinsider's snippet does note filming is 'reportedly set to begin filming in 2026,' which is directionally consistent with the anchor's February 2026 shoot date and doesn't introduce a false specific date.",
+  "reasoning": "The anchor indicates the actual shoot date is February 2026. Content B's sources (tvinsider) support this by stating filming is expected to begin in 2026, and none of B's sources contradict this or introduce false dates. Content A includes a confusingly truncated snippet that appears to assert a Feb 12, 2025 start date for filming, which is likely a misattribution of an article publication date and could lead an LLM to a factually wrong answer about when filming starts. Thus B better enables a correct answer, even though neither source gives the precise 'February 2026' date verbatim."
+}

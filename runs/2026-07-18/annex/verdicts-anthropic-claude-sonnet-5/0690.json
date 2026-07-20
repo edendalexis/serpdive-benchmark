@@ -1,0 +1,11 @@
+{
+  "id": 690,
+  "query": "Ankara NATO summit 2026 €70 billion pledge Ukraine military aid details",
+  "topic": "NATO",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Includes a Pravda headline citing '€140 billion' total over 2026-2027, which could confuse a model into treating it as a separate/different figure rather than simply 2x€70B; Politico snippet references an unrelated €90B EU loan that could add confusion if not read carefully.",
+  "b_issues": "Does not include the actual NATO official declaration text directly (Content A does); relies on lower-quality/less authoritative sources such as cryptobriefing.com (a crypto-market/prediction-market site), a Facebook post, and radiomoldova.md, which are less reliable for factual verification of an official summit declaration.",
+  "reasoning": "Content A directly surfaces the verbatim NATO Ankara Summit Declaration text ('For 2026, Allies pledge €70 billion in military equipment, assistance and training for Ukraine and affirm their sovereign commitments to sustaining at least equivalent levels in 2027'), matching the anchor's primary source exactly. It also includes corroborating reputable outlets (Al Jazeera, NATOwatch briefing paper, a detailed field report) that reinforce the core facts (€70B for 2026, equivalent for 2027, plus context like $50B+ in new procurements). Content B has similar core facts via Kyiv Independent's quote of the declaration, but its supporting sources are weaker in reliability (cryptobriefing, Facebook, radiomoldova), and it lacks the direct primary-source snippet that A provides. Both are largely consistent, but A offers a stronger, more authoritative basis for answering."
+}

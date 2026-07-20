@@ -1,0 +1,11 @@
+{
+  "id": 756,
+  "query": "DJT stock lock-up period expiration September 2024 all-time low price Trump Media",
+  "topic": "Truth Social DJT stock",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A lacks the key fact - the actual closing price ($13.55) on the lock-up expiration date. It includes an SEC filing with outdated/irrelevant price data from June-July 2024, and two off-topic Forbes/Yahoo results discussing 2026 stock lows, which could confuse the model about the correct date and price for the September 2024 event.",
+  "b_issues": "No significant factual flaws; content is consistent with the anchor and provides the exact closing price ($13.55) and percentage drop (7.82%) on the correct date (Sept 20, 2024), plus context on lockup expiration timing (Sept 19, 4pm ET).",
+  "reasoning": "Content B directly and accurately answers the question with the specific all-time low closing price ($13.55) on September 20, 2024, the day after lockup expiration, matching the anchor's Reuters/CNBC/CBS reporting exactly. Content A does not contain the actual all-time low price from September 2024 at all - it only has pre-lockup-expiration prices from an SEC filing (June/July 2024) and irrelevant 2026 data about a different 'all-time low' event, which would likely mislead an LLM into citing wrong prices or dates."
+}

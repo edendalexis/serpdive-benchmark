@@ -1,0 +1,11 @@
+{
+  "id": 81,
+  "query": "Blue Origin TeraWave satellite network announcement data speeds TBPS",
+  "topic": "Blue Origin",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "None significant; all results consistently confirm 6 Tbps figure, 5,408 satellite constellation (5,280 LEO + 128 MEO), and additional detail on 144 Gbps per-user LEO speeds, all consistent with the anchor.",
+  "b_issues": "Featured snippet and results are thinner on technical detail (no mention of 144 Gbps LEO speeds or RF/optical link breakdown); includes an irrelevant Wikipedia Starlink result that doesn't address the query, diluting relevance though not introducing factual errors.",
+  "reasoning": "Both sets confirm the core fact of 6 Tbps symmetrical speeds and the 5,408-satellite (5,280 LEO + 128 MEO) constellation, matching the anchor. However, Content A provides more complete and directly relevant supporting detail across five results, including specifics on the LEO Q/V-band 144 Gbps speeds and MEO optical 6 Tbps speeds, closely mirroring the anchor's technical breakdown. Content B's inclusion of an irrelevant Wikipedia Starlink result reduces overall answer quality, even though the core facts are still accurate and present in the other results. Content A better enables a fully accurate and detailed answer."
+}

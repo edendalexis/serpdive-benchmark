@@ -1,0 +1,11 @@
+{
+  "id": 42,
+  "query": "PSG Arsenal 2025/26 Champions League final penalty shootout scorers lineup May 30 2026",
+  "topic": "UEFA Champions League",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A only mentions that Eze and Gabriel missed penalties for Arsenal but never gives the full shootout order or names of the scoring takers for either side (Ramos, Doué, Mendes, Hakimi, Beraldo for PSG; Gyökeres, Rice, Martinelli for Arsenal are all missing). This is insufficient to answer a question specifically asking for the 'penalty shootout scorers lineup.'",
+  "b_issues": "Minor: the YouTube result text calls it 'Myles Lewis-Skelly' hitting the woodwork and other embellished narrative details not confirmed by the anchor, and the goal description differs slightly in narrative flourish, but the core penalty shootout order/scorers exactly match the anchor and ESPN data (Ramos, Doué, Mendes saved, Hakimi, Beraldo for PSG; Gyökeres, Eze missed, Rice, Martinelli, Gabriel missed for Arsenal), so the essential facts needed are accurate.",
+  "reasoning": "The question asks specifically for the penalty shootout scorers/lineup. Content B provides a complete, ordered breakdown of all ten penalty takers and outcomes that matches the anchor (psg.fr) and ESPN sources precisely (Ramos scores, Gyökeres scores, Doué scores, Eze misses, Mendes saved, Rice scores, Hakimi scores, Martinelli scores, Beraldo scores, Gabriel misses). Content A only references that Eze and Gabriel missed, without naming any of the scoring penalty takers, making it inadequate to fully answer the question. Therefore Content B is clearly superior for this specific query."
+}

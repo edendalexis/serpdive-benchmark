@@ -1,0 +1,11 @@
+{
+  "id": 221,
+  "query": "Tesla FSD monthly subscription price",
+  "topic": "Tesla",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Includes a low-quality Reddit result claiming FSD subscription was 'officially introduced' at $199/month, which is confusing/contradictory context, though the correct $99 figure is still present and directly sourced from Tesla's own support page.",
+  "b_issues": "Lacks a direct quote from Tesla's official support page confirming the $99 price; relies more heavily on lower-authority blog sites (lowermysubs, basenor, teslaacessories) for the core price confirmation, though they are internally consistent.",
+  "reasoning": "Both sets converge on $99/month as the current price (with $49/month for EAP owners), so either could yield a correct answer. Content A includes a direct quote from Tesla's own official support page ('FSD (Supervised) is available as a monthly subscription of $99'), which is the most authoritative possible source for this fact. Content B's results are all secondary sources (news outlets and blogs) without a direct Tesla source snippet, making it slightly less authoritative, though still broadly accurate and consistent. A's inclusion of a Reddit post citing an outdated/possibly inaccurate $199 'introduction' price is a minor blemish but doesn't undermine the clear $99 figure from the official source."
+}

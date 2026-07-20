@@ -1,0 +1,11 @@
+{
+  "id": 686,
+  "query": "Shein US price increases April 2025 tariffs Chinese goods customer notice higher prices next week",
+  "topic": "Shein",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "No direct inclusion of the AP anchor article, though multiple reputable outlets (ABC7, CBC, ABC News, NBC, LiveNow) corroborate the same facts: April 25 price hike date, 'next week' timing, de minimis removal May 2, 145% tariff. No factual errors noted.",
+  "b_issues": "Includes a lower-authority source (globaltrainingcenter.com) alongside reputable outlets (Guardian, AP, Forbes, LiveNow). Guardian's mention of a $25/$50 per-item tariff structure reflects an earlier proposed mechanism rather than the final flat tariff, which could be slightly confusing but isn't factually wrong for the time it was reported.",
+  "reasoning": "Both sets present consistent, accurate coverage of the core facts: Shein and Temu warned of price increases starting April 25, 2025, due to Trump's tariffs and the removal of the de minimis exemption on May 2, with 'next week' framing matching the anchor's AP article almost verbatim. Content B directly includes the anchor AP article, adding certainty of accuracy, while Content A relies on equivalent reporting from other reliable outlets. Neither set contains contradictions or major factual errors, and both give an LLM sufficient information to correctly answer the question about timing, cause, and effect of the price increases."
+}

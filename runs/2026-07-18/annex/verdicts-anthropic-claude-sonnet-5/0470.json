@@ -1,0 +1,11 @@
+{
+  "id": 470,
+  "query": "SpaceX Cursor acquisition purchase price",
+  "topic": "Elon Musk",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "All sources in A consistently state $60 billion as the purchase price. The digitalapplied.com blog entry adds extra figures (e.g., '~$4B total (~$2.6B B2B)', '~15x ARR', '$29 billion' pre-deal valuation) that could be confusing but do not contradict the core $60B figure; it's a less authoritative source than the major outlets.",
+  "b_issues": "All sources in B also consistently state $60 billion. Includes a YouTube video snippet as a source, which is less reliable, though its content aligns with the $60B figure. The Forbes article's breakup-fee details ($1.5B fee + $8.5B compute = $10B) are consistent with AP's $10B alternative figure elsewhere, not contradictory.",
+  "reasoning": "Both Content A and Content B clearly and consistently report that SpaceX agreed to acquire Cursor (Anysphere) for $60 billion in an all-stock deal, matching the anchor's reported figure. Both draw from reputable outlets (CNBC, TechCrunch, Forbes, Business Insider) confirming this price, with only minor extraneous details in each that don't undermine the core answer. Neither set contains factual errors or contradictions regarding the purchase price itself, making them equally effective for answering the question."
+}

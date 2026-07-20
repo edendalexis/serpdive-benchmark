@@ -1,0 +1,11 @@
+{
+  "id": 528,
+  "query": "Anthropic Claude Science launch customizable AI workbench researchers auditable artifacts flexible computing access July 2026",
+  "topic": "Anthropic",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Does not explicitly use the word 'customizable' from the Anthropic page title/description, but this is a minor terminology gap rather than a factual error; core facts (auditable artifacts, flexible compute access, launch date, beta availability) are accurate and consistent across multiple sources.",
+  "b_issues": "Provides thinner detail — mostly repeats the same core sentence about auditable artifacts/flexible compute across a few sources (pulse2, anthropic.com, coursiv.io, ddw-online) without adding much corroborating depth on how the workbench actually works (e.g., HPC/SSH access, database integrations, NVIDIA partnership, funding program specifics).",
+  "reasoning": "Both content sets confirm the core facts from the anchor (Claude Science launched June 30, 2026 as an AI workbench producing auditable artifacts with flexible compute access). However, Content A offers more comprehensive, mutually corroborating detail across multiple independent sources (qz.com, technology.org, thenextweb, investing.com) — covering the NVIDIA BioNeMo integration, HPC/SSH/Modal compute access, 60+ database integrations, the $30,000-credit research program with a July 15 deadline, and beta availability tiers. This gives a more complete and verifiable basis for answering the full question. Content B largely repeats the same short snippet across sources with less added substantive detail, despite including the word 'customizable' which matches the query's phrasing more closely. Given the richer, consistent factual detail, Content A better enables a correct and thorough answer."
+}

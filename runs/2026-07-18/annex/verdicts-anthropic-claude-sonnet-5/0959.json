@@ -1,0 +1,11 @@
+{
+  "id": 959,
+  "query": "TikTok Shop dedicated shop tab location main screen app interface 2026 user features",
+  "topic": "TikTok Shop",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Some results are tangential (seller tutorials, Quora question) and don't add detail on the Shop tab's UI location, but the marketing-interactive article closely mirrors the anchor's description of the dedicated Shop tab (one-touch access to shopping portal, bag icon, interface redesign), giving accurate location/feature info.",
+  "b_issues": "Results are mostly high-level marketing stats (GMV figures, user percentages) with only passing mentions of a 'dedicated Shop tab'; one snippet claims the Shop tab is in the 'top menu', which is imprecise/inconsistent with the anchor's depiction of it as a bottom-nav bag-icon tab, and no source elaborates on the actual on-screen location or in-tab features (orders, cart, address, chat).",
+  "reasoning": "The question asks about the Shop tab's location on the main screen and its features. Content A includes a source (marketing-interactive) that closely echoes the anchor's core facts—one-touch access, redesigned interface, dedicated shop tab replacing another tab—giving a more accurate, verifiable answer. Content B's sources are dominated by market-size statistics and only vaguely reference the Shop tab, with one snippet introducing a possibly inaccurate 'top menu' location claim, making it less reliable for answering the specific UI/location question."
+}

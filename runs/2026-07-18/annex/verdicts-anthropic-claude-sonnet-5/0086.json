@@ -1,0 +1,11 @@
+{
+  "id": 86,
+  "query": "Blue Origin New Glenn NG-2 ESCAPADE first stage landing Jacklyn loiter orbit mission date 2026",
+  "topic": "Blue Origin",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "The Blue Origin news snippet in A is garbled, mixing the Nov 13, 2025 ESCAPADE launch details with an unrelated later note about a 'May 28, 2026' anomaly and an 'April 19' launch window, which could confuse a model about the actual mission date. Otherwise the core facts (Nov 13, 2025 launch, ESCAPADE deployed to loiter orbit, Jacklyn landing) are repeated accurately across multiple reliable sources (Blue Origin, SpaceNews, Spaceflight Now).",
+  "b_issues": "Contains a completely unusable result (a Facebook post rendered as raw SVG/CSS code with no readable text) that adds no value and clutters the results. Also includes a low-reliability source (spacelaunchschedule.com) claiming the booster 'last flew on 04/19/2026' and 'completed 2' flights, which is inaccurate/misleading since the booster had only flown once (Nov 13, 2025) and this claim contradicts the anchor facts. Core facts about the Nov 13, 2025 launch are still present in the Blue Origin and Spaceflight Now snippets, but surrounded by more noise and less reliable information.",
+  "reasoning": "Both sets contain the essential anchor facts (NG-2, ESCAPADE, Jacklyn landing, loiter orbit, Nov 13 2025 date) via Blue Origin's own mission page and news release. However, Content B introduces more misleading and low-quality content (a garbled Facebook post with no textual content, and an unreliable source making a false claim about the booster already having flown twice by April 2026), which risks leading a model to an incorrect date or reuse claim. Content A's noise (the garbled anomaly/launch-window snippet) is confined to one result and the correct November 13, 2025 date is reinforced clearly and repeatedly elsewhere. Thus Content A provides a cleaner, more consistent path to a correct answer."
+}

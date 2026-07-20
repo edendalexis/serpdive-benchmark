@@ -1,0 +1,11 @@
+{
+  "id": 505,
+  "query": "Intel Foundry advanced packaging Amkor partnership E-IB capabilities EMIB-T Foveros-R Foveros-B technical specifications",
+  "topic": "Intel Foundry",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "The only source touching on EMIB-T, Foveros-R, and Foveros-B is a truncated tweet snippet that cuts off after 'Foveros-R/B,' with no description of what these technologies actually do, leaving the technical specifications question largely unanswered. The rest of the results (Amkor blog, TechPowerUp, Intel packaging page, IR press release) don't define these specific technologies either.",
+  "b_issues": "The Intel Newsroom snippet provides only a brief, high-level description (EMIB-T for HBM bandwidth needs, Foveros-R/B as flexible/efficient options) rather than deep technical specifications, so full technical detail is still missing, but it is accurate and coherent.",
+  "reasoning": "Content B includes a clear, authoritative statement from Intel Newsroom explicitly naming and briefly describing EMIB-T, Foveros-R, and Foveros-B ('EMIB-T to enable future high bandwidth memory needs and two new additions to the Foveros architecture: Foveros-R and Foveros-B provide additional efficient and flexible options'), giving an LLM enough to answer the question about these specific technologies' purpose. Content A's equivalent source is a truncated tweet that cuts off mid-sentence, providing no usable description of Foveros-R/B and only a partial note on EMIB-T. Both sets cover the Amkor-Intel EMIB partnership adequately and consistently, but B is stronger specifically on the EMIB-T/Foveros-R/Foveros-B technical detail that the question emphasizes."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 1,
+  "query": "Edmundo Gonzalez opposition status statement after Maduro capture US strikes 2026",
+  "topic": "Venezuela election crisis",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "The CNN result only vaguely mentions that González 'released a statement' without giving its content; the other four results (NPR, Wikipedia, Al Jazeera, AA) focus on global/international reactions to the strikes rather than Gonzalez's own statement, so the specific facts needed to answer the question (what Gonzalez said about his opposition status) are largely absent.",
+  "b_issues": "Most results (Courthouse News, Wikipedia intervention article, Brookings) are only tangentially related to Gonzalez's specific statement, focusing instead on broader intervention context; no direct quote beyond the DW snippet is given, and the DW piece paraphrases rather than quotes extensively.",
+  "reasoning": "The question asks specifically about Edmundo González's statement on his opposition status after Maduro's capture. Content B's DW.com result directly states that González 'welcomed the ousting of Maduro... as \"an important step,\"' which matches the anchor's NHK and Jerusalem Post reporting almost verbatim, giving an LLM accurate, directly relevant information. Content A's results mostly cover general international reactions to the strikes (Russia, Colombia, Turkey, NY Mayor) and only vaguely references that González 'released a statement' without detail, making it far less useful for answering the specific question about González's stance."
+}

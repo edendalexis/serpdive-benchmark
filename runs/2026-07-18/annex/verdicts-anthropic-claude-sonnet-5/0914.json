@@ -1,0 +1,11 @@
+{
+  "id": 914,
+  "query": "Super Bowl LX venue stadium host city location Levi",
+  "topic": "Super Bowl",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "ElleDecor snippet incorrectly states the game date as February 9, 2026 instead of February 8, 2026, creating a minor internal inconsistency, though other sources in the set (Wikipedia) correctly state Feb 8.",
+  "b_issues": "No dedicated Wikipedia article specifically on Super Bowl LX is included (only the general Levi's Stadium page), though NFL.com and other sources sufficiently confirm venue and city; no factual errors present.",
+  "reasoning": "Both result sets clearly and consistently establish the core facts needed to answer the question: Super Bowl LX is/was played at Levi's Stadium in Santa Clara, California, in the San Francisco Bay Area, on February 8, 2026. Content A provides more detail (capacity, history, halftime acts) and includes Wikipedia's Super Bowl LX article confirming the date and venue, but one snippet (ElleDecor) contains a minor date error (Feb 9 vs Feb 8) that could confuse the date but not the venue/location answer. Content B is fully consistent across all snippets with no contradictions, using NFL.com, Levi's Stadium official site, Wikipedia (Levi's Stadium page), and news sources to confirm the same location facts. Since the question is primarily about venue/stadium/city/location rather than the exact date, both sets equally and correctly answer it, with A's date typo being a minor flaw. Overall, the two sets are comparably reliable and complete for answering the question."
+}

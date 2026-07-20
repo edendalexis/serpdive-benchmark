@@ -1,0 +1,11 @@
+{
+  "id": 713,
+  "query": "Emmanuel Macron condition opening French embassy Palestinian state recognition UN General Assembly",
+  "topic": "Emmanuel Macron",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "None significant; content directly confirms Macron's condition (hostage release before embassy opening) via multiple corroborating sources (CBS interview clip description, Courthouse News, Al Jazeera, French diplomatic site).",
+  "b_issues": "None of the four results explicitly state the embassy-opening condition tied to hostage release; they cover recognition timeline and reactions but omit the specific embassy condition that answers the question.",
+  "reasoning": "Content A explicitly and repeatedly confirms the key fact: Macron said opening a French embassy in Palestine is conditioned on Hamas releasing hostages, sourced from a CBS Face the Nation clip and corroborated by Courthouse News. Content B, while providing good context on the recognition announcement and timeline, never mentions the embassy condition or hostage release requirement, making it insufficient to answer the specific question asked."
+}

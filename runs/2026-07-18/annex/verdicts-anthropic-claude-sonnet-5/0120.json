@@ -1,0 +1,11 @@
+{
+  "id": 120,
+  "query": "Sanae Takaichi Donald Trump G7 June 2026 meeting joint statement Indo-Pacific",
+  "topic": "Japan Prime Minister",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Content A's Japan Times snippet is truncated and doesn't include the specific joint-statement detail about North Korea denuclearization; otherwise consistent with anchor and includes solid official MOFA/Kantei sourcing.",
+  "b_issues": "Content B relies partly on lower-reliability sources (YouTube video description, Facebook post) rather than full articles, and lacks the fuller MOFA readout text that A includes, though it does add one extra detail (North Korea denuclearization) about the joint statement.",
+  "reasoning": "Both sets confirm the core facts: Takaichi and Trump held brief G7 sideline talks (June 16, 2026) covering Iran, tariffs, and Indo-Pacific/China, and that the G7 issued topic-specific joint statements including one on Ukraine, Middle East, and Indo-Pacific (per Mainichi in both). Content A provides more authoritative government sources (MOFA, Kantei) reinforcing the anchor's content, while Content B adds one specific detail (North Korea denuclearization commitment) not present in A's snippets, but relies on less authoritative sources (YouTube, Facebook) for some of its content. Neither set contradicts the other or the anchor, and both are similarly incomplete regarding full joint statement text. The differences roughly balance out, making this a tie in terms of enabling a correct answer."
+}

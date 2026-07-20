@@ -1,0 +1,11 @@
+{
+  "id": 306,
+  "query": "JAXA NASA pressurized lunar rover collaboration agreement April 2024 Japanese astronaut seats provision details",
+  "topic": "NASA Artemis program",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; content is accurate and directly relevant, covering the agreement, JAXA's role in providing the pressurized rover, and NASA providing two Japanese astronaut seats on lunar missions.",
+  "b_issues": "Results are generic JAXA overview pages (about JAXA, Wikipedia, LinkedIn, Twitter) with no mention of the April 2024 agreement, the pressurized rover, or astronaut seat provisions. Does not answer the query at all.",
+  "reasoning": "Content A directly addresses the question with specific, accurate details from NASA, JAXA, and other reliable sources confirming the Implementing Arrangement, Japan's development of the pressurized rover, and NASA's provision of two astronaut seats for lunar missions. Content B contains no information relevant to the specific agreement or query topic, only unrelated general JAXA background pages, making it useless for answering the question."
+}

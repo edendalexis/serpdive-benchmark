@@ -1,0 +1,11 @@
+{
+  "id": 10,
+  "query": "TSMC Q2 2026 net profit revenue guidance capex raised full-year forecast Reuters July 2026",
+  "topic": "Taiwan Semiconductor Manufacturing Company",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "The key Reuters snippet ('TSMC to invest another $100 billion in US as Q2 profit...') is truncated before giving the previous-forecast figure, so the exact prior guidance (more than 30%) isn't shown directly in that snippet, though it is confirmed elsewhere (Yahoo article). The EvidInvest preview piece cites the pre-earnings capex range ($52-56B) which is outdated but is clearly framed as a pre-earnings preview.",
+  "b_issues": "Includes a Facebook post reiterating the old, pre-raise capex guidance ($52-56 billion) without clear context that this figure was later revised upward, which risks the LLM reporting outdated capex figures. The Reuters article included (‘TSMC seen riding AI boom...’) also references the old capex range from the April call rather than the newly raised $60-64B figure, and no Reuters source in B directly covers the raised full-year forecast/capex announcement itself (unlike in A).",
+  "reasoning": "Both sets contain the core correct facts (record Q2 net income, revenue, raised full-year revenue growth guidance to slightly above 40%, raised capex to $60-64B, $100B Arizona investment, Q3 guidance) primarily via the shared Yahoo Finance article and TSMC's own earnings release/PDF. However, Content A includes an actual Reuters article dated July 15, 2026, whose title and snippet directly address the raised forecast and $100B U.S. investment—directly matching the query's explicit 'Reuters July 2026' requirement. Content B, in contrast, includes only pre-earnings Reuters previews and a Facebook post citing the stale $52-56B capex figure, which could mislead an LLM into citing outdated capex numbers alongside the correct raised figures elsewhere, creating a contradiction. This makes Content A slightly more reliable and directly on-point for answering the specific query about Reuters' July 2026 coverage of the raised guidance."
+}

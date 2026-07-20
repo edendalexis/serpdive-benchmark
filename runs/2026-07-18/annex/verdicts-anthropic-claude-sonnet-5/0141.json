@@ -1,0 +1,11 @@
+{
+  "id": 141,
+  "query": "Red Lobster CEO Damola Adamolekun expansion upstate New York New England franchise plans 2025",
+  "topic": "Red Lobster",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "The Entrepreneur.com snippet directly confirms the key facts (upstate NY/New England expansion, international franchising, retail biscuit sales) but relies on a secondary source rather than the original WSJ interview; other results are mostly about closures rather than expansion, adding less direct value.",
+  "b_issues": "The Fox6Now snippet directly confirms the key facts (upstate NY/New England expansion, international franchise deals, retail biscuit mix sales), sourced from the same WSJ interview; other results (NY Post, SeafoodSource) are less relevant but not contradictory.",
+  "reasoning": "Both content sets contain one result that explicitly and accurately states Adamolekun's plan to expand into upstate New York and New England once turnaround efforts stabilize existing locations, plus mentions of international franchising and retail biscuit mix sales—matching the anchor's core facts. Content A's Entrepreneur.com snippet and Content B's Fox6Now snippet both provide this information clearly and accurately, with no contradictions. The remaining results in both sets are supplementary (mostly about closures/bankruptcy) and don't detract from the answerable core facts. Neither set is meaningfully more complete or more reliable than the other for this specific question."
+}

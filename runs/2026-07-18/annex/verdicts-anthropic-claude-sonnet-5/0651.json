@@ -1,0 +1,11 @@
+{
+  "id": 651,
+  "query": "UNRWA mandate extension renewal date 2026 UN General Assembly resolution",
+  "topic": "United Nations Relief and Works Agency for Palestine Refugees in the Near East",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "None significant; consistent with the anchor (Dec 5, 2025 resolution renewing UNRWA mandate for three years). Includes older 2022 resolution as background (extended to 30 June 2026), which is accurate and not confused with the 2025 renewal.",
+  "b_issues": "Includes a source (wafa.ps) dated '19 Nov 2025' describing the same renewal event, which could confuse the LLM about the actual date of the resolution (Dec 5, 2025) since it's not clearly explained as a committee-stage report versus the final GA vote. Vote count details (151-10-14) are unverified against the anchor and could be inaccurate or from a different resolution.",
+  "reasoning": "Both sets converge on the core fact: the UN General Assembly renewed UNRWA's mandate for three years on 5 December 2025, matching the anchor's A/RES/80/77. Content A provides more reliable, official sources (UNRWA.org, ReliefWeb, a follow-up UNRWA CG letter confirming '5 December 2025, the mandate was renewed for three years') and consistent context (prior 2022 extension to 30 June 2026), reinforcing accuracy without introducing conflicting dates. Content B's inclusion of a source dated '19 Nov 2025' about the same renewal creates unnecessary ambiguity about timing, and its vote count is unverified. Both are largely correct, but A is more coherent and its sourcing better substantiates the exact resolution date without ambiguity."
+}

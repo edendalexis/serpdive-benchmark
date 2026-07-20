@@ -1,0 +1,11 @@
+{
+  "id": 640,
+  "query": "Berkshire Hathaway 2026 Alphabet private placement $10 billion AI infrastructure investment",
+  "topic": "Berkshire Hathaway",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Content A's CNBC snippet is truncated and doesn't include Greg Abel context or capital-expenditure guidance; some entries (MarketWise) are less authoritative and slightly promotional, but core facts (Class A/C split, $351.81/$348.20 pricing, $80B total) are accurate and match the anchor. Includes an SEC FWP filing which is a strong primary source.",
+  "b_issues": "No SEC primary-source link, relies more on secondary outlets (LinkedIn post is a lower-reliability source), but the facts stated (5% discount, Abel's role, $180-190B capex, $400B cash pile) are consistent with public reporting and not contradicted elsewhere.",
+  "reasoning": "Both sets contain the essential facts needed to answer the question accurately: the $80B (or $84.75B) equity raise, the $10B Berkshire private placement split $5B Class A at $351.81 and $5B Class C at $348.20, and the AI infrastructure funding purpose, all matching the anchor. Content A adds an SEC-filed FWP for extra authority, while Content B adds richer context (Greg Abel's leadership, capex guidance, cash pile, discount terms) from equally credible outlets (CNBC, Motley Fool, TradingKey). Neither set contains factual errors or internal contradictions, and both would let an LLM answer the question correctly with comparable completeness."
+}

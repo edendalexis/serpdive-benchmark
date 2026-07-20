@@ -1,0 +1,11 @@
+{
+  "id": 974,
+  "query": "Pope Leo White House visit May 2025 JD Vance invitation Easter Sunday meeting",
+  "topic": "JD Vance",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A's results are dated from 2026 and discuss future/speculative events (Pentagon hostility toward Vatican, war tensions, 2026 travel plans) rather than directly answering the May 2025 question. It only tangentially mentions the invitation (for the 250th anniversary) without covering the actual Vatican meeting details, the letter from Trump/Melania, the Chicago Bears jersey gift, or the Easter Sunday context. It lacks the core facts needed to directly answer the query and instead surfaces unrelated/speculative future content that could confuse the model.",
+  "b_issues": "Minor: the Facebook link is a lower-quality source, and the Reuters URL is missing the trailing slash from the anchor. However, the core facts (Vance's invitation, the letter from Trump and Melania, meeting date May 19, 2025, Chicago Bears jersey gift, and the Easter Sunday reference from The Free Press article) are all accurately represented across reliable sources like Reuters, Deseret, and Baltimore Sun.",
+  "reasoning": "Content B directly and accurately answers the question with multiple corroborating reliable sources (Reuters, Deseret News, Baltimore Sun) confirming the Vatican meeting, the invitation letter from Trump/Melania, and even mentions the Easter Sunday reference tying to The Free Press context. Content A instead returns oddly dated 2026 articles about future geopolitical tensions with only passing mention of the invitation, failing to provide the specific meeting details (date, gifts, letter) required to properly answer the question."
+}

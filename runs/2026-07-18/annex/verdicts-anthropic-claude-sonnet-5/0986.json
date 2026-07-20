@@ -1,0 +1,11 @@
+{
+  "id": 986,
+  "query": "Sundar Pichai TIME interview April 2026 AI assistants decision-making responsible AI remarks",
+  "topic": "Sundar Pichai",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Mixes in unrelated sources (BBC interview, AI Impact Summit remarks, Times of India all-hands meeting) that are not the TIME interview requested; an LLM could conflate BBC's 'don't blindly trust AI' quote as being from the TIME piece, producing a misattribution. The actual TIME article snippet included is mostly about Pichai's personal anecdote and business/product details (Gemini, Nano Banana, employee counts), not substantively about decision-making/responsible-AI remarks.",
+  "b_issues": "Provides only the video chapter titles (e.g., 'Inside Google's Race to Build AI Responsibly,' 'Can Big Tech Be Trusted With AI?') rather than actual quoted remarks, so depth of specific content is limited. Also includes tangential material (NYT podcast, Google I/O blog) that isn't the TIME interview itself, though clearly separated by source.",
+  "reasoning": "Both sets lack a full transcript of the actual TIME interview, but Content B's YouTube result directly matches the query's specifics (TIME, April 30 2026, AI assistants, decision-making, responsible AI) with a clear, correctly-dated chapter breakdown that closely mirrors the interview's actual topics, minimizing risk of misattribution. Content A pulls in a BBC interview and other unrelated events (AI Impact Summit, internal Times of India meeting) that could easily be confused with the TIME interview, increasing the risk of an LLM inaccurately attributing those remarks to the TIME piece. Thus B offers a cleaner, more topic-accurate basis for answering the specific question, even though neither source gives verbatim quotes."
+}

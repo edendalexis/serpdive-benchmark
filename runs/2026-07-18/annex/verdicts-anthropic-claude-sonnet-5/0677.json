@@ -1,0 +1,11 @@
+{
+  "id": 677,
+  "query": "Kamala Harris NAACP Image Awards 2025 speech quotes reactions",
+  "topic": "Kamala Harris",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "All five results are shallow search-snippet fragments (raw_content null) with no deeper quotes extracted; e.g., the AP entry only shows a one-line quote fragment, and most other entries are just headline teasers ('Read more') without the actual speech text or explicit reaction details (standing ovations, applause) spelled out.",
+  "b_issues": "Fewer total results (3 vs 5) and no dedicated 'reactions' source beyond what's embedded in the quotes, but the content itself is accurate and consistent with the anchor.",
+  "reasoning": "Content B's raw_content includes substantive extracted text: the full AP quote about 'no illusions... written by you,' the Variety quote about 'flames on our horizons... shadows gathering over our democracy... but we know exactly what to do,' explicit mention of the standing ovation and continued applause (a direct reaction), and TVInsider's W.E.B. Du Bois quote plus award-show context. This gives an LLM concrete quotes and reaction details matching the anchor. Content A only provides brief teaser snippets without expanding into the actual quotes or reaction specifics, making it much thinner for actually answering the question about quotes and reactions, despite having more result entries."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 125,
+  "query": "Sanae Takaichi immigration rules January 2026 Japan new regulations specifics",
+  "topic": "Japan Prime Minister",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Relies partly on a YouTube video transcript from a law firm channel (less authoritative/citable) and dates some details (e.g., April 2027 PR revocation, 2028 JESTA rollout) that are forward projections not confirmed by the anchor sources; otherwise consistent with known facts (naturalization 5→10 years, doubling deportations, permanent residency tightening).",
+  "b_issues": "Overly reliant on CFR article that focuses on election context and general labor statistics rather than specific regulatory changes; lacks any source giving concrete rule specifics (e.g., residency-year change, fee increases, PR revocation criteria), leaving the question of 'specifics' largely unanswered.",
+  "reasoning": "Both sets share three identical sources (Diplomat, East Asia Forum, Nippon.com) that correctly frame the January 23, 2026 policy announcement and naturalization tightening, consistent with the anchor. However, Content A adds two sources with much more concrete regulatory specifics: the Mainichi article detailing the residency requirement change from 5 to 10 years for naturalization, and the YouTagement Kazuki Yuda video which lists granular policy changes (fee increases, PR fast-track elimination, business manager visa capital requirement jump, JESTA pre-travel authorization) that align with what actually happened per the ippjapan/visajapan/yourjapancareer anchor sources. Content B's unique addition (CFR) is contextual/political rather than regulatory-specific, offering less help in answering a question that explicitly asks for 'specifics' of new regulations. Thus Content A better equips an LLM to answer with concrete regulatory details."
+}

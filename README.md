@@ -55,6 +55,30 @@ history — and that shows.
 Take your own key, your own model, and rerun `bin/4-judge.mjs`. If our judge
 favored us, you would prove it within the hour.
 
+## We ran that command ourselves
+
+The run was scored by one judge, `openai/gpt-5.4`. So we re-judged all 1000
+duels with a model from another vendor, `anthropic/claude-sonnet-5` — same
+prompt, same blinding, same payloads, one flag changed.
+
+| judge | win rate over decided duels |
+|---|---|
+| `openai/gpt-5.4` (published) | **60.7 %** |
+| `anthropic/claude-sonnet-5` | **59.9 %** |
+
+Two vendors, 0.8 points apart. The ties the second judge breaks split 53.8 % /
+46.2 % — no significant skew — and the outright reversals run 59 one way, 61 the
+other. The published figure does not depend on who grades.
+
+The second judge comes out slightly *below* the official one, and the official
+one stays. All 1000 verdicts are published, and
+[`SECOND-JUDGE.md`](./SECOND-JUDGE.md) has the full transition matrix, the
+agreement figures including the least flattering one, and the tests.
+
+```bash
+node bin/compare-judges.mjs runs/2026-07-18   # free, offline, writes nothing
+```
+
 ## What this benchmark does not prove
 
 **That the payloads are authentic.** No hash can prove that — a dishonest

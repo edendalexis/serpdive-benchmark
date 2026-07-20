@@ -1,0 +1,11 @@
+{
+  "id": 642,
+  "query": "Berkshire Hathaway Kraft Heinz stake sale 2026 latest transaction value",
+  "topic": "Berkshire Hathaway",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Presents multiple slightly different stake values ($7.5B, $7.7B, $7.3B, $8.43B) without reconciling them, which could cause minor confusion, but all values are plausible market valuations tied to the same filing/potential-sale event and are consistent with the anchor's $7.7B figure and timeline (Jan 20-28, 2026).",
+  "b_issues": "Introduces a later Motley Fool article (dated April 2026) claiming Berkshire's Abel decided NOT to sell any Kraft Heinz shares after the split was abandoned, directly contradicting the earlier results in the same set (CNBC-style filings, FT's $7.7bn 'considering selling' headline, Yahoo's 'potential exit'). This creates an unresolved internal contradiction about whether a sale/transaction is even occurring, making it harder for an LLM to give a coherent, confident answer about a 'transaction value.'",
+  "reasoning": "Both sets rely on similar underlying facts (27.5-28% stake, ~$7.7B valuation, SEC filing for potential resale) consistent with the anchor. Content A's numeric variance ($7.3B-$8.4B) is a minor issue but all figures describe the same unresolved 'potential sale' status matching the anchor. Content B contains a more serious internal contradiction: it includes a later article stating Berkshire abandoned the sale entirely, which conflicts with the sale-in-progress narrative established by its own other sources (and the anchor), making B less reliable for a clear, non-contradictory answer."
+}

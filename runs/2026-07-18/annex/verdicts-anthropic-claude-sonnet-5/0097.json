@@ -1,0 +1,11 @@
+{
+  "id": 97,
+  "query": "Imran Chaudhri Bethany Bongiorno HP Humane acquisition employment status 2025",
+  "topic": "Humane AI Pin",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "None significant; content is accurate and consistent with the anchor, confirming both Chaudhri and Bongiorno joined HP IQ as SVPs after the acquisition.",
+  "b_issues": "Less directly informative: includes an irrelevant Daring Fireball snippet with an unrelated opinionated quote, an unrelated LinkedIn snippet about Hydra Host funding, and lacks a clear direct statement confirming both individuals' current employment titles/status at HP IQ (only the Wikipedia snippet confirms they joined HP IQ, but with less detail than Content A's TechCrunch and Wikipedia excerpts).",
+  "reasoning": "Both sets include the TechCrunch and Wikipedia sources confirming the acquisition and that Chaudhri and Bongiorno joined HP's new HP IQ division. However, Content A provides more complete and directly relevant excerpts (Wikipedia on Imran Chaudhri specifically noting his new leadership role, TechCrunch confirming both co-founders join HP IQ, and a LinkiedIn post from Bongiorno confirming her SVP title at HP IQ). Content B's search results are noisier, including irrelevant snippets (Hydra Host funding, unrelated Daring Fireball commentary) that dilute the useful information and could mislead an LLM. Thus Content A better supports a correct, well-grounded answer."
+}

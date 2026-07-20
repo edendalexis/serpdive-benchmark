@@ -1,0 +1,11 @@
+{
+  "id": 66,
+  "query": "xz utils 5.8.2 release date December 2025 changelog download",
+  "topic": "XZ Utils",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "The scraped GitHub releases list interleaves entries ambiguously, potentially implying that the CVE-2025-31115 note applies to the Dec 17 5.8.2 release, when in fact that note belongs to the 5.8.1 release; this could mislead about content of the 5.8.2 changelog. No direct tarball download link is given for 5.8.2, only a generic tukaani.org page.",
+  "b_issues": "No source in B actually states the 5.8.2 release date or provides its changelog text; the Debian tracker only shows the Debian packaging acceptance date (2025-12-26), which is not the same as the upstream release date (2025-12-17) and could be mistaken for it. The GitHub releases snippet in B only covers the 5.8.3 release, not 5.8.2. Only a bare SourceForge download link for 5.8.2 is present, with no changelog or date context.",
+  "reasoning": "Content A includes a Codeberg snippet explicitly stating 'Dec 17, 2025 — XZ Utils 5.8.2 Stable ... Fix the build on ARM64 on glibc versions older than 2.24 (2016)', which matches the anchor's release date and changelog content closely. This gives a model enough accurate information to answer the date and summarize the changelog correctly, despite some ambiguity in the GitHub list ordering. Content B, while providing a direct download link, fails to supply the actual release date or changelog for 5.8.2 — its only date-related information (Debian's 2025-12-26 acceptance) could be confused with the upstream release date, and its GitHub snippet only covers 5.8.3. Thus A better enables a correct answer to the full question (date, changelog, download)."
+}

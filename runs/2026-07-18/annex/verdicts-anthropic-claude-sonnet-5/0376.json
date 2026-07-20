@@ -1,0 +1,11 @@
+{
+  "id": 376,
+  "query": "Sora iOS downloads decline November 2025 February 2026 monthly figures",
+  "topic": "Sora OpenAI",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A includes multiple sources with numeric figures that contradict each other and the anchor. The cryptorank snippet garbles the timeline, attributing the 45% installs drop to December (anchor says the 45% drop was in January, to 1.2M). digitalapplied.com claims a November 2025 peak of 3.33M downloads and a February 2026 figure of 1.1M, while another source (dcthemedian) in the same result set claims February 2026 downloads were 1.4M – these numbers are inconsistent with each other and with the 1.2M January figure given by TechCrunch/IndexBox in the same set. This internal contradiction could mislead an answering model on the exact monthly figures.",
+  "b_issues": "No major factual contradictions; the cryptorank result only supplies cumulative totals (9.6M downloads, $1.4M spending) rather than monthly figures, but it does not conflict with the other sources' monthly percentage figures.",
+  "reasoning": "Both sets agree on the core, verified facts from the anchor (32% MoM decline in December, 45% MoM decline in January to 1.2 million installs, similar spending decline). However, Content A pads its results with additional sources (digitalapplied.com, dcthemedian.substack.com) that introduce conflicting absolute download numbers for November and February 2026, and its cryptorank snippet incorrectly conflates the December and January decline percentages. These internal contradictions could confuse or mislead an LLM trying to state precise monthly figures. Content B's results are consistent with each other and with the anchor, making it a more reliable basis for a correct answer."
+}

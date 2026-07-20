@@ -1,0 +1,11 @@
+{
+  "id": 197,
+  "query": "Apple Image Playground Private Cloud Compute generative model architecture photorealistic specifications WWDC26",
+  "topic": "Apple Intelligence",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Does not give deep architectural details of the Image Playground generative model itself (e.g., no explicit confirmation of SynthID watermark), but confirms Private Cloud Compute usage, photorealistic capability, and provides related Apple Foundation Models (AFM 3) architecture context from a reliable Apple source, plus official WWDC26 session description matching the anchor.",
+  "b_issues": "CNET article is thin on specifics beyond 'photorealistic' claim; LinkedIn post is largely irrelevant, discusses unrelated topics (ploca app, Claude integration, Anthropic Swift package) and does not address Image Playground's actual architecture or Private Cloud Compute specifics, introducing noise and potential confusion.",
+  "reasoning": "Content A includes the official WWDC26 video description (matching the anchor's key facts: new generative model, Private Cloud Compute, photorealistic capability), a developer forum snippet confirming on-device+PCC hybrid approach, the official WWDC26 Apple Intelligence guide, and crucially the Apple Machine Learning Research page describing the third-generation Apple Foundation Models architecture (AFM 3 Core, AFM 3 Cloud, ADM 3 Cloud) which is directly relevant to 'architecture' and 'specifications' in the query. This gives an LLM concrete, accurate, on-topic material from Apple's own sources. Content B's CNET piece is generic and lacks technical depth, and the LinkeIn post is largely unrelated to Image Playground's architecture, instead discussing a different Claude-Swift integration and an unrelated app. Content B therefore fails to substantively answer the architectural/specification aspects of the question, while Content A provides more accurate, relevant, and reliable material."
+}

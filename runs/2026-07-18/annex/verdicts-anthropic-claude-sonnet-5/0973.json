@@ -1,0 +1,11 @@
+{
+  "id": 973,
+  "query": "JD Vance Erika Kirk Turning Point USA 2028 presidential endorsement late 2025",
+  "topic": "JD Vance",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "None significant; NBC, BBC, and CBS results all consistently confirm the endorsement, quote, and context matching the anchor. Minor redundancy with Instagram/YouTube results but no inaccuracies.",
+  "b_issues": "Mixes an earlier 'in the works' statement (NewsNation, Newsweek) with the actual endorsement event (Fox News, MyCentralOregon), which could slightly muddy the timeline for a reader unfamiliar with the sequence of events, but both are factually accurate and not contradictory.",
+  "reasoning": "Both sets contain the core accurate facts: Erika Kirk, as head of Turning Point USA, endorsed JD Vance for president in 2028 at AmericaFest, using the quote 'We are going to get my husband's friend JD Vance elected for 48...' Content A's NBC/BBC/CBS sources directly and clearly confirm this with quotes matching the anchor precisely. Content B's Fox News and MyCentralOregon results also confirm the same event and quote accurately, while additionally providing useful context (Rubio's support, Vance's own comments on 2026 focus) though its earlier 'in the works' articles could slightly complicate the timeline without being inaccurate. Both sets allow a correct, well-supported answer to the question."
+}

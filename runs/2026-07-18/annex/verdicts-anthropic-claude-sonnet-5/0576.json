@@ -1,0 +1,11 @@
+{
+  "id": 576,
+  "query": "Plan México economic development plan 2026 sector targets investment figures",
+  "topic": "Claudia Sheinbaum",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "The Jones Day figures (e.g., $23.4B energy breakdown, $100B FDI target) are drawn from secondary summaries and could not be cross-verified against the primer source, but they are consistent with widely reported Plan México figures and directly address sector-level investment targets. No internal contradictions.",
+  "b_issues": "Provides macro-level figures (investment-to-GDP ratio, 1.5M jobs, GDP growth forecast, MX$5.6T infrastructure plan) but lacks sector-specific investment breakdowns for Plan México itself; the Scotiabank sector budget table is general federal budget data, not Plan México sector targets, which could mislead an LLM into conflating the two.",
+  "reasoning": "Content A supplies concrete, sector-specific investment figures tied explicitly to Plan México (FDI target of $100B/year, energy sector allocation of $23.4B broken into generation/transmission/distribution, semiconductor relocation of $10B, and an explicit list of priority sectors from UNCTAD). This directly satisfies the query's need for 'sector targets investment figures.' Content B offers useful macro figures (investment-to-GDP ratio, job targets, MX$5.6T infrastructure plan) that overlap with the anchor, but its sector-level data (Scotiabank budget table) pertains to general government budget allocations rather than Plan México's sector strategy, making it less precise for the specific query. Thus A provides a fuller, more accurate set of sector-targeted investment figures."
+}

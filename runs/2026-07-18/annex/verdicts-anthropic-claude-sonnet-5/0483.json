@@ -1,0 +1,11 @@
+{
+  "id": 483,
+  "query": "WGA West 2026 election candidates Board of Directors Officers list",
+  "topic": "The WGA",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "None of Content A's snippets actually list any candidate names; the press-release snippet is truncated before the names are given, and the elections.wga.org snippet is cut off before listing candidates. Only procedural/logistical details are present.",
+  "b_issues": "Content B's press-release snippet also omits the candidate names entirely, providing only procedural details (petition deadlines, forum date, voting period) with no list of the 14 nominees or officer candidates.",
+  "reasoning": "Both API results return the same underlying WGA press release URL, but in both cases the retrieved excerpt is truncated before the actual list of candidate names appears (as seen in the anchor). Content A supplies slightly more redundant links (Press Room, homepage, 2025 election page) without names, while Content B supplies more procedural detail (deadlines, forum, voting dates) but likewise no names. Neither set of results would allow an LLM to correctly answer the question with the actual list of Board/Officer candidates, so they are equally deficient."
+}

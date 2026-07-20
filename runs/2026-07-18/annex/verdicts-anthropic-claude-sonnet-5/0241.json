@@ -1,0 +1,11 @@
+{
+  "id": 241,
+  "query": "Voyager 1 distance from Earth light-day milestone date 2026",
+  "topic": "Voyager 1",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "One low-relevance Reddit result claims Nov 13, which conflicts with the Nov 18 date given by IFLScience, spacedaily, and earthsky, but the majority and most authoritative sources (IFLScience explicitly citing NASA confirmation) clearly state November 18, 2026, matching the anchor.",
+  "b_issues": "Multiple conflicting dates appear across seemingly reliable sources: the featured snippet and one IFLScience article say Nov 18, but the same IFLScience snippet also mentions 'On November 15, Voyager 1 will reach 25.9 billion km away' with a different distance, PopSci says Nov 15, 2026, and another IFLScience article says Nov 13, 2026. This creates significant internal contradiction that could mislead an LLM into giving an incorrect date.",
+  "reasoning": "Both sets contain the correct Nov 18, 2026 date from reliable sources (NASA via IFLScience), matching the anchor. However, Content B has more numerous and more prominent contradictions (three different dates: 18, 15, 13) spread across multiple articles including from the same source (IFLScience) and other reputable outlets (PopSci), increasing the risk of an incorrect answer. Content A has only one minor conflicting date from a low-authority Reddit post, while its top and most reliable result unambiguously states Nov 18, 2026, aligning with the anchor's date and time details."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 327,
+  "query": "Scottie Scheffler FedEx Cup standings ranking 2026",
+  "topic": "Scottie Scheffler",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Minor inconsistency in Fitzpatrick's points (3195 in USA Today vs 3329 in pgatour.com), but all sources agree Scheffler is #1 with 3511 points, so his rank and value are consistent.",
+  "b_issues": "Includes a Yahoo Sports article dated June 2026 showing outdated numbers (Scheffler at 2711 points) that contradicts the more current USA Today and pgatour.com figures (3511 points), creating internal inconsistency that could mislead an LLM about the correct current point total, even though the #1 rank is preserved across sources.",
+  "reasoning": "Both content sets agree Scottie Scheffler holds the #1 FedEx Cup rank for 2026. However, Content A's sources are more internally consistent on his point total (3511), while Content B includes a Yahoo article with substantially different, likely stale point figures (2711) alongside the 3511 figure from USA Today, creating a contradiction within the same result set that could confuse an LLM into providing an incorrect point total or uncertain answer."
+}

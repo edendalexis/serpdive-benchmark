@@ -1,0 +1,11 @@
+{
+  "id": 639,
+  "query": "Perplexity enterprise memory features thread preference retention rollout",
+  "topic": "Perplexity AI",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Some results (Threads.com posts about 'Perplexity Enterprise Max' and Computer memory) are speculative/leak-based rather than confirmed rollout info, and not directly about enterprise thread preference retention specifically; relevance to the exact enterprise memory/thread retention rollout is somewhat scattered across sources.",
+  "b_issues": "Very thin on actual memory feature rollout details; the index.dev result is mostly generic 2026 feature overview with unrelated stats (valuation, model names, file size) that don't address enterprise memory/thread retention specifically; the help center article is about threads disappearing/retention policy, not the memory feature launch itself; lacks any direct explanation of how memory synthesizes preferences or the rollout announcement details.",
+  "reasoning": "Content A includes the actual Perplexity Enterprise data retention page (configuring retention periods, 50+ seat requirement) plus the LinkedIn announcement post describing memory recall across threads/models, plus a third-party blog explaining the memory feature's mechanics (privacy, incognito mode, encryption). Together these give a fuller, more accurate picture of both the memory feature and enterprise retention controls relevant to the query. Content B's results are weaker: one is about troubleshooting missing threads (tangential), one is the same LinkedIn post but with less useful excerpted text (mostly unrelated commentary), and the index.dev piece is a generic feature list with many irrelevant details, offering minimal specific insight into 'thread preference retention rollout' for enterprise. Thus A better supports a correct, detailed answer."
+}

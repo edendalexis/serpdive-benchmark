@@ -1,0 +1,11 @@
+{
+  "id": 292,
+  "query": "X non-premium users daily post limit number 2024",
+  "topic": "Twitter",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; all sources consistently report the 50 posts/200 replies limit down from 2,400, matching the anchor's facts.",
+  "b_issues": "Includes the help.x.com source that still shows the old 2,400 post limit as the 'current' limit, which contradicts the other results reporting the new 50-post limit, potentially confusing an LLM about which figure is current.",
+  "reasoning": "Both content sets contain the core answer (50 posts, 200 replies per day, down from 2,400) from multiple consistent sources. However, Content B includes a help.x.com excerpt that explicitly states the old 2,400 limit as the 'current' technical limit, creating an internal contradiction that could mislead an LLM into citing outdated figures. Content A's sources are uniformly consistent, making it the more reliable set for accurately answering the question."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 324,
+  "query": "2026 PGA Tour Championship Series two-tier system qualification criteria",
+  "topic": "Scottie Scheffler",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Includes an irrelevant result (pgatour.com/signature-events) about the current Signature Events eligibility system (Aon Next 10, Aon Swing 5, FedExCup standings) that has nothing to do with the 2028 Championship/Challenger Series structure, which could mislead the model into conflating unrelated eligibility rules. The core facts (90 retained, 20 promoted, Challenger $4M purses) are present but buried among this noise.",
+  "b_issues": "Contains a mild inconsistency between sources: MondayQ mentions a 'goal of 120 exempt players' while the Guardian/NWA articles state a minimum of 90 retained plus 20 promoted—this could create minor confusion about exact numbers, though the core qualification criteria (top 90 retained, top 20 promoted from Challenger Series) are clearly and consistently stated across multiple reliable sources (Guardian, NWA, PGA Tour, Global Golf Post).",
+  "reasoning": "Both sets converge on the same key facts: two-tier system starting 2028, PGA TOUR Championship Series (elite) vs Challenger Series (developmental), with a minimum of 90 players retained and 20 promoted via promotion/relegation, and differing purse structures ($20M vs $4M). Content B presents these facts more directly and with less irrelevant clutter—every result is on-topic and reinforces the qualification criteria (especially NWA and Guardian, which explicitly state 'top 90 players from previous year, top 20 from Challenger Series'). Content A includes an off-topic Signature Events page that describes a different, unrelated eligibility system, increasing the risk of confusion despite containing overlapping useful content elsewhere. Thus B better enables a correct, focused answer."
+}

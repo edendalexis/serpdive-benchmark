@@ -1,0 +1,11 @@
+{
+  "id": 921,
+  "query": "Wicked Broadway single week gross record late 2024",
+  "topic": "Wicked",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "No factual errors; includes a tangential Deadline article about movie box office that isn't about the Broadway weekly gross record, but doesn't contradict other facts.",
+  "b_issues": "No factual errors; broadwayleague.com result is largely irrelevant boilerplate but doesn't harm accuracy.",
+  "reasoning": "Both sets contain the core facts needed to correctly answer the question: Wicked grossed $5,037,392 for the week ending 12/29/24 (Dec 23-29, 2024), becoming the first Broadway show ever to gross over $5 million in a single week, with an average ticket price of $290.61 across nine performances. Both include the Guinness World Records and Hollywood Reporter sources confirming these details, plus BroadwayWorld's grosses page corroborating the same figure. Neither set contains contradictory or inaccurate information relative to the anchor. The extra results in each (Deadline movie box office in A, Broadway League and Broadway News in B) are supplementary and don't detract from the core answer. Overall, both equally enable a correct answer."
+}

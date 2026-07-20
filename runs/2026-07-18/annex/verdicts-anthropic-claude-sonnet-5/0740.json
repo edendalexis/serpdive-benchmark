@@ -1,0 +1,11 @@
+{
+  "id": 740,
+  "query": "U.S. Supreme Court new term 2024 cases ghost guns transgender rights docket",
+  "topic": "U.S. Supreme Court",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Includes two results that are off-topic or confusing: a SCOTUSblog article dated Nov. 2025 about the January 2026 arguments (transgender athletes, gun rights, Fed governor firing) which is not the 2024 term docket, and a 'Brussels Morning' article dated July 2026 referring to 'next term' cases, creating temporal confusion with the 2024 term being asked about. This mixes information from different terms and could mislead the LLM.",
+  "b_issues": "No significant factual issues; all results are directly relevant to the 2024 term docket (ghost guns, transgender rights, etc.) and consistent with the anchor.",
+  "reasoning": "Both A and B include the core relevant articles (CSMonitor, LA Times, NPR) confirming ghost guns and transgender rights cases in the 2024 term. However, A also includes two results referencing a different term (2026/January 2026 arguments), which could confuse an LLM about which term and cases are being discussed, potentially leading to inaccurate answers mixing 2024 and 2026 dockets. B's results are all cleanly focused on the 2024 term, matching the anchor's content without contradiction or temporal confusion."
+}

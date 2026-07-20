@@ -1,0 +1,11 @@
+{
+  "id": 317,
+  "query": "Ursula von der Leyen proposed new EU Commission team Commission II commissioners list December 2024",
+  "topic": "Ursula von der Leyen",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "None of the results give a complete official list of all 27 commissioners; only a few names (Fitto, Kallas, Ribera) and general facts (27-member college, six EVPs) are provided, but all facts cited are accurate and consistent with the anchor data (Fitto as an EVP, Kallas as HR/VP, Ribera as antitrust/green-transition commissioner).",
+  "b_issues": "Also lacks a full commissioner list; while it correctly identifies Ribera's exact portfolio and adds names of some 'returning' commissioners (Šuica, Várhelyi, Hoekstra, Dombrovskis, Šefčovič), it introduces confusing and seemingly anachronistic future-dated content (references to 2026 events such as a '26 June 2026' proposal and an EPRS report dated March 2026), which is irrelevant to the December 2024 question and could mislead or confuse an agent about the timeline.",
+  "reasoning": "Both sources are partial and neither provides a complete, explicit list of all Commission II commissioners. Content A's snippets are more tightly focused on the December 2024 formation event, giving accurate, relevant details (VP Fitto, VP/HR Kallas, commissioner Ribera, six EVPs) without temporal inconsistencies. Content B, while adding a few more real commissioner names, also pulls in oddly future-dated (2026) information that is irrelevant and potentially confusing relative to the specific December 2024 query, slightly reducing its reliability and focus. Overall, A offers a cleaner, more directly relevant set of facts for answering the question, giving it a slight edge."
+}

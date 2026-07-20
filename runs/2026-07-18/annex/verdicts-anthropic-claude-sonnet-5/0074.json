@@ -1,0 +1,11 @@
+{
+  "id": 74,
+  "query": "98th Academy Awards 2026 Best Picture winner director",
+  "topic": "Academy Awards Oscars",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "The Wikipedia and ABC News snippets in A don't explicitly name Paul Thomas Anderson as Best Director, but the third result (ABC7 NY) does state 'One Battle After Another' won six Oscars including best director and best adapted screenplay for Anderson, providing the needed fact.",
+  "b_issues": "No factual errors; all snippets consistently and explicitly confirm 'One Battle After Another' won Best Picture and Paul Thomas Anderson won Best Director, matching the anchor.",
+  "reasoning": "Both content sets ultimately provide the correct answer: 'One Battle After Another' won Best Picture and Paul Thomas Anderson directed it and won Best Director, consistent with the anchor reference. Content B states this more directly and repeatedly across multiple sources (ABC News, ABC7, Al Jazeera), while Content A requires piecing together the fact from the third result (ABC7 NY). Neither set contains contradictions or factual errors relative to the anchor, so both enable a correct answer, though B does so slightly more clearly."
+}

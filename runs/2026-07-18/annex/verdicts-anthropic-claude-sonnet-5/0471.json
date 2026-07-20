@@ -1,0 +1,11 @@
+{
+  "id": 471,
+  "query": "xAI Texas antitrust lawsuit Apple OpenAI",
+  "topic": "Elon Musk",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "None significant; all five results are relevant, from reliable outlets (CNBC, Law360, Courthouse News, Reuters) plus the actual complaint text, and consistent with each other and the anchor.",
+  "b_issues": "Includes two garbled/spam-like results (amelica.org, mshale.com) with nonsensical text ('striscione', 'marcell ozuna') that add noise; includes a CourtListener docket entry with implausible future dates (Jan/Apr 2026) that seem inconsistent with the Aug-Oct 2025 timeframe; and includes an unrelated/likely fabricated NYT article claiming 'Apple Sues OpenAI, Accusing It of Stealing Company Secrets,' which contradicts the actual case where Apple and OpenAI are co-defendants, not adversaries—this could seriously mislead the answering model.",
+  "reasoning": "Both sets contain the core accurate facts (xAI/X Corp. sued Apple and OpenAI in N.D. Texas, Fort Worth, over antitrust/monopoly claims tied to the App Store and ChatGPT integration, case stayed in Fort Worth per Judge Pittman). However, Content A's results are uniformly clean, relevant, and non-contradictory, drawn from credible sources. Content B introduces confusing, low-quality, and seemingly fabricated or contradictory information (spam-like snippets and an NYT story suggesting Apple sued OpenAI for trade secrets, which is inconsistent with the actual antitrust suit), risking factual confusion for the LLM. Thus Content A better supports a correct, unambiguous answer."
+}

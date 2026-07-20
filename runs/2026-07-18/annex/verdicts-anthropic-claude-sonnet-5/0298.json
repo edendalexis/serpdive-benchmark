@@ -1,0 +1,11 @@
+{
+  "id": 298,
+  "query": "X Priority tab notifications mutuals larger accounts rollout date",
+  "topic": "Twitter",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Includes an irrelevant/unrelated TechCrunch article about a July 2026 algorithm tweak (not the Priority tab) and a heyorca.com monthly changelog with confusing date references (e.g., 'Check back at the end of July 2026'), which could mislead an LLM into attributing an incorrect rollout date to the Priority tab feature. None of the results in A explicitly cite the actual January 9, 2026 announcement date.",
+  "b_issues": "None of the snippets explicitly display the January 9, 2026 date either, though the results include the original xDaily and RoushanStartup tweets that are the primary source of the announcement, giving more direct and consistent context about the feature (mutuals/larger accounts, 500-follower threshold) without introducing unrelated or contradictory information.",
+  "reasoning": "Both content sets omit an explicit textual statement of the exact rollout date, but Content B's results are tightly focused on the actual Priority tab announcement (via primary source tweets, roboin.io, Social Media Today, and Threads), all consistent with the anchor's facts about mutuals/larger accounts and the 500-follower threshold. Content A includes extraneous and potentially misleading material (TechCrunch's unrelated algorithm story, heyorca's ambiguous monthly changelog dates) that could lead an LLM to incorrectly infer or state a wrong rollout date or conflate two different features. Thus B better supports a correct, non-contradictory answer."
+}

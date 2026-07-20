@@ -1,0 +1,11 @@
+{
+  "id": 606,
+  "query": "Naoki Tamura BOJ board rate hike cadence neutral level 2 percent June 2026 statement",
+  "topic": "Bank of Japan",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Includes an off-topic CME Group result about earlier BOJ meetings/rate hikes (December hike, January 2026 vote) that is not directly about Tamura's June 2026 speech, but it does not contradict the core facts and the other three sources (Japan Times, TradingView, NHK) fully and accurately convey the 0.25pp-every-few-months-toward-2%-neutral cadence.",
+  "b_issues": "Includes the official BOJ speech URL but the scraped content is just site navigation menu items, not the actual speech text, so it adds little substantive value beyond confirming the URL exists.",
+  "reasoning": "Both sets contain the essential, accurate facts needed to answer the question: Tamura's June 25, 2026 speech in Hyogo/Kobe stating a baseline path of raising the policy rate by 0.25 percentage points at intervals of a few months toward a neutral rate of around 2%, with willingness to accelerate given upside inflation risks. This is confirmed consistently across NHK, Japan Times, and TradingView in both sets, plus Reuters in B. No contradictions exist in either set. The extra filler (CME in A, BOJ nav menu in B) is not harmful and does not affect the ability to answer correctly. Overall the two are equally sufficient."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 64,
+  "query": "xz utils multithreaded decoder crash bug versions 5.3.3alpha 5.8.0 invalid input",
+  "topic": "XZ Utils",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; all sources (tukaani.org, GitHub advisory, NVD, Fossies NEWS, Arch Linux) are accurate and consistent with the anchor.",
+  "b_issues": "The Feedly excerpt introduces an unsupported/likely fabricated claim that the bug is a 'race condition' enabling 'remote denial of service and memory corruption on industrial automation platforms,' which is not supported by any official source and contradicts the anchor's description (a use-after-free/free-too-early bug, not specifically tied to industrial automation). This could mislead an LLM into stating inaccurate details.",
+  "reasoning": "Both sets contain the core accurate facts (affected versions 5.3.3alpha-5.8.0, fixed in 5.8.1, lzma_stream_decoder_mt affected, heap use-after-free/null pointer issue) drawn from reputable sources like tukaani.org. However, Content B includes a Feedly snippet with an inaccurate/unsupported embellishment about 'industrial automation platforms' and a 'race condition,' which is not corroborated by the anchor or other reliable sources and could introduce factual errors into an LLM's answer. Content A's results are uniformly accurate, well-sourced (official advisory, GitHub security advisory, NVD, Arch Linux), and free of contradictory or fabricated claims, making it the more reliable and correct set for answering the question."
+}

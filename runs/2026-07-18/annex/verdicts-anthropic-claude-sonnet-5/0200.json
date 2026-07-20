@@ -1,0 +1,11 @@
+{
+  "id": 200,
+  "query": "Shohei Ohtani July 22 2026 pitching start vs Phillies result stats",
+  "topic": "Shohei Ohtani",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None of the results directly show a July 22, 2026 pitching line for Ohtani vs the Phillies; the ESPN gamelog snippet only goes up to 6/22, and the Statmuse 'last 7 games vs Phillies' stat is batting-only with no clear date range, so it can't confirm whether Ohtani pitched on 7/22/2026.",
+  "b_issues": "Also lacks a direct July 22, 2026 pitching line (ESPN gamelog snippet shows 7/12 and 5/15 entries, not 7/22). Critically, it includes a USA Today article headlined 'Shohei Ohtani stats: Dodgers pitcher battles in NLDS win over Phillies' dated 10/04/2025, which reports pitching stats (6 IP, 3 hits, 3 ER, 9K) from the 2025 NLDS — an entirely different year/series that could easily be mistaken by an LLM as the answer to the 2026 regular-season query, creating a real risk of factual contamination.",
+  "reasoning": "Neither source set contains the actual July 22, 2026 pitching box score line for Ohtani vs the Phillies, so neither fully answers the question. However, Content B contains a specific, dated article with pitching stats from a different year (2025 NLDS) framed similarly to what the query asks for, which is likely to mislead an LLM into presenting stale/incorrect stats as the answer. Content A's tangential results (batting-only, no pitching data) are less likely to produce a confidently wrong answer, even though it also fails to supply the exact requested stat line."
+}

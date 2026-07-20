@@ -1,0 +1,11 @@
+{
+  "id": 843,
+  "query": "Taylor Swift Disney+ docuseries The End of an Era Eras Tour streaming December 2026",
+  "topic": "Taylor Swift",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A provides correct basic facts (premiere Dec 12, 2025, six episodes, cast) but lacks detail on release schedule for later episodes and omits specific dates for the final episodes, making it less precise about the actual streaming timeline.",
+  "b_issues": "No significant factual errors; all sources (Disney+, Wikipedia, Newsweek, Deadline) consistently confirm the 2025 release date and episode schedule, correctly contradicting the erroneous '2026' premise in the query.",
+  "reasoning": "Both sets correctly establish that 'The End of an Era' premiered in December 2025, not 2026, and give consistent, accurate details about the docuseries (six episodes, cast, concert film pairing). However, Content B offers more precise and detailed corroborating information—exact announcement date (Oct 13, 2025), episode release schedule, viewership data, and specific streaming times—drawn from reliable sources like Disney+, Wikipedia, Newsweek, and Deadline. This makes B slightly more comprehensive and reliable for correcting the false '2026' premise and answering the question accurately."
+}

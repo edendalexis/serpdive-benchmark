@@ -1,0 +1,11 @@
+{
+  "id": 51,
+  "query": "Switch 2 system update 22.5.0 patch notes full changelog June 2026",
+  "topic": "Nintendo Switch 2",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "One embedded source (IGN excerpt) contains a typographical/scraping error stating the firmware version as '22.0.5' instead of '22.5.0', which could confuse the version number if taken at face value. However, multiple other sources in the same result set (gamereactor, nintendoeverything, famiboards, threads.com) correctly state 22.5.0 and provide consistent, detailed changelog items (Dutch/Russian TTS, GameChat speech-to-text, eShop redesign, rewind/advance 10s controls, PIN verification), giving a fuller picture of the update.",
+  "b_issues": "The official Nintendo support snippet is accurate but very sparse, giving only a couple of bullet points. The famiboards entry is largely off-topic (discusses unrelated future release speculation rather than patch notes), and the nintendoeverything snippet lacks concrete changelog bullets. This leaves less detailed, less redundant confirmation of the full changelog compared to Content A.",
+  "reasoning": "Both sets confirm the core facts (version 22.5.0, released mid-June 2026, Dutch/Russian TTS and GameChat additions, general stability improvements), matching the anchor. However, Content A supplies more redundant, cross-verified detail across multiple outlets (IGN, Nintendo Life-style, Gamereactor, Nintendo Everything, Threads summary) including additional legitimate patch note items (10-second skip controls, PIN verification, eShop redesign) that build a more complete 'full changelog' picture, despite one incidental version-number typo in a single excerpt that is corrected elsewhere in the same set. Content B's results are thinner and include more irrelevant filler (especially the famiboards excerpt), providing less material to construct a comprehensive changelog answer."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 653,
+  "query": "UNRWA May 2025 East Jerusalem facilities Israeli forces entered three schools statement Philippe Lazzarini official press release",
+  "topic": "United Nations Relief and Works Agency for Palestine Refugees in the Near East",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "None significant; results are consistent and directly relevant, including the official UNRWA press release URL and title matching Lazzarini's statement.",
+  "b_issues": "Contains the correct palestine.un.org quote, but the official UNRWA press release link is missing entirely. Instead includes irrelevant or confusing results: an EJIL:Talk article about a different, later (December 2025) seizure of UNRWA's Sheikh Jarrah facility, and 'Situation Report' links dated in 2026 (likely inaccurate/hallucinated dates), which could mislead an LLM into conflating unrelated events or citing wrong dates.",
+  "reasoning": "Content A provides a clean, on-topic set of sources directly matching the question—UN News, palestine.un.org, and the actual UNRWA press release titled 'An assault on children. An assault on education'—all corroborating the same facts (three schools, Shu'fat camp, 550+ children, one staff detained). Content B includes the correct quote from palestine.un.org but lacks the direct official UNRWA press release link, and introduces confusing, likely inaccurate material (future-dated reports, a distinct December 2025 incident) that could cause an LLM to conflate separate events or cite wrong details. A better isolates the relevant, accurate facts needed to answer the question."
+}

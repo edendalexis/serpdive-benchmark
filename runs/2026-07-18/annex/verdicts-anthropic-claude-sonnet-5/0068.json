@@ -1,0 +1,11 @@
+{
+  "id": 68,
+  "query": "CVE-2026-34743 xz utils patched version fix release CVSS score",
+  "topic": "XZ Utils",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A only surfaces the CVSS 4.0 estimate of 1.7 (via Feedly) and never states the CVSS 3.1 base score of 5.3 that authoritative sources (NVD, Ubuntu) actually assign; it gives no explicit numeric CVSS 3.x score, making it harder to answer the question accurately. The rest of the results are unrelated July 2026 Patch Tuesday CVEs, adding noise.",
+  "b_issues": "Contains a conflicting/inaccurate claim from beyondmachines.net stating CVSS score 9.8, which contradicts the authoritative NVD/Ubuntu score of 5.3 (Medium). This could mislead a model if it picks the wrong source, though the correct 5.3 MEDIUM (CVSS 3.1) and 1.7 LOW (CVSS 4.0) figures are also present via the NVD result.",
+  "reasoning": "Both sets identify the patched version as 5.8.3. The key differentiator is the CVSS score: Content B explicitly includes the NVD CVSS 3.1 Base Score of 5.3 MEDIUM (matching the anchor's Ubuntu source of 5.3 Medium) alongside the CVSS 4.0 1.7 LOW figure, giving a model the accurate, verifiable score. Content A only surfaces the 1.7 figure without the 5.3 base score, and includes irrelevant results about unrelated CVEs from July 2026 Patch Tuesday, diluting relevance. While Content B has one dubious outlier (9.8 from beyondmachines), the presence of the correct, NVD-sourced 5.3 score makes it more likely a model can extract the accurate answer that matches the anchor."
+}

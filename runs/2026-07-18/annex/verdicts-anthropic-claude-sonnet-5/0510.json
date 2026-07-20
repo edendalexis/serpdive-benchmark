@@ -1,0 +1,11 @@
+{
+  "id": 510,
+  "query": "Javier Milei October 2025 Argentina midterm election results La Libertad Avanza lower house seats vote share official results",
+  "topic": "Javier Milei",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A's first result is from before polls closed and only contains pre-election speculation (no actual results, vote share, or seat counts). The second result is an unrelated aggregator page (adizione.com) with irrelevant snippets about other elections. The third result is a spam/irrelevant page with a garbled title. None of the three results actually report the election outcome, vote share, or seats won.",
+  "b_issues": "Minor: some figures are preliminary (91% counted, 40.8%) rather than the final ~40.66% cited in the anchor, and one figure (40.84%) conflates combined lower/upper house vote share rather than lower house alone, but this is a minor imprecision rather than a major error.",
+  "reasoning": "Content B provides multiple corroborating sources (chosun.com, batimes.com.ar, crispng.com) with concrete facts matching the anchor: ~40.8% vote share for LLA in the lower house race, seat gains (64 lower-house seats, 13 Senate seats), and context on the new congressional composition (107 of 257 seats for LLA and allies). This aligns well with the anchor's official results. Content A, in contrast, only offers pre-election coverage with no actual results, plus two results that are irrelevant to the query entirely. B clearly enables a correct, well-supported answer while A does not enable an answer at all regarding actual results."
+}

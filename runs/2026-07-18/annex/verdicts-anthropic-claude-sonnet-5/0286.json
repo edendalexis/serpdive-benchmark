@@ -1,0 +1,11 @@
+{
+  "id": 286,
+  "query": "Cognition Devin Windows VM native support announcement June 2026 release notes",
+  "topic": "Devin AI software engineer",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "The Devin release-notes/2026 excerpt in A contains generic bug-fixes and feature notes unrelated to the Windows VM announcement, and could mislead the model into thinking those are the 'release notes' for this feature. The Windows Developer Blog entry is about Microsoft's Build 2026 conference and Windows AI APIs, not Devin, adding noise that could cause confusion about what Cognition actually announced.",
+  "b_issues": "Includes an X/Twitter post citation which is a lower-reliability source type, and the newmarketpitch.com blog is a third-party opinion piece with unverified revenue figures, though these are peripheral to the core answer.",
+  "reasoning": "Both sets share the same core, reliable source (cognition.com/blog/devin-is-getting-a-windows-pc), which contains the key facts: Devin now runs natively in its own Windows VM, enabling build/run/test of Windows apps and .NET Framework to .NET Core migrations. Content B adds a more detailed excerpt of this blog (explicit .NET Framework/.NET Core migration example, building and testing in a real Windows environment) plus a corroborating first-party tweet from Cognition stating the same announcement, reinforcing accuracy. Content A's supplementary sources (generic Devin release notes with no mention of Windows, and an unrelated Windows Build 2026 blog post) add irrelevant or tangential information that does not help and could introduce confusion about the specific Windows VM feature. Therefore B better supports a correct, well-grounded answer."
+}

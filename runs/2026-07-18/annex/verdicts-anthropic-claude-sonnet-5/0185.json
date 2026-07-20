@@ -1,0 +1,11 @@
+{
+  "id": 185,
+  "query": "IOC 15 new reforms endorsed digital transformation revenue streams details",
+  "topic": "International Olympic Committee",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Results are fairly shallow (mostly headlines/snippets) and don't give full itemized list of all 15 reforms, but they correctly identify the IOC's 15 reforms, the five pillars (digitisation, sustainability, financial resilience), and provide concrete revenue figures (USD 7.7 billion 2021-2024, USD 7.5 billion 2025-2028, 60% revenue increase, 90% distribution) from reliable sources (Reuters, Straits Times, LinkedIn/IOC).",
+  "b_issues": "Almost entirely irrelevant results about generic 'digital transformation' trends for 2026 (OECD, PwC, TEKsystems, LinkedIn generic articles) unrelated to the IOC. Only one result touches on IOC reforms, but it's about the 146th Session 'Fit for the Future' roadmap (2025), not the original 15 reforms of Olympic Agenda 2020/2020+5, and contains no revenue stream details.",
+  "reasoning": "Content A directly addresses the query with multiple sources confirming the 15 IOC reforms, their five pillars including digitisation, and specific revenue figures answering the 'revenue streams details' part of the question. Content B is dominated by unrelated generic digital transformation market reports and only tangentially references IOC reforms without covering the specific 15 reforms or revenue details, making it far less useful for answering the question correctly."
+}

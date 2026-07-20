@@ -1,0 +1,11 @@
+{
+  "id": 520,
+  "query": "new member appointed Anthropic Long-Term Benefit Trust July 2026",
+  "topic": "Anthropic",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; the official Anthropic announcement and CNBC article both confirm Bernanke's appointment as the fourth trustee, joining Shah, Fontaine, and Cuéllar, with dates matching the anchor.",
+  "b_issues": "Lacks the official Anthropic press release specifically about Bernanke (the anthropic.com result included is about Cuéllar, not Bernanke). The Bernanke-specific facts come from lower-authority/aggregator sources (techjacksolutions.com, aiweekly.co, aiwar.site) rather than a primary or major outlet source, making the core answer less verifiable/reliable.",
+  "reasoning": "Both sets correctly identify Ben Bernanke as the July 2026 appointee to Anthropic's Long-Term Benefit Trust, but Content A provides this via the official Anthropic.com announcement and a CNBC article, both authoritative sources with clear, consistent details (fourth trustee, joining Shah, Fontaine, Cuéllar). Content B's Bernanke-specific information relies on thinner, less authoritative sources, while its one anthropic.com and CNBC results actually pertain to Cuéllar's earlier appointment, not Bernanke's. This makes A more reliable and directly useful for answering the question accurately."
+}

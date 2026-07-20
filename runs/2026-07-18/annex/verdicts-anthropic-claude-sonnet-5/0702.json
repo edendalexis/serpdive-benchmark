@@ -1,0 +1,11 @@
+{
+  "id": 702,
+  "query": "April 2026 federal jury verdict Live Nation Ticketmaster liable every antitrust count overcharge per primary concert ticket New York states case",
+  "topic": "Ticketmaster DOJ lawsuit",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "None of A's results explicitly state that the jury found liability on 'every' antitrust count (only that they 'operated as a monopoly'), which is the specific claim in the question. The NPR result says '39 states' joined the case, which conflicts with the more accurate 33 states + DC figure found elsewhere, creating a factual inconsistency. The $1.72 per ticket figure is present but buried in a secondary AP-syndicated local outlet (witn.com) rather than confirmed by a primary/legal source.",
+  "b_issues": "No major factual issues; results are consistent with each other and with the anchor (33 states + DC, $1.72 per ticket, SDNY, Judge Subramanian, verdict on all federal and state claims).",
+  "reasoning": "The question specifically asks about the jury finding liability on 'every antitrust count' and the $1.72 per-ticket overcharge tied to the New York-led states' case. Content B directly states via a reputable law firm source (Paul Weiss) that the jury 'returned a verdict for the plaintiff states on all federal and state law claims,' and via Crowell confirms the $1.72 per-ticket damage figure, the SDNY venue, Judge Subramanian, and the 33 states/DC coalition — all matching the anchor precisely. Content A only supports the broader 'monopoly' finding without explicitly confirming liability on every count, and introduces a contradictory '39 states' figure, making it less precise and slightly inconsistent with the anchor's established facts."
+}

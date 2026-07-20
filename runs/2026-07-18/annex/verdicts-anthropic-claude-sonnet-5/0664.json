@@ -1,0 +1,11 @@
+{
+  "id": 664,
+  "query": "Ilya Sutskever 2025 interview regret OpenAI board Sam Altman ouster",
+  "topic": "Ilya Sutskever",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Contains no material about a 2025 interview or deposition; all results are from Nov 2023 covering Sutskever's original regret statement. Accurate but does not address the '2025' aspect of the query at all.",
+  "b_issues": "Same core deficiency as A — no 2025 deposition/interview content included; relies entirely on 2023 sources. Includes two Reddit threads as sources, which are lower-quality/secondary compared to original reporting, though the facts they convey are consistent with the reliable sources.",
+  "reasoning": "The query specifically asks about a '2025 interview' regarding Sutskever's regret over the OpenAI board's ouster of Altman — referencing the October/November 2025 deposition testimony and podcast interview (as shown in the anchor's Verge, Dwarkesh, court transcript, and Calcalist results). Neither Content A nor Content B contains any of this 2025 material; both are limited exclusively to coverage of Sutskever's original November 2023 public regret statement. Both sets are internally consistent and factually accurate regarding the 2023 event, but both equally fail to capture the actual 2025 interview/deposition content requested by the query. Given the identical shortfall and comparable factual accuracy of what is included, this is a tie."
+}

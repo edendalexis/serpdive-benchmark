@@ -1,0 +1,11 @@
+{
+  "id": 634,
+  "query": "Perplexity Model Council parallel frontier models GPT-5.4 Claude Opus 4.6 Gemini 3.1 Pro synthesis feature",
+  "topic": "Perplexity AI",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "First result directly confirms the Model Council feature with GPT-5.4, Claude Opus 4.6, and Gemini 3.1 Pro running in parallel with synthesis, matching the anchor. The other results are benchmark comparison articles that are tangential but not contradictory, and provide supporting context on the three models. No internal contradictions with the anchor.",
+  "b_issues": "None of the results mention Model Council, the parallel frontier model feature, or the synthesis capability at all. The results are generic Perplexity company pages (Twitter, YouTube, Wikipedia, Chrome extension, homepage) that do not address the query's specific feature. The Twitter content even references different/later models (GPT-5.6, Grok 4.5, Claude Sonnet 5) unrelated to the question, which could mislead an LLM.",
+  "reasoning": "Content A directly answers the question with a changelog entry explicitly confirming Model Council runs GPT-5.4, Claude Opus 4.6, and Gemini 3.1 Pro in parallel and synthesizes their outputs—matching the anchor's description precisely. Content B contains no information about Model Council or the synthesis feature at all; its results are generic company/social media pages that would not allow an LLM to answer the question correctly. Content A is clearly superior for answering this specific query."
+}

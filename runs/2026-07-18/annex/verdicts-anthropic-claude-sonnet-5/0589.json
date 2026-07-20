@@ -1,0 +1,11 @@
+{
+  "id": 589,
+  "query": "Sam Bankman-Fried Trump clemency petition legal representation filing text June 2026",
+  "topic": "FTX",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Does not explicitly name Bankman-Fried's attorney or quote legal counsel, though it accurately describes the pardon petition, its status as pending, and Trump's stated reluctance. All sources are reputable and consistent.",
+  "b_issues": "Contains a confusing, likely contaminated quote in the Bitcoin Magazine excerpt ('\"I assume that you would want a pardon from the White House?\" Li asked.') that appears unrelated to Bankman-Fried and could mislead an LLM about legal representation or the identity of counsel. Sources are more mixed in reliability (bitcoinmagazine, thenextweb, yellow.com) and none explicitly name an attorney either.",
+  "reasoning": "Neither result set explicitly identifies SBF's legal representation or attorney by name, so both are incomplete relative to the specific question about 'legal representation.' However, Content A is internally consistent and sourced from clearly reputable outlets (CoinDesk, CNBC, NYTimes, Daily News) with no contradictory or garbled text. Content B includes an anomalous, seemingly out-of-context quote attributed to 'Li' that could confuse or mislead an LLM about who is involved in the filing, introducing a reliability risk not present in A. Thus A is marginally better for accurate, safe answering."
+}

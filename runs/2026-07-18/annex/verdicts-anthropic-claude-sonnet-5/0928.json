@@ -1,0 +1,11 @@
+{
+  "id": 928,
+  "query": "Wicked 2024 highest grossing stage musical adaptation North America source domestic total holiday 2024",
+  "topic": "Wicked",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A mixes in significant amounts of information about the 2025 sequel 'Wicked: For Good' (Wikipedia and Billboard results), which is a different film and could confuse the model about which movie's box office figures apply to 'Wicked' (2024). It lacks a clear domestic total figure tied to the holiday 2024 period, only giving early Thanksgiving numbers ($112.5M opening, $118M holiday) and Deadline's mid-run $214.3M figure, without providing later domestic totals near the end-of-year holiday period.",
+  "b_issues": "Minor redundancy across sources, but no significant factual errors; figures are consistent with the anchor's trajectory (domestic total climbing from $214M to $424M to $474M).",
+  "reasoning": "Content B provides consistent, accurate domestic gross figures ($424M via Playbill and Vari800Vice) tied specifically to the December 2024 holiday period, directly relevant to the query about 'domestic total holiday 2024.' It also correctly confirms Wicked as the highest-grossing stage musical adaptation without conflating it with unrelated films. Content A, while containing accurate early box office data, dilutes relevance by including substantial information about 'Wicked: For Good' (a 2025 sequel), which risks confusing the model about which film's statistics apply, and does not include a clear domestic total figure for the 2024 holiday period."
+}

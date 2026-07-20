@@ -1,0 +1,11 @@
+{
+  "id": 994,
+  "query": "True Detective season 5 Issa Lopez return showrunner HBO official season 5 announcement",
+  "topic": "True Detective",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Includes a Yahoo article with speculative, unconfirmed details (2027 release date, Jamaica Bay setting, possible McConaughey/Harrelson return) that could be mistaken for official facts, though the article itself notes they are unconfirmed by HBO.",
+  "b_issues": "No significant factual issues; all snippets are consistent with the official announcement and consistent with the anchor.",
+  "reasoning": "Both sets clearly convey the core facts: HBO renewed True Detective for Season 5, Issa López is returning as showrunner under a new overall deal after Night Country's success, and the season's story direction was undecided at announcement. Both draw from reliable outlets (Hollywood Reporter, Deadline, IndieWire, IGN) that match the anchor's facts and quotes. Content A adds a Yahoo piece with speculative extra details (release date, setting) that are clearly unconfirmed, which slightly risks confusion but doesn't contradict the core facts. Content B is more uniformly focused on the official announcement without extraneous speculation. Given both provide the essential factual answer accurately and consistently, this is essentially a tie, with a very minor edge to B for cleanliness, but not enough to be decisive."
+}

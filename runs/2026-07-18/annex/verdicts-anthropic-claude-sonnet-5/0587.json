@@ -1,0 +1,11 @@
+{
+  "id": 587,
+  "query": "FTX surplus amount customer recovery more than 100 percent outstanding debts latest bankruptcy disclosures 2025 2026",
+  "topic": "FTX",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Neither result set contains the most recent 2025/2026 disclosures (e.g., the fifth distribution, 2025 Annual Financial Report, or the March 2026 fourth distribution details) that appear in the anchor. Content A's most recent item is from Sept 2025 (third distribution, $1.6B) and older Reuters/FT pieces; it lacks the 118%/98% recovery figures tied to the latest disclosures update and doesn't mention the 2026 distributions at all, so it's stale relative to the question's 2025/2026 framing.",
+  "b_issues": "Same core limitation as A: no coverage of the 2026 fourth/fifth distributions or the 2025 Annual Financial Report that the anchor highlights. Most recent item is also the Sept 2025 third distribution piece. Includes some older/irrelevant results (2022 creditor count article) that don't help answer the 2025/2026-specific question.",
+  "reasoning": "Both content sets provide essentially the same core facts: the bankruptcy plan approved in Oct 2024 promising 118% recovery for ~98% of creditors, the Sept 2025 $1.6B third distribution, and background on total distributions. Both omit the more recent 2026 disclosures (fourth and fifth distributions, 2025 Annual Report) that the anchor surfaces, meaning neither set enables a fully up-to-date answer for 2025/2026. The overlap in sources (Banking Dive, Reuters, cryptoresearch.report) and comparable staleness make them equally capable (or incapable) of answering the specific question about the latest 2025/2026 disclosures, though both correctly convey the >100% recovery figure from the original plan."
+}

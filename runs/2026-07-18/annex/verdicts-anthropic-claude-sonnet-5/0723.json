@@ -1,0 +1,11 @@
+{
+  "id": 723,
+  "query": "Temu Shein UK trial copyright antitrust expected date",
+  "topic": "Temu",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "The MLex snippet's dating is confusing (article dated 'January 9, 2026' but referring to 'next year' trial, and stating IP trial is 'later this year' which is consistent with May 2026 trial), but overall the set gives concrete, consistent dates: copyright trial opened May 11, 2026, and a separate antitrust/competition claim trial set for early 2027 ('early next year' per MLex). No major contradictions.",
+  "b_issues": "Includes the same core Reuters/novadata info but omits the MLex article specifically detailing the antitrust trial's separate expected date, weakening the antitrust-date answer. It also includes a suspicious/unreliable source (bvwd.ca.gov, a California boating agency domain) hosting unrelated legal content, and the novadata snippet contains obvious spam/promotional text ('Claim your lifetime free access to Nova MCP for Claude'), reducing source reliability.",
+  "reasoning": "Both sets confirm the copyright trial began May 11, 2026 at London's High Court. However, Content A additionally surfaces the MLex piece indicating the separate antitrust/competition claim is scheduled for early next year, directly answering the 'antitrust expected date' part of the question. Content B lacks this antitrust-specific dating and includes lower-quality/spammy sources, making Content A more complete and reliable for fully answering the query."
+}

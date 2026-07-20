@@ -1,0 +1,11 @@
+{
+  "id": 769,
+  "query": "Boeing 787 737 MAX certificate delegation authority scope conditions FAA approval details 2026",
+  "topic": "FAA",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "The Facebook and DRS.faa.gov results are low-value/tangential, but the core Reuters article is accurate and directly on-topic, matching the anchor's facts (restoration of full authority for both 737 MAX and 787, dates, historical revocation reasons in 2019 and 2022).",
+  "b_issues": "Mixes two distinct topics: the airworthiness-certificate delegation authority (ODA) restoration (skiesmag, simpleflying - accurate but focused on Sept 2025 partial delegation) and the unrelated 737 MAX 7/MAX 10 *type certification* process (airmappr, aviationa2z), which could cause the model to conflate delegation authority with new-variant type certification. Also includes an outdated 2022 aerotime article about a legislative deadline extension that is irrelevant to the 2026 delegation question.",
+  "reasoning": "The question is specifically about the FAA's delegation/certification authority scope (ODA) for issuing airworthiness certificates on existing 737 MAX and 787 aircraft, and the 2026 approval details. Content A's top result (Reuters) directly and accurately answers this, closely mirroring the anchor's facts about the July 2026 full restoration and the 2019/2022 revocation history. Content B provides some relevant background (skiesmag, simpleflying) but dilutes focus with results about MAX 7/10 type certification timelines, a different regulatory process that could mislead an LLM into conflating delegation authority with new variant certification. Content A is more tightly aligned and less likely to produce a confused or inaccurate answer."
+}

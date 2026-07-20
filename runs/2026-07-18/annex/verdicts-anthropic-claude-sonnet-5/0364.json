@@ -1,0 +1,11 @@
+{
+  "id": 364,
+  "query": "GTA 6 second trailer May 2025 Rockstar views characters map",
+  "topic": "Grand Theft Auto VI",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor: includes a low-quality aggregator snippet from mein-mmo.de with an incorrect date reference, but overall content is accurate and consistent across major outlets (IGN, CBS News, Tom's Guide, official Rockstar site).",
+  "b_issues": "Relies heavily on secondary/fan sources (YouTube mapping video, clickbait headlines) rather than authoritative reporting; the '475 million views' claim from thehansindia.com is unverified and likely inflated; provides fewer concrete, verified facts about characters, map locations, or trailer content itself.",
+  "reasoning": "Content A offers verified, detailed, and consistent information from reputable outlets (IGN, CBS News, Tom's Guide, Rockstar's official site) about the trailer's release date (May 6, 2025), new characters (Jason, Lucia, Cal Hampton, Boobie Ike, De'Quan Priest, etc.), and map details (Vice City, Leonida Keys, Leonida state). This directly and accurately answers the question. Content B is thinner on substantive facts, includes unofficial fan content (a YouTube mapping project) and a dubious viewership statistic, making it less reliable and less informative for answering the question accurately."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 242,
+  "query": "Voyager 1 Big Bang maneuver heater power swap status update",
+  "topic": "Voyager 1",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Slight redundancy across sources but no major factual contradictions; timeline details (LECP shutdown April 17, Big Bang tests planned for Voyager 2 in May/June 2026, Voyager 1 follow-up no sooner than July 2026) are consistent across multiple sources.",
+  "b_issues": "Mixes in unrelated/outdated 2024 thruster swap articles (phys.org, ASME, Hacker News) that are about a different event from a different year, which could confuse the model about the current 'Big Bang' heater/power status. Only two results (livescience, space.com) actually address the current Big Bang maneuver, providing less depth on the specific heater power swap status update.",
+  "reasoning": "Content A provides multiple consistent, on-topic sources (NASA, CNN, Live Science, SatNews, Space.com) all directly describing the LECP shutdown, the Big Bang maneuver plan, and its timeline (tests on Voyager 2 in May/June 2026, Voyager 1 follow-up in July 2026), giving a clear and accurate basis to answer the question. Content B includes several irrelevant older articles about an unrelated 2024 thruster swap, diluting relevance and increasing risk of conflating past and current events, and only partially covers the actual Big Bang heater/power status with less detail than Content A."
+}

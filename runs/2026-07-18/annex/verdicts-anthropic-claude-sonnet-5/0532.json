@@ -1,0 +1,11 @@
+{
+  "id": 532,
+  "query": "Barbie Type 1 diabetes doll insulin pump 2025 release date Mattel",
+  "topic": "Barbie",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "No factual errors; all sources consistent with the July 8, 2025 launch date, $10.99 price, and Walmart/Amazon availability.",
+  "b_issues": "No factual errors; all sources consistent with the July 8, 2025 launch date, $10.99 price, and availability. Slightly less redundant retailer detail than A but includes an authoritative Breakthrough T1D source.",
+  "reasoning": "Both content sets correctly identify the key facts: Mattel/Barbie released the first Type 1 diabetes doll on July 8, 2025, in partnership with Breakthrough T1D, priced at $10.99, featuring an insulin pump and CGM. Content A provides slightly more retail/pricing detail (USA Today snippet mentions Walmart/Amazon and price), while Content B includes an official Breakthrough T1D source and NY Post confirmation. Neither set contains factual errors or contradictions, and both fully support an accurate answer to the query."
+}

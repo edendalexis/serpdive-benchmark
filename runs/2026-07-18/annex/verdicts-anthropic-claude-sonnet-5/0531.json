@@ -1,0 +1,11 @@
+{
+  "id": 531,
+  "query": "LeBron James Ken doll Mattel release height",
+  "topic": "Barbie",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Relies partly on a Facebook post as a source, which is less authoritative than official/news sources, though the fact is corroborated elsewhere.",
+  "b_issues": "Lacks the specific physical doll height dimension (14 inches) that Content A provides via the Target listing; otherwise contains the same core facts.",
+  "reasoning": "Both sets confirm the key facts: LeBron James is 6'9\" tall and the doll is one inch taller than a standard Ken doll, sourced from Mattel's official press release and BBC. However, Content A additionally includes the Target listing's specific doll dimension (14 inches, H), giving a more complete numeric answer to the 'height' portion of the query. Content B covers the same qualitative facts but omits this specific doll measurement. Both are accurate and non-contradictory, but A provides slightly more complete height data."
+}

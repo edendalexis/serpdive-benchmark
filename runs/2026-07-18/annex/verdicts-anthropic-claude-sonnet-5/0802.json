@@ -1,0 +1,11 @@
+{
+  "id": 802,
+  "query": "Satya Nadella ultimatum top executives commit to AI or leave Microsoft senior leadership report 2026",
+  "topic": "Satya Nadella",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; content is consistent with the anchor and provides detailed, accurate quotes from the Business Insider/TOI reporting (Nadella's 'sign on or leave' ultimatum, Althoff promotion, Jha retirement consideration, SLT dismantling).",
+  "b_issues": "Results are mostly short, truncated snippets that confirm the basic ultimatum but lack the specific supporting details (quotes, named executives, internal memo context) found in content A. Some entries (MSN, TOI amp) are near-duplicates of the same short blurb, adding little new information.",
+  "reasoning": "Both sets confirm the core fact that Nadella issued a 'commit to AI or leave' ultimatum to senior leadership, tying into the SLT dismantling. However, Content A provides substantially more detailed and specific information—direct quotes from executives, the Althoff promotion rationale, Jha's retirement considerations, and richer BI reporting on the new leadership structure—making it easier for an LLM to construct a thorough, accurate answer. Content B's snippets are shorter and more repetitive, offering less substantive detail despite covering similar sources."
+}

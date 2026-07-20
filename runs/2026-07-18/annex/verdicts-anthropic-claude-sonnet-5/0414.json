@@ -1,0 +1,11 @@
+{
+  "id": 414,
+  "query": "The Bear total Emmy Awards wins number Season 5 2026 Emmys eligibility",
+  "topic": "The Bear",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "States 49 nominations vs anchor's 57 total nominations (though win count of 21 matches anchor exactly); does not address the Season 5/final-season eligibility nuance mentioned in the anchor's tvinsider result.",
+  "b_issues": "Does not provide an explicit total win count for The Bear (goldderby snippet only describes early-season history, not the cumulative 21 wins); IMDb result is a raw list without a clear total tally; also omits the Season 5 eligibility nuance from the anchor.",
+  "reasoning": "Both sources miss the specific nuance from the anchor's tvinsider article that Season 5 (the final season) is NOT eligible for the 2026 Emmys. However, Content A explicitly states the show has won 21 trophies (matching the anchor's '21 Emmys' figure precisely) and gives clear context on the 2026 nominations, ceremony date, and eligibility issues (e.g., Heated Rivalry's ineligibility due to foreign financing). Content B's goldderby snippet discusses only early history without stating a total win number, and its other sources (IMDb, YouTube) are less precise/reliable for a specific win count. Thus Content A better equips an LLM to answer the total-wins portion of the question, even though neither fully covers the Season 5 eligibility nuance."
+}

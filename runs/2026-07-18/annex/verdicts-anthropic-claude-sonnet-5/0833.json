@@ -1,0 +1,11 @@
+{
+  "id": 833,
+  "query": "Julian Assange US travel restriction ban details after conviction June 2024",
+  "topic": "Julian Assange",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Contains no explicit note of a formal 'travel ban' condition, only that Assange opposed traveling to the mainland U.S. (from Reuters and LA Times snippets), which is the closest available fact to the query but is somewhat indirect.",
+  "b_issues": "Provides sentencing details (5 years 2 months, judge's name) and background but omits any mention of the travel-restriction rationale (opposition to travelling to mainland U.S.) that is directly relevant to the query; the LA Times snippet included doesn't contain that detail, unlike in A.",
+  "reasoning": "Both sets lack a formally stated 'travel ban' clause, but Content A explicitly includes (via Reuters and LA Times snippets) the fact that Assange's case was heard in Saipan specifically because of his opposition to travelling to the continental U.S.—the most relevant piece of information available for the question about US travel restrictions. Content B's equivalent LA Times snippet omits this detail entirely, focusing instead on unrelated background (Chelsea Manning, Ecuadorian embassy) that doesn't address the travel-restriction aspect of the question. Thus Content A provides more directly relevant and accurate information for answering the query."
+}

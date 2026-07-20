@@ -1,0 +1,11 @@
+{
+  "id": 244,
+  "query": "Voyager 1 April 2026 instrument shutdown which instrument turned off remaining instruments NASA",
+  "topic": "Voyager 1",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; content is consistent and directly answers the question with LECP identified and confirms two remaining instruments (plasma wave and magnetic field instruments).",
+  "b_issues": "Content is more fragmented and contains partial contradictions - Gizmodo snippet says 'only two are still operating' while How-to Geek snippet says 'leaving just three science instruments in operation on each spacecraft,' creating a discrepancy in the number of remaining instruments. The JPL result is mostly navigation boilerplate with no actual article content, reducing its usefulness.",
+  "reasoning": "Both sets correctly identify LECP as the instrument shut down on April 17, 2026. However, Content A provides clearer, more directly relevant snippets that explicitly answer the follow-up part of the question (which instruments remain: plasma wave and magnetic field instruments), and includes useful context from Universe Today about prior shutdowns (CRS in Feb 2025) without internal contradictions. Content B's snippets are useful but contain a contradiction between sources (two vs. three remaining instruments) and includes a nearly content-free JPL result filled with navigation links rather than substantive text, which could confuse or mislead a model relying on it. This makes Content A modestly more reliable and coherent for answering the question correctly."
+}

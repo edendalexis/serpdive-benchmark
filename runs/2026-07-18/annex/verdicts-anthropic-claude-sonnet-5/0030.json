@@ -1,0 +1,11 @@
+{
+  "id": 30,
+  "query": "Google core search update June 2026 completion date",
+  "topic": "Google",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "No major factual errors; includes a somewhat off-topic blog.google I/O 2026 link and a brief, undated mention of a June 2026 spam update, but nothing that contradicts the core May 2026 update completion date of June 2, 2026.",
+  "b_issues": "No major factual errors; includes an unrelated, unconfirmed 'June 2026 ranking update' and a June spam update reference (launched June 24) that could slightly muddy the picture, but the core May 2026 update completion date (June 2, 2026) is stated clearly and consistently.",
+  "reasoning": "Both content sets correctly identify that there is no distinct 'June 2026 core update' — instead, the May 2026 core update (started May 21, 2026) completed on June 2, 2026, matching the anchor exactly. Both include the seroundtable and seo-kreativ.de sources with identical completion dates/times (June 2, 2026, ~5:40-5:43 AM PDT) and consistent duration (~12 days). Content A additionally corroborates this with a digitalapplied source giving a precise 11-day-21-hour duration, which aligns with the anchor's timestamps. Content B corroborates with searchenginejournal, clarifying the June spam update (launched June 24) is separate from the core update, and also flags an unconfirmed June 19 ranking event, adding useful disambiguation. Neither set contains contradictions or factual errors regarding the key completion date, so they are equally capable of enabling a correct answer."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 931,
+  "query": "Klarna Q1 2026 revenue adjusted operating profit consumers merchants",
+  "topic": "Klarna",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "No factual errors; all key figures (revenue $1.012B, adjusted operating profit $68M, active consumers 119M, merchants 1,075k) are consistent with the anchor. Slightly less detail on net income/operating income figures than B, but not required for the question.",
+  "b_issues": "No factual errors; figures match anchor exactly, and includes additional consistent details (net income, operating income, Q2 guidance) without contradiction.",
+  "reasoning": "Both content sets accurately and consistently report the core Q1 2026 metrics requested—revenue ($1.012B/$1.0B), adjusted operating profit ($68M, up from $3M), active consumers (119M, +21%), and merchants (1,075k/1M+, +49%)—sourced from the same primary earnings release and secondary reports (Klarna investor site, SEC filing, InsiderFinance). Neither set contains contradictions or inaccuracies relative to the anchor. B includes a few more granular details (e.g., operating income $17M, net income $1M, Q2 guidance) but these are supplementary, not essential to answering the specific question, and A also touches on operating income via the globalbankingandfinance snippet. Overall, both equally enable a correct, well-supported answer."
+}

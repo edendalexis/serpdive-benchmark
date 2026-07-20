@@ -1,0 +1,11 @@
+{
+  "id": 561,
+  "query": "Hades II v1.0 final development phase true ending no plans additional regions encounters abilities official statement site:supergiantgames.com",
+  "topic": "Hades II",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Repeats the same result multiple times (redundant but not incorrect); does not include the final v1.0 launch announcement blog itself, only the pre-launch Unseen Update post, so it lacks explicit confirmation of the final launch date/content, though it does contain the key statement about the final development phase, true ending, and finishing touches with no mention of additional regions/encounters/abilities being planned.",
+  "b_issues": "None of the results are from supergiantgames.com as required by the site: filter; all sources are third-party (Mobalytics, RPS, GamesRadar, KitGuru, ScreenRant) discussing a post-launch patch, not the official Supergiant statement about the final Early Access development phase before v1.0. This does not address the specific query about the official statement regarding no additional planned regions/encounters/abilities during the final development phase.",
+  "reasoning": "Content A directly quotes the official Supergiant Games blog post (The Unseen Update) which explicitly states Hades II is entering 'the final phase of development,' that the True Ending is 'the main addition' planned for v1.0, and that they will focus on 'finishing touches' rather than new content—directly answering the question about no additional planned regions/encounters/abilities. Content B entirely misses this official source, instead returning third-party articles about a post-launch patch that revises the true ending, which is unrelated to the pre-v1.0 development phase statement the question asks about. A is clearly more accurate and relevant despite duplication."
+}

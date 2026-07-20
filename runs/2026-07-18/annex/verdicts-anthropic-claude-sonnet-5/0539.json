@@ -1,0 +1,11 @@
+{
+  "id": 539,
+  "query": "Mattel July 2024 first blind Barbie American Foundation for the Blind black Barbie Down syndrome",
+  "topic": "Barbie",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A's snippets are accurate but thin; it never explicitly mentions the National Down Syndrome Society (NDSS) partnership in any of its content excerpts (the ndss.org result's snippet is generic and doesn't state the NDSS collaboration clearly), leaving the 'black Barbie Down syndrome' partnership context incomplete.",
+  "b_issues": "No significant factual errors; content is consistent with the anchor and provides additional accurate context (NDSS partnership, second Down syndrome doll, Black focus group consultation).",
+  "reasoning": "Both sets confirm the core facts (July 23, 2024 announcement, first blind Barbie, Black Barbie with Down syndrome, AFB partnership). However, Content B goes further by including explicit mentions of the National Down Syndrome Society's involvement, the fact that this was the second Down syndrome doll but first Black one, and the focus group consultation with Black individuals — all directly relevant to the query's mention of 'Down syndrome' and partnership details. This makes B more complete and equally accurate, giving it an edge for correctly and fully answering the question."
+}

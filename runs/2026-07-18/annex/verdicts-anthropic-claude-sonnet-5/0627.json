@@ -1,0 +1,11 @@
+{
+  "id": 627,
+  "query": "Novak Djokovic Indian Wells 2026 Jack Draper fourth round score",
+  "topic": "Novak Djokovic",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "No factual errors; all sources agree on 4-6, 6-4, 7-6(5) score.",
+  "b_issues": "No factual errors; all sources agree on 4-6, 6-4, 7-6(5) score.",
+  "reasoning": "Both content sets consistently and accurately report the same score (4-6, 6-4, 7-6(5)) for Draper's win over Djokovic in the Indian Wells 2026 fourth round, matching the anchor. Neither set contains contradictions or inaccuracies, and both include reliable sources (ATP Tour, LTA, major news outlets). B has slightly more supplementary context (match duration, tiebreak details) but this does not change the correctness of the core answer, which is equally well supported in A."
+}

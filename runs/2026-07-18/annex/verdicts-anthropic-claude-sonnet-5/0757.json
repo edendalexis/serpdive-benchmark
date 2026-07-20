@@ -1,0 +1,11 @@
+{
+  "id": 757,
+  "query": "Donald Trump no intention sell DJT stake Truth Social post 2025 stock price reaction",
+  "topic": "Truth Social DJT stock",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Snippets are thin and mostly reiterate that Trump said he wouldn't sell, but lack specific stock price reaction numbers (e.g., CBS and Forbes snippets give no price figures). Only the Yahoo snippet mentions a price (~$32) and market cap context, but details on the actual price move (percentage change, halt, etc.) are missing.",
+  "b_issues": "None significant; all facts (CBS's $3.15/11.4% rise to $30.84, Yahoo's 15% close and volatility halt, Investopedia's lockup context, CNBC's September precedent) are consistent and accurate, though it includes one older Sept 2024 article which is still relevant context.",
+  "reasoning": "Both contain the same core sources (CBS, Yahoo, Investopedia), but Content B's snippets include much more specific, quantifiable stock price reaction details (dollar/percentage moves, trading halts, market cap, historical context from lockup expiration), directly answering the 'stock price reaction' part of the question. Content A's snippets are largely truncated or generic, omitting the specific price movement figures needed to fully answer the question. Thus B provides a more complete and accurate basis for answering."
+}

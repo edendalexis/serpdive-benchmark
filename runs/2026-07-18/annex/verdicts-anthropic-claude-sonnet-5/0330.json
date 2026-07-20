@@ -1,0 +1,11 @@
+{
+  "id": 330,
+  "query": "Longlegs universe new film release date",
+  "topic": "Longlegs",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; the Variety snippet is truncated (cuts off at 'Jan.' without full date) but the featured snippet and Wikipedia excerpt still supply the correct January 14, 2028 date and context.",
+  "b_issues": "Relies more heavily on lower-reliability sources (Facebook, Instagram) for the core fact, and the Wikipedia excerpt included does not mention the new 2028 film at all, making it less self-consistent/complete about the new project.",
+  "reasoning": "Both content sets ultimately supply the correct answer: the new Longlegs universe film releases January 14, 2028. However, Content A sources this fact via a clear featured snippet plus corroborating reputable outlets (Hollywood Reporter, Wikipedia, Variety), and its Wikipedia excerpt explicitly ties the 2026 announcement to Perkins and Cage returning. Content B's most authoritative confirmation of the date comes from Kinocheck citing THR, but two of its five results (Facebook, Instagram) are social media reposts rather than primary journalism, and its Wikipedia excerpt fails to even mention the new project, reducing overall reliability and completeness compared to A."
+}

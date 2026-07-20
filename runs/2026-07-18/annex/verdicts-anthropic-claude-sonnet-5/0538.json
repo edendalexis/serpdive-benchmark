@@ -1,0 +1,11 @@
+{
+  "id": 538,
+  "query": "Mattel Barbie 2026 doll releases Masters of the Universe He-Man Teela Frida Kahlo Signature Fashion Frontier",
+  "topic": "Barbie",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A provides detailed, accurate info on He-Man and Teela dolls (face sculpts, materials, dates) from reliable Mattel sources, but completely omits any mention of the Frida Kahlo doll or the Fashion Frontier doll #3, both of which are explicitly part of the question. This leaves half the query unanswerable.",
+  "b_issues": "Content B covers all four topics (He-Man, Teela, Frida Kahlo, Fashion Frontier) but relies on lower-authority fan/forum sites. It contains a factual error/contradiction: it claims Teela's face sculpt is 'inspired by the portrayal in the 2026 Supergirl film from DC Studios,' which contradicts the anchor and other reliable sources stating Teela is sculpted after Camila Mendes from the MOTU movie. Details are also thin/fragmentary (e.g., Frida Kahlo doll is only mentioned by name, no specifics).",
+  "reasoning": "The question asks about multiple specific 2026 releases: He-Man, Teela, Frida Kahlo, and Fashion Frontier. Content A gives strong, accurate detail on He-Man and Teela but entirely fails to address Frida Kahlo and Fashion Frontier, making it incomplete for the full question. Content B, despite weaker sourcing and one clear factual error about Teela's face sculpt, at least surfaces information on all four topics (including Fashion Frontier's price/date matching the anchor, and confirms the Frida Kahlo doll's existence), giving broader coverage needed to attempt a fuller answer. Neither is ideal, but B enables a more complete response to the full question as posed."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 325,
+  "query": "Scottie Scheffler world number one weeks total as of 2026",
+  "topic": "Scottie Scheffler",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "The results contain multiple, mutually inconsistent weekly counts for Scheffler's No.1 reign: golfrankingstats.com states 194 total weeks / 160 consecutive weeks (through July 20, 2026), while other snippets in the same result set cite 141 consecutive weeks, 149‑week reign, and 'over 140 consecutive weeks' from Instagram/Facebook/Yahoo posts. These numbers are not chronologically consistent with each other and are sourced mostly from low‑reliability social media posts rather than authoritative rankings bodies, making it hard for an LLM to pick a single correct, well‑supported figure. The golfrankingstats figure is also somewhat lower than what would be expected given the anchor's own trend data (156 consecutive/190 total as of May 17, 2026), suggesting it may be stale or inaccurate.",
+  "b_issues": "One snippet (a 'featured snippet' dated Jun 30, 2026) claims only 123 weeks total, calling it the 'fourth most' and saying he 'passes Rory McIlroy's 122 weeks' — this figure is inconsistent with the Wikipedia entry in the same result set and appears to be stale/mismatched data, creating an internal contradiction.",
+  "reasoning": "Both sets contain some internal contradictions, but Content B includes a clear, authoritative, and internally corroborated figure from Wikipedia (165 consecutive weeks, 200 total weeks as of 12 July 2026) that is closely consistent with the anchor's own data trend (156 consecutive/190 total as of May 17, 2026, growing by about 8-10 weeks to July). This makes B's core answer more trustworthy despite the stray outdated snippet. Content A's numbers come mainly from a single lesser-known site (golfrankingstats.com) and are further muddied by several social-media-sourced weekly counts (141, 149) that diverge significantly from each other and from the anchor's trajectory, making it harder for an LLM to converge on an accurate answer."
+}

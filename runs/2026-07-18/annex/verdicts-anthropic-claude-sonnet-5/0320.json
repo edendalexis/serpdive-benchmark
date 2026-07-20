@@ -1,0 +1,11 @@
+{
+  "id": 320,
+  "query": "Scottie Scheffler final result 2026 Open Championship Royal Birkdale",
+  "topic": "Scottie Scheffler",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A only provides Round 1 details (68) for 2026 and does not contain the actual final result (T23, even par per anchor). Worse, it includes an ESPN snippet describing the 2025 Open Championship win at Royal Portrush (four strokes ahead of Harris English) interspersed with 2026 Royal Birkdale content, creating a strong risk that an LLM would conflate the 2025 result with the 2026 answer, producing an incorrect final result.",
+  "b_issues": "Content B also only covers Round 1 (68) at Royal Birkdale in 2026 and does not include the tournament's actual final result (T23, even par per anchor). It lacks any conflicting information about a different year's result, so it is safer but still incomplete for answering the 'final result' question.",
+  "reasoning": "Neither result set actually contains the true final outcome (T23, even par) shown in the anchor; both are limited to Round 1 reporting. However, Content A includes an ESPN snippet that mixes 2025 Royal Portrush win details with the 2026 Royal Birkdale query, which could easily mislead an LLM into stating the 2025 result as the 2026 final result—an outright factual error. Content B stays consistently focused on the 2026 event without this contamination, even though it too fails to supply the actual final result. Thus B is less likely to produce a factually wrong answer, making it marginally better despite both being incomplete."
+}

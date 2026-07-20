@@ -1,0 +1,11 @@
+{
+  "id": 446,
+  "query": "Notre-Dame de Paris chevet sacristy restoration ongoing progress updates 2025 2026",
+  "topic": "Notre-Dame de Paris",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "The parisunlocked.com result states that restoration of the apse (chevet) and sacristy would 'conclude' in 2025, which is inaccurate — per the anchor, the chevet/sacristy restoration is actually the newly launched Phase 3 that began only in mid-2025/2026 and is ongoing (tenders for lead roofing still being awarded in 2026), not concluding in 2025. Some other results (friendsofnotredamedeparis) are generic and not specific to the chevet/sacristy.",
+  "b_issues": "None of the results specifically address chevet or sacristy restoration progress; they focus on spire statues, bells, general reconstruction history (2022-2023), and a newsletter sign-up page, leaving the core topic of the query almost entirely uncovered.",
+  "reasoning": "Both result sets miss the most directly relevant and accurate sources (e.g., the Phase 3 tender/financing details found in the anchor), but Content A at least surfaces a source (parisunlocked.com) that explicitly discusses apse/sacristy restoration timing, giving the LLM some substantive—though partially inaccurate—material to construct an answer. Content B's results are more tangential (statues, bells, general history) and never mention the chevet or sacristy specifically, making it harder for an LLM to produce any relevant answer at all. Thus A provides more usable, topic-relevant content despite its inaccuracy."
+}

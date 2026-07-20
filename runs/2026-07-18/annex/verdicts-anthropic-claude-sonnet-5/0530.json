@@ -1,0 +1,11 @@
+{
+  "id": 530,
+  "query": "Mattel autistic Barbie release date features ASAN",
+  "topic": "Barbie",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Does not explicitly state the exact release date (e.g., Jan 12, 2026 unveiling date), though it can be inferred from context (CNN video dated 2026/01/12) and ABC News article; no major factual errors otherwise.",
+  "b_issues": "None of the results actually address the specific query about the autistic Barbie doll - they are generic Mattel corporate/social media pages with no mention of the autistic Barbie, ASAN partnership, release date, or features. Completely fails to answer the question.",
+  "reasoning": "Content A provides directly relevant, accurate results including CNN, ABC News, and Mattel's own shop page detailing the doll's features (noise-canceling headphones, fidget spinner, AAC tablet, elbow/wrist articulation for stimming, ASAN partnership) and contextual release timing (Jan 2026, following Down syndrome and diabetes Barbies). Content B returns only generic Mattel pages (Wikipedia, corporate homepage, Instagram, About page) with zero mention of the autistic Barbie doll, making it useless for answering the specific question."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 227,
+  "query": "Tesla dedicated Robotaxi no steering wheel production start date specs April 2026",
+  "topic": "Tesla",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "All Content A sources are low‑authority blogs/social posts (greendrive-accessories, Facebook, tesery, basenor, Instagram). While the production-date narrative (Feb 2026 pilot units, ramp to several hundred/week by April 2026, no steering wheel/pedals, sub‑$30k price) is broadly consistent with the anchor, none of the results give any concrete vehicle specs beyond price, leaving the 'specs' part of the query unanswered.",
+  "b_issues": "Sources are also mostly low‑authority blogs (tesery, teslaacessories, eletric-vehicles.com, greendrive-accessories) with one Wikipedia citation; the teslaacessories snippet is garbled ('While production started in April 2026, by late Q3...') and the Wikipedia excerpt juxtaposes 'first production vehicle produced' (Feb 2026) with a citation titled 'production starts Q2 2026' without context, which could read as mildly contradictory if not parsed carefully.",
+  "reasoning": "Both sets rely heavily on low-quality blog sources rather than the mainstream outlets in the anchor (Electrek, CNET, Yahoo, TechSpot, Techxplore), but their core facts (Feb 2026 pilot units, April 2026 volume/continuous production ramp, no steering wheel/pedals design) are consistent with the anchor's timeline in both A and B. B edges ahead because it includes a Wikipedia reference (generally more reliable/neutral) and touches on vehicle specs via an EPA filing citation (219 HP, long range) and additional context (Denholm's steering-wheel remarks, price point), giving a fuller answer to the 'specs' portion of the query, which Content A omits entirely."
+}

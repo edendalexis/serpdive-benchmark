@@ -1,0 +1,11 @@
+{
+  "id": 397,
+  "query": "Germany H5N1 poultry farm outbreaks September 2025 affected states agriculture ministry response",
+  "topic": "H5N1 bird flu",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Mostly about later 2025 (end-of-year) and general European data rather than specifically September 2025 German outbreaks; doesn't give detailed state-by-state breakdown or specific ministry quotes for September. Some content (wattagnet) references December data, less directly on-topic for September.",
+  "b_issues": "Several results are off-topic or factually irrelevant/inaccurate for the query: references to 'February 2026' and 'March 2026' outbreaks are future/likely erroneous dates, CDC and USDA links are about the US not Germany, and the DW video about Brandenburg lacks a date and may not correspond to September 2025 specifically. No content ties directly to September 2025 German ministry response.",
+  "reasoning": "Content A includes a source (beaconbio.org) explicitly covering German HPAI H5 cases by federal state between September 1 and October 20, 2025, directly relevant to the query's timeframe and geographic scope, plus EFSA/ECDC data confirming detections starting September 6, 2025 in Europe including Germany. Content B's results are largely unrelated to the September 2025 German context, citing US-focused sources (CDC, USDA) and oddly dated 2026 events, which could mislead an LLM about the timeline. Thus Content A better supports an accurate answer about German states, ministry response, and September 2025 timeframe."
+}

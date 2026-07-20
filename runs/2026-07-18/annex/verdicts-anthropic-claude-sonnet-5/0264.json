@@ -1,0 +1,11 @@
+{
+  "id": 264,
+  "query": "2026 NBA Finals consecutive unique champions streak since 2019 eight different winners",
+  "topic": "NBA Finals",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Wikipedia snippet correctly confirms the 'eighth consecutive year with a unique champion' fact, but other results (Yahoo Sports) contain irrelevant, confusing content about the Carolina Hurricanes mixed into the same snippet, and the NBA.com game notes result includes an unrelated Lakers road-win stat. A never actually lists the eight champions/years, only confirms the streak claim.",
+  "b_issues": "The Wikipedia excerpt included does not explicitly state the 'eighth consecutive year' language (it's cut before that sentence), and the Reddit/Threads lists of champions are incomplete/truncated (missing 2019-2021), so no source gives the full 8-year list.",
+  "reasoning": "Both sets confirm the core fact that 2026 marks the eighth consecutive year with a unique NBA champion, the longest such streak in league history. Content B provides this confirmation redundantly across multiple independent, clean sources (ESPN Insights via X, Reddit, Threads, Marca) and even offers partial team-by-year breakdowns (2026 Knicks, 2025 Thunder, 2024 Celtics, 2023 Nuggets, 2022 Warriors), giving the LLM more concrete supporting detail. Content A relies mainly on the Wikipedia snippet for the exact phrasing, but its other results are cluttered with irrelevant content (Carolina Hurricanes streak, Lakers road-win record) that could distract or confuse an LLM without adding value. Neither source gives the complete 2019-2026 list, but B's multiple direct confirmations and partial lists make it marginally more useful and less noisy for answering the question."
+}

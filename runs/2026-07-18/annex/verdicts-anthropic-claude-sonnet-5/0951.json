@@ -1,0 +1,11 @@
+{
+  "id": 951,
+  "query": "TikTok Shop Deals for You Days July 2026 LIVE Price Match Guaranteed cash back details",
+  "topic": "TikTok Shop",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "A's retaildive snippet mentions cash back to consumers but omits the specific July 7–19 date range, leaving the timing of the event unclear or reliant on the conflicting HiveHQ dates (June 17–July 2, 2026). Other results in A (Instagram post, seller.tiktok.com blog, Groupon coupons) add little to no detail on the LIVE Price Match Guarantee mechanics or cash-back terms, making it harder to construct a coherent, accurate answer.",
+  "b_issues": "B's retaildive snippet gives explicit July 7–19 dates and cash-back details, but this conflicts with HiveHQ's stated 2026 dates (June 17–July 2), which is also included in B without resolution. The remaining sources (Groupon, CouponFollow) are generic coupon pages unrelated to the price match program, adding noise but not contradicting the core price-match facts.",
+  "reasoning": "Both sets contain the same underlying date conflict between the retaildive article (July 7–19) and the HiveHQ 2026 guide (June 17–July 2), since HiveHQ appears in both. However, B's retaildive excerpt is more complete and directly ties the cash-back/price-match program to explicit July dates, giving a clearer, more actionable answer to the question about 'July 2026' timing and cash-back mechanics. A's retaildive excerpt is vaguer, omitting the date range entirely, and its other sources (Instagram, seller blog, Groupon) contribute little useful detail on the price match guarantee itself. Thus B slightly better supports a correct, specific answer despite the shared date ambiguity."
+}

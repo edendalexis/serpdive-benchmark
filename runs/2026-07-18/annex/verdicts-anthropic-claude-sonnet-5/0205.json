@@ -1,0 +1,11 @@
+{
+  "id": 205,
+  "query": "Shohei Ohtani missed Saturday game biceps soreness 2026 date opponent return",
+  "topic": "Shohei Ohtani",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A does not explicitly give the full 2026 date or the exact return date, but all details are on-topic and consistent (Padres opponent, biceps injury, expected quick return).",
+  "b_issues": "Content B mixes in unrelated injury information (a later knee irritation and All-Star Game skip) that is a separate incident from the July biceps issue, creating potential confusion about the timeline and return date; it does not clearly separate the two injuries, risking a conflated or incorrect answer about when Ohtani returned from the biceps issue.",
+  "reasoning": "Both sets correctly identify the biceps injury, the Padres opponent, and the precautionary nature of the Saturday absence, matching the anchor. However, Content B introduces a different, later injury (knee irritation leading to an All-Star Game skip) without clear dating, which could mislead the model into merging the two separate injury events. Content A stays focused on the biceps incident and its immediate aftermath, offering cleaner, less ambiguous information for answering the specific question about the Saturday miss, its 2026 date, opponent, and expected return."
+}

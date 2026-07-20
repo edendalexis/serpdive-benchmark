@@ -1,0 +1,11 @@
+{
+  "id": 817,
+  "query": "Microsoft 365 Copilot Bing interactive answer cards weather stocks display chat integration 2025",
+  "topic": "Microsoft Copilot",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "Content A does not contain the specific fact from the anchor about the M365 Copilot rich Bing web answer cards feature (Weather, Stocks, GA date, roadmap ID). It includes an irrelevant weather API JSON blob, general Copilot Chat/Ignite/Outlook articles, and an old Bing Chat Enterprise finance article - none directly address the specific feature described in the question.",
+  "b_issues": "Content B also lacks the specific fact about rich Bing web answer cards (Weather, Stocks) appearing in M365 Copilot. It only provides general background on Copilot Chat and older Bing Chat Enterprise announcements from 2023, which predate and do not match the specific 2025 feature described in the anchor.",
+  "reasoning": "Neither Content A nor Content B contains the key fact present in the anchor: that Microsoft 365 Copilot will show rich, interactive Bing web answer cards (Weather, Stocks, etc.) with a GA rollout in late 2025 (Roadmap ID 500865). Content A has some tangential relevance (Copilot Chat rollout in M365 apps, Ignite 2025 video) but no direct mention of the answer cards feature. Content B is even less relevant, focusing on older 2023 Bing Chat Enterprise announcements and generic Copilot Chat support info, with no connection to interactive weather/stock cards. Both sets would leave an LLM unable to correctly and specifically answer the question, making them equally inadequate."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 499,
+  "query": "Wimbledon expansion AELTC on-site qualifying matches other Grand Slams aim 2026",
+  "topic": "Wimbledon",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Provides the key fact (AELTC wants qualifying matches on-site like other Grand Slams) but lacks direct corroborating detail on why/how other Slams compare; relies mostly on secondary/social sources (YouTube, AOL) and doesn't explicitly name the other Grand Slams (Australian, French, US Open) that host qualifying on-site.",
+  "b_issues": "No major factual flaws; content is consistent with anchor and other sources, and explicitly names the other three Grand Slams and explains the equal-footing rationale.",
+  "reasoning": "Both sets confirm the core fact that AELTC's expansion aims to bring qualifying matches on-site to match other Grand Slams. However, Content B provides more specific, well-sourced detail (The Athletic/NYT article explicitly naming the Australian, French, and US Opens, and explaining the 'equal footing' rationale, plus a quote comparing to Roland Garros and US Open). This makes B more informative and directly responsive to the question about aligning with other Slams, while A's evidence is thinner and drawn from less authoritative sources for this specific claim."
+}

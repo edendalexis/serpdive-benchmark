@@ -1,0 +1,11 @@
+{
+  "id": 103,
+  "query": "Boeing MQ-28 Ghost Bat Valiant Shield 2026 U.S. Air Force multinational joint force first collaborative combat aircraft details",
+  "topic": "Boeing",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Minimal; all sources are mutually consistent and align with the anchor facts (dates, aircraft types, exercise details, Boeing's first-CCA claim). No contradictions.",
+  "b_issues": "Includes a migflug.com source that introduces an inconsistency/likely inaccuracy: it claims the MQ-28 flew alongside crewed F-22 Raptors and F-35A Lightning IIs, which is not corroborated by any other source (anchor and other results list F-35A, F-35B, F-15EX, E-3, E-2D, EA-18G, RC-135, HC-130 — no F-22 mentioned). It also gives a slightly different exercise date range (23 June vs 22 June) than other sources, creating minor internal contradiction within the result set.",
+  "reasoning": "Both sets cover the core facts (MQ-28 Ghost Bat, Valiant Shield 2026, first CCA in multinational joint exercise, aircraft it flew with, Boeing/Steve Parker quote). However, Content B contains a source (migflug.com) that adds an unverified and likely inaccurate claim about F-22 Raptor participation, which contradicts the aircraft list given in the anchor and other reliable sources in both sets. This introduces a factual risk not present in Content A, whose sources are consistent with each other and with the anchor reference. Therefore Content A better enables a correct answer."
+}

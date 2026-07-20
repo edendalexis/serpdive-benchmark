@@ -1,0 +1,11 @@
+{
+  "id": 490,
+  "query": "UK High Court 2026 Wimbledon expansion ruling statutory trusts land use",
+  "topic": "Wimbledon",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Includes a Guardian article dated 21 July 2025 about a different (earlier) High Court ruling on the GLA planning approval, which could be conflated with the 2026 statutory-trust ruling and create date/context confusion. Lacks the primary judgment source, so key details about the specific statutory trust argument (s.164 PHA 1875, 1960s legislation, LGA 1972 s.123) are not directly available, only inferred from secondary reporting.",
+  "b_issues": "No significant factual issues; content is consistent across sources and includes the primary judiciary.uk PDF plus corroborating secondary sources (Times, BBC, Wimbledon Society, LocalGovernmentLawyer) all confirming the same ruling.",
+  "reasoning": "Both sets confirm the core outcome (High Court rejected the statutory trust claim under the Public Health Act 1875, clearing the Wimbledon expansion). However, Content B includes the actual judgment PDF with a detailed, accurate breakdown of SWP's statutory trust argument (WCA 1914, 1960s reorganization, PHA 1875 transfer, Day v Shropshire principle, LGA 1972 s.123), giving an LLM much stronger grounding to answer detailed questions about the legal reasoning. Content A, while citing reliable outlets (Reuters, BBC, Standard), also includes an outdated Guardian article from July 2025 discussing a separate GLA planning ruling, which risks conflating two distinct legal proceedings and could mislead an LLM about the timeline or substance of the 2026 statutory trust ruling. Thus B provides more accurate, directly relevant, and less confusing material."
+}

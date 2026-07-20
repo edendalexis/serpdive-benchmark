@@ -1,0 +1,11 @@
+{
+  "id": 901,
+  "query": "Oppenheimer Holdings Q4 2025 full year net income revenue AUM results",
+  "topic": "Oppenheimer",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "tie",
+  "a_issues": "AUM figure comes from a secondary source (StockTitan) rather than the primary press release, though it matches the official figure ($55.2B); some results (Yahoo, StockInsights) are only tangential (Q2 2025, generic).",
+  "b_issues": "Includes irrelevant/future data (Q1 2026 net loss, macrotrends revenue projection) that isn't part of the Q4/FY2025 answer and could be confusing if not carefully filtered, though it doesn't contradict the core figures.",
+  "reasoning": "Both content sets contain the essential, consistent facts needed to answer the question: Q4 2025 net income $74.4M/EPS $7.08, revenue $472.6M; FY2025 net income $148.4M/EPS $14.13, revenue ~$1.6B ($1,638.1M); and AUM of $55.2B at year-end 2025. Content A surfaces the AUM figure via a StockTitan SEC-filing summary, while Content B surfaces it directly from the primary PRNewswire press release with added context (AUM increase driver, dividend, tax rate). Both include minor extraneous or tangential info but neither has factual errors or self-contradiction. The completeness and accuracy for answering the specific question are essentially equivalent."
+}

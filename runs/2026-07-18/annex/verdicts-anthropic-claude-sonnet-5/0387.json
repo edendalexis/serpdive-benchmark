@@ -1,0 +1,11 @@
+{
+  "id": 387,
+  "query": "Meta WhatsApp Meta AI incognito conversations launch Facebook Search AI Mode rollout details",
+  "topic": "Meta",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Content A covers the WhatsApp/Meta AI Incognito Chat launch accurately using primary sources (about.fb.com, blog.whatsapp.com) and reputable secondary sources (TechCrunch, cybernews, igeeksblog), but it contains no information at all about the Facebook 'AI Mode' search rollout, leaving that half of the question unanswered.",
+  "b_issues": "Content B also omits any mention of the Facebook 'AI Mode' search feature, so it likewise fails to address that part of the query. Additionally, its own sources contradict each other on a factual detail: one TechCrunch excerpt says the incognito chat uses Meta's 'Muse Spark' model, while a Yahoo Tech excerpt says it uses the 'Llama Spark' model. It also relies on lesser-known outlets (Eastleigh Voice, Newswire.lk) that add lower-confidence or slightly conflated details (e.g., attributing Side Chat's function to Incognito Chat).",
+  "reasoning": "Neither set covers the Facebook AI Mode rollout, so that portion of the question is unanswerable from both. For the Incognito Chat portion, Content A is more internally consistent and grounded in primary Meta/WhatsApp sources plus reliable tech press, whereas Content B contains a factual contradiction between two of its own sources regarding the AI model used, and leans on less authoritative outlets. Thus Content A provides a more reliable basis for answering the incognito-chat portion of the question, even though both miss the AI Mode details."
+}

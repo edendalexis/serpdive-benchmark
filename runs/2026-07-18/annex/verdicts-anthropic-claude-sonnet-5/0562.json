@@ -1,0 +1,11 @@
+{
+  "id": 562,
+  "query": "Hades II Sangary Saver rework stats Aspect of Hell Omega attack channeling speed changes patch notes",
+  "topic": "Hades II",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "Content A never mentions 'Aspect of Hel' (or Hell) at all; it only discusses Umbral Flames, Sister Blades, Argent Skull, etc. It provides no direct information about the Skull weapon's Aspect of Hel Omega Attack channeling speed change, which is the core of the question.",
+  "b_issues": "The top result snippet is truncated but does explicitly state 'Aspect of Hel (Skull): Omega Attack now channels faster; now hits cocoons more reliably,' directly matching the query. Other results are less relevant but not contradictory.",
+  "reasoning": "The question specifically asks about Aspect of Hel/Hell (likely a mis-transcription of 'Hel') and its Omega Attack channeling speed change. Content B's first result directly quotes this exact change from the Hades 2 patch notes wiki, giving a precise, accurate answer. Content A contains no mention of Aspect of Hel at all, focusing instead on unrelated weapons (Umbral Flames, Sister Blades, Argent Skull), making it unable to answer the specific question. Thus B enables a correct answer while A does not."
+}

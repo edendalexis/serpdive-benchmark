@@ -1,0 +1,11 @@
+{
+  "id": 331,
+  "query": "Longlegs spin-off Paramount distribution Neon",
+  "topic": "Longlegs",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Lacks a clear release date detail and specifics on Perkins' next Neon project; sources include lower-quality social media posts (Instagram, Facebook) that add little factual value; does not mention Perkins/Ferguson's first-look deal with Neon, which adds useful context to the Paramount/Neon relationship.",
+  "b_issues": "No major factual flaws; content is consistent with the anchor and well-sourced (Variety, Deadline, Wikipedia, AV Club).",
+  "reasoning": "Both sets confirm the core facts: Paramount picked up the new Longlegs project (not a direct sequel but set in the Longlegs universe), with Osgood Perkins writing/directing and Nicolas Cage starring, while Neon distributed the original 2024 film. However, Content B provides more reliable and detailed sourcing (Variety, Deadline, Wikipedia, AV Club) with consistent facts, including additional context like Perkins' first-look deal with Neon and his upcoming Neon project 'The Young People,' as well as a Wikipedia summary confirming Paramount takes over distribution rights from Neon. Content A includes redundant low-quality sources (Instagram and Facebook reposts) that don't add unique reliable information, slightly weakening its overall quality. Both are factually accurate and non-contradictory, but B's sourcing depth and added context make it marginally more useful for a complete and accurate answer."
+}

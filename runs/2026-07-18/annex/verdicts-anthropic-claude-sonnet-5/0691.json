@@ -1,0 +1,11 @@
+{
+  "id": 691,
+  "query": "NATO Drone Edge $40 billion counter-UAS initiative 2026 partners contracts",
+  "topic": "NATO",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Does not include the official NATO.int source content directly (only listed elsewhere); lacks specific detail on which countries/partners joined the initiative (Finland, France, Sweden, 20 total members); does not mention NATO Front Door for Industry; less detail on NFTE flight centres; no explicit contract value detail beyond 'hundreds of millions'.",
+  "b_issues": "Minimal - content is consistent across sources and includes official NATO.int text; no major factual flaws detected.",
+  "reasoning": "Content B includes the actual NATO.int announcement text with specific, verifiable details: the $40B figure, five-year timeframe, NFTE expansion with Finland/France/Sweden joining (bringing total to 20 members), the NSPA contract for surveillance drones in the hundreds of millions, and additional context like the NATO Front Door for Industry and counter-UAS marketplace. This gives a fuller, more accurate, and non-contradictory picture directly sourced from NATO's own reporting. Content A covers similar ground but relies more on secondary paraphrased sources without the specific partner-country details (Finland, France, Sweden) or the NFTE flight centre specifics, making B more complete and precise for answering the question about partners and contracts."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 766,
+  "query": "FAA Airspace Modernization office new air traffic control system installation status 2026",
+  "topic": "FAA",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor: the LinkedIn snippet is tangential/low-value content mixing unrelated topics (RDU airspace meeting), but doesn't contradict other facts.",
+  "b_issues": "Most results are thin or low-quality: the govexec snippet gives no real detail, the Facebook post is dominated by useless emoji/SVG code with only one usable sentence, and the modernskies.faa.gov snippet is truncated with almost no status detail. Overall the set provides little concrete installation-status information (dates, percentages, milestones).",
+  "reasoning": "Content A provides multiple concrete, dated facts directly answering the status question: FAA will have committed about half of its $12.5B budget by end of 2026, program completion expected Q3 2027, radar acquisition closing by end of year, and Forbes/Modern Skies data on 200 airports with Surface Awareness tech and 10M labor hours—plus controller hiring numbers for context. Content B repeats one of the same FedScoop articles but otherwise supplies mostly low-information or garbled content (Facebook post, thin govexec teaser), giving the LLM far less substantive, accurate material to construct a correct, detailed answer."
+}

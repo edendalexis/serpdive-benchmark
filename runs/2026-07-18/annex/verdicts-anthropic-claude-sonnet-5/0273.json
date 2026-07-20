@@ -1,0 +1,11 @@
+{
+  "id": 273,
+  "query": "El Salvador state of exception extensions total Bukele March 2025",
+  "topic": "Nayib Bukele",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Alianza Americas result is outdated (references 9th extension from 2022) and not directly about March 2025; none of the results explicitly state the 36th extension for March 2025, though the Jan 29 (35th) and Feb 20 CRS report give consistent chronological context that supports inferring ~36th by early March 2025.",
+  "b_issues": "Several key results are dated 2026 (mondediplo.com/2026/03, ticotimes.net/2026/05/31) referencing the 51st extension, which is far beyond March 2025 and could mislead an LLM about the timeline; no result gives a number close to 36 for March 2025, making it harder to pinpoint the correct count for the queried date.",
+  "reasoning": "The anchor establishes the 36th extension occurred around March 4-5, 2025. Content A includes a Jan 29, 2025 (35th extension) report and a Feb 20, 2025 CRS report, which chronologically bracket March 2025 and make it easier to infer the 36th extension count is correct. Content B's most relevant chronological data point (51st extension) is dated over a year later (2026), which is confusing and doesn't help triangulate the March 2025 figure; it risks leading an LLM to cite the wrong extension number for the queried time period."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 239,
+  "query": "Urdu Wikipedia page edits Aragonese articles English Wiktionary milestone counts May 2026",
+  "topic": "Wikipedia",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "The Wikimedia News meta page result is a general archive listing various milestones (English Wiktionary 10,000,000 entries, Urdu Wikipedia 10,000,000 page edits, Urdu Wikipedia 300,000 articles) but doesn't explicitly date these to May 2026, and doesn't mention Aragonese articles at all. The connection between the listed milestones and the specific query terms (Aragonese, May 2026) is not clearly established.",
+  "b_issues": "None of the results mention Urdu Wikipedia page edit milestones, Aragonese article counts, or English Wiktionary milestone counts. The results are about unrelated topics: general Wikipedia size stats, Swahili Wiktionary growth (not English or Aragonese), and unrelated Main Page history entries. This content provides no relevant facts to answer the question.",
+  "reasoning": "Content A at least surfaces a directly relevant source (Wikimedia News meta page) that lists actual Wikimedia milestones including Urdu Wikipedia page edits (10,000,000) and English Wiktionary entries (10,000,000), which are the exact type of facts the question asks about, even though Aragonese and the precise May 2026 dating are not explicitly confirmed. Content B contains no mention of Urdu Wikipedia edits, Aragonese, or English Wiktionary milestones at all — it's entirely off-topic (Swahili Wiktionary, general size of Wikipedia, unrelated Main Page history). Therefore Content A provides more of the necessary facts, even if incomplete, while Content B provides essentially none."
+}

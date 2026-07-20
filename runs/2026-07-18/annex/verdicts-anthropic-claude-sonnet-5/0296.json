@@ -1,0 +1,11 @@
+{
+  "id": 296,
+  "query": "Twitter X profile VPN usage indicator transparency rollout",
+  "topic": "Twitter",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor redundancy; relies on secondary source (VarIndia, thenews.com.pk) but overall facts align with anchor (rollout date, warning message, About this account, VPN concerns).",
+  "b_issues": "Relies mainly on 'will soon' speculative language rather than confirming the actual Nov 21, 2025 rollout; includes low-credibility/unknown domains (ravi-gupta.com, flawless-magazine.com) that add no verifiable detail; lacks the TechCrunch confirmation of concrete rollout specifics.",
+  "reasoning": "Content A includes the TechCrunch article that explicitly confirms X began rolling out the 'About this account' feature on Nov 21, 2025, matching the anchor's timeline and details (warning message, VPN detection, location transparency, industry reactions). Content B's sources mostly describe the feature as upcoming ('will soon') without confirming the actual rollout, and includes some obscure/low-reliability sources, making it less accurate and complete relative to the anchor's confirmed rollout narrative."
+}

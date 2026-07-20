@@ -1,0 +1,11 @@
+{
+  "id": 496,
+  "query": "Linda Noskova Wimbledon 2026 women's singles final opponent match score",
+  "topic": "Wimbledon",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; multiple reliable sources (ESPN, NYT/Athletic, USA Today, Olympics.com, WTA) consistently confirm Noskova beat Muchova 6-2, 5-7, 6-3, matching the anchor's score (though order/notation slightly differs, the numeric set scores align).",
+  "b_issues": "Completely irrelevant results about the name 'Linda', a band called The Linda Lindas, dictionary definitions, and an unrelated movie; contains no information about the Wimbledon match, opponent, or score.",
+  "reasoning": "Content A provides multiple consistent, reliable sources confirming the same match score (6-2, 5-7, 6-3) between Noskova and Muchova, directly answering the question. Content B contains no relevant information whatsoever, only unrelated results about the name 'Linda' and unrelated media, making it useless for answering the question."
+}

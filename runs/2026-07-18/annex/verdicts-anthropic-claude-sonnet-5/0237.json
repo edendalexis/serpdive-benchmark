@@ -1,0 +1,11 @@
+{
+  "id": 237,
+  "query": "Abstract Wikipedia 1000 registered users Lists first new type milestone early 2024 Wikimedia",
+  "topic": "Wikipedia",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Does not directly state the '1000 registered users' figure or explicitly confirm Lists as the first new type milestone in the visible snippets, though it links to the 2024-01-25 update and Meta-Wiki Abstract Wikipedia page which are relevant and accurate sources; requires inference from the linked pages' known content (matching the anchor) rather than explicit text in the snippet.",
+  "b_issues": "Almost entirely irrelevant content dated 2026, discussing Wikipedia's 25th anniversary, unrelated hackathons, journalism awards, and general Wikimedia news. No mention of 'Lists' as a data type, no mention of Wikifunctions milestones, no mention of 1000 registered users, and no connection to early 2024 Abstract Wikipedia updates. Completely fails to address the query.",
+  "reasoning": "Content A includes the correct URL (meta.wikimedia.org/wiki/Abstract_Wikipedia/Updates/2024-01-25) which matches the anchor's citation for the 'Introducing our first new type: Lists' update from 2024-01-03, and also includes the Abstract Wikipedia Meta-Wiki page with relevant background. While the snippet text doesn't explicitly state '1000 registered users', an LLM could reasonably infer or partially answer from the correct sources and dates present. Content B is populated with unrelated 2026 content about Wikipedia's 25th anniversary and has no connection whatsoever to the specific 2024 Wikifunctions/Lists milestone or the 1000 registered users figure, making it essentially useless for answering this specific question."
+}

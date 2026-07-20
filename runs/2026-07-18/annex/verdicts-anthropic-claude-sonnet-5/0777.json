@@ -1,0 +1,11 @@
+{
+  "id": 777,
+  "query": "Qatar prime minister statement Gaza ceasefire critical moment hostage remains latest",
+  "topic": "Gaza ceasefire negotiations",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Results are mostly snippet-only teasers from social media (X/Twitter, Facebook) and a YouTube video, which lack detailed content and are less reliable/citable sources. PBS and Al Jazeera snippets are truncated with minimal detail, giving little substantive information beyond the headline fact.",
+  "b_issues": "Includes a Security Council Report snippet referencing dates in 2026 that seem inconsistent/futuristic relative to the Dec 2025 event, which could confuse timeline understanding, but it doesn't contradict the core facts.",
+  "reasoning": "Content B provides fuller, more substantive excerpts from reliable sources (PBS/AP, Al Jazeera, Asharq Al-Awsat) that directly quote the Qatari PM's statements, mention the hostage remains context, the withdrawal requirement, and additional detail about Israel sending a delegation to Egypt over the last hostage's remains. Content A relies heavily on low-quality sources (social media posts, YouTube) with sparse content, offering less depth and reliability for answering the question accurately."
+}

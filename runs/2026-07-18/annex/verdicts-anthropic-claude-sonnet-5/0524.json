@@ -1,0 +1,11 @@
+{
+  "id": 524,
+  "query": "Anthropic Ben Bernanke Long-Term Benefit Trust appointment details",
+  "topic": "Anthropic",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "B",
+  "a_issues": "No direct primary source (anthropic.com) included; relies on secondary reporting (CNBC, Bloomberg, Stocktwits, Yahoo) which is accurate but not the original announcement. Minor discrepancy in one source (techjacksolutions) stating July 10 appointment date instead of July 9.",
+  "b_issues": "No major factual issues; content is consistent across sources and includes the primary Anthropic announcement verbatim, matching the anchor closely.",
+  "reasoning": "Both sets of results correctly convey the core facts: Anthropic's LTBT appointed Ben Bernanke, his background as Fed Chair (2006-2014), Nobel laureate, Brookings fellow, other trustees' names (Neil Buddy Shah, Richard Fontaine, Mariano-Florentino Cuéllar), and trust structure details (no equity, compensated only for time, appoints board members). However, Content B directly includes the primary source (anthropic.com/news/ben-bernanke) with the exact wording matching the anchor, giving the highest reliability and precision. It also includes corroborating independent reports (ANI, FinanceFeeds, BigNewsNetwork) that are consistent without contradiction. Content A relies solely on secondary sources, which are reputable (CNBC, Bloomberg) but lack the primary announcement, and includes a minor date inconsistency in one lesser source. Both are strong, but B provides slightly more direct and unimpeachable source material."
+}

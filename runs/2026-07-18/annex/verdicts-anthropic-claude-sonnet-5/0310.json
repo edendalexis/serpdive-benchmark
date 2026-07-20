@@ -1,0 +1,11 @@
+{
+  "id": 310,
+  "query": "Ursula von der Leyen January 2026 Damascus meeting Syria financial assistance package amount 2026 2027 official statement",
+  "topic": "Ursula von der Leyen",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "tie",
+  "a_issues": "Includes an Arab News Japan snippet mentioning a separate earlier EU pledge of €2.5 billion for 2025-2026, which could potentially be confused with the €620 million 2026-2027 package, though it is technically a different, earlier announcement and not factually wrong.",
+  "b_issues": "No significant factual issues; all sources consistently report the €620 million (~$721-723M) package for 2026-2027, matching the anchor.",
+  "reasoning": "Both sets correctly identify the core fact: a €620 million EU financial support package for Syria covering 2026-2027, announced during the January 9, 2026 Damascus visit by von der Leyen and Costa, sourced from the official EU statement matching the anchor. Content A includes the exact official statement URL with a direct quote of the figure, while Content B includes the exact official news article URL plus several independent corroborating sources (AA, Asharq Al-Awsat, The Arab Weekly, EuNews) all consistently citing €620 million. Content A's inclusion of a separate €2.5 billion figure from March (for 2025-2026) could theoretically cause minor confusion, but it is clearly distinguished by date and context. Overall, both provide sufficient, accurate, and consistent information to correctly answer the question."
+}

@@ -1,0 +1,11 @@
+{
+  "id": 153,
+  "query": "Zelenskyy Starmer Kyiv July 2026 UK 300 million Sweden Ukraine 16 advanced aircraft agreement model aircraft details announcement",
+  "topic": "Volodymyr Zelenskyy",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Minor inconsistency in currency reporting (£300 million vs €300 million in one source), but aircraft count (16) is consistent across all sources, matching the anchor.",
+  "b_issues": "Contains internal contradiction: two sources (NV.ua and Kyiv Post) state 15 aircraft while CGTN and RBC-Ukraine state 16 aircraft. This directly conflicts with the anchor's confirmed figure of 16 aircraft, creating ambiguity that could lead an LLM to report the wrong number.",
+  "reasoning": "Content A uniformly reports 16 aircraft across all five sources, aligning perfectly with the anchor's factual reference (16 Gripen jets, €300 million, UK-Sweden cooperation). Content B is internally inconsistent, with two of its four sources citing 15 aircraft instead of 16, contradicting the anchor and creating a factual ambiguity that undermines reliability. Since accuracy and consistency with verified facts are paramount, Content A better enables a correct answer."
+}

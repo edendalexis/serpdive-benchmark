@@ -1,0 +1,11 @@
+{
+  "id": 161,
+  "query": "Rivian Uber robotaxi deal 50000 autonomous vehicles R2 platform March 2026 investment amount official press release",
+  "topic": "Rivian",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A contains no information about the Uber-Rivian robotaxi deal at all; results are generic Rivian pages (Wikipedia, Car and Driver, Rivian homepage, Reddit, YouTube) with no mention of Uber, the $1.25 billion investment, 50,000 robotaxis, R2 platform deal, or March 2026 announcement. It completely fails to answer the question.",
+  "b_issues": "Minor inconsistency: Smart Cities Dive phrasing is slightly muddled ('option to purchase up to 50,000 robotaxis by 2030' vs the correct 10,000 initial + 40,000 option structure), and one source (tech-insider.org) is a less established outlet, but the core facts ($1.25B investment, $300M initial, 10,000 R2 robotaxis, option for 40,000 more, 2028 deployment in SF/Miami, 25 cities by 2031) are present and consistent with the anchor across multiple reliable sources (CNBC, AP News, EV Magazine).",
+  "reasoning": "Content B provides multiple relevant, largely accurate sources (CNBC, AP News, EV Magazine, Smart Cities Dive) that directly confirm the key facts matching the anchor: $1.25 billion total investment, $300 million initial investment, 10,000 R2 robotaxis with option for 40,000 more, 2028 deployment in San Francisco and Miami, and scaling to 25 cities by 2031. Content A is entirely irrelevant to the query, containing only generic Rivian company information with zero mention of the Uber deal, making it useless for answering the question."
+}

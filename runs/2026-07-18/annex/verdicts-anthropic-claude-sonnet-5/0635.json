@@ -1,0 +1,11 @@
+{
+  "id": 635,
+  "query": "Perplexity Computer Analytics API custom credit limits enterprise controls release",
+  "topic": "Perplexity AI",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "A",
+  "a_issues": "Does not explicitly mention the 'Computer Analytics API' by name or its release, though the Admin Guide result closely describes the actual custom credit-limit and enterprise-control mechanics (org credit pool, per-member limits, custom limit modal), which aligns with the anchor's enterprise-controls theme.",
+  "b_issues": "Results are dominated by general pricing/plan comparisons and a changelog snippet about Computer feature rollout; none directly address 'custom credit limits' or specific enterprise admin controls in the detail the question asks for, making it less useful for answering the core of the query.",
+  "reasoning": "The question centers on custom credit limits and enterprise admin controls related to Perplexity Computer/Analytics API. Content A includes a highly relevant source (Enterprise Admin Guide on credits) that explicitly describes organization-level credit controls, per-member usage limits, and a custom limit modal—directly answering the 'custom credit limits enterprise controls' portion of the query, and also includes the Computer for Enterprise page matching the anchor. Content B's results are mostly generic pricing comparisons and a changelog entry that only tangentially mentions 'spend limits' without detail on custom credit limit controls or the Analytics API. Thus Content A better enables a correct, specific answer."
+}

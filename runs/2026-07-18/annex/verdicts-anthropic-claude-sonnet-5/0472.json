@@ -1,0 +1,11 @@
+{
+  "id": 472,
+  "query": "SpaceX Pentagon AI data center capacity talks amount",
+  "topic": "Elon Musk",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor inconsistency: one source mentions 'Reflection AI' as another SpaceX cloud partner alongside Google and Anthropic, which isn't corroborated elsewhere, but this doesn't affect the core answer about Pentagon deal amount.",
+  "b_issues": "Results are almost entirely irrelevant generic SpaceX pages (Wikipedia, Yahoo Finance stock page, spacex.com homepage, X/Twitter, Instagram) with no mention of the Pentagon AI data center talks, capacity, or dollar amounts at all. None of the results address the query.",
+  "reasoning": "Content A directly and consistently answers the question: multiple reliable sources (Reuters, US News, MarketScreener, Stocktwits, BiGGo) confirm SpaceX is in talks with the Pentagon to provide AI data center capacity worth 'billions of dollars,' with consistent supporting details (Google 110,000 Nvidia chips deal, Anthropic 300MW Colossus deal). Content B contains no information about the Pentagon talks, AI data center capacity, or dollar amounts—its results are unrelated SpaceX pages that would leave an LLM unable to answer the question at all."
+}

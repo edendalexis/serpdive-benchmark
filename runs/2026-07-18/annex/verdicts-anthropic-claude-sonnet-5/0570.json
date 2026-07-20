@@ -1,0 +1,11 @@
+{
+  "id": 570,
+  "query": "Claudia Sheinbaum progressive leaders summit Barcelona April 2026 agenda",
+  "topic": "Claudia Sheinbaum",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "Minor inconsistency in URL formatting between duplicate riotimesonline links across sets, but content itself is complete and consistent; no major factual errors relative to the anchor.",
+  "b_issues": "Most results are truncated snippets that cut off before reaching substantive agenda details (e.g., the riotimesonline excerpt stops before the 'formal agenda includes...' sentence that names the actual topics); LA Times, teleSUR, Instagram, and gatecenter entries are all cut short with '...' and provide little usable agenda content; relies partly on a lower-reliability Instagram post.",
+  "reasoning": "The question asks specifically about the summit's agenda. Content A's riotimesonline excerpt explicitly lists the formal agenda items (defense of democratic institutions, regulation of digital platforms/disinformation, strengthening multilateralism, fight against inequality), directly answering the query, and is corroborated by AP News and China Daily with reliable, fuller context on attendees and meetings (consistent with the anchor's IV Meeting in Defense of Democracy and GPM details). Content B includes the same riotimesonline source but the snippet is truncated before the agenda sentence, and its other four results are mostly one-line teasers lacking substantive agenda information, with one source (Instagram) less reliable. Thus A better equips an LLM to answer the specific agenda question accurately and completely."
+}

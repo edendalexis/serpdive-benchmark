@@ -1,0 +1,11 @@
+{
+  "id": 999,
+  "query": "True Detective Season 5 connectors to previous seasons Issa Lopez comments interview",
+  "topic": "True Detective",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "The Deadline excerpt in A contains a garbled/duplicated quote ('Ennis, Alaska, and the characters in Ennis, Alaska, and what happens in the new [season]') which is confusing and potentially misleading since it doesn't name the new setting correctly. A's snippets do not clearly state that López intended Season 5 to be set in the 'same universe' as prior seasons, which is a key fact per the anchor.",
+  "b_issues": "The Yahoo/Nicolas Cage article is only tangentially related to connectors to previous seasons (focuses on casting speculation). No major factual errors otherwise.",
+  "reasoning": "Both sets cover overlapping ground (renewal, Pizzolatto's criticism, new setting), but B includes a clean, accurate quote from Hollywood Reporter stating López 'set out to make a show set in the same universe' as Pizzolatto's seasons, and the AVClub piece adds López's 'same grammar' comment about respecting franchise elements—both directly relevant to the question about connectors to previous seasons and matching the anchor's key detail about 'same universe' continuity. A's equivalent quote from Deadline is garbled and less clear, reducing its reliability for answering the specific question accurately."
+}

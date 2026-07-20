@@ -1,0 +1,11 @@
+{
+  "id": 610,
+  "query": "Suno AI Series D June 2026 funding amount valuation investors copyright lawsuits Universal Sony GEMA",
+  "topic": "Suno AI",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": true,
+  "winner": "A",
+  "a_issues": "None significant; content is accurate and consistent with the anchor, and includes a GEMA v. Suno mention (Landgericht Muenchen I) that directly addresses the GEMA part of the query.",
+  "b_issues": "No source mentions GEMA at all, leaving that part of the query unanswered despite otherwise solid coverage of funding, valuation, investors, and Sony/Universal/Warner lawsuits.",
+  "reasoning": "Both sets accurately report the $400M Series D, $5.4B valuation, lead investor Bond Capital, and the ongoing Sony/Universal (and Warner) copyright lawsuits, with Content B adding useful detail on Warner's settlement and Songkick acquisition. However, the query explicitly asks about GEMA, and only Content A includes a source (chartlex.com) referencing the GEMA v. Suno lawsuit, giving it fuller coverage of the question's scope. Content B, despite having more varied sources, never mentions GEMA, making it incomplete relative to the specific query."
+}

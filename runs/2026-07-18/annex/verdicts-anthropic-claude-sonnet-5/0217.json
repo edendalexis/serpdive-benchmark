@@ -1,0 +1,11 @@
+{
+  "id": 217,
+  "query": "Lil Tay Latto Bhad Bhabie feud diss track mockery surgery OnlyFans August 2025 response",
+  "topic": "Lil Tay",
+  "judge": "anthropic/claude-sonnet-5",
+  "mako_is_a": false,
+  "winner": "B",
+  "a_issues": "Content A provides only short meta-description snippets without any substantive quotes or details; raw_content is null for all results, so an LLM would lack actual facts about the diss track name, surgery mockery quotes, or the Latto connection to Bhad Bhabie's OnlyFans context. It also introduces a September boxing challenge (Sophie Rain) that is tangential and could confuse the August 2025 timeframe.",
+  "b_issues": "Content B is strong and detailed but doesn't explicitly tie the Latto feud into the same narrative as the Bhad Bhabie diss track/surgery mockery/OnlyFans thread—it presents them as somewhat separate articles (Latto is a different, earlier feud) without clarifying the chronology or connection, though this mirrors the anchor's separation as well.",
+  "reasoning": "Content B provides actual substantive quotes and details (e.g., the diss track 'OG CRASHOUT', the 'Bhad BBL'/surgery mockery lines, cultural appropriation accusations) directly from Bhad Bhabie/Lil Tay's exchange, plus includes the same Latto article as the anchor. Content A only offers shallow one-line summaries with no raw content, making it much harder for an LLM to construct a factually accurate, detailed answer. Both omit a unified Latto-Bhabie-OnlyFans narrative, but B's richer sourced content makes it clearly more useful for answering the question accurately."
+}
